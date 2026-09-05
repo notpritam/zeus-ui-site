@@ -2863,7 +2863,7 @@
         "tailwindcss"
       ],
       "registryDependencies": [],
-      "hash": "878ecc009a2c",
+      "hash": "21f6cf293307",
       "files": [
         {
           "path": "tokens/index.css",
@@ -2987,7 +2987,7 @@
         "cx",
         "tokens"
       ],
-      "hash": "aba955977c77",
+      "hash": "7114db49deba",
       "files": [
         {
           "path": "foundations/brand/logo.tsx",

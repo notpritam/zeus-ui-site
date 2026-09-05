@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,57727,t=>{"use strict";var i=t.i(38935),c=t.i(17340);t.s(["default",0,function(){return(0,i.jsx)("div",{className:"w-full max-w-xl",children:(0,i.jsx)(c.ScatterChartCard,{})})}])},18113,function(t){t.n(t.i(57727))}]);
