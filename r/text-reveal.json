@@ -1,0 +1,32 @@
+{
+  "$schema": "https://myzeusui.com/schema/registry-item.json",
+  "name": "text-reveal",
+  "title": "Text Reveal",
+  "description": "Scroll-triggered line, word and character reveals with masks and readable static content",
+  "category": "animations",
+  "tags": [
+    "animation",
+    "gsap",
+    "annnimate",
+    "text-reveal"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "isNew": true,
+  "dependencies": [
+    "@gsap/react",
+    "gsap"
+  ],
+  "registryDependencies": [
+    "tokens"
+  ],
+  "files": [
+    {
+      "path": "application/animations/text-reveal.tsx",
+      "target": "components/application/animations/text-reveal.tsx",
+      "type": "component",
+      "content": "\"use client\";\n\n// Adapted from the user-supplied Annnimate Starter Pack by Good Fella.\nimport { useRef, type ReactNode } from \"react\";\nimport { gsap } from \"gsap\";\nimport { useGSAP } from \"@gsap/react\";\nimport { ScrollTrigger } from \"gsap/dist/ScrollTrigger\";\nimport { SplitText } from \"gsap/dist/SplitText\";\n\ngsap.registerPlugin(useGSAP, ScrollTrigger, SplitText);\n\nexport interface TextRevealProps {\n  children: ReactNode;\n  className?: string;\n  type?: \"lines\" | \"words\" | \"chars\";\n  start?: string;\n  end?: string;\n  scrub?: boolean | number;\n  duration?: number;\n  stagger?: number;\n  ease?: string;\n  yPercent?: number;\n  markers?: boolean;\n  onComplete?: () => void;\n}\n\nexport function TextReveal({\n  children,\n  className,\n  type = \"words\",\n  start = \"top 80%\",\n  end,\n  scrub = false,\n  duration = 0.8,\n  stagger = 0.08,\n  ease = \"expo.out\",\n  yPercent = 110,\n  markers = false,\n  onComplete,\n}: TextRevealProps) {\n  const root = useRef<HTMLDivElement>(null);\n  useGSAP(\n    (_, contextSafe) => {\n      const el = root.current;\n      if (!el) return;\n      let disposed = false;\n      let split: SplitText | undefined;\n      let animation: gsap.core.Tween | undefined;\n      const mq = gsap.matchMedia();\n      const init = contextSafe!(() => {\n        if (disposed) return;\n        mq.add(\"(prefers-reduced-motion: no-preference)\", () => {\n          split = SplitText.create(el, {\n            type: type === \"lines\" ? \"lines\" : `lines,${type}`,\n            mask: \"lines\",\n            autoSplit: true,\n            onSplit(instance) {\n              animation = gsap.from(instance[type], {\n                yPercent,\n                duration,\n                stagger,\n                ease,\n                scrollTrigger: { trigger: el, start, end, scrub, once: !scrub, markers },\n                onComplete,\n              });\n              return animation;\n            },\n          });\n          return () => {\n            animation?.scrollTrigger?.kill();\n            animation?.kill();\n            split?.revert();\n          };\n        });\n      });\n      (document.fonts?.ready ?? Promise.resolve()).then(init);\n      return () => {\n        disposed = true;\n        mq.revert();\n      };\n    },\n    {\n      scope: root,\n      dependencies: [\n        children,\n        type,\n        start,\n        end,\n        scrub,\n        duration,\n        stagger,\n        ease,\n        yPercent,\n        markers,\n        onComplete,\n      ],\n      revertOnUpdate: true,\n    },\n  );\n  return (\n    <div ref={root} className={className} data-zeus-text-reveal>\n      {children}\n    </div>\n  );\n}\n"
+    }
+  ],
+  "hash": "d0e9e0c25ccd"
+}

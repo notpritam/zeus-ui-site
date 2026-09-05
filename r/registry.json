@@ -3,7 +3,7 @@
   "name": "zeus-ui",
   "homepage": "https://myzeusui.com",
   "license": "MIT",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "categories": [
     {
       "id": "foundations",
@@ -24,6 +24,11 @@
       "id": "charts",
       "title": "Charts",
       "blurb": "Data cards for dashboards."
+    },
+    {
+      "id": "animations",
+      "title": "Animations",
+      "blurb": "Expressive motion, interactive surfaces and cinematic image effects"
     },
     {
       "id": "templates",
@@ -51,6 +56,18 @@
     {
       "tag": "ai",
       "count": 12
+    },
+    {
+      "tag": "animation",
+      "count": 12
+    },
+    {
+      "tag": "annnimate",
+      "count": 11
+    },
+    {
+      "tag": "gsap",
+      "count": 11
     },
     {
       "tag": "agent",
@@ -301,7 +318,15 @@
       "count": 1
     },
     {
-      "tag": "animation",
+      "tag": "animated-accordion",
+      "count": 1
+    },
+    {
+      "tag": "animated-pricing",
+      "count": 1
+    },
+    {
+      "tag": "ascii-overlay",
       "count": 1
     },
     {
@@ -377,6 +402,10 @@
       "count": 1
     },
     {
+      "tag": "curtain-slider",
+      "count": 1
+    },
+    {
       "tag": "delta",
       "count": 1
     },
@@ -401,11 +430,19 @@
       "count": 1
     },
     {
+      "tag": "dual-scramble",
+      "count": 1
+    },
+    {
       "tag": "employees",
       "count": 1
     },
     {
       "tag": "events",
+      "count": 1
+    },
+    {
+      "tag": "feature-dialog",
       "count": 1
     },
     {
@@ -469,6 +506,10 @@
       "count": 1
     },
     {
+      "tag": "image-fly-in",
+      "count": 1
+    },
+    {
       "tag": "inbox",
       "count": 1
     },
@@ -521,7 +562,15 @@
       "count": 1
     },
     {
+      "tag": "morphing-tooltip",
+      "count": 1
+    },
+    {
       "tag": "motion",
+      "count": 1
+    },
+    {
+      "tag": "multi-level-drawer-menu",
       "count": 1
     },
     {
@@ -633,6 +682,10 @@
       "count": 1
     },
     {
+      "tag": "scale-slider",
+      "count": 1
+    },
+    {
       "tag": "scheduling",
       "count": 1
     },
@@ -721,6 +774,10 @@
       "count": 1
     },
     {
+      "tag": "text-reveal",
+      "count": 1
+    },
+    {
       "tag": "timeline",
       "count": 1
     },
@@ -790,6 +847,662 @@
     }
   ],
   "items": [
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "morphing-tooltip",
+      "title": "Morphing Tooltip",
+      "description": "A shared liquid tooltip that rises from toolbar buttons, travels between them and resizes to each caption",
+      "category": "animations",
+      "tags": [
+        "animation",
+        "gsap",
+        "annnimate",
+        "morphing-tooltip"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "@gsap/react",
+        "gsap"
+      ],
+      "registryDependencies": [
+        "tokens"
+      ],
+      "hash": "d8c261c1e4ed",
+      "files": [
+        {
+          "path": "application/animations/morphing-tooltip.tsx",
+          "target": "components/application/animations/morphing-tooltip.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "text-reveal",
+      "title": "Text Reveal",
+      "description": "Scroll-triggered line, word and character reveals with masks and readable static content",
+      "category": "animations",
+      "tags": [
+        "animation",
+        "gsap",
+        "annnimate",
+        "text-reveal"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "@gsap/react",
+        "gsap"
+      ],
+      "registryDependencies": [
+        "tokens"
+      ],
+      "hash": "d0e9e0c25ccd",
+      "files": [
+        {
+          "path": "application/animations/text-reveal.tsx",
+          "target": "components/application/animations/text-reveal.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "animated-accordion",
+      "title": "Animated Accordion",
+      "description": "Coordinated expandable panels with rotating icons and optional line-by-line text reveals",
+      "category": "animations",
+      "tags": [
+        "animation",
+        "gsap",
+        "annnimate",
+        "animated-accordion"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "@gsap/react",
+        "gsap"
+      ],
+      "registryDependencies": [
+        "tokens"
+      ],
+      "hash": "5796bbb43740",
+      "files": [
+        {
+          "path": "application/animations/animated-accordion.tsx",
+          "target": "components/application/animations/animated-accordion.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "dual-scramble",
+      "title": "Dual Scramble",
+      "description": "Two-stage colored text scrambling on scroll, hover, focus, click or load",
+      "category": "animations",
+      "tags": [
+        "animation",
+        "gsap",
+        "annnimate",
+        "dual-scramble"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "@gsap/react",
+        "gsap"
+      ],
+      "registryDependencies": [
+        "tokens"
+      ],
+      "hash": "9df1b27f6767",
+      "files": [
+        {
+          "path": "application/animations/dual-scramble.tsx",
+          "target": "components/application/animations/dual-scramble.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "multi-level-drawer-menu",
+      "title": "Multi-Level Drawer Menu",
+      "description": "Two-panel navigation with animated category previews and a mobile drill-down",
+      "category": "animations",
+      "tags": [
+        "animation",
+        "gsap",
+        "annnimate",
+        "multi-level-drawer-menu"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "@gsap/react",
+        "gsap"
+      ],
+      "registryDependencies": [
+        "tokens"
+      ],
+      "hash": "1f9661b7b505",
+      "files": [
+        {
+          "path": "application/animations/multi-level-drawer-menu-engine.d.ts",
+          "target": "components/application/animations/multi-level-drawer-menu-engine.d.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/multi-level-drawer-menu-engine.jsx",
+          "target": "components/application/animations/multi-level-drawer-menu-engine.jsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/multi-level-drawer-menu-styles.ts",
+          "target": "components/application/animations/multi-level-drawer-menu-styles.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/multi-level-drawer-menu.tsx",
+          "target": "components/application/animations/multi-level-drawer-menu.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/running-hero-female-1.avif",
+          "target": "public/assets/annnimate/running-hero-female-1.avif",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/street-running-earbuds-3.avif",
+          "target": "public/assets/annnimate/street-running-earbuds-3.avif",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/street-running-hero-4.avif",
+          "target": "public/assets/annnimate/street-running-hero-4.avif",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "image-fly-in",
+      "title": "Image Fly-In",
+      "description": "A continuous image depth field with cursor parallax and a clear central content zone",
+      "category": "animations",
+      "tags": [
+        "animation",
+        "gsap",
+        "annnimate",
+        "image-fly-in"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "@gsap/react",
+        "gsap"
+      ],
+      "registryDependencies": [
+        "tokens"
+      ],
+      "hash": "41c325628f9d",
+      "files": [
+        {
+          "path": "application/animations/image-fly-in-engine.d.ts",
+          "target": "components/application/animations/image-fly-in-engine.d.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/image-fly-in-engine.jsx",
+          "target": "components/application/animations/image-fly-in-engine.jsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/image-fly-in-styles.ts",
+          "target": "components/application/animations/image-fly-in-styles.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/image-fly-in.tsx",
+          "target": "components/application/animations/image-fly-in.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/product_ball_02.jpg",
+          "target": "public/assets/annnimate/product_ball_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_football-boot_01.jpg",
+          "target": "public/assets/annnimate/product_football-boot_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_football-boot_06.jpg",
+          "target": "public/assets/annnimate/product_football-boot_06.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_half-zip_01.jpg",
+          "target": "public/assets/annnimate/product_half-zip_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_shoe_01.jpg",
+          "target": "public/assets/annnimate/product_shoe_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_shoe_06.jpg",
+          "target": "public/assets/annnimate/product_shoe_06.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_tennis-net_01.jpg",
+          "target": "public/assets/annnimate/product_tennis-net_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_tennis-racket_02.jpg",
+          "target": "public/assets/annnimate/product_tennis-racket_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_tennis-racket_05.jpg",
+          "target": "public/assets/annnimate/product_tennis-racket_05.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/scatter_ball-rackets_01.jpg",
+          "target": "public/assets/annnimate/scatter_ball-rackets_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/texture_fabric-macro_01.jpg",
+          "target": "public/assets/annnimate/texture_fabric-macro_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/texture_tennis-macro_01.jpg",
+          "target": "public/assets/annnimate/texture_tennis-macro_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "scale-slider",
+      "title": "Scale Slider",
+      "description": "An exponential image conveyor with drag inertia, keyboard navigation and optional drift",
+      "category": "animations",
+      "tags": [
+        "animation",
+        "gsap",
+        "annnimate",
+        "scale-slider"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "@gsap/react",
+        "gsap"
+      ],
+      "registryDependencies": [
+        "tokens"
+      ],
+      "hash": "beb8b37e5688",
+      "files": [
+        {
+          "path": "application/animations/scale-slider-engine.d.ts",
+          "target": "components/application/animations/scale-slider-engine.d.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/scale-slider-engine.jsx",
+          "target": "components/application/animations/scale-slider-engine.jsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/scale-slider-styles.ts",
+          "target": "components/application/animations/scale-slider-styles.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/scale-slider.tsx",
+          "target": "components/application/animations/scale-slider.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/roster_cap-profile_01.jpg",
+          "target": "public/assets/annnimate/roster_cap-profile_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/roster_cap-profile_02.jpg",
+          "target": "public/assets/annnimate/roster_cap-profile_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/roster_cap-silhouette_01.jpg",
+          "target": "public/assets/annnimate/roster_cap-silhouette_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/roster_eyewear-profile_01.jpg",
+          "target": "public/assets/annnimate/roster_eyewear-profile_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/roster_profile_01.jpg",
+          "target": "public/assets/annnimate/roster_profile_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/roster_profile_02.jpg",
+          "target": "public/assets/annnimate/roster_profile_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/roster_profile_06.jpg",
+          "target": "public/assets/annnimate/roster_profile_06.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/roster_profile_07.jpg",
+          "target": "public/assets/annnimate/roster_profile_07.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/roster_profile_09.jpg",
+          "target": "public/assets/annnimate/roster_profile_09.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/roster_profile_10.jpg",
+          "target": "public/assets/annnimate/roster_profile_10.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/roster_silhouette_01.jpg",
+          "target": "public/assets/annnimate/roster_silhouette_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/silhouette_eyewear-silhouette_01.jpg",
+          "target": "public/assets/annnimate/silhouette_eyewear-silhouette_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "curtain-slider",
+      "title": "Curtain Slider",
+      "description": "A full-bleed image carousel with staggered column wipes and rolling titles",
+      "category": "animations",
+      "tags": [
+        "animation",
+        "gsap",
+        "annnimate",
+        "curtain-slider"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "@gsap/react",
+        "gsap"
+      ],
+      "registryDependencies": [
+        "tokens"
+      ],
+      "hash": "5d5d14210abf",
+      "files": [
+        {
+          "path": "application/animations/curtain-slider-engine.d.ts",
+          "target": "components/application/animations/curtain-slider-engine.d.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/curtain-slider-engine.jsx",
+          "target": "components/application/animations/curtain-slider-engine.jsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/curtain-slider-styles.ts",
+          "target": "components/application/animations/curtain-slider-styles.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/curtain-slider.tsx",
+          "target": "components/application/animations/curtain-slider.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "target": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/hero_profile_02.jpg",
+          "target": "public/assets/annnimate/hero_profile_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/hero_run_02.jpg",
+          "target": "public/assets/annnimate/hero_run_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "feature-dialog",
+      "title": "Feature Dialog",
+      "description": "An expandable preview tile with a rising modal, gradient band and managed keyboard focus",
+      "category": "animations",
+      "tags": [
+        "animation",
+        "gsap",
+        "annnimate",
+        "feature-dialog"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "@gsap/react",
+        "gsap"
+      ],
+      "registryDependencies": [
+        "tokens"
+      ],
+      "hash": "c9e5069ec6ce",
+      "files": [
+        {
+          "path": "application/animations/feature-dialog-engine.d.ts",
+          "target": "components/application/animations/feature-dialog-engine.d.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/feature-dialog-engine.jsx",
+          "target": "components/application/animations/feature-dialog-engine.jsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/feature-dialog-styles.ts",
+          "target": "components/application/animations/feature-dialog-styles.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/feature-dialog.tsx",
+          "target": "components/application/animations/feature-dialog.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/action_leap_01.jpg",
+          "target": "public/assets/annnimate/action_leap_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/hero_profile_03.jpg",
+          "target": "public/assets/annnimate/hero_profile_03.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_ball_05.jpg",
+          "target": "public/assets/annnimate/product_ball_05.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/roster_cap-silhouette_03.jpg",
+          "target": "public/assets/annnimate/roster_cap-silhouette_03.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "ascii-overlay",
+      "title": "ASCII Overlay",
+      "description": "Image-aware WebGL character overlays with scroll-driven density and a static media fallback",
+      "category": "animations",
+      "tags": [
+        "animation",
+        "gsap",
+        "annnimate",
+        "ascii-overlay"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "gsap",
+        "three"
+      ],
+      "registryDependencies": [
+        "tokens"
+      ],
+      "hash": "cdde3d5585e2",
+      "files": [
+        {
+          "path": "application/animations/ascii-overlay-engine.d.ts",
+          "target": "components/application/animations/ascii-overlay-engine.d.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/ascii-overlay-engine.jsx",
+          "target": "components/application/animations/ascii-overlay-engine.jsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/ascii-overlay-styles.ts",
+          "target": "components/application/animations/ascii-overlay-styles.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/ascii-overlay.tsx",
+          "target": "components/application/animations/ascii-overlay.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "animated-pricing",
+      "title": "Animated Pricing",
+      "description": "Pricing cards with digit-by-digit billing transitions, a savings chip and shimmering names",
+      "category": "animations",
+      "tags": [
+        "animation",
+        "gsap",
+        "annnimate",
+        "animated-pricing"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "@gsap/react",
+        "gsap"
+      ],
+      "registryDependencies": [
+        "tokens"
+      ],
+      "hash": "d07ee6f1adaf",
+      "files": [
+        {
+          "path": "application/animations/animated-pricing.tsx",
+          "target": "components/application/animations/animated-pricing.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/pricing-engine.d.ts",
+          "target": "components/application/animations/pricing-engine.d.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/pricing-engine.jsx",
+          "target": "components/application/animations/pricing-engine.jsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/pricing-styles.ts",
+          "target": "components/application/animations/pricing-styles.ts",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/vanta-logo-light.svg",
+          "target": "public/assets/annnimate/vanta-logo-light.svg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
     {
       "$schema": "https://myzeusui.com/schema/registry-item.json",
       "name": "home-dashboard",

@@ -1,0 +1,585 @@
+1:"$Sreact.fragment"
+2:I[97948,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3w1c4bmwbkv-4.js","/_next/static/chunks/44xbpy-pvbnib.js","/_next/static/chunks/0jocqdh7qodi4.js","/_next/static/chunks/0iw0to4qmrq4l.js","/_next/static/chunks/06es_ecb9le4q.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/1wypk9kc4p_mt.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/1ncyn83jriw3_.js","/_next/static/chunks/2az_x4uxpy3sm.js"],"DocsLayout"]
+12:X
+17:X
+17:C
+0:{"buildId":"niOMvdzB6DV3jUiqZP10s","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"Morphing Tooltip","heading":"Morphing Tooltip","icon":"components","groups":[{"id":"foundations","title":"Foundations","items":[{"name":"tokens","title":"Design tokens"},{"name":"typography","title":"Typography"},{"name":"cx","title":"cx"},{"name":"chevrons","title":"Chevrons"},{"name":"logo","title":"Logo"},{"name":"use-count-up","title":"useCountUp"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress"}]},{"id":"base","title":"Base","items":[{"name":"button","title":"Button"},{"name":"icon-button","title":"Icon Button"},{"name":"link-button","title":"Link Button"},{"name":"button-group","title":"Button Group"},{"name":"close-button","title":"Close Button"},{"name":"social-button","title":"Social Button"},{"name":"input","title":"Input"},{"name":"input-otp","title":"Input OTP"},{"name":"checkbox","title":"Checkbox"},{"name":"radio","title":"Radio"},{"name":"switch","title":"Switch"},{"name":"select","title":"Select"},{"name":"slider","title":"Slider"},{"name":"dropdown","title":"Dropdown"},{"name":"divider","title":"Divider"},{"name":"file-upload","title":"File Upload"},{"name":"tabs","title":"Tabs"},{"name":"segmented-control","title":"Segmented Control"},{"name":"table","title":"Table"},{"name":"tooltip","title":"Tooltip"},{"name":"badge","title":"Badge"},{"name":"chip","title":"Chip"},{"name":"status-dot","title":"Status Dot"},{"name":"kbd","title":"Kbd"},{"name":"avatar","title":"Avatar"},{"name":"breadcrumb","title":"Breadcrumb"},{"name":"pagination","title":"Pagination"},{"name":"carousel","title":"Carousel"},{"name":"announcement","title":"Announcement"},{"name":"notification","title":"Notification"},{"name":"date-picker","title":"Date Picker"},{"name":"date-range-picker","title":"Date Range Picker"},{"name":"meeting-scheduler","title":"Meeting Scheduler"}]},{"id":"blocks","title":"Blocks","items":[{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"calendar","title":"Calendar","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"theme-toggle","title":"Theme Toggle"},{"name":"stat-cards","title":"Stat Cards"},{"name":"data-table","title":"Data Table"},{"name":"sidebar","title":"Sidebar"},{"name":"app-shell","title":"App Shell"},{"name":"notification-center","title":"Notification Center"},{"name":"settings-modal","title":"Settings Modal"},{"name":"auth-card","title":"Auth Card"},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking"},{"name":"composer-loader","title":"Composer Loader"},{"name":"agent-log","title":"Agent Log"},{"name":"agent-chat","title":"Agent Chat"}]},{"id":"charts","title":"Charts","items":[{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart"},{"name":"orders-chart-card","title":"Orders Chart"},{"name":"important-alerts-card","title":"Important Alerts"},{"name":"patient-info-card","title":"Patient Info"}]},{"id":"animations","title":"Animations","items":[{"name":"morphing-tooltip","title":"Morphing Tooltip","isNew":true},{"name":"text-reveal","title":"Text Reveal","isNew":true},{"name":"animated-accordion","title":"Animated Accordion","isNew":true},{"name":"dual-scramble","title":"Dual Scramble","isNew":true},{"name":"multi-level-drawer-menu","title":"Multi-Level Drawer Menu","isNew":true},{"name":"image-fly-in","title":"Image Fly-In","isNew":true},{"name":"scale-slider","title":"Scale Slider","isNew":true},{"name":"curtain-slider","title":"Curtain Slider","isNew":true},{"name":"feature-dialog","title":"Feature Dialog","isNew":true},{"name":"ascii-overlay","title":"ASCII Overlay","isNew":true},{"name":"animated-pricing","title":"Animated Pricing","isNew":true}]},{"id":"templates","title":"Templates","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true},{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true}]}],"description":"A shared liquid tooltip that rises from toolbar buttons, travels between them and resizes to each caption","detail":true,"children":"$L3"}],["$L4","$L5","$L6","$L7","$L8","$L9","$La","$Lb","$Lc","$Ld","$Le","$Lf"],"$L10"]}],"isPartial":"$@11","staleTime":"$12","varyParams":null},{"rsc":"$L13","isPartial":"$@14","staleTime":"$12","varyParams":null},{"rsc":"$L15","isPartial":"$@16","staleTime":"$12","varyParams":"$17"},{"rsc":"$L18","isPartial":"$@19","staleTime":"$12","varyParams":"$17"},{"rsc":"$L1a","isPartial":"$@1b","staleTime":"$12","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@1c","rootVaryParams":null,"needsRuntimeRequest":"$@1d"}
+1e:I[93646,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3w1c4bmwbkv-4.js","/_next/static/chunks/44xbpy-pvbnib.js","/_next/static/chunks/0jocqdh7qodi4.js","/_next/static/chunks/0iw0to4qmrq4l.js","/_next/static/chunks/06es_ecb9le4q.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/1wypk9kc4p_mt.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/1ncyn83jriw3_.js","/_next/static/chunks/2az_x4uxpy3sm.js"],"ComponentPage"]
+21:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"OutletBoundary"]
+22:"$Sreact.suspense"
+24:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"ViewportBoundary"]
+25:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"MetadataBoundary"]
+26:I[37280,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+27:I[75701,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+28:I[72844,["/_next/static/chunks/0by1pam5w7cuf.js"],""]
+:HL["/_next/static/chunks/16_ml9va511u1.css","style"]
+:HL["/_next/static/chunks/1fxg3bgxs4oub.css","style"]
+1f:T4103,"use client";
+
+import { useId, useRef, type CSSProperties, type ReactNode } from "react";
+import { gsap } from "gsap";
+import { useGSAP } from "@gsap/react";
+import { CustomEase } from "gsap/dist/CustomEase";
+
+gsap.registerPlugin(useGSAP, CustomEase);
+CustomEase.create("zeusTooltipTravel", "M0,0 C0.7,0 0.16,1 1,1");
+CustomEase.create("zeusTooltipExit", "M0,0 C0.3,0.9 0.1,1 1,1");
+
+export interface MorphingTooltipItem {
+  id: string;
+  label: string;
+  caption: string;
+  icon?: ReactNode;
+  iconOnly?: boolean;
+  disabled?: boolean;
+  onPress?: () => void;
+}
+
+export interface MorphingTooltipProps {
+  items: MorphingTooltipItem[];
+  /** Entrance/exit duration in seconds. */
+  duration?: number;
+  travelDuration?: number;
+  /** Delay before dismissal, in milliseconds. */
+  grace?: number;
+  placement?: "top" | "bottom";
+  maxWidth?: number;
+  blur?: number;
+  goo?: number;
+  gap?: number;
+  className?: string;
+  style?: CSSProperties;
+  label?: string;
+  onAction?: (id: string) => void;
+}
+
+const css = `
+.z-mtt{position:relative;display:inline-flex;flex-wrap:wrap;justify-content:center;gap:8px;isolation:isolate;max-width:100%;font-family:var(--font-inter,Inter),-apple-system,BlinkMacSystemFont,sans-serif;color:rgba(255,250,242,.92)}
+.z-mtt button{position:relative;z-index:3;border:0;border-radius:999px;height:40px;display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:0 16px;background:#101010;color:inherit;font:500 13px/1.4 inherit;font-family:inherit;font-size:13px;font-weight:500;letter-spacing:-.01em;cursor:pointer;white-space:nowrap}
+.z-mtt button[data-icon-only]{width:40px;padding:0}.z-mtt button:disabled{opacity:.4;cursor:default}.z-mtt button:focus-visible{outline:2px solid #7a76ff;outline-offset:4px}.z-mtt button svg{width:16px;height:16px}
+.z-mtt-bubble,.z-mtt-copy{position:absolute;top:0;left:0;border-radius:10px;background:#101010;pointer-events:none}
+.z-mtt-bubble{z-index:2;opacity:0;overflow:hidden;will-change:transform;box-sizing:border-box}
+.z-mtt-label,.z-mtt-measure{font:400 13px/1.4 var(--font-inter,Inter),-apple-system,BlinkMacSystemFont,sans-serif;letter-spacing:-.01em;padding:8px 12px;box-sizing:border-box;overflow-wrap:anywhere;text-align:center}
+.z-mtt-label{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}
+.z-mtt-measure{position:absolute;top:0;left:0;visibility:hidden;width:max-content;pointer-events:none}
+.z-mtt-goo{position:absolute;inset:0;z-index:1;pointer-events:none;opacity:0}.z-mtt-neck{position:absolute;background:#101010;border-radius:999px}.z-mtt-plate{position:absolute;border-radius:999px;background:#101010}.z-mtt-defs{position:absolute;width:0;height:0;pointer-events:none}
+`;
+
+/** Independently reconstructed from Annnimate's public Morphing Tooltip preview. */
+export function MorphingTooltip({
+  items,
+  duration = 0.45,
+  travelDuration = 0.32,
+  grace = 120,
+  placement = "top",
+  maxWidth = 160,
+  blur = 6,
+  goo = 10,
+  gap = 12,
+  className = "",
+  style,
+  label = "Actions",
+  onAction,
+}: MorphingTooltipProps) {
+  const id = useId().replace(/:/g, "");
+  const root = useRef<HTMLDivElement>(null);
+  const bubble = useRef<HTMLDivElement>(null);
+  const measure = useRef<HTMLSpanElement>(null);
+  const copy = useRef<HTMLSpanElement>(null);
+  const plate = useRef<HTMLSpanElement>(null);
+  const filterLayer = useRef<HTMLDivElement>(null);
+  const neck = useRef<HTMLSpanElement>(null);
+  const blurNode = useRef<SVGFEGaussianBlurElement>(null);
+  // A parent action often recreates the item array. Keep an in-flight caption
+  // alive unless its content or available buttons actually changed.
+  const itemConfiguration = JSON.stringify(
+    items.map(({ id, caption, disabled }) => [id, caption, disabled]),
+  );
+
+  useGSAP(
+    () => {
+      const el = root.current,
+        tip = bubble.current,
+        ruler = measure.current;
+      if (!el || !tip || !ruler) return;
+      const buttons = Array.from(el.querySelectorAll<HTMLButtonElement>("button"));
+      const labels = Array.from(tip.querySelectorAll<HTMLSpanElement>(".z-mtt-label"));
+      const reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
+      let active: HTMLButtonElement | null = null;
+      let timer: ReturnType<typeof setTimeout> | undefined;
+      let tween: gsap.core.Timeline | undefined;
+      let layer = 0,
+        hidden = true;
+      let anchor = { x: 0, y: 0, width: 40, height: 40 };
+      const shape = { x: 0, y: 0, width: 20, height: 20 };
+      const ghost = { x: 0, y: 0, width: 36, height: 36, borderRadius: 18 };
+      const liquid = { blur: 0, neck: 0 };
+      const settleGoo = () => {
+        if (filterLayer.current) gsap.set(filterLayer.current, { opacity: 0, filter: "none" });
+        blurNode.current?.setAttribute("stdDeviation", "0");
+      };
+      const paint = () => {
+        // All geometry was measured on interaction. Frames only write styles.
+        gsap.set(tip, {
+          x: shape.x,
+          y: shape.y,
+          width: shape.width,
+          height: shape.height,
+          force3D: true,
+          autoRound: false,
+        });
+        if (filterLayer.current?.style.opacity !== "0") {
+          gsap.set(copy.current, {
+            x: ghost.x,
+            y: ghost.y,
+            width: ghost.width,
+            height: ghost.height,
+            borderRadius: ghost.borderRadius,
+            force3D: true,
+            autoRound: false,
+          });
+          blurNode.current?.setAttribute("stdDeviation", String(liquid.blur));
+          const center = anchor.x + anchor.width / 2;
+          const centerY = anchor.y + anchor.height / 2;
+          const nearEdge = placement === "top" ? shape.y + shape.height - 4 : shape.y + 4;
+          const top = placement === "top" ? Math.min(centerY - 4, nearEdge) : centerY - 4;
+          const height =
+            placement === "top" ? Math.max(16, centerY + 4 - top) : Math.max(16, nearEdge - top);
+          gsap.set(neck.current, {
+            x: center - 4 * liquid.neck,
+            y: top,
+            width: 8 * liquid.neck,
+            height,
+            opacity: liquid.neck,
+            force3D: true,
+            autoRound: false,
+          });
+        }
+      };
+      const startGoo = () => {
+        gsap.set(plate.current, {
+          x: anchor.x + 2,
+          y: anchor.y + 2,
+          width: anchor.width - 4,
+          height: anchor.height - 4,
+          borderRadius: (anchor.height - 4) / 2,
+          force3D: true,
+        });
+        gsap.set(filterLayer.current, {
+          opacity: reduced.matches ? 0 : 1,
+          filter: `url(#${id}-goo)`,
+        });
+      };
+      const cancel = () => clearTimeout(timer);
+      const hide = () => {
+        cancel();
+        if (hidden) return;
+        hidden = true;
+        active?.removeAttribute("aria-describedby");
+        tip.setAttribute("aria-hidden", "true");
+        tween?.kill();
+        const d = reduced.matches ? 0 : Math.max(0, duration * 0.65);
+        startGoo();
+        liquid.blur = 0;
+        liquid.neck = 0;
+        const seed = {
+          x: anchor.x + anchor.width / 2 - 10,
+          y: anchor.y + anchor.height / 2 - 10,
+          width: 20,
+          height: 20,
+        };
+        tween = gsap.timeline({
+          onUpdate: paint,
+          onComplete: () => {
+            gsap.set(tip, { opacity: 0 });
+            settleGoo();
+            active = null;
+          },
+        });
+        tween.to(shape, { ...seed, duration: d, ease: "zeusTooltipExit" }, 0);
+        tween.to(
+          ghost,
+          {
+            x: anchor.x + 2,
+            y: anchor.y + 2,
+            width: anchor.width - 4,
+            height: anchor.height - 4,
+            borderRadius: 18,
+            duration: d,
+            ease: "zeusTooltipExit",
+          },
+          0,
+        );
+        tween.to(labels, { opacity: 0, duration: d * 0.55, ease: "power2.in" }, 0);
+        tween.to(
+          liquid,
+          { blur: Math.max(0, goo), neck: 1, duration: d * 0.45, ease: "power3.out" },
+          0,
+        );
+        tween.to(
+          liquid,
+          { blur: 0, neck: 0, duration: d * 0.3, ease: "zeusTooltipTravel" },
+          d * 0.7,
+        );
+      };
+      const leave = () => {
+        cancel();
+        timer = setTimeout(hide, Math.max(0, grace));
+      };
+      const show = (button: HTMLButtonElement, immediate = false) => {
+        if (button.disabled) return;
+        cancel();
+        if (active === button && !hidden && !immediate) return;
+        const caption = button.dataset.caption ?? "";
+        const bounds = el.getBoundingClientRect(),
+          rect = button.getBoundingClientRect();
+        ruler.textContent = caption;
+        ruler.style.maxWidth = `${Math.max(40, Math.min(maxWidth, window.innerWidth - 24))}px`;
+        const measured = ruler.getBoundingClientRect();
+        const width = Math.ceil(measured.width) || 80,
+          height = Math.ceil(measured.height) || 35;
+        const left = Math.max(
+          12 - bounds.left,
+          Math.min(
+            rect.left - bounds.left + (rect.width - width) / 2,
+            window.innerWidth - bounds.left - width - 12,
+          ),
+        );
+        const target = {
+          x: left,
+          y:
+            placement === "top"
+              ? rect.top - bounds.top - height - gap
+              : rect.bottom - bounds.top + gap,
+          width,
+          height,
+        };
+        anchor = {
+          x: rect.left - bounds.left,
+          y: rect.top - bounds.top,
+          width: rect.width,
+          height: rect.height,
+        };
+        const entering = hidden;
+        active?.removeAttribute("aria-describedby");
+        active = button;
+        hidden = false;
+        button.setAttribute("aria-describedby", `${id}-tooltip`);
+        tip.setAttribute("aria-hidden", "false");
+        tip.setAttribute("aria-label", caption);
+        tween?.kill();
+        const prev = labels[layer];
+        layer = 1 - layer;
+        const next = labels[layer];
+        if (!next) return;
+        next.textContent = caption;
+        next.style.width = `${width}px`;
+        const d =
+          immediate || reduced.matches ? 0 : Math.max(0, entering ? duration : travelDuration);
+        if (entering) {
+          Object.assign(shape, {
+            x: anchor.x + anchor.width / 2 - 10,
+            y: anchor.y + anchor.height / 2 - 10,
+            width: 20,
+            height: 20,
+          });
+          Object.assign(ghost, {
+            x: anchor.x + 2,
+            y: anchor.y + 2,
+            width: anchor.width - 4,
+            height: anchor.height - 4,
+            borderRadius: 18,
+          });
+          liquid.blur = Math.max(0, goo);
+          liquid.neck = 1;
+          startGoo();
+          gsap.set(labels, { opacity: 0, filter: "blur(0px)" });
+          // The caption has its destination width from the first frame. The
+          // growing surface reveals it; there is no delayed fade on entrance.
+          gsap.set(next, { opacity: 1 });
+        } else settleGoo();
+        gsap.set(tip, { opacity: 1 });
+        paint();
+        tween = gsap.timeline({ onUpdate: paint, onComplete: settleGoo });
+        tween.to(
+          shape,
+          { ...target, duration: d, ease: entering ? "back.out(1.5)" : "zeusTooltipTravel" },
+          0,
+        );
+        if (entering) {
+          tween.to(ghost, { ...target, borderRadius: 10, duration: d, ease: "back.out(1.5)" }, 0);
+          tween.to(liquid, { neck: 0, duration: d * 0.18, ease: "zeusTooltipTravel" }, d * 0.42);
+          tween.to(liquid, { blur: 0, duration: d * 0.28, ease: "zeusTooltipTravel" }, d * 0.6);
+        } else {
+          if (prev)
+            tween.to(
+              prev,
+              {
+                opacity: 0,
+                filter: `blur(${Math.max(0, Math.min(8, blur))}px)`,
+                duration: d * 0.64,
+                ease: "power2.in",
+              },
+              0,
+            );
+          tween.fromTo(
+            next,
+            { opacity: 0, filter: `blur(${Math.max(0, Math.min(8, blur))}px)` },
+            { opacity: 1, filter: "blur(0px)", duration: d * 0.75, ease: "power2.out" },
+            d * 0.16,
+          );
+        }
+      };
+      const cleanups = buttons.map((button) => {
+        const enter = () => show(button);
+        const key = (event: KeyboardEvent) => {
+          if (event.key === "Escape") {
+            event.stopPropagation();
+            hide();
+          }
+          const enabled = buttons.filter((b) => !b.disabled),
+            index = enabled.indexOf(button);
+          if (["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)) {
+            event.preventDefault();
+            const next =
+              event.key === "Home"
+                ? 0
+                : event.key === "End"
+                  ? enabled.length - 1
+                  : (index + (event.key === "ArrowRight" ? 1 : -1) + enabled.length) %
+                    enabled.length;
+            enabled[next]?.focus();
+          }
+        };
+        button.addEventListener("pointerenter", enter);
+        button.addEventListener("pointerleave", leave);
+        button.addEventListener("focus", enter);
+        button.addEventListener("blur", leave);
+        button.addEventListener("keydown", key);
+        return () => {
+          button.removeEventListener("pointerenter", enter);
+          button.removeEventListener("pointerleave", leave);
+          button.removeEventListener("focus", enter);
+          button.removeEventListener("blur", leave);
+          button.removeEventListener("keydown", key);
+          button.removeAttribute("aria-describedby");
+        };
+      });
+      const reposition = () => {
+        if (active && !hidden) show(active, true);
+      };
+      const resize = new ResizeObserver(reposition);
+      resize.observe(el);
+      el.addEventListener("pointerleave", leave);
+      window.addEventListener("resize", reposition);
+      return () => {
+        cancel();
+        tween?.kill();
+        resize.disconnect();
+        cleanups.forEach((fn) => fn());
+        el.removeEventListener("pointerleave", leave);
+        window.removeEventListener("resize", reposition);
+        gsap.set(tip, { opacity: 0 });
+        tip.setAttribute("aria-hidden", "true");
+        settleGoo();
+      };
+    },
+    {
+      scope: root,
+      dependencies: [
+        itemConfiguration,
+        duration,
+        travelDuration,
+        grace,
+        placement,
+        maxWidth,
+        blur,
+        goo,
+        gap,
+        id,
+      ],
+      revertOnUpdate: true,
+    },
+  );
+
+  return (
+    <>
+      <style>{css}</style>
+      <div
+        ref={root}
+        className={`z-mtt ${className}`}
+        style={style}
+        role="group"
+        aria-label={label}
+      >
+        <svg className="z-mtt-defs" aria-hidden="true">
+          <defs>
+            <filter
+              id={`${id}-goo`}
+              x="-100%"
+              y="-300%"
+              width="300%"
+              height="700%"
+              colorInterpolationFilters="sRGB"
+            >
+              <feGaussianBlur ref={blurNode} in="SourceGraphic" stdDeviation="0" result="blur" />
+              <feColorMatrix
+                in="blur"
+                mode="matrix"
+                values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -10"
+              />
+              <feComposite in="SourceGraphic" operator="atop" />
+            </filter>
+          </defs>
+        </svg>
+        <div
+          ref={filterLayer}
+          className="z-mtt-goo"
+          aria-hidden="true"
+          style={{ filter: `url(#${id}-goo)` }}
+        >
+          <span ref={plate} className="z-mtt-plate" />
+          <span ref={copy} className="z-mtt-copy" />
+          <span ref={neck} className="z-mtt-neck" />
+        </div>
+        {items.map((item) => (
+          <button
+            key={item.id}
+            type="button"
+            data-caption={item.caption}
+            data-icon-only={item.iconOnly || undefined}
+            disabled={item.disabled}
+            aria-label={item.iconOnly ? item.label : undefined}
+            onClick={() => {
+              item.onPress?.();
+              onAction?.(item.id);
+            }}
+          >
+            {item.icon}
+            {item.iconOnly ? null : item.label}
+          </button>
+        ))}
+        <div
+          ref={bubble}
+          className="z-mtt-bubble"
+          id={`${id}-tooltip`}
+          role="tooltip"
+          aria-hidden="true"
+        >
+          <span className="z-mtt-label" />
+          <span className="z-mtt-label" />
+        </div>
+        <span ref={measure} className="z-mtt-measure" aria-hidden="true" />
+      </div>
+    </>
+  );
+}
+20:Tad1,"use client";
+
+import { MorphingTooltip } from "@/components/application/animations/morphing-tooltip";
+import { useState } from "react";
+
+export default function Demo() {
+  const [placement, setPlacement] = useState<"top" | "bottom">("top");
+  const [action, setAction] = useState("Hover or focus a button");
+  return (
+    <div className="w-full">
+      <div className="flex min-h-[340px] items-center justify-center rounded-2xl bg-[#ebebe9] px-4">
+        <MorphingTooltip
+          placement={placement}
+          onAction={(id) => setAction(`${id} selected`)}
+          items={[
+            {
+              id: "add",
+              label: "Add item",
+              caption: "Add item",
+              iconOnly: true,
+              icon: (
+                <svg viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                  <path
+                    d="M8 3v10M3 8h10"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                  />
+                </svg>
+              ),
+            },
+            {
+              id: "search",
+              label: "Search",
+              caption: "Search",
+              iconOnly: true,
+              icon: (
+                <svg viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                  <circle cx="7" cy="7" r="4.25" stroke="currentColor" strokeWidth="1.5" />
+                  <path
+                    d="m10.3 10.3 3.2 3.2"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                  />
+                </svg>
+              ),
+            },
+            {
+              id: "share",
+              label: "Share",
+              caption: "Copy a link",
+              icon: (
+                <svg viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                  <path
+                    d="M8 12.5v-9m0 0L4.5 7M8 3.5 11.5 7"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              ),
+            },
+            { id: "export", label: "Export", caption: "Download as CSV" },
+            { id: "save", label: "Save", caption: "Save to drafts" },
+          ]}
+        />
+      </div>
+      <div className="mt-4 flex items-center justify-between gap-4 text-xs text-text-secondary">
+        <p role="status">{action}</p>
+        <button
+          type="button"
+          className="rounded-lg border px-3 py-2"
+          onClick={() => setPlacement((p) => (p === "top" ? "bottom" : "top"))}
+        >
+          Placement: {placement}
+        </button>
+      </div>
+    </div>
+  );
+}3:["$","$L1e",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"morphing-tooltip","title":"Morphing Tooltip","description":"A shared liquid tooltip that rises from toolbar buttons, travels between them and resizes to each caption","category":"animations","tags":["animation","gsap","annnimate","morphing-tooltip"],"status":"beta","tier":"free","isNew":true,"dependencies":["@gsap/react","gsap"],"registryDependencies":["tokens"],"files":[{"path":"application/animations/morphing-tooltip.tsx","target":"components/application/animations/morphing-tooltip.tsx","type":"component","content":"$1f"}],"hash":"d8c261c1e4ed"},"demoSource":"$20","previous":null,"next":{"name":"text-reveal","title":"Text Reveal"}}]
+4:["$","script","script-0",{"src":"/_next/static/chunks/3w1c4bmwbkv-4.js","async":true}]
+5:["$","script","script-1",{"src":"/_next/static/chunks/44xbpy-pvbnib.js","async":true}]
+6:["$","script","script-2",{"src":"/_next/static/chunks/0jocqdh7qodi4.js","async":true}]
+7:["$","script","script-3",{"src":"/_next/static/chunks/0iw0to4qmrq4l.js","async":true}]
+8:["$","script","script-4",{"src":"/_next/static/chunks/06es_ecb9le4q.js","async":true}]
+9:["$","script","script-5",{"src":"/_next/static/chunks/0-afrvt74ak7l.js","async":true}]
+a:["$","script","script-6",{"src":"/_next/static/chunks/0337601gswv_s.js","async":true}]
+b:["$","script","script-7",{"src":"/_next/static/chunks/34zl6f3dq0u0q.js","async":true}]
+c:["$","script","script-8",{"src":"/_next/static/chunks/1wypk9kc4p_mt.js","async":true}]
+d:["$","script","script-9",{"src":"/_next/static/chunks/23ywcyogzmwlv.js","async":true}]
+e:["$","script","script-10",{"src":"/_next/static/chunks/1ncyn83jriw3_.js","async":true}]
+f:["$","script","script-11",{"src":"/_next/static/chunks/2az_x4uxpy3sm.js","async":true}]
+10:["$","$L21",null,{"children":["$","$22",null,{"name":"Next.MetadataOutlet","children":"$@23"}]}]
+13:["$","$1","h",{"children":[null,["$","$L24",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L25",null,{"children":["$","$22",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Morphing Tooltip — Zeus UI"}],["$","meta","1",{"name":"description","content":"A shared liquid tooltip that rises from toolbar buttons, travels between them and resizes to each caption"}],["$","meta","2",{"name":"keywords","content":"animation,gsap,annnimate,morphing-tooltip"}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+15:["$","$1","c",{"children":[null,["$","$L26",null,{"parallelRouterKey":"children","template":["$","$L27",null,{}]}]]}]
+18:["$","$1","c",{"children":[null,["$","$L26",null,{"parallelRouterKey":"children","template":["$","$L27",null,{}]}]]}]
+1a:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1fxg3bgxs4oub.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/0by1pam5w7cuf.js","async":true}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L28",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L26",null,{"parallelRouterKey":"children","template":["$","$L27",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]]}]}]]}]
+23:null
+1d:true
+12:300
+12:C
+1c:0
+14:"$undefined"
+16:"$undefined"
+19:"$undefined"
+1b:"$undefined"
+11:"$undefined"

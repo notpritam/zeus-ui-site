@@ -1,0 +1,1090 @@
+1:"$Sreact.fragment"
+2:I[97948,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3w1c4bmwbkv-4.js","/_next/static/chunks/44xbpy-pvbnib.js","/_next/static/chunks/0jocqdh7qodi4.js","/_next/static/chunks/0iw0to4qmrq4l.js","/_next/static/chunks/06es_ecb9le4q.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/1wypk9kc4p_mt.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/1ncyn83jriw3_.js","/_next/static/chunks/2az_x4uxpy3sm.js"],"DocsLayout"]
+12:X
+17:X
+17:C
+0:{"buildId":"niOMvdzB6DV3jUiqZP10s","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"Feature Dialog","heading":"Feature Dialog","icon":"components","groups":[{"id":"foundations","title":"Foundations","items":[{"name":"tokens","title":"Design tokens"},{"name":"typography","title":"Typography"},{"name":"cx","title":"cx"},{"name":"chevrons","title":"Chevrons"},{"name":"logo","title":"Logo"},{"name":"use-count-up","title":"useCountUp"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress"}]},{"id":"base","title":"Base","items":[{"name":"button","title":"Button"},{"name":"icon-button","title":"Icon Button"},{"name":"link-button","title":"Link Button"},{"name":"button-group","title":"Button Group"},{"name":"close-button","title":"Close Button"},{"name":"social-button","title":"Social Button"},{"name":"input","title":"Input"},{"name":"input-otp","title":"Input OTP"},{"name":"checkbox","title":"Checkbox"},{"name":"radio","title":"Radio"},{"name":"switch","title":"Switch"},{"name":"select","title":"Select"},{"name":"slider","title":"Slider"},{"name":"dropdown","title":"Dropdown"},{"name":"divider","title":"Divider"},{"name":"file-upload","title":"File Upload"},{"name":"tabs","title":"Tabs"},{"name":"segmented-control","title":"Segmented Control"},{"name":"table","title":"Table"},{"name":"tooltip","title":"Tooltip"},{"name":"badge","title":"Badge"},{"name":"chip","title":"Chip"},{"name":"status-dot","title":"Status Dot"},{"name":"kbd","title":"Kbd"},{"name":"avatar","title":"Avatar"},{"name":"breadcrumb","title":"Breadcrumb"},{"name":"pagination","title":"Pagination"},{"name":"carousel","title":"Carousel"},{"name":"announcement","title":"Announcement"},{"name":"notification","title":"Notification"},{"name":"date-picker","title":"Date Picker"},{"name":"date-range-picker","title":"Date Range Picker"},{"name":"meeting-scheduler","title":"Meeting Scheduler"}]},{"id":"blocks","title":"Blocks","items":[{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"calendar","title":"Calendar","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"theme-toggle","title":"Theme Toggle"},{"name":"stat-cards","title":"Stat Cards"},{"name":"data-table","title":"Data Table"},{"name":"sidebar","title":"Sidebar"},{"name":"app-shell","title":"App Shell"},{"name":"notification-center","title":"Notification Center"},{"name":"settings-modal","title":"Settings Modal"},{"name":"auth-card","title":"Auth Card"},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking"},{"name":"composer-loader","title":"Composer Loader"},{"name":"agent-log","title":"Agent Log"},{"name":"agent-chat","title":"Agent Chat"}]},{"id":"charts","title":"Charts","items":[{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart"},{"name":"orders-chart-card","title":"Orders Chart"},{"name":"important-alerts-card","title":"Important Alerts"},{"name":"patient-info-card","title":"Patient Info"}]},{"id":"animations","title":"Animations","items":[{"name":"morphing-tooltip","title":"Morphing Tooltip","isNew":true},{"name":"text-reveal","title":"Text Reveal","isNew":true},{"name":"animated-accordion","title":"Animated Accordion","isNew":true},{"name":"dual-scramble","title":"Dual Scramble","isNew":true},{"name":"multi-level-drawer-menu","title":"Multi-Level Drawer Menu","isNew":true},{"name":"image-fly-in","title":"Image Fly-In","isNew":true},{"name":"scale-slider","title":"Scale Slider","isNew":true},{"name":"curtain-slider","title":"Curtain Slider","isNew":true},{"name":"feature-dialog","title":"Feature Dialog","isNew":true},{"name":"ascii-overlay","title":"ASCII Overlay","isNew":true},{"name":"animated-pricing","title":"Animated Pricing","isNew":true}]},{"id":"templates","title":"Templates","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true},{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true}]}],"description":"An expandable preview tile with a rising modal, gradient band and managed keyboard focus","detail":true,"children":"$L3"}],["$L4","$L5","$L6","$L7","$L8","$L9","$La","$Lb","$Lc","$Ld","$Le","$Lf"],"$L10"]}],"isPartial":"$@11","staleTime":"$12","varyParams":null},{"rsc":"$L13","isPartial":"$@14","staleTime":"$12","varyParams":null},{"rsc":"$L15","isPartial":"$@16","staleTime":"$12","varyParams":"$17"},{"rsc":"$L18","isPartial":"$@19","staleTime":"$12","varyParams":"$17"},{"rsc":"$L1a","isPartial":"$@1b","staleTime":"$12","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@1c","rootVaryParams":null,"needsRuntimeRequest":"$@1d"}
+1e:I[93646,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3w1c4bmwbkv-4.js","/_next/static/chunks/44xbpy-pvbnib.js","/_next/static/chunks/0jocqdh7qodi4.js","/_next/static/chunks/0iw0to4qmrq4l.js","/_next/static/chunks/06es_ecb9le4q.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/1wypk9kc4p_mt.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/1ncyn83jriw3_.js","/_next/static/chunks/2az_x4uxpy3sm.js"],"ComponentPage"]
+21:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"OutletBoundary"]
+22:"$Sreact.suspense"
+24:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"ViewportBoundary"]
+25:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"MetadataBoundary"]
+26:I[37280,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+27:I[75701,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+28:I[72844,["/_next/static/chunks/0by1pam5w7cuf.js"],""]
+:HL["/_next/static/chunks/16_ml9va511u1.css","style"]
+:HL["/_next/static/chunks/1fxg3bgxs4oub.css","style"]
+1f:T4b24,"use client";
+
+// Adapted from the user-supplied Annnimate Starter Pack by Good Fella.
+// Zeus integration repairs documented in docs/ANNNIMATE.md.
+
+import React, { useRef, useCallback, useEffect } from "react";
+import { gsap } from "gsap";
+import { useGSAP } from "@gsap/react";
+import { CustomEase } from "gsap/dist/CustomEase";
+
+if (typeof window !== "undefined") {
+  gsap.registerPlugin(useGSAP, CustomEase);
+  CustomEase.create("zeusAnnimate", "M0,0 C0.3,0.9 0.1,1 1,1");
+  CustomEase.create("zeusAnnimateInOut", "M0,0 C0.7,0 0.16,1 1,1");
+}
+
+// Overlay tint + blur endpoints. Element opacity stays 1 the whole time -
+// fading a backdrop-filter element's own opacity washes the blur out.
+const OVERLAY_TINT = "rgba(10, 10, 10, 0.2)";
+const OVERLAY_TINT_OFF = "rgba(10, 10, 10, 0)";
+const OVERLAY_BLUR = "6px";
+const ENTER_DISTANCE = 128;
+// The exit is its own, quicker leg: half the travel, dropping away.
+const EXIT_DISTANCE = 64;
+
+const breakpoints = {
+  mobile: "(max-width: 479px)",
+  landscape: "(orientation: landscape) and (max-width: 767px)",
+  tablet: "(max-width: 991px)",
+  desktop: "(min-width: 992px)",
+};
+
+const DEFAULT_LIST_ITEMS = [
+  "Full-grain pebble, tacked for grip",
+  "Holds pressure through cold courts",
+  "Indoor pace, outdoor wear",
+];
+
+const DEFAULT_MEDIA_IMAGES = [
+  {
+    src: "/assets/annnimate/action_leap_01.jpg",
+    alt: "Athlete captured mid-leap against a dark studio ground",
+  },
+  {
+    src: "/assets/annnimate/roster_cap-silhouette_03.jpg",
+    alt: "Silhouetted athlete in a cap with a glowing brim on a green field",
+  },
+];
+
+const DEFAULT_STATS = [
+  { num: "620 g", label: "Regulation weight" },
+  { num: "75.5 cm", label: "Circumference, size 7" },
+  { num: "0.6 bar", label: "Playing pressure" },
+];
+
+/**
+ * FeatureDialog Component
+ * A preview tile with an expand button that opens a tall bottom-anchored
+ * dialog - the page dims and blurs behind it, the dialog rises in with a
+ * fast fade, and a gradient band follows a beat behind. Focus, Escape and
+ * the backdrop are all wired up.
+ *
+ * @param {string} [className=''] - Additional CSS classes for the wrapper
+ * @param {number} [duration=0.55] - Duration of the sheet slide, seconds (the close leg runs faster automatically)
+ * @param {string} [ease='zeusAnnimate'] - GSAP ease for the open leg (close always uses annnimateInOut)
+ * @param {string} [disable=''] - Comma-separated viewports to disable on: desktop, tablet, landscape, mobile
+ * @param {string} [label='Court issue, 01'] - Small meta label on the tile
+ * @param {string} [title='Game leather'] - Tile headline
+ * @param {{src: string, alt: string}} [tileImage] - Tile media image
+ * @param {string} [sheetTitle='Broken in by hand'] - Dialog display heading, also the dialog aria-label
+ * @param {string} [sheetText] - Dialog intro paragraph
+ * @param {string} [actionLabel='Explore the story'] - Primary action button label
+ * @param {string[]} [listItems] - Feature list rows
+ * @param {{src: string, alt: string}[]} [mediaImages] - Two-up media row images
+ * @param {{num: string, label: string}[]} [stats] - Stat blocks
+ * @param {{src: string, alt: string}} [sheetImage] - Full-width media block image
+ * @param {string} [outro] - Closing paragraph
+ */
+export default function FeatureDialog({
+  className = "",
+  onAction,
+  onOpenChange,
+  duration = 0.55,
+  ease = "zeusAnnimate",
+  disable = "",
+  label = "Court issue, 01",
+  title = "Game leather",
+  tileImage = {
+    src: "/assets/annnimate/product_ball_05.jpg",
+    alt: "Basketball floating in a shaft of light in a dark locker room",
+  },
+  sheetTitle = "Broken in by hand",
+  sheetText = "A game ball built to be played - full-grain leather with a deep pebble, worked in before it ships so the first grip feels like the hundredth.",
+  actionLabel = "Explore the story",
+  listItems = DEFAULT_LIST_ITEMS,
+  mediaImages = DEFAULT_MEDIA_IMAGES,
+  stats = DEFAULT_STATS,
+  sheetImage = {
+    src: "/assets/annnimate/hero_profile_03.jpg",
+    alt: "Silhouetted athlete profile against a deep orange field",
+  },
+  outro = "Built for the court you actually play on - the cracked one behind the gym, in January, with cold hands.",
+}) {
+  const stageRef = useRef(null);
+  const tileRef = useRef(null);
+  const glyphTrRef = useRef(null);
+  const glyphBlRef = useRef(null);
+  const toggleRef = useRef(null);
+  const overlayRef = useRef(null);
+  const modalRef = useRef(null);
+  const gradientRef = useRef(null);
+  const sheetRef = useRef(null);
+  const closeBtnRef = useRef(null);
+  const titleInnerRef = useRef(null);
+
+  const isOpenRef = useRef(false);
+  const scrollLockedRef = useRef(false);
+  const previousOverflowRef = useRef("");
+  const liveTlRef = useRef(null);
+
+  const titleName = (sheetTitle || "details").trim() || "details";
+
+  const isDisabled = useCallback(() => {
+    if (!disable) return false;
+    return disable.split(",").some((v) => {
+      const q = breakpoints[v.trim()];
+      return q && window.matchMedia(q).matches;
+    });
+  }, [disable]);
+
+  const lockScroll = useCallback(() => {
+    if (scrollLockedRef.current) return;
+    scrollLockedRef.current = true;
+    previousOverflowRef.current = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+  }, []);
+
+  const unlockScroll = useCallback(() => {
+    if (!scrollLockedRef.current) return;
+    scrollLockedRef.current = false;
+    document.body.style.overflow = previousOverflowRef.current;
+  }, []);
+
+  const setOpenAria = useCallback((open) => {
+    onOpenChange?.(open);
+    toggleRef.current?.setAttribute("aria-expanded", open ? "true" : "false");
+    const sheet = sheetRef.current;
+    if (!sheet) return;
+    sheet.setAttribute("aria-hidden", open ? "false" : "true");
+    if (open) sheet.removeAttribute("inert");
+    else sheet.setAttribute("inert", "");
+  }, []);
+
+  const { contextSafe } = useGSAP({ scope: stageRef });
+
+  // Open and close are deliberately ASYMMETRIC (different travel and speed),
+  // so they are paired builds rather than one reversed timeline. Every tween
+  // is a .to() from the LIVE values, and killLive() stops whatever is in
+  // flight first - that is what makes rapid open/close interruptible.
+  const killLive = contextSafe(() => {
+    if (liveTlRef.current) {
+      liveTlRef.current.kill();
+      liveTlRef.current = null;
+    }
+    gsap.killTweensOf([overlayRef.current, modalRef.current, gradientRef.current].filter(Boolean));
+  });
+
+  const onOpenSettle = useCallback(() => {
+    liveTlRef.current = null;
+    if (document.hasFocus()) closeBtnRef.current?.focus();
+  }, []);
+
+  const onCloseSettle = useCallback(() => {
+    liveTlRef.current = null;
+    unlockScroll();
+    stageRef.current?.classList.remove("is-open");
+    // Re-park for the next enter while invisible: the exit only travelled
+    // half the enter distance, so the enter start position is reset here.
+    gsap.set(modalRef.current, { y: ENTER_DISTANCE });
+    if (gradientRef.current) gsap.set(gradientRef.current, { yPercent: 30 });
+    if (document.hasFocus()) toggleRef.current?.focus();
+  }, [unlockScroll]);
+
+  const openSheet = contextSafe(() => {
+    if (isDisabled() || isOpenRef.current) return liveTlRef.current;
+    isOpenRef.current = true;
+    killLive();
+    stageRef.current?.classList.add("is-open");
+    setOpenAria(true);
+    lockScroll();
+    if (sheetRef.current) sheetRef.current.scrollTop = 0;
+
+    const tl = gsap.timeline({
+      defaults: { ease, force3D: true },
+      onComplete: onOpenSettle,
+    });
+    tl.to(
+      overlayRef.current,
+      {
+        "--fdg-blur": OVERLAY_BLUR,
+        backgroundColor: OVERLAY_TINT,
+        duration: duration * 0.6,
+        data: { label: "Page dims and blurs behind" },
+      },
+      0,
+    );
+    tl.to(
+      modalRef.current,
+      {
+        y: 0,
+        duration,
+        data: { label: "Dialog rises into place" },
+      },
+      0,
+    );
+    tl.to(
+      modalRef.current,
+      {
+        autoAlpha: 1,
+        duration: duration * 0.45,
+        data: { label: "Dialog fades in fast" },
+      },
+      0,
+    );
+    if (gradientRef.current) {
+      tl.to(
+        gradientRef.current,
+        {
+          yPercent: 0,
+          autoAlpha: 1,
+          duration: duration * 0.9,
+          data: { label: "Gradient band drifts up and fades in" },
+        },
+        0.1,
+      );
+    }
+    liveTlRef.current = tl;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) tl.timeScale(1000);
+    return tl;
+  });
+
+  const closeSheet = contextSafe(() => {
+    if (!isOpenRef.current) return liveTlRef.current;
+    isOpenRef.current = false;
+    killLive();
+    setOpenAria(false);
+
+    const tl = gsap.timeline({
+      defaults: { ease: "zeusAnnimateInOut", force3D: true },
+      onComplete: onCloseSettle,
+    });
+    tl.to(
+      modalRef.current,
+      {
+        y: EXIT_DISTANCE,
+        duration: duration * 0.4,
+        data: { label: "Dialog drops away" },
+      },
+      0,
+    );
+    tl.to(
+      modalRef.current,
+      {
+        autoAlpha: 0,
+        duration: duration * 0.32,
+        data: { label: "Dialog fades out" },
+      },
+      0,
+    );
+    tl.to(
+      overlayRef.current,
+      {
+        "--fdg-blur": "0px",
+        backgroundColor: OVERLAY_TINT_OFF,
+        duration: duration * 0.4,
+        data: { label: "Page sharpens again" },
+      },
+      0,
+    );
+    if (gradientRef.current) {
+      tl.to(
+        gradientRef.current,
+        {
+          yPercent: 30,
+          autoAlpha: 0,
+          duration: duration * 0.35,
+          data: { label: "Gradient band sinks out" },
+        },
+        0,
+      );
+    }
+    liveTlRef.current = tl;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) tl.timeScale(1000);
+    return tl;
+  });
+
+  const handleTileClick = useCallback(() => {
+    if (!isOpenRef.current) openSheet();
+  }, [openSheet]);
+
+  // Hover micro-move: the two corner arrows spread outward (SVG user units).
+  const handleTileEnter = contextSafe(() => {
+    if (!glyphTrRef.current || !glyphBlRef.current) return;
+    gsap.to(glyphTrRef.current, {
+      x: 1.75,
+      y: -1.75,
+      duration: 0.4,
+      ease: "zeusAnnimateInOut",
+      overwrite: "auto",
+    });
+    gsap.to(glyphBlRef.current, {
+      x: -1.75,
+      y: 1.75,
+      duration: 0.4,
+      ease: "zeusAnnimateInOut",
+      overwrite: "auto",
+    });
+  });
+
+  const handleTileLeave = contextSafe(() => {
+    if (!glyphTrRef.current || !glyphBlRef.current) return;
+    gsap.to([glyphTrRef.current, glyphBlRef.current], {
+      x: 0,
+      y: 0,
+      duration: 0.4,
+      ease: "zeusAnnimateInOut",
+      overwrite: "auto",
+    });
+  });
+
+  const handleTileKeyDown = useCallback(
+    (e) => {
+      if (isOpenRef.current) return;
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        openSheet();
+      }
+    },
+    [openSheet],
+  );
+
+  const handleToggleClick = useCallback(
+    (e) => {
+      e.stopPropagation();
+      openSheet();
+    },
+    [openSheet],
+  );
+
+  const handleCloseClick = useCallback(() => {
+    closeSheet();
+  }, [closeSheet]);
+
+  const handleModalClick = useCallback(
+    (e) => {
+      if (isOpenRef.current && sheetRef.current && !sheetRef.current.contains(e.target))
+        closeSheet();
+    },
+    [closeSheet],
+  );
+
+  useGSAP(
+    () => {
+      if (isDisabled()) return;
+
+      tileRef.current?.setAttribute("role", "button");
+      tileRef.current?.setAttribute("tabindex", "0");
+      tileRef.current?.setAttribute("aria-haspopup", "dialog");
+      sheetRef.current?.setAttribute("role", "dialog");
+      sheetRef.current?.setAttribute("aria-modal", "true");
+      setOpenAria(false);
+
+      gsap.set(overlayRef.current, { "--fdg-blur": "0px", backgroundColor: OVERLAY_TINT_OFF });
+      gsap.set(modalRef.current, { y: ENTER_DISTANCE, autoAlpha: 0 });
+      if (gradientRef.current) gsap.set(gradientRef.current, { yPercent: 30, autoAlpha: 0 });
+
+      const mm = gsap.matchMedia();
+      mm.add("(prefers-reduced-motion: reduce)", () => {});
+
+      return () => {
+        unlockScroll();
+        mm.revert();
+        if (liveTlRef.current) liveTlRef.current.kill();
+      };
+    },
+    { scope: stageRef, dependencies: [] },
+  );
+
+  useEffect(() => {
+    const onKeydown = (e) => {
+      if (e.key === "Escape" && isOpenRef.current) closeSheet();
+      // Focus trap: while open the sheet is a modal dialog, so Tab cycles
+      // within it instead of escaping to the page behind.
+      if (e.key === "Tab" && isOpenRef.current) {
+        const sheet = sheetRef.current;
+        if (!sheet) return;
+        const focusables = sheet.querySelectorAll(
+          'button, a[href], input, select, textarea, [tabindex]:not([tabindex="-1"])',
+        );
+        if (!focusables.length) return;
+        const first = focusables[0];
+        const last = focusables[focusables.length - 1];
+        if (e.shiftKey && document.activeElement === first) {
+          e.preventDefault();
+          last.focus();
+        } else if (!e.shiftKey && document.activeElement === last) {
+          e.preventDefault();
+          first.focus();
+        } else if (!sheet.contains(document.activeElement)) {
+          e.preventDefault();
+          first.focus();
+        }
+      }
+    };
+    document.addEventListener("keydown", onKeydown);
+    return () => document.removeEventListener("keydown", onKeydown);
+  }, [closeSheet]);
+
+  useEffect(() => {
+    const onVisibility = () => {
+      liveTlRef.current?.paused(document.hidden);
+    };
+    document.addEventListener("visibilitychange", onVisibility);
+    return () => document.removeEventListener("visibilitychange", onVisibility);
+  }, []);
+
+  // Timeline inspector demo (ADR-0011): one open -> close pass, ending back
+  // in the closed idle state. setTimeout, not gsap.delayedCall - reduced
+  // motion timeScales the global timeline and would fire a delayedCall
+  // almost immediately.
+
+  return (
+    <div
+      ref={stageRef}
+      className={`fdg_stage ${className}`.trim()}
+      data-anm-feature-dialog
+      data-anm-duration={duration}
+      data-anm-ease={ease}
+      data-anm-disable={disable || undefined}
+    >
+      <div
+        ref={tileRef}
+        className="fdg_tile"
+        data-anm-fdg-tile
+        role="button"
+        tabIndex={0}
+        aria-haspopup="dialog"
+        onClick={handleTileClick}
+        onKeyDown={handleTileKeyDown}
+        onMouseEnter={handleTileEnter}
+        onMouseLeave={handleTileLeave}
+      >
+        <div className="fdg_gradient fdg_tile_gradient" />
+        <div className="fdg_tile_copy">
+          <div className="fdg_tile_label">{label}</div>
+          <h3 className="fdg_tile_title">{title}</h3>
+        </div>
+        <div className="fdg_tile_media" data-anm-fdg-tile-media>
+          <img
+            className="fdg_tile_img"
+            src={tileImage.src}
+            alt={tileImage.alt}
+            loading="eager"
+            decoding="async"
+          />
+        </div>
+        <button
+          ref={toggleRef}
+          type="button"
+          className="fdg_toggle"
+          data-anm-fdg-toggle
+          aria-expanded="false"
+          onClick={handleToggleClick}
+        >
+          <svg className="fdg_glyph" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path
+              ref={glyphTrRef}
+              className="fdg_glyph_tr"
+              d="M10 2H14V6"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            <path
+              ref={glyphBlRef}
+              className="fdg_glyph_bl"
+              d="M6 14H2V10"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <div ref={overlayRef} className="fdg_overlay" data-anm-fdg-overlay />
+
+      <div ref={modalRef} className="fdg_modal" data-anm-fdg-modal onClick={handleModalClick}>
+        <div ref={gradientRef} className="fdg_gradient fdg_panel_gradient" data-anm-fdg-gradient />
+        <div className="fdg_panel">
+          <section
+            ref={sheetRef}
+            className="fdg_sheet"
+            data-anm-fdg-sheet
+            aria-label={titleName}
+            aria-hidden="true"
+            inert={true}
+          >
+            <button
+              ref={closeBtnRef}
+              type="button"
+              className="fdg_close"
+              data-anm-fdg-close
+              aria-label="Close dialog"
+              onClick={handleCloseClick}
+            >
+              <svg className="fdg_glyph" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <path
+                  d="M4 4L12 12M12 4L4 12"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                />
+              </svg>
+            </button>
+
+            <div className="fdg_sheet_inner">
+              <div className="fdg_sheet_grid">
+                <div className="fdg_sheet_main">
+                  <div className="fdg_title_mask">
+                    <h2 ref={titleInnerRef} className="fdg_sheet_title" data-anm-fdg-title>
+                      {sheetTitle}
+                    </h2>
+                  </div>
+                  <p className="fdg_sheet_text">{sheetText}</p>
+                  <div className="fdg_actions">
+                    <button type="button" className="fdg_btn fdg_btn_primary" onClick={onAction}>
+                      {actionLabel}
+                    </button>
+                  </div>
+                </div>
+                <ul className="fdg_list">
+                  {listItems.map((item, i) => (
+                    <li
+                      key={item}
+                      className={`fdg_list_item${i === listItems.length - 1 ? " fdg_list_item_last" : ""}`}
+                    >
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="fdg_media_row">
+                {mediaImages.map((img) => (
+                  <div key={img.src} className="fdg_media_cell">
+                    <img
+                      className="fdg_sheet_img"
+                      src={img.src}
+                      alt={img.alt}
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </div>
+                ))}
+              </div>
+
+              <div className="fdg_stats">
+                {stats.map((stat) => (
+                  <div key={stat.label} className="fdg_stat">
+                    <div className="fdg_stat_num">{stat.num}</div>
+                    <div className="fdg_stat_label">{stat.label}</div>
+                  </div>
+                ))}
+              </div>
+
+              <div className="fdg_sheet_media">
+                <img
+                  className="fdg_sheet_img"
+                  src={sheetImage.src}
+                  alt={sheetImage.alt}
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+
+              <p className="fdg_outro">{outro}</p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  );
+}
+20:T25a9,// Styles adapted from the supplied Annnimate Starter Pack.
+const css = `
+
+.fdg_stage {
+  --margin: 40px;
+  --fdg-sans: var(--font-inter, Inter), -apple-system, BlinkMacSystemFont, sans-serif;
+  position: relative;
+  width: 100%;
+  min-height: var(--zeus-animation-height, 640px);
+  min-height: var(--zeus-animation-height, 640px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ebebe9;
+  padding: 80px 24px;
+  font-family: var(--fdg-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* The gradient family - bottom-anchored aurora in the brand palette.
+   Irregularity comes from pools of deliberately UNEVEN heights melted
+   together by a static blur: the edge undulates but no individual wave
+   shape is readable. */
+.fdg_gradient {
+  background-image:
+    radial-gradient(16% 88% at 22% 100%, rgba(253, 85, 29, 0.7) 0%, rgba(253, 85, 29, 0) 100%),
+    radial-gradient(30% 52% at 34% 100%, rgba(255, 138, 92, 0.75) 0%, rgba(255, 138, 92, 0) 100%),
+    radial-gradient(14% 70% at 58% 100%, rgba(255, 107, 61, 0.8) 0%, rgba(255, 107, 61, 0) 100%),
+    radial-gradient(24% 96% at 74% 100%, rgba(253, 85, 29, 0.8) 0%, rgba(253, 85, 29, 0) 100%),
+    radial-gradient(58% 44% at 10% 100%, rgba(255, 179, 138, 0.85) 0%, rgba(255, 179, 138, 0) 100%),
+    radial-gradient(40% 60% at 90% 100%, rgba(255, 107, 61, 0.85) 0%, rgba(255, 107, 61, 0) 100%),
+    radial-gradient(82% 78% at 50% 100%, #fd551d 0%, rgba(253, 85, 29, 0) 100%);
+  filter: blur(22px);
+}
+
+.fdg_tile {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  width: min(720px, 100%);
+  min-height: 340px;
+  border: 1px solid rgba(16, 16, 16, 0.12);
+  border-radius: 14px;
+  background-color: #ffffff;
+  overflow: hidden;
+  cursor: pointer;
+  outline: none;
+}
+
+.fdg_tile:focus-visible {
+  outline: 2px solid #fd551d;
+  outline-offset: 4px;
+}
+
+/* Tile variant: a wedge that rises toward the right - the left 10% stays
+   clean, the pools grow taller rightward. Oversized past the tile edges so
+   the noise displacement never reveals a gap at the borders. */
+.fdg_tile_gradient {
+  position: absolute;
+  left: -12px;
+  right: -12px;
+  bottom: -12px;
+  height: calc(60% + 12px);
+  background-image:
+    radial-gradient(35% 38% at 34% 100%, rgba(255, 179, 138, 0.8) 0%, rgba(255, 179, 138, 0) 100%),
+    radial-gradient(12% 58% at 48% 100%, rgba(255, 138, 92, 0.75) 0%, rgba(255, 138, 92, 0) 100%),
+    radial-gradient(40% 64% at 62% 100%, rgba(255, 107, 61, 0.85) 0%, rgba(255, 107, 61, 0) 100%),
+    radial-gradient(14% 84% at 78% 100%, rgba(253, 85, 29, 0.8) 0%, rgba(253, 85, 29, 0) 100%),
+    radial-gradient(55% 96% at 92% 100%, #fd551d 0%, rgba(253, 85, 29, 0) 100%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, transparent 10%, #000000 28%);
+  mask-image: linear-gradient(to right, transparent 0%, transparent 10%, #000000 28%);
+  pointer-events: none;
+}
+
+.fdg_tile_copy {
+  position: relative;
+  flex: 1 1 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 8px;
+  padding: 28px;
+  z-index: 1;
+}
+
+.fdg_tile_label {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: rgba(16, 16, 16, 0.55);
+}
+
+.fdg_tile_title {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  color: #101010;
+}
+
+.fdg_tile_media {
+  position: relative;
+  flex: 0 0 40%;
+  /* top/right clear the 54px expand-button zone so icon and image never overlap */
+  margin: 60px 60px 32px 24px;
+  border-radius: 12px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.fdg_tile_img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.fdg_toggle {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #efefed;
+  color: #101010;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.fdg_toggle:hover {
+  background-color: #e5e5e2;
+}
+
+.fdg_toggle:focus-visible {
+  outline: 2px solid #fd551d;
+  outline-offset: 3px;
+}
+
+.fdg_glyph {
+  width: 16px;
+  height: 16px;
+}
+
+/* Dark scrim: opacity stays 1 - the tint alpha and the blur radius are the
+   animated values (animating element opacity under backdrop-filter lets the
+   sharp page bleed through and the blur reads as nothing). */
+.fdg_overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(10, 10, 10, 0);
+  backdrop-filter: blur(var(--fdg-blur, 0px));
+  -webkit-backdrop-filter: blur(var(--fdg-blur, 0px));
+  pointer-events: none;
+  z-index: 40;
+}
+
+.fdg_modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 48px 24px 0;
+  pointer-events: none;
+  z-index: 50;
+}
+
+.fdg_stage.is-open .fdg_modal {
+  pointer-events: auto;
+}
+
+.fdg_panel {
+  position: relative;
+  width: min(880px, 100%);
+}
+
+/* Full-width aurora band at the viewport bottom, behind the sheet.
+   Oversized past the viewport edges so the noise displacement never
+   reveals a gap at the borders. */
+.fdg_panel_gradient {
+  position: absolute;
+  left: -30px;
+  right: -30px;
+  bottom: -30px;
+  height: calc(20% + 30px);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.fdg_sheet {
+  position: relative;
+  z-index: 1;
+  border-radius: 16px 16px 0 0;
+  background-color: #ffffff;
+  max-height: calc(var(--zeus-animation-height, 640px) - 64px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.fdg_close {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(16, 16, 16, 0.05);
+  color: #101010;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.fdg_close:hover {
+  background-color: rgba(16, 16, 16, 0.09);
+}
+
+.fdg_close:focus-visible {
+  outline: 2px solid #fd551d;
+  outline-offset: 3px;
+}
+
+.fdg_sheet_inner {
+  padding: clamp(28px, 4vw, 48px);
+}
+
+.fdg_sheet_grid {
+  display: grid;
+  grid-template-columns: 1.25fr 1fr;
+  gap: clamp(24px, 3vw, 48px);
+  align-items: start;
+}
+
+.fdg_title_mask {
+  /* y-only clip: negative tracking overhangs the box and an all-axis clip chops glyph edges */
+  overflow-x: visible;
+  overflow-y: clip;
+  padding-bottom: 0.16em;
+  margin-bottom: -0.16em;
+}
+
+.fdg_sheet_title {
+  margin: 0;
+  font-size: clamp(30px, 3.6vw, 44px);
+  font-weight: 300;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  color: #101010;
+}
+
+.fdg_sheet_text {
+  margin: 16px 0 0;
+  max-width: 440px;
+  font-size: 15px;
+  font-weight: 380;
+  line-height: 1.55;
+  letter-spacing: -0.01em;
+  color: rgba(16, 16, 16, 0.75);
+}
+
+.fdg_actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.fdg_btn {
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-family: var(--fdg-sans);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  cursor: pointer;
+}
+
+.fdg_btn_primary {
+  border: 1px solid #101010;
+  background-color: #101010;
+  color: #fffaf2;
+}
+
+.fdg_btn:focus-visible {
+  outline: 2px solid #fd551d;
+  outline-offset: 3px;
+}
+
+.fdg_list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.fdg_list_item {
+  position: relative;
+  padding: 12px 0 12px 22px;
+  border-bottom: 1px solid rgba(16, 16, 16, 0.1);
+  font-size: 14px;
+  font-weight: 420;
+  letter-spacing: -0.01em;
+  line-height: 1.4;
+  color: rgba(16, 16, 16, 0.85);
+}
+
+.fdg_list_item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 18px;
+  width: 7px;
+  height: 7px;
+  background-color: #101010;
+}
+
+/* explicit class, not :last-child - structural pseudo-classes are banned */
+.fdg_list_item_last {
+  border-bottom: none;
+}
+
+.fdg_media_row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: clamp(24px, 3vw, 40px);
+}
+
+.fdg_media_cell {
+  height: 320px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.fdg_sheet_media {
+  margin-top: clamp(24px, 3vw, 40px);
+  height: 320px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.fdg_sheet_img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.fdg_stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(20px, 3vw, 40px);
+  margin-top: clamp(32px, 4vw, 56px);
+  padding-top: clamp(24px, 3vw, 40px);
+  border-top: 1px solid rgba(16, 16, 16, 0.1);
+}
+
+.fdg_stat_num {
+  font-size: clamp(36px, 4vw, 56px);
+  font-weight: 300;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  color: #101010;
+}
+
+.fdg_stat_label {
+  margin-top: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: rgba(16, 16, 16, 0.55);
+}
+
+.fdg_outro {
+  margin: clamp(32px, 4vw, 56px) auto 12px;
+  max-width: 520px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 380;
+  line-height: 1.55;
+  letter-spacing: -0.01em;
+  color: rgba(16, 16, 16, 0.75);
+}
+
+@media (max-width: 767px) {
+  .fdg_stage {
+    --margin: 20px;
+    padding: 48px 16px;
+  }
+
+  .fdg_tile {
+    flex-direction: column-reverse;
+    min-height: 0;
+  }
+
+  .fdg_tile_media {
+    height: 200px;
+    margin: 64px 16px 0;
+  }
+
+  .fdg_modal {
+    padding: 24px 10px 0;
+  }
+
+  .fdg_panel_gradient {
+    left: -10px;
+    right: -10px;
+    top: -10px;
+    border-radius: 18px 18px 0 0;
+  }
+
+  .fdg_sheet {
+    max-height: calc(var(--zeus-animation-height, 640px) - 40px);
+  }
+
+  .fdg_sheet_grid {
+    grid-template-columns: 1fr;
+  }
+
+  .fdg_sheet_media {
+    height: 220px;
+  }
+
+  .fdg_media_row {
+    grid-template-columns: 1fr;
+  }
+
+  .fdg_media_cell {
+    height: 220px;
+  }
+
+  .fdg_stats {
+    grid-template-columns: 1fr;
+  }
+}
+`;
+export default css;
+3:["$","$L1e",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"feature-dialog","title":"Feature Dialog","description":"An expandable preview tile with a rising modal, gradient band and managed keyboard focus","category":"animations","tags":["animation","gsap","annnimate","feature-dialog"],"status":"beta","tier":"free","isNew":true,"dependencies":["@gsap/react","gsap"],"registryDependencies":["tokens"],"files":[{"path":"application/animations/feature-dialog-engine.d.ts","target":"components/application/animations/feature-dialog-engine.d.ts","type":"component","content":"import type { FeatureDialogProps } from \"./feature-dialog\";\nimport type { ComponentType } from \"react\";\ndeclare const Engine: ComponentType<FeatureDialogProps>;\nexport default Engine;\n"},{"path":"application/animations/feature-dialog-engine.jsx","target":"components/application/animations/feature-dialog-engine.jsx","type":"component","content":"$1f"},{"path":"application/animations/feature-dialog-styles.ts","target":"components/application/animations/feature-dialog-styles.ts","type":"component","content":"$20"},{"path":"application/animations/feature-dialog.tsx","target":"components/application/animations/feature-dialog.tsx","type":"component","content":"\"use client\";\n\n// Annnimate Starter Pack adaptation. See docs/ANNNIMATE.md for provenance.\nimport Engine from \"./feature-dialog-engine.jsx\";\nimport css from \"./feature-dialog-styles\";\n\nexport interface FeatureDialogImage {\n  src: string;\n  alt: string;\n}\nexport interface FeatureDialogProps {\n  className?: string;\n  duration?: number;\n  ease?: string;\n  disable?: string;\n  label?: string;\n  title?: string;\n  tileImage?: FeatureDialogImage;\n  sheetTitle?: string;\n  sheetText?: string;\n  actionLabel?: string;\n  onAction?: () => void;\n  onOpenChange?: (open: boolean) => void;\n  listItems?: string[];\n  mediaImages?: FeatureDialogImage[];\n  stats?: { num: string; label: string }[];\n  sheetImage?: FeatureDialogImage;\n  outro?: string;\n}\n\nexport function FeatureDialog(props: FeatureDialogProps) {\n  return (\n    <>\n      <style>{css}</style>\n      <Engine {...props} />\n    </>\n  );\n}\n"},{"path":"public/assets/annnimate/action_leap_01.jpg","target":"public/assets/annnimate/action_leap_01.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/hero_profile_03.jpg","target":"public/assets/annnimate/hero_profile_03.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/product_ball_05.jpg","target":"public/assets/annnimate/product_ball_05.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/roster_cap-silhouette_03.jpg","target":"public/assets/annnimate/roster_cap-silhouette_03.jpg","type":"asset","encoding":"base64"}],"hash":"c9e5069ec6ce"},"demoSource":"\"use client\";\n\nimport { FeatureDialog } from \"@/components/application/animations/feature-dialog\";\nimport { useState } from \"react\";\n\nexport default function Demo() {\n  const [action, setAction] = useState(\"\");\n  return (\n    <div className=\"w-full\">\n      <FeatureDialog onAction={() => setAction(\"Story selected\")} />\n      {action && (\n        <p role=\"status\" className=\"mt-3 text-sm\">\n          {action}\n        </p>\n      )}\n    </div>\n  );\n}","previous":{"name":"curtain-slider","title":"Curtain Slider"},"next":{"name":"ascii-overlay","title":"ASCII Overlay"}}]
+4:["$","script","script-0",{"src":"/_next/static/chunks/3w1c4bmwbkv-4.js","async":true}]
+5:["$","script","script-1",{"src":"/_next/static/chunks/44xbpy-pvbnib.js","async":true}]
+6:["$","script","script-2",{"src":"/_next/static/chunks/0jocqdh7qodi4.js","async":true}]
+7:["$","script","script-3",{"src":"/_next/static/chunks/0iw0to4qmrq4l.js","async":true}]
+8:["$","script","script-4",{"src":"/_next/static/chunks/06es_ecb9le4q.js","async":true}]
+9:["$","script","script-5",{"src":"/_next/static/chunks/0-afrvt74ak7l.js","async":true}]
+a:["$","script","script-6",{"src":"/_next/static/chunks/0337601gswv_s.js","async":true}]
+b:["$","script","script-7",{"src":"/_next/static/chunks/34zl6f3dq0u0q.js","async":true}]
+c:["$","script","script-8",{"src":"/_next/static/chunks/1wypk9kc4p_mt.js","async":true}]
+d:["$","script","script-9",{"src":"/_next/static/chunks/23ywcyogzmwlv.js","async":true}]
+e:["$","script","script-10",{"src":"/_next/static/chunks/1ncyn83jriw3_.js","async":true}]
+f:["$","script","script-11",{"src":"/_next/static/chunks/2az_x4uxpy3sm.js","async":true}]
+10:["$","$L21",null,{"children":["$","$22",null,{"name":"Next.MetadataOutlet","children":"$@23"}]}]
+13:["$","$1","h",{"children":[null,["$","$L24",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L25",null,{"children":["$","$22",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Feature Dialog — Zeus UI"}],["$","meta","1",{"name":"description","content":"An expandable preview tile with a rising modal, gradient band and managed keyboard focus"}],["$","meta","2",{"name":"keywords","content":"animation,gsap,annnimate,feature-dialog"}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+15:["$","$1","c",{"children":[null,["$","$L26",null,{"parallelRouterKey":"children","template":["$","$L27",null,{}]}]]}]
+18:["$","$1","c",{"children":[null,["$","$L26",null,{"parallelRouterKey":"children","template":["$","$L27",null,{}]}]]}]
+1a:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1fxg3bgxs4oub.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/0by1pam5w7cuf.js","async":true}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L28",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L26",null,{"parallelRouterKey":"children","template":["$","$L27",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]]}]}]]}]
+23:null
+1d:true
+12:300
+12:C
+1c:0
+14:"$undefined"
+16:"$undefined"
+19:"$undefined"
+1b:"$undefined"
+11:"$undefined"

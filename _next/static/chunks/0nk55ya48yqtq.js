@@ -1,1 +1,0 @@
-(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,99734,t=>{"use strict";var i=t.i(38935),o=t.i(63600);t.s(["default",0,function(){return(0,i.jsx)("div",{className:"w-full max-w-xl",children:(0,i.jsx)(o.ComboChartCard,{})})}])},24269,function(t){t.n(t.i(99734))}]);

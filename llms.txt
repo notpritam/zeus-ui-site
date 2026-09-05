@@ -2,17 +2,28 @@
 
 Reusable React components, charts and application templates for coding agents.
 
-- [Agent manifest](https://myzeusui.com/agents.json): 88 components with examples, install commands and source URLs.
+- [Agent manifest](https://myzeusui.com/agents.json): 99 components with examples, install commands and source URLs.
 - [Registry](https://myzeusui.com/r/registry.json)
 - [Documentation](https://myzeusui.com/foundations/)
 - [Verification status](https://myzeusui.com/verification/): measured parity and known differences.
 
 ## Install source
 
-Run `npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui init`, then `npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add agent-limits-card`.
+Run `npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.0.tgz zeus-ui init`, then `npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.0.tgz zeus-ui add agent-limits-card`.
 
 ## Components
 
+- [Morphing Tooltip](https://myzeusui.com/components/morphing-tooltip/): A shared liquid tooltip that rises from toolbar buttons, travels between them and resizes to each caption
+- [Text Reveal](https://myzeusui.com/components/text-reveal/): Scroll-triggered line, word and character reveals with masks and readable static content
+- [Animated Accordion](https://myzeusui.com/components/animated-accordion/): Coordinated expandable panels with rotating icons and optional line-by-line text reveals
+- [Dual Scramble](https://myzeusui.com/components/dual-scramble/): Two-stage colored text scrambling on scroll, hover, focus, click or load
+- [Multi-Level Drawer Menu](https://myzeusui.com/components/multi-level-drawer-menu/): Two-panel navigation with animated category previews and a mobile drill-down
+- [Image Fly-In](https://myzeusui.com/components/image-fly-in/): A continuous image depth field with cursor parallax and a clear central content zone
+- [Scale Slider](https://myzeusui.com/components/scale-slider/): An exponential image conveyor with drag inertia, keyboard navigation and optional drift
+- [Curtain Slider](https://myzeusui.com/components/curtain-slider/): A full-bleed image carousel with staggered column wipes and rolling titles
+- [Feature Dialog](https://myzeusui.com/components/feature-dialog/): An expandable preview tile with a rising modal, gradient band and managed keyboard focus
+- [ASCII Overlay](https://myzeusui.com/components/ascii-overlay/): Image-aware WebGL character overlays with scroll-driven density and a static media fallback
+- [Animated Pricing](https://myzeusui.com/components/animated-pricing/): Pricing cards with digit-by-digit billing transitions, a savings chip and shimmering names
 - [Home Dashboard](https://myzeusui.com/components/home-dashboard/): An overview workspace with revenue, earnings, recent hires and searchable records
 - [Finance Dashboard](https://myzeusui.com/components/finance-dashboard/): Personal finance workspace with cash flow, investments, spending and transaction records
 - [Marketing Dashboard](https://myzeusui.com/components/marketing-dashboard/): Campaign analytics with conversion funnels, channel attribution and campaign management

@@ -1,0 +1,1264 @@
+1:"$Sreact.fragment"
+2:I[97948,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3w1c4bmwbkv-4.js","/_next/static/chunks/44xbpy-pvbnib.js","/_next/static/chunks/0jocqdh7qodi4.js","/_next/static/chunks/0iw0to4qmrq4l.js","/_next/static/chunks/06es_ecb9le4q.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/1wypk9kc4p_mt.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/1ncyn83jriw3_.js","/_next/static/chunks/2az_x4uxpy3sm.js"],"DocsLayout"]
+12:X
+17:X
+17:C
+0:{"buildId":"niOMvdzB6DV3jUiqZP10s","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"Curtain Slider","heading":"Curtain Slider","icon":"components","groups":[{"id":"foundations","title":"Foundations","items":[{"name":"tokens","title":"Design tokens"},{"name":"typography","title":"Typography"},{"name":"cx","title":"cx"},{"name":"chevrons","title":"Chevrons"},{"name":"logo","title":"Logo"},{"name":"use-count-up","title":"useCountUp"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress"}]},{"id":"base","title":"Base","items":[{"name":"button","title":"Button"},{"name":"icon-button","title":"Icon Button"},{"name":"link-button","title":"Link Button"},{"name":"button-group","title":"Button Group"},{"name":"close-button","title":"Close Button"},{"name":"social-button","title":"Social Button"},{"name":"input","title":"Input"},{"name":"input-otp","title":"Input OTP"},{"name":"checkbox","title":"Checkbox"},{"name":"radio","title":"Radio"},{"name":"switch","title":"Switch"},{"name":"select","title":"Select"},{"name":"slider","title":"Slider"},{"name":"dropdown","title":"Dropdown"},{"name":"divider","title":"Divider"},{"name":"file-upload","title":"File Upload"},{"name":"tabs","title":"Tabs"},{"name":"segmented-control","title":"Segmented Control"},{"name":"table","title":"Table"},{"name":"tooltip","title":"Tooltip"},{"name":"badge","title":"Badge"},{"name":"chip","title":"Chip"},{"name":"status-dot","title":"Status Dot"},{"name":"kbd","title":"Kbd"},{"name":"avatar","title":"Avatar"},{"name":"breadcrumb","title":"Breadcrumb"},{"name":"pagination","title":"Pagination"},{"name":"carousel","title":"Carousel"},{"name":"announcement","title":"Announcement"},{"name":"notification","title":"Notification"},{"name":"date-picker","title":"Date Picker"},{"name":"date-range-picker","title":"Date Range Picker"},{"name":"meeting-scheduler","title":"Meeting Scheduler"}]},{"id":"blocks","title":"Blocks","items":[{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"calendar","title":"Calendar","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"theme-toggle","title":"Theme Toggle"},{"name":"stat-cards","title":"Stat Cards"},{"name":"data-table","title":"Data Table"},{"name":"sidebar","title":"Sidebar"},{"name":"app-shell","title":"App Shell"},{"name":"notification-center","title":"Notification Center"},{"name":"settings-modal","title":"Settings Modal"},{"name":"auth-card","title":"Auth Card"},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking"},{"name":"composer-loader","title":"Composer Loader"},{"name":"agent-log","title":"Agent Log"},{"name":"agent-chat","title":"Agent Chat"}]},{"id":"charts","title":"Charts","items":[{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart"},{"name":"orders-chart-card","title":"Orders Chart"},{"name":"important-alerts-card","title":"Important Alerts"},{"name":"patient-info-card","title":"Patient Info"}]},{"id":"animations","title":"Animations","items":[{"name":"morphing-tooltip","title":"Morphing Tooltip","isNew":true},{"name":"text-reveal","title":"Text Reveal","isNew":true},{"name":"animated-accordion","title":"Animated Accordion","isNew":true},{"name":"dual-scramble","title":"Dual Scramble","isNew":true},{"name":"multi-level-drawer-menu","title":"Multi-Level Drawer Menu","isNew":true},{"name":"image-fly-in","title":"Image Fly-In","isNew":true},{"name":"scale-slider","title":"Scale Slider","isNew":true},{"name":"curtain-slider","title":"Curtain Slider","isNew":true},{"name":"feature-dialog","title":"Feature Dialog","isNew":true},{"name":"ascii-overlay","title":"ASCII Overlay","isNew":true},{"name":"animated-pricing","title":"Animated Pricing","isNew":true}]},{"id":"templates","title":"Templates","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true},{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true}]}],"description":"A full-bleed image carousel with staggered column wipes and rolling titles","detail":true,"children":"$L3"}],["$L4","$L5","$L6","$L7","$L8","$L9","$La","$Lb","$Lc","$Ld","$Le","$Lf"],"$L10"]}],"isPartial":"$@11","staleTime":"$12","varyParams":null},{"rsc":"$L13","isPartial":"$@14","staleTime":"$12","varyParams":null},{"rsc":"$L15","isPartial":"$@16","staleTime":"$12","varyParams":"$17"},{"rsc":"$L18","isPartial":"$@19","staleTime":"$12","varyParams":"$17"},{"rsc":"$L1a","isPartial":"$@1b","staleTime":"$12","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@1c","rootVaryParams":null,"needsRuntimeRequest":"$@1d"}
+1e:I[93646,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3w1c4bmwbkv-4.js","/_next/static/chunks/44xbpy-pvbnib.js","/_next/static/chunks/0jocqdh7qodi4.js","/_next/static/chunks/0iw0to4qmrq4l.js","/_next/static/chunks/06es_ecb9le4q.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/1wypk9kc4p_mt.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/1ncyn83jriw3_.js","/_next/static/chunks/2az_x4uxpy3sm.js"],"ComponentPage"]
+21:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"OutletBoundary"]
+22:"$Sreact.suspense"
+24:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"ViewportBoundary"]
+25:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"MetadataBoundary"]
+26:I[37280,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+27:I[75701,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+28:I[72844,["/_next/static/chunks/0by1pam5w7cuf.js"],""]
+:HL["/_next/static/chunks/16_ml9va511u1.css","style"]
+:HL["/_next/static/chunks/1fxg3bgxs4oub.css","style"]
+1f:T7098,"use client";
+
+// Adapted from the user-supplied Annnimate Starter Pack by Good Fella.
+// Zeus integration repairs documented in docs/ANNNIMATE.md.
+
+import React, { useRef, useCallback, useEffect } from "react";
+import { gsap } from "gsap";
+import { CustomEase } from "gsap/dist/CustomEase";
+import { useGSAP } from "@gsap/react";
+
+if (typeof window !== "undefined") {
+  gsap.registerPlugin(useGSAP, CustomEase);
+  if (!CustomEase.get("zeusAnnimate")) {
+    CustomEase.create("zeusAnnimate", "M0,0 C0.3,0.9 0.1,1 1,1");
+  }
+  if (!CustomEase.get("zeusAnnimateInOut")) {
+    CustomEase.create("zeusAnnimateInOut", "M0,0 C0.7,0 0.16,1 1,1");
+  }
+}
+
+const STRIP_DUR_RATIO = 0.62;
+// Dimming runs on per-strip black shade overlays tweening OPACITY, never
+// on filter: brightness() - animated filters repaint every frame and
+// churn compositor layers (flashing-rectangle flicker at fullscreen
+// retina + high refresh). Opacity composites on the GPU.
+const INCOMING_SHADE = 0.18;
+const OUT_SHADE = 0.3;
+const ZOOM_FROM = 1.3;
+const TITLE_OUT_DUR = 0.55;
+const TITLE_IN_DUR = 0.95;
+const LABEL_DUR = 0.5;
+const DIGIT_DUR = 0.7;
+const SWIPE_THRESHOLD_RATIO = 0.15;
+const ARROW_HOVER_DUR = 0.35;
+const ARROW_PRESS_DUR = 0.15;
+const AUTO_RESUME_DELAY = 4;
+
+const VIEWPORT_QUERIES = {
+  mobile: "(max-width: 479px)",
+  tablet: "(max-width: 991px)",
+  landscape: "(orientation: landscape) and (max-width: 767px)",
+  desktop: "(min-width: 992px)",
+};
+
+const DEFAULT_IMAGES = [
+  {
+    src: "/assets/annnimate/hero_run_02.jpg",
+    alt: "Runner silhouetted mid-stride against a bright wall",
+    title: "Drive",
+    label: "Chapter 01",
+  },
+  {
+    src: "/assets/annnimate/action_cyclist-climb_02.jpg",
+    alt: "Cyclist climbing in motion blur against a warm backdrop",
+    title: "Endurance",
+    label: "Chapter 02",
+  },
+  {
+    src: "/assets/annnimate/hero_profile_02.jpg",
+    alt: "Athlete in profile against a bright orange field",
+    title: "Focus",
+    label: "Chapter 03",
+  },
+];
+
+function indexLabel(i) {
+  return String(i + 1).padStart(2, "0");
+}
+
+function isDisabledOnViewport(disable) {
+  if (!disable) return false;
+  const list = Array.isArray(disable) ? disable : String(disable).split(",");
+  return list.some((v) => {
+    const q = VIEWPORT_QUERIES[String(v).trim()];
+    return q && window.matchMedia(q).matches;
+  });
+}
+
+function buildCharLine(text, lineClass, charClass) {
+  const line = document.createElement("span");
+  line.className = lineClass;
+  text.split("").forEach((ch) => {
+    const span = document.createElement("span");
+    span.className = charClass;
+    // inline-block char spans collapse a plain space to zero width -
+    // swap word gaps for a non-breaking space so they keep their width
+    span.textContent = ch === " " ? "\xA0" : ch;
+    line.appendChild(span);
+  });
+  return line;
+}
+
+function splitChars(el, text, lineClass, charClass) {
+  el.innerHTML = "";
+  const line = buildCharLine(text, lineClass, charClass);
+  el.appendChild(line);
+  return Array.from(line.querySelectorAll("." + charClass));
+}
+
+// Swap masked char content without clearing the element: the outgoing
+// line is lifted onto an absolute overlay (its own mask keeps clipping)
+// and removed only when its exit tween completes, so both the out and
+// the in animation always run to the end.
+function swapChars(el, newText, lineClass, charClass, outVars, inVars) {
+  const oldLine = el.querySelector("." + lineClass + ":not(.cs_line_out)");
+  if (oldLine) {
+    oldLine.classList.add("cs_line_out");
+    const oldChars = oldLine.querySelectorAll("." + charClass);
+    gsap.to(
+      oldChars,
+      Object.assign(
+        {
+          onComplete: () => {
+            oldLine.remove();
+          },
+        },
+        outVars,
+      ),
+    );
+  }
+  const line = buildCharLine(newText, lineClass, charClass);
+  el.appendChild(line);
+  const chars = Array.from(line.querySelectorAll("." + charClass));
+  // Park FIRST via set: a delayed fromTo does NOT immediateRender, so the
+  // incoming line would sit visible at rest during the delay and "jump".
+  gsap.set(chars, inVars.from);
+  gsap.to(chars, inVars.to);
+  return chars;
+}
+
+function buildDigitColumn(digitChar) {
+  const wrap = document.createElement("span");
+  wrap.className = "cs_digit_wrap";
+  const roller = document.createElement("span");
+  roller.className = "cs_digit_roller";
+  for (let d = 0; d <= 9; d++) {
+    const s = document.createElement("span");
+    s.textContent = String(d);
+    roller.appendChild(s);
+  }
+  wrap.appendChild(roller);
+  wrap._digit = parseInt(digitChar, 10);
+  wrap._roller = roller;
+  return wrap;
+}
+
+function setIndexDisplay(el, valueString, total) {
+  el.innerHTML = "";
+  valueString.split("").forEach((ch) => {
+    const col = buildDigitColumn(ch);
+    gsap.set(col._roller, { y: -col._digit + "em" });
+    el.appendChild(col);
+  });
+  const divider = document.createElement("span");
+  divider.className = "cs_index_divider";
+  divider.textContent = "/";
+  el.appendChild(divider);
+  const totalEl = document.createElement("span");
+  totalEl.className = "cs_index_total";
+  totalEl.textContent = indexLabel(total - 1);
+  el.appendChild(totalEl);
+}
+
+function rollIndex(el, value) {
+  const cols = Array.from(el.querySelectorAll(".cs_digit_wrap"));
+  value.split("").forEach((d, i) => {
+    const col = cols[i];
+    if (!col) return;
+    const target = parseInt(d, 10);
+    col._digit = target;
+    gsap.to(col._roller, {
+      y: -target + "em",
+      duration: DIGIT_DUR,
+      ease: "expo.inOut",
+      force3D: true,
+      overwrite: true,
+    });
+  });
+}
+
+// Each layer is built from COLUMNS strips: an overflow-hidden mask with a
+// stage-congruent inner (the inner is exactly the stage rect, offset so
+// the strips reassemble the full cover-fit photo). Strip edges are
+// integer-snapped pixels, and every strip except the last OVERLAPS its
+// right neighbor by 1px: under a fractional effective scale (preview
+// scale-to-fit, browser zoom, odd dpr) exactly-tiled edges antialias
+// against the stage and leak hairline seams between columns. The inner is
+// stage-congruent, so the overlapped pixel renders identical image
+// content - invisible, but the seam can never open.
+function layoutStrips(stage, layerParts, columns) {
+  const w = stage.clientWidth || 1;
+  const edges = [];
+  for (let c = 0; c <= columns; c++) edges.push(Math.round((c * w) / columns));
+  layerParts.forEach((parts) => {
+    for (let c = 0; c < columns; c++) {
+      const strip = parts.strips[c];
+      const inner = parts.inners[c];
+      const overlap = c < columns - 1 ? 1 : 0;
+      strip.style.left = edges[c] + "px";
+      strip.style.width = edges[c + 1] - edges[c] + overlap + "px";
+      inner.style.left = -edges[c] + "px";
+      inner.style.width = w + "px";
+    }
+  });
+}
+
+function setLayerVisible(layer, visible) {
+  layer.style.visibility = visible ? "" : "hidden";
+}
+
+// A clip edge is antialiased even at inset(0) and leaks a hairline of
+// the layer beneath - settled strips must carry NO clip at all.
+function clearStripClips(parts) {
+  for (let s = 0; s < parts.strips.length; s++) {
+    parts.strips[s].style.clipPath = "none";
+    parts.strips[s].style.removeProperty("--csc");
+  }
+}
+
+export default function CurtainSlider({
+  className = "",
+  images = DEFAULT_IMAGES,
+  duration = 1.1,
+  ease = "zeusAnnimate",
+  columns = 12,
+  auto = 0,
+  drag = true,
+  stagger = 0.0125,
+  disable,
+  onChange,
+}) {
+  const containerRef = useRef(null);
+  const stageRef = useRef(null);
+  const labelElRef = useRef(null);
+  const titleElRef = useRef(null);
+  const indexElRef = useRef(null);
+  const progressFillRef = useRef(null);
+  const prevBtnRef = useRef(null);
+  const nextBtnRef = useRef(null);
+  const liveRegionRef = useRef(null);
+
+  const clampedColumns = Math.max(2, Math.min(24, parseInt(columns, 10) || 12));
+  const resolvedEase =
+    ease === "zeusAnnimate" || ease === "zeusAnnimateInOut" ? ease : ease || "expo.out";
+  const barDur = duration * 0.8;
+
+  const currentIndexRef = useRef(0);
+  const refsRef = useRef(null);
+  const zTopRef = useRef(0);
+  const goToSeqRef = useRef(0);
+  const inFlightRef = useRef(null);
+  const lastGoToRef = useRef(0);
+  const dragStartRef = useRef(0);
+  const dragActiveRef = useRef(false);
+  const dragAxisSizeRef = useRef(1);
+  const autoTimerRef = useRef(null);
+  const resumeTimerRef = useRef(null);
+  const reducedMotionRef = useRef(false);
+
+  const announce = useCallback(() => {
+    const refs = refsRef.current;
+    if (!refs) return;
+    refs.liveRegion.textContent =
+      "Slide " +
+      (currentIndexRef.current + 1) +
+      " of " +
+      images.length +
+      ": " +
+      images[currentIndexRef.current].title;
+  }, [images]);
+
+  const settleCurrent = useCallback(() => {
+    const refs = refsRef.current;
+    if (!refs) return;
+    const slide = images[currentIndexRef.current];
+
+    const titleChars = splitChars(
+      refs.titleEl,
+      slide.title || "",
+      "cs_title_line",
+      "cs_title_char",
+    );
+    gsap.set(titleChars, { yPercent: 0, y: 0 });
+
+    const labelChars = splitChars(
+      refs.labelEl,
+      slide.label || "",
+      "cs_label_line",
+      "cs_title_char",
+    );
+    gsap.set(labelChars, { yPercent: 0, y: 0 });
+
+    setIndexDisplay(refs.indexEl, indexLabel(currentIndexRef.current), images.length);
+
+    gsap.set(refs.progressFill, {
+      scaleX: (currentIndexRef.current + 1) / images.length,
+      transformOrigin: "left center",
+    });
+
+    announce();
+  }, [images, announce]);
+
+  const stopAuto = useCallback(() => {
+    if (autoTimerRef.current) {
+      clearInterval(autoTimerRef.current);
+      autoTimerRef.current = null;
+    }
+  }, []);
+
+  const startAuto = useCallback(() => {
+    stopAuto();
+    if (auto > 0 && !reducedMotionRef.current) {
+      autoTimerRef.current = setInterval(() => {
+        nextRef.current();
+      }, auto * 1000);
+    }
+  }, [auto, stopAuto]);
+
+  const armAutoResume = useCallback(() => {
+    if (auto <= 0) return;
+    stopAuto();
+    clearTimeout(resumeTimerRef.current);
+    resumeTimerRef.current = setTimeout(startAuto, AUTO_RESUME_DELAY * 1000);
+  }, [auto, stopAuto, startAuto]);
+
+  // direction: 1 = next, -1 = prev
+  const goTo = useCallback(
+    (newIndex, direction) => {
+      const refs = refsRef.current;
+      if (!refs || newIndex === currentIndexRef.current) return;
+      const now = performance.now();
+      if (!reducedMotionRef.current && now - lastGoToRef.current < 150) return;
+      lastGoToRef.current = now;
+
+      // Reversing onto the slide that is mid-demotion: snap the in-flight
+      // transition to done first so re-clipping it never flashes the stage.
+      if (inFlightRef.current && newIndex === inFlightRef.current.outIndex) {
+        inFlightRef.current.tl.progress(1);
+        inFlightRef.current = null;
+      }
+
+      const outIndex = currentIndexRef.current;
+      currentIndexRef.current = newIndex;
+      const slide = images[newIndex];
+      if (reducedMotionRef.current) {
+        inFlightRef.current?.tl.kill();
+        inFlightRef.current = null;
+        refs.layers.forEach((layer, i) => {
+          gsap.killTweensOf(layer);
+          setLayerVisible(layer, i === newIndex);
+          gsap.set(layer, { scale: 1 });
+        });
+        settleCurrent();
+        onChange?.({ index: newIndex, direction, slide });
+        return;
+      }
+
+      const seq = ++goToSeqRef.current;
+      const tl = gsap.timeline({
+        onComplete: () => {
+          if (inFlightRef.current && inFlightRef.current.tl === tl) inFlightRef.current = null;
+        },
+      });
+      inFlightRef.current = { tl, outIndex };
+      if (reducedMotionRef.current) tl.timeScale(1000);
+
+      // --- background layers: the OUTGOING slide's columns exit through
+      // their strip masks with a travel-signed stagger (the curtain), while
+      // the incoming slide sits whole beneath, zoom-settling + brightening.
+      const outLayer = refs.layers[outIndex];
+      const inLayer = refs.layers[newIndex];
+      const outParts = refs.layerParts[outIndex];
+      const inParts = refs.layerParts[newIndex];
+
+      // outgoing rides ON TOP of the incoming; monotonically increasing
+      // pairs keep the newest transition's stack order under spam
+      zTopRef.current += 2;
+      outLayer.style.zIndex = String(images.length + zTopRef.current + 1);
+      inLayer.style.zIndex = String(images.length + zTopRef.current);
+      setLayerVisible(outLayer, true);
+      setLayerVisible(inLayer, true);
+
+      // an interrupted exit can leave partial clips on the layer that is now
+      // incoming - clear them before it shows whole beneath the curtain
+      gsap.killTweensOf(inParts.strips);
+      gsap.killTweensOf(inLayer);
+      gsap.killTweensOf(inParts.shades);
+      clearStripClips(inParts);
+      // Zoom the LAYER, not the 12 imgs inside it: scaling twelve
+      // stage-sized dpr2 textures per frame forces compositor re-rasters
+      // (checkerboard-rectangle flicker on 120Hz retina); one layer
+      // transform is compositor-cheap and visually identical while the
+      // incoming plate is unclipped.
+      gsap.set(inLayer, { scale: ZOOM_FROM, transformOrigin: "50% 50%", force3D: true });
+      gsap.set(inParts.shades, { opacity: INCOMING_SHADE });
+
+      const stripDur = duration * STRIP_DUR_RATIO;
+      const stripStagger = (duration - stripDur) / Math.max(1, clampedColumns - 1);
+
+      // The curtain: every outgoing column stays in place while its clip
+      // edge wipes sideways, staggered across the row. The wipe side and
+      // the stagger both follow travel: next wipes + staggers left -> right,
+      // prev right -> left. Only the inset SIDE is a static template - the
+      // tween drives the single --csc var (never tween inset strings - they
+      // collapse and freeze).
+      gsap.killTweensOf(outParts.strips);
+      for (let s = 0; s < outParts.strips.length; s++) {
+        outParts.strips[s].style.clipPath =
+          direction > 0 ? "inset(0% 0% 0% var(--csc, 0%))" : "inset(0% var(--csc, 0%) 0% 0%)";
+      }
+      gsap.set(outParts.strips, { "--csc": "0%" });
+      // target overshoots 100%: the drift ease spends its long tail on the
+      // last ~1% of distance, which parks a 1px antialiased sliver at the
+      // column edge until the tween ends (it reads as a flicker). Crossing
+      // the visually-empty point at 100% mid-ease kills the sliver while
+      // the tail plays out invisibly (an inset past 100% renders nothing).
+      tl.to(
+        outParts.strips,
+        {
+          "--csc": "105%",
+          duration: stripDur,
+          ease: resolvedEase,
+          stagger: direction > 0 ? stripStagger : -stripStagger,
+          overwrite: true,
+        },
+        0,
+      );
+      gsap.killTweensOf(outParts.shades);
+      tl.to(
+        outParts.shades,
+        {
+          opacity: OUT_SHADE,
+          duration: stripDur * 0.8,
+          ease: "power1.in",
+          stagger: direction > 0 ? stripStagger : -stripStagger,
+          overwrite: "auto",
+        },
+        0,
+      );
+
+      // incoming settles underneath for the full transition length
+      tl.to(
+        inLayer,
+        {
+          scale: 1,
+          duration: duration * 1.05,
+          ease: resolvedEase,
+          force3D: true,
+        },
+        0,
+      );
+      tl.to(
+        inParts.shades,
+        {
+          opacity: 0,
+          duration: duration * 1.05,
+          ease: resolvedEase,
+        },
+        0,
+      );
+
+      tl.call(
+        () => {
+          // Only the newest transition may settle the stage: under spam, an
+          // older tl completing late would otherwise restack layers a newer
+          // transition is actively using.
+          if (seq !== goToSeqRef.current) return;
+          refs.layers.forEach((layer, i) => {
+            const parts = refs.layerParts[i];
+            gsap.killTweensOf(parts.strips);
+            gsap.killTweensOf(layer);
+            gsap.killTweensOf(parts.shades);
+            clearStripClips(parts);
+            gsap.set(layer, { scale: 1 });
+            gsap.set(parts.shades, { opacity: 0 });
+            setLayerVisible(layer, i === newIndex);
+            layer.style.zIndex = i === newIndex ? String(images.length) : String(i);
+          });
+        },
+        null,
+        duration,
+      );
+
+      // --- texts: outgoing chars keep animating on an overlay line while the
+      // incoming line staggers in - both always complete. ---
+      swapChars(
+        refs.titleEl,
+        slide.title || "",
+        "cs_title_line",
+        "cs_title_char",
+        {
+          yPercent: direction > 0 ? -120 : 120,
+          y: 0,
+          duration: TITLE_OUT_DUR,
+          ease: "zeusAnnimateInOut",
+          stagger: direction > 0 ? stagger : -stagger,
+          force3D: true,
+          overwrite: true,
+        },
+        {
+          from: { yPercent: direction > 0 ? 120 : -120, y: 0 },
+          to: {
+            yPercent: 0,
+            y: 0,
+            duration: TITLE_IN_DUR,
+            ease: "zeusAnnimateInOut",
+            stagger: direction > 0 ? stagger : -stagger,
+            force3D: true,
+            overwrite: true,
+          },
+        },
+      );
+
+      swapChars(
+        refs.labelEl,
+        slide.label || "",
+        "cs_label_line",
+        "cs_title_char",
+        {
+          yPercent: direction > 0 ? -110 : 110,
+          y: 0,
+          duration: LABEL_DUR * 0.7,
+          ease: "zeusAnnimateInOut",
+          force3D: true,
+          overwrite: true,
+        },
+        {
+          from: { yPercent: direction > 0 ? 110 : -110, y: 0 },
+          to: {
+            yPercent: 0,
+            y: 0,
+            duration: LABEL_DUR,
+            ease: "zeusAnnimateInOut",
+            force3D: true,
+            overwrite: true,
+          },
+        },
+      );
+
+      rollIndex(refs.indexEl, indexLabel(newIndex));
+
+      gsap.set(refs.progressFill, { transformOrigin: "left center" });
+      tl.to(
+        refs.progressFill,
+        {
+          scaleX: (newIndex + 1) / images.length,
+          duration: barDur,
+          ease: resolvedEase,
+          force3D: true,
+          overwrite: "auto",
+        },
+        0,
+      );
+
+      announce();
+      onChange?.({ index: newIndex, direction, slide });
+    },
+    [images, duration, clampedColumns, resolvedEase, stagger, barDur, announce, onChange],
+  );
+
+  const next = useCallback(() => {
+    const i = (currentIndexRef.current + 1) % images.length;
+    goTo(i, 1);
+  }, [images.length, goTo]);
+
+  const prev = useCallback(() => {
+    const i = (currentIndexRef.current - 1 + images.length) % images.length;
+    goTo(i, -1);
+  }, [images.length, goTo]);
+
+  // next/prev are re-created per render (deps change with duration/ease/etc);
+  // interval/keyboard handlers need a stable call-through to the latest fns.
+  const nextRef = useRef(next);
+  const prevRef = useRef(prev);
+  nextRef.current = next;
+  prevRef.current = prev;
+
+  const { contextSafe } = useGSAP(
+    () => {
+      if (isDisabledOnViewport(disable)) return;
+      const stage = stageRef.current;
+      const container = containerRef.current;
+      if (!stage || !container) return;
+
+      if (!images.length) return;
+      currentIndexRef.current = Math.min(currentIndexRef.current, images.length - 1);
+      stage.innerHTML = "";
+
+      const layerWrap = document.createElement("div");
+      layerWrap.className = "cs_layers";
+      const layerParts = [];
+      const layers = images.map((slide, i) => {
+        const layer = document.createElement("div");
+        layer.className = "cs_layer";
+        layer.style.zIndex = String(i);
+        layer.style.visibility = i === currentIndexRef.current ? "" : "hidden";
+        const parts = { strips: [], inners: [], imgs: [], shades: [] };
+        for (let c = 0; c < clampedColumns; c++) {
+          const strip = document.createElement("div");
+          strip.className = "cs_strip";
+          const inner = document.createElement("div");
+          inner.className = "cs_strip_inner";
+          const img = document.createElement("img");
+          img.className = "cs_layer_img";
+          img.src = slide.src;
+          img.alt = c === 0 ? slide.alt || "" : "";
+          img.loading = "eager";
+          const shade = document.createElement("div");
+          shade.className = "cs_shade";
+          shade.setAttribute("aria-hidden", "true");
+          inner.appendChild(img);
+          strip.appendChild(inner);
+          strip.appendChild(shade);
+          layer.appendChild(strip);
+          parts.strips.push(strip);
+          parts.inners.push(inner);
+          parts.imgs.push(img);
+          parts.shades.push(shade);
+        }
+        layerParts.push(parts);
+        layerWrap.appendChild(layer);
+        return layer;
+      });
+
+      const scrim = document.createElement("div");
+      scrim.className = "cs_scrim";
+      scrim.setAttribute("aria-hidden", "true");
+
+      stage.appendChild(layerWrap);
+      stage.appendChild(scrim);
+
+      refsRef.current = {
+        layers,
+        layerParts,
+        labelEl: labelElRef.current,
+        titleEl: titleElRef.current,
+        indexEl: indexElRef.current,
+        progressFill: progressFillRef.current,
+        prevBtn: prevBtnRef.current,
+        nextBtn: nextBtnRef.current,
+        liveRegion: liveRegionRef.current,
+      };
+
+      layoutStrips(stage, layerParts, clampedColumns);
+      settleCurrent();
+
+      container.setAttribute("role", "region");
+      container.setAttribute("aria-roledescription", "carousel");
+      container.setAttribute("aria-label", images[currentIndexRef.current].title || "");
+      container.setAttribute("tabindex", container.getAttribute("tabindex") || "0");
+
+      const mm = gsap.matchMedia();
+      mm.add("(prefers-reduced-motion: reduce)", () => {
+        reducedMotionRef.current = true;
+        stopAuto();
+        inFlightRef.current?.tl.progress(1);
+        return () => {
+          reducedMotionRef.current = false;
+        };
+      });
+
+      startAuto();
+
+      return () => {
+        mm.revert();
+        stopAuto();
+        clearTimeout(resumeTimerRef.current);
+        if (inFlightRef.current) inFlightRef.current.tl.kill();
+        layers.forEach((layer, i) => {
+          gsap.killTweensOf(layerParts[i].strips);
+          gsap.killTweensOf(layerParts[i].imgs);
+        });
+        if (progressFillRef.current) gsap.killTweensOf(progressFillRef.current);
+      };
+      // eslint-disable-next-line react-hooks/exhaustive-deps
+    },
+    { scope: containerRef, dependencies: [images, clampedColumns, disable] },
+  );
+
+  const handlePrevClick = contextSafe(() => {
+    prev();
+    armAutoResume();
+  });
+  const handleNextClick = contextSafe(() => {
+    next();
+    armAutoResume();
+  });
+
+  const animateArrowHoverIn = contextSafe((e, dir) => {
+    const icon = e.currentTarget.querySelector(".cs_arrow_icon");
+    gsap.to(icon, {
+      x: dir * 3,
+      duration: ARROW_HOVER_DUR,
+      ease: "back.out(2)",
+      overwrite: "auto",
+      force3D: true,
+    });
+  });
+  const animateArrowHoverOut = contextSafe((e) => {
+    const icon = e.currentTarget.querySelector(".cs_arrow_icon");
+    gsap.to(icon, {
+      x: 0,
+      duration: ARROW_HOVER_DUR,
+      ease: "expo.out",
+      overwrite: "auto",
+      force3D: true,
+    });
+  });
+  const animateArrowPressDown = contextSafe((e) => {
+    gsap.to(e.currentTarget, {
+      scale: 0.92,
+      duration: ARROW_PRESS_DUR,
+      ease: "power2.out",
+      overwrite: "auto",
+      force3D: true,
+    });
+  });
+  const animateArrowPressUp = contextSafe((e) => {
+    gsap.to(e.currentTarget, {
+      scale: 1,
+      duration: ARROW_PRESS_DUR,
+      ease: "back.out(2.5)",
+      overwrite: "auto",
+      force3D: true,
+    });
+  });
+  const animateArrowPressLeave = contextSafe((e) => {
+    gsap.to(e.currentTarget, {
+      scale: 1,
+      duration: ARROW_PRESS_DUR,
+      ease: "power2.out",
+      overwrite: "auto",
+      force3D: true,
+    });
+  });
+
+  const handleKeyDown = useCallback(
+    (e) => {
+      if (e.key === "ArrowRight" || e.key === "ArrowDown") {
+        next();
+        armAutoResume();
+      } else if (e.key === "ArrowLeft" || e.key === "ArrowUp") {
+        prev();
+        armAutoResume();
+      }
+    },
+    [next, prev, armAutoResume],
+  );
+
+  const handlePointerDown = useCallback(
+    (e) => {
+      if (!drag) return;
+      if (e.target.closest(".cs_pill")) {
+        dragActiveRef.current = false;
+        return;
+      }
+      dragActiveRef.current = true;
+      dragStartRef.current = e.clientX;
+      dragAxisSizeRef.current = stageRef.current ? stageRef.current.clientWidth : 1;
+    },
+    [drag],
+  );
+
+  const handlePointerUp = useCallback(
+    (e) => {
+      if (!dragActiveRef.current) return;
+      dragActiveRef.current = false;
+      const pos = e.clientX;
+      const delta = pos - dragStartRef.current;
+      const threshold = dragAxisSizeRef.current * SWIPE_THRESHOLD_RATIO;
+      if (Math.abs(delta) < threshold) return;
+      if (delta < 0) next();
+      else prev();
+      armAutoResume();
+    },
+    [next, prev, armAutoResume],
+  );
+
+  // resize: strip edges are integer-snapped pixels - re-derive on every resize
+  useEffect(() => {
+    let resizeTimer = null;
+    function handleResize() {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(() => {
+        if (!refsRef.current || !stageRef.current) return;
+        layoutStrips(stageRef.current, refsRef.current.layerParts, clampedColumns);
+      }, 150);
+    }
+    window.addEventListener("resize", handleResize);
+    return () => {
+      clearTimeout(resizeTimer);
+      window.removeEventListener("resize", handleResize);
+    };
+  }, [clampedColumns]);
+
+  useEffect(() => {
+    function handleVisibility() {
+      if (document.hidden) {
+        stopAuto();
+      } else {
+        startAuto();
+      }
+    }
+    document.addEventListener("visibilitychange", handleVisibility);
+    return () => document.removeEventListener("visibilitychange", handleVisibility);
+  }, [stopAuto, startAuto]);
+
+  return (
+    <div
+      ref={containerRef}
+      className={`cs_wrap${className ? " " + className : ""}`}
+      data-anm-curtain-slider
+      onKeyDown={handleKeyDown}
+      onPointerDown={handlePointerDown}
+      onPointerUp={handlePointerUp}
+      onMouseEnter={stopAuto}
+      onMouseLeave={startAuto}
+      onFocus={stopAuto}
+      onBlur={startAuto}
+    >
+      <div className="cs_stage" ref={stageRef} data-anm-cs-stage>
+        {images[0] && (
+          <img className="cs_layer_img" src={images[0].src} alt={images[0].alt || ""} />
+        )}
+        {/* Layer stack, scrim built imperatively above (cover-fit column
+            strips reassembled from live img sources); text/UI chrome below
+            is declarative so refs stay stable across re-renders. */}
+      </div>
+
+      <div className="cs_label" ref={labelElRef}>
+        {images[0]?.label}
+      </div>
+      <h2 className="cs_title" ref={titleElRef}>
+        {images[0]?.title}
+      </h2>
+      <div className="cs_index" ref={indexElRef} aria-hidden="true" />
+
+      <div className="cs_progress" aria-hidden="true">
+        <div className="cs_progress_fill" ref={progressFillRef} />
+      </div>
+
+      <div className="cs_pill" role="group" aria-label="Slide controls">
+        <button
+          ref={prevBtnRef}
+          type="button"
+          className="cs_arrow"
+          aria-label="Previous slide"
+          onClick={handlePrevClick}
+          onMouseEnter={(e) => animateArrowHoverIn(e, -1)}
+          onMouseLeave={animateArrowHoverOut}
+          onPointerDown={animateArrowPressDown}
+          onPointerUp={animateArrowPressUp}
+          onPointerLeave={animateArrowPressLeave}
+        >
+          <svg className="cs_arrow_icon" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path
+              d="M10 3L5 8L10 13"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+        <button
+          ref={nextBtnRef}
+          type="button"
+          className="cs_arrow"
+          aria-label="Next slide"
+          onClick={handleNextClick}
+          onMouseEnter={(e) => animateArrowHoverIn(e, 1)}
+          onMouseLeave={animateArrowHoverOut}
+          onPointerDown={animateArrowPressDown}
+          onPointerUp={animateArrowPressUp}
+          onPointerLeave={animateArrowPressLeave}
+        >
+          <svg className="cs_arrow_icon" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path
+              d="M6 3L11 8L6 13"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <div className="cs_live" aria-live="polite" ref={liveRegionRef} />
+    </div>
+  );
+}
+20:T1ae7,// Styles adapted from the supplied Annnimate Starter Pack.
+const css = `/* Curtain Slider - full-bleed drop-in image slider. Advancing runs a
+   direction-aware clip-path curtain wipe on the incoming layer paired with a
+   slide-in, while the outgoing layer counter-drifts and darkens. No Webflow -
+   CSS variables + @font-face allowed. */
+
+
+
+.cs_wrap {
+  --cs-bg:      #101010;
+  --cs-fg:      rgba(255, 250, 242, 0.92);
+  --cs-fg-soft: rgba(255, 255, 255, 0.85);
+  --cs-fg-dim:  rgba(255, 255, 255, 0.75);
+  --cs-line:    rgba(255, 255, 255, 0.25);
+  --cs-line-on: rgba(255, 255, 255, 0.9);
+  --cs-pill-bg: rgba(255, 255, 255, 0.1);
+  --cs-circle:  rgba(255, 255, 255, 0.1);
+  --cs-circle-hover: rgba(255, 255, 255, 0.22);
+  --cs-margin:  40px;
+  --cs-sans:    var(--font-inter, Inter), -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.cs_wrap {
+  position: relative;
+  width: 100%;
+  height: var(--zeus-animation-height, 640px);
+  overflow: hidden;
+  background: var(--cs-bg);
+  font-family: var(--cs-sans);
+  -webkit-font-smoothing: antialiased;
+  touch-action: pan-y;
+  outline: none;
+}
+
+.cs_slides {
+  display: none;
+}
+
+.cs_stage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* ---- Image layers: each layer is N column strips. A strip is an
+   overflow-hidden mask; its inner is the full stage rect offset left so
+   the strips reassemble one seamless cover-fit photo. Strip left/width
+   and inner left/width are integer-snapped px, set by JS. ---- */
+.cs_layers {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.cs_layer {
+  position: absolute;
+  inset: 0;
+}
+
+/* No will-change here on purpose: promoting all strips to their own
+   compositor layers caused tile-rasterization churn on 120Hz retina
+   fullscreen (flashing rectangles during the wipe). The shipped
+   wipe-slider/step-wipe clip wipes run clean with zero will-change. */
+.cs_strip {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.cs_strip_inner {
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+
+.cs_layer_img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transform-origin: 50% 50%;
+}
+
+/* Per-strip darkening overlay - dimming tweens THIS element's opacity
+   (GPU-composited) instead of filter: brightness on the image (animated
+   filters repaint per frame and flicker at fullscreen retina). */
+.cs_shade {
+  position: absolute;
+  inset: 0;
+  background: #0a0a0a;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* ---- Scrim for text legibility ---- */
+.cs_scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: linear-gradient(to top, rgba(10, 10, 10, 0.6) 0%, rgba(10, 10, 10, 0.05) 45%, rgba(10, 10, 10, 0.3) 100%);
+  pointer-events: none;
+}
+
+/* ---- Label, top-left ---- */
+.cs_label {
+  position: absolute;
+  left: var(--cs-margin);
+  top: var(--cs-margin);
+  z-index: 4;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: var(--cs-fg-soft);
+  pointer-events: none;
+}
+
+.cs_label_line {
+  position: relative;
+  display: block;
+  white-space: nowrap;
+  width: max-content;
+  overflow: hidden;
+}
+
+/* ---- Display title, bottom-left ---- */
+.cs_title {
+  position: absolute;
+  left: var(--cs-margin);
+  bottom: var(--cs-margin);
+  z-index: 4;
+  margin: 0;
+  font-size: clamp(48px, 8vw, 120px);
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  line-height: 0.95;
+  color: var(--cs-fg);
+  width: max-content;
+  max-width: calc(100% - var(--cs-margin) * 2);
+  pointer-events: none;
+}
+
+.cs_title_line {
+  position: relative;
+  display: block;
+  white-space: nowrap;
+  width: max-content;
+  overflow-x: visible;
+  overflow-y: hidden;
+  padding-bottom: 0.18em;
+  margin-bottom: -0.18em;
+}
+
+.cs_title_char {
+  position: relative;
+  display: inline-block;
+}
+
+/* ---- Index roller, bottom-right ---- */
+.cs_index {
+  position: absolute;
+  right: var(--cs-margin);
+  bottom: var(--cs-margin);
+  z-index: 4;
+  display: flex;
+  /* center, not baseline: an overflow-hidden digit box's flex baseline is
+     its BOTTOM edge, which rides the rollers up relative to the divider */
+  align-items: center;
+  line-height: 1;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: var(--cs-fg-dim);
+  pointer-events: none;
+}
+
+.cs_digit_wrap {
+  position: relative;
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: hidden;
+  height: 1em;
+  width: 0.62em;
+  vertical-align: top;
+}
+
+.cs_digit_roller {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.cs_digit_roller span {
+  display: block;
+  height: 1em;
+  line-height: 1;
+}
+
+.cs_index_divider {
+  display: inline-block;
+  margin: 0 0.25em;
+  color: var(--cs-line);
+  line-height: 1;
+}
+
+.cs_index_total {
+  display: inline-block;
+  line-height: 1;
+}
+
+/* ---- Progress hairline, top edge ---- */
+.cs_progress {
+  position: absolute;
+  left: var(--cs-margin);
+  right: var(--cs-margin);
+  top: 24px;
+  z-index: 4;
+  height: 1px;
+  background: var(--cs-line);
+  overflow: hidden;
+}
+
+.cs_progress_fill {
+  position: absolute;
+  inset: 0;
+  background: var(--cs-line-on);
+  transform: scaleX(0);
+}
+
+/* ---- Control pill, bottom center ---- */
+.cs_pill {
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 6px;
+  border-radius: 999px;
+  background: var(--cs-pill-bg);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+  transform: translateX(-50%);
+}
+
+.cs_arrow {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  flex: 0 0 auto;
+  border-radius: 999px;
+  border: none;
+  background: var(--cs-circle);
+  color: var(--cs-fg);
+  cursor: pointer;
+}
+
+.cs_arrow:hover {
+  background: var(--cs-circle-hover);
+}
+
+.cs_arrow:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.8);
+  outline-offset: 2px;
+}
+
+.cs_arrow_icon {
+  position: relative;
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+/* ---- Screen-reader-only live region ---- */
+.cs_live {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* Outgoing text lines get lifted onto an absolute overlay inside the same
+   element so the exit tween keeps running while the new line animates in.
+   Declared LAST: it must win the cascade against the *_line rules above
+   (equal specificity - source order decides). */
+.cs_line_out {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: max-content;
+  min-width: 100%;
+}
+
+/* ---- Mobile ---- */
+@media (max-width: 767px) {
+  .cs_wrap {
+    --cs-margin: 20px;
+  }
+
+  .cs_title {
+    font-size: clamp(36px, 12vw, 64px);
+    max-width: calc(100% - var(--cs-margin) * 2 - 60px);
+  }
+
+  .cs_index {
+    display: none;
+  }
+
+  .cs_progress {
+    top: 16px;
+  }
+
+  .cs_pill {
+    bottom: 28px;
+  }
+}
+`;
+export default css;
+3:["$","$L1e",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"curtain-slider","title":"Curtain Slider","description":"A full-bleed image carousel with staggered column wipes and rolling titles","category":"animations","tags":["animation","gsap","annnimate","curtain-slider"],"status":"beta","tier":"free","isNew":true,"dependencies":["@gsap/react","gsap"],"registryDependencies":["tokens"],"files":[{"path":"application/animations/curtain-slider-engine.d.ts","target":"components/application/animations/curtain-slider-engine.d.ts","type":"component","content":"import type { CurtainSliderProps } from \"./curtain-slider\";\nimport type { ComponentType } from \"react\";\ndeclare const Engine: ComponentType<CurtainSliderProps>;\nexport default Engine;\n"},{"path":"application/animations/curtain-slider-engine.jsx","target":"components/application/animations/curtain-slider-engine.jsx","type":"component","content":"$1f"},{"path":"application/animations/curtain-slider-styles.ts","target":"components/application/animations/curtain-slider-styles.ts","type":"component","content":"$20"},{"path":"application/animations/curtain-slider.tsx","target":"components/application/animations/curtain-slider.tsx","type":"component","content":"\"use client\";\n\n// Annnimate Starter Pack adaptation. See docs/ANNNIMATE.md for provenance.\nimport Engine from \"./curtain-slider-engine.jsx\";\nimport css from \"./curtain-slider-styles\";\n\nexport interface CurtainSlide {\n  src: string;\n  alt?: string;\n  title: string;\n  label?: string;\n}\nexport interface CurtainSliderProps {\n  className?: string;\n  images?: CurtainSlide[];\n  duration?: number;\n  ease?: string;\n  columns?: number;\n  auto?: number;\n  drag?: boolean;\n  stagger?: number;\n  disable?: string;\n  onChange?: (event: { index: number; direction: number; slide: CurtainSlide }) => void;\n}\n\nexport function CurtainSlider(props: CurtainSliderProps) {\n  return (\n    <>\n      <style>{css}</style>\n      <Engine {...props} />\n    </>\n  );\n}\n"},{"path":"public/assets/annnimate/action_cyclist-climb_02.jpg","target":"public/assets/annnimate/action_cyclist-climb_02.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/hero_profile_02.jpg","target":"public/assets/annnimate/hero_profile_02.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/hero_run_02.jpg","target":"public/assets/annnimate/hero_run_02.jpg","type":"asset","encoding":"base64"}],"hash":"5d5d14210abf"},"demoSource":"\"use client\";\n\nimport { CurtainSlider } from \"@/components/application/animations/curtain-slider\";\n\nexport default function Demo() {\n  return (\n    <div className=\"w-full overflow-hidden rounded-2xl\">\n      <CurtainSlider duration={1.1} columns={12} drag />\n    </div>\n  );\n}","previous":{"name":"scale-slider","title":"Scale Slider"},"next":{"name":"feature-dialog","title":"Feature Dialog"}}]
+4:["$","script","script-0",{"src":"/_next/static/chunks/3w1c4bmwbkv-4.js","async":true}]
+5:["$","script","script-1",{"src":"/_next/static/chunks/44xbpy-pvbnib.js","async":true}]
+6:["$","script","script-2",{"src":"/_next/static/chunks/0jocqdh7qodi4.js","async":true}]
+7:["$","script","script-3",{"src":"/_next/static/chunks/0iw0to4qmrq4l.js","async":true}]
+8:["$","script","script-4",{"src":"/_next/static/chunks/06es_ecb9le4q.js","async":true}]
+9:["$","script","script-5",{"src":"/_next/static/chunks/0-afrvt74ak7l.js","async":true}]
+a:["$","script","script-6",{"src":"/_next/static/chunks/0337601gswv_s.js","async":true}]
+b:["$","script","script-7",{"src":"/_next/static/chunks/34zl6f3dq0u0q.js","async":true}]
+c:["$","script","script-8",{"src":"/_next/static/chunks/1wypk9kc4p_mt.js","async":true}]
+d:["$","script","script-9",{"src":"/_next/static/chunks/23ywcyogzmwlv.js","async":true}]
+e:["$","script","script-10",{"src":"/_next/static/chunks/1ncyn83jriw3_.js","async":true}]
+f:["$","script","script-11",{"src":"/_next/static/chunks/2az_x4uxpy3sm.js","async":true}]
+10:["$","$L21",null,{"children":["$","$22",null,{"name":"Next.MetadataOutlet","children":"$@23"}]}]
+13:["$","$1","h",{"children":[null,["$","$L24",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L25",null,{"children":["$","$22",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Curtain Slider — Zeus UI"}],["$","meta","1",{"name":"description","content":"A full-bleed image carousel with staggered column wipes and rolling titles"}],["$","meta","2",{"name":"keywords","content":"animation,gsap,annnimate,curtain-slider"}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+15:["$","$1","c",{"children":[null,["$","$L26",null,{"parallelRouterKey":"children","template":["$","$L27",null,{}]}]]}]
+18:["$","$1","c",{"children":[null,["$","$L26",null,{"parallelRouterKey":"children","template":["$","$L27",null,{}]}]]}]
+1a:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1fxg3bgxs4oub.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/0by1pam5w7cuf.js","async":true}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L28",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L26",null,{"parallelRouterKey":"children","template":["$","$L27",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]]}]}]]}]
+23:null
+1d:true
+12:300
+12:C
+1c:0
+14:"$undefined"
+16:"$undefined"
+19:"$undefined"
+1b:"$undefined"
+11:"$undefined"

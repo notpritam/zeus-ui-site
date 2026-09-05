@@ -1,0 +1,32 @@
+{
+  "$schema": "https://myzeusui.com/schema/registry-item.json",
+  "name": "dual-scramble",
+  "title": "Dual Scramble",
+  "description": "Two-stage colored text scrambling on scroll, hover, focus, click or load",
+  "category": "animations",
+  "tags": [
+    "animation",
+    "gsap",
+    "annnimate",
+    "dual-scramble"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "isNew": true,
+  "dependencies": [
+    "@gsap/react",
+    "gsap"
+  ],
+  "registryDependencies": [
+    "tokens"
+  ],
+  "files": [
+    {
+      "path": "application/animations/dual-scramble.tsx",
+      "target": "components/application/animations/dual-scramble.tsx",
+      "type": "component",
+      "content": "\"use client\";\n\n// Adapted from the user-supplied Annnimate Starter Pack by Good Fella.\nimport { useRef, type CSSProperties } from \"react\";\nimport { gsap } from \"gsap\";\nimport { useGSAP } from \"@gsap/react\";\nimport { ScrollTrigger } from \"gsap/dist/ScrollTrigger\";\nimport { ScrambleTextPlugin } from \"gsap/dist/ScrambleTextPlugin\";\n\ngsap.registerPlugin(useGSAP, ScrollTrigger, ScrambleTextPlugin);\n\nexport interface DualScrambleProps {\n  text: string;\n  className?: string;\n  trigger?: \"scroll\" | \"hover\" | \"click\" | \"load\";\n  duration?: number;\n  chars?: string;\n  accentColor?: string;\n  finalColor?: string;\n  start?: string;\n  onClick?: () => void;\n}\n\nconst css = `.z-scramble{position:relative;display:inline-grid;max-width:100%;border:0;background:none;padding:0;color:inherit;font:inherit;text-align:inherit;white-space:pre-wrap;overflow-wrap:anywhere}.z-scramble>span{grid-area:1/1}.z-scramble-spacer{visibility:hidden}.z-scramble-accent{color:var(--z-scramble-accent,#a4fb81)}.z-scramble-final{color:var(--z-scramble-final,currentColor)}button.z-scramble{cursor:pointer}button.z-scramble:focus-visible{outline:2px solid currentColor;outline-offset:5px}`;\n\nexport function DualScramble({\n  text,\n  className = \"\",\n  trigger = \"scroll\",\n  duration = 0.6,\n  chars = \"ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789#@$%&\",\n  accentColor = \"#a4fb81\",\n  finalColor = \"currentColor\",\n  start = \"top 80%\",\n  onClick,\n}: DualScrambleProps) {\n  const root = useRef<HTMLSpanElement & HTMLButtonElement>(null);\n  const layer = useRef<HTMLSpanElement>(null);\n  useGSAP(\n    (_, contextSafe) => {\n      const el = root.current,\n        target = layer.current;\n      if (!el || !target) return;\n      const mq = window.matchMedia(\"(prefers-reduced-motion: reduce)\");\n      let timeline: gsap.core.Timeline | undefined;\n      const play = contextSafe!(() => {\n        timeline?.kill();\n        target.textContent = text;\n        if (mq.matches || !chars.length) return;\n        const random = Array.from(text, (c) =>\n          /\\s/.test(c) ? c : (chars[Math.floor(Math.random() * chars.length)] ?? c),\n        ).join(\"\");\n        timeline = gsap\n          .timeline()\n          .to(target, {\n            duration,\n            scrambleText: {\n              text: random,\n              chars,\n              speed: 1,\n              revealDelay: 0.1,\n              oldClass: \"z-scramble-final\",\n              newClass: \"z-scramble-accent\",\n            },\n            ease: \"none\",\n          })\n          .to(\n            target,\n            {\n              duration,\n              scrambleText: {\n                text,\n                chars,\n                speed: 1,\n                revealDelay: 0.1,\n                oldClass: \"z-scramble-accent\",\n                newClass: \"z-scramble-final\",\n              },\n              ease: \"none\",\n            },\n            duration / Math.max(1, text.replace(/\\s/g, \"\").length),\n          );\n      });\n      if (trigger === \"load\") play();\n      const scroll =\n        trigger === \"scroll\"\n          ? ScrollTrigger.create({ trigger: el, start, once: true, onEnter: play })\n          : undefined;\n      const events =\n        trigger === \"hover\" ? [\"pointerenter\", \"focus\"] : trigger === \"click\" ? [\"click\"] : [];\n      events.forEach((event) => el.addEventListener(event, play));\n      return () => {\n        timeline?.kill();\n        scroll?.kill();\n        events.forEach((event) => el.removeEventListener(event, play));\n        target.textContent = text;\n      };\n    },\n    { scope: root, dependencies: [text, trigger, duration, chars, start], revertOnUpdate: true },\n  );\n  const Tag = trigger === \"hover\" || trigger === \"click\" ? \"button\" : \"span\";\n  return (\n    <>\n      <style>{css}</style>\n      <Tag\n        ref={root}\n        type={Tag === \"button\" ? \"button\" : undefined}\n        aria-label={text}\n        onClick={onClick}\n        className={`z-scramble ${className}`}\n        style={\n          { \"--z-scramble-accent\": accentColor, \"--z-scramble-final\": finalColor } as CSSProperties\n        }\n      >\n        <span className=\"z-scramble-spacer\" aria-hidden=\"true\">\n          {text}\n        </span>\n        <span ref={layer} aria-hidden=\"true\">\n          {text}\n        </span>\n      </Tag>\n    </>\n  );\n}\n"
+    }
+  ],
+  "hash": "9df1b27f6767"
+}
