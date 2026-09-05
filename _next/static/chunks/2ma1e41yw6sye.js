@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,4395,e=>{"use strict";var i=e.i(38935),t=e.i(79436);e.s(["default",0,function(){return(0,i.jsx)("div",{className:"flex min-h-[260px] w-full items-center justify-center",children:(0,i.jsx)(t.AiChatComposerPreview,{})})}])},55510,function(e){e.n(e.i(4395))}]);

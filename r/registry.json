@@ -3,7 +3,7 @@
   "name": "zeus-ui",
   "homepage": "https://myzeusui.com",
   "license": "MIT",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "categories": [
     {
       "id": "foundations",
@@ -869,7 +869,7 @@
       "registryDependencies": [
         "tokens"
       ],
-      "hash": "d8c261c1e4ed",
+      "hash": "5c89ccce7e0c",
       "files": [
         {
           "path": "application/animations/morphing-tooltip.tsx",
