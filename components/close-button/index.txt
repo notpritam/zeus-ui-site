@@ -1,0 +1,138 @@
+1:"$Sreact.fragment"
+2:I[72844,["/_next/static/chunks/0by1pam5w7cuf.js"],""]
+3:I[37280,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+4:I[75701,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+6:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+a:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"ViewportBoundary"]
+c:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"MetadataBoundary"]
+e:I[84167,["/_next/static/chunks/0by1pam5w7cuf.js"],"default",1]
+:HL["/_next/static/chunks/16_ml9va511u1.css","style"]
+:HL["/_next/static/chunks/1lom8-olk25vh.css","style"]
+:HL["/_next/static/media/234d9015b631dab9-s.p.33gca1im1ku45.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+9:X
+0:{"P":null,"c":["","components","close-button",""],"q":"","i":false,"f":[[["",{"children":["components",{"children":[["slug","close-button","d",[]],{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0by1pam5w7cuf.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L2",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/3l5f3qnr89rl0.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0wmbfrsxfdesk.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/3ixdl2m026on9.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/3xa-hzf5c_c6n.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/1zihipy0kqa1_.js","async":true,"nonce":"$undefined"}],["$","script","script-5",{"src":"/_next/static/chunks/0-afrvt74ak7l.js","async":true,"nonce":"$undefined"}],["$","script","script-6",{"src":"/_next/static/chunks/0337601gswv_s.js","async":true,"nonce":"$undefined"}],["$","script","script-7",{"src":"/_next/static/chunks/34zl6f3dq0u0q.js","async":true,"nonce":"$undefined"}],["$","script","script-8",{"src":"/_next/static/chunks/2az_x4uxpy3sm.js","async":true,"nonce":"$undefined"}],["$","script","script-9",{"src":"/_next/static/chunks/23ywcyogzmwlv.js","async":true,"nonce":"$undefined"}],["$","script","script-10",{"src":"/_next/static/chunks/2qg2knl-9_2le.js","async":true,"nonce":"$undefined"}],["$","script","script-11",{"src":"/_next/static/chunks/1wypk9kc4p_mt.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$9"]},null,false,"$9"]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],"$Lf"]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Kgh3aKGUUDrNWttN7OqGM"}
+9:C
+f:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+10:I[54515,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"DocsLayout"]
+5:["$","$L10",null,{"title":"Close Button","heading":"Close Button","icon":"components","groups":[{"id":"foundations","title":"Foundations","items":[{"name":"tokens","title":"Design tokens","isNew":"$undefined"},{"name":"typography","title":"Typography","isNew":"$undefined"},{"name":"cx","title":"cx","isNew":"$undefined"},{"name":"chevrons","title":"Chevrons","isNew":"$undefined"},{"name":"logo","title":"Logo","isNew":"$undefined"},{"name":"use-count-up","title":"useCountUp","isNew":"$undefined"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress","isNew":"$undefined"}]},{"id":"base","title":"Base","items":[{"name":"button","title":"Button","isNew":"$undefined"},{"name":"icon-button","title":"Icon Button","isNew":"$undefined"},{"name":"link-button","title":"Link Button","isNew":"$undefined"},{"name":"button-group","title":"Button Group","isNew":"$undefined"},{"name":"close-button","title":"Close Button","isNew":"$undefined"},{"name":"social-button","title":"Social Button","isNew":"$undefined"},{"name":"input","title":"Input","isNew":"$undefined"},{"name":"input-otp","title":"Input OTP","isNew":"$undefined"},{"name":"checkbox","title":"Checkbox","isNew":"$undefined"},{"name":"radio","title":"Radio","isNew":"$undefined"},{"name":"switch","title":"Switch","isNew":"$undefined"},{"name":"select","title":"Select","isNew":"$undefined"},{"name":"slider","title":"Slider","isNew":"$undefined"},{"name":"dropdown","title":"Dropdown","isNew":"$undefined"},{"name":"divider","title":"Divider","isNew":"$undefined"},{"name":"file-upload","title":"File Upload","isNew":"$undefined"},{"name":"tabs","title":"Tabs","isNew":"$undefined"},{"name":"segmented-control","title":"Segmented Control","isNew":"$undefined"},{"name":"table","title":"Table","isNew":"$undefined"},{"name":"tooltip","title":"Tooltip","isNew":"$undefined"},{"name":"badge","title":"Badge","isNew":"$undefined"},{"name":"chip","title":"Chip","isNew":"$undefined"},{"name":"status-dot","title":"Status Dot","isNew":"$undefined"},{"name":"kbd","title":"Kbd","isNew":"$undefined"},{"name":"avatar","title":"Avatar","isNew":"$undefined"},{"name":"breadcrumb","title":"Breadcrumb","isNew":"$undefined"},{"name":"pagination","title":"Pagination","isNew":"$undefined"},{"name":"carousel","title":"Carousel","isNew":"$undefined"},{"name":"announcement","title":"Announcement","isNew":"$undefined"},{"name":"notification","title":"Notification","isNew":"$undefined"},{"name":"date-picker","title":"Date Picker","isNew":"$undefined"},{"name":"date-range-picker","title":"Date Range Picker","isNew":"$undefined"},{"name":"meeting-scheduler","title":"Meeting Scheduler","isNew":"$undefined"}]},{"id":"blocks","title":"Blocks","items":[{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"calendar","title":"Calendar","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"theme-toggle","title":"Theme Toggle","isNew":"$undefined"},{"name":"stat-cards","title":"Stat Cards","isNew":"$undefined"},{"name":"data-table","title":"Data Table","isNew":"$undefined"},{"name":"sidebar","title":"Sidebar","isNew":"$undefined"},{"name":"app-shell","title":"App Shell","isNew":"$undefined"},{"name":"notification-center","title":"Notification Center","isNew":"$undefined"},{"name":"settings-modal","title":"Settings Modal","isNew":"$undefined"},{"name":"auth-card","title":"Auth Card","isNew":"$undefined"},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking","isNew":"$undefined"},{"name":"composer-loader","title":"Composer Loader","isNew":"$undefined"},{"name":"agent-log","title":"Agent Log","isNew":"$undefined"},{"name":"agent-chat","title":"Agent Chat","isNew":"$undefined"}]},{"id":"charts","title":"Charts","items":[{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart","isNew":"$undefined"},{"name":"orders-chart-card","title":"Orders Chart","isNew":"$undefined"},{"name":"important-alerts-card","title":"Important Alerts","isNew":"$undefined"},{"name":"patient-info-card","title":"Patient Info","isNew":"$undefined"}]},{"id":"templates","title":"Templates","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true},{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true}]}],"description":"The dismiss ×, in four sizes with matching stroke weights.","columnClassName":"$undefined","detail":true,"children":"$L11"}]
+12:I[26438,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"ComponentPage"]
+13:Te1f,import type { ButtonHTMLAttributes, Ref } from "react";
+import { cx, sortCx } from "../../utils/cx";
+
+/**
+ * Compact circular dismiss control — the "X" used to close announcements,
+ * toasts, modals, and drawers. Companion to `IconButton`, but ships its own
+ * glyph (rather than taking an `icon` prop) so every consumer gets an
+ * identical X with a stroke that's a true CSS pixel value per size, not a
+ * scaled approximation.
+ *
+ * The glyph is a hand-drawn SVG per size (not a shared icon scaled up/down)
+ * because scaling a single glyph across sizes scales its stroke too — a 2px
+ * line at 20px becomes ~3.2px at 32px. Each size below renders its own X in a
+ * viewBox equal to its own pixel dimensions, so `strokeWidth` is always a
+ * literal CSS pixel value, at every size (not a scaled approximation).
+ *
+ * Sizes (px):
+ *   2xs = 16 container, 6.8px glyph, 1.6px stroke   (compact floating surfaces)
+ *   xs = 20 container, 10.8px glyph, 2px stroke     (Announcement dismiss corner)
+ *   sm = 24 container, 12.6px glyph, 2px stroke
+ *   md = 32 container, 16.2px glyph, 2.5px stroke   (modal header close — a touch
+ *                                                     bolder to hold its own at
+ *                                                     the larger size)
+ *
+ * Glyph sizes are 90% of the container's natural proportion (12/14/18 → the
+ * above), tuned down 10% across the board so the X reads a touch smaller
+ * inside its circle.
+ */
+
+type CloseButtonSize = "2xs" | "xs" | "sm" | "md";
+
+export interface CloseButtonProps
+  extends Omit<ButtonHTMLAttributes<HTMLButtonElement>, "children"> {
+  size?: CloseButtonSize;
+  /** Accessible name — required since there is no visible label. */
+  "aria-label": string;
+  ref?: Ref<HTMLButtonElement>;
+}
+
+const GLYPH_SIZE: Record<CloseButtonSize, number> = {
+  "2xs": 6.8,
+  xs: 10.8,
+  sm: 12.6,
+  md: 16.2,
+};
+
+const STROKE_WIDTH: Record<CloseButtonSize, number> = {
+  "2xs": 1.6,
+  xs: 2,
+  sm: 2,
+  md: 2.5,
+};
+
+const GLYPH_INSET: Record<CloseButtonSize, number> = {
+  // Figma's 8px bars rotate inside a 6.8px square, leaving ~0.57px at
+  // each corner once projected onto the diagonal.
+  "2xs": 0.57,
+  xs: 2,
+  sm: 2,
+  md: 2,
+};
+
+const styles = sortCx({
+  base: [
+    "inline-flex shrink-0 items-center justify-center rounded-full",
+    "bg-background-tertiary-default text-foreground-icon-secondary",
+    "select-none cursor-pointer",
+    "transition-colors duration-150 ease",
+    "hover:text-text-primary",
+    "outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-border-focus-ring",
+  ].join(" "),
+  container: {
+    "2xs": "size-4",
+    xs: "size-5",
+    sm: "size-6",
+    md: "size-8",
+  },
+});
+
+export function CloseButton({
+  size = "xs",
+  className,
+  type = "button",
+  ref,
+  ...props
+}: CloseButtonProps) {
+  const glyph = GLYPH_SIZE[size];
+  const strokeWidth = STROKE_WIDTH[size];
+  const inset = GLYPH_INSET[size];
+
+  return (
+    <button
+      ref={ref}
+      type={type}
+      className={cx(styles.base, styles.container[size], className)}
+      {...props}
+    >
+      <svg width={glyph} height={glyph} viewBox={`0 0 ${glyph} ${glyph}`} fill="none" aria-hidden>
+        <path
+          d={`M${inset} ${inset}L${glyph - inset} ${glyph - inset}`}
+          stroke="currentColor"
+          strokeWidth={strokeWidth}
+          strokeLinecap="round"
+        />
+        <path
+          d={`M${glyph - inset} ${inset}L${inset} ${glyph - inset}`}
+          stroke="currentColor"
+          strokeWidth={strokeWidth}
+          strokeLinecap="round"
+        />
+      </svg>
+    </button>
+  );
+}
+11:["$","$L12",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"close-button","title":"Close Button","description":"The dismiss ×, in four sizes with matching stroke weights.","category":"base","tags":["action","dismiss","modal","icon"],"status":"stable","tier":"free","dependencies":["tailwind-merge"],"registryDependencies":["cx","tokens"],"files":[{"path":"base/buttons/close-button.tsx","target":"components/base/buttons/close-button.tsx","type":"component","content":"$13"}],"hash":"a26bc95ea3b8"},"demoSource":"\"use client\";\n\nimport { CloseButton } from \"@/components/base/buttons/close-button\";\n\nexport default function CloseButtonDemo() {\n  return (\n    <div className=\"flex items-center gap-6\">\n      <CloseButton size=\"2xs\" aria-label=\"Close\" />\n      <CloseButton size=\"xs\" aria-label=\"Close\" />\n      <CloseButton size=\"sm\" aria-label=\"Close\" />\n      <CloseButton size=\"md\" aria-label=\"Close\" />\n    </div>\n  );\n}","previous":{"name":"button-group","title":"Button Group"},"next":{"name":"social-button","title":"Social Button"}}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:null
+d:[["$","title","0",{"children":"Close Button — Zeus UI"}],["$","meta","1",{"name":"description","content":"The dismiss ×, in four sizes with matching stroke weights."}],["$","meta","2",{"name":"keywords","content":"action,dismiss,modal,icon"}]]

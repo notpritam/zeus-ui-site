@@ -1,0 +1,981 @@
+1:"$Sreact.fragment"
+2:I[54515,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"DocsLayout"]
+12:X
+17:X
+17:C
+0:{"buildId":"Kgh3aKGUUDrNWttN7OqGM","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"Calendar","heading":"Calendar","icon":"components","groups":[{"id":"foundations","title":"Foundations","items":[{"name":"tokens","title":"Design tokens"},{"name":"typography","title":"Typography"},{"name":"cx","title":"cx"},{"name":"chevrons","title":"Chevrons"},{"name":"logo","title":"Logo"},{"name":"use-count-up","title":"useCountUp"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress"}]},{"id":"base","title":"Base","items":[{"name":"button","title":"Button"},{"name":"icon-button","title":"Icon Button"},{"name":"link-button","title":"Link Button"},{"name":"button-group","title":"Button Group"},{"name":"close-button","title":"Close Button"},{"name":"social-button","title":"Social Button"},{"name":"input","title":"Input"},{"name":"input-otp","title":"Input OTP"},{"name":"checkbox","title":"Checkbox"},{"name":"radio","title":"Radio"},{"name":"switch","title":"Switch"},{"name":"select","title":"Select"},{"name":"slider","title":"Slider"},{"name":"dropdown","title":"Dropdown"},{"name":"divider","title":"Divider"},{"name":"file-upload","title":"File Upload"},{"name":"tabs","title":"Tabs"},{"name":"segmented-control","title":"Segmented Control"},{"name":"table","title":"Table"},{"name":"tooltip","title":"Tooltip"},{"name":"badge","title":"Badge"},{"name":"chip","title":"Chip"},{"name":"status-dot","title":"Status Dot"},{"name":"kbd","title":"Kbd"},{"name":"avatar","title":"Avatar"},{"name":"breadcrumb","title":"Breadcrumb"},{"name":"pagination","title":"Pagination"},{"name":"carousel","title":"Carousel"},{"name":"announcement","title":"Announcement"},{"name":"notification","title":"Notification"},{"name":"date-picker","title":"Date Picker"},{"name":"date-range-picker","title":"Date Range Picker"},{"name":"meeting-scheduler","title":"Meeting Scheduler"}]},{"id":"blocks","title":"Blocks","items":[{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"calendar","title":"Calendar","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"theme-toggle","title":"Theme Toggle"},{"name":"stat-cards","title":"Stat Cards"},{"name":"data-table","title":"Data Table"},{"name":"sidebar","title":"Sidebar"},{"name":"app-shell","title":"App Shell"},{"name":"notification-center","title":"Notification Center"},{"name":"settings-modal","title":"Settings Modal"},{"name":"auth-card","title":"Auth Card"},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking"},{"name":"composer-loader","title":"Composer Loader"},{"name":"agent-log","title":"Agent Log"},{"name":"agent-chat","title":"Agent Chat"}]},{"id":"charts","title":"Charts","items":[{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart"},{"name":"orders-chart-card","title":"Orders Chart"},{"name":"important-alerts-card","title":"Important Alerts"},{"name":"patient-info-card","title":"Patient Info"}]},{"id":"templates","title":"Templates","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true},{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true}]}],"description":"event chips, details popover, month switcher, and inbox feed","detail":true,"children":"$L3"}],["$L4","$L5","$L6","$L7","$L8","$L9","$La","$Lb","$Lc","$Ld","$Le","$Lf"],"$L10"]}],"isPartial":"$@11","staleTime":"$12","varyParams":null},{"rsc":"$L13","isPartial":"$@14","staleTime":"$12","varyParams":null},{"rsc":"$L15","isPartial":"$@16","staleTime":"$12","varyParams":"$17"},{"rsc":"$L18","isPartial":"$@19","staleTime":"$12","varyParams":"$17"},{"rsc":"$L1a","isPartial":"$@1b","staleTime":"$12","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@1c","rootVaryParams":null,"needsRuntimeRequest":"$@1d"}
+1e:I[26438,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"ComponentPage"]
+20:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"OutletBoundary"]
+21:"$Sreact.suspense"
+23:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"ViewportBoundary"]
+24:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"MetadataBoundary"]
+25:I[37280,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+26:I[75701,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+27:I[72844,["/_next/static/chunks/0by1pam5w7cuf.js"],""]
+:HL["/_next/static/chunks/16_ml9va511u1.css","style"]
+:HL["/_next/static/chunks/1lom8-olk25vh.css","style"]
+1f:T90fd,"use client";
+
+import { CalendarDate } from "@internationalized/date";
+import {
+  RiAddLine,
+  RiArrowRightLine,
+  RiCheckLine,
+  RiCloseLine,
+  RiCornerDownLeftLine,
+  RiGlobalLine,
+  RiGroupLine,
+  RiInbox2Line,
+  RiNotificationLine,
+  RiRssFill,
+  RiTimeLine,
+} from "@remixicon/react";
+import { AnimatePresence, motion, useReducedMotion } from "motion/react";
+import { type FormEvent, useId, useRef, useState, useSyncExternalStore } from "react";
+import {
+  Button as AriaButton,
+  Dialog,
+  DialogTrigger,
+  Modal,
+  ModalOverlay,
+  Popover,
+} from "react-aria-components";
+import { createPortal } from "react-dom";
+import { Avatar } from "../../base/avatar/avatar";
+import { Button, ButtonLink } from "../../base/buttons/button";
+import { IconButton } from "../../base/buttons/icon-button";
+import { DatePicker } from "../../base/date-picker/date-picker";
+import {
+  Dropdown,
+  DropdownGroup,
+  DropdownPopover,
+  DropdownTrigger,
+} from "../../base/dropdown/dropdown";
+import { InputBase, TextField } from "../../base/input/input";
+import { useDismissOnOutsidePress } from "../../hooks/use-dismiss-on-outside-press";
+import { cx } from "../../utils/cx";
+import { NotificationBell } from "../app-shell/notification-bell";
+import type { NotificationCenterItem } from "../notification-center/notification-center";
+
+export type CalendarEventColor = "blue" | "pink" | "purple" | "lime" | "emerald";
+export interface CalendarParticipant {
+  name: string;
+  email: string;
+}
+export interface CalendarEvent {
+  id: string;
+  title: string;
+  date: string;
+  start?: string;
+  duration?: number;
+  color?: CalendarEventColor;
+  location?: string;
+  meetingUrl?: string;
+  participants?: CalendarParticipant[];
+  reminder?: string;
+}
+export interface CalendarProps {
+  date?: Date;
+  onDateChange?: (date: Date) => void;
+  events?: CalendarEvent[];
+  onEventsChange?: (events: CalendarEvent[]) => void;
+  onEventSelect?: (event: CalendarEvent) => void;
+  notifications?: NotificationCenterItem[];
+  onAddAccount?: () => void;
+  onCalendarSelect?: (account: string, calendar: string) => void;
+  onEventEdit?: (event: CalendarEvent, field: "timezone" | "participants" | "reminders") => void;
+  className?: string;
+}
+const PARTICIPANTS = [
+  { name: "Mertcan Esmergul", email: "hi@mertcan.works" },
+  { name: "Eric Song", email: "ericsong@yahoo.com" },
+  { name: "Olivia Brooks", email: "oliviabrooks@gmail.com" },
+];
+const EVENT_ROWS: [string, string, string, CalendarEventColor][] = [
+  ["2026-07-28", "Coffee", "09:30", "lime"],
+  ["2026-07-30", "Payday", "", "lime"],
+  ["2026-08-01", "Brunch", "11:00", "lime"],
+  ["2026-08-02", "Stand-up", "11:30", "pink"],
+  ["2026-08-02", "1:1 sync", "16:30", "lime"],
+  ["2026-08-05", "Gym", "07:00", "pink"],
+  ["2026-08-08", "Game night", "19:00", "purple"],
+  ["2026-08-11", "Holidays", "", "emerald"],
+  ["2026-08-11", "Birthday night at Bacalar’s", "20:30", "purple"],
+  ["2026-08-14", "Retro", "15:00", "blue"],
+  ["2026-08-17", "Planning", "10:00", "blue"],
+  ["2026-08-17", "Haircut", "16:00", "emerald"],
+  ["2026-08-20", "Stand-up", "11:30", "pink"],
+  ["2026-08-20", "Team lunch", "13:00", "purple"],
+  ["2026-08-20", "Portfolio review", "14:30", "blue"],
+  ["2026-08-20", "1:1 sync", "16:30", "lime"],
+  ["2026-08-20", "Walk", "18:00", "emerald"],
+  ["2026-08-20", "Movie night", "20:30", "purple"],
+  ["2026-08-24", "Dinner with friends", "19:15", "purple"],
+  ["2026-08-27", "Yoga", "07:30", "pink"],
+  ["2026-08-29", "Brunch", "11:00", "lime"],
+  ["2026-08-31", "Payday", "", "lime"],
+  ["2026-09-01", "Kickoff", "09:00", "blue"],
+  ["2026-09-02", "Standup", "09:00", "pink"],
+  ["2026-09-04", "Dentist", "10:30", "emerald"],
+  // Adjacent-month demo fixtures observed in the public calendar.
+  ["2026-06-28", "Concert", "20:00", "purple"],
+  ["2026-06-30", "Payday", "", "lime"],
+  ["2026-06-30", "Standup", "09:00", "pink"],
+  ["2026-07-01", "Kickoff", "09:00", "blue"],
+  ["2026-07-04", "Holiday", "", "emerald"],
+  ["2026-07-08", "Sync", "09:30", "blue"],
+  ["2026-07-10", "Vet visit", "10:00", "emerald"],
+  ["2026-07-11", "Game night", "19:00", "purple"],
+  ["2026-07-14", "Standup", "09:00", "pink"],
+  ["2026-07-17", "Design review", "11:00", "blue"],
+  ["2026-07-17", "Team lunch", "13:00", "purple"],
+  ["2026-07-18", "Brunch", "11:00", "lime"],
+  ["2026-07-21", "Yoga", "07:30", "pink"],
+  ["2026-07-25", "Movie night", "20:00", "purple"],
+  ["2026-09-08", "Planning", "10:00", "blue"],
+  ["2026-09-10", "Design review", "11:00", "blue"],
+  ["2026-09-10", "Client call", "14:00", "emerald"],
+  ["2026-09-11", "Gym", "07:00", "pink"],
+  ["2026-09-15", "Haircut", "16:00", "emerald"],
+  ["2026-09-17", "Book club", "19:00", "purple"],
+  ["2026-09-21", "Game night", "19:00", "purple"],
+  ["2026-09-24", "Standup", "09:00", "pink"],
+  ["2026-09-24", "Team lunch", "12:30", "lime"],
+  ["2026-09-25", "Retro", "15:00", "blue"],
+  ["2026-09-29", "Coffee", "09:30", "lime"],
+  ["2026-09-30", "Payday", "", "lime"],
+  ["2026-10-06", "Sync", "09:30", "blue"],
+];
+export const CALENDAR_EVENTS: CalendarEvent[] = EVENT_ROWS.map(
+  ([date, title, start, color], index) => ({
+    id: `event-${index}`,
+    date,
+    title,
+    start: start || undefined,
+    color,
+    duration: 60,
+    location: "Amsterdam",
+    participants: PARTICIPANTS,
+    reminder: "2h before",
+    meetingUrl: index === 0 ? "https://meet.google.com/fii-exdj-aqg" : undefined,
+  }),
+);
+
+const CALENDAR_NOTIFICATIONS: NotificationCenterItem[] = [
+  {
+    id: "mention-notes",
+    category: "mentions",
+    group: "Today",
+    title: "Livia mentioned you",
+    description: "Can you review the new empty state before we ship the dashboard?",
+    timestamp: "2m",
+    unread: true,
+    avatar: {
+      src: "/avatars/livia-saris.webp",
+      alt: "Livia Saris",
+    },
+    actions: [
+      {
+        id: "reply",
+        label: "Reply",
+        variant: "primary",
+      },
+      {
+        id: "view",
+        label: "View thread",
+        variant: "secondary",
+      },
+    ],
+  },
+  {
+    id: "backup-ready",
+    category: "system",
+    group: "Today",
+    title: "Workspace backup is ready",
+    description: "The July 23 backup finished successfully and is ready to download.",
+    timestamp: "18m",
+    unread: true,
+    status: "success",
+    actions: [
+      {
+        id: "download",
+        label: "Download",
+        variant: "secondary",
+      },
+    ],
+  },
+  {
+    id: "project-invite",
+    category: "activity",
+    group: "Today",
+    title: "You joined Project Sea",
+    description: "Maria added you as an editor. You now have access to all project files.",
+    timestamp: "1h",
+    unread: true,
+    status: "information",
+  },
+  {
+    id: "pull-request",
+    category: "mentions",
+    group: "Earlier this week",
+    title: "Jaydon requested your review",
+    description: "Pull request #284 updates the notification preferences flow.",
+    timestamp: "Mon",
+    unread: true,
+    avatar: {
+      src: "/avatars/jaydon-aminoff.webp",
+      alt: "Jaydon Aminoff",
+    },
+    actions: [
+      {
+        id: "review",
+        label: "Review changes",
+        variant: "secondary",
+      },
+    ],
+  },
+  {
+    id: "security-check",
+    category: "system",
+    group: "Earlier this week",
+    title: "Security check completed",
+    description: "No exposed credentials or vulnerable dependencies were found.",
+    timestamp: "Sun",
+    status: "success",
+  },
+  {
+    id: "deploy-failed",
+    category: "system",
+    group: "Earlier this week",
+    title: "Preview deployment failed",
+    description: "The build stopped while validating the application routes.",
+    timestamp: "Sat",
+    unread: true,
+    status: "error",
+    actions: [
+      {
+        id: "retry",
+        label: "Retry",
+        variant: "primary",
+      },
+      {
+        id: "logs",
+        label: "View logs",
+        variant: "secondary",
+      },
+    ],
+  },
+];
+const DAY_NAMES = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+const COLORS: CalendarEventColor[] = ["lime", "blue", "pink", "purple", "emerald"];
+const eventTone: Record<CalendarEventColor, string> = {
+  blue: "bg-calendar-event-blue-background text-calendar-event-blue-title",
+  pink: "bg-calendar-event-pink-background text-calendar-event-pink-title",
+  purple: "bg-calendar-event-purple-background text-calendar-event-purple-title",
+  lime: "bg-calendar-event-lime-background text-calendar-event-lime-title",
+  emerald: "bg-calendar-event-emerald-background text-calendar-event-emerald-title",
+};
+const eventTimeTone: Record<CalendarEventColor, string> = {
+  blue: "text-calendar-event-blue-time",
+  pink: "text-calendar-event-pink-time",
+  purple: "text-calendar-event-purple-time",
+  lime: "text-calendar-event-lime-time",
+  emerald: "text-calendar-event-emerald-time",
+};
+
+function MonthChevron({ direction }: { direction: "previous" | "next" }) {
+  return (
+    <svg
+      viewBox="0 0 16 16"
+      fill="none"
+      aria-hidden="true"
+      className={cx(
+        "size-4 text-foreground-icon-primary",
+        direction === "previous" ? "rotate-90" : "-rotate-90",
+      )}
+    >
+      <path
+        d="M4 7L7.29289 10.2929C7.68342 10.6834 8.31658 10.6834 8.70711 10.2929L12 7"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
+const isoDate = (date: Date) =>
+  `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
+function parseDate(value: string) {
+  const [year = 2026, month = 8, day = 1] = value.split("-").map(Number);
+  return new Date(year, month - 1, day, 12);
+}
+
+function EventDetails({
+  event,
+  onEdit,
+}: {
+  event: CalendarEvent;
+  onEdit?: CalendarProps["onEventEdit"];
+}) {
+  const date = parseDate(event.date);
+  const timeParts = event.start?.match(/^(\d{2}):(\d{2})$/);
+  const endMinutes =
+    timeParts && event.duration
+      ? (Number(timeParts[1]) * 60 + Number(timeParts[2]) + event.duration) % (24 * 60)
+      : null;
+  const endTime =
+    endMinutes === null
+      ? null
+      : `${String(Math.floor(endMinutes / 60)).padStart(2, "0")}:${String(endMinutes % 60).padStart(2, "0")}`;
+  const timezone = new Intl.DateTimeFormat("en", { timeZoneName: "shortOffset" })
+    .formatToParts(date)
+    .find((part) => part.type === "timeZoneName")
+    ?.value.replace(/^GMT$/, "GMT+0");
+  const row =
+    "flex h-9 w-full shrink-0 items-center gap-2.5 rounded-2lg bg-background-secondary-default py-2 pr-1.5 pl-2";
+  const lead = "flex min-w-0 flex-1 items-center gap-1.5";
+  const badge =
+    "shrink-0 rounded-sm bg-background-tertiary-default px-1 py-1 text-caption-1-medium text-text-secondary";
+  return (
+    <div className="flex w-full flex-col gap-2.5">
+      <div className="flex w-full flex-col gap-px rounded-2lg bg-background-secondary-default px-2.5 py-2">
+        <h3 className="text-headline-medium wrap-anywhere text-text-primary">{event.title}</h3>
+        <p className="text-body-medium text-text-secondary">
+          {date.toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" })}
+        </p>
+      </div>
+      {event.meetingUrl && (
+        <div className={row}>
+          <div className={lead}>
+            <img
+              src="/brand/google_meet.png"
+              alt=""
+              width={20}
+              height={20}
+              className="size-5 shrink-0"
+            />
+            <span className="text-body-2-medium whitespace-nowrap text-text-primary">
+              Google Meet
+            </span>
+          </div>
+          <div className="flex shrink-0 items-center gap-1.5">
+            <span className={badge}>{event.meetingUrl.split("/").pop()}</span>
+            <ButtonLink
+              href={event.meetingUrl}
+              target="_blank"
+              rel="noreferrer"
+              size="xs"
+              variant="primary"
+            >
+              Join
+            </ButtonLink>
+          </div>
+        </div>
+      )}
+      <div className={row}>
+        <div className={lead}>
+          <RiTimeLine className="size-[18px] shrink-0 text-foreground-icon-secondary" />
+          <span className="flex items-center gap-1.5 text-body-2-medium whitespace-nowrap text-text-primary">
+            <span>{event.start ?? "All day"}</span>
+            {endTime && (
+              <>
+                <RiArrowRightLine className="size-5 shrink-0 text-foreground-icon-secondary" />
+                <span>{endTime}</span>
+              </>
+            )}
+          </span>
+        </div>
+        {event.duration && (
+          <span className={badge}>
+            {event.duration >= 60 ? `${event.duration / 60}h` : `${event.duration}m`}
+          </span>
+        )}
+      </div>
+      <div className={row}>
+        <div className={lead}>
+          <RiGlobalLine className="size-[18px] shrink-0 text-foreground-icon-secondary" />
+          <span className="flex items-center gap-1 text-body-2-medium whitespace-nowrap">
+            <span className="text-text-secondary">{timezone}</span>
+            {event.location && <span className="text-text-primary">{event.location}</span>}
+          </span>
+        </div>
+        <Button
+          size="xs"
+          variant="secondary"
+          iconOnly
+          leadingIcon={RiCornerDownLeftLine}
+          aria-label="Edit timezone"
+          className="text-foreground-icon-secondary"
+          onClick={() => onEdit?.(event, "timezone")}
+        />
+      </div>
+      {event.participants?.length ? (
+        <div className="flex w-full flex-col gap-0.5 rounded-2lg bg-background-secondary-default py-2 pr-1.5 pl-2">
+          <div className="flex w-full items-center gap-2.5">
+            <div className={lead}>
+              <RiGlobalLine className="size-[18px] shrink-0 text-foreground-icon-secondary" />
+              <span className="text-body-2-medium whitespace-nowrap text-text-secondary">
+                Participants
+              </span>
+            </div>
+            <Button
+              size="xs"
+              variant="secondary"
+              iconOnly
+              leadingIcon={RiGroupLine}
+              aria-label="Edit participants"
+              className="text-foreground-icon-secondary"
+              onClick={() => onEdit?.(event, "participants")}
+            />
+          </div>
+          <div className="flex w-full flex-col">
+            {event.participants.map((person, index) => (
+              <div key={person.email} className="flex w-full items-center gap-2 rounded-2lg py-1.5">
+                <Avatar
+                  size="xs"
+                  initials={person.name.charAt(0)}
+                  color={index === 1 ? "blue" : "neutral"}
+                />
+                <span className="truncate text-body-2-medium text-text-primary">
+                  {person.email}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+      ) : null}
+      {event.reminder && (
+        <div className={row}>
+          <div className={lead}>
+            <RiNotificationLine className="size-[18px] shrink-0 text-foreground-icon-secondary" />
+            <span className="flex items-center gap-1 text-body-2-medium whitespace-nowrap">
+              <span className="text-text-secondary">Reminders</span>
+              <span className="text-text-primary">{event.reminder}</span>
+            </span>
+          </div>
+          <Button
+            size="xs"
+            variant="secondary"
+            iconOnly
+            leadingIcon={RiCornerDownLeftLine}
+            aria-label="Edit reminders"
+            className="text-foreground-icon-secondary"
+            onClick={() => onEdit?.(event, "reminders")}
+          />
+        </div>
+      )}
+    </div>
+  );
+}
+
+function EventPill({
+  event,
+  onSelect,
+  onEdit,
+  compact = false,
+}: {
+  event: CalendarEvent;
+  onSelect?: (event: CalendarEvent) => void;
+  onEdit?: CalendarProps["onEventEdit"];
+  compact?: boolean;
+}) {
+  const [open, setOpen] = useState(false);
+  const reduce = useReducedMotion() === true;
+  const buttonRef = useRef<HTMLButtonElement>(null);
+  const anchorRef = useRef<HTMLElement>(null);
+  const popoverRef = useRef<HTMLElement>(null);
+  useDismissOnOutsidePress(open, () => setOpen(false), [buttonRef, popoverRef]);
+  return (
+    <DialogTrigger isOpen={open} onOpenChange={setOpen}>
+      <AriaButton
+        ref={buttonRef}
+        onPress={() => {
+          anchorRef.current =
+            buttonRef.current?.closest<HTMLElement>('[role="gridcell"]') ?? buttonRef.current;
+          onSelect?.(event);
+        }}
+        aria-label={`${event.title}${event.start ? ` ${event.start}` : ""}`}
+        className={cx(
+          "flex w-full min-w-0 cursor-pointer items-center justify-between gap-0.5 rounded-sm px-1 py-0.5 outline-none transition-[filter] duration-150 hover:brightness-95 focus-visible:ring-2 focus-visible:ring-border-focus-ring sm:gap-1 sm:rounded-md sm:px-1.5",
+          eventTone[event.color ?? "lime"],
+        )}
+      >
+        <span className="truncate text-[10px] leading-3 sm:text-body-2-medium">{event.title}</span>
+        {event.start && (
+          <span
+            className={cx(
+              "hidden shrink-0 opacity-70 sm:inline sm:text-caption-1-medium",
+              eventTimeTone[event.color ?? "lime"],
+            )}
+          >
+            {event.start}
+          </span>
+        )}
+      </AriaButton>
+      {compact &&
+        createPortal(
+          <AnimatePresence>
+            {open && (
+              <motion.div
+                aria-hidden="true"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: reduce ? 0 : 0.3, ease: "easeOut" }}
+                className="pointer-events-none fixed inset-0 z-[99999] bg-black/10 dark:bg-transparent"
+              />
+            )}
+          </AnimatePresence>,
+          document.body,
+        )}
+      <Popover
+        ref={popoverRef}
+        triggerRef={anchorRef}
+        isNonModal
+        placement="right top"
+        offset={6}
+        className="w-[302px] max-w-[calc(100vw-32px)] rounded-[20px] border border-border-button-default bg-background-primary-default p-2.5 outline-none shadow-[0px_1px_2px_0px_rgba(0,0,0,0.04),0px_7px_8px_0px_rgba(0,0,0,0.04)] transition duration-150 ease-out sm:data-[entering]:scale-90 sm:data-[entering]:opacity-0 sm:data-[entering]:blur-[4px] sm:data-[exiting]:scale-90 sm:data-[exiting]:opacity-0 sm:data-[exiting]:blur-[4px] max-sm:fixed! max-sm:inset-x-0! max-sm:top-auto! max-sm:bottom-0! max-sm:m-0! max-sm:max-h-[85dvh]! max-sm:w-full max-sm:max-w-none max-sm:overflow-y-auto max-sm:rounded-[24px] max-sm:rounded-b-none max-sm:border-x-0 max-sm:border-b-0 max-sm:pb-[calc(10px+env(safe-area-inset-bottom))] max-sm:duration-300 max-sm:data-[entering]:translate-y-full max-sm:data-[exiting]:translate-y-full"
+      >
+        <Dialog aria-label={`${event.title} details`} className="outline-none">
+          <EventDetails event={event} onEdit={onEdit} />
+        </Dialog>
+      </Popover>
+    </DialogTrigger>
+  );
+}
+
+function CalendarSubscriptions({
+  onAddAccount,
+  onCalendarSelect,
+}: Pick<CalendarProps, "onAddAccount" | "onCalendarSelect">) {
+  const [open, setOpen] = useState(false);
+  const groups = [
+    {
+      account: "hi@mertcan.works",
+      calendars: ["Incoming events", "F1 Schedule", "Holidays in Hetherlands"],
+      tones: ["bg-blue-200 text-blue-900", "bg-red-200 text-red-700", "bg-lime-200 text-lime-700"],
+    },
+    {
+      account: "mertcanesmergul@gmail.com",
+      calendars: ["Incoming events", "World Cup 2026"],
+      tones: ["bg-blue-200 text-blue-900", "bg-purple-200 text-purple-700"],
+    },
+    {
+      account: "hi@strider.studio",
+      calendars: ["Incoming events", "UFC Nights", "House of Dragons"],
+      tones: [
+        "bg-blue-200 text-blue-900",
+        "bg-teal-200 text-teal-700",
+        "bg-pink-200 text-pink-700",
+      ],
+    },
+  ];
+  return (
+    <Dropdown isOpen={open} onOpenChange={setOpen}>
+      <DropdownTrigger
+        aria-label="Inbox"
+        className="flex size-9 shrink-0 items-center justify-center rounded-2lg border border-border-button-default bg-background-primary-default shadow-xs hover:bg-background-primary-hover"
+      >
+        <RiInbox2Line className="size-5 text-foreground-icon-primary" />
+      </DropdownTrigger>
+      <DropdownPopover
+        aria-label="Calendar subscriptions"
+        placement="bottom end"
+        offset={8}
+        className="w-[266px] data-[placement=bottom]:origin-top-right"
+        dialogClassName="gap-4"
+      >
+        {groups.map((group, groupIndex) => (
+          <div key={group.account} className="contents">
+            {groupIndex > 0 && <div className="-mx-2.5 -my-1 h-px bg-border-button-default" />}
+            <div className="flex w-full flex-col gap-1.5 pt-[5px]">
+              <p className="pl-2 text-body-medium text-text-secondary">{group.account}</p>
+              <div className="flex w-full flex-col gap-1">
+                {group.calendars.map((label, index) => {
+                  const key = `${group.account}-${label}`;
+                  return (
+                    <button
+                      key={key}
+                      type="button"
+                      onClick={() => {
+                        setOpen(false);
+                        onCalendarSelect?.(group.account, label);
+                      }}
+                      className="flex w-full cursor-pointer items-center gap-2 rounded-2lg px-2 py-1.5 outline-none transition-colors hover:bg-background-primary-hover focus-visible:bg-background-primary-hover"
+                    >
+                      <span
+                        className={cx(
+                          "flex size-5 shrink-0 items-center justify-center rounded-md",
+                          group.tones[index],
+                        )}
+                      >
+                        <RiRssFill className="size-3" />
+                      </span>
+                      <span className="truncate text-body-medium text-text-primary">{label}</span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        ))}
+        <Button
+          size="small"
+          variant="secondary"
+          leadingIcon={RiAddLine}
+          className="w-full"
+          onClick={() => {
+            setOpen(false);
+            onAddAccount?.();
+          }}
+        >
+          Add new account
+        </Button>
+      </DropdownPopover>
+    </Dropdown>
+  );
+}
+
+function NewEvent({ date, onAdd }: { date: Date; onAdd: (event: CalendarEvent) => void }) {
+  const [open, setOpen] = useState(false);
+  const [title, setTitle] = useState("");
+  const [day, setDay] = useState<CalendarDate | null>(null);
+  const [time, setTime] = useState("09:00");
+  const [color, setColor] = useState<CalendarEventColor>("blue");
+  const id = useId();
+  function submit(event: FormEvent) {
+    event.preventDefault();
+    if (!title.trim()) return;
+    onAdd({
+      id: `event-${globalThis.crypto.randomUUID()}`,
+      title: title.trim(),
+      date: day?.toString() ?? isoDate(date),
+      start: time || undefined,
+      color,
+      duration: 60,
+    });
+    setOpen(false);
+    setTitle("");
+    setDay(null);
+  }
+  return (
+    <>
+      <Button onClick={() => setOpen(true)} leadingIcon={RiAddLine} variant="primary" size="medium">
+        New event
+      </Button>
+      <ModalOverlay
+        isOpen={open}
+        onOpenChange={setOpen}
+        isDismissable
+        className="fixed inset-0 z-50 flex items-center justify-center bg-background-full/60 p-4 backdrop-blur-sm"
+      >
+        <Modal className="w-full max-w-[400px] rounded-3xl border border-border-button-default bg-background-primary-default p-5 shadow-dropdown">
+          <Dialog aria-label="New event" className="outline-none">
+            <div className="mb-5 flex items-center justify-between">
+              <h2 className="text-title-3-semibold text-text-primary">New event</h2>
+              <IconButton
+                icon={RiCloseLine}
+                aria-label="Close new event"
+                size="small"
+                onClick={() => setOpen(false)}
+              />
+            </div>
+            <form onSubmit={submit} className="flex flex-col gap-4">
+              <TextField aria-label="Event name" value={title} onChange={setTitle} isRequired>
+                <span className="text-body-2-medium text-text-secondary">Event name</span>
+                <InputBase id={id} placeholder="What’s happening?" autoFocus />
+              </TextField>
+              <div className="flex items-end gap-3">
+                <div className="flex flex-1 flex-col gap-1">
+                  <span className="text-body-2-medium text-text-secondary">Date</span>
+                  <DatePicker
+                    aria-label="Event date"
+                    value={
+                      day ??
+                      new CalendarDate(date.getFullYear(), date.getMonth() + 1, date.getDate())
+                    }
+                    onChange={setDay}
+                  />
+                </div>
+                <TextField
+                  aria-label="Start time"
+                  value={time}
+                  onChange={setTime}
+                  className="max-w-[120px]"
+                >
+                  <span className="text-body-2-medium text-text-secondary">Time</span>
+                  <InputBase type="time" />
+                </TextField>
+              </div>
+              <div className="flex flex-col gap-2">
+                <span className="text-body-2-medium text-text-secondary">Color</span>
+                <div className="flex gap-2">
+                  {COLORS.map((tone) => (
+                    <button
+                      key={tone}
+                      type="button"
+                      aria-label={`${tone} event color`}
+                      aria-pressed={color === tone}
+                      onClick={() => setColor(tone)}
+                      className={cx(
+                        "flex size-7 items-center justify-center rounded-full outline-none focus-visible:ring-2 focus-visible:ring-border-focus-ring",
+                        eventTone[tone],
+                      )}
+                    >
+                      {color === tone && <RiCheckLine className="size-4" />}
+                    </button>
+                  ))}
+                </div>
+              </div>
+              <div className="mt-2 flex justify-end gap-2">
+                <Button variant="secondary" onClick={() => setOpen(false)}>
+                  Cancel
+                </Button>
+                <Button type="submit" variant="primary" disabled={!title.trim()}>
+                  Create event
+                </Button>
+              </div>
+            </form>
+          </Dialog>
+        </Modal>
+      </ModalOverlay>
+    </>
+  );
+}
+
+const compactCalendarQuery = "(max-width: 639px)";
+function subscribeCompactCalendar(onChange: () => void) {
+  const query = window.matchMedia(compactCalendarQuery);
+  query.addEventListener("change", onChange);
+  return () => query.removeEventListener("change", onChange);
+}
+const getCompactCalendar = () => window.matchMedia(compactCalendarQuery).matches;
+const getServerCompactCalendar = () => false;
+
+export function Calendar({
+  date: controlledDate,
+  onDateChange,
+  events: controlledEvents,
+  onEventsChange,
+  onEventSelect,
+  notifications = CALENDAR_NOTIFICATIONS,
+  onAddAccount,
+  onCalendarSelect,
+  onEventEdit,
+  className,
+}: CalendarProps = {}) {
+  const [internalDate, setInternalDate] = useState(() => new Date(2026, 7, 1, 12));
+  const [internalEvents, setInternalEvents] = useState(CALENDAR_EVENTS);
+  const [pickerOpen, setPickerOpen] = useState(false);
+  const monthTrigger = useRef<HTMLButtonElement>(null);
+  const compact = useSyncExternalStore(
+    subscribeCompactCalendar,
+    getCompactCalendar,
+    getServerCompactCalendar,
+  );
+  const date = controlledDate ?? internalDate;
+  const events = controlledEvents ?? internalEvents;
+  const year = date.getFullYear();
+  const month = date.getMonth();
+  const label = date.toLocaleDateString("en-US", { month: "long", year: "numeric" });
+  const first = new Date(year, month, 1, 12);
+  const cells = 42;
+  const days = Array.from(
+    { length: cells },
+    (_, index) => new Date(year, month, index - first.getDay() + 1, 12),
+  );
+  const eventsByDate = new Map<string, CalendarEvent[]>();
+  for (const event of events) {
+    const list = eventsByDate.get(event.date) ?? [];
+    list.push(event);
+    eventsByDate.set(event.date, list);
+  }
+  function changeDate(next: Date) {
+    if (!controlledDate) setInternalDate(next);
+    onDateChange?.(next);
+  }
+  function addEvent(event: CalendarEvent) {
+    const next = [...events, event];
+    if (!controlledEvents) setInternalEvents(next);
+    onEventsChange?.(next);
+  }
+  return (
+    <section
+      className={cx("flex w-full min-w-0 flex-col gap-2.5", className)}
+      aria-label="Calendar"
+    >
+      <header className="flex flex-wrap items-end justify-between gap-2 px-3 pt-3 sm:px-0 sm:pt-0">
+        <h1 className="whitespace-nowrap px-1 text-title-2-medium text-text-primary">{label}</h1>
+        <div className="flex w-full flex-nowrap items-start gap-2.5 sm:w-auto">
+          <NotificationBell
+            notifications={notifications}
+            popoverClassName="w-[430px] max-w-[calc(100vw-32px)] origin-top-right transition duration-150 ease-out data-[entering]:scale-95 data-[entering]:opacity-0 data-[entering]:blur-[2px] data-[exiting]:scale-95 data-[exiting]:opacity-0 data-[exiting]:blur-[2px]"
+          />
+          <CalendarSubscriptions onAddAccount={onAddAccount} onCalendarSelect={onCalendarSelect} />
+          <div className="relative h-9 min-w-0 flex-1 sm:w-[320px] sm:flex-none">
+            <div className="absolute inset-x-0 top-0 flex items-center rounded-2lg border border-border-button-default bg-background-primary-default p-2 shadow-dropdown dark:border-transparent dark:shadow-none">
+              <button
+                type="button"
+                aria-label="Previous month"
+                onClick={() => changeDate(new Date(year, month - 1, 1, 12))}
+                className="flex size-4 shrink-0 items-center justify-center rounded-[3px] outline-none hover:bg-background-secondary-hover focus-visible:ring-2 focus-visible:ring-border-focus-ring"
+              >
+                <MonthChevron direction="previous" />
+              </button>
+              <button
+                ref={monthTrigger}
+                type="button"
+                onClick={() => setPickerOpen(!pickerOpen)}
+                aria-label={`Jump to date, ${label}`}
+                aria-expanded={pickerOpen}
+                className="min-w-0 flex-1 truncate text-center text-body-medium text-text-primary outline-none focus-visible:ring-2 focus-visible:ring-border-focus-ring"
+              >
+                <span className="sm:hidden">
+                  {date.toLocaleDateString("en-US", { month: "short" })}
+                </span>
+                <span className="hidden sm:inline">{label}</span>
+              </button>
+              <button
+                type="button"
+                aria-label="Next month"
+                onClick={() => changeDate(new Date(year, month + 1, 1, 12))}
+                className="flex size-4 shrink-0 items-center justify-center rounded-[3px] outline-none hover:bg-background-secondary-hover focus-visible:ring-2 focus-visible:ring-border-focus-ring"
+              >
+                <MonthChevron direction="next" />
+              </button>
+            </div>
+            <DatePicker
+              aria-label="Jump to date"
+              triggerRef={monthTrigger}
+              isOpen={pickerOpen}
+              onOpenChange={setPickerOpen}
+              value={new CalendarDate(year, month + 1, date.getDate())}
+              onChange={(value) => {
+                if (value) changeDate(new Date(value.year, value.month - 1, value.day, 12));
+              }}
+            />
+          </div>
+          <NewEvent date={date} onAdd={addEvent} />
+        </div>
+      </header>
+      <div className="w-full overflow-hidden rounded-b-3xl bg-background-secondary-default sm:overflow-visible sm:rounded-3xl sm:p-3">
+        <div className="flex h-full min-h-0 w-full flex-col overflow-hidden border-y border-separator-border-strong dark:border-separator-border sm:h-auto sm:gap-2 sm:overflow-visible sm:border-0">
+          <div className="grid grid-cols-7 border-b border-separator-border-strong dark:border-separator-border sm:gap-2 sm:border-0">
+            {DAY_NAMES.map((day) => (
+              <span
+                key={day}
+                className="flex items-center justify-center border-r border-separator-border-strong bg-background-secondary-default px-0.5 py-1 text-center text-[11px] leading-4 text-text-secondary last:border-r-0 dark:border-separator-border sm:rounded-xl sm:border-0 sm:px-2.5 sm:py-[5px] sm:text-body-2-regular"
+              >
+                {day}
+              </span>
+            ))}
+          </div>
+          <div
+            role="grid"
+            aria-label={label}
+            className="grid min-h-0 flex-1 grid-cols-7 grid-rows-[repeat(6,minmax(0,1fr))] sm:flex-none sm:grid-rows-[repeat(6,minmax(0,auto))] sm:gap-2"
+          >
+            {days.map((day) => {
+              const key = isoDate(day);
+              const dayEvents = eventsByDate.get(key) ?? [];
+              const inMonth = day.getMonth() === month;
+              return (
+                <div
+                  key={key}
+                  role="gridcell"
+                  aria-label={day.toLocaleDateString("en-US", { month: "long", day: "numeric" })}
+                  className="relative h-full min-w-0 border-r border-b border-separator-border-strong last:border-b-0 nth-[7n]:border-r-0 nth-[n+36]:border-b-0 dark:border-separator-border sm:border-0"
+                >
+                  <div
+                    className={cx(
+                      "relative flex h-full min-h-[72px] min-w-0 flex-col overflow-hidden sm:min-h-[94px] sm:rounded-xl lg:min-h-[105px] xl:min-h-[128px] 2xl:min-h-[164px]",
+                      inMonth
+                        ? "bg-background-primary-default dark:bg-background-secondary-default sm:shadow-card sm:dark:bg-background-primary-default"
+                        : "bg-background-secondary-default sm:bg-background-tertiary-default",
+                    )}
+                  >
+                    <button
+                      type="button"
+                      aria-label={`Select ${key}`}
+                      onClick={() => changeDate(day)}
+                      className={cx(
+                        "w-full pt-1.5 pl-1.5 text-left text-[11px] leading-4 font-medium outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-border-focus-ring sm:pt-2 sm:pl-2.5 sm:text-body-2-medium",
+                        inMonth ? "text-text-primary" : "text-text-secondary",
+                      )}
+                    >
+                      {day.getDate()}
+                    </button>
+                    <div className="mt-auto flex min-w-0 flex-col gap-0.5 px-1 pb-1 sm:gap-[5px] sm:px-2 sm:pb-2">
+                      {dayEvents.length > 4 && (
+                        <Dropdown>
+                          <DropdownTrigger className="w-full truncate rounded-sm text-left text-[10px] leading-3 font-medium text-text-secondary sm:text-body-2-medium">
+                            +{dayEvents.length - 4} more
+                          </DropdownTrigger>
+                          <DropdownPopover aria-label={`Events on ${key}`} className="w-[280px]">
+                            <DropdownGroup
+                              label={day.toLocaleDateString("en-US", {
+                                month: "long",
+                                day: "numeric",
+                              })}
+                            >
+                              {dayEvents.map((event) => (
+                                <EventPill
+                                  key={event.id}
+                                  event={event}
+                                  onSelect={onEventSelect}
+                                  onEdit={onEventEdit}
+                                  compact={compact}
+                                />
+                              ))}
+                            </DropdownGroup>
+                          </DropdownPopover>
+                        </Dropdown>
+                      )}
+                      {dayEvents.slice(0, 4).map((event) => (
+                        <EventPill
+                          key={event.id}
+                          event={event}
+                          onSelect={onEventSelect}
+                          onEdit={onEventEdit}
+                          compact={compact}
+                        />
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+3:["$","$L1e",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"calendar","title":"Calendar","description":"event chips, details popover, month switcher, and inbox feed","category":"blocks","tags":["interaction","calendar","events"],"status":"stable","tier":"free","isNew":true,"dependencies":["@internationalized/date","@remixicon/react","motion","react-aria-components","tailwind-merge"],"registryDependencies":["app-shell","avatar","button","cx","date-picker","dropdown","icon-button","input","notification-center","segmented-control","select","tokens","use-dismiss-on-outside-press"],"files":[{"path":"application/calendar/calendar.tsx","target":"components/application/calendar/calendar.tsx","type":"component","content":"$1f"},{"path":"public/avatars/jaydon-aminoff.webp","target":"public/avatars/jaydon-aminoff.webp","type":"asset","encoding":"base64"},{"path":"public/avatars/livia-saris.webp","target":"public/avatars/livia-saris.webp","type":"asset","encoding":"base64"},{"path":"public/brand/google_meet.png","target":"public/brand/google_meet.png","type":"asset","encoding":"base64"}],"hash":"0c775ec1c827"},"demoSource":"\"use client\";\nimport { Calendar } from \"@/components/application/calendar/calendar\";\nexport default function CalendarDemo() {\n  return <Calendar />;\n}","previous":{"name":"agent-progress","title":"Agent Progress"},"next":{"name":"composer","title":"Composer"}}]
+4:["$","script","script-0",{"src":"/_next/static/chunks/3l5f3qnr89rl0.js","async":true}]
+5:["$","script","script-1",{"src":"/_next/static/chunks/0wmbfrsxfdesk.js","async":true}]
+6:["$","script","script-2",{"src":"/_next/static/chunks/3ixdl2m026on9.js","async":true}]
+7:["$","script","script-3",{"src":"/_next/static/chunks/3xa-hzf5c_c6n.js","async":true}]
+8:["$","script","script-4",{"src":"/_next/static/chunks/1zihipy0kqa1_.js","async":true}]
+9:["$","script","script-5",{"src":"/_next/static/chunks/0-afrvt74ak7l.js","async":true}]
+a:["$","script","script-6",{"src":"/_next/static/chunks/0337601gswv_s.js","async":true}]
+b:["$","script","script-7",{"src":"/_next/static/chunks/34zl6f3dq0u0q.js","async":true}]
+c:["$","script","script-8",{"src":"/_next/static/chunks/2az_x4uxpy3sm.js","async":true}]
+d:["$","script","script-9",{"src":"/_next/static/chunks/23ywcyogzmwlv.js","async":true}]
+e:["$","script","script-10",{"src":"/_next/static/chunks/2qg2knl-9_2le.js","async":true}]
+f:["$","script","script-11",{"src":"/_next/static/chunks/1wypk9kc4p_mt.js","async":true}]
+10:["$","$L20",null,{"children":["$","$21",null,{"name":"Next.MetadataOutlet","children":"$@22"}]}]
+13:["$","$1","h",{"children":[null,["$","$L23",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L24",null,{"children":["$","$21",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Calendar — Zeus UI"}],["$","meta","1",{"name":"description","content":"event chips, details popover, month switcher, and inbox feed"}],["$","meta","2",{"name":"keywords","content":"interaction,calendar,events"}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+15:["$","$1","c",{"children":[null,["$","$L25",null,{"parallelRouterKey":"children","template":["$","$L26",null,{}]}]]}]
+18:["$","$1","c",{"children":[null,["$","$L25",null,{"parallelRouterKey":"children","template":["$","$L26",null,{}]}]]}]
+1a:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/0by1pam5w7cuf.js","async":true}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L27",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L25",null,{"parallelRouterKey":"children","template":["$","$L26",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]]}]}]]}]
+22:null
+1d:true
+12:300
+12:C
+1c:0
+14:"$undefined"
+16:"$undefined"
+19:"$undefined"
+1b:"$undefined"
+11:"$undefined"

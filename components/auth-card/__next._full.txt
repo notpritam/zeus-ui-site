@@ -1,0 +1,587 @@
+1:"$Sreact.fragment"
+2:I[72844,["/_next/static/chunks/0by1pam5w7cuf.js"],""]
+3:I[37280,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+4:I[75701,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+6:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+a:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"ViewportBoundary"]
+c:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"MetadataBoundary"]
+e:I[84167,["/_next/static/chunks/0by1pam5w7cuf.js"],"default",1]
+:HL["/_next/static/chunks/16_ml9va511u1.css","style"]
+:HL["/_next/static/chunks/1lom8-olk25vh.css","style"]
+:HL["/_next/static/media/234d9015b631dab9-s.p.33gca1im1ku45.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+9:X
+0:{"P":null,"c":["","components","auth-card",""],"q":"","i":false,"f":[[["",{"children":["components",{"children":[["slug","auth-card","d",[]],{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0by1pam5w7cuf.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L2",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/3l5f3qnr89rl0.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0wmbfrsxfdesk.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/3ixdl2m026on9.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/3xa-hzf5c_c6n.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/1zihipy0kqa1_.js","async":true,"nonce":"$undefined"}],["$","script","script-5",{"src":"/_next/static/chunks/0-afrvt74ak7l.js","async":true,"nonce":"$undefined"}],["$","script","script-6",{"src":"/_next/static/chunks/0337601gswv_s.js","async":true,"nonce":"$undefined"}],["$","script","script-7",{"src":"/_next/static/chunks/34zl6f3dq0u0q.js","async":true,"nonce":"$undefined"}],["$","script","script-8",{"src":"/_next/static/chunks/2az_x4uxpy3sm.js","async":true,"nonce":"$undefined"}],["$","script","script-9",{"src":"/_next/static/chunks/23ywcyogzmwlv.js","async":true,"nonce":"$undefined"}],["$","script","script-10",{"src":"/_next/static/chunks/2qg2knl-9_2le.js","async":true,"nonce":"$undefined"}],["$","script","script-11",{"src":"/_next/static/chunks/1wypk9kc4p_mt.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$9"]},null,false,"$9"]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],"$Lf"]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Kgh3aKGUUDrNWttN7OqGM"}
+9:C
+f:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+10:I[54515,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"DocsLayout"]
+5:["$","$L10",null,{"title":"Auth Card","heading":"Auth Card","icon":"components","groups":[{"id":"foundations","title":"Foundations","items":[{"name":"tokens","title":"Design tokens","isNew":"$undefined"},{"name":"typography","title":"Typography","isNew":"$undefined"},{"name":"cx","title":"cx","isNew":"$undefined"},{"name":"chevrons","title":"Chevrons","isNew":"$undefined"},{"name":"logo","title":"Logo","isNew":"$undefined"},{"name":"use-count-up","title":"useCountUp","isNew":"$undefined"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress","isNew":"$undefined"}]},{"id":"base","title":"Base","items":[{"name":"button","title":"Button","isNew":"$undefined"},{"name":"icon-button","title":"Icon Button","isNew":"$undefined"},{"name":"link-button","title":"Link Button","isNew":"$undefined"},{"name":"button-group","title":"Button Group","isNew":"$undefined"},{"name":"close-button","title":"Close Button","isNew":"$undefined"},{"name":"social-button","title":"Social Button","isNew":"$undefined"},{"name":"input","title":"Input","isNew":"$undefined"},{"name":"input-otp","title":"Input OTP","isNew":"$undefined"},{"name":"checkbox","title":"Checkbox","isNew":"$undefined"},{"name":"radio","title":"Radio","isNew":"$undefined"},{"name":"switch","title":"Switch","isNew":"$undefined"},{"name":"select","title":"Select","isNew":"$undefined"},{"name":"slider","title":"Slider","isNew":"$undefined"},{"name":"dropdown","title":"Dropdown","isNew":"$undefined"},{"name":"divider","title":"Divider","isNew":"$undefined"},{"name":"file-upload","title":"File Upload","isNew":"$undefined"},{"name":"tabs","title":"Tabs","isNew":"$undefined"},{"name":"segmented-control","title":"Segmented Control","isNew":"$undefined"},{"name":"table","title":"Table","isNew":"$undefined"},{"name":"tooltip","title":"Tooltip","isNew":"$undefined"},{"name":"badge","title":"Badge","isNew":"$undefined"},{"name":"chip","title":"Chip","isNew":"$undefined"},{"name":"status-dot","title":"Status Dot","isNew":"$undefined"},{"name":"kbd","title":"Kbd","isNew":"$undefined"},{"name":"avatar","title":"Avatar","isNew":"$undefined"},{"name":"breadcrumb","title":"Breadcrumb","isNew":"$undefined"},{"name":"pagination","title":"Pagination","isNew":"$undefined"},{"name":"carousel","title":"Carousel","isNew":"$undefined"},{"name":"announcement","title":"Announcement","isNew":"$undefined"},{"name":"notification","title":"Notification","isNew":"$undefined"},{"name":"date-picker","title":"Date Picker","isNew":"$undefined"},{"name":"date-range-picker","title":"Date Range Picker","isNew":"$undefined"},{"name":"meeting-scheduler","title":"Meeting Scheduler","isNew":"$undefined"}]},{"id":"blocks","title":"Blocks","items":[{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"calendar","title":"Calendar","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"theme-toggle","title":"Theme Toggle","isNew":"$undefined"},{"name":"stat-cards","title":"Stat Cards","isNew":"$undefined"},{"name":"data-table","title":"Data Table","isNew":"$undefined"},{"name":"sidebar","title":"Sidebar","isNew":"$undefined"},{"name":"app-shell","title":"App Shell","isNew":"$undefined"},{"name":"notification-center","title":"Notification Center","isNew":"$undefined"},{"name":"settings-modal","title":"Settings Modal","isNew":"$undefined"},{"name":"auth-card","title":"Auth Card","isNew":"$undefined"},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking","isNew":"$undefined"},{"name":"composer-loader","title":"Composer Loader","isNew":"$undefined"},{"name":"agent-log","title":"Agent Log","isNew":"$undefined"},{"name":"agent-chat","title":"Agent Chat","isNew":"$undefined"}]},{"id":"charts","title":"Charts","items":[{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart","isNew":"$undefined"},{"name":"orders-chart-card","title":"Orders Chart","isNew":"$undefined"},{"name":"important-alerts-card","title":"Important Alerts","isNew":"$undefined"},{"name":"patient-info-card","title":"Patient Info","isNew":"$undefined"}]},{"id":"templates","title":"Templates","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true},{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true}]}],"description":"Sign in, sign up and verify, with stacked, inline and grid provider layouts.","columnClassName":"$undefined","detail":true,"children":"$L11"}]
+12:I[26438,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"ComponentPage"]
+13:T33dc,"use client";
+
+import type { FormEvent, ReactNode } from "react";
+import { useState } from "react";
+import { RiMailCheckLine } from "@remixicon/react";
+import { Button } from "../../base/buttons/button";
+import { Checkbox } from "../../base/checkbox/checkbox";
+import { Divider } from "../../base/divider/divider";
+import { Input } from "../../base/input/input";
+import { InputOtp } from "../../base/input-otp/input-otp";
+import { LinkButton } from "../../base/buttons/link-button";
+import { SocialButton } from "../../base/social-button/social-button";
+import type { SocialProvider } from "../../base/social-button/social-providers";
+import { cx } from "../../utils/cx";
+
+// Re-exported so `media` has a batteries-included option and the registry
+// installs it alongside the card. Nothing here imports it otherwise.
+export {
+  AuthMediaCarousel,
+  type AuthMediaSlide,
+} from "./auth-media-carousel";
+
+/**
+ * Sign-in and sign-up cards built on the social buttons.
+ *
+ * The providers render one of three ways, because each is right somewhere:
+ *
+ *   layout="stacked"  full-width buttons with labels, one per row. Names each
+ *                     provider, so it suits a dedicated sign-in page with the
+ *                     room to spell them out.
+ *   layout="inline"   icon-only squares side by side. Compact enough for a
+ *                     modal or a narrow panel, and carries more providers in
+ *                     the same space.
+ *   layout="grid"     icon-only across equal columns, so a small set reads as
+ *                     one row of controls rather than loose squares.
+ *
+ * All three sit below the email form, never above it, and all three take the
+ * same `providers` array, so switching is one prop and the set never has to
+ * be written twice.
+ *
+ * `media` turns the whole thing into a two-column split with artwork beside
+ * the form — pass `AuthMediaCarousel` for a set of images that cycles on its
+ * own — and `logo` puts a mark above the title.
+ *
+ * `mode="verify"` is the step after either one: OTP boxes instead of email
+ * and password, a resend action instead of a link to the other mode, and no
+ * providers at all, since the visitor has already chosen how they sign in.
+ *
+ * The form is deliberately uncontrolled and `onSubmit`-based: an auth card is
+ * the shell around whatever the host app's auth library does, not an opinion
+ * about it. Pass `onSubmit` and `onProvider`, or swap the CTA for your own.
+ */
+
+export type AuthLayout = "stacked" | "inline" | "grid";
+export type AuthMode = "signin" | "signup" | "verify";
+
+export interface AuthCardProps {
+  /**
+   * `signin` (default), `signup`, or `verify` for the one-time-code step.
+   * `verify` swaps the email fields for OTP boxes and drops the providers:
+   * the visitor has already chosen how they are signing in.
+   */
+  mode?: AuthMode;
+  /** `verify` only: the address the code went to, shown in the description. */
+  email?: string;
+  /** `verify` only: how many digits. Defaults to 6. */
+  codeLength?: number;
+  /** `verify` only: fires once the last box is filled. */
+  onComplete?: (code: string) => void;
+  /** `verify` only: the resend action. */
+  onResend?: () => void;
+  /** How the provider buttons are arranged. Defaults to `stacked`. */
+  layout?: AuthLayout;
+  providers?: SocialProvider[];
+  title?: ReactNode;
+  description?: ReactNode;
+  /**
+   * Artwork for the right half. Passing it turns the card into the split
+   * layout: form on the left, media on the right, which drops to the form
+   * alone below `md` rather than stacking a tall image above the fields.
+   */
+  media?: ReactNode;
+  /**
+   * Mark above the title — a wordmark, an app icon, anything. Deliberately a
+   * node rather than a src, so the card stays brand-agnostic and an installed
+   * copy pulls none of BoardUI's own artwork with it.
+   */
+  logo?: ReactNode;
+  /** Centre the heading, as the split layout usually wants. */
+  centered?: boolean;
+  /** Sign-up only: adds a stacked confirm-password field. */
+  confirmPassword?: boolean;
+  /** Small print under the card, outside its border. */
+  footnote?: ReactNode;
+  /** Fires with the form's own FormData; wire it to your auth library. */
+  onSubmit?: (data: FormData) => void;
+  onProvider?: (provider: SocialProvider) => void;
+  /** Footer link target, e.g. to the opposite mode. */
+  switchHref?: string;
+  className?: string;
+}
+
+const COPY = {
+  signin: {
+    title: "Welcome back",
+    description: "Sign in to pick up where you left off.",
+    cta: "Sign in",
+    switchLead: "New here?",
+    switchAction: "Create an account",
+  },
+  signup: {
+    title: "Create your account",
+    description: "Start building with BoardUI in a couple of minutes.",
+    cta: "Create account",
+    switchLead: "Already have an account?",
+    switchAction: "Sign in",
+  },
+  verify: {
+    title: "Check your inbox",
+    description: "Enter the code we sent to finish signing in.",
+    cta: "Verify and continue",
+    switchLead: "Code not arriving?",
+    switchAction: "Send a new one",
+  },
+} as const;
+
+export function AuthCard({
+  mode = "signin",
+  email,
+  codeLength = 6,
+  onComplete,
+  onResend,
+  layout = "stacked",
+  providers = ["google", "apple", "github"],
+  title,
+  description,
+  media,
+  logo,
+  centered = false,
+  confirmPassword = false,
+  footnote,
+  onSubmit,
+  onProvider,
+  switchHref = "#",
+  className,
+}: AuthCardProps) {
+  const [remember, setRemember] = useState(true);
+  const [code, setCode] = useState("");
+  const copy = COPY[mode];
+  const signup = mode === "signup";
+  const verify = mode === "verify";
+
+  const submit = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    onSubmit?.(new FormData(event.currentTarget));
+  };
+
+  const social = (
+    <div
+      className={cx(
+        layout === "stacked" && "flex flex-col gap-2.5",
+        // Wraps rather than scrolls: six providers on a narrow card should
+        // fall to a second row, not clip.
+        layout === "inline" && "flex flex-wrap justify-center gap-2",
+        // Equal columns that share the full width, so three providers read as
+        // one row of controls rather than three loose squares.
+        layout === "grid" && "grid grid-flow-col auto-cols-fr gap-2.5",
+      )}
+    >
+      {providers.map((provider) => (
+        <SocialButton
+          key={provider}
+          brand={provider}
+          appearance="white"
+          iconOnly={layout !== "stacked"}
+          fullWidth={layout === "stacked"}
+          // `iconOnly` fixes a square width; the grid needs it to stretch,
+          // and `className` is last into `cx` so it wins.
+          className={layout === "grid" ? "w-full" : undefined}
+          onClick={() => onProvider?.(provider)}
+        />
+      ))}
+    </div>
+  );
+
+  // The code step centres itself and carries a mark by default: it is a
+  // single-purpose screen, and the icon is what says at a glance which one.
+  // Left-aligned like the other two modes: a centred column with a hairline
+  // was the reference's shape, and this one should read as the same family
+  // as the sign-in card it follows, not as a different screen.
+  const centerContent = centered;
+  const mark =
+    logo ??
+    (verify ? (
+      <RiMailCheckLine className="size-8 text-foreground-icon-primary" aria-hidden />
+    ) : null);
+
+  const body = (
+    <>
+      {mark ? (
+        <div className={cx("mb-5 flex", centerContent ? "justify-center" : "justify-start")}>
+          {mark}
+        </div>
+      ) : null}
+
+      <div className={cx("flex flex-col gap-1.5", centerContent && "text-center")}>
+        <h1 className="text-title-2-medium text-text-primary">{title ?? copy.title}</h1>
+        <p className="text-body-regular text-text-secondary">
+          {description ??
+            (verify && email ? (
+              <>
+                Enter the code we sent to{" "}
+                <span className="text-body-medium text-text-primary">{email}</span>{" "}
+                to finish signing in.
+              </>
+            ) : (
+              copy.description
+            ))}
+        </p>
+      </div>
+
+      <form onSubmit={submit} className="mt-6 flex flex-col gap-4">
+        {verify ? (
+          <div className="flex flex-col gap-1.5">
+            <span className="text-body-medium text-text-secondary">
+              Verification code
+            </span>
+            <InputOtp
+              value={code}
+              onChange={setCode}
+              onComplete={onComplete}
+              length={codeLength}
+              groupEvery={codeLength % 2 === 0 ? codeLength / 2 : undefined}
+              aria-label="Verification code"
+              className="justify-start"
+            />
+          </div>
+        ) : null}
+
+        {signup && !confirmPassword ? (
+          <Input name="name" label="Full name" placeholder="Ada Lovelace" isRequired />
+        ) : null}
+
+        {verify ? null : (
+        <Input
+          name="email"
+          type="email"
+          label="Email"
+          placeholder="you@company.com"
+          autoComplete="email"
+          hint={signup ? "We use this to contact you, and never share it." : undefined}
+          isRequired
+        />
+        )}
+
+        {verify ? null : signup && confirmPassword ? (
+          // Stacked, full width: a password field pair is easier to fill at
+          // full width than in two half-width columns, and it keeps the whole
+          // form on one rhythm.
+          <>
+            <Input
+              name="password"
+              type="password"
+              label="Password"
+              placeholder="At least 8 characters"
+              autoComplete="new-password"
+              isRequired
+            />
+            <Input
+              name="confirmPassword"
+              type="password"
+              label="Confirm password"
+              placeholder="Repeat your password"
+              autoComplete="new-password"
+              isRequired
+            />
+          </>
+        ) : (
+          <Input
+            name="password"
+            type="password"
+            label="Password"
+            placeholder={signup ? "At least 8 characters" : "Enter your password"}
+            autoComplete={signup ? "new-password" : "current-password"}
+            isRequired
+          />
+        )}
+
+        {signup || verify ? null : (
+          <div className="flex items-center justify-between">
+            <Checkbox size="sm" isSelected={remember} onChange={setRemember}>
+              Remember me
+            </Checkbox>
+            <LinkButton href="#">Forgot password?</LinkButton>
+          </div>
+        )}
+
+        <Button type="submit" className="w-full">
+          {copy.cta}
+        </Button>
+
+        {/* The split layout carries its terms line under the card instead,
+            through `footnote`, so it does not crowd the CTA. */}
+        {signup && !footnote ? (
+          <p className="text-caption-1-regular text-text-tertiary">
+            By creating an account you agree to our Terms of Service and Privacy Policy.
+          </p>
+        ) : null}
+      </form>
+
+      {/* Providers always follow the form, in every layout: the email fields
+          are the path this card is built around, and a bank of provider
+          buttons above them buries the thing people came to fill in. The
+          code step shows none — the visitor has already picked a method. */}
+      {!verify && providers.length > 0 ? (
+        <>
+          <div className="my-5">
+            <Divider>or continue with</Divider>
+          </div>
+          {social}
+        </>
+      ) : null}
+
+      {/* Resend is an action, not a destination, so on the code step the
+          footer is a button. `LinkButton` renders one when given no href. */}
+      {verify ? (
+        <p className="mt-6 text-center text-body-regular text-text-secondary">
+          {copy.switchLead}{" "}
+          <LinkButton onClick={onResend}>{copy.switchAction}</LinkButton>
+        </p>
+      ) : (
+        <p className="mt-6 text-center text-body-regular text-text-secondary">
+          {copy.switchLead} <LinkButton href={switchHref}>{copy.switchAction}</LinkButton>
+        </p>
+      )}
+    </>
+  );
+
+  const card = media ? (
+    <div
+      className={cx(
+        "grid w-full max-w-[880px] overflow-hidden rounded-3xl border border-border-button-default bg-background-primary-default shadow-xs md:grid-cols-2 dark:bg-background-secondary-default",
+        className,
+      )}
+    >
+      <div className="flex flex-col p-6 sm:p-8">{body}</div>
+      {/* Hidden rather than stacked below `md`: a tall image above the fields
+          pushes the form off a phone screen for no gain. */}
+      <div className="relative hidden bg-background-secondary-default md:block">{media}</div>
+    </div>
+  ) : (
+    <div
+      className={cx(
+        "flex w-full max-w-[400px] flex-col rounded-3xl border border-border-button-default bg-background-primary-default p-6 shadow-xs sm:p-8 dark:bg-background-secondary-default",
+        className,
+      )}
+    >
+      {body}
+    </div>
+  );
+
+  if (!footnote) return card;
+
+  return (
+    <div className="flex w-full flex-col items-center gap-4">
+      {card}
+      <p className="max-w-[520px] text-center text-caption-1-regular text-text-tertiary">
+        {footnote}
+      </p>
+    </div>
+  );
+}
+14:T1c84,"use client";
+
+import { useEffect, useState } from "react";
+import { cx } from "../../utils/cx";
+
+/**
+ * Auto-advancing artwork for the auth card's `media` slot.
+ *
+ * The transition is a four-beat cycle rather than a plain slide. The image
+ * fills the panel edge to edge; when its turn is up it shrinks and rounds off
+ * into a card, holds there long enough to read as a deliberate pause, and only
+ * then travels left. The next image rides in beside it already card-sized, and
+ * grows back out to fill the panel once it has landed. Shrinking first is what
+ * makes the movement legible: a full-bleed image sliding under a hard edge
+ * reads as a cut, while a card that detaches, moves, and settles reads as one
+ * object being replaced by another.
+ *
+ * The travel happens in depth, not flat across the panel. The panel holds a
+ * perspective, and the cards leave and arrive pushed back along Z and turned
+ * on their vertical axis, so the outgoing one banks away to the left while the
+ * next swings in from the right and squares up as it lands. Both are angled
+ * away from the middle, as though they sit on a drum turning past the viewer,
+ * which is what gives the movement a front and a back instead of a left and a
+ * right.
+ *
+ * Every slide is placed by where it sits relative to the current one, so the
+ * set travels in one direction forever and the wrap back to the first image is
+ * just another step left. The cost of that arrangement is that the slide
+ * leaving the frame has to jump from the left side to the back of the queue on
+ * the right, so transitions are enabled only for the slides actually moving in
+ * a given beat; everything else is repositioned with them switched off.
+ *
+ * Plain `<img>` rather than `next/image`: this file installs into other
+ * people's projects, and it should not decide their image pipeline for them.
+ * The first slide is eager and the rest lazy, so the card paints immediately
+ * without pulling four files at once.
+ *
+ * It advances on its own and offers no controls. The artwork beside a sign-in
+ * form is atmosphere, not content — a visitor is there to get in, and giving
+ * them arrows to click is inviting them away from the thing they came to do.
+ * Honouring `prefers-reduced-motion` means holding on the first slide.
+ */
+
+const REDUCED_MOTION_QUERY = "(prefers-reduced-motion: reduce)";
+
+/** Card state: shrunk to a rounded tile, and the size it rides in at. */
+const CARD_SCALE = 0.82;
+const ENTER_SCALE = 0.8;
+const CARD_RADIUS = 24;
+
+/** How deep the drum is, and how far the cards turn on it. */
+const PERSPECTIVE = 850;
+const DEPTH = 220;
+const TILT = 48;
+
+const SHRINK_MS = 450;
+/** The deliberate pause once it has become a card, before it moves. */
+const HOLD_MS = 200;
+const SLIDE_MS = 700;
+const GROW_MS = 500;
+
+/**
+ * `idle`   at rest, full bleed
+ * `shrink` pulling back into a card, then holding
+ * `slide`  travelling left while the next one rides in
+ * `enter`  the frame where the new slide takes over, before it grows
+ */
+type Phase = "idle" | "shrink" | "slide" | "enter";
+
+const NEXT_PHASE: Record<Phase, Phase> = {
+  idle: "shrink",
+  shrink: "slide",
+  slide: "enter",
+  enter: "idle",
+};
+
+export interface AuthMediaSlide {
+  src: string;
+  /** Decorative by default: the artwork carries no information the form needs. */
+  alt?: string;
+}
+
+export function AuthMediaCarousel({
+  slides,
+  interval = 3200,
+  className,
+}: {
+  slides: AuthMediaSlide[];
+  /** Milliseconds a slide rests at full bleed, before the transition begins. */
+  interval?: number;
+  className?: string;
+}) {
+  const [index, setIndex] = useState(0);
+  const [phase, setPhase] = useState<Phase>("idle");
+  const count = slides.length;
+
+  useEffect(() => {
+    if (count < 2) return;
+    if (window.matchMedia(REDUCED_MOTION_QUERY).matches) return;
+
+    // `enter` is only a re-labelling: the outgoing slide is dropped and the
+    // incoming one takes position 0 at the size it was already drawn at, so it
+    // needs a frame to paint before the grow can transition from it.
+    const delay = {
+      idle: interval,
+      shrink: SHRINK_MS + HOLD_MS,
+      slide: SLIDE_MS,
+      enter: 20,
+    }[phase];
+
+    const timer = window.setTimeout(() => {
+      if (phase === "slide") setIndex((current) => (current + 1) % count);
+      setPhase(NEXT_PHASE[phase]);
+    }, delay);
+
+    return () => window.clearTimeout(timer);
+  }, [phase, count, interval]);
+
+  return (
+    <div
+      style={{ perspective: `${PERSPECTIVE}px` }}
+      className={cx("absolute inset-0 overflow-hidden", className)}
+    >
+      {slides.map((slide, slideIndex) => {
+        // 0 is the slide in play, 1 is next in the queue, and everything else
+        // waits off to the right until its turn comes round.
+        const position = (slideIndex - index + count) % count;
+        const current = position === 0;
+        const upNext = position === 1;
+
+        // Where this slide sits on the drum. `arrived` is square to the
+        // viewer but still card-sized: growing is the beat after.
+        const transform = current
+          ? phase === "slide"
+            ? `translateX(-100%) translateZ(${-DEPTH}px) rotateY(${-TILT}deg) scale(${CARD_SCALE})`
+            : phase === "shrink"
+              ? `scale(${CARD_SCALE})`
+              : phase === "enter"
+                ? `scale(${ENTER_SCALE})`
+                : "scale(1)"
+          : upNext && phase === "slide"
+            ? `scale(${ENTER_SCALE})`
+            : `translateX(100%) translateZ(${-DEPTH}px) rotateY(${TILT}deg) scale(${ENTER_SCALE})`;
+
+        // Only the slides in motion this beat may transition. The rest are
+        // being repositioned, and a transition would streak them across.
+        const moving = current || (upNext && phase === "slide");
+
+        return (
+          // Deliberate: this file installs into other projects and should not
+          // require next/image. Swap it for your own loader if you have one.
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            key={slide.src}
+            src={slide.src}
+            alt={slide.alt ?? ""}
+            aria-hidden={slide.alt ? undefined : true}
+            loading={slideIndex === 0 ? "eager" : "lazy"}
+            style={{
+              transform,
+              borderRadius: current && phase === "idle" ? 0 : CARD_RADIUS,
+              transitionDuration:
+                phase === "slide" ? `${SLIDE_MS}ms` : phase === "shrink" ? `${SHRINK_MS}ms` : `${GROW_MS}ms`,
+            }}
+            className={cx(
+              "absolute inset-0 size-full object-cover",
+              moving && phase !== "enter"
+                ? "transition-[transform,border-radius] ease-in-out"
+                : "transition-none",
+            )}
+          />
+        );
+      })}
+
+      {slides.length > 1 ? (
+        <div className="absolute inset-x-0 bottom-4 flex justify-center gap-1.5">
+          {slides.map((slide, slideIndex) => (
+            <span
+              key={slide.src}
+              aria-hidden
+              className={cx(
+                "h-1.5 rounded-full bg-white transition-all duration-500 ease-out",
+                slideIndex === index ? "w-5 opacity-90" : "w-1.5 opacity-45",
+              )}
+            />
+          ))}
+        </div>
+      ) : null}
+    </div>
+  );
+}
+11:["$","$L12",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"auth-card","title":"Auth Card","description":"Sign in, sign up and verify, with stacked, inline and grid provider layouts.","category":"blocks","tags":["auth","sign-in","sign-up","oauth","otp","form"],"status":"stable","tier":"free","dependencies":["@remixicon/react","react-aria-components","tailwind-merge"],"registryDependencies":["button","checkbox","cx","divider","input","input-otp","link-button","social-button","tokens"],"files":[{"path":"application/auth/auth-card.tsx","target":"components/application/auth/auth-card.tsx","type":"component","content":"$13"},{"path":"application/auth/auth-media-carousel.tsx","target":"components/application/auth/auth-media-carousel.tsx","type":"component","content":"$14"}],"hash":"1576b54794d1"},"demoSource":"\"use client\";\n\nimport { AuthCard } from \"@/components/application/auth/auth-card\";\n\nexport default function AuthCardDemo() {\n  return (\n    <div className=\"grid w-full gap-8 lg:grid-cols-3\">\n      <AuthCard mode=\"signin\" layout=\"stacked\" providers={[\"google\", \"apple\", \"github\"]} />\n      <AuthCard mode=\"signup\" layout=\"grid\" providers={[\"apple\", \"google\", \"figma\"]} />\n      <AuthCard mode=\"verify\" email=\"pritam@emergent.sh\" codeLength={6} />\n    </div>\n  );\n}","previous":{"name":"settings-modal","title":"Settings Modal"},"next":{"name":"agent-limits-card","title":"Agent Limits"}}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:null
+d:[["$","title","0",{"children":"Auth Card — Zeus UI"}],["$","meta","1",{"name":"description","content":"Sign in, sign up and verify, with stacked, inline and grid provider layouts."}],["$","meta","2",{"name":"keywords","content":"auth,sign-in,sign-up,oauth,otp,form"}]]

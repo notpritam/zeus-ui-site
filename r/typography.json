@@ -1,0 +1,21 @@
+{
+  "$schema": "https://myzeusui.com/schema/registry-item.json",
+  "name": "typography",
+  "title": "Typography",
+  "description": "The type scale: display, title, headline, body and caption, each in four weights.",
+  "category": "foundations",
+  "tags": [
+    "type-scale",
+    "font",
+    "text",
+    "hierarchy"
+  ],
+  "status": "stable",
+  "tier": "free",
+  "dependencies": [],
+  "registryDependencies": [
+    "tokens"
+  ],
+  "files": [],
+  "hash": "e3b0c44298fc"
+}

@@ -1,0 +1,282 @@
+1:"$Sreact.fragment"
+2:I[54515,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"DocsLayout"]
+12:X
+17:X
+17:C
+0:{"buildId":"Kgh3aKGUUDrNWttN7OqGM","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"Radio","heading":"Radio","icon":"components","groups":[{"id":"foundations","title":"Foundations","items":[{"name":"tokens","title":"Design tokens"},{"name":"typography","title":"Typography"},{"name":"cx","title":"cx"},{"name":"chevrons","title":"Chevrons"},{"name":"logo","title":"Logo"},{"name":"use-count-up","title":"useCountUp"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress"}]},{"id":"base","title":"Base","items":[{"name":"button","title":"Button"},{"name":"icon-button","title":"Icon Button"},{"name":"link-button","title":"Link Button"},{"name":"button-group","title":"Button Group"},{"name":"close-button","title":"Close Button"},{"name":"social-button","title":"Social Button"},{"name":"input","title":"Input"},{"name":"input-otp","title":"Input OTP"},{"name":"checkbox","title":"Checkbox"},{"name":"radio","title":"Radio"},{"name":"switch","title":"Switch"},{"name":"select","title":"Select"},{"name":"slider","title":"Slider"},{"name":"dropdown","title":"Dropdown"},{"name":"divider","title":"Divider"},{"name":"file-upload","title":"File Upload"},{"name":"tabs","title":"Tabs"},{"name":"segmented-control","title":"Segmented Control"},{"name":"table","title":"Table"},{"name":"tooltip","title":"Tooltip"},{"name":"badge","title":"Badge"},{"name":"chip","title":"Chip"},{"name":"status-dot","title":"Status Dot"},{"name":"kbd","title":"Kbd"},{"name":"avatar","title":"Avatar"},{"name":"breadcrumb","title":"Breadcrumb"},{"name":"pagination","title":"Pagination"},{"name":"carousel","title":"Carousel"},{"name":"announcement","title":"Announcement"},{"name":"notification","title":"Notification"},{"name":"date-picker","title":"Date Picker"},{"name":"date-range-picker","title":"Date Range Picker"},{"name":"meeting-scheduler","title":"Meeting Scheduler"}]},{"id":"blocks","title":"Blocks","items":[{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"calendar","title":"Calendar","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"theme-toggle","title":"Theme Toggle"},{"name":"stat-cards","title":"Stat Cards"},{"name":"data-table","title":"Data Table"},{"name":"sidebar","title":"Sidebar"},{"name":"app-shell","title":"App Shell"},{"name":"notification-center","title":"Notification Center"},{"name":"settings-modal","title":"Settings Modal"},{"name":"auth-card","title":"Auth Card"},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking"},{"name":"composer-loader","title":"Composer Loader"},{"name":"agent-log","title":"Agent Log"},{"name":"agent-chat","title":"Agent Chat"}]},{"id":"charts","title":"Charts","items":[{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart"},{"name":"orders-chart-card","title":"Orders Chart"},{"name":"important-alerts-card","title":"Important Alerts"},{"name":"patient-info-card","title":"Patient Info"}]},{"id":"templates","title":"Templates","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true},{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true}]}],"description":"Gradient dot, two sizes, and a card variant for plan pickers.","detail":true,"children":"$L3"}],["$L4","$L5","$L6","$L7","$L8","$L9","$La","$Lb","$Lc","$Ld","$Le","$Lf"],"$L10"]}],"isPartial":"$@11","staleTime":"$12","varyParams":null},{"rsc":"$L13","isPartial":"$@14","staleTime":"$12","varyParams":null},{"rsc":"$L15","isPartial":"$@16","staleTime":"$12","varyParams":"$17"},{"rsc":"$L18","isPartial":"$@19","staleTime":"$12","varyParams":"$17"},{"rsc":"$L1a","isPartial":"$@1b","staleTime":"$12","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@1c","rootVaryParams":null,"needsRuntimeRequest":"$@1d"}
+1e:I[26438,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"ComponentPage"]
+21:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"OutletBoundary"]
+22:"$Sreact.suspense"
+24:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"ViewportBoundary"]
+25:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"MetadataBoundary"]
+26:I[37280,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+27:I[75701,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+28:I[72844,["/_next/static/chunks/0by1pam5w7cuf.js"],""]
+:HL["/_next/static/chunks/16_ml9va511u1.css","style"]
+:HL["/_next/static/chunks/1lom8-olk25vh.css","style"]
+1f:T90b,"use client";
+
+import type { ReactNode, Ref } from "react";
+import { Radio as AriaRadio } from "react-aria-components";
+import type { RadioProps as AriaRadioProps } from "react-aria-components";
+import { cx } from "../../utils/cx";
+import { RadioDot } from "./radio";
+
+/**
+ * Selectable radio card — the radio flavor of CheckboxCard (Figma checkbox
+ * items, node 3793:2966): title + optional description on the left, the
+ * radio dot on the right.
+ *   card    radius/2lg (10px), 1px border/button/default, pl 16 pr 20 py 12
+ *   hover   bg background/primary/hover (#f7f7f7)
+ *   title   Body 1/Medium, text/primary
+ *   desc    Body 1/Regular, text/secondary
+ *
+ * The whole card selects the radio (react-aria Radio renders the label).
+ * Must live inside a `RadioGroup`, which provides single-selection and
+ * arrow-key navigation across cards.
+ */
+
+export interface RadioCardProps extends Omit<AriaRadioProps, "children"> {
+  title: ReactNode;
+  description?: ReactNode;
+  ref?: Ref<HTMLLabelElement>;
+}
+
+export function RadioCard({ className, title, description, ref, ...props }: RadioCardProps) {
+  return (
+    <AriaRadio
+      ref={ref}
+      {...props}
+      className={(state) =>
+        cx(
+          "group flex w-full items-center justify-between gap-3 rounded-2lg border border-border-button-default py-3 pr-5 pl-4 select-none",
+          "transition-colors duration-150 ease",
+          state.isHovered && !state.isDisabled
+            ? "bg-background-primary-hover"
+            : "bg-background-primary-default",
+          state.isDisabled ? "cursor-not-allowed opacity-50" : "cursor-pointer",
+          typeof className === "function" ? className(state) : className,
+        )
+      }
+    >
+      {(state) => (
+        <>
+          <span className="flex min-w-0 flex-col gap-0.5">
+            <span className="truncate text-body-medium text-text-primary">{title}</span>
+            {description !== undefined && description !== null && (
+              <span className="truncate text-body-regular text-text-secondary">{description}</span>
+            )}
+          </span>
+          <span className="flex shrink-0 items-center py-1">
+            <RadioDot size="md" selected={state.isSelected} focusVisible={state.isFocusVisible} />
+          </span>
+        </>
+      )}
+    </AriaRadio>
+  );
+}
+20:T15c0,"use client";
+
+import type { ReactNode, Ref } from "react";
+import {
+  Radio as AriaRadio,
+  RadioGroup as AriaRadioGroup,
+} from "react-aria-components";
+import type {
+  RadioGroupProps as AriaRadioGroupProps,
+  RadioProps as AriaRadioProps,
+} from "react-aria-components";
+import { cx } from "../../utils/cx";
+
+/**
+ * Figma source: Board UI → radio_default_sm / radio_selected_sm (used in the
+ * AI chat model picker, node 4035:6925) and the checkbox family tokens.
+ *
+ * Two sizes:
+ *   md  16×16 dot, 6px inner, label Body 1/Medium (14)
+ *   sm  14×14 dot, 5px inner, label Body 2/Medium (13)
+ *
+ * States:
+ *   default   bg background/primary/default, 1px border/checkbox/default,
+ *             shadow/xs
+ *   selected  Button/Primary gradient (blue/500 → blue/600) with an inset
+ *             blue ring + top highlight, white inner dot
+ *   disabled  50% opacity, not-allowed cursor
+ *
+ * `RadioGroup` + `Radio` are built on React Aria (keyboard arrows, form
+ * semantics, label association). The bare `RadioDot` glyph is also exported
+ * for menu rows that manage selection themselves (e.g. Dropdown items acting
+ * as a radio group), where a nested focusable radio would be invalid.
+ */
+
+export type RadioSize = "sm" | "md";
+
+const dotStyles = {
+  sm: {
+    dot: "size-3.5",
+    inner: "size-[5px]",
+    selected:
+      "bg-gradient-to-b from-accent-500 to-accent-600 shadow-[inset_0px_0px_0px_0.875px_var(--color-accent-500),inset_0px_1.75px_0px_0px_rgba(255,255,255,0.25)]",
+    border: "border-[0.875px]",
+    gap: "gap-2",
+    label: "text-body-2-medium",
+  },
+  md: {
+    dot: "size-4",
+    inner: "size-1.5",
+    selected:
+      "bg-gradient-to-b from-accent-500 to-accent-600 shadow-[inset_0px_0px_0px_1px_var(--color-accent-500),inset_0px_2px_0px_0px_rgba(255,255,255,0.25)]",
+    border: "border",
+    gap: "gap-2",
+    label: "text-body-medium",
+  },
+};
+
+export interface RadioDotProps {
+  selected?: boolean;
+  size?: RadioSize;
+  /** Draws the keyboard focus ring around the glyph. */
+  focusVisible?: boolean;
+  className?: string;
+}
+
+/**
+ * The bare radio glyph — presentation only, no interaction or semantics.
+ *
+ * Select/deselect animates: the default bordered surface and the selected
+ * gradient are stacked layers cross-fading over 200ms (a gradient background
+ * can't transition directly), while the white inner dot scales in and out.
+ */
+export function RadioDot({ selected = false, size = "sm", focusVisible = false, className }: RadioDotProps) {
+  const s = dotStyles[size];
+  return (
+    <span
+      aria-hidden
+      className={cx(
+        "relative flex shrink-0 items-center justify-center rounded-full",
+        s.dot,
+        focusVisible && "ring-2 ring-border-focus-ring ring-offset-2",
+        className,
+      )}
+    >
+      {/* Default surface */}
+      <span
+        className={cx(
+          "absolute inset-0 rounded-full border-border-checkbox-default bg-background-primary-default shadow-xs",
+          "transition-opacity duration-200 ease",
+          s.border,
+          selected && "opacity-0",
+        )}
+      />
+      {/* Selected gradient surface */}
+      <span
+        className={cx(
+          "absolute inset-0 rounded-full",
+          "transition-opacity duration-200 ease",
+          s.selected,
+          !selected && "opacity-0",
+        )}
+      />
+      {/* Inner dot: absolutely centered (flex centering of fractional sizes can
+          land on subpixels) and no drop shadow — a downward shadow makes the
+          dot read as sitting below center. */}
+      <span
+        className={cx(
+          "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-control-indicator-background",
+          "transition-[scale,opacity] duration-200 ease",
+          s.inner,
+          selected ? "scale-100 opacity-100" : "scale-0 opacity-0",
+        )}
+      />
+    </span>
+  );
+}
+
+/* ------------------------------------------------------------------- group */
+
+export interface RadioGroupProps extends Omit<AriaRadioGroupProps, "children"> {
+  children?: ReactNode;
+  ref?: Ref<HTMLDivElement>;
+}
+
+/** Wraps a set of Radios: arrow-key navigation, single selection, form value. */
+export function RadioGroup({ className, children, ref, ...props }: RadioGroupProps) {
+  return (
+    <AriaRadioGroup
+      ref={ref}
+      {...props}
+      className={(state) =>
+        cx(
+          "flex flex-col gap-2",
+          typeof className === "function" ? className(state) : className,
+        )
+      }
+    >
+      {children}
+    </AriaRadioGroup>
+  );
+}
+
+/* ------------------------------------------------------------------- radio */
+
+export interface RadioProps extends Omit<AriaRadioProps, "children"> {
+  children?: ReactNode;
+  size?: RadioSize;
+  ref?: Ref<HTMLLabelElement>;
+}
+
+export function Radio({ className, children, size = "md", ref, ...props }: RadioProps) {
+  const s = dotStyles[size];
+
+  return (
+    <AriaRadio
+      ref={ref}
+      {...props}
+      className={(state) =>
+        cx(
+          "group inline-flex items-center select-none",
+          s.gap,
+          state.isDisabled ? "cursor-not-allowed opacity-50" : "cursor-pointer",
+          typeof className === "function" ? className(state) : className,
+        )
+      }
+    >
+      {(state) => (
+        <>
+          <RadioDot selected={state.isSelected} size={size} focusVisible={state.isFocusVisible} />
+          {children !== undefined && children !== null && (
+            <span className={cx(s.label, "text-text-primary")}>{children}</span>
+          )}
+        </>
+      )}
+    </AriaRadio>
+  );
+}
+3:["$","$L1e",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"radio","title":"Radio","description":"Gradient dot, two sizes, and a card variant for plan pickers.","category":"base","tags":["form","selection","single-select","group"],"status":"stable","tier":"free","dependencies":["react-aria-components","tailwind-merge"],"registryDependencies":["cx","tokens"],"files":[{"path":"base/radio/radio-card.tsx","target":"components/base/radio/radio-card.tsx","type":"component","content":"$1f"},{"path":"base/radio/radio.tsx","target":"components/base/radio/radio.tsx","type":"component","content":"$20"}],"hash":"4861aa7e83f6"},"demoSource":"\"use client\";\n\nimport { Radio, RadioGroup } from \"@/components/base/radio/radio\";\nimport { RadioCard } from \"@/components/base/radio/radio-card\";\n\nexport default function RadioDemo() {\n  return (\n    <div className=\"flex flex-col gap-8\">\n      <RadioGroup aria-label=\"Billing period\" defaultValue=\"monthly\">\n        <Radio value=\"monthly\">Monthly billing</Radio>\n        <Radio value=\"yearly\">Yearly billing</Radio>\n        <Radio value=\"usage\" isDisabled>\n          Usage based\n        </Radio>\n      </RadioGroup>\n\n      <RadioGroup aria-label=\"Plan\" defaultValue=\"pro\" className=\"w-full max-w-sm\">\n        <RadioCard value=\"starter\" title=\"Starter\" description=\"For side projects and experiments.\" />\n        <RadioCard value=\"pro\" title=\"Pro\" description=\"For growing teams that need more.\" />\n        <RadioCard\n          value=\"enterprise\"\n          title=\"Enterprise\"\n          description=\"Custom limits and support.\"\n          isDisabled\n        />\n      </RadioGroup>\n    </div>\n  );\n}","previous":{"name":"checkbox","title":"Checkbox"},"next":{"name":"switch","title":"Switch"}}]
+4:["$","script","script-0",{"src":"/_next/static/chunks/3l5f3qnr89rl0.js","async":true}]
+5:["$","script","script-1",{"src":"/_next/static/chunks/0wmbfrsxfdesk.js","async":true}]
+6:["$","script","script-2",{"src":"/_next/static/chunks/3ixdl2m026on9.js","async":true}]
+7:["$","script","script-3",{"src":"/_next/static/chunks/3xa-hzf5c_c6n.js","async":true}]
+8:["$","script","script-4",{"src":"/_next/static/chunks/1zihipy0kqa1_.js","async":true}]
+9:["$","script","script-5",{"src":"/_next/static/chunks/0-afrvt74ak7l.js","async":true}]
+a:["$","script","script-6",{"src":"/_next/static/chunks/0337601gswv_s.js","async":true}]
+b:["$","script","script-7",{"src":"/_next/static/chunks/34zl6f3dq0u0q.js","async":true}]
+c:["$","script","script-8",{"src":"/_next/static/chunks/2az_x4uxpy3sm.js","async":true}]
+d:["$","script","script-9",{"src":"/_next/static/chunks/23ywcyogzmwlv.js","async":true}]
+e:["$","script","script-10",{"src":"/_next/static/chunks/2qg2knl-9_2le.js","async":true}]
+f:["$","script","script-11",{"src":"/_next/static/chunks/1wypk9kc4p_mt.js","async":true}]
+10:["$","$L21",null,{"children":["$","$22",null,{"name":"Next.MetadataOutlet","children":"$@23"}]}]
+13:["$","$1","h",{"children":[null,["$","$L24",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L25",null,{"children":["$","$22",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Radio — Zeus UI"}],["$","meta","1",{"name":"description","content":"Gradient dot, two sizes, and a card variant for plan pickers."}],["$","meta","2",{"name":"keywords","content":"form,selection,single-select,group"}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+15:["$","$1","c",{"children":[null,["$","$L26",null,{"parallelRouterKey":"children","template":["$","$L27",null,{}]}]]}]
+18:["$","$1","c",{"children":[null,["$","$L26",null,{"parallelRouterKey":"children","template":["$","$L27",null,{}]}]]}]
+1a:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/0by1pam5w7cuf.js","async":true}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L28",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L26",null,{"parallelRouterKey":"children","template":["$","$L27",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]]}]}]]}]
+23:null
+1d:true
+12:300
+12:C
+1c:0
+14:"$undefined"
+16:"$undefined"
+19:"$undefined"
+1b:"$undefined"
+11:"$undefined"

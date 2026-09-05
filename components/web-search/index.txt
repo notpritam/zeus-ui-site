@@ -1,0 +1,439 @@
+1:"$Sreact.fragment"
+2:I[72844,["/_next/static/chunks/0by1pam5w7cuf.js"],""]
+3:I[37280,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+4:I[75701,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+6:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+a:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"ViewportBoundary"]
+c:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"MetadataBoundary"]
+e:I[84167,["/_next/static/chunks/0by1pam5w7cuf.js"],"default",1]
+:HL["/_next/static/chunks/16_ml9va511u1.css","style"]
+:HL["/_next/static/chunks/1lom8-olk25vh.css","style"]
+:HL["/_next/static/media/234d9015b631dab9-s.p.33gca1im1ku45.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+9:X
+0:{"P":null,"c":["","components","web-search",""],"q":"","i":false,"f":[[["",{"children":["components",{"children":[["slug","web-search","d",[]],{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0by1pam5w7cuf.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L2",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/3l5f3qnr89rl0.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0wmbfrsxfdesk.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/3ixdl2m026on9.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/3xa-hzf5c_c6n.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/1zihipy0kqa1_.js","async":true,"nonce":"$undefined"}],["$","script","script-5",{"src":"/_next/static/chunks/0-afrvt74ak7l.js","async":true,"nonce":"$undefined"}],["$","script","script-6",{"src":"/_next/static/chunks/0337601gswv_s.js","async":true,"nonce":"$undefined"}],["$","script","script-7",{"src":"/_next/static/chunks/34zl6f3dq0u0q.js","async":true,"nonce":"$undefined"}],["$","script","script-8",{"src":"/_next/static/chunks/2az_x4uxpy3sm.js","async":true,"nonce":"$undefined"}],["$","script","script-9",{"src":"/_next/static/chunks/23ywcyogzmwlv.js","async":true,"nonce":"$undefined"}],["$","script","script-10",{"src":"/_next/static/chunks/2qg2knl-9_2le.js","async":true,"nonce":"$undefined"}],["$","script","script-11",{"src":"/_next/static/chunks/1wypk9kc4p_mt.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$9"]},null,false,"$9"]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],"$Lf"]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Kgh3aKGUUDrNWttN7OqGM"}
+9:C
+f:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+10:I[54515,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"DocsLayout"]
+5:["$","$L10",null,{"title":"Web Search","heading":"Web Search","icon":"components","groups":[{"id":"foundations","title":"Foundations","items":[{"name":"tokens","title":"Design tokens","isNew":"$undefined"},{"name":"typography","title":"Typography","isNew":"$undefined"},{"name":"cx","title":"cx","isNew":"$undefined"},{"name":"chevrons","title":"Chevrons","isNew":"$undefined"},{"name":"logo","title":"Logo","isNew":"$undefined"},{"name":"use-count-up","title":"useCountUp","isNew":"$undefined"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress","isNew":"$undefined"}]},{"id":"base","title":"Base","items":[{"name":"button","title":"Button","isNew":"$undefined"},{"name":"icon-button","title":"Icon Button","isNew":"$undefined"},{"name":"link-button","title":"Link Button","isNew":"$undefined"},{"name":"button-group","title":"Button Group","isNew":"$undefined"},{"name":"close-button","title":"Close Button","isNew":"$undefined"},{"name":"social-button","title":"Social Button","isNew":"$undefined"},{"name":"input","title":"Input","isNew":"$undefined"},{"name":"input-otp","title":"Input OTP","isNew":"$undefined"},{"name":"checkbox","title":"Checkbox","isNew":"$undefined"},{"name":"radio","title":"Radio","isNew":"$undefined"},{"name":"switch","title":"Switch","isNew":"$undefined"},{"name":"select","title":"Select","isNew":"$undefined"},{"name":"slider","title":"Slider","isNew":"$undefined"},{"name":"dropdown","title":"Dropdown","isNew":"$undefined"},{"name":"divider","title":"Divider","isNew":"$undefined"},{"name":"file-upload","title":"File Upload","isNew":"$undefined"},{"name":"tabs","title":"Tabs","isNew":"$undefined"},{"name":"segmented-control","title":"Segmented Control","isNew":"$undefined"},{"name":"table","title":"Table","isNew":"$undefined"},{"name":"tooltip","title":"Tooltip","isNew":"$undefined"},{"name":"badge","title":"Badge","isNew":"$undefined"},{"name":"chip","title":"Chip","isNew":"$undefined"},{"name":"status-dot","title":"Status Dot","isNew":"$undefined"},{"name":"kbd","title":"Kbd","isNew":"$undefined"},{"name":"avatar","title":"Avatar","isNew":"$undefined"},{"name":"breadcrumb","title":"Breadcrumb","isNew":"$undefined"},{"name":"pagination","title":"Pagination","isNew":"$undefined"},{"name":"carousel","title":"Carousel","isNew":"$undefined"},{"name":"announcement","title":"Announcement","isNew":"$undefined"},{"name":"notification","title":"Notification","isNew":"$undefined"},{"name":"date-picker","title":"Date Picker","isNew":"$undefined"},{"name":"date-range-picker","title":"Date Range Picker","isNew":"$undefined"},{"name":"meeting-scheduler","title":"Meeting Scheduler","isNew":"$undefined"}]},{"id":"blocks","title":"Blocks","items":[{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"calendar","title":"Calendar","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"theme-toggle","title":"Theme Toggle","isNew":"$undefined"},{"name":"stat-cards","title":"Stat Cards","isNew":"$undefined"},{"name":"data-table","title":"Data Table","isNew":"$undefined"},{"name":"sidebar","title":"Sidebar","isNew":"$undefined"},{"name":"app-shell","title":"App Shell","isNew":"$undefined"},{"name":"notification-center","title":"Notification Center","isNew":"$undefined"},{"name":"settings-modal","title":"Settings Modal","isNew":"$undefined"},{"name":"auth-card","title":"Auth Card","isNew":"$undefined"},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking","isNew":"$undefined"},{"name":"composer-loader","title":"Composer Loader","isNew":"$undefined"},{"name":"agent-log","title":"Agent Log","isNew":"$undefined"},{"name":"agent-chat","title":"Agent Chat","isNew":"$undefined"}]},{"id":"charts","title":"Charts","items":[{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart","isNew":"$undefined"},{"name":"orders-chart-card","title":"Orders Chart","isNew":"$undefined"},{"name":"important-alerts-card","title":"Important Alerts","isNew":"$undefined"},{"name":"patient-info-card","title":"Patient Info","isNew":"$undefined"}]},{"id":"templates","title":"Templates","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true},{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true}]}],"description":"Streaming research trail for React and Tailwind CSS: the queries an agent ran and the sources it opened, with real site marks, drawn in as it works.","columnClassName":"$undefined","detail":true,"children":"$L11"}]
+12:I[26438,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"ComponentPage"]
+13:T346b,"use client";
+
+import { RiArrowDownSLine, RiLightbulbLine, RiSearchLine } from "@remixicon/react";
+import { motion } from "motion/react";
+import { type ComponentType, type ReactNode, useEffect, useId, useRef, useState } from "react";
+import { SOCIAL_PROVIDERS, type SocialProvider } from "../../base/social-button/social-providers";
+import { cx } from "../../utils/cx";
+import {
+  GuideBridge,
+  LogRow,
+  ShimmerText,
+  SOFT_EASE,
+  UNIT_ANIMATE,
+  UNIT_INITIAL,
+  UNIT_TRANSITION,
+  useLogMotion,
+  useRevealMask,
+  useRevealTicker,
+  WorkingRow,
+} from "../agent-log/agent-log";
+
+export interface WebSearchSource {
+  title: string;
+  domain: string;
+  brand?: SocialProvider;
+  href?: string;
+}
+export interface WebSearchStep {
+  id?: string;
+  label: string;
+  query?: string;
+  meta?: string;
+  brand?: SocialProvider;
+  icon?: ComponentType<{ className?: string; "aria-hidden"?: boolean | "true" | "false" }>;
+  heading?: boolean;
+  dwell?: number;
+  /** Time spent reading the revealed source row before continuing. */
+  sourceDwell?: number;
+  sources?: WebSearchSource[];
+}
+export interface WebSearchProps {
+  steps?: WebSearchStep[];
+  revealed?: number;
+  run?: boolean;
+  startDelay?: number;
+  stepInterval?: number;
+  onComplete?: () => void;
+  className?: string;
+}
+export const DEFAULT_WEB_SEARCH_STEPS: WebSearchStep[] = [
+  { label: "Ran 3 searches", icon: RiSearchLine, heading: true, dwell: 1700 },
+  {
+    label: "Searching for what teams actually pay for in a component library",
+    icon: RiLightbulbLine,
+    meta: "5 results",
+    dwell: 900,
+    sourceDwell: 2400,
+    sources: [
+      {
+        title: "Tailwind UI vs building your own: a cost breakdown",
+        domain: "www.reddit.com",
+        brand: "reddit",
+        href: "https://www.reddit.com/",
+      },
+      {
+        title: "We shipped our design system in 6 weeks. Here is what it cost",
+        domain: "www.linkedin.com",
+        brand: "linkedin",
+        href: "https://www.linkedin.com/",
+      },
+      {
+        title: "shadcn/ui — the registry model explained",
+        domain: "github.com",
+        brand: "github",
+        href: "https://github.com/",
+      },
+      {
+        title: "Design tokens: a practical guide",
+        domain: "www.figma.com",
+        brand: "figma",
+        href: "https://www.figma.com/",
+      },
+      {
+        title: "How we priced our component library",
+        domain: "www.notion.so",
+        brand: "notion",
+        href: "https://www.notion.so/",
+      },
+    ],
+  },
+  {
+    label: "Searched X for",
+    query: "component library OR design system pricing",
+    brand: "x",
+    meta: "7 posts",
+    dwell: 1900,
+  },
+  {
+    label: "Searched Reddit for",
+    query: "r/reactjs worth paying for",
+    brand: "reddit",
+    meta: "12 threads",
+    dwell: 1800,
+  },
+  { label: "Reading the strongest three threads", icon: RiLightbulbLine, dwell: 2400 },
+];
+
+export function SearchSiteMark({
+  brand,
+  className,
+}: {
+  brand?: SocialProvider;
+  className?: string;
+}) {
+  const provider = brand ? SOCIAL_PROVIDERS[brand] : undefined;
+  if (!provider)
+    return (
+      <RiSearchLine
+        aria-hidden
+        className={cx("size-4 text-foreground-icon-secondary", className)}
+      />
+    );
+  return (
+    <svg
+      aria-hidden
+      viewBox={provider.viewBox}
+      className={cx("size-4 shrink-0 text-text-primary", className)}
+      style={{
+        color: brand && ["github", "notion", "x"].includes(brand) ? undefined : provider.brand,
+      }}
+      fill="currentColor"
+    >
+      <path d={provider.path} />
+    </svg>
+  );
+}
+function Sources({ sources }: { sources: WebSearchSource[] }) {
+  const [open, setOpen] = useState(false);
+  const [expandedCount, setExpandedCount] = useState(0);
+  const [stackCount, setStackCount] = useState(Math.min(5, sources.length));
+  const expandedRef = useRef(0);
+  const id = useId();
+  const reduce = useLogMotion();
+  const sourceCount = sources.length;
+
+  useEffect(() => {
+    const target = open ? sourceCount : 0;
+    const current = Math.min(expandedRef.current, sourceCount);
+    if (reduce) {
+      expandedRef.current = target;
+      setExpandedCount(target);
+      setStackCount(Math.min(5, sourceCount - target));
+      return;
+    }
+    expandedRef.current = current;
+    setExpandedCount(current);
+    const timers: number[] = [];
+    const direction = target > current ? 1 : -1;
+    for (let stage = 1; stage <= Math.abs(target - current); stage++) {
+      const next = current + direction * stage;
+      const delay = stage * 100;
+      timers.push(
+        window.setTimeout(() => {
+          expandedRef.current = next;
+          setExpandedCount(next);
+        }, delay),
+      );
+      // The header gives the travelling icon room before its reserved slot resizes.
+      timers.push(
+        window.setTimeout(() => {
+          setStackCount(Math.min(5, sourceCount - next));
+        }, delay + 80),
+      );
+    }
+    if (current === target) setStackCount(Math.min(5, sourceCount - target));
+    return () => timers.forEach(window.clearTimeout);
+  }, [open, reduce, sourceCount]);
+
+  const sourceCircle = (source: WebSearchSource, index: number) => (
+    <motion.span
+      key={`${index}-${source.domain}`}
+      layoutId={reduce ? undefined : `${id}-source-${index}`}
+      initial={false}
+      transition={reduce ? { duration: 0 } : { type: "spring", stiffness: 420, damping: 36 }}
+      className="relative flex size-5 shrink-0 items-center justify-center rounded-full border border-border-button-default bg-background-primary-default"
+      style={{ zIndex: sourceCount - index }}
+    >
+      <SearchSiteMark brand={source.brand} className="size-3" />
+    </motion.span>
+  );
+  return (
+    <div className="py-1">
+      <button
+        type="button"
+        aria-label={`Open ${sources.length} sources`}
+        aria-expanded={open}
+        aria-controls={id}
+        onClick={() => setOpen((value) => !value)}
+        className="group flex cursor-pointer items-center rounded-md text-left outline-none focus-visible:ring-2 focus-visible:ring-border-focus-ring"
+      >
+        <span className="text-body-regular text-text-secondary">Sources</span>
+        <motion.span
+          initial={false}
+          animate={{ width: stackCount ? 20 + (stackCount - 1) * 14 : 0 }}
+          transition={reduce ? { duration: 0 } : { type: "spring", stiffness: 420, damping: 36 }}
+          className="ml-2 flex items-center"
+        >
+          <span className="flex items-center -space-x-1.5">
+            {sources.slice(0, Math.min(5, sourceCount - expandedCount)).map(sourceCircle)}
+          </span>
+        </motion.span>
+        <RiArrowDownSLine
+          className={cx(
+            "ml-1 size-4 shrink-0 text-foreground-icon-quaternary transition-transform duration-300 group-hover:text-foreground-icon-secondary motion-reduce:transition-none",
+            open && "rotate-180",
+          )}
+          aria-hidden
+        />
+      </button>
+      <div id={id} role="region" aria-label="Research sources" aria-hidden={!open} inert={!open}>
+        <ul className="flex flex-col">
+          {sources.map((source, index) => {
+            const revealed = index >= sourceCount - expandedCount;
+            return (
+              <motion.li
+                key={`${index}-${source.title}`}
+                aria-hidden={!revealed}
+                inert={!revealed}
+                initial={false}
+                animate={{ height: revealed ? "auto" : 0 }}
+                transition={{ duration: reduce ? 0 : 0.28, ease: SOFT_EASE }}
+                className="overflow-hidden"
+              >
+                <a
+                  href={source.href ?? `https://${source.domain.replace(/^https?:\/\//, "")}`}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="flex cursor-pointer items-center gap-2 rounded-md px-1 py-1 outline-none transition-colors duration-150 hover:bg-background-secondary-default focus-visible:ring-2 focus-visible:ring-border-focus-ring"
+                >
+                  {revealed ? (
+                    sourceCircle(source, index)
+                  ) : (
+                    <span aria-hidden className="size-5 shrink-0" />
+                  )}
+                  <motion.span
+                    initial={false}
+                    animate={{ opacity: revealed ? 1 : 0 }}
+                    transition={{
+                      duration: reduce ? 0 : 0.16,
+                      delay: reduce || !revealed ? 0 : 0.05,
+                      ease: "easeOut",
+                    }}
+                    className="flex min-w-0 flex-1 items-center gap-2"
+                  >
+                    <span className="min-w-0 flex-1 truncate text-body-regular text-text-secondary">
+                      {source.title}
+                    </span>
+                    <span className="hidden shrink-0 text-caption-1-regular text-text-tertiary sm:block">
+                      {source.domain}
+                    </span>
+                  </motion.span>
+                </a>
+              </motion.li>
+            );
+          })}
+        </ul>
+      </div>
+    </div>
+  );
+}
+
+function Heading({ children, reduce }: { children: ReactNode; reduce: boolean }) {
+  const mask = useRevealMask(reduce);
+  return (
+    <motion.div
+      initial={reduce ? false : UNIT_INITIAL}
+      animate={UNIT_ANIMATE}
+      transition={UNIT_TRANSITION}
+      {...mask}
+      className="overflow-hidden"
+    >
+      {children}
+    </motion.div>
+  );
+}
+
+/** A search and its source row are separate reveal units, matching real events. */
+export function WebSearch({
+  steps = DEFAULT_WEB_SEARCH_STEPS,
+  revealed: controlled,
+  run = true,
+  startDelay = 320,
+  stepInterval = 850,
+  onComplete,
+  className,
+}: WebSearchProps = {}) {
+  const reduce = useLogMotion();
+  const units = steps.flatMap((step, index) => [
+    { step: index, sources: false },
+    ...(step.sources?.length ? [{ step: index, sources: true }] : []),
+  ]);
+  // The final timed unit is the end of the last step's dwell. Controlled data
+  // already represents completed events and does not need an extra unit.
+  const total = units.length + (controlled === undefined && units.length > 0 ? 1 : 0);
+  const revealed = useRevealTicker({
+    total,
+    run,
+    startDelay,
+    stepInterval,
+    revealed: controlled,
+    onComplete,
+    delayFor: (index) =>
+      index === 0
+        ? startDelay
+        : units[index - 1]?.sources
+          ? (steps[units[index - 1]?.step ?? 0]?.sourceDwell ?? stepInterval)
+          : (steps[units[index - 1]?.step ?? 0]?.dwell ?? stepInterval),
+  });
+  const complete = revealed >= total;
+  let offset = 0;
+  return (
+    <div className={cx("flex w-full flex-col", className)} aria-label="Web research trail">
+      {steps.map((step, index) => {
+        const start = offset;
+        offset += 1 + (step.sources?.length ? 1 : 0);
+        if (revealed <= start) return null;
+        const active = !complete && revealed <= offset;
+        const Icon = step.icon ?? RiSearchLine;
+        const content = (
+          <div className="flex items-start gap-2">
+            {step.brand ? (
+              <span className="mt-0.5 flex size-4 shrink-0 items-center justify-center">
+                <SearchSiteMark brand={step.brand} className="size-[13px]" />
+              </span>
+            ) : (
+              <Icon aria-hidden className="mt-0.5 size-4 shrink-0 text-foreground-icon-secondary" />
+            )}
+            <p className="min-w-0 flex-1 text-body-regular text-text-secondary">
+              {active ? <ShimmerText>{step.label}</ShimmerText> : step.label}
+              {step.query && (
+                <span className="ml-1.5 break-words font-mono text-caption-1-regular text-text-tertiary">
+                  {step.query}
+                </span>
+              )}
+            </p>
+            {step.meta && (
+              <span className="shrink-0 pt-px text-body-regular text-text-tertiary tabular-nums">
+                {step.meta}
+              </span>
+            )}
+          </div>
+        );
+        if (step.heading)
+          return (
+            <Heading key={step.id ?? index} reduce={reduce}>
+              <div className="py-1">{content}</div>
+            </Heading>
+          );
+        const last = index === steps.length - 1 || revealed <= offset;
+        return (
+          <div key={step.id ?? index} className="relative ml-[7px]">
+            {index > 0 && steps[index - 1]?.heading && (
+              <GuideBridge height={6} offset={0} reduce={reduce} />
+            )}
+            <ul>
+              <LogRow first={index === 0} last={last} reduce={reduce} className="pl-[14px]">
+                <div className="py-1">
+                  {content}
+                  {step.sources?.length && revealed > start + 1 ? (
+                    <div className="relative mt-0.5">
+                      <GuideBridge height={5} offset={7} reduce={reduce} />
+                      <ul className="ml-[7px]">
+                        <LogRow first={false} last reduce={reduce}>
+                          <Sources sources={step.sources} />
+                        </LogRow>
+                      </ul>
+                    </div>
+                  ) : null}
+                </div>
+              </LogRow>
+            </ul>
+          </div>
+        );
+      })}
+      {!complete && <WorkingRow label="Working" reduce={reduce} />}
+    </div>
+  );
+}
+14:T4f2,"use client";
+import { WebSearch } from "@/components/application/web-search/web-search";
+import { RiRefreshLine } from "@remixicon/react";
+import { useState } from "react";
+export default function WebSearchDemo() {
+  const [turn, setTurn] = useState(0);
+  const [complete, setComplete] = useState(false);
+  return (
+    <div className="flex min-h-[420px] w-full items-center justify-center p-2">
+      <div className="flex w-full max-w-[560px] flex-col gap-4">
+        <WebSearch key={turn} onComplete={() => setComplete(true)} />
+        {complete && (
+          <button
+            type="button"
+            className="flex cursor-pointer items-center gap-1.5 self-start rounded-lg border border-border-button-default bg-background-primary-default px-2.5 py-1.5 text-body-medium text-text-secondary shadow-xs transition-colors duration-150 hover:bg-background-primary-hover hover:text-text-primary focus-visible:ring-2 focus-visible:ring-border-focus-ring focus-visible:outline-none"
+            onClick={() => {
+              setComplete(false);
+              setTurn((value) => value + 1);
+            }}
+          >
+            <RiRefreshLine className="size-4" aria-hidden />
+            Run again
+          </button>
+        )}
+      </div>
+    </div>
+  );
+}11:["$","$L12",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"web-search","title":"Web Search","description":"Streaming research trail for React and Tailwind CSS: the queries an agent ran and the sources it opened, with real site marks, drawn in as it works.","category":"blocks","tags":["interaction","ai","web-search"],"status":"stable","tier":"free","isNew":true,"dependencies":["@remixicon/react","motion","tailwind-merge"],"registryDependencies":["agent-log","agent-thinking","cx","social-button","tokens"],"files":[{"path":"application/web-search/web-search.tsx","target":"components/application/web-search/web-search.tsx","type":"component","content":"$13"},{"path":"hooks/use-hydrated-reduced-motion.ts","target":"hooks/use-hydrated-reduced-motion.ts","type":"hook","content":"\"use client\";\n\nimport { useReducedMotion } from \"motion/react\";\nimport { useSyncExternalStore } from \"react\";\n\nconst subscribe = () => () => {};\nconst clientSnapshot = () => true;\nconst serverSnapshot = () => false;\n\n/** Keep the first server/client render identical, then apply the user's motion preference. */\nexport function useHydratedReducedMotion(): boolean {\n  const reduced = useReducedMotion();\n  const hydrated = useSyncExternalStore(subscribe, clientSnapshot, serverSnapshot);\n  return hydrated && reduced === true;\n}\n"}],"hash":"84c918fa56d4"},"demoSource":"$14","previous":{"name":"task-list","title":"Task List"},"next":{"name":"combo-chart-card","title":"Combo Chart"}}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:null
+d:[["$","title","0",{"children":"Web Search — Zeus UI"}],["$","meta","1",{"name":"description","content":"Streaming research trail for React and Tailwind CSS: the queries an agent ran and the sources it opened, with real site marks, drawn in as it works."}],["$","meta","2",{"name":"keywords","content":"interaction,ai,web-search"}]]

@@ -1,0 +1,383 @@
+1:"$Sreact.fragment"
+2:I[54515,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"DocsLayout"]
+12:X
+17:X
+17:C
+0:{"buildId":"Kgh3aKGUUDrNWttN7OqGM","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"Meeting Scheduler","heading":"Meeting Scheduler","icon":"components","groups":[{"id":"foundations","title":"Foundations","items":[{"name":"tokens","title":"Design tokens"},{"name":"typography","title":"Typography"},{"name":"cx","title":"cx"},{"name":"chevrons","title":"Chevrons"},{"name":"logo","title":"Logo"},{"name":"use-count-up","title":"useCountUp"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress"}]},{"id":"base","title":"Base","items":[{"name":"button","title":"Button"},{"name":"icon-button","title":"Icon Button"},{"name":"link-button","title":"Link Button"},{"name":"button-group","title":"Button Group"},{"name":"close-button","title":"Close Button"},{"name":"social-button","title":"Social Button"},{"name":"input","title":"Input"},{"name":"input-otp","title":"Input OTP"},{"name":"checkbox","title":"Checkbox"},{"name":"radio","title":"Radio"},{"name":"switch","title":"Switch"},{"name":"select","title":"Select"},{"name":"slider","title":"Slider"},{"name":"dropdown","title":"Dropdown"},{"name":"divider","title":"Divider"},{"name":"file-upload","title":"File Upload"},{"name":"tabs","title":"Tabs"},{"name":"segmented-control","title":"Segmented Control"},{"name":"table","title":"Table"},{"name":"tooltip","title":"Tooltip"},{"name":"badge","title":"Badge"},{"name":"chip","title":"Chip"},{"name":"status-dot","title":"Status Dot"},{"name":"kbd","title":"Kbd"},{"name":"avatar","title":"Avatar"},{"name":"breadcrumb","title":"Breadcrumb"},{"name":"pagination","title":"Pagination"},{"name":"carousel","title":"Carousel"},{"name":"announcement","title":"Announcement"},{"name":"notification","title":"Notification"},{"name":"date-picker","title":"Date Picker"},{"name":"date-range-picker","title":"Date Range Picker"},{"name":"meeting-scheduler","title":"Meeting Scheduler"}]},{"id":"blocks","title":"Blocks","items":[{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"calendar","title":"Calendar","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"theme-toggle","title":"Theme Toggle"},{"name":"stat-cards","title":"Stat Cards"},{"name":"data-table","title":"Data Table"},{"name":"sidebar","title":"Sidebar"},{"name":"app-shell","title":"App Shell"},{"name":"notification-center","title":"Notification Center"},{"name":"settings-modal","title":"Settings Modal"},{"name":"auth-card","title":"Auth Card"},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking"},{"name":"composer-loader","title":"Composer Loader"},{"name":"agent-log","title":"Agent Log"},{"name":"agent-chat","title":"Agent Chat"}]},{"id":"charts","title":"Charts","items":[{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart"},{"name":"orders-chart-card","title":"Orders Chart"},{"name":"important-alerts-card","title":"Important Alerts"},{"name":"patient-info-card","title":"Patient Info"}]},{"id":"templates","title":"Templates","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true},{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true}]}],"description":"A booking panel: host, duration, timezone, date and time slots.","detail":true,"children":"$L3"}],["$L4","$L5","$L6","$L7","$L8","$L9","$La","$Lb","$Lc","$Ld","$Le","$Lf"],"$L10"]}],"isPartial":"$@11","staleTime":"$12","varyParams":null},{"rsc":"$L13","isPartial":"$@14","staleTime":"$12","varyParams":null},{"rsc":"$L15","isPartial":"$@16","staleTime":"$12","varyParams":"$17"},{"rsc":"$L18","isPartial":"$@19","staleTime":"$12","varyParams":"$17"},{"rsc":"$L1a","isPartial":"$@1b","staleTime":"$12","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@1c","rootVaryParams":null,"needsRuntimeRequest":"$@1d"}
+1e:I[26438,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"ComponentPage"]
+20:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"OutletBoundary"]
+21:"$Sreact.suspense"
+23:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"ViewportBoundary"]
+24:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"MetadataBoundary"]
+25:I[37280,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+26:I[75701,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+27:I[72844,["/_next/static/chunks/0by1pam5w7cuf.js"],""]
+:HL["/_next/static/chunks/16_ml9va511u1.css","style"]
+:HL["/_next/static/chunks/1lom8-olk25vh.css","style"]
+1f:T35cb,"use client";
+
+import { useEffect, useMemo, useRef, useState } from "react";
+import type { ReactNode } from "react";
+import { Calendar, Dialog, Popover } from "react-aria-components";
+import { CalendarDate, getLocalTimeZone, today } from "@internationalized/date";
+import { RiCalendarLine, RiFlagLine, RiGlobalLine } from "@remixicon/react";
+import { Avatar } from "../avatar/avatar";
+import { Button } from "../buttons/button";
+import { ChevronDownSmall } from "../../foundations/icons/chevrons";
+import { MonthPanel, popoverClassName, triggerButtonClassName } from "./shared";
+import { cx } from "../../utils/cx";
+import { useDismissOnOutsidePress } from "../../hooks/use-dismiss-on-outside-press";
+
+/**
+ * Figma source: Board UI → "Meeting" (node 3881:7618).
+ *
+ * A Calendly/Cal.com-style booking panel: host card + meeting summary on the
+ * left, a single-month calendar in the middle (reusing `MonthPanel` from
+ * `./shared`), and a timezone / hour-format / time-slot sidebar on the
+ * right. Like the other two pickers, the panel is a real react-aria
+ * `Popover` — but since there's no `DialogTrigger` here (the trigger is a
+ * plain button, not a `Dialog`), it's wired up via `triggerRef` + controlled
+ * `isOpen` instead. That keeps the panel a portaled overlay that never
+ * affects layout, so the trigger (Figma's own top-right chip, repurposed
+ * from a static readout into the open/close control) can sit compactly
+ * next to other trigger buttons instead of dragging a whole row wide.
+ *
+ * Two deliberate departures from the raw Figma frame:
+ *  - The time-slot list (Figma: a static "14:00"..."18:30" mock that then
+ *    repeats "14:00" a 14th time — clearly a copy/paste artifact, not real
+ *    data) is generated as a real fixed 09:00–18:30 half-hour range instead.
+ *  - The timezone row and the duration/language/conferencing rows are
+ *    Figma "Dropdown" layers, but only the timezone row actually has a
+ *    chevron — the other three are read-only summary rows here, matching
+ *    what's visually present rather than the layer name.
+ */
+
+export interface MeetingSchedulerHost {
+  name: string;
+  email: string;
+  avatarInitial: string;
+}
+
+export interface MeetingSchedulerDetails {
+  title: string;
+  description?: string;
+  durationMinutes: number;
+  language?: string;
+  conferencing?: string;
+}
+
+export interface MeetingSchedulerValue {
+  date: CalendarDate;
+  /** 24h "HH:mm", or `null` when a date is picked but no time slot yet. */
+  time: string | null;
+}
+
+export interface MeetingSchedulerProps {
+  host?: MeetingSchedulerHost;
+  meeting?: MeetingSchedulerDetails;
+  timezone?: string;
+  value?: MeetingSchedulerValue | null;
+  defaultValue?: MeetingSchedulerValue | null;
+  onChange?: (value: MeetingSchedulerValue | null) => void;
+  /** Render the panel open on mount. Default `false`. */
+  defaultOpen?: boolean;
+  className?: string;
+  "aria-label"?: string;
+  /** Trigger button text. Default "Schedule a meeting". */
+  triggerLabel?: string;
+}
+
+const DEFAULT_HOST: MeetingSchedulerHost = {
+  name: "Mertcan Esmergul",
+  email: "hi@mertcan.works",
+  avatarInitial: "M",
+};
+
+const DEFAULT_MEETING: MeetingSchedulerDetails = {
+  title: "30 min intro meeting",
+  description: "Let's discuss your design needs and how we can collaborate 🥳",
+  durationMinutes: 30,
+  language: "English",
+  conferencing: "Google meet",
+};
+
+function useTimeSlots() {
+  return useMemo(() => {
+    const slots: string[] = [];
+    for (let minutes = 9 * 60; minutes <= 18 * 60 + 30; minutes += 30) {
+      const h = Math.floor(minutes / 60);
+      const m = minutes % 60;
+      slots.push(`${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}`);
+    }
+    return slots;
+  }, []);
+}
+
+function formatTime(time: string, use24h: boolean) {
+  const [h, m] = time.split(":").map(Number);
+  if (use24h) return time;
+  const period = h >= 12 ? "PM" : "AM";
+  const hour12 = h % 12 === 0 ? 12 : h % 12;
+  return `${hour12}:${String(m).padStart(2, "0")} ${period}`;
+}
+
+function formatChipDateTime(value: MeetingSchedulerValue) {
+  const date = new Intl.DateTimeFormat(undefined, { month: "short", day: "numeric", year: "numeric" }).format(
+    value.date.toDate(getLocalTimeZone()),
+  );
+  return { date, time: value.time ?? "Select a time" };
+}
+
+function InfoRow({ icon, children }: { icon: ReactNode; children: ReactNode }) {
+  return (
+    <div className="flex items-center gap-[5px] text-body-medium text-text-primary">
+      {icon}
+      {children}
+    </div>
+  );
+}
+
+function GlyphIcon({ icon: Icon }: { icon: typeof RiGlobalLine }) {
+  return <Icon className="size-5 shrink-0 text-foreground-icon-primary" aria-hidden />;
+}
+
+/** Figma's exact Google Meet mark, 20×20 (`public/brand/google_meet.png`). */
+function GoogleMeetIcon() {
+  return <img src="/brand/google_meet.png" alt="" width={20} height={20} className="size-5 shrink-0" />;
+}
+
+function HourFormatToggle({ use24h, onChange }: { use24h: boolean; onChange: (use24h: boolean) => void }) {
+  return (
+    <div className="flex shrink-0 items-start gap-0.5 rounded-2lg">
+      {(["12h", "24h"] as const).map((label, i) => {
+        const selected = i === 1 ? use24h : !use24h;
+        return (
+          <button
+            key={label}
+            type="button"
+            onClick={() => onChange(i === 1)}
+            className={cx(
+              "cursor-pointer rounded-md px-2.5 py-1 text-body-medium transition-colors duration-150 ease",
+              selected ? "bg-background-primary-default text-text-primary shadow-2xs" : "text-text-secondary hover:text-text-primary",
+            )}
+          >
+            {label}
+          </button>
+        );
+      })}
+    </div>
+  );
+}
+
+export function MeetingScheduler({
+  host = DEFAULT_HOST,
+  meeting = DEFAULT_MEETING,
+  timezone = "Amsterdam",
+  value,
+  defaultValue = null,
+  onChange,
+  defaultOpen = false,
+  className,
+  "aria-label": ariaLabel = "Schedule meeting",
+  triggerLabel = "Schedule a meeting",
+}: MeetingSchedulerProps) {
+  const triggerRef = useRef<HTMLButtonElement>(null);
+  const popoverRef = useRef<HTMLElement>(null);
+  const timeSlots = useTimeSlots();
+  const isControlled = value !== undefined;
+  const [internalValue, setInternalValue] = useState<MeetingSchedulerValue | null>(
+    defaultValue ?? { date: today(getLocalTimeZone()), time: null },
+  );
+  const committedValue = isControlled ? value : internalValue;
+
+  const [pendingValue, setPendingValue] = useState<MeetingSchedulerValue | null>(committedValue);
+  const [use24h, setUse24h] = useState(true);
+  // Never honor `defaultOpen` on the initial render: the ~700px-wide panel
+  // being in the very first paint makes mobile Safari compute its layout
+  // viewport from that width, permanently zooming the whole page out even
+  // after the panel closes. Open it post-mount instead, and only on
+  // viewports wide enough to show the panel without overflowing.
+  const [isOpen, setIsOpen] = useState(false);
+  useEffect(() => {
+    if (!defaultOpen) return;
+    if (window.matchMedia("(min-width: 640px)").matches) {
+      setIsOpen(true);
+    }
+  }, [defaultOpen]);
+
+  const commit = (next: MeetingSchedulerValue | null) => {
+    if (!isControlled) setInternalValue(next);
+    onChange?.(next);
+    setIsOpen(false);
+  };
+
+  useDismissOnOutsidePress(isOpen, () => setIsOpen(false), [triggerRef, popoverRef]);
+
+  const chip = pendingValue ? formatChipDateTime(pendingValue) : null;
+  const dayChip = pendingValue
+    ? {
+        weekday: new Intl.DateTimeFormat(undefined, { weekday: "short" }).format(pendingValue.date.toDate(getLocalTimeZone())).slice(0, 2),
+        day: pendingValue.date.day,
+      }
+    : null;
+
+  return (
+    <>
+      <button
+        ref={triggerRef}
+        type="button"
+        onClick={() => {
+          if (!isOpen) setPendingValue(committedValue);
+          setIsOpen((open) => !open);
+        }}
+        className={cx(triggerButtonClassName, className)}
+      >
+        <RiCalendarLine className="size-5 shrink-0 text-foreground-icon-primary" aria-hidden />
+        <span className="flex items-center justify-center whitespace-nowrap px-1 text-body-medium text-text-primary">
+          {triggerLabel}
+        </span>
+        <ChevronDownSmall
+          className={cx("size-4 shrink-0 text-text-secondary transition-transform duration-200 ease", isOpen && "rotate-180")}
+        />
+      </button>
+      <Popover
+        ref={popoverRef}
+        triggerRef={triggerRef}
+        isOpen={isOpen}
+        onOpenChange={setIsOpen}
+        placement="bottom end"
+        offset={8}
+        isNonModal
+        className={popoverClassName}
+      >
+        <Dialog aria-label={ariaLabel} className="outline-none">
+          <Calendar
+            aria-label={ariaLabel}
+            value={pendingValue?.date ?? null}
+            onChange={(date) => setPendingValue((prev) => ({ date, time: prev?.time ?? null }))}
+          >
+            <div className="flex h-[429px] gap-4">
+              {/* Host + meeting summary */}
+              <div className="flex w-[207px] shrink-0 flex-col gap-4 py-4 pl-4">
+                <div className="flex flex-col items-start gap-2">
+                  <Avatar size="md" color="blue" initials={host.avatarInitial} />
+                  <div className="flex flex-col text-body-medium">
+                    <span className="text-text-primary">{host.name}</span>
+                    <span className="text-text-secondary">{host.email}</span>
+                  </div>
+                </div>
+                <div className="flex flex-col gap-1">
+                  <p className="text-title-3-medium text-text-primary">{meeting.title}</p>
+                  {meeting.description && (
+                    <p className="text-body-2-medium text-text-secondary">{meeting.description}</p>
+                  )}
+                </div>
+                <div className="mt-auto flex flex-col gap-3">
+                  <InfoRow icon={<GlyphIcon icon={RiGlobalLine} />}>{meeting.durationMinutes} minutes</InfoRow>
+                  {meeting.language && <InfoRow icon={<GlyphIcon icon={RiFlagLine} />}>{meeting.language}</InfoRow>}
+                  {meeting.conferencing && <InfoRow icon={<GoogleMeetIcon />}>{meeting.conferencing}</InfoRow>}
+                </div>
+              </div>
+
+              {/* Calendar + footer */}
+              <div className="flex flex-col gap-3 pt-2 pb-3">
+                <MonthPanel offset={0} showPrev showNext />
+                <div className="flex items-center justify-between">
+                  <span className="flex items-center gap-1.5 rounded-2lg border border-border-button-default bg-background-primary-default px-2 py-2 text-body-medium text-text-primary shadow-xs">
+                    {chip && (
+                      <>
+                        <span>{chip.date}</span>
+                        <span className="text-text-secondary">{chip.time}</span>
+                      </>
+                    )}
+                  </span>
+                  <Button onClick={() => commit(pendingValue)} disabled={!pendingValue?.time}>
+                    Send meeting
+                  </Button>
+                </div>
+              </div>
+
+              {/* Timezone + hour format + time slots */}
+              <div className="flex h-full w-[170px] shrink-0 flex-col gap-3 overflow-hidden pt-4 pr-4">
+                <button
+                  type="button"
+                  className="flex cursor-pointer items-center justify-between rounded-2lg outline-none"
+                >
+                  <span className="flex items-center gap-[5px] text-body-medium text-text-primary">
+                    <RiGlobalLine className="size-5 shrink-0 text-foreground-icon-primary" aria-hidden />
+                    {timezone}
+                  </span>
+                  <ChevronDownSmall className="size-4 shrink-0 text-text-secondary" />
+                </button>
+
+                <div className="flex items-center justify-between">
+                  {dayChip && (
+                    <span className="inline-flex items-center gap-[3px] rounded-2lg bg-background-tertiary-default px-2 py-1 text-body-medium">
+                      <span className="text-text-primary">{dayChip.weekday}</span>
+                      <span className="text-text-secondary">{dayChip.day}</span>
+                    </span>
+                  )}
+                  <HourFormatToggle use24h={use24h} onChange={setUse24h} />
+                </div>
+
+                <div
+                  className="flex min-h-0 flex-1 flex-col gap-2 overflow-y-auto pb-3"
+                  style={{
+                    maskImage: "linear-gradient(to bottom, transparent, black 16px, black 100%)",
+                    WebkitMaskImage: "linear-gradient(to bottom, transparent, black 16px, black 100%)",
+                  }}
+                >
+                  {timeSlots.map((slot) => (
+                    <button
+                      key={slot}
+                      type="button"
+                      onClick={() =>
+                        setPendingValue((prev) => ({ date: prev?.date ?? today(getLocalTimeZone()), time: slot }))
+                      }
+                      className={cx(
+                        "w-full shrink-0 cursor-pointer rounded-2lg px-2 py-1.5 text-center text-body-medium text-text-primary transition-colors duration-150 ease",
+                        pendingValue?.time === slot
+                          ? "bg-background-tertiary-default"
+                          : "hover:bg-background-secondary-hover",
+                      )}
+                    >
+                      {formatTime(slot, use24h)}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </Calendar>
+        </Dialog>
+      </Popover>
+    </>
+  );
+}
+3:["$","$L1e",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"meeting-scheduler","title":"Meeting Scheduler","description":"A booking panel: host, duration, timezone, date and time slots.","category":"base","tags":["form","scheduling","booking","calendar","timezone"],"status":"stable","tier":"free","dependencies":["@internationalized/date","@remixicon/react","react-aria-components","tailwind-merge"],"registryDependencies":["avatar","button","chevrons","cx","date-picker","tokens","use-dismiss-on-outside-press"],"files":[{"path":"base/date-picker/meeting-scheduler.tsx","target":"components/base/date-picker/meeting-scheduler.tsx","type":"component","content":"$1f"},{"path":"public/brand/google_meet.png","target":"public/brand/google_meet.png","type":"asset","encoding":"base64"}],"hash":"615354a2ccfc"},"demoSource":"\"use client\";\n\nimport { MeetingScheduler } from \"@/components/base/date-picker/meeting-scheduler\";\n\nexport default function MeetingSchedulerDemo() {\n  return (\n    <MeetingScheduler\n      aria-label=\"Schedule meeting\"\n      triggerLabel=\"Schedule a meeting\"\n      host={{ name: \"zeus-ui\", email: \"pritam@emergent.sh\", avatarInitial: \"P\" }}\n      meeting={{\n        title: \"30 min intro\",\n        description: \"A quick call about the design system.\",\n        durationMinutes: 30,\n        language: \"English\",\n        conferencing: \"Google Meet\",\n      }}\n    />\n  );\n}","previous":{"name":"date-range-picker","title":"Date Range Picker"},"next":{"name":"theme-toggle","title":"Theme Toggle"}}]
+4:["$","script","script-0",{"src":"/_next/static/chunks/3l5f3qnr89rl0.js","async":true}]
+5:["$","script","script-1",{"src":"/_next/static/chunks/0wmbfrsxfdesk.js","async":true}]
+6:["$","script","script-2",{"src":"/_next/static/chunks/3ixdl2m026on9.js","async":true}]
+7:["$","script","script-3",{"src":"/_next/static/chunks/3xa-hzf5c_c6n.js","async":true}]
+8:["$","script","script-4",{"src":"/_next/static/chunks/1zihipy0kqa1_.js","async":true}]
+9:["$","script","script-5",{"src":"/_next/static/chunks/0-afrvt74ak7l.js","async":true}]
+a:["$","script","script-6",{"src":"/_next/static/chunks/0337601gswv_s.js","async":true}]
+b:["$","script","script-7",{"src":"/_next/static/chunks/34zl6f3dq0u0q.js","async":true}]
+c:["$","script","script-8",{"src":"/_next/static/chunks/2az_x4uxpy3sm.js","async":true}]
+d:["$","script","script-9",{"src":"/_next/static/chunks/23ywcyogzmwlv.js","async":true}]
+e:["$","script","script-10",{"src":"/_next/static/chunks/2qg2knl-9_2le.js","async":true}]
+f:["$","script","script-11",{"src":"/_next/static/chunks/1wypk9kc4p_mt.js","async":true}]
+10:["$","$L20",null,{"children":["$","$21",null,{"name":"Next.MetadataOutlet","children":"$@22"}]}]
+13:["$","$1","h",{"children":[null,["$","$L23",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L24",null,{"children":["$","$21",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Meeting Scheduler — Zeus UI"}],["$","meta","1",{"name":"description","content":"A booking panel: host, duration, timezone, date and time slots."}],["$","meta","2",{"name":"keywords","content":"form,scheduling,booking,calendar,timezone"}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+15:["$","$1","c",{"children":[null,["$","$L25",null,{"parallelRouterKey":"children","template":["$","$L26",null,{}]}]]}]
+18:["$","$1","c",{"children":[null,["$","$L25",null,{"parallelRouterKey":"children","template":["$","$L26",null,{}]}]]}]
+1a:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/0by1pam5w7cuf.js","async":true}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L27",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L25",null,{"parallelRouterKey":"children","template":["$","$L26",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]]}]}]]}]
+22:null
+1d:true
+12:300
+12:C
+1c:0
+14:"$undefined"
+16:"$undefined"
+19:"$undefined"
+1b:"$undefined"
+11:"$undefined"

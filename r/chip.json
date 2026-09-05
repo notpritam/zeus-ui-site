@@ -1,0 +1,32 @@
+{
+  "$schema": "https://myzeusui.com/schema/registry-item.json",
+  "name": "chip",
+  "title": "Chip",
+  "description": "Bold, subtle and caption tones across nine colours, for deltas, values and tags.",
+  "category": "base",
+  "tags": [
+    "indicator",
+    "tag",
+    "status",
+    "delta",
+    "filter"
+  ],
+  "status": "stable",
+  "tier": "free",
+  "dependencies": [
+    "tailwind-merge"
+  ],
+  "registryDependencies": [
+    "cx",
+    "tokens"
+  ],
+  "files": [
+    {
+      "path": "base/badges/chip.tsx",
+      "target": "components/base/badges/chip.tsx",
+      "type": "component",
+      "content": "import type { HTMLAttributes, Ref } from \"react\";\nimport { cx, sortCx } from \"../../utils/cx\";\n\n/**\n * Figma source: Board UI → dashboard 1 \"Chip\" layers (status chips, delta\n * chips, price chips, role chips — e.g. nodes 3731:3273, 3731:3094, 3731:3280,\n * 3731:3055).\n *\n * Colored label chip. Three emphasis levels, all rounded radius/md (6px),\n * px 6:\n *\n *   bold    py 2, Body 1/Medium   (14/20/500) — status + percentage deltas\n *   subtle  py 4, Body 1/Medium   (14/20/500) — price chips\n *   caption py 4, Caption 1/Medium (12/16/500, tracking .15) — role tags\n *\n * Status pairs are semantic so the same component follows both Figma modes:\n *   lime    light 200/800 · dark 950 @ 60% / 500\n *   rose    light 200/800 · dark 950 @ 60% / 500\n *   yellow  light 200/800 · dark 950 @ 60% / 500\n *   cyan    light 200/800 · dark 950 @ 60% / 400\n *   blue    light 200/800 · dark 950 @ 60% / 300 (same dark status recipe;\n *           first needed by the medical template's \"In treatment\" status)\n *   purple  light 100/600 · dark 900/300 (AI profile delta chips)\n *   neutral bg color/neutral/200 text color/neutral/500\n *   gray    bg color/neutral/100 text color/neutral/800\n *   soft    bg background/secondary/default text text/secondary\n */\n\ntype ChipVariant = \"bold\" | \"subtle\" | \"caption\";\ntype ChipColor = \"lime\" | \"rose\" | \"yellow\" | \"cyan\" | \"blue\" | \"purple\" | \"neutral\" | \"gray\" | \"soft\";\n\nexport interface ChipProps extends HTMLAttributes<HTMLSpanElement> {\n  variant?: ChipVariant;\n  color?: ChipColor;\n  ref?: Ref<HTMLSpanElement>;\n}\n\nconst styles = sortCx({\n  base: \"inline-flex items-center justify-center rounded-md px-1.5 whitespace-nowrap transition-[padding,font-size] duration-200 ease\",\n  variant: {\n    bold: \"py-0.5 text-body-medium\",\n    subtle: \"py-1 text-body-medium\",\n    caption: \"py-1 text-caption-1-medium\",\n  },\n  color: {\n    lime: \"bg-status-lime-background text-status-lime-text\",\n    rose: \"bg-status-rose-background text-status-rose-text\",\n    yellow: \"bg-status-yellow-background text-status-yellow-text\",\n    cyan: \"bg-status-cyan-background text-status-cyan-text\",\n    blue: \"bg-status-blue-background text-status-blue-text\",\n    purple: \"bg-status-purple-background text-status-purple-text\",\n    neutral: \"bg-background-tertiary-default text-text-secondary\",\n    gray: \"bg-background-secondary-default text-text-primary\",\n    soft: \"bg-background-secondary-default text-text-secondary\",\n  },\n});\n\nexport function Chip({\n  variant = \"bold\",\n  color = \"neutral\",\n  className,\n  ref,\n  ...props\n}: ChipProps) {\n  return (\n    <span\n      ref={ref}\n      className={cx(styles.base, styles.variant[variant], styles.color[color], className)}\n      {...props}\n    />\n  );\n}\n"
+    }
+  ],
+  "hash": "473d54ef23e4"
+}

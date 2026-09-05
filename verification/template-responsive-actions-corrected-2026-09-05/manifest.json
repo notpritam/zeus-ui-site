@@ -1,0 +1,1950 @@
+[
+  {
+    "id": "home-dashboard",
+    "title": "Home Dashboard",
+    "category": "templates",
+    "tier": "pro",
+    "reference": {
+      "url": "https://www.boardui.com/templates/dashboard",
+      "root": {
+        "selector": "body"
+      },
+      "setup": [
+        {
+          "type": "click",
+          "target": {
+            "role": "button",
+            "name": "Dismiss Pro template prompt"
+          },
+          "scope": "page",
+          "optional": true,
+          "reason": "Dismiss the documentation promotion, which is not part of the template."
+        },
+        {
+          "type": "click",
+          "target": {
+            "role": "button",
+            "name": "Decline"
+          },
+          "scope": "page",
+          "optional": true,
+          "optionalTimeoutMs": 2500,
+          "reason": "Dismiss the documentation cookie banner through its Decline control before capture; it may mount after hydration."
+        }
+      ]
+    },
+    "local": {
+      "url": "/templates/dashboard",
+      "root": {
+        "selector": "body"
+      }
+    },
+    "frame": {
+      "width": 448,
+      "viewport": true
+    },
+    "states": [
+      {
+        "id": "initial",
+        "actions": [],
+        "assertions": [
+          {
+            "type": "visible"
+          }
+        ]
+      },
+      {
+        "id": "full-page",
+        "frame": {
+          "viewport": false,
+          "fullPage": true
+        },
+        "actions": [],
+        "assertions": [
+          {
+            "type": "visible"
+          }
+        ]
+      },
+      {
+        "id": "quick-search",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "Open navigation"
+            },
+            "local": {
+              "target": {
+                "role": "button",
+                "name": "Open navigation"
+              }
+            },
+            "optional": true,
+            "reason": "Open the mobile panel through its visible responsive trigger; desktop already displays this panel."
+          },
+          {
+            "type": "wait",
+            "ms": 400
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "namePattern": "^(?:Quick Search|Search$)"
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "visible",
+            "target": {
+              "selector": "input[aria-label=\"Filter template navigation\"]:visible"
+            }
+          }
+        ]
+      },
+      {
+        "id": "table-search",
+        "actions": [
+          {
+            "type": "fill",
+            "target": {
+              "label": "Search customers"
+            },
+            "value": "John"
+          }
+        ],
+        "assertions": [
+          {
+            "type": "value",
+            "target": {
+              "label": "Search customers"
+            },
+            "value": "John"
+          },
+          {
+            "type": "hidden",
+            "target": {
+              "text": "Aspen Lubin",
+              "nth": 0
+            }
+          },
+          {
+            "type": "visible",
+            "target": {
+              "text": "1 customers",
+              "nth": 0
+            }
+          }
+        ]
+      }
+    ],
+    "coverage": {
+      "preview": "mapped",
+      "interactions": {
+        "status": "partial",
+        "reason": "All initial DOM controls inventoried; quick-search and selected table/panel actions mapped. Search input naming aliases are explicit. Navigation, CRUD, table filtering/sorting/pagination, sidebar/menu nesting, uploads and gallery actions are not fully covered."
+      },
+      "motion": {
+        "status": "unmapped",
+        "reason": "No reference motion timeline has been mapped for this component."
+      },
+      "variants": {
+        "status": "unmapped",
+        "reason": "Additional documentation examples are not covered by the main preview."
+      }
+    },
+    "masks": [],
+    "exceptions": [],
+    "addStates": [
+      {
+        "id": "quick-search",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "Open navigation"
+            },
+            "local": {
+              "target": {
+                "role": "button",
+                "name": "Open navigation"
+              }
+            },
+            "optional": true,
+            "reason": "Open the mobile panel through its visible responsive trigger; desktop already displays this panel."
+          },
+          {
+            "type": "wait",
+            "ms": 400
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "namePattern": "^(?:Quick Search|Search$)"
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "visible",
+            "target": {
+              "selector": "input[aria-label=\"Filter template navigation\"]:visible"
+            }
+          }
+        ]
+      },
+      {
+        "id": "table-search",
+        "actions": [
+          {
+            "type": "fill",
+            "target": {
+              "label": "Search customers"
+            },
+            "value": "John"
+          }
+        ],
+        "assertions": [
+          {
+            "type": "value",
+            "target": {
+              "label": "Search customers"
+            },
+            "value": "John"
+          },
+          {
+            "type": "hidden",
+            "target": {
+              "text": "Aspen Lubin",
+              "nth": 0
+            }
+          },
+          {
+            "type": "visible",
+            "target": {
+              "text": "1 customers",
+              "nth": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "finance-dashboard",
+    "title": "Finance Dashboard",
+    "category": "templates",
+    "tier": "pro",
+    "reference": {
+      "url": "https://www.boardui.com/templates/finance",
+      "root": {
+        "selector": "body"
+      },
+      "setup": [
+        {
+          "type": "click",
+          "target": {
+            "role": "button",
+            "name": "Dismiss Pro template prompt"
+          },
+          "scope": "page",
+          "optional": true,
+          "reason": "Dismiss the documentation promotion, which is not part of the template."
+        },
+        {
+          "type": "click",
+          "target": {
+            "role": "button",
+            "name": "Decline"
+          },
+          "scope": "page",
+          "optional": true,
+          "optionalTimeoutMs": 2500,
+          "reason": "Dismiss the documentation cookie banner through its Decline control before capture; it may mount after hydration."
+        }
+      ]
+    },
+    "local": {
+      "url": "/templates/finance",
+      "root": {
+        "selector": "body"
+      }
+    },
+    "frame": {
+      "width": 448,
+      "viewport": true
+    },
+    "states": [
+      {
+        "id": "initial",
+        "actions": [],
+        "assertions": [
+          {
+            "type": "visible"
+          }
+        ]
+      },
+      {
+        "id": "full-page",
+        "frame": {
+          "viewport": false,
+          "fullPage": true
+        },
+        "actions": [],
+        "assertions": [
+          {
+            "type": "visible"
+          }
+        ]
+      },
+      {
+        "id": "quick-search",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "Open navigation"
+            },
+            "local": {
+              "target": {
+                "role": "button",
+                "name": "Open navigation"
+              }
+            },
+            "optional": true,
+            "reason": "Open the mobile panel through its visible responsive trigger; desktop already displays this panel."
+          },
+          {
+            "type": "wait",
+            "ms": 400
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "namePattern": "^(?:Quick Search|Search$)"
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "visible",
+            "target": {
+              "selector": "input[aria-label=\"Filter template navigation\"]:visible"
+            }
+          }
+        ]
+      },
+      {
+        "id": "table-search",
+        "actions": [
+          {
+            "type": "fill",
+            "target": {
+              "label": "Search transactions"
+            },
+            "value": "John"
+          }
+        ],
+        "assertions": [
+          {
+            "type": "value",
+            "target": {
+              "label": "Search transactions"
+            },
+            "value": "John"
+          },
+          {
+            "type": "hidden",
+            "target": {
+              "text": "Aspen Lubin",
+              "nth": 0
+            }
+          },
+          {
+            "type": "visible",
+            "target": {
+              "text": "0 transactions",
+              "nth": 0
+            }
+          }
+        ]
+      }
+    ],
+    "coverage": {
+      "preview": "mapped",
+      "interactions": {
+        "status": "partial",
+        "reason": "All initial DOM controls inventoried; quick-search and selected table/panel actions mapped. Search input naming aliases are explicit. Navigation, CRUD, table filtering/sorting/pagination, sidebar/menu nesting, uploads and gallery actions are not fully covered."
+      },
+      "motion": {
+        "status": "unmapped",
+        "reason": "No reference motion timeline has been mapped for this component."
+      },
+      "variants": {
+        "status": "unmapped",
+        "reason": "Additional documentation examples are not covered by the main preview."
+      }
+    },
+    "masks": [],
+    "exceptions": [],
+    "addStates": [
+      {
+        "id": "quick-search",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "Open navigation"
+            },
+            "local": {
+              "target": {
+                "role": "button",
+                "name": "Open navigation"
+              }
+            },
+            "optional": true,
+            "reason": "Open the mobile panel through its visible responsive trigger; desktop already displays this panel."
+          },
+          {
+            "type": "wait",
+            "ms": 400
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "namePattern": "^(?:Quick Search|Search$)"
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "visible",
+            "target": {
+              "selector": "input[aria-label=\"Filter template navigation\"]:visible"
+            }
+          }
+        ]
+      },
+      {
+        "id": "table-search",
+        "actions": [
+          {
+            "type": "fill",
+            "target": {
+              "label": "Search transactions"
+            },
+            "value": "John"
+          }
+        ],
+        "assertions": [
+          {
+            "type": "value",
+            "target": {
+              "label": "Search transactions"
+            },
+            "value": "John"
+          },
+          {
+            "type": "hidden",
+            "target": {
+              "text": "Aspen Lubin",
+              "nth": 0
+            }
+          },
+          {
+            "type": "visible",
+            "target": {
+              "text": "0 transactions",
+              "nth": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "marketing-dashboard",
+    "title": "Marketing Dashboard",
+    "category": "templates",
+    "tier": "pro",
+    "reference": {
+      "url": "https://www.boardui.com/templates/marketing",
+      "root": {
+        "selector": "body"
+      },
+      "setup": [
+        {
+          "type": "click",
+          "target": {
+            "role": "button",
+            "name": "Dismiss Pro template prompt"
+          },
+          "scope": "page",
+          "optional": true,
+          "reason": "Dismiss the documentation promotion, which is not part of the template."
+        },
+        {
+          "type": "click",
+          "target": {
+            "role": "button",
+            "name": "Decline"
+          },
+          "scope": "page",
+          "optional": true,
+          "optionalTimeoutMs": 2500,
+          "reason": "Dismiss the documentation cookie banner through its Decline control before capture; it may mount after hydration."
+        }
+      ]
+    },
+    "local": {
+      "url": "/templates/marketing",
+      "root": {
+        "selector": "body"
+      }
+    },
+    "frame": {
+      "width": 448,
+      "viewport": true
+    },
+    "states": [
+      {
+        "id": "initial",
+        "actions": [],
+        "assertions": [
+          {
+            "type": "visible"
+          }
+        ]
+      },
+      {
+        "id": "full-page",
+        "frame": {
+          "viewport": false,
+          "fullPage": true
+        },
+        "actions": [],
+        "assertions": [
+          {
+            "type": "visible"
+          }
+        ]
+      },
+      {
+        "id": "quick-search",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "Open navigation"
+            },
+            "local": {
+              "target": {
+                "role": "button",
+                "name": "Open navigation"
+              }
+            },
+            "optional": true,
+            "reason": "Open the mobile panel through its visible responsive trigger; desktop already displays this panel."
+          },
+          {
+            "type": "wait",
+            "ms": 400
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "namePattern": "^(?:Quick Search|Search$)"
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "visible",
+            "target": {
+              "selector": "input[aria-label=\"Filter template navigation\"]:visible"
+            }
+          }
+        ]
+      },
+      {
+        "id": "table-search",
+        "actions": [
+          {
+            "type": "fill",
+            "target": {
+              "label": "Search campaigns"
+            },
+            "value": "John"
+          }
+        ],
+        "assertions": [
+          {
+            "type": "value",
+            "target": {
+              "label": "Search campaigns"
+            },
+            "value": "John"
+          },
+          {
+            "type": "hidden",
+            "target": {
+              "text": "Aspen Lubin",
+              "nth": 0
+            }
+          },
+          {
+            "type": "visible",
+            "target": {
+              "text": "0 campaigns",
+              "nth": 0
+            }
+          }
+        ]
+      }
+    ],
+    "coverage": {
+      "preview": "mapped",
+      "interactions": {
+        "status": "partial",
+        "reason": "All initial DOM controls inventoried; quick-search and selected table/panel actions mapped. Search input naming aliases are explicit. Navigation, CRUD, table filtering/sorting/pagination, sidebar/menu nesting, uploads and gallery actions are not fully covered."
+      },
+      "motion": {
+        "status": "unmapped",
+        "reason": "No reference motion timeline has been mapped for this component."
+      },
+      "variants": {
+        "status": "unmapped",
+        "reason": "Additional documentation examples are not covered by the main preview."
+      }
+    },
+    "masks": [],
+    "exceptions": [],
+    "addStates": [
+      {
+        "id": "quick-search",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "Open navigation"
+            },
+            "local": {
+              "target": {
+                "role": "button",
+                "name": "Open navigation"
+              }
+            },
+            "optional": true,
+            "reason": "Open the mobile panel through its visible responsive trigger; desktop already displays this panel."
+          },
+          {
+            "type": "wait",
+            "ms": 400
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "namePattern": "^(?:Quick Search|Search$)"
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "visible",
+            "target": {
+              "selector": "input[aria-label=\"Filter template navigation\"]:visible"
+            }
+          }
+        ]
+      },
+      {
+        "id": "table-search",
+        "actions": [
+          {
+            "type": "fill",
+            "target": {
+              "label": "Search campaigns"
+            },
+            "value": "John"
+          }
+        ],
+        "assertions": [
+          {
+            "type": "value",
+            "target": {
+              "label": "Search campaigns"
+            },
+            "value": "John"
+          },
+          {
+            "type": "hidden",
+            "target": {
+              "text": "Aspen Lubin",
+              "nth": 0
+            }
+          },
+          {
+            "type": "visible",
+            "target": {
+              "text": "0 campaigns",
+              "nth": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hr-management",
+    "title": "HR Management",
+    "category": "templates",
+    "tier": "pro",
+    "reference": {
+      "url": "https://www.boardui.com/templates/hr",
+      "root": {
+        "selector": "body"
+      },
+      "setup": [
+        {
+          "type": "click",
+          "target": {
+            "role": "button",
+            "name": "Dismiss Pro template prompt"
+          },
+          "scope": "page",
+          "optional": true,
+          "reason": "Dismiss the documentation promotion, which is not part of the template."
+        },
+        {
+          "type": "click",
+          "target": {
+            "role": "button",
+            "name": "Decline"
+          },
+          "scope": "page",
+          "optional": true,
+          "optionalTimeoutMs": 2500,
+          "reason": "Dismiss the documentation cookie banner through its Decline control before capture; it may mount after hydration."
+        }
+      ]
+    },
+    "local": {
+      "url": "/templates/hr",
+      "root": {
+        "selector": "body"
+      }
+    },
+    "frame": {
+      "width": 448,
+      "viewport": true
+    },
+    "states": [
+      {
+        "id": "initial",
+        "actions": [],
+        "assertions": [
+          {
+            "type": "visible"
+          }
+        ]
+      },
+      {
+        "id": "full-page",
+        "frame": {
+          "viewport": false,
+          "fullPage": true
+        },
+        "actions": [],
+        "assertions": [
+          {
+            "type": "visible"
+          }
+        ]
+      },
+      {
+        "id": "quick-search",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "Open navigation"
+            },
+            "local": {
+              "target": {
+                "role": "button",
+                "name": "Open navigation"
+              }
+            },
+            "optional": true,
+            "reason": "Open the mobile panel through its visible responsive trigger; desktop already displays this panel."
+          },
+          {
+            "type": "wait",
+            "ms": 400
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "namePattern": "^(?:Quick Search|Search$)"
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "visible",
+            "target": {
+              "selector": "input[aria-label=\"Filter template navigation\"]:visible"
+            }
+          }
+        ]
+      },
+      {
+        "id": "table-search",
+        "actions": [
+          {
+            "type": "fill",
+            "target": {
+              "label": "Search employees"
+            },
+            "value": "John"
+          }
+        ],
+        "assertions": [
+          {
+            "type": "value",
+            "target": {
+              "label": "Search employees"
+            },
+            "value": "John"
+          },
+          {
+            "type": "hidden",
+            "target": {
+              "text": "Aspen Lubin",
+              "nth": 0
+            }
+          },
+          {
+            "type": "visible",
+            "target": {
+              "text": "1 employees",
+              "nth": 0
+            }
+          }
+        ]
+      }
+    ],
+    "coverage": {
+      "preview": "mapped",
+      "interactions": {
+        "status": "partial",
+        "reason": "All initial DOM controls inventoried; quick-search and selected table/panel actions mapped. Search input naming aliases are explicit. Navigation, CRUD, table filtering/sorting/pagination, sidebar/menu nesting, uploads and gallery actions are not fully covered."
+      },
+      "motion": {
+        "status": "unmapped",
+        "reason": "No reference motion timeline has been mapped for this component."
+      },
+      "variants": {
+        "status": "unmapped",
+        "reason": "Additional documentation examples are not covered by the main preview."
+      }
+    },
+    "masks": [],
+    "exceptions": [],
+    "addStates": [
+      {
+        "id": "quick-search",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "Open navigation"
+            },
+            "local": {
+              "target": {
+                "role": "button",
+                "name": "Open navigation"
+              }
+            },
+            "optional": true,
+            "reason": "Open the mobile panel through its visible responsive trigger; desktop already displays this panel."
+          },
+          {
+            "type": "wait",
+            "ms": 400
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "namePattern": "^(?:Quick Search|Search$)"
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "visible",
+            "target": {
+              "selector": "input[aria-label=\"Filter template navigation\"]:visible"
+            }
+          }
+        ]
+      },
+      {
+        "id": "table-search",
+        "actions": [
+          {
+            "type": "fill",
+            "target": {
+              "label": "Search employees"
+            },
+            "value": "John"
+          }
+        ],
+        "assertions": [
+          {
+            "type": "value",
+            "target": {
+              "label": "Search employees"
+            },
+            "value": "John"
+          },
+          {
+            "type": "hidden",
+            "target": {
+              "text": "Aspen Lubin",
+              "nth": 0
+            }
+          },
+          {
+            "type": "visible",
+            "target": {
+              "text": "1 employees",
+              "nth": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "medical-profile",
+    "title": "Medical Profile",
+    "category": "templates",
+    "tier": "pro",
+    "reference": {
+      "url": "https://www.boardui.com/templates/medical-profile",
+      "root": {
+        "selector": "body"
+      },
+      "setup": [
+        {
+          "type": "click",
+          "target": {
+            "role": "button",
+            "name": "Dismiss Pro template prompt"
+          },
+          "scope": "page",
+          "optional": true,
+          "reason": "Dismiss the documentation promotion, which is not part of the template."
+        },
+        {
+          "type": "click",
+          "target": {
+            "role": "button",
+            "name": "Decline"
+          },
+          "scope": "page",
+          "optional": true,
+          "optionalTimeoutMs": 2500,
+          "reason": "Dismiss the documentation cookie banner through its Decline control before capture; it may mount after hydration."
+        }
+      ]
+    },
+    "local": {
+      "url": "/templates/medical-profile",
+      "root": {
+        "selector": "body"
+      }
+    },
+    "frame": {
+      "width": 448,
+      "viewport": true
+    },
+    "states": [
+      {
+        "id": "initial",
+        "actions": [],
+        "assertions": [
+          {
+            "type": "visible"
+          }
+        ]
+      },
+      {
+        "id": "full-page",
+        "frame": {
+          "viewport": false,
+          "fullPage": true
+        },
+        "actions": [],
+        "assertions": [
+          {
+            "type": "visible"
+          }
+        ]
+      },
+      {
+        "id": "quick-search",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "Open navigation"
+            },
+            "local": {
+              "target": {
+                "role": "button",
+                "name": "Open navigation"
+              }
+            },
+            "optional": true,
+            "reason": "Open the mobile panel through its visible responsive trigger; desktop already displays this panel."
+          },
+          {
+            "type": "wait",
+            "ms": 400
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "namePattern": "^(?:Quick Search|Search$)"
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "visible",
+            "target": {
+              "selector": "input[aria-label=\"Filter template navigation\"]:visible"
+            }
+          }
+        ]
+      },
+      {
+        "id": "table-search",
+        "actions": [
+          {
+            "type": "fill",
+            "target": {
+              "label": "Search patients"
+            },
+            "value": "John"
+          }
+        ],
+        "assertions": [
+          {
+            "type": "value",
+            "target": {
+              "label": "Search patients"
+            },
+            "value": "John"
+          },
+          {
+            "type": "hidden",
+            "target": {
+              "text": "Aspen Lubin",
+              "nth": 0
+            }
+          },
+          {
+            "type": "visible",
+            "target": {
+              "text": "1 patients",
+              "nth": 0
+            }
+          }
+        ]
+      }
+    ],
+    "coverage": {
+      "preview": "mapped",
+      "interactions": {
+        "status": "partial",
+        "reason": "All initial DOM controls inventoried; quick-search and selected table/panel actions mapped. Search input naming aliases are explicit. Navigation, CRUD, table filtering/sorting/pagination, sidebar/menu nesting, uploads and gallery actions are not fully covered."
+      },
+      "motion": {
+        "status": "unmapped",
+        "reason": "No reference motion timeline has been mapped for this component."
+      },
+      "variants": {
+        "status": "unmapped",
+        "reason": "Additional documentation examples are not covered by the main preview."
+      }
+    },
+    "masks": [],
+    "exceptions": [],
+    "addStates": [
+      {
+        "id": "quick-search",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "Open navigation"
+            },
+            "local": {
+              "target": {
+                "role": "button",
+                "name": "Open navigation"
+              }
+            },
+            "optional": true,
+            "reason": "Open the mobile panel through its visible responsive trigger; desktop already displays this panel."
+          },
+          {
+            "type": "wait",
+            "ms": 400
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "namePattern": "^(?:Quick Search|Search$)"
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "visible",
+            "target": {
+              "selector": "input[aria-label=\"Filter template navigation\"]:visible"
+            }
+          }
+        ]
+      },
+      {
+        "id": "table-search",
+        "actions": [
+          {
+            "type": "fill",
+            "target": {
+              "label": "Search patients"
+            },
+            "value": "John"
+          }
+        ],
+        "assertions": [
+          {
+            "type": "value",
+            "target": {
+              "label": "Search patients"
+            },
+            "value": "John"
+          },
+          {
+            "type": "hidden",
+            "target": {
+              "text": "Aspen Lubin",
+              "nth": 0
+            }
+          },
+          {
+            "type": "visible",
+            "target": {
+              "text": "1 patients",
+              "nth": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ai-profile",
+    "title": "AI Profile",
+    "category": "templates",
+    "tier": "pro",
+    "reference": {
+      "url": "https://www.boardui.com/templates/ai-profile",
+      "root": {
+        "selector": "body"
+      },
+      "setup": [
+        {
+          "type": "click",
+          "target": {
+            "role": "button",
+            "name": "Dismiss Pro template prompt"
+          },
+          "scope": "page",
+          "optional": true,
+          "reason": "Dismiss the documentation promotion, which is not part of the template."
+        },
+        {
+          "type": "click",
+          "target": {
+            "role": "button",
+            "name": "Decline"
+          },
+          "scope": "page",
+          "optional": true,
+          "optionalTimeoutMs": 2500,
+          "reason": "Dismiss the documentation cookie banner through its Decline control before capture; it may mount after hydration."
+        }
+      ]
+    },
+    "local": {
+      "url": "/templates/ai-profile",
+      "root": {
+        "selector": "body"
+      }
+    },
+    "frame": {
+      "width": 448,
+      "viewport": true
+    },
+    "states": [
+      {
+        "id": "initial",
+        "actions": [],
+        "assertions": [
+          {
+            "type": "visible"
+          }
+        ]
+      },
+      {
+        "id": "full-page",
+        "frame": {
+          "viewport": false,
+          "fullPage": true
+        },
+        "actions": [],
+        "assertions": [
+          {
+            "type": "visible"
+          }
+        ]
+      },
+      {
+        "id": "quick-search",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "Open navigation"
+            },
+            "local": {
+              "target": {
+                "role": "button",
+                "name": "Open navigation"
+              }
+            },
+            "optional": true,
+            "reason": "Open the mobile panel through its visible responsive trigger; desktop already displays this panel."
+          },
+          {
+            "type": "wait",
+            "ms": 400
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "namePattern": "^(?:Quick Search|Search$)"
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "visible",
+            "target": {
+              "selector": "input[aria-label=\"Filter template navigation\"]:visible"
+            }
+          }
+        ]
+      }
+    ],
+    "coverage": {
+      "preview": "mapped",
+      "interactions": {
+        "status": "partial",
+        "reason": "All initial DOM controls inventoried; quick-search and selected table/panel actions mapped. Search input naming aliases are explicit. Navigation, CRUD, table filtering/sorting/pagination, sidebar/menu nesting, uploads and gallery actions are not fully covered."
+      },
+      "motion": {
+        "status": "unmapped",
+        "reason": "No reference motion timeline has been mapped for this component."
+      },
+      "variants": {
+        "status": "unmapped",
+        "reason": "Additional documentation examples are not covered by the main preview."
+      }
+    },
+    "masks": [],
+    "exceptions": [],
+    "addStates": [
+      {
+        "id": "quick-search",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "Open navigation"
+            },
+            "local": {
+              "target": {
+                "role": "button",
+                "name": "Open navigation"
+              }
+            },
+            "optional": true,
+            "reason": "Open the mobile panel through its visible responsive trigger; desktop already displays this panel."
+          },
+          {
+            "type": "wait",
+            "ms": 400
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "namePattern": "^(?:Quick Search|Search$)"
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "visible",
+            "target": {
+              "selector": "input[aria-label=\"Filter template navigation\"]:visible"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ai-chat",
+    "title": "AI Chat",
+    "category": "templates",
+    "tier": "pro",
+    "reference": {
+      "url": "https://www.boardui.com/templates/ai-chat",
+      "root": {
+        "selector": "body"
+      },
+      "setup": [
+        {
+          "type": "click",
+          "target": {
+            "role": "button",
+            "name": "Dismiss Pro template prompt"
+          },
+          "scope": "page",
+          "optional": true,
+          "reason": "Dismiss the documentation promotion, which is not part of the template."
+        },
+        {
+          "type": "click",
+          "target": {
+            "role": "button",
+            "name": "Decline"
+          },
+          "scope": "page",
+          "optional": true,
+          "optionalTimeoutMs": 2500,
+          "reason": "Dismiss the documentation cookie banner through its Decline control before capture; it may mount after hydration."
+        }
+      ]
+    },
+    "local": {
+      "url": "/templates/ai-chat",
+      "root": {
+        "selector": "body"
+      }
+    },
+    "frame": {
+      "width": 448,
+      "viewport": true
+    },
+    "states": [
+      {
+        "id": "initial",
+        "actions": [],
+        "assertions": [
+          {
+            "type": "visible"
+          }
+        ]
+      },
+      {
+        "id": "full-page",
+        "frame": {
+          "viewport": false,
+          "fullPage": true
+        },
+        "actions": [],
+        "assertions": [
+          {
+            "type": "visible"
+          }
+        ]
+      },
+      {
+        "id": "quick-search",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "Open navigation"
+            },
+            "local": {
+              "target": {
+                "role": "button",
+                "name": "Open navigation"
+              }
+            },
+            "optional": true,
+            "reason": "Open the mobile panel through its visible responsive trigger; desktop already displays this panel."
+          },
+          {
+            "type": "wait",
+            "ms": 400
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "namePattern": "^(?:Quick Search|Search$)"
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "visible",
+            "target": {
+              "selector": "input[aria-label=\"Filter template navigation\"]:visible"
+            },
+            "local": {
+              "target": {
+                "label": "Search repositories"
+              }
+            }
+          }
+        ],
+        "byProfile": {
+          "mobile": {
+            "assertions": [
+              {
+                "type": "hidden",
+                "target": {
+                  "selector": "input[aria-label=\"Filter template navigation\"]:visible"
+                },
+                "local": {
+                  "type": "visible",
+                  "target": {
+                    "label": "Search repositories"
+                  }
+                }
+              }
+            ],
+            "exceptions": [
+              {
+                "reason": "Observed public mobile Search button leaves navigation unchanged and opens no search input. Local Quick Search intentionally retains its functional repository input as an additional API behavior. Side-specific assertions document this explicit exception; screenshot differences remain failed visual comparisons."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "browser-panel",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "Open code"
+            },
+            "local": {
+              "target": {
+                "role": "button",
+                "name": "Open side panel"
+              }
+            },
+            "optional": true,
+            "reason": "Open the mobile panel through its visible responsive trigger; desktop already displays this panel."
+          },
+          {
+            "type": "wait",
+            "ms": 400
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "Browser"
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "visible",
+            "target": {
+              "text": "Browser preview",
+              "nth": 0
+            }
+          }
+        ]
+      }
+    ],
+    "coverage": {
+      "preview": "mapped",
+      "interactions": {
+        "status": "partial",
+        "reason": "All initial DOM controls inventoried; quick-search and selected table/panel actions mapped. Search input naming aliases are explicit. Navigation, CRUD, table filtering/sorting/pagination, sidebar/menu nesting, uploads and gallery actions are not fully covered."
+      },
+      "motion": {
+        "status": "unmapped",
+        "reason": "No reference motion timeline has been mapped for this component."
+      },
+      "variants": {
+        "status": "unmapped",
+        "reason": "Additional documentation examples are not covered by the main preview."
+      }
+    },
+    "masks": [],
+    "exceptions": [],
+    "addStates": [
+      {
+        "id": "quick-search",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "Open navigation"
+            },
+            "local": {
+              "target": {
+                "role": "button",
+                "name": "Open navigation"
+              }
+            },
+            "optional": true,
+            "reason": "Open the mobile panel through its visible responsive trigger; desktop already displays this panel."
+          },
+          {
+            "type": "wait",
+            "ms": 400
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "namePattern": "^(?:Quick Search|Search$)"
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "visible",
+            "target": {
+              "selector": "input[aria-label=\"Filter template navigation\"]:visible"
+            },
+            "local": {
+              "target": {
+                "label": "Search repositories"
+              }
+            }
+          }
+        ],
+        "byProfile": {
+          "mobile": {
+            "assertions": [
+              {
+                "type": "hidden",
+                "target": {
+                  "selector": "input[aria-label=\"Filter template navigation\"]:visible"
+                },
+                "local": {
+                  "type": "visible",
+                  "target": {
+                    "label": "Search repositories"
+                  }
+                }
+              }
+            ],
+            "exceptions": [
+              {
+                "reason": "Observed public mobile Search button leaves navigation unchanged and opens no search input. Local Quick Search intentionally retains its functional repository input as an additional API behavior. Side-specific assertions document this explicit exception; screenshot differences remain failed visual comparisons."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "browser-panel",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "Open code"
+            },
+            "local": {
+              "target": {
+                "role": "button",
+                "name": "Open side panel"
+              }
+            },
+            "optional": true,
+            "reason": "Open the mobile panel through its visible responsive trigger; desktop already displays this panel."
+          },
+          {
+            "type": "wait",
+            "ms": 400
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "Browser"
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "visible",
+            "target": {
+              "text": "Browser preview",
+              "nth": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ai-image-generation",
+    "title": "AI Image Generation",
+    "category": "templates",
+    "tier": "pro",
+    "reference": {
+      "url": "https://www.boardui.com/templates/ai-image-generation",
+      "root": {
+        "selector": "body"
+      },
+      "setup": [
+        {
+          "type": "click",
+          "target": {
+            "role": "button",
+            "name": "Dismiss Pro template prompt"
+          },
+          "scope": "page",
+          "optional": true,
+          "reason": "Dismiss the documentation promotion, which is not part of the template."
+        },
+        {
+          "type": "click",
+          "target": {
+            "role": "button",
+            "name": "Decline"
+          },
+          "scope": "page",
+          "optional": true,
+          "optionalTimeoutMs": 2500,
+          "reason": "Dismiss the documentation cookie banner through its Decline control before capture; it may mount after hydration."
+        }
+      ]
+    },
+    "local": {
+      "url": "/templates/ai-image-generation",
+      "root": {
+        "selector": "body"
+      }
+    },
+    "frame": {
+      "width": 448,
+      "viewport": true
+    },
+    "states": [
+      {
+        "id": "initial",
+        "actions": [],
+        "assertions": [
+          {
+            "type": "visible"
+          }
+        ]
+      },
+      {
+        "id": "full-page",
+        "frame": {
+          "viewport": false,
+          "fullPage": true
+        },
+        "actions": [],
+        "assertions": [
+          {
+            "type": "visible"
+          }
+        ]
+      },
+      {
+        "id": "quick-search",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "Open navigation"
+            },
+            "local": {
+              "target": {
+                "role": "button",
+                "name": "Open navigation"
+              }
+            },
+            "optional": true,
+            "reason": "Open the mobile panel through its visible responsive trigger; desktop already displays this panel."
+          },
+          {
+            "type": "wait",
+            "ms": 400
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "namePattern": "^(?:Quick Search|Search$)"
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "visible",
+            "target": {
+              "selector": "input[aria-label=\"Filter template navigation\"]:visible"
+            },
+            "local": {
+              "target": {
+                "label": "Search repositories"
+              }
+            }
+          }
+        ],
+        "byProfile": {
+          "mobile": {
+            "assertions": [
+              {
+                "type": "hidden",
+                "target": {
+                  "selector": "input[aria-label=\"Filter template navigation\"]:visible"
+                },
+                "local": {
+                  "type": "visible",
+                  "target": {
+                    "label": "Search repositories"
+                  }
+                }
+              }
+            ],
+            "exceptions": [
+              {
+                "reason": "Observed public mobile Search button leaves navigation unchanged and opens no search input. Local Quick Search intentionally retains its functional repository input as an additional API behavior. Side-specific assertions document this explicit exception; screenshot differences remain failed visual comparisons."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "styles-panel",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "Open gallery"
+            },
+            "local": {
+              "target": {
+                "role": "button",
+                "name": "Open side panel"
+              }
+            },
+            "optional": true,
+            "reason": "Open the mobile panel through its visible responsive trigger; desktop already displays this panel."
+          },
+          {
+            "type": "wait",
+            "ms": 400
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "Styles"
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "visible",
+            "target": {
+              "selector": ":text-is(\"Style presets\"):visible"
+            }
+          }
+        ]
+      }
+    ],
+    "coverage": {
+      "preview": "mapped",
+      "interactions": {
+        "status": "partial",
+        "reason": "All initial DOM controls inventoried; quick-search and selected table/panel actions mapped. Search input naming aliases are explicit. Navigation, CRUD, table filtering/sorting/pagination, sidebar/menu nesting, uploads and gallery actions are not fully covered."
+      },
+      "motion": {
+        "status": "unmapped",
+        "reason": "No reference motion timeline has been mapped for this component."
+      },
+      "variants": {
+        "status": "unmapped",
+        "reason": "Additional documentation examples are not covered by the main preview."
+      }
+    },
+    "masks": [],
+    "exceptions": [],
+    "addStates": [
+      {
+        "id": "quick-search",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "Open navigation"
+            },
+            "local": {
+              "target": {
+                "role": "button",
+                "name": "Open navigation"
+              }
+            },
+            "optional": true,
+            "reason": "Open the mobile panel through its visible responsive trigger; desktop already displays this panel."
+          },
+          {
+            "type": "wait",
+            "ms": 400
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "namePattern": "^(?:Quick Search|Search$)"
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "visible",
+            "target": {
+              "selector": "input[aria-label=\"Filter template navigation\"]:visible"
+            },
+            "local": {
+              "target": {
+                "label": "Search repositories"
+              }
+            }
+          }
+        ],
+        "byProfile": {
+          "mobile": {
+            "assertions": [
+              {
+                "type": "hidden",
+                "target": {
+                  "selector": "input[aria-label=\"Filter template navigation\"]:visible"
+                },
+                "local": {
+                  "type": "visible",
+                  "target": {
+                    "label": "Search repositories"
+                  }
+                }
+              }
+            ],
+            "exceptions": [
+              {
+                "reason": "Observed public mobile Search button leaves navigation unchanged and opens no search input. Local Quick Search intentionally retains its functional repository input as an additional API behavior. Side-specific assertions document this explicit exception; screenshot differences remain failed visual comparisons."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "styles-panel",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "Open gallery"
+            },
+            "local": {
+              "target": {
+                "role": "button",
+                "name": "Open side panel"
+              }
+            },
+            "optional": true,
+            "reason": "Open the mobile panel through its visible responsive trigger; desktop already displays this panel."
+          },
+          {
+            "type": "wait",
+            "ms": 400
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "Styles"
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "visible",
+            "target": {
+              "selector": ":text-is(\"Style presets\"):visible"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

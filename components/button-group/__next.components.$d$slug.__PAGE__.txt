@@ -1,0 +1,208 @@
+1:"$Sreact.fragment"
+2:I[54515,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"DocsLayout"]
+12:X
+17:X
+17:C
+0:{"buildId":"Kgh3aKGUUDrNWttN7OqGM","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"Button Group","heading":"Button Group","icon":"components","groups":[{"id":"foundations","title":"Foundations","items":[{"name":"tokens","title":"Design tokens"},{"name":"typography","title":"Typography"},{"name":"cx","title":"cx"},{"name":"chevrons","title":"Chevrons"},{"name":"logo","title":"Logo"},{"name":"use-count-up","title":"useCountUp"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress"}]},{"id":"base","title":"Base","items":[{"name":"button","title":"Button"},{"name":"icon-button","title":"Icon Button"},{"name":"link-button","title":"Link Button"},{"name":"button-group","title":"Button Group"},{"name":"close-button","title":"Close Button"},{"name":"social-button","title":"Social Button"},{"name":"input","title":"Input"},{"name":"input-otp","title":"Input OTP"},{"name":"checkbox","title":"Checkbox"},{"name":"radio","title":"Radio"},{"name":"switch","title":"Switch"},{"name":"select","title":"Select"},{"name":"slider","title":"Slider"},{"name":"dropdown","title":"Dropdown"},{"name":"divider","title":"Divider"},{"name":"file-upload","title":"File Upload"},{"name":"tabs","title":"Tabs"},{"name":"segmented-control","title":"Segmented Control"},{"name":"table","title":"Table"},{"name":"tooltip","title":"Tooltip"},{"name":"badge","title":"Badge"},{"name":"chip","title":"Chip"},{"name":"status-dot","title":"Status Dot"},{"name":"kbd","title":"Kbd"},{"name":"avatar","title":"Avatar"},{"name":"breadcrumb","title":"Breadcrumb"},{"name":"pagination","title":"Pagination"},{"name":"carousel","title":"Carousel"},{"name":"announcement","title":"Announcement"},{"name":"notification","title":"Notification"},{"name":"date-picker","title":"Date Picker"},{"name":"date-range-picker","title":"Date Range Picker"},{"name":"meeting-scheduler","title":"Meeting Scheduler"}]},{"id":"blocks","title":"Blocks","items":[{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"calendar","title":"Calendar","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"theme-toggle","title":"Theme Toggle"},{"name":"stat-cards","title":"Stat Cards"},{"name":"data-table","title":"Data Table"},{"name":"sidebar","title":"Sidebar"},{"name":"app-shell","title":"App Shell"},{"name":"notification-center","title":"Notification Center"},{"name":"settings-modal","title":"Settings Modal"},{"name":"auth-card","title":"Auth Card"},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking"},{"name":"composer-loader","title":"Composer Loader"},{"name":"agent-log","title":"Agent Log"},{"name":"agent-chat","title":"Agent Chat"}]},{"id":"charts","title":"Charts","items":[{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart"},{"name":"orders-chart-card","title":"Orders Chart"},{"name":"important-alerts-card","title":"Important Alerts"},{"name":"patient-info-card","title":"Patient Info"}]},{"id":"templates","title":"Templates","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true},{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true}]}],"description":"Fused row of selectable buttons for view switches and toolbars.","detail":true,"children":"$L3"}],["$L4","$L5","$L6","$L7","$L8","$L9","$La","$Lb","$Lc","$Ld","$Le","$Lf"],"$L10"]}],"isPartial":"$@11","staleTime":"$12","varyParams":null},{"rsc":"$L13","isPartial":"$@14","staleTime":"$12","varyParams":null},{"rsc":"$L15","isPartial":"$@16","staleTime":"$12","varyParams":"$17"},{"rsc":"$L18","isPartial":"$@19","staleTime":"$12","varyParams":"$17"},{"rsc":"$L1a","isPartial":"$@1b","staleTime":"$12","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@1c","rootVaryParams":null,"needsRuntimeRequest":"$@1d"}
+1e:I[26438,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"ComponentPage"]
+21:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"OutletBoundary"]
+22:"$Sreact.suspense"
+24:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"ViewportBoundary"]
+25:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"MetadataBoundary"]
+26:I[37280,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+27:I[75701,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+28:I[72844,["/_next/static/chunks/0by1pam5w7cuf.js"],""]
+:HL["/_next/static/chunks/16_ml9va511u1.css","style"]
+:HL["/_next/static/chunks/1lom8-olk25vh.css","style"]
+1f:T1011,import type {
+  ButtonHTMLAttributes,
+  ComponentType,
+  ReactNode,
+  Ref,
+} from "react";
+import { cx, sortCx } from "../../utils/cx";
+
+/**
+ * Button group — a row of secondary-style buttons fused into one control:
+ * shared 1px border/button/default container with radius/2lg and shadow/xs,
+ * items divided by 1px hairlines, only the outer corners rounded. The classic
+ * toolbar / filter pattern ("Left | Center | Right").
+ *
+ * Sizing follows Button's secondary sizes:
+ *   medium  h=36, px=12, Body 1/Medium, 20px icons
+ *   small   h=32, px=10, Body 1/Medium, 18px icons
+ *
+ * Items can be text, icon + text, or icon-only (pass `iconOnly` +
+ * `aria-label`). A pressed/selected item (`selected`) keeps the hover fill —
+ * drive it from state for single or multi select toolbars, or leave every
+ * item unselected for pure action rows. For a full segmented switcher with
+ * animated thumb, see SegmentedControl instead.
+ */
+
+type ButtonGroupSize = "medium" | "small";
+
+type IconComponent = ComponentType<{
+  className?: string;
+  "aria-hidden"?: boolean | "true" | "false";
+}>;
+
+const styles = sortCx({
+  group: [
+    "inline-flex items-stretch isolate",
+    "rounded-2lg border border-border-button-group bg-background-primary-default shadow-xs",
+    // Hairlines between items, outer corners rounded on the first/last item
+    "divide-x divide-border-button-default overflow-hidden",
+  ].join(" "),
+
+  item: [
+    "inline-flex items-center justify-center gap-1 whitespace-nowrap",
+    "bg-background-primary-default text-text-primary font-sans select-none cursor-pointer",
+    "transition-[background-color,color] duration-150 ease",
+    "outline-none focus-visible:relative focus-visible:z-10 focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-border-focus-ring",
+    "hover:bg-background-primary-hover active:bg-background-primary-active",
+    "disabled:cursor-not-allowed disabled:bg-background-primary-disabled disabled:text-text-tertiary",
+  ].join(" "),
+
+  size: {
+    medium: "h-[34px] px-3 text-body-medium",
+    small: "h-[30px] px-2.5 text-body-medium",
+  },
+
+  iconOnlySize: {
+    medium: "w-[34px] px-0",
+    small: "w-[30px] px-0",
+  },
+
+  icon: {
+    medium: "size-5 shrink-0",
+    small: "size-[18px] shrink-0",
+  },
+
+  selected: "bg-background-primary-hover",
+});
+
+/* ------------------------------------------------------------------- group */
+
+export interface ButtonGroupProps {
+  size?: ButtonGroupSize;
+  /** ButtonGroupItem children. */
+  children: ReactNode;
+  className?: string;
+  "aria-label"?: string;
+  ref?: Ref<HTMLDivElement>;
+}
+
+export function ButtonGroup({ size = "medium", children, className, ref, ...props }: ButtonGroupProps) {
+  return (
+    <div ref={ref} role="group" data-size={size} className={cx(styles.group, className)} {...props}>
+      {children}
+    </div>
+  );
+}
+
+/* -------------------------------------------------------------------- item */
+
+export interface ButtonGroupItemProps
+  extends Omit<ButtonHTMLAttributes<HTMLButtonElement>, "children"> {
+  size?: ButtonGroupSize;
+  /** Highlights the item like its hover state; sets aria-pressed. */
+  selected?: boolean;
+  iconOnly?: boolean;
+  leadingIcon?: IconComponent;
+  trailingIcon?: IconComponent;
+  children?: ReactNode;
+  ref?: Ref<HTMLButtonElement>;
+}
+
+export function ButtonGroupItem({
+  size = "medium",
+  selected = false,
+  iconOnly = false,
+  leadingIcon: Leading,
+  trailingIcon: Trailing,
+  children,
+  className,
+  type = "button",
+  ref,
+  ...props
+}: ButtonGroupItemProps) {
+  return (
+    <button
+      ref={ref}
+      type={type}
+      aria-pressed={selected || undefined}
+      className={cx(
+        styles.item,
+        styles.size[size],
+        iconOnly && styles.iconOnlySize[size],
+        selected && styles.selected,
+        className,
+      )}
+      {...props}
+    >
+      {Leading ? <Leading className={styles.icon[size]} aria-hidden /> : null}
+      {!iconOnly && children !== undefined && children !== null && <span>{children}</span>}
+      {!iconOnly && Trailing ? <Trailing className={styles.icon[size]} aria-hidden /> : null}
+    </button>
+  );
+}
+20:T410,"use client";
+
+import { useState } from "react";
+import { RiBold, RiItalic, RiUnderline } from "@remixicon/react";
+import { ButtonGroup, ButtonGroupItem } from "@/components/base/buttons/button-group";
+
+const RANGES = ["Day", "Week", "Month", "Year"];
+
+export default function ButtonGroupDemo() {
+  const [range, setRange] = useState("Week");
+
+  return (
+    <div className="flex flex-col gap-6">
+      <ButtonGroup aria-label="Time range">
+        {RANGES.map((label) => (
+          <ButtonGroupItem
+            key={label}
+            selected={range === label}
+            onClick={() => setRange(label)}
+          >
+            {label}
+          </ButtonGroupItem>
+        ))}
+      </ButtonGroup>
+
+      <ButtonGroup size="small" aria-label="Formatting">
+        <ButtonGroupItem iconOnly leadingIcon={RiBold} aria-label="Bold" />
+        <ButtonGroupItem iconOnly leadingIcon={RiItalic} aria-label="Italic" />
+        <ButtonGroupItem iconOnly leadingIcon={RiUnderline} aria-label="Underline" />
+      </ButtonGroup>
+    </div>
+  );
+}3:["$","$L1e",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"button-group","title":"Button Group","description":"Fused row of selectable buttons for view switches and toolbars.","category":"base","tags":["action","toggle","segmented","toolbar"],"status":"stable","tier":"free","dependencies":["tailwind-merge"],"registryDependencies":["cx","tokens"],"files":[{"path":"base/buttons/button-group.tsx","target":"components/base/buttons/button-group.tsx","type":"component","content":"$1f"}],"hash":"627c75b19456"},"demoSource":"$20","previous":{"name":"link-button","title":"Link Button"},"next":{"name":"close-button","title":"Close Button"}}]
+4:["$","script","script-0",{"src":"/_next/static/chunks/3l5f3qnr89rl0.js","async":true}]
+5:["$","script","script-1",{"src":"/_next/static/chunks/0wmbfrsxfdesk.js","async":true}]
+6:["$","script","script-2",{"src":"/_next/static/chunks/3ixdl2m026on9.js","async":true}]
+7:["$","script","script-3",{"src":"/_next/static/chunks/3xa-hzf5c_c6n.js","async":true}]
+8:["$","script","script-4",{"src":"/_next/static/chunks/1zihipy0kqa1_.js","async":true}]
+9:["$","script","script-5",{"src":"/_next/static/chunks/0-afrvt74ak7l.js","async":true}]
+a:["$","script","script-6",{"src":"/_next/static/chunks/0337601gswv_s.js","async":true}]
+b:["$","script","script-7",{"src":"/_next/static/chunks/34zl6f3dq0u0q.js","async":true}]
+c:["$","script","script-8",{"src":"/_next/static/chunks/2az_x4uxpy3sm.js","async":true}]
+d:["$","script","script-9",{"src":"/_next/static/chunks/23ywcyogzmwlv.js","async":true}]
+e:["$","script","script-10",{"src":"/_next/static/chunks/2qg2knl-9_2le.js","async":true}]
+f:["$","script","script-11",{"src":"/_next/static/chunks/1wypk9kc4p_mt.js","async":true}]
+10:["$","$L21",null,{"children":["$","$22",null,{"name":"Next.MetadataOutlet","children":"$@23"}]}]
+13:["$","$1","h",{"children":[null,["$","$L24",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L25",null,{"children":["$","$22",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Button Group — Zeus UI"}],["$","meta","1",{"name":"description","content":"Fused row of selectable buttons for view switches and toolbars."}],["$","meta","2",{"name":"keywords","content":"action,toggle,segmented,toolbar"}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+15:["$","$1","c",{"children":[null,["$","$L26",null,{"parallelRouterKey":"children","template":["$","$L27",null,{}]}]]}]
+18:["$","$1","c",{"children":[null,["$","$L26",null,{"parallelRouterKey":"children","template":["$","$L27",null,{}]}]]}]
+1a:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/0by1pam5w7cuf.js","async":true}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L28",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L26",null,{"parallelRouterKey":"children","template":["$","$L27",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]]}]}]]}]
+23:null
+1d:true
+12:300
+12:C
+1c:0
+14:"$undefined"
+16:"$undefined"
+19:"$undefined"
+1b:"$undefined"
+11:"$undefined"

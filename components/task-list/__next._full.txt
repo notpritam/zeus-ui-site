@@ -1,0 +1,287 @@
+1:"$Sreact.fragment"
+2:I[72844,["/_next/static/chunks/0by1pam5w7cuf.js"],""]
+3:I[37280,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+4:I[75701,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+6:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+a:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"ViewportBoundary"]
+c:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"MetadataBoundary"]
+e:I[84167,["/_next/static/chunks/0by1pam5w7cuf.js"],"default",1]
+:HL["/_next/static/chunks/16_ml9va511u1.css","style"]
+:HL["/_next/static/chunks/1lom8-olk25vh.css","style"]
+:HL["/_next/static/media/234d9015b631dab9-s.p.33gca1im1ku45.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+9:X
+0:{"P":null,"c":["","components","task-list",""],"q":"","i":false,"f":[[["",{"children":["components",{"children":[["slug","task-list","d",[]],{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0by1pam5w7cuf.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L2",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/3l5f3qnr89rl0.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0wmbfrsxfdesk.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/3ixdl2m026on9.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/3xa-hzf5c_c6n.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/1zihipy0kqa1_.js","async":true,"nonce":"$undefined"}],["$","script","script-5",{"src":"/_next/static/chunks/0-afrvt74ak7l.js","async":true,"nonce":"$undefined"}],["$","script","script-6",{"src":"/_next/static/chunks/0337601gswv_s.js","async":true,"nonce":"$undefined"}],["$","script","script-7",{"src":"/_next/static/chunks/34zl6f3dq0u0q.js","async":true,"nonce":"$undefined"}],["$","script","script-8",{"src":"/_next/static/chunks/2az_x4uxpy3sm.js","async":true,"nonce":"$undefined"}],["$","script","script-9",{"src":"/_next/static/chunks/23ywcyogzmwlv.js","async":true,"nonce":"$undefined"}],["$","script","script-10",{"src":"/_next/static/chunks/2qg2knl-9_2le.js","async":true,"nonce":"$undefined"}],["$","script","script-11",{"src":"/_next/static/chunks/1wypk9kc4p_mt.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$9"]},null,false,"$9"]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],"$Lf"]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Kgh3aKGUUDrNWttN7OqGM"}
+9:C
+f:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+10:I[54515,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"DocsLayout"]
+5:["$","$L10",null,{"title":"Task List","heading":"Task List","icon":"components","groups":[{"id":"foundations","title":"Foundations","items":[{"name":"tokens","title":"Design tokens","isNew":"$undefined"},{"name":"typography","title":"Typography","isNew":"$undefined"},{"name":"cx","title":"cx","isNew":"$undefined"},{"name":"chevrons","title":"Chevrons","isNew":"$undefined"},{"name":"logo","title":"Logo","isNew":"$undefined"},{"name":"use-count-up","title":"useCountUp","isNew":"$undefined"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress","isNew":"$undefined"}]},{"id":"base","title":"Base","items":[{"name":"button","title":"Button","isNew":"$undefined"},{"name":"icon-button","title":"Icon Button","isNew":"$undefined"},{"name":"link-button","title":"Link Button","isNew":"$undefined"},{"name":"button-group","title":"Button Group","isNew":"$undefined"},{"name":"close-button","title":"Close Button","isNew":"$undefined"},{"name":"social-button","title":"Social Button","isNew":"$undefined"},{"name":"input","title":"Input","isNew":"$undefined"},{"name":"input-otp","title":"Input OTP","isNew":"$undefined"},{"name":"checkbox","title":"Checkbox","isNew":"$undefined"},{"name":"radio","title":"Radio","isNew":"$undefined"},{"name":"switch","title":"Switch","isNew":"$undefined"},{"name":"select","title":"Select","isNew":"$undefined"},{"name":"slider","title":"Slider","isNew":"$undefined"},{"name":"dropdown","title":"Dropdown","isNew":"$undefined"},{"name":"divider","title":"Divider","isNew":"$undefined"},{"name":"file-upload","title":"File Upload","isNew":"$undefined"},{"name":"tabs","title":"Tabs","isNew":"$undefined"},{"name":"segmented-control","title":"Segmented Control","isNew":"$undefined"},{"name":"table","title":"Table","isNew":"$undefined"},{"name":"tooltip","title":"Tooltip","isNew":"$undefined"},{"name":"badge","title":"Badge","isNew":"$undefined"},{"name":"chip","title":"Chip","isNew":"$undefined"},{"name":"status-dot","title":"Status Dot","isNew":"$undefined"},{"name":"kbd","title":"Kbd","isNew":"$undefined"},{"name":"avatar","title":"Avatar","isNew":"$undefined"},{"name":"breadcrumb","title":"Breadcrumb","isNew":"$undefined"},{"name":"pagination","title":"Pagination","isNew":"$undefined"},{"name":"carousel","title":"Carousel","isNew":"$undefined"},{"name":"announcement","title":"Announcement","isNew":"$undefined"},{"name":"notification","title":"Notification","isNew":"$undefined"},{"name":"date-picker","title":"Date Picker","isNew":"$undefined"},{"name":"date-range-picker","title":"Date Range Picker","isNew":"$undefined"},{"name":"meeting-scheduler","title":"Meeting Scheduler","isNew":"$undefined"}]},{"id":"blocks","title":"Blocks","items":[{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"calendar","title":"Calendar","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"theme-toggle","title":"Theme Toggle","isNew":"$undefined"},{"name":"stat-cards","title":"Stat Cards","isNew":"$undefined"},{"name":"data-table","title":"Data Table","isNew":"$undefined"},{"name":"sidebar","title":"Sidebar","isNew":"$undefined"},{"name":"app-shell","title":"App Shell","isNew":"$undefined"},{"name":"notification-center","title":"Notification Center","isNew":"$undefined"},{"name":"settings-modal","title":"Settings Modal","isNew":"$undefined"},{"name":"auth-card","title":"Auth Card","isNew":"$undefined"},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking","isNew":"$undefined"},{"name":"composer-loader","title":"Composer Loader","isNew":"$undefined"},{"name":"agent-log","title":"Agent Log","isNew":"$undefined"},{"name":"agent-chat","title":"Agent Chat","isNew":"$undefined"}]},{"id":"charts","title":"Charts","items":[{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart","isNew":"$undefined"},{"name":"orders-chart-card","title":"Orders Chart","isNew":"$undefined"},{"name":"important-alerts-card","title":"Important Alerts","isNew":"$undefined"},{"name":"patient-info-card","title":"Patient Info","isNew":"$undefined"}]},{"id":"templates","title":"Templates","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true},{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true}]}],"description":"Streaming agent task log for React and Tailwind CSS. Tasks reveal step by step with soft height, blur, and shimmer, and drop straight into a chat thread.","columnClassName":"$undefined","detail":true,"children":"$L11"}]
+12:I[26438,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"ComponentPage"]
+13:T1d96,"use client";
+
+import { RiArrowDownSLine, RiFileCodeLine, RiReactjsLine, RiSearchLine } from "@remixicon/react";
+import { AnimatePresence, motion } from "motion/react";
+import { type ComponentType, type ReactNode, useId, useState } from "react";
+import { cx } from "../../utils/cx";
+import {
+  LogRow,
+  ShimmerText,
+  SOFT_EASE,
+  UNIT_ANIMATE,
+  UNIT_INITIAL,
+  UNIT_TRANSITION,
+  useLogMotion,
+  useRevealMask,
+  useRevealTicker,
+  WorkingRow,
+} from "../agent-log/agent-log";
+
+export interface TaskResourceChip {
+  label: string;
+  icon?: ReactNode;
+  href?: string;
+}
+export interface AgentTaskStep {
+  label: string;
+  chips?: TaskResourceChip[];
+}
+export interface AgentTask {
+  id?: string;
+  label: string;
+  completedLabel?: string;
+  icon?: ComponentType<{ className?: string; "aria-hidden"?: boolean | "true" | "false" }>;
+  steps?: AgentTaskStep[];
+}
+export interface TaskListProps {
+  tasks?: AgentTask[];
+  revealed?: number;
+  run?: boolean;
+  startDelay?: number;
+  stepInterval?: number;
+  collapseOnComplete?: boolean | "all";
+  onComplete?: () => void;
+  className?: string;
+}
+const reactIcon = <RiReactjsLine className="size-3.5 text-[#61dafb]" />;
+export const DEFAULT_AGENT_TASKS: AgentTask[] = [
+  {
+    id: "search",
+    label: "Searching project files",
+    completedLabel: "Found project files",
+    icon: RiSearchLine,
+    steps: [
+      { label: 'Searching "app/page.tsx, components structure"' },
+      { label: "Read", chips: [{ label: "page.tsx", icon: reactIcon }] },
+      { label: "Scanning 52 files" },
+      { label: "Reading files", chips: [{ label: "layout.tsx", icon: reactIcon }] },
+    ],
+  },
+  {
+    id: "edit",
+    label: "Editing files",
+    completedLabel: "Registered the theme toggle",
+    icon: RiFileCodeLine,
+    steps: [
+      { label: "Created", chips: [{ label: "theme-toggle.tsx", icon: reactIcon }] },
+      { label: "Wired it into", chips: [{ label: "layout.tsx", icon: reactIcon }] },
+      { label: "Ran lint and type-check, 0 errors" },
+    ],
+  },
+];
+
+export function TaskChip({ label, icon, href }: TaskResourceChip) {
+  const classes =
+    "mr-0.5 ml-[3px] inline-flex max-w-full -translate-y-px items-center gap-1 rounded-md border border-border-button-default/50 bg-background-secondary-default py-0.5 pr-1.5 pl-1 align-middle transition-colors duration-150 hover:border-border-button-hover hover:bg-background-tertiary-default";
+  const content = (
+    <>
+      {icon}
+      <span className="truncate text-caption-2-medium text-text-primary">{label}</span>
+    </>
+  );
+  return href ? (
+    <a
+      href={href}
+      className={cx(
+        classes,
+        "outline-none hover:bg-background-secondary-hover focus-visible:ring-2 focus-visible:ring-border-focus-ring",
+      )}
+    >
+      {content}
+    </a>
+  ) : (
+    <span className={classes}>{content}</span>
+  );
+}
+function TaskGroup({
+  task,
+  shown,
+  done,
+  collapse,
+  reduce,
+}: {
+  task: AgentTask;
+  shown: number;
+  done: boolean;
+  collapse: boolean;
+  reduce: boolean;
+}) {
+  const [manualOpen, setManualOpen] = useState<boolean | null>(null);
+  const open = manualOpen ?? !collapse;
+  const id = useId();
+  const mask = useRevealMask(reduce);
+  const steps = task.steps ?? [];
+  const Icon = task.icon ?? RiSearchLine;
+  const label = done ? (task.completedLabel ?? task.label) : task.label;
+  return (
+    <motion.section
+      initial={reduce ? false : UNIT_INITIAL}
+      animate={UNIT_ANIMATE}
+      transition={UNIT_TRANSITION}
+      {...mask}
+      className="overflow-hidden"
+    >
+      <button
+        type="button"
+        aria-label={label}
+        aria-expanded={open}
+        aria-controls={id}
+        onClick={() => setManualOpen(!open)}
+        className="group flex w-full cursor-pointer items-center gap-2 rounded-md py-0.5 text-left outline-none focus-visible:ring-2 focus-visible:ring-border-focus-ring"
+      >
+        <Icon aria-hidden className="size-4 shrink-0 text-foreground-icon-secondary" />
+        <span className="min-w-0 flex-1 text-body-medium text-text-secondary">
+          <AnimatePresence mode="popLayout" initial={false}>
+            <motion.span
+              key={label}
+              initial={reduce ? false : { opacity: 0, y: 3, filter: "blur(3px)" }}
+              animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+              exit={{ opacity: 0, y: -3, filter: "blur(3px)" }}
+              transition={{ duration: reduce ? 0 : 0.3, ease: SOFT_EASE }}
+              className="block truncate"
+            >
+              {done ? label : <ShimmerText>{label}</ShimmerText>}
+            </motion.span>
+          </AnimatePresence>
+        </span>
+        <RiArrowDownSLine
+          aria-hidden
+          className={cx(
+            "size-4 shrink-0 text-foreground-icon-tertiary transition-transform duration-300 group-hover:text-foreground-icon-secondary motion-reduce:transition-none",
+            open && "rotate-180",
+          )}
+        />
+      </button>
+      <motion.div
+        id={id}
+        aria-hidden={!open}
+        inert={!open}
+        initial={false}
+        animate={{ height: open ? "auto" : 0, opacity: open ? 1 : 0 }}
+        transition={{
+          height: { duration: reduce ? 0 : 0.3, ease: SOFT_EASE },
+          opacity: { duration: reduce ? 0 : 0.22, ease: "easeOut" },
+        }}
+        className="overflow-hidden"
+      >
+        <ul className="mt-0.5 ml-2 flex flex-col">
+          {steps.slice(0, shown).map((step, index) => (
+            <LogRow
+              key={`${index}-${step.label}`}
+              first={index === 0}
+              last={index === Math.min(steps.length, shown) - 1}
+              reduce={reduce}
+            >
+              <span className="block py-1 text-body-regular text-text-secondary">
+                {step.label}
+                {step.chips?.map((chip, index) => (
+                  <TaskChip key={`${index}-${chip.label}`} {...chip} />
+                ))}
+              </span>
+            </LogRow>
+          ))}
+        </ul>
+      </motion.div>
+    </motion.section>
+  );
+}
+
+/** `revealed` counts one unit for each task header and each child step. */
+export function TaskList({
+  tasks = DEFAULT_AGENT_TASKS,
+  revealed: controlled,
+  run = true,
+  startDelay = 320,
+  stepInterval = 850,
+  collapseOnComplete = false,
+  onComplete,
+  className,
+}: TaskListProps = {}) {
+  const reduce = useLogMotion();
+  const total = tasks.reduce((sum, task) => sum + 1 + (task.steps?.length ?? 0), 0);
+  const timedTotal = total + (controlled === undefined && total > 0 ? 1 : 0);
+  const revealed = useRevealTicker({
+    total: timedTotal,
+    run,
+    startDelay,
+    stepInterval,
+    revealed: controlled,
+    onComplete,
+  });
+  const complete = revealed >= timedTotal;
+  let offset = 0;
+  return (
+    <div className={cx("flex w-full flex-col gap-[5px]", className)} aria-label="Agent task log">
+      {tasks.map((task, index) => {
+        const start = offset;
+        const units = 1 + (task.steps?.length ?? 0);
+        offset += units;
+        if (revealed <= start) return null;
+        const done =
+          controlled === undefined ? revealed > start + units : revealed >= start + units;
+        return (
+          <TaskGroup
+            key={task.id ?? `${index}-${task.label}`}
+            task={task}
+            shown={Math.max(0, revealed - start - 1)}
+            done={done}
+            reduce={reduce}
+            collapse={collapseOnComplete === "all" ? complete : collapseOnComplete && done}
+          />
+        );
+      })}
+      {!complete && <WorkingRow label="Working" reduce={reduce} />}
+    </div>
+  );
+}
+14:T4ed,"use client";
+import { TaskList } from "@/components/application/task-list/task-list";
+import { RiRefreshLine } from "@remixicon/react";
+import { useState } from "react";
+export default function TaskListDemo() {
+  const [turn, setTurn] = useState(0);
+  const [complete, setComplete] = useState(false);
+  return (
+    <div className="flex min-h-[320px] w-full items-center justify-center p-2">
+      <div className="flex w-full max-w-[420px] flex-col gap-4">
+        <TaskList key={turn} onComplete={() => setComplete(true)} />
+        {complete && (
+          <button
+            type="button"
+            className="flex cursor-pointer items-center gap-1.5 self-start rounded-lg border border-border-button-default bg-background-primary-default px-2.5 py-1.5 text-body-medium text-text-secondary shadow-xs transition-colors duration-150 hover:bg-background-primary-hover hover:text-text-primary focus-visible:ring-2 focus-visible:ring-border-focus-ring focus-visible:outline-none"
+            onClick={() => {
+              setComplete(false);
+              setTurn((value) => value + 1);
+            }}
+          >
+            <RiRefreshLine className="size-4" aria-hidden />
+            Run again
+          </button>
+        )}
+      </div>
+    </div>
+  );
+}11:["$","$L12",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"task-list","title":"Task List","description":"Streaming agent task log for React and Tailwind CSS. Tasks reveal step by step with soft height, blur, and shimmer, and drop straight into a chat thread.","category":"blocks","tags":["interaction","ai","task-list"],"status":"stable","tier":"free","isNew":true,"dependencies":["@remixicon/react","motion","tailwind-merge"],"registryDependencies":["agent-log","agent-thinking","cx","tokens"],"files":[{"path":"application/task-list/task-list.tsx","target":"components/application/task-list/task-list.tsx","type":"component","content":"$13"},{"path":"hooks/use-hydrated-reduced-motion.ts","target":"hooks/use-hydrated-reduced-motion.ts","type":"hook","content":"\"use client\";\n\nimport { useReducedMotion } from \"motion/react\";\nimport { useSyncExternalStore } from \"react\";\n\nconst subscribe = () => () => {};\nconst clientSnapshot = () => true;\nconst serverSnapshot = () => false;\n\n/** Keep the first server/client render identical, then apply the user's motion preference. */\nexport function useHydratedReducedMotion(): boolean {\n  const reduced = useReducedMotion();\n  const hydrated = useSyncExternalStore(subscribe, clientSnapshot, serverSnapshot);\n  return hydrated && reduced === true;\n}\n"}],"hash":"b235c3a3bcfc"},"demoSource":"$14","previous":{"name":"composer","title":"Composer"},"next":{"name":"web-search","title":"Web Search"}}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:null
+d:[["$","title","0",{"children":"Task List — Zeus UI"}],["$","meta","1",{"name":"description","content":"Streaming agent task log for React and Tailwind CSS. Tasks reveal step by step with soft height, blur, and shimmer, and drop straight into a chat thread."}],["$","meta","2",{"name":"keywords","content":"interaction,ai,task-list"}]]

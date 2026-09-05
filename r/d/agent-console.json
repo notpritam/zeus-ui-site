@@ -1,0 +1,35 @@
+{
+  "id": "agent-console",
+  "title": "Agent console",
+  "description": "Everything you need to put an agent in front of a user: the chat itself, the thinking states, and the composer light.",
+  "author": {
+    "handle": "zeus-ui"
+  },
+  "tags": [
+    "ai",
+    "agent",
+    "chat",
+    "streaming"
+  ],
+  "createdAt": "2026-09-05",
+  "blocks": [
+    {
+      "component": "agent-chat",
+      "span": 12,
+      "title": "Chat",
+      "note": "Streams from /api/chat."
+    },
+    {
+      "component": "agent-thinking",
+      "span": 6,
+      "title": "Thinking states",
+      "note": "Four personalities, each with an elapsed timer."
+    },
+    {
+      "component": "composer-loader",
+      "span": 6,
+      "title": "Composer light",
+      "note": "Rims the composer while the agent answers."
+    }
+  ]
+}

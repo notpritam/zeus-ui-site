@@ -1,0 +1,152 @@
+1:"$Sreact.fragment"
+2:I[54515,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"DocsLayout"]
+12:X
+17:X
+17:C
+0:{"buildId":"Kgh3aKGUUDrNWttN7OqGM","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"Icon Button","heading":"Icon Button","icon":"components","groups":[{"id":"foundations","title":"Foundations","items":[{"name":"tokens","title":"Design tokens"},{"name":"typography","title":"Typography"},{"name":"cx","title":"cx"},{"name":"chevrons","title":"Chevrons"},{"name":"logo","title":"Logo"},{"name":"use-count-up","title":"useCountUp"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress"}]},{"id":"base","title":"Base","items":[{"name":"button","title":"Button"},{"name":"icon-button","title":"Icon Button"},{"name":"link-button","title":"Link Button"},{"name":"button-group","title":"Button Group"},{"name":"close-button","title":"Close Button"},{"name":"social-button","title":"Social Button"},{"name":"input","title":"Input"},{"name":"input-otp","title":"Input OTP"},{"name":"checkbox","title":"Checkbox"},{"name":"radio","title":"Radio"},{"name":"switch","title":"Switch"},{"name":"select","title":"Select"},{"name":"slider","title":"Slider"},{"name":"dropdown","title":"Dropdown"},{"name":"divider","title":"Divider"},{"name":"file-upload","title":"File Upload"},{"name":"tabs","title":"Tabs"},{"name":"segmented-control","title":"Segmented Control"},{"name":"table","title":"Table"},{"name":"tooltip","title":"Tooltip"},{"name":"badge","title":"Badge"},{"name":"chip","title":"Chip"},{"name":"status-dot","title":"Status Dot"},{"name":"kbd","title":"Kbd"},{"name":"avatar","title":"Avatar"},{"name":"breadcrumb","title":"Breadcrumb"},{"name":"pagination","title":"Pagination"},{"name":"carousel","title":"Carousel"},{"name":"announcement","title":"Announcement"},{"name":"notification","title":"Notification"},{"name":"date-picker","title":"Date Picker"},{"name":"date-range-picker","title":"Date Range Picker"},{"name":"meeting-scheduler","title":"Meeting Scheduler"}]},{"id":"blocks","title":"Blocks","items":[{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"calendar","title":"Calendar","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"theme-toggle","title":"Theme Toggle"},{"name":"stat-cards","title":"Stat Cards"},{"name":"data-table","title":"Data Table"},{"name":"sidebar","title":"Sidebar"},{"name":"app-shell","title":"App Shell"},{"name":"notification-center","title":"Notification Center"},{"name":"settings-modal","title":"Settings Modal"},{"name":"auth-card","title":"Auth Card"},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking"},{"name":"composer-loader","title":"Composer Loader"},{"name":"agent-log","title":"Agent Log"},{"name":"agent-chat","title":"Agent Chat"}]},{"id":"charts","title":"Charts","items":[{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart"},{"name":"orders-chart-card","title":"Orders Chart"},{"name":"important-alerts-card","title":"Important Alerts"},{"name":"patient-info-card","title":"Patient Info"}]},{"id":"templates","title":"Templates","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true},{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true}]}],"description":"Square action button, icon only, in two sizes.","detail":true,"children":"$L3"}],["$L4","$L5","$L6","$L7","$L8","$L9","$La","$Lb","$Lc","$Ld","$Le","$Lf"],"$L10"]}],"isPartial":"$@11","staleTime":"$12","varyParams":null},{"rsc":"$L13","isPartial":"$@14","staleTime":"$12","varyParams":null},{"rsc":"$L15","isPartial":"$@16","staleTime":"$12","varyParams":"$17"},{"rsc":"$L18","isPartial":"$@19","staleTime":"$12","varyParams":"$17"},{"rsc":"$L1a","isPartial":"$@1b","staleTime":"$12","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@1c","rootVaryParams":null,"needsRuntimeRequest":"$@1d"}
+1e:I[26438,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"ComponentPage"]
+20:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"OutletBoundary"]
+21:"$Sreact.suspense"
+23:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"ViewportBoundary"]
+24:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"MetadataBoundary"]
+25:I[37280,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+26:I[75701,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+27:I[72844,["/_next/static/chunks/0by1pam5w7cuf.js"],""]
+:HL["/_next/static/chunks/16_ml9va511u1.css","style"]
+:HL["/_next/static/chunks/1lom8-olk25vh.css","style"]
+1f:Tc80,import type {
+  AnchorHTMLAttributes,
+  ButtonHTMLAttributes,
+  ComponentType,
+  Ref,
+} from "react";
+import { cx, sortCx } from "../../utils/cx";
+
+/**
+ * Figma source: Board UI → dashboard 1 icon-only buttons (notification button
+ * node 3731:3035, table row actions nodes 3731:3284/3287/3290).
+ *
+ * Square icon-only button. Unlike `Button` (whose small size is radius/lg with
+ * an 18px icon), the icon button keeps radius/2lg (10px) at both sizes:
+ *
+ *            container   padding   icon
+ *   medium   36×36       8         20×20
+ *   small    32×32       8         16×16
+ *
+ * One variant in the designs: secondary (white fill, border/button/default,
+ * shadow/xs). Hover/active/disabled states reuse the secondary Button tokens.
+ */
+
+type IconButtonSize = "medium" | "small";
+
+type IconComponent = ComponentType<{
+  className?: string;
+  "aria-hidden"?: boolean | "true" | "false";
+}>;
+
+export interface IconButtonProps
+  extends Omit<ButtonHTMLAttributes<HTMLButtonElement>, "children"> {
+  icon: IconComponent;
+  size?: IconButtonSize;
+  /** Accessible name — required since there is no visible label. */
+  "aria-label": string;
+  ref?: Ref<HTMLButtonElement>;
+}
+
+export interface IconLinkButtonProps
+  extends Omit<AnchorHTMLAttributes<HTMLAnchorElement>, "children"> {
+  icon: IconComponent;
+  size?: IconButtonSize;
+  /** Accessible name — required since there is no visible label. */
+  "aria-label": string;
+  ref?: Ref<HTMLAnchorElement>;
+}
+
+const styles = sortCx({
+  base: [
+    "relative inline-flex shrink-0 items-center justify-center overflow-visible rounded-2lg",
+    "bg-background-primary-default text-foreground-icon-primary",
+    "border border-border-button-default shadow-xs",
+    "select-none cursor-pointer",
+    "transition-[background-color,border-color,box-shadow,color] duration-150 ease",
+    "outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-border-focus-ring",
+    "hover:bg-background-primary-hover hover:border-border-button-hover",
+    "active:bg-background-primary-active active:border-border-button-active",
+    "disabled:cursor-not-allowed disabled:bg-background-primary-disabled disabled:border-border-button-default disabled:text-icon-button-disabled-foreground disabled:opacity-60 disabled:shadow-none",
+  ].join(" "),
+  size: {
+    medium: "size-9",
+    small: "size-8",
+  },
+  icon: {
+    medium: "size-5 shrink-0",
+    small: "size-4 shrink-0",
+  },
+});
+
+export function IconButton({
+  icon: Icon,
+  size = "medium",
+  className,
+  type = "button",
+  ref,
+  ...props
+}: IconButtonProps) {
+  return (
+    <button
+      ref={ref}
+      type={type}
+      className={cx(styles.base, styles.size[size], className)}
+      {...props}
+    >
+      <Icon className={styles.icon[size]} aria-hidden />
+    </button>
+  );
+}
+
+/** Anchor counterpart to IconButton for external and navigational actions. */
+export function IconLinkButton({
+  icon: Icon,
+  size = "medium",
+  className,
+  ref,
+  ...props
+}: IconLinkButtonProps) {
+  return (
+    <a
+      ref={ref}
+      className={cx(styles.base, styles.size[size], className)}
+      {...props}
+    >
+      <Icon className={styles.icon[size]} aria-hidden />
+    </a>
+  );
+}
+3:["$","$L1e",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"icon-button","title":"Icon Button","description":"Square action button, icon only, in two sizes.","category":"base","tags":["action","icon","toolbar","compact"],"status":"stable","tier":"free","dependencies":["tailwind-merge"],"registryDependencies":["cx","tokens"],"files":[{"path":"base/buttons/icon-button.tsx","target":"components/base/buttons/icon-button.tsx","type":"component","content":"$1f"}],"hash":"d29e1a296d81"},"demoSource":"\"use client\";\n\nimport { RiEditLine, RiNotificationLine, RiSettingsLine } from \"@remixicon/react\";\nimport { IconButton } from \"@/components/base/buttons/icon-button\";\n\nexport default function IconButtonDemo() {\n  return (\n    <div className=\"flex items-center gap-3\">\n      <IconButton icon={RiNotificationLine} aria-label=\"Notifications\" />\n      <IconButton icon={RiEditLine} size=\"small\" aria-label=\"Edit\" />\n      <IconButton icon={RiSettingsLine} aria-label=\"Settings\" disabled />\n    </div>\n  );\n}","previous":{"name":"button","title":"Button"},"next":{"name":"link-button","title":"Link Button"}}]
+4:["$","script","script-0",{"src":"/_next/static/chunks/3l5f3qnr89rl0.js","async":true}]
+5:["$","script","script-1",{"src":"/_next/static/chunks/0wmbfrsxfdesk.js","async":true}]
+6:["$","script","script-2",{"src":"/_next/static/chunks/3ixdl2m026on9.js","async":true}]
+7:["$","script","script-3",{"src":"/_next/static/chunks/3xa-hzf5c_c6n.js","async":true}]
+8:["$","script","script-4",{"src":"/_next/static/chunks/1zihipy0kqa1_.js","async":true}]
+9:["$","script","script-5",{"src":"/_next/static/chunks/0-afrvt74ak7l.js","async":true}]
+a:["$","script","script-6",{"src":"/_next/static/chunks/0337601gswv_s.js","async":true}]
+b:["$","script","script-7",{"src":"/_next/static/chunks/34zl6f3dq0u0q.js","async":true}]
+c:["$","script","script-8",{"src":"/_next/static/chunks/2az_x4uxpy3sm.js","async":true}]
+d:["$","script","script-9",{"src":"/_next/static/chunks/23ywcyogzmwlv.js","async":true}]
+e:["$","script","script-10",{"src":"/_next/static/chunks/2qg2knl-9_2le.js","async":true}]
+f:["$","script","script-11",{"src":"/_next/static/chunks/1wypk9kc4p_mt.js","async":true}]
+10:["$","$L20",null,{"children":["$","$21",null,{"name":"Next.MetadataOutlet","children":"$@22"}]}]
+13:["$","$1","h",{"children":[null,["$","$L23",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L24",null,{"children":["$","$21",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Icon Button — Zeus UI"}],["$","meta","1",{"name":"description","content":"Square action button, icon only, in two sizes."}],["$","meta","2",{"name":"keywords","content":"action,icon,toolbar,compact"}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+15:["$","$1","c",{"children":[null,["$","$L25",null,{"parallelRouterKey":"children","template":["$","$L26",null,{}]}]]}]
+18:["$","$1","c",{"children":[null,["$","$L25",null,{"parallelRouterKey":"children","template":["$","$L26",null,{}]}]]}]
+1a:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/0by1pam5w7cuf.js","async":true}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L27",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L25",null,{"parallelRouterKey":"children","template":["$","$L26",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]]}]}]]}]
+22:null
+1d:true
+12:300
+12:C
+1c:0
+14:"$undefined"
+16:"$undefined"
+19:"$undefined"
+1b:"$undefined"
+11:"$undefined"

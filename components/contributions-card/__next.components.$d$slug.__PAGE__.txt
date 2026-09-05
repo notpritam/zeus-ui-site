@@ -1,0 +1,832 @@
+1:"$Sreact.fragment"
+2:I[54515,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"DocsLayout"]
+12:X
+17:X
+17:C
+0:{"buildId":"Kgh3aKGUUDrNWttN7OqGM","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"Contributions","heading":"Contributions","icon":"components","groups":[{"id":"foundations","title":"Foundations","items":[{"name":"tokens","title":"Design tokens"},{"name":"typography","title":"Typography"},{"name":"cx","title":"cx"},{"name":"chevrons","title":"Chevrons"},{"name":"logo","title":"Logo"},{"name":"use-count-up","title":"useCountUp"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress"}]},{"id":"base","title":"Base","items":[{"name":"button","title":"Button"},{"name":"icon-button","title":"Icon Button"},{"name":"link-button","title":"Link Button"},{"name":"button-group","title":"Button Group"},{"name":"close-button","title":"Close Button"},{"name":"social-button","title":"Social Button"},{"name":"input","title":"Input"},{"name":"input-otp","title":"Input OTP"},{"name":"checkbox","title":"Checkbox"},{"name":"radio","title":"Radio"},{"name":"switch","title":"Switch"},{"name":"select","title":"Select"},{"name":"slider","title":"Slider"},{"name":"dropdown","title":"Dropdown"},{"name":"divider","title":"Divider"},{"name":"file-upload","title":"File Upload"},{"name":"tabs","title":"Tabs"},{"name":"segmented-control","title":"Segmented Control"},{"name":"table","title":"Table"},{"name":"tooltip","title":"Tooltip"},{"name":"badge","title":"Badge"},{"name":"chip","title":"Chip"},{"name":"status-dot","title":"Status Dot"},{"name":"kbd","title":"Kbd"},{"name":"avatar","title":"Avatar"},{"name":"breadcrumb","title":"Breadcrumb"},{"name":"pagination","title":"Pagination"},{"name":"carousel","title":"Carousel"},{"name":"announcement","title":"Announcement"},{"name":"notification","title":"Notification"},{"name":"date-picker","title":"Date Picker"},{"name":"date-range-picker","title":"Date Range Picker"},{"name":"meeting-scheduler","title":"Meeting Scheduler"}]},{"id":"blocks","title":"Blocks","items":[{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"calendar","title":"Calendar","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"theme-toggle","title":"Theme Toggle"},{"name":"stat-cards","title":"Stat Cards"},{"name":"data-table","title":"Data Table"},{"name":"sidebar","title":"Sidebar"},{"name":"app-shell","title":"App Shell"},{"name":"notification-center","title":"Notification Center"},{"name":"settings-modal","title":"Settings Modal"},{"name":"auth-card","title":"Auth Card"},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking"},{"name":"composer-loader","title":"Composer Loader"},{"name":"agent-log","title":"Agent Log"},{"name":"agent-chat","title":"Agent Chat"}]},{"id":"charts","title":"Charts","items":[{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart"},{"name":"orders-chart-card","title":"Orders Chart"},{"name":"important-alerts-card","title":"Important Alerts"},{"name":"patient-info-card","title":"Patient Info"}]},{"id":"templates","title":"Templates","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true},{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true}]}],"description":"GitHub-style contributions heat grid for React + Tailwind CSS with a swappable accent family","detail":true,"children":"$L3"}],["$L4","$L5","$L6","$L7","$L8","$L9","$La","$Lb","$Lc","$Ld","$Le","$Lf"],"$L10"]}],"isPartial":"$@11","staleTime":"$12","varyParams":null},{"rsc":"$L13","isPartial":"$@14","staleTime":"$12","varyParams":null},{"rsc":"$L15","isPartial":"$@16","staleTime":"$12","varyParams":"$17"},{"rsc":"$L18","isPartial":"$@19","staleTime":"$12","varyParams":"$17"},{"rsc":"$L1a","isPartial":"$@1b","staleTime":"$12","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@1c","rootVaryParams":null,"needsRuntimeRequest":"$@1d"}
+1e:I[26438,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"ComponentPage"]
+21:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"OutletBoundary"]
+22:"$Sreact.suspense"
+24:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"ViewportBoundary"]
+25:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"MetadataBoundary"]
+26:I[37280,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+27:I[75701,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+28:I[72844,["/_next/static/chunks/0by1pam5w7cuf.js"],""]
+:HL["/_next/static/chunks/16_ml9va511u1.css","style"]
+:HL["/_next/static/chunks/1lom8-olk25vh.css","style"]
+1f:T2ba4,"use client";
+import { type ReactNode, useState } from "react";
+import { cx } from "../../utils/cx";
+import {
+  ChartFrame,
+  type ChartRange,
+  MONTHS,
+  PeriodTabs,
+  safeRatio,
+  sum,
+  useChartRange,
+} from "./pro-chart";
+
+const CONTRIBUTION_COLORS = [
+  "var(--color-chart-contributions-empty)",
+  "var(--color-chart-contributions-1)",
+  "var(--color-chart-contributions-2)",
+  "var(--color-chart-contributions-3)",
+  "var(--color-chart-contributions-4)",
+  "var(--color-chart-contributions-5)",
+];
+
+export interface ContributionDay {
+  date: string;
+  value: number;
+}
+export interface ContributionsRange extends ChartRange {
+  data: ContributionDay[];
+}
+export interface ContributionStat {
+  label: string;
+  value: ReactNode;
+}
+export interface ContributionsCardProps {
+  title?: string;
+  data?: ContributionDay[];
+  ranges?: ContributionsRange[];
+  defaultRange?: string;
+  onRangeChange?: (id: string) => void;
+  stats?: ContributionStat[];
+  color?: string;
+  className?: string;
+  headline?: number;
+  delta?: number;
+}
+/** Public preview values, sampled across the year in row order. */
+const DEMO_CELLS: [string, number][] = [
+  ["2026-01-01", 0],
+  ["2026-01-11", 0],
+  ["2026-01-21", 23],
+  ["2026-01-31", 3],
+  ["2026-02-10", 1],
+  ["2026-02-19", 0],
+  ["2026-03-01", 10],
+  ["2026-03-11", 3],
+  ["2026-03-21", 12],
+  ["2026-03-31", 0],
+  ["2026-04-10", 4],
+  ["2026-04-20", 2],
+  ["2026-04-30", 12],
+  ["2026-05-09", 2],
+  ["2026-05-19", 13],
+  ["2026-05-29", 0],
+  ["2026-06-08", 6],
+  ["2026-06-18", 20],
+  ["2026-06-28", 1],
+  ["2026-07-08", 6],
+  ["2026-07-18", 4],
+  ["2026-07-27", 9],
+  ["2026-08-06", 0],
+  ["2026-08-16", 0],
+  ["2026-08-26", 0],
+  ["2026-09-05", 3],
+  ["2026-09-15", 13],
+  ["2026-09-25", 0],
+  ["2026-10-05", 2],
+  ["2026-10-14", 0],
+  ["2026-10-24", 4],
+  ["2026-11-03", 19],
+  ["2026-11-13", 0],
+  ["2026-11-23", 0],
+  ["2026-12-03", 11],
+  ["2026-12-13", 6],
+  ["2026-12-23", 9],
+  ["2026-01-02", 0],
+  ["2026-01-12", 0],
+  ["2026-01-22", 36],
+  ["2026-02-01", 4],
+  ["2026-02-11", 3],
+  ["2026-02-21", 1],
+  ["2026-03-03", 3],
+  ["2026-03-13", 0],
+  ["2026-03-22", 6],
+  ["2026-04-01", 0],
+  ["2026-04-11", 9],
+  ["2026-04-21", 0],
+  ["2026-05-01", 9],
+  ["2026-05-11", 0],
+  ["2026-05-21", 3],
+  ["2026-05-31", 3],
+  ["2026-06-09", 3],
+  ["2026-06-19", 10],
+  ["2026-06-29", 13],
+  ["2026-07-09", 18],
+  ["2026-07-19", 9],
+  ["2026-07-29", 2],
+  ["2026-08-08", 3],
+  ["2026-08-18", 1],
+  ["2026-08-27", 4],
+  ["2026-09-06", 0],
+  ["2026-09-16", 6],
+  ["2026-09-26", 0],
+  ["2026-10-06", 0],
+  ["2026-10-16", 1],
+  ["2026-10-26", 8],
+  ["2026-11-05", 0],
+  ["2026-11-14", 24],
+  ["2026-11-24", 0],
+  ["2026-12-04", 11],
+  ["2026-12-14", 0],
+  ["2026-12-24", 0],
+  ["2026-01-04", 0],
+  ["2026-01-14", 0],
+  ["2026-01-24", 1],
+  ["2026-02-02", 1],
+  ["2026-02-12", 20],
+  ["2026-02-22", 19],
+  ["2026-03-04", 6],
+  ["2026-03-14", 0],
+  ["2026-03-24", 0],
+  ["2026-04-03", 26],
+  ["2026-04-13", 6],
+  ["2026-04-22", 2],
+  ["2026-05-02", 0],
+  ["2026-05-12", 9],
+  ["2026-05-22", 1],
+  ["2026-06-01", 3],
+  ["2026-06-11", 2],
+  ["2026-06-21", 2],
+  ["2026-07-01", 0],
+  ["2026-07-10", 21],
+  ["2026-07-20", 9],
+  ["2026-07-30", 3],
+  ["2026-08-09", 21],
+  ["2026-08-19", 22],
+  ["2026-08-29", 4],
+  ["2026-09-08", 9],
+  ["2026-09-18", 13],
+  ["2026-09-27", 15],
+  ["2026-10-07", 29],
+  ["2026-10-17", 6],
+  ["2026-10-27", 0],
+  ["2026-11-06", 0],
+  ["2026-11-16", 6],
+  ["2026-11-26", 30],
+  ["2026-12-06", 1],
+  ["2026-12-15", 10],
+  ["2026-12-25", 27],
+  ["2026-01-05", 0],
+  ["2026-01-15", 6],
+  ["2026-01-25", 0],
+  ["2026-02-04", 6],
+  ["2026-02-14", 6],
+  ["2026-02-24", 38],
+  ["2026-03-05", 15],
+  ["2026-03-15", 4],
+  ["2026-03-25", 9],
+  ["2026-04-04", 3],
+  ["2026-04-14", 6],
+  ["2026-04-24", 0],
+  ["2026-05-04", 10],
+  ["2026-05-14", 34],
+  ["2026-05-23", 3],
+  ["2026-06-02", 0],
+  ["2026-06-12", 1],
+  ["2026-06-22", 0],
+  ["2026-07-02", 0],
+  ["2026-07-12", 6],
+  ["2026-07-22", 9],
+  ["2026-08-01", 0],
+  ["2026-08-11", 1],
+  ["2026-08-20", 1],
+  ["2026-08-30", 6],
+  ["2026-09-09", 2],
+  ["2026-09-19", 1],
+  ["2026-09-29", 1],
+  ["2026-10-09", 4],
+  ["2026-10-19", 16],
+  ["2026-10-29", 6],
+  ["2026-11-07", 1],
+  ["2026-11-17", 2],
+  ["2026-11-27", 11],
+  ["2026-12-07", 14],
+  ["2026-12-17", 0],
+  ["2026-12-27", 21],
+  ["2026-01-07", 6],
+  ["2026-01-17", 0],
+  ["2026-01-26", 14],
+  ["2026-02-05", 6],
+  ["2026-02-15", 10],
+  ["2026-02-25", 1],
+  ["2026-03-07", 9],
+  ["2026-03-17", 6],
+  ["2026-03-27", 34],
+  ["2026-04-06", 9],
+  ["2026-04-15", 13],
+  ["2026-04-25", 2],
+  ["2026-05-05", 3],
+  ["2026-05-15", 6],
+  ["2026-05-25", 6],
+  ["2026-06-04", 17],
+  ["2026-06-14", 0],
+  ["2026-06-24", 33],
+  ["2026-07-03", 6],
+  ["2026-07-13", 0],
+  ["2026-07-23", 6],
+  ["2026-08-02", 2],
+  ["2026-08-12", 0],
+  ["2026-08-22", 9],
+  ["2026-09-01", 9],
+  ["2026-09-11", 0],
+  ["2026-09-20", 1],
+  ["2026-09-30", 12],
+  ["2026-10-10", 2],
+  ["2026-10-20", 9],
+  ["2026-10-30", 2],
+  ["2026-11-09", 0],
+  ["2026-11-19", 4],
+  ["2026-11-29", 12],
+  ["2026-12-08", 0],
+  ["2026-12-18", 0],
+  ["2026-12-28", 6],
+  ["2026-01-08", 3],
+  ["2026-01-18", 0],
+  ["2026-01-28", 4],
+  ["2026-02-07", 6],
+  ["2026-02-17", 9],
+  ["2026-02-26", 2],
+  ["2026-03-08", 9],
+  ["2026-03-18", 2],
+  ["2026-03-28", 12],
+  ["2026-04-07", 0],
+  ["2026-04-17", 14],
+  ["2026-04-27", 6],
+  ["2026-05-07", 3],
+  ["2026-05-16", 3],
+  ["2026-05-26", 6],
+  ["2026-06-05", 0],
+  ["2026-06-15", 15],
+  ["2026-06-25", 0],
+  ["2026-07-05", 0],
+  ["2026-07-15", 24],
+  ["2026-07-25", 1],
+  ["2026-08-03", 0],
+  ["2026-08-13", 3],
+  ["2026-08-23", 4],
+  ["2026-09-02", 6],
+  ["2026-09-12", 3],
+  ["2026-09-22", 4],
+  ["2026-10-02", 3],
+  ["2026-10-12", 0],
+  ["2026-10-21", 0],
+  ["2026-10-31", 6],
+  ["2026-11-10", 2],
+  ["2026-11-20", 3],
+  ["2026-11-30", 15],
+  ["2026-12-10", 14],
+  ["2026-12-20", 9],
+  ["2026-12-30", 4],
+  ["2026-01-09", 15],
+  ["2026-01-19", 0],
+  ["2026-01-29", 0],
+  ["2026-02-08", 15],
+  ["2026-02-18", 6],
+  ["2026-02-28", 11],
+  ["2026-03-10", 0],
+  ["2026-03-20", 10],
+  ["2026-03-29", 6],
+  ["2026-04-08", 23],
+  ["2026-04-18", 35],
+  ["2026-04-28", 12],
+  ["2026-05-08", 9],
+  ["2026-05-18", 0],
+  ["2026-05-28", 6],
+  ["2026-06-07", 0],
+  ["2026-06-16", 11],
+  ["2026-06-26", 6],
+  ["2026-07-06", 33],
+  ["2026-07-16", 11],
+  ["2026-07-26", 1],
+  ["2026-08-05", 6],
+  ["2026-08-15", 2],
+  ["2026-08-25", 0],
+  ["2026-09-03", 13],
+  ["2026-09-13", 9],
+  ["2026-09-23", 21],
+  ["2026-10-03", 0],
+  ["2026-10-13", 4],
+  ["2026-10-23", 6],
+  ["2026-11-02", 12],
+  ["2026-11-12", 3],
+  ["2026-11-21", 3],
+  ["2026-12-01", 10],
+  ["2026-12-11", 15],
+  ["2026-12-21", 0],
+  ["2026-12-31", 2],
+];
+export const CONTRIBUTIONS_DATA: ContributionDay[] = DEMO_CELLS.map(([date, value]) => ({
+  date,
+  value,
+}));
+const RANGES: ContributionsRange[] = [
+  { id: "weekly", label: "Weekly", data: CONTRIBUTIONS_DATA, headline: 958, delta: 0.148 },
+  {
+    id: "monthly",
+    label: "Monthly",
+    data: CONTRIBUTIONS_DATA,
+    headline: 958,
+    delta: 0.148,
+  },
+  {
+    id: "yearly",
+    label: "Yearly",
+    data: CONTRIBUTIONS_DATA,
+    headline: 958,
+    delta: 0.148,
+  },
+];
+const STATS: ContributionStat[] = [
+  { label: "Lifetime tokens", value: "9B" },
+  { label: "Peak tokens", value: "562.7M" },
+  { label: "Longest task", value: "12h 54m" },
+  { label: "Top streak", value: "62 days" },
+];
+export function ContributionsCard({
+  title = "Contributions this year",
+  data,
+  ranges: supplied,
+  defaultRange,
+  onRangeChange,
+  stats = STATS,
+  color,
+  className,
+  headline,
+  delta,
+}: ContributionsCardProps = {}) {
+  const ranges = supplied ?? (data ? undefined : RANGES),
+    period = useChartRange(ranges, defaultRange, onRangeChange),
+    items = period.current?.data ?? data ?? CONTRIBUTIONS_DATA,
+    [active, setActive] = useState<number | null>(null),
+    max = Math.max(1, ...items.map((d) => d.value)),
+    cols = Math.max(1, Math.ceil(items.length / 7));
+  return (
+    <ChartFrame
+      title={active == null ? title : (items[active]?.date ?? title)}
+      value={
+        active == null
+          ? (period.current?.headline ?? headline ?? sum(items.map((d) => d.value)))
+          : (items[active]?.value ?? 0)
+      }
+      delta={period.current?.delta ?? delta}
+      className={cx("sm:h-[337px]", className)}
+    >
+      <div className="-mx-2 grid grid-cols-2 gap-2 sm:grid-cols-4">
+        {stats.map((stat) => (
+          <div key={stat.label} className="rounded-2lg bg-background-inner-default px-2.5 py-2.5">
+            <p className="text-body-medium text-text-primary">{stat.value}</p>
+            <p className="text-body-medium text-text-secondary">{stat.label}</p>
+          </div>
+        ))}
+      </div>
+      <div className="-mt-2 flex flex-col gap-2">
+        <div className="flex items-center justify-between">
+          <p className="text-body-medium text-text-secondary">Activity</p>
+          {ranges && (
+            <PeriodTabs
+              ranges={ranges}
+              selected={period.id}
+              onChange={(id) => {
+                setActive(null);
+                period.select(id);
+              }}
+              plain
+            />
+          )}
+        </div>
+        <div className="overflow-x-auto">
+          <div
+            className="grid min-w-[440px] gap-1"
+            style={{
+              gridTemplateColumns: `repeat(${cols}, minmax(0,1fr))`,
+              gridTemplateRows: "repeat(7, minmax(0,1fr))",
+            }}
+          >
+            {items.map((d, i) => (
+              <button
+                key={d.date}
+                type="button"
+                aria-label={`${d.date}: ${d.value} contributions`}
+                onMouseEnter={() => setActive(i)}
+                onMouseLeave={() => setActive(null)}
+                onFocus={() => setActive(i)}
+                onBlur={() => setActive(null)}
+                className="aspect-square min-h-2 rounded-[3px] outline-none transition-[background-color,opacity] duration-200 motion-reduce:transition-none hover:ring-2 hover:ring-border-focus-ring focus-visible:ring-2 focus-visible:ring-border-focus-ring"
+                style={{
+                  background:
+                    d.value > 0
+                      ? color
+                        ? `color-mix(in srgb, ${color} ${20 + safeRatio(d.value, max) * 80}%, var(--color-background-inner-default))`
+                        : CONTRIBUTION_COLORS[
+                            d.value <= 4
+                              ? 1
+                              : d.value <= 9
+                                ? 2
+                                : d.value <= 15
+                                  ? 3
+                                  : d.value <= 24
+                                    ? 4
+                                    : 5
+                          ]
+                      : "var(--color-chart-contributions-empty)",
+                }}
+              />
+            ))}
+          </div>
+        </div>
+        <div className="flex justify-between text-caption-1-medium text-text-tertiary">
+          {MONTHS.map((month) => (
+            <span key={month}>{month}</span>
+          ))}
+        </div>
+      </div>
+    </ChartFrame>
+  );
+}
+20:T290e,"use client";
+
+import {
+  RiArrowDownSLine,
+  RiArrowLeftSLine,
+  RiArrowRightSLine,
+  RiCalendarLine,
+} from "@remixicon/react";
+import { motion } from "motion/react";
+import { type ReactNode, useEffect, useRef, useState } from "react";
+import {
+  SegmentedControl,
+  SegmentedControlItem,
+} from "../../base/segmented-control/segmented-control";
+import { Select, SelectItem } from "../../base/select/select";
+import { useHydratedReducedMotion } from "../../hooks/use-hydrated-reduced-motion";
+import { cx } from "../../utils/cx";
+import { formatNumber } from "./chart-card";
+
+export const PALETTE = [2, 6, 5, 3, 8, 7, 1, 4, 9];
+export const ink = (index: number) => `var(--color-chart-${PALETTE[index % PALETTE.length]})`;
+export const safeRatio = (value: number, max: number) =>
+  Number.isFinite(value) && max > 0 ? Math.min(1, Math.max(0, value / max)) : 0;
+export const numeric = (value: unknown) =>
+  typeof value === "number" && Number.isFinite(value) ? value : 0;
+export const sum = (values: number[]) => values.reduce((total, value) => total + numeric(value), 0);
+export const average = (values: number[]) => (values.length ? sum(values) / values.length : 0);
+export const shortNumber = (value: number) =>
+  Math.abs(value) >= 1000 ? `${+(value / 1000).toFixed(1)}K` : `${+value.toFixed(1)}`;
+export const MONTHS = [
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
+  "May",
+  "Jun",
+  "Jul",
+  "Aug",
+  "Sep",
+  "Oct",
+  "Nov",
+  "Dec",
+];
+export const DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+export const chartAxis = {
+  tickLine: false,
+  axisLine: false,
+  tick: { fontSize: 12, fill: "var(--color-text-tertiary)" },
+} as const;
+export interface ChartRange {
+  id: string;
+  label: string;
+  delta?: number;
+  headline?: number;
+}
+export interface ChartCommonProps {
+  title?: string;
+  headline?: number;
+  delta?: number;
+  range?: string;
+  defaultRange?: string;
+  onRangeChange?: (id: string) => void;
+  className?: string;
+  format?: (value: number) => string;
+}
+export function useChartRange<T extends ChartRange>(
+  ranges: T[] | undefined,
+  defaultRange?: string,
+  onChange?: (id: string) => void,
+) {
+  const [selected, setSelected] = useState(defaultRange ?? ranges?.[0]?.id);
+  const current = ranges?.find((range) => range.id === selected) ?? ranges?.[0];
+  const select = (id: string) => {
+    setSelected(id);
+    onChange?.(id);
+  };
+  return { current, id: current?.id, select };
+}
+export function PeriodSelect({
+  ranges,
+  selected,
+  onChange,
+  label = "This year",
+}: {
+  ranges?: ChartRange[];
+  selected?: string;
+  onChange: (id: string) => void;
+  label?: string;
+}) {
+  const content = (
+    <>
+      <RiCalendarLine className="size-4 shrink-0 text-text-secondary" />
+      <span>{label}</span>
+    </>
+  );
+  if (!ranges?.length)
+    return (
+      <span className="flex h-8 shrink-0 items-center gap-1.5 rounded-2lg border border-border-button-default bg-background-primary-default px-2 text-body-medium text-text-primary shadow-xs">
+        {content}
+      </span>
+    );
+  return (
+    <Select
+      aria-label="Change period"
+      selectedKey={selected}
+      onSelectionChange={(key) => key != null && onChange(String(key))}
+      triggerClassName="h-8 pl-2 pr-1.5 py-1 text-body-medium"
+      className="shrink-0"
+      renderValue={<span className="flex items-center gap-1.5">{content}</span>}
+      renderIndicator={(open) => (
+        <RiArrowDownSLine
+          className={cx(
+            "size-4 shrink-0 text-text-secondary transition-transform duration-200 ease-out",
+            open && "rotate-180",
+          )}
+        />
+      )}
+    >
+      <>
+        {ranges.map((range) => (
+          <SelectItem key={range.id} id={range.id}>
+            {range.label}
+          </SelectItem>
+        ))}
+      </>
+    </Select>
+  );
+}
+export function PeriodTabs({
+  ranges,
+  selected,
+  onChange,
+  plain = false,
+}: {
+  ranges: ChartRange[];
+  selected?: string;
+  onChange: (id: string) => void;
+  plain?: boolean;
+}) {
+  return (
+    <SegmentedControl
+      aria-label="Chart period"
+      variant={plain ? "plain" : "solid"}
+      className={cx("shrink-0 bg-transparent", plain && "[&>button]:py-0")}
+      selectedKeys={selected ? [selected] : []}
+      onSelectionChange={(keys) => {
+        const id = [...keys][0];
+        if (id != null) onChange(String(id));
+      }}
+    >
+      {ranges.map((range) => (
+        <SegmentedControlItem id={range.id} key={range.id}>
+          {range.label}
+        </SegmentedControlItem>
+      ))}
+    </SegmentedControl>
+  );
+}
+export function WeekSwitcher({
+  label,
+  onPrevious,
+  onNext,
+}: {
+  label: string;
+  onPrevious: () => void;
+  onNext: () => void;
+}) {
+  return (
+    <div className="flex h-8 shrink-0 items-center gap-1 rounded-2lg border border-border-button-default bg-background-primary-default px-1 shadow-xs">
+      <button
+        type="button"
+        aria-label="Previous period"
+        onClick={onPrevious}
+        className="rounded-md text-text-secondary outline-none focus-visible:ring-2 focus-visible:ring-border-focus-ring"
+      >
+        <RiArrowLeftSLine className="size-4" />
+      </button>
+      <span className="min-w-20 text-center text-body-medium text-text-primary">{label}</span>
+      <button
+        type="button"
+        aria-label="Next period"
+        onClick={onNext}
+        className="rounded-md text-text-secondary outline-none focus-visible:ring-2 focus-visible:ring-border-focus-ring"
+      >
+        <RiArrowRightSLine className="size-4" />
+      </button>
+    </div>
+  );
+}
+export function AnimatedNumber({
+  value,
+  format = formatNumber,
+}: {
+  value: number;
+  format?: (value: number) => string;
+}) {
+  const reduced = useHydratedReducedMotion();
+  const [display, setDisplay] = useState(value);
+  const current = useRef(value);
+  useEffect(() => {
+    if (reduced) {
+      current.current = value;
+      setDisplay(value);
+      return;
+    }
+    const from = current.current,
+      start = performance.now();
+    let frame = 0;
+    const tick = (time: number) => {
+      const t = Math.min(1, (time - start) / 300);
+      current.current = from + (value - from) * (1 - (1 - t) ** 3);
+      setDisplay(current.current);
+      if (t < 1) frame = requestAnimationFrame(tick);
+    };
+    frame = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(frame);
+  }, [value, reduced]);
+  return <>{format(reduced ? value : display)}</>;
+}
+export function ChartFrame({
+  title,
+  value,
+  delta,
+  format,
+  suffix,
+  action,
+  children,
+  className,
+  height,
+  footer,
+  heading,
+}: {
+  title: string;
+  value?: number;
+  delta?: number;
+  format?: (value: number) => string;
+  suffix?: ReactNode;
+  action?: ReactNode;
+  children: ReactNode;
+  className?: string;
+  height?: number;
+  footer?: ReactNode;
+  heading?: ReactNode;
+}) {
+  return (
+    <section
+      className={cx(
+        "flex w-full min-w-0 flex-col gap-4 rounded-2xl bg-background-secondary-default px-4 pt-4 pb-3",
+        className,
+      )}
+      style={height ? { height } : undefined}
+    >
+      <div className="flex w-full flex-wrap items-start justify-between gap-3">
+        <div className="flex min-w-0 flex-1 flex-col gap-0.5">
+          <p className="truncate text-body-medium text-text-secondary">{title}</p>
+          <div className="flex items-center gap-2">
+            <p className="whitespace-nowrap text-title-1-medium text-text-primary tabular-nums">
+              {heading ?? (value != null && <AnimatedNumber value={value} format={format} />)}
+              {suffix && (
+                <span className="ml-1 text-caption-1-medium text-text-secondary">{suffix}</span>
+              )}
+            </p>
+            {delta != null && (
+              <span
+                className={cx(
+                  "rounded-md px-1.5 py-0.5 text-body-medium whitespace-nowrap",
+                  delta >= 0
+                    ? "bg-status-lime-background text-status-lime-text"
+                    : "bg-status-rose-background text-status-rose-text",
+                )}
+              >
+                {delta > 0 ? "+" : ""}
+                {+(delta * 100).toFixed(1)}%
+              </span>
+            )}
+          </div>
+        </div>
+        {action}
+      </div>
+      {children}
+      {footer}
+    </section>
+  );
+}
+export interface StatTile {
+  label: string;
+  value: ReactNode;
+  color?: string;
+}
+export function StatTiles({
+  items,
+  active,
+  onHover,
+  columns = 3,
+}: {
+  items: StatTile[];
+  columns?: number;
+  active?: number | null;
+  onHover?: (index: number | null) => void;
+}) {
+  return (
+    <div className="-mx-2 -mb-1 flex flex-wrap gap-2">
+      {items.map((item, index) => (
+        <div
+          key={item.label}
+          tabIndex={onHover ? 0 : undefined}
+          onMouseEnter={() => onHover?.(index)}
+          onMouseLeave={() => onHover?.(null)}
+          onFocus={() => onHover?.(index)}
+          onBlur={() => onHover?.(null)}
+          className="flex min-w-0 flex-auto basis-[calc(33.333%-8px)] flex-col gap-px rounded-2lg bg-background-inner-default px-2.5 py-2 outline-none transition-opacity duration-200 motion-reduce:transition-none focus-visible:ring-2 focus-visible:ring-border-focus-ring"
+          style={{
+            opacity: active != null && active !== index ? 0.35 : 1,
+            flexBasis: `calc(${100 / columns}% - 8px)`,
+          }}
+        >
+          <span className="flex items-center gap-1.5 truncate text-body-regular text-text-secondary">
+            {item.color && (
+              <span className="size-3 shrink-0 rounded-[4px]" style={{ background: item.color }} />
+            )}
+            {item.label}
+          </span>
+          <span className="text-body-medium text-text-primary tabular-nums">{item.value}</span>
+        </div>
+      ))}
+    </div>
+  );
+}
+export function PulseDot({ cx: x, cy: y, stroke }: { cx?: number; cy?: number; stroke?: string }) {
+  const reduced = useHydratedReducedMotion();
+  if (x == null || y == null) return null;
+  return (
+    <g>
+      <motion.circle
+        key={reduced ? "reduced" : "animated"}
+        cx={x}
+        cy={y}
+        fill={stroke}
+        initial={false}
+        animate={reduced ? { r: 7, opacity: 0.2 } : { r: [5, 11, 5], opacity: [0.25, 0, 0.25] }}
+        transition={reduced ? { duration: 0 } : { duration: 1.6, repeat: Infinity }}
+      />
+      <circle
+        cx={x}
+        cy={y}
+        r={3.5}
+        fill={stroke}
+        stroke="var(--color-background-inner-default)"
+        strokeWidth={2}
+      />
+    </g>
+  );
+}
+3:["$","$L1e",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"contributions-card","title":"Contributions","description":"GitHub-style contributions heat grid for React + Tailwind CSS with a swappable accent family","category":"charts","tags":["chart","data","visualization"],"status":"stable","tier":"free","isNew":true,"dependencies":["@remixicon/react","motion","react-aria-components","tailwind-merge"],"registryDependencies":["chart-card","chevrons","chip","cx","segmented-control","select","tokens","use-count-up","use-dismiss-on-outside-press"],"files":[{"path":"application/charts/contributions-card.tsx","target":"components/application/charts/contributions-card.tsx","type":"component","content":"$1f"},{"path":"application/charts/pro-chart.tsx","target":"components/application/charts/pro-chart.tsx","type":"component","content":"$20"},{"path":"hooks/use-hydrated-reduced-motion.ts","target":"hooks/use-hydrated-reduced-motion.ts","type":"hook","content":"\"use client\";\n\nimport { useReducedMotion } from \"motion/react\";\nimport { useSyncExternalStore } from \"react\";\n\nconst subscribe = () => () => {};\nconst clientSnapshot = () => true;\nconst serverSnapshot = () => false;\n\n/** Keep the first server/client render identical, then apply the user's motion preference. */\nexport function useHydratedReducedMotion(): boolean {\n  const reduced = useReducedMotion();\n  const hydrated = useSyncExternalStore(subscribe, clientSnapshot, serverSnapshot);\n  return hydrated && reduced === true;\n}\n"}],"hash":"da0a885ed98a"},"demoSource":"\"use client\";\n\nimport { ContributionsCard } from \"@/components/application/charts/contributions-card\";\n\nexport default function ContributionsCardDemo() {\n  return (\n    <div className=\"w-full max-w-2xl\">\n      <ContributionsCard />\n    </div>\n  );\n}","previous":{"name":"combo-chart-card","title":"Combo Chart"},"next":{"name":"earnings-chart-card","title":"Earnings Chart"}}]
+4:["$","script","script-0",{"src":"/_next/static/chunks/3l5f3qnr89rl0.js","async":true}]
+5:["$","script","script-1",{"src":"/_next/static/chunks/0wmbfrsxfdesk.js","async":true}]
+6:["$","script","script-2",{"src":"/_next/static/chunks/3ixdl2m026on9.js","async":true}]
+7:["$","script","script-3",{"src":"/_next/static/chunks/3xa-hzf5c_c6n.js","async":true}]
+8:["$","script","script-4",{"src":"/_next/static/chunks/1zihipy0kqa1_.js","async":true}]
+9:["$","script","script-5",{"src":"/_next/static/chunks/0-afrvt74ak7l.js","async":true}]
+a:["$","script","script-6",{"src":"/_next/static/chunks/0337601gswv_s.js","async":true}]
+b:["$","script","script-7",{"src":"/_next/static/chunks/34zl6f3dq0u0q.js","async":true}]
+c:["$","script","script-8",{"src":"/_next/static/chunks/2az_x4uxpy3sm.js","async":true}]
+d:["$","script","script-9",{"src":"/_next/static/chunks/23ywcyogzmwlv.js","async":true}]
+e:["$","script","script-10",{"src":"/_next/static/chunks/2qg2knl-9_2le.js","async":true}]
+f:["$","script","script-11",{"src":"/_next/static/chunks/1wypk9kc4p_mt.js","async":true}]
+10:["$","$L21",null,{"children":["$","$22",null,{"name":"Next.MetadataOutlet","children":"$@23"}]}]
+13:["$","$1","h",{"children":[null,["$","$L24",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L25",null,{"children":["$","$22",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Contributions — Zeus UI"}],["$","meta","1",{"name":"description","content":"GitHub-style contributions heat grid for React + Tailwind CSS with a swappable accent family"}],["$","meta","2",{"name":"keywords","content":"chart,data,visualization"}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+15:["$","$1","c",{"children":[null,["$","$L26",null,{"parallelRouterKey":"children","template":["$","$L27",null,{}]}]]}]
+18:["$","$1","c",{"children":[null,["$","$L26",null,{"parallelRouterKey":"children","template":["$","$L27",null,{}]}]]}]
+1a:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/0by1pam5w7cuf.js","async":true}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L28",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L26",null,{"parallelRouterKey":"children","template":["$","$L27",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]]}]}]]}]
+23:null
+1d:true
+12:300
+12:C
+1c:0
+14:"$undefined"
+16:"$undefined"
+19:"$undefined"
+1b:"$undefined"
+11:"$undefined"

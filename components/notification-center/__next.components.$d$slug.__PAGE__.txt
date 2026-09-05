@@ -1,0 +1,382 @@
+1:"$Sreact.fragment"
+2:I[54515,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"DocsLayout"]
+12:X
+17:X
+17:C
+0:{"buildId":"Kgh3aKGUUDrNWttN7OqGM","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"Notification Center","heading":"Notification Center","icon":"components","groups":[{"id":"foundations","title":"Foundations","items":[{"name":"tokens","title":"Design tokens"},{"name":"typography","title":"Typography"},{"name":"cx","title":"cx"},{"name":"chevrons","title":"Chevrons"},{"name":"logo","title":"Logo"},{"name":"use-count-up","title":"useCountUp"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress"}]},{"id":"base","title":"Base","items":[{"name":"button","title":"Button"},{"name":"icon-button","title":"Icon Button"},{"name":"link-button","title":"Link Button"},{"name":"button-group","title":"Button Group"},{"name":"close-button","title":"Close Button"},{"name":"social-button","title":"Social Button"},{"name":"input","title":"Input"},{"name":"input-otp","title":"Input OTP"},{"name":"checkbox","title":"Checkbox"},{"name":"radio","title":"Radio"},{"name":"switch","title":"Switch"},{"name":"select","title":"Select"},{"name":"slider","title":"Slider"},{"name":"dropdown","title":"Dropdown"},{"name":"divider","title":"Divider"},{"name":"file-upload","title":"File Upload"},{"name":"tabs","title":"Tabs"},{"name":"segmented-control","title":"Segmented Control"},{"name":"table","title":"Table"},{"name":"tooltip","title":"Tooltip"},{"name":"badge","title":"Badge"},{"name":"chip","title":"Chip"},{"name":"status-dot","title":"Status Dot"},{"name":"kbd","title":"Kbd"},{"name":"avatar","title":"Avatar"},{"name":"breadcrumb","title":"Breadcrumb"},{"name":"pagination","title":"Pagination"},{"name":"carousel","title":"Carousel"},{"name":"announcement","title":"Announcement"},{"name":"notification","title":"Notification"},{"name":"date-picker","title":"Date Picker"},{"name":"date-range-picker","title":"Date Range Picker"},{"name":"meeting-scheduler","title":"Meeting Scheduler"}]},{"id":"blocks","title":"Blocks","items":[{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"calendar","title":"Calendar","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"theme-toggle","title":"Theme Toggle"},{"name":"stat-cards","title":"Stat Cards"},{"name":"data-table","title":"Data Table"},{"name":"sidebar","title":"Sidebar"},{"name":"app-shell","title":"App Shell"},{"name":"notification-center","title":"Notification Center"},{"name":"settings-modal","title":"Settings Modal"},{"name":"auth-card","title":"Auth Card"},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking"},{"name":"composer-loader","title":"Composer Loader"},{"name":"agent-log","title":"Agent Log"},{"name":"agent-chat","title":"Agent Chat"}]},{"id":"charts","title":"Charts","items":[{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart"},{"name":"orders-chart-card","title":"Orders Chart"},{"name":"important-alerts-card","title":"Important Alerts"},{"name":"patient-info-card","title":"Patient Info"}]},{"id":"templates","title":"Templates","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true},{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true}]}],"description":"Grouped, filterable inbox with unread state and per-item actions.","detail":true,"children":"$L3"}],["$L4","$L5","$L6","$L7","$L8","$L9","$La","$Lb","$Lc","$Ld","$Le","$Lf"],"$L10"]}],"isPartial":"$@11","staleTime":"$12","varyParams":null},{"rsc":"$L13","isPartial":"$@14","staleTime":"$12","varyParams":null},{"rsc":"$L15","isPartial":"$@16","staleTime":"$12","varyParams":"$17"},{"rsc":"$L18","isPartial":"$@19","staleTime":"$12","varyParams":"$17"},{"rsc":"$L1a","isPartial":"$@1b","staleTime":"$12","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@1c","rootVaryParams":null,"needsRuntimeRequest":"$@1d"}
+1e:I[26438,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"ComponentPage"]
+21:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"OutletBoundary"]
+22:"$Sreact.suspense"
+24:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"ViewportBoundary"]
+25:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"MetadataBoundary"]
+26:I[37280,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+27:I[75701,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+28:I[72844,["/_next/static/chunks/0by1pam5w7cuf.js"],""]
+:HL["/_next/static/chunks/16_ml9va511u1.css","style"]
+:HL["/_next/static/chunks/1lom8-olk25vh.css","style"]
+1f:T26be,"use client";
+
+import type { ComponentType, HTMLAttributes, Ref } from "react";
+import { useMemo, useState } from "react";
+import {
+  RiCheckboxCircleFill,
+  RiErrorWarningFill,
+  RiInformationFill,
+  RiNotification3Fill,
+  RiNotificationOffLine,
+} from "@remixicon/react";
+import { Avatar, type AvatarProps } from "../../base/avatar/avatar";
+import { Button, type ButtonProps } from "../../base/buttons/button";
+import {
+  SegmentedControl,
+  SegmentedControlItem,
+} from "../../base/segmented-control/segmented-control";
+import { cx, sortCx } from "../../utils/cx";
+
+export type NotificationCenterTab = "all" | "mentions" | "system";
+export type NotificationCenterCategory = Exclude<NotificationCenterTab, "all"> | "activity";
+export type NotificationCenterStatus = "neutral" | "information" | "success" | "error";
+
+type IconComponent = ComponentType<{
+  className?: string;
+  "aria-hidden"?: boolean | "true" | "false";
+}>;
+
+export type NotificationCenterAction = {
+  id: string;
+  label: string;
+  variant?: ButtonProps["variant"];
+};
+
+export type NotificationCenterItem = {
+  id: string;
+  category: NotificationCenterCategory;
+  group: string;
+  title: string;
+  description: string;
+  timestamp: string;
+  unread?: boolean;
+  status?: NotificationCenterStatus;
+  icon?: IconComponent;
+  avatar?: Pick<AvatarProps, "src" | "alt" | "initials" | "color">;
+  actions?: NotificationCenterAction[];
+};
+
+export interface NotificationCenterProps
+  extends Omit<HTMLAttributes<HTMLDivElement>, "onChange"> {
+  notifications: NotificationCenterItem[];
+  defaultTab?: NotificationCenterTab;
+  tab?: NotificationCenterTab;
+  onTabChange?: (tab: NotificationCenterTab) => void;
+  onAction?: (notificationId: string, actionId: string) => void;
+  title?: string;
+  emptyMessage?: string;
+  ref?: Ref<HTMLDivElement>;
+}
+
+const STATUS_ICON: Record<NotificationCenterStatus, IconComponent> = {
+  neutral: RiNotification3Fill,
+  information: RiInformationFill,
+  success: RiCheckboxCircleFill,
+  error: RiErrorWarningFill,
+};
+
+const styles = sortCx({
+  status: {
+    neutral: "bg-background-tertiary-default text-text-secondary",
+    information:
+      "bg-notification-information-background text-notification-information-foreground",
+    success: "bg-notification-success-background text-notification-success-foreground",
+    error: "bg-notification-error-background text-notification-error-foreground",
+  },
+});
+
+const TABS: { id: NotificationCenterTab; label: string }[] = [
+  { id: "all", label: "All" },
+  { id: "mentions", label: "Mentions" },
+  { id: "system", label: "System" },
+];
+
+function NotificationVisual({ item }: { item: NotificationCenterItem }) {
+  if (item.avatar) {
+    return <Avatar {...item.avatar} size="lg" className="size-10" />;
+  }
+
+  const status = item.status ?? "neutral";
+  const Icon = item.icon ?? STATUS_ICON[status];
+
+  return (
+    <span
+      className={cx(
+        "flex size-10 shrink-0 items-center justify-center rounded-full",
+        styles.status[status],
+      )}
+    >
+      <Icon className="size-5" aria-hidden />
+    </span>
+  );
+}
+
+function TabLabel({
+  label,
+  count,
+}: {
+  label: string;
+  count: number;
+}) {
+  return (
+    <span className="inline-flex items-center gap-1.5">
+      {label}
+      <span className="inline-flex min-w-5 items-center justify-center rounded-sm bg-badge-neutral-background px-1 py-px text-caption-1-medium text-text-secondary">
+        {count}
+      </span>
+    </span>
+  );
+}
+
+export function NotificationCenter({
+  notifications,
+  defaultTab = "all",
+  tab,
+  onTabChange,
+  onAction,
+  title = "Notifications",
+  emptyMessage = "You’re all caught up.",
+  className,
+  ref,
+  ...props
+}: NotificationCenterProps) {
+  const [internalTab, setInternalTab] = useState<NotificationCenterTab>(defaultTab);
+  const [readIds, setReadIds] = useState<Set<string>>(() => new Set());
+  const activeTab = tab ?? internalTab;
+
+  const setTab = (nextTab: NotificationCenterTab) => {
+    if (tab === undefined) setInternalTab(nextTab);
+    onTabChange?.(nextTab);
+  };
+
+  const isUnread = (item: NotificationCenterItem) => item.unread === true && !readIds.has(item.id);
+  const unreadCount = notifications.filter(isUnread).length;
+
+  const tabCounts = useMemo(
+    () => ({
+      all: notifications.length,
+      mentions: notifications.filter((item) => item.category === "mentions").length,
+      system: notifications.filter((item) => item.category === "system").length,
+    }),
+    [notifications],
+  );
+
+  const visibleNotifications = useMemo(
+    () =>
+      activeTab === "all"
+        ? notifications
+        : notifications.filter((item) => item.category === activeTab),
+    [activeTab, notifications],
+  );
+
+  const markAllRead = () => {
+    setReadIds(new Set(notifications.filter((item) => item.unread).map((item) => item.id)));
+  };
+
+  return (
+    <section
+      ref={ref}
+      aria-label={title}
+      className={cx(
+        "flex w-full max-w-[430px] flex-col overflow-hidden rounded-3xl border border-border-button-default bg-notification-center-background shadow-dropdown",
+        className,
+      )}
+      {...props}
+    >
+      <div className="flex flex-col gap-3 p-4 pb-1.5">
+        <div className="flex items-start justify-between gap-4">
+          <div className="flex min-w-0 flex-col gap-0.5">
+            <h2 className="text-title-3-medium text-text-primary">{title}</h2>
+            <p className="text-body-regular text-text-secondary">
+              {unreadCount === 0 ? "No unread notifications" : `${unreadCount} unread`}
+            </p>
+          </div>
+          <Button
+            variant="ghost"
+            size="small"
+            onClick={markAllRead}
+            disabled={unreadCount === 0}
+          >
+            Mark all read
+          </Button>
+        </div>
+
+        <SegmentedControl
+          aria-label="Notification category"
+          selectedKeys={[activeTab]}
+          onSelectionChange={(keys) => {
+            const next = [...(keys as Set<string>)][0] as NotificationCenterTab | undefined;
+            if (next) setTab(next);
+          }}
+          className="flex w-full"
+        >
+          {TABS.map(({ id, label }) => (
+            <SegmentedControlItem
+              key={id}
+              id={id}
+              className="flex-1"
+            >
+              <TabLabel label={label} count={tabCounts[id]} />
+            </SegmentedControlItem>
+          ))}
+        </SegmentedControl>
+      </div>
+
+      <div className="bg-notification-center-background p-1.5">
+        <div className="overflow-hidden rounded-2xl bg-background-secondary-default">
+          <div className="max-h-[516px] overflow-y-auto overscroll-contain bg-background-secondary-default p-2">
+            {visibleNotifications.length === 0 ? (
+              <div className="flex min-h-64 flex-col items-center justify-center gap-2 rounded-2xl bg-background-primary-default px-6 text-center">
+                <span className="flex size-11 items-center justify-center rounded-full bg-background-secondary-default text-foreground-icon-secondary">
+                  <RiNotificationOffLine className="size-5" aria-hidden />
+                </span>
+                <p className="text-body-medium text-text-primary">{emptyMessage}</p>
+                <p className="max-w-64 text-body-regular text-text-secondary">
+                  New activity will appear here when it arrives.
+                </p>
+              </div>
+            ) : (
+              <div className="flex flex-col gap-2">
+                {visibleNotifications.map((item) => {
+                  const unread = isUnread(item);
+                  return (
+                    <article
+                      key={item.id}
+                      className="group/item relative flex gap-3 rounded-notification-card bg-background-primary-default px-3 py-3"
+                    >
+                      <NotificationVisual item={item} />
+                      <div className="flex min-w-0 flex-1 flex-col gap-0.5">
+                        <div className="flex min-w-0 items-start justify-between gap-3">
+                          <p className="min-w-0 text-body-medium text-text-primary">{item.title}</p>
+                          <div className="flex shrink-0 items-center gap-2">
+                            <span className="text-caption-1-medium whitespace-nowrap text-text-tertiary">
+                              {item.timestamp}
+                            </span>
+                            {unread ? (
+                              <span
+                                className="size-2 rounded-full bg-accent-500"
+                                aria-label="Unread"
+                              />
+                            ) : null}
+                          </div>
+                        </div>
+                        <p className="text-body-regular text-text-secondary">{item.description}</p>
+                        {item.actions?.length ? (
+                          <div className="mt-1.5 flex flex-wrap items-center gap-2">
+                            {item.actions.map((action) => (
+                              <Button
+                                key={action.id}
+                                size="small"
+                                variant={action.variant ?? "secondary"}
+                                onClick={() => {
+                                  setReadIds((current) => new Set(current).add(item.id));
+                                  onAction?.(item.id, action.id);
+                                }}
+                              >
+                                {action.label}
+                              </Button>
+                            ))}
+                          </div>
+                        ) : null}
+                      </div>
+                    </article>
+                  );
+                })}
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+20:T6df,"use client";
+
+import { NotificationCenter } from "@/components/application/notification-center/notification-center";
+import type { NotificationCenterItem } from "@/components/application/notification-center/notification-center";
+
+const NOTIFICATIONS: NotificationCenterItem[] = [
+  {
+    id: "mention-notes",
+    category: "mentions",
+    group: "Today",
+    title: "Livia mentioned you",
+    description: "Can you review the new empty state before we ship?",
+    timestamp: "2m",
+    unread: true,
+    avatar: { src: "/avatars/livia-saris.webp", alt: "Livia Saris" },
+    actions: [
+      { id: "reply", label: "Reply", variant: "primary" },
+      { id: "view", label: "View thread", variant: "secondary" },
+    ],
+  },
+  {
+    id: "backup-ready",
+    category: "system",
+    group: "Today",
+    title: "Workspace backup is ready",
+    description: "The latest backup finished successfully.",
+    timestamp: "18m",
+    unread: true,
+    status: "success",
+  },
+  {
+    id: "deploy-failed",
+    category: "system",
+    group: "Earlier this week",
+    title: "Preview deployment failed",
+    description: "The build stopped while validating routes.",
+    timestamp: "Sat",
+    status: "error",
+    actions: [
+      { id: "retry", label: "Retry", variant: "primary" },
+      { id: "logs", label: "View logs", variant: "secondary" },
+    ],
+  },
+  {
+    id: "invite-accepted",
+    category: "activity",
+    group: "Earlier this week",
+    title: "Michael joined the workspace",
+    description: "They accepted your invite to the team.",
+    timestamp: "Fri",
+    avatar: { src: "/avatars/michael-ekstrom.webp", alt: "Michael Ekstrom" },
+  },
+];
+
+export default function NotificationCenterDemo() {
+  return <NotificationCenter notifications={NOTIFICATIONS} />;
+}3:["$","$L1e",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"notification-center","title":"Notification Center","description":"Grouped, filterable inbox with unread state and per-item actions.","category":"blocks","tags":["feedback","inbox","notifications","filtering"],"status":"stable","tier":"free","dependencies":["@remixicon/react","react-aria-components","tailwind-merge"],"registryDependencies":["avatar","button","cx","segmented-control","tokens"],"files":[{"path":"application/notification-center/notification-center.tsx","target":"components/application/notification-center/notification-center.tsx","type":"component","content":"$1f"}],"hash":"3438f1622788"},"demoSource":"$20","previous":{"name":"app-shell","title":"App Shell"},"next":{"name":"settings-modal","title":"Settings Modal"}}]
+4:["$","script","script-0",{"src":"/_next/static/chunks/3l5f3qnr89rl0.js","async":true}]
+5:["$","script","script-1",{"src":"/_next/static/chunks/0wmbfrsxfdesk.js","async":true}]
+6:["$","script","script-2",{"src":"/_next/static/chunks/3ixdl2m026on9.js","async":true}]
+7:["$","script","script-3",{"src":"/_next/static/chunks/3xa-hzf5c_c6n.js","async":true}]
+8:["$","script","script-4",{"src":"/_next/static/chunks/1zihipy0kqa1_.js","async":true}]
+9:["$","script","script-5",{"src":"/_next/static/chunks/0-afrvt74ak7l.js","async":true}]
+a:["$","script","script-6",{"src":"/_next/static/chunks/0337601gswv_s.js","async":true}]
+b:["$","script","script-7",{"src":"/_next/static/chunks/34zl6f3dq0u0q.js","async":true}]
+c:["$","script","script-8",{"src":"/_next/static/chunks/2az_x4uxpy3sm.js","async":true}]
+d:["$","script","script-9",{"src":"/_next/static/chunks/23ywcyogzmwlv.js","async":true}]
+e:["$","script","script-10",{"src":"/_next/static/chunks/2qg2knl-9_2le.js","async":true}]
+f:["$","script","script-11",{"src":"/_next/static/chunks/1wypk9kc4p_mt.js","async":true}]
+10:["$","$L21",null,{"children":["$","$22",null,{"name":"Next.MetadataOutlet","children":"$@23"}]}]
+13:["$","$1","h",{"children":[null,["$","$L24",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L25",null,{"children":["$","$22",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Notification Center — Zeus UI"}],["$","meta","1",{"name":"description","content":"Grouped, filterable inbox with unread state and per-item actions."}],["$","meta","2",{"name":"keywords","content":"feedback,inbox,notifications,filtering"}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+15:["$","$1","c",{"children":[null,["$","$L26",null,{"parallelRouterKey":"children","template":["$","$L27",null,{}]}]]}]
+18:["$","$1","c",{"children":[null,["$","$L26",null,{"parallelRouterKey":"children","template":["$","$L27",null,{}]}]]}]
+1a:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/0by1pam5w7cuf.js","async":true}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L28",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L26",null,{"parallelRouterKey":"children","template":["$","$L27",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]]}]}]]}]
+23:null
+1d:true
+12:300
+12:C
+1c:0
+14:"$undefined"
+16:"$undefined"
+19:"$undefined"
+1b:"$undefined"
+11:"$undefined"

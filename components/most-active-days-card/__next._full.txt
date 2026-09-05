@@ -1,0 +1,511 @@
+1:"$Sreact.fragment"
+2:I[72844,["/_next/static/chunks/0by1pam5w7cuf.js"],""]
+3:I[37280,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+4:I[75701,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+6:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+a:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"ViewportBoundary"]
+c:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"MetadataBoundary"]
+e:I[84167,["/_next/static/chunks/0by1pam5w7cuf.js"],"default",1]
+:HL["/_next/static/chunks/16_ml9va511u1.css","style"]
+:HL["/_next/static/chunks/1lom8-olk25vh.css","style"]
+:HL["/_next/static/media/234d9015b631dab9-s.p.33gca1im1ku45.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+9:X
+0:{"P":null,"c":["","components","most-active-days-card",""],"q":"","i":false,"f":[[["",{"children":["components",{"children":[["slug","most-active-days-card","d",[]],{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0by1pam5w7cuf.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L2",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/3l5f3qnr89rl0.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0wmbfrsxfdesk.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/3ixdl2m026on9.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/3xa-hzf5c_c6n.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/1zihipy0kqa1_.js","async":true,"nonce":"$undefined"}],["$","script","script-5",{"src":"/_next/static/chunks/0-afrvt74ak7l.js","async":true,"nonce":"$undefined"}],["$","script","script-6",{"src":"/_next/static/chunks/0337601gswv_s.js","async":true,"nonce":"$undefined"}],["$","script","script-7",{"src":"/_next/static/chunks/34zl6f3dq0u0q.js","async":true,"nonce":"$undefined"}],["$","script","script-8",{"src":"/_next/static/chunks/2az_x4uxpy3sm.js","async":true,"nonce":"$undefined"}],["$","script","script-9",{"src":"/_next/static/chunks/23ywcyogzmwlv.js","async":true,"nonce":"$undefined"}],["$","script","script-10",{"src":"/_next/static/chunks/2qg2knl-9_2le.js","async":true,"nonce":"$undefined"}],["$","script","script-11",{"src":"/_next/static/chunks/1wypk9kc4p_mt.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$9"]},null,false,"$9"]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],"$Lf"]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Kgh3aKGUUDrNWttN7OqGM"}
+9:C
+f:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+10:I[54515,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"DocsLayout"]
+5:["$","$L10",null,{"title":"Most Active Days","heading":"Most Active Days","icon":"components","groups":[{"id":"foundations","title":"Foundations","items":[{"name":"tokens","title":"Design tokens","isNew":"$undefined"},{"name":"typography","title":"Typography","isNew":"$undefined"},{"name":"cx","title":"cx","isNew":"$undefined"},{"name":"chevrons","title":"Chevrons","isNew":"$undefined"},{"name":"logo","title":"Logo","isNew":"$undefined"},{"name":"use-count-up","title":"useCountUp","isNew":"$undefined"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress","isNew":"$undefined"}]},{"id":"base","title":"Base","items":[{"name":"button","title":"Button","isNew":"$undefined"},{"name":"icon-button","title":"Icon Button","isNew":"$undefined"},{"name":"link-button","title":"Link Button","isNew":"$undefined"},{"name":"button-group","title":"Button Group","isNew":"$undefined"},{"name":"close-button","title":"Close Button","isNew":"$undefined"},{"name":"social-button","title":"Social Button","isNew":"$undefined"},{"name":"input","title":"Input","isNew":"$undefined"},{"name":"input-otp","title":"Input OTP","isNew":"$undefined"},{"name":"checkbox","title":"Checkbox","isNew":"$undefined"},{"name":"radio","title":"Radio","isNew":"$undefined"},{"name":"switch","title":"Switch","isNew":"$undefined"},{"name":"select","title":"Select","isNew":"$undefined"},{"name":"slider","title":"Slider","isNew":"$undefined"},{"name":"dropdown","title":"Dropdown","isNew":"$undefined"},{"name":"divider","title":"Divider","isNew":"$undefined"},{"name":"file-upload","title":"File Upload","isNew":"$undefined"},{"name":"tabs","title":"Tabs","isNew":"$undefined"},{"name":"segmented-control","title":"Segmented Control","isNew":"$undefined"},{"name":"table","title":"Table","isNew":"$undefined"},{"name":"tooltip","title":"Tooltip","isNew":"$undefined"},{"name":"badge","title":"Badge","isNew":"$undefined"},{"name":"chip","title":"Chip","isNew":"$undefined"},{"name":"status-dot","title":"Status Dot","isNew":"$undefined"},{"name":"kbd","title":"Kbd","isNew":"$undefined"},{"name":"avatar","title":"Avatar","isNew":"$undefined"},{"name":"breadcrumb","title":"Breadcrumb","isNew":"$undefined"},{"name":"pagination","title":"Pagination","isNew":"$undefined"},{"name":"carousel","title":"Carousel","isNew":"$undefined"},{"name":"announcement","title":"Announcement","isNew":"$undefined"},{"name":"notification","title":"Notification","isNew":"$undefined"},{"name":"date-picker","title":"Date Picker","isNew":"$undefined"},{"name":"date-range-picker","title":"Date Range Picker","isNew":"$undefined"},{"name":"meeting-scheduler","title":"Meeting Scheduler","isNew":"$undefined"}]},{"id":"blocks","title":"Blocks","items":[{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"calendar","title":"Calendar","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"theme-toggle","title":"Theme Toggle","isNew":"$undefined"},{"name":"stat-cards","title":"Stat Cards","isNew":"$undefined"},{"name":"data-table","title":"Data Table","isNew":"$undefined"},{"name":"sidebar","title":"Sidebar","isNew":"$undefined"},{"name":"app-shell","title":"App Shell","isNew":"$undefined"},{"name":"notification-center","title":"Notification Center","isNew":"$undefined"},{"name":"settings-modal","title":"Settings Modal","isNew":"$undefined"},{"name":"auth-card","title":"Auth Card","isNew":"$undefined"},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking","isNew":"$undefined"},{"name":"composer-loader","title":"Composer Loader","isNew":"$undefined"},{"name":"agent-log","title":"Agent Log","isNew":"$undefined"},{"name":"agent-chat","title":"Agent Chat","isNew":"$undefined"}]},{"id":"charts","title":"Charts","items":[{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart","isNew":"$undefined"},{"name":"orders-chart-card","title":"Orders Chart","isNew":"$undefined"},{"name":"important-alerts-card","title":"Important Alerts","isNew":"$undefined"},{"name":"patient-info-card","title":"Patient Info","isNew":"$undefined"}]},{"id":"templates","title":"Templates","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true},{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true}]}],"description":"Continuous vertical month calendar for React + Tailwind CSS with per-day mini activity rings","columnClassName":"$undefined","detail":true,"children":"$L11"}]
+12:I[26438,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"ComponentPage"]
+13:T13eb,"use client";
+import { useEffect, useRef, useState } from "react";
+import { cx } from "../../utils/cx";
+import {
+  ACTIVITY_RINGS,
+  type ActivityRing,
+  ActivityRings,
+  ActivityRingsCard,
+} from "./activity-rings-card";
+import { ChartFrame, MONTHS, WeekSwitcher } from "./pro-chart";
+export interface ActivityDay {
+  date: string;
+  steps: number;
+  rings?: ActivityRing[];
+}
+export interface MostActiveDaysCardProps {
+  title?: string;
+  data?: ActivityDay[];
+  selectedDate?: Date;
+  defaultDate?: Date;
+  onDateChange?: (date: Date) => void;
+  showActivity?: boolean;
+  className?: string;
+  headline?: number;
+}
+const INITIAL_DATE = new Date(2026, 6, 10);
+const dayKey = (date: Date) =>
+  `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
+export function MostActiveDaysCard({
+  title = "Most active days",
+  data,
+  selectedDate,
+  defaultDate = INITIAL_DATE,
+  onDateChange,
+  showActivity = true,
+  className,
+  headline = 32459,
+}: MostActiveDaysCardProps = {}) {
+  const [internal, setInternal] = useState(defaultDate),
+    selected = selectedDate ?? internal,
+    [month, setMonth] = useState(selected.getMonth()),
+    scrollRef = useRef<HTMLDivElement>(null),
+    year = selected.getFullYear();
+  useEffect(() => {
+    setMonth(selected.getMonth());
+  }, [selected]);
+  useEffect(() => {
+    const target = scrollRef.current?.querySelector<HTMLElement>(`[data-month="${month}"]`);
+    if (target && scrollRef.current) scrollRef.current.scrollTop = target.offsetTop;
+  }, [month]);
+  const select = (date: Date) => {
+    setInternal(date);
+    onDateChange?.(date);
+  };
+  const currentDay = data?.find((d) => d.date === dayKey(selected));
+  return (
+    <div className={cx("grid w-full min-w-0 gap-4", showActivity && "md:grid-cols-2", className)}>
+      <ChartFrame
+        title={title}
+        value={currentDay?.steps ?? headline}
+        suffix="total steps"
+        height={330}
+        className="rounded-[20px]"
+        action={
+          <WeekSwitcher
+            label={new Date(year, month).toLocaleDateString("en-US", { month: "long" })}
+            onPrevious={() => setMonth((m) => (m + 11) % 12)}
+            onNext={() => setMonth((m) => (m + 1) % 12)}
+          />
+        }
+      >
+        <div
+          ref={scrollRef}
+          className="relative -mx-1.5 -mb-0.5 min-h-0 flex-1 overflow-y-auto rounded-2lg bg-background-inner-default px-2.5 [scrollbar-width:none]"
+        >
+          {MONTHS.map((label, m) => {
+            const count = new Date(year, m + 1, 0).getDate(),
+              offset = 0;
+            return (
+              <div key={label} data-month={m} className="pb-4">
+                <p className="px-1 pt-2.5 pb-3 text-headline-medium text-text-primary">{label}</p>
+                <div className="grid grid-cols-7 gap-0.5">
+                  {Array.from({ length: offset }, (_, i) => (
+                    <span key={`blank-${i}`} />
+                  ))}
+                  {Array.from({ length: count }, (_, i) => {
+                    const date = new Date(year, m, i + 1),
+                      key = dayKey(date),
+                      entry = data?.find((d) => d.date === key),
+                      isSelected = dayKey(selected) === key,
+                      isFuture = date > selected,
+                      rings =
+                        entry?.rings ??
+                        ACTIVITY_RINGS.map((r, n) => ({
+                          ...r,
+                          progress: isFuture
+                            ? 0.03
+                            : Math.max(0.12, ((i * 17 + n * 11 + m * 7) % 90) / 100),
+                        }));
+                    return (
+                      <button
+                        type="button"
+                        key={key}
+                        aria-label={date.toLocaleDateString("en-US", { dateStyle: "full" })}
+                        aria-pressed={isSelected}
+                        onClick={() => select(date)}
+                        className={cx(
+                          "flex h-[76px] min-w-0 flex-col items-center justify-between rounded-2lg border-2 py-2 text-body-regular text-text-primary outline-none focus-visible:ring-2 focus-visible:ring-border-focus-ring",
+                          isSelected
+                            ? "border-chart-cursor"
+                            : "border-transparent hover:bg-background-secondary-default",
+                        )}
+                      >
+                        <span>{i + 1}</span>
+                        <ActivityRings rings={rings} className="size-7 max-h-7" animate={false} />
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </ChartFrame>
+      {showActivity && (
+        <ActivityRingsCard
+          title={`Activity for ${selected.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })}`}
+          rings={currentDay?.rings}
+          selectedDate={selected}
+        />
+      )}
+    </div>
+  );
+}
+14:T290e,"use client";
+
+import {
+  RiArrowDownSLine,
+  RiArrowLeftSLine,
+  RiArrowRightSLine,
+  RiCalendarLine,
+} from "@remixicon/react";
+import { motion } from "motion/react";
+import { type ReactNode, useEffect, useRef, useState } from "react";
+import {
+  SegmentedControl,
+  SegmentedControlItem,
+} from "../../base/segmented-control/segmented-control";
+import { Select, SelectItem } from "../../base/select/select";
+import { useHydratedReducedMotion } from "../../hooks/use-hydrated-reduced-motion";
+import { cx } from "../../utils/cx";
+import { formatNumber } from "./chart-card";
+
+export const PALETTE = [2, 6, 5, 3, 8, 7, 1, 4, 9];
+export const ink = (index: number) => `var(--color-chart-${PALETTE[index % PALETTE.length]})`;
+export const safeRatio = (value: number, max: number) =>
+  Number.isFinite(value) && max > 0 ? Math.min(1, Math.max(0, value / max)) : 0;
+export const numeric = (value: unknown) =>
+  typeof value === "number" && Number.isFinite(value) ? value : 0;
+export const sum = (values: number[]) => values.reduce((total, value) => total + numeric(value), 0);
+export const average = (values: number[]) => (values.length ? sum(values) / values.length : 0);
+export const shortNumber = (value: number) =>
+  Math.abs(value) >= 1000 ? `${+(value / 1000).toFixed(1)}K` : `${+value.toFixed(1)}`;
+export const MONTHS = [
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
+  "May",
+  "Jun",
+  "Jul",
+  "Aug",
+  "Sep",
+  "Oct",
+  "Nov",
+  "Dec",
+];
+export const DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+export const chartAxis = {
+  tickLine: false,
+  axisLine: false,
+  tick: { fontSize: 12, fill: "var(--color-text-tertiary)" },
+} as const;
+export interface ChartRange {
+  id: string;
+  label: string;
+  delta?: number;
+  headline?: number;
+}
+export interface ChartCommonProps {
+  title?: string;
+  headline?: number;
+  delta?: number;
+  range?: string;
+  defaultRange?: string;
+  onRangeChange?: (id: string) => void;
+  className?: string;
+  format?: (value: number) => string;
+}
+export function useChartRange<T extends ChartRange>(
+  ranges: T[] | undefined,
+  defaultRange?: string,
+  onChange?: (id: string) => void,
+) {
+  const [selected, setSelected] = useState(defaultRange ?? ranges?.[0]?.id);
+  const current = ranges?.find((range) => range.id === selected) ?? ranges?.[0];
+  const select = (id: string) => {
+    setSelected(id);
+    onChange?.(id);
+  };
+  return { current, id: current?.id, select };
+}
+export function PeriodSelect({
+  ranges,
+  selected,
+  onChange,
+  label = "This year",
+}: {
+  ranges?: ChartRange[];
+  selected?: string;
+  onChange: (id: string) => void;
+  label?: string;
+}) {
+  const content = (
+    <>
+      <RiCalendarLine className="size-4 shrink-0 text-text-secondary" />
+      <span>{label}</span>
+    </>
+  );
+  if (!ranges?.length)
+    return (
+      <span className="flex h-8 shrink-0 items-center gap-1.5 rounded-2lg border border-border-button-default bg-background-primary-default px-2 text-body-medium text-text-primary shadow-xs">
+        {content}
+      </span>
+    );
+  return (
+    <Select
+      aria-label="Change period"
+      selectedKey={selected}
+      onSelectionChange={(key) => key != null && onChange(String(key))}
+      triggerClassName="h-8 pl-2 pr-1.5 py-1 text-body-medium"
+      className="shrink-0"
+      renderValue={<span className="flex items-center gap-1.5">{content}</span>}
+      renderIndicator={(open) => (
+        <RiArrowDownSLine
+          className={cx(
+            "size-4 shrink-0 text-text-secondary transition-transform duration-200 ease-out",
+            open && "rotate-180",
+          )}
+        />
+      )}
+    >
+      <>
+        {ranges.map((range) => (
+          <SelectItem key={range.id} id={range.id}>
+            {range.label}
+          </SelectItem>
+        ))}
+      </>
+    </Select>
+  );
+}
+export function PeriodTabs({
+  ranges,
+  selected,
+  onChange,
+  plain = false,
+}: {
+  ranges: ChartRange[];
+  selected?: string;
+  onChange: (id: string) => void;
+  plain?: boolean;
+}) {
+  return (
+    <SegmentedControl
+      aria-label="Chart period"
+      variant={plain ? "plain" : "solid"}
+      className={cx("shrink-0 bg-transparent", plain && "[&>button]:py-0")}
+      selectedKeys={selected ? [selected] : []}
+      onSelectionChange={(keys) => {
+        const id = [...keys][0];
+        if (id != null) onChange(String(id));
+      }}
+    >
+      {ranges.map((range) => (
+        <SegmentedControlItem id={range.id} key={range.id}>
+          {range.label}
+        </SegmentedControlItem>
+      ))}
+    </SegmentedControl>
+  );
+}
+export function WeekSwitcher({
+  label,
+  onPrevious,
+  onNext,
+}: {
+  label: string;
+  onPrevious: () => void;
+  onNext: () => void;
+}) {
+  return (
+    <div className="flex h-8 shrink-0 items-center gap-1 rounded-2lg border border-border-button-default bg-background-primary-default px-1 shadow-xs">
+      <button
+        type="button"
+        aria-label="Previous period"
+        onClick={onPrevious}
+        className="rounded-md text-text-secondary outline-none focus-visible:ring-2 focus-visible:ring-border-focus-ring"
+      >
+        <RiArrowLeftSLine className="size-4" />
+      </button>
+      <span className="min-w-20 text-center text-body-medium text-text-primary">{label}</span>
+      <button
+        type="button"
+        aria-label="Next period"
+        onClick={onNext}
+        className="rounded-md text-text-secondary outline-none focus-visible:ring-2 focus-visible:ring-border-focus-ring"
+      >
+        <RiArrowRightSLine className="size-4" />
+      </button>
+    </div>
+  );
+}
+export function AnimatedNumber({
+  value,
+  format = formatNumber,
+}: {
+  value: number;
+  format?: (value: number) => string;
+}) {
+  const reduced = useHydratedReducedMotion();
+  const [display, setDisplay] = useState(value);
+  const current = useRef(value);
+  useEffect(() => {
+    if (reduced) {
+      current.current = value;
+      setDisplay(value);
+      return;
+    }
+    const from = current.current,
+      start = performance.now();
+    let frame = 0;
+    const tick = (time: number) => {
+      const t = Math.min(1, (time - start) / 300);
+      current.current = from + (value - from) * (1 - (1 - t) ** 3);
+      setDisplay(current.current);
+      if (t < 1) frame = requestAnimationFrame(tick);
+    };
+    frame = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(frame);
+  }, [value, reduced]);
+  return <>{format(reduced ? value : display)}</>;
+}
+export function ChartFrame({
+  title,
+  value,
+  delta,
+  format,
+  suffix,
+  action,
+  children,
+  className,
+  height,
+  footer,
+  heading,
+}: {
+  title: string;
+  value?: number;
+  delta?: number;
+  format?: (value: number) => string;
+  suffix?: ReactNode;
+  action?: ReactNode;
+  children: ReactNode;
+  className?: string;
+  height?: number;
+  footer?: ReactNode;
+  heading?: ReactNode;
+}) {
+  return (
+    <section
+      className={cx(
+        "flex w-full min-w-0 flex-col gap-4 rounded-2xl bg-background-secondary-default px-4 pt-4 pb-3",
+        className,
+      )}
+      style={height ? { height } : undefined}
+    >
+      <div className="flex w-full flex-wrap items-start justify-between gap-3">
+        <div className="flex min-w-0 flex-1 flex-col gap-0.5">
+          <p className="truncate text-body-medium text-text-secondary">{title}</p>
+          <div className="flex items-center gap-2">
+            <p className="whitespace-nowrap text-title-1-medium text-text-primary tabular-nums">
+              {heading ?? (value != null && <AnimatedNumber value={value} format={format} />)}
+              {suffix && (
+                <span className="ml-1 text-caption-1-medium text-text-secondary">{suffix}</span>
+              )}
+            </p>
+            {delta != null && (
+              <span
+                className={cx(
+                  "rounded-md px-1.5 py-0.5 text-body-medium whitespace-nowrap",
+                  delta >= 0
+                    ? "bg-status-lime-background text-status-lime-text"
+                    : "bg-status-rose-background text-status-rose-text",
+                )}
+              >
+                {delta > 0 ? "+" : ""}
+                {+(delta * 100).toFixed(1)}%
+              </span>
+            )}
+          </div>
+        </div>
+        {action}
+      </div>
+      {children}
+      {footer}
+    </section>
+  );
+}
+export interface StatTile {
+  label: string;
+  value: ReactNode;
+  color?: string;
+}
+export function StatTiles({
+  items,
+  active,
+  onHover,
+  columns = 3,
+}: {
+  items: StatTile[];
+  columns?: number;
+  active?: number | null;
+  onHover?: (index: number | null) => void;
+}) {
+  return (
+    <div className="-mx-2 -mb-1 flex flex-wrap gap-2">
+      {items.map((item, index) => (
+        <div
+          key={item.label}
+          tabIndex={onHover ? 0 : undefined}
+          onMouseEnter={() => onHover?.(index)}
+          onMouseLeave={() => onHover?.(null)}
+          onFocus={() => onHover?.(index)}
+          onBlur={() => onHover?.(null)}
+          className="flex min-w-0 flex-auto basis-[calc(33.333%-8px)] flex-col gap-px rounded-2lg bg-background-inner-default px-2.5 py-2 outline-none transition-opacity duration-200 motion-reduce:transition-none focus-visible:ring-2 focus-visible:ring-border-focus-ring"
+          style={{
+            opacity: active != null && active !== index ? 0.35 : 1,
+            flexBasis: `calc(${100 / columns}% - 8px)`,
+          }}
+        >
+          <span className="flex items-center gap-1.5 truncate text-body-regular text-text-secondary">
+            {item.color && (
+              <span className="size-3 shrink-0 rounded-[4px]" style={{ background: item.color }} />
+            )}
+            {item.label}
+          </span>
+          <span className="text-body-medium text-text-primary tabular-nums">{item.value}</span>
+        </div>
+      ))}
+    </div>
+  );
+}
+export function PulseDot({ cx: x, cy: y, stroke }: { cx?: number; cy?: number; stroke?: string }) {
+  const reduced = useHydratedReducedMotion();
+  if (x == null || y == null) return null;
+  return (
+    <g>
+      <motion.circle
+        key={reduced ? "reduced" : "animated"}
+        cx={x}
+        cy={y}
+        fill={stroke}
+        initial={false}
+        animate={reduced ? { r: 7, opacity: 0.2 } : { r: [5, 11, 5], opacity: [0.25, 0, 0.25] }}
+        transition={reduced ? { duration: 0 } : { duration: 1.6, repeat: Infinity }}
+      />
+      <circle
+        cx={x}
+        cy={y}
+        r={3.5}
+        fill={stroke}
+        stroke="var(--color-background-inner-default)"
+        strokeWidth={2}
+      />
+    </g>
+  );
+}
+11:["$","$L12",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"most-active-days-card","title":"Most Active Days","description":"Continuous vertical month calendar for React + Tailwind CSS with per-day mini activity rings","category":"charts","tags":["chart","data","visualization"],"status":"stable","tier":"free","isNew":true,"dependencies":["@remixicon/react","motion","react-aria-components","tailwind-merge"],"registryDependencies":["activity-rings-card","chart-card","chevrons","chip","cx","segmented-control","select","tokens","use-count-up","use-dismiss-on-outside-press"],"files":[{"path":"application/charts/most-active-days-card.tsx","target":"components/application/charts/most-active-days-card.tsx","type":"component","content":"$13"},{"path":"application/charts/pro-chart.tsx","target":"components/application/charts/pro-chart.tsx","type":"component","content":"$14"},{"path":"hooks/use-hydrated-reduced-motion.ts","target":"hooks/use-hydrated-reduced-motion.ts","type":"hook","content":"\"use client\";\n\nimport { useReducedMotion } from \"motion/react\";\nimport { useSyncExternalStore } from \"react\";\n\nconst subscribe = () => () => {};\nconst clientSnapshot = () => true;\nconst serverSnapshot = () => false;\n\n/** Keep the first server/client render identical, then apply the user's motion preference. */\nexport function useHydratedReducedMotion(): boolean {\n  const reduced = useReducedMotion();\n  const hydrated = useSyncExternalStore(subscribe, clientSnapshot, serverSnapshot);\n  return hydrated && reduced === true;\n}\n"}],"hash":"694563b0ed04"},"demoSource":"\"use client\";\n\nimport { MostActiveDaysCard } from \"@/components/application/charts/most-active-days-card\";\n\nexport default function MostActiveDaysCardDemo() {\n  return (\n    <div className=\"w-full max-w-3xl\">\n      <MostActiveDaysCard />\n    </div>\n  );\n}","previous":{"name":"heatmap-chart-card","title":"Heatmap Chart"},"next":{"name":"radar-chart-card","title":"Radar Chart"}}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:null
+d:[["$","title","0",{"children":"Most Active Days — Zeus UI"}],["$","meta","1",{"name":"description","content":"Continuous vertical month calendar for React + Tailwind CSS with per-day mini activity rings"}],["$","meta","2",{"name":"keywords","content":"chart,data,visualization"}]]

@@ -1,0 +1,1476 @@
+{
+  "run": {
+    "startedAt": "2026-09-05T06:42:32.806Z",
+    "nodeVersion": "v26.8.1",
+    "platform": "linux",
+    "playwrightVersion": "1.62.1",
+    "pngjsVersion": "7.0.0",
+    "manifestSha256": "7577012a484c40a83a025dd8f32349eb587635613ad466d7cc6f9f0973438ac9",
+    "localBase": "http://127.0.0.1:4124",
+    "profiles": {
+      "desktop": {
+        "width": 1440,
+        "height": 1200
+      },
+      "mobile": {
+        "width": 390,
+        "height": 1200
+      }
+    },
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "thresholds": {
+      "channelTolerance": 0,
+      "maxChangedRatio": 0
+    },
+    "workers": 4,
+    "motionWorkers": 1,
+    "selection": {
+      "component": "bar-list-card",
+      "state": "show-more-operating-systems",
+      "profiles": "desktop,mobile",
+      "themes": "light,dark",
+      "workers": "4",
+      "local-base": "http://127.0.0.1:4124",
+      "out": "artifacts/verification/bar-list-small-share-corrected-2026-09-05"
+    },
+    "browserExecutable": "Playwright managed Chromium",
+    "motion": "Real-time samples; actual offsets recorded, no disabled animations",
+    "executedStates": [
+      {
+        "id": "bar-list-card",
+        "state": "show-more-operating-systems",
+        "profile": "desktop",
+        "theme": "light"
+      },
+      {
+        "id": "bar-list-card",
+        "state": "show-more-operating-systems",
+        "profile": "desktop",
+        "theme": "dark"
+      },
+      {
+        "id": "bar-list-card",
+        "state": "show-more-operating-systems",
+        "profile": "mobile",
+        "theme": "light"
+      },
+      {
+        "id": "bar-list-card",
+        "state": "show-more-operating-systems",
+        "profile": "mobile",
+        "theme": "dark"
+      }
+    ],
+    "skippedStates": [
+      {
+        "id": "bar-list-card",
+        "state": "initial",
+        "profile": "desktop",
+        "theme": "light",
+        "reason": "state selection"
+      },
+      {
+        "id": "bar-list-card",
+        "state": "tab-browsers",
+        "profile": "desktop",
+        "theme": "light",
+        "reason": "state selection"
+      },
+      {
+        "id": "bar-list-card",
+        "state": "tab-operating-systems",
+        "profile": "desktop",
+        "theme": "light",
+        "reason": "state selection"
+      },
+      {
+        "id": "bar-list-card",
+        "state": "tab-screen-sizes",
+        "profile": "desktop",
+        "theme": "light",
+        "reason": "state selection"
+      },
+      {
+        "id": "bar-list-card",
+        "state": "show-more-browsers",
+        "profile": "desktop",
+        "theme": "light",
+        "reason": "state selection"
+      },
+      {
+        "id": "bar-list-card",
+        "state": "show-more-screen-sizes",
+        "profile": "desktop",
+        "theme": "light",
+        "reason": "state selection"
+      },
+      {
+        "id": "bar-list-card",
+        "state": "initial",
+        "profile": "desktop",
+        "theme": "dark",
+        "reason": "state selection"
+      },
+      {
+        "id": "bar-list-card",
+        "state": "tab-browsers",
+        "profile": "desktop",
+        "theme": "dark",
+        "reason": "state selection"
+      },
+      {
+        "id": "bar-list-card",
+        "state": "tab-operating-systems",
+        "profile": "desktop",
+        "theme": "dark",
+        "reason": "state selection"
+      },
+      {
+        "id": "bar-list-card",
+        "state": "tab-screen-sizes",
+        "profile": "desktop",
+        "theme": "dark",
+        "reason": "state selection"
+      },
+      {
+        "id": "bar-list-card",
+        "state": "show-more-browsers",
+        "profile": "desktop",
+        "theme": "dark",
+        "reason": "state selection"
+      },
+      {
+        "id": "bar-list-card",
+        "state": "show-more-screen-sizes",
+        "profile": "desktop",
+        "theme": "dark",
+        "reason": "state selection"
+      },
+      {
+        "id": "bar-list-card",
+        "state": "initial",
+        "profile": "mobile",
+        "theme": "light",
+        "reason": "state selection"
+      },
+      {
+        "id": "bar-list-card",
+        "state": "tab-browsers",
+        "profile": "mobile",
+        "theme": "light",
+        "reason": "state selection"
+      },
+      {
+        "id": "bar-list-card",
+        "state": "tab-operating-systems",
+        "profile": "mobile",
+        "theme": "light",
+        "reason": "state selection"
+      },
+      {
+        "id": "bar-list-card",
+        "state": "tab-screen-sizes",
+        "profile": "mobile",
+        "theme": "light",
+        "reason": "state selection"
+      },
+      {
+        "id": "bar-list-card",
+        "state": "show-more-browsers",
+        "profile": "mobile",
+        "theme": "light",
+        "reason": "state selection"
+      },
+      {
+        "id": "bar-list-card",
+        "state": "show-more-screen-sizes",
+        "profile": "mobile",
+        "theme": "light",
+        "reason": "state selection"
+      },
+      {
+        "id": "bar-list-card",
+        "state": "initial",
+        "profile": "mobile",
+        "theme": "dark",
+        "reason": "state selection"
+      },
+      {
+        "id": "bar-list-card",
+        "state": "tab-browsers",
+        "profile": "mobile",
+        "theme": "dark",
+        "reason": "state selection"
+      },
+      {
+        "id": "bar-list-card",
+        "state": "tab-operating-systems",
+        "profile": "mobile",
+        "theme": "dark",
+        "reason": "state selection"
+      },
+      {
+        "id": "bar-list-card",
+        "state": "tab-screen-sizes",
+        "profile": "mobile",
+        "theme": "dark",
+        "reason": "state selection"
+      },
+      {
+        "id": "bar-list-card",
+        "state": "show-more-browsers",
+        "profile": "mobile",
+        "theme": "dark",
+        "reason": "state selection"
+      },
+      {
+        "id": "bar-list-card",
+        "state": "show-more-screen-sizes",
+        "profile": "mobile",
+        "theme": "dark",
+        "reason": "state selection"
+      }
+    ],
+    "normalization": "Original bounds recorded, fixed integer capture origin and common viewport-constrained width, intrinsic height, no scaling or alignment search",
+    "browserVersion": "151.0.7922.34",
+    "plannedStates": [
+      {
+        "id": "bar-list-card",
+        "state": "show-more-operating-systems",
+        "profile": "desktop",
+        "theme": "light"
+      },
+      {
+        "id": "bar-list-card",
+        "state": "show-more-operating-systems",
+        "profile": "desktop",
+        "theme": "dark"
+      },
+      {
+        "id": "bar-list-card",
+        "state": "show-more-operating-systems",
+        "profile": "mobile",
+        "theme": "light"
+      },
+      {
+        "id": "bar-list-card",
+        "state": "show-more-operating-systems",
+        "profile": "mobile",
+        "theme": "dark"
+      }
+    ],
+    "unfinishedStates": [],
+    "finishedAt": "2026-09-05T06:42:37.365Z",
+    "out": "/home/pritam/.bb/personal-workspaces/env_v9xm6ayg76/library/artifacts/verification/bar-list-small-share-corrected-2026-09-05"
+  },
+  "coverage": [
+    {
+      "id": "bar-list-card",
+      "preview": "mapped",
+      "interactions": {
+        "status": "partial",
+        "reason": "All four tab categories are represented by initial plus three tab states, including exact reference row labels and percentages. Five-row overflow expansion is mapped; keyboard roving focus remains unverified."
+      },
+      "motion": {
+        "status": "unmapped",
+        "reason": "No reference motion timeline has been mapped for this component."
+      },
+      "variants": {
+        "status": "unmapped",
+        "reason": "Additional documentation examples are not covered by the main preview."
+      }
+    }
+  ],
+  "results": [
+    {
+      "sequence": 0,
+      "id": "bar-list-card",
+      "title": "Bar List",
+      "state": "show-more-operating-systems",
+      "profile": "desktop",
+      "theme": "light",
+      "status": "fail",
+      "coverage": {
+        "preview": "mapped",
+        "interactions": {
+          "status": "partial",
+          "reason": "All four tab categories are represented by initial plus three tab states, including exact reference row labels and percentages. Five-row overflow expansion is mapped; keyboard roving focus remains unverified."
+        },
+        "motion": {
+          "status": "unmapped",
+          "reason": "No reference motion timeline has been mapped for this component."
+        },
+        "variants": {
+          "status": "unmapped",
+          "reason": "Additional documentation examples are not covered by the main preview."
+        }
+      },
+      "exceptions": [],
+      "sides": {
+        "reference": {
+          "url": "https://www.boardui.com/components/bar-list-card",
+          "actions": [
+            {
+              "type": "click",
+              "target": {
+                "role": "tab",
+                "name": "Operating systems"
+              },
+              "elapsedMs": 40
+            },
+            {
+              "type": "click",
+              "target": {
+                "role": "button",
+                "name": "Show 1 more"
+              },
+              "elapsedMs": 47
+            }
+          ],
+          "assertions": [
+            {
+              "type": "visible",
+              "target": {
+                "role": "button",
+                "name": "Show fewer"
+              },
+              "status": "pass",
+              "actual": true
+            },
+            {
+              "type": "text",
+              "pattern": "Mac\\s*44%\\s*iOS\\s*26%\\s*Windows\\s*17%\\s*Android\\s*9%\\s*GNU/Linux\\s*4%\\s*ChromeOS\\s*<0\\.5%",
+              "target": {
+                "role": "tabpanel"
+              },
+              "status": "pass",
+              "actual": "Mac\n44%\niOS\n26%\nWindows\n17%\nAndroid\n9%\nGNU/Linux\n4%\nChromeOS\n<0.5%"
+            }
+          ],
+          "pageErrors": [],
+          "consoleErrors": [],
+          "captures": [
+            {
+              "clip": {
+                "x": 16,
+                "y": 16,
+                "width": 448,
+                "height": 301
+              },
+              "documentClip": {
+                "x": 16,
+                "y": 16,
+                "width": 448,
+                "height": 301
+              },
+              "scrollOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "bounds": {
+                "x": 16,
+                "y": 16,
+                "width": 448,
+                "height": 301
+              },
+              "masks": [],
+              "captureStartedAt": "2026-09-05T06:42:34.838Z",
+              "file": "bar-list-card-show-more-operating-systems-desktop-light-reference.png"
+            }
+          ],
+          "fontResources": [
+            {
+              "url": "https://www.boardui.com/_next/static/media/70bc3e132a0a741e-s.p.1409xf.ylxg8g.woff2?dpl=dpl_DtZGATJAq2pV3PKTdLi3wkMiYbQ4",
+              "status": 200,
+              "sha256": "1e06740a02a443fb7f3eeda8fcaa685a0f6c620e3f01e6666e847295469ce3ad",
+              "bytes": 40480
+            },
+            {
+              "url": "https://www.boardui.com/_next/static/media/234d9015b631dab9-s.p.0_3shu4gwev1q.woff2?dpl=dpl_DtZGATJAq2pV3PKTdLi3wkMiYbQ4",
+              "status": 200,
+              "sha256": "dd8a4575be9806105ac3decd02805cd2782fe7c05abb02c582316bc436ce03ae",
+              "bytes": 73016
+            }
+          ],
+          "httpStatus": 200,
+          "rootFont": {
+            "family": "Inter, \"Inter Fallback\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "size": "16px",
+            "weight": "400",
+            "opticalSizing": "auto",
+            "variationSettings": "normal"
+          },
+          "setup": [
+            {
+              "type": "click",
+              "target": {
+                "role": "button",
+                "name": "Decline"
+              },
+              "scope": "page",
+              "optional": true,
+              "optionalTimeoutMs": 2500,
+              "reason": "Dismiss the documentation cookie banner through its Decline control before capture; it may mount after hydration.",
+              "elapsedMs": 44
+            }
+          ],
+          "normalization": {
+            "before": {
+              "x": 504,
+              "y": 399,
+              "width": 448,
+              "height": 177
+            },
+            "origin": {
+              "x": 16,
+              "y": 16
+            },
+            "width": 448,
+            "viewport": false,
+            "fullPage": false,
+            "background": "#ffffff",
+            "method": "stylesheet-scoped"
+          },
+          "interactions": "pass"
+        },
+        "local": {
+          "url": "http://127.0.0.1:4124/components/bar-list-card",
+          "actions": [
+            {
+              "type": "click",
+              "target": {
+                "role": "tab",
+                "name": "Operating systems"
+              },
+              "elapsedMs": 38
+            },
+            {
+              "type": "click",
+              "target": {
+                "role": "button",
+                "name": "Show 1 more"
+              },
+              "elapsedMs": 54
+            }
+          ],
+          "assertions": [
+            {
+              "type": "visible",
+              "target": {
+                "role": "button",
+                "name": "Show fewer"
+              },
+              "status": "pass",
+              "actual": true
+            },
+            {
+              "type": "text",
+              "pattern": "Mac\\s*44%\\s*iOS\\s*26%\\s*Windows\\s*17%\\s*Android\\s*9%\\s*GNU/Linux\\s*4%\\s*ChromeOS\\s*<0\\.5%",
+              "target": {
+                "role": "tabpanel"
+              },
+              "status": "pass",
+              "actual": "Mac\n44%\niOS\n26%\nWindows\n17%\nAndroid\n9%\nGNU/Linux\n4%\nChromeOS\n<0.5%\nShow fewer"
+            }
+          ],
+          "pageErrors": [],
+          "consoleErrors": [],
+          "captures": [
+            {
+              "clip": {
+                "x": 16,
+                "y": 16,
+                "width": 448,
+                "height": 337
+              },
+              "documentClip": {
+                "x": 16,
+                "y": 16,
+                "width": 448,
+                "height": 337
+              },
+              "scrollOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "bounds": {
+                "x": 16,
+                "y": 16,
+                "width": 448,
+                "height": 337
+              },
+              "masks": [],
+              "captureStartedAt": "2026-09-05T06:42:36.935Z",
+              "file": "bar-list-card-show-more-operating-systems-desktop-light-local.png"
+            }
+          ],
+          "fontResources": [
+            {
+              "url": "http://127.0.0.1:4124/_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2",
+              "status": 200,
+              "sha256": "1e06740a02a443fb7f3eeda8fcaa685a0f6c620e3f01e6666e847295469ce3ad",
+              "bytes": 40480
+            },
+            {
+              "url": "http://127.0.0.1:4124/_next/static/media/234d9015b631dab9-s.p.33gca1im1ku45.woff2",
+              "status": 200,
+              "sha256": "dd8a4575be9806105ac3decd02805cd2782fe7c05abb02c582316bc436ce03ae",
+              "bytes": 73016
+            }
+          ],
+          "httpStatus": 200,
+          "rootFont": {
+            "family": "Inter, \"Inter Fallback\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "size": "16px",
+            "weight": "400",
+            "opticalSizing": "auto",
+            "variationSettings": "normal"
+          },
+          "setup": [],
+          "normalization": {
+            "before": {
+              "x": 504,
+              "y": 348,
+              "width": 448,
+              "height": 177
+            },
+            "origin": {
+              "x": 16,
+              "y": 16
+            },
+            "width": 448,
+            "viewport": false,
+            "fullPage": false,
+            "background": "#ffffff",
+            "method": "stylesheet-scoped"
+          },
+          "interactions": "pass"
+        }
+      },
+      "images": {
+        "reference": "bar-list-card-show-more-operating-systems-desktop-light-reference.png",
+        "local": "bar-list-card-show-more-operating-systems-desktop-light-local.png",
+        "diff": "bar-list-card-show-more-operating-systems-desktop-light-diff.png"
+      },
+      "metrics": {
+        "reference": {
+          "width": 448,
+          "height": 301
+        },
+        "local": {
+          "width": 448,
+          "height": 337
+        },
+        "dimensionsMatch": false,
+        "changedPixels": 22248,
+        "exactChangedPixels": 22248,
+        "comparedPixels": 150976,
+        "maskedPixels": 0,
+        "changedRatio": 0.14736116998728274,
+        "maxChannelDifference": 255,
+        "meanAbsoluteChannelDifference": 30.50642265437332
+      },
+      "thresholds": {
+        "channelTolerance": 0,
+        "maxChangedRatio": 0
+      },
+      "masks": [],
+      "visualStatus": "fail"
+    },
+    {
+      "sequence": 1,
+      "id": "bar-list-card",
+      "title": "Bar List",
+      "state": "show-more-operating-systems",
+      "profile": "desktop",
+      "theme": "dark",
+      "status": "fail",
+      "coverage": {
+        "preview": "mapped",
+        "interactions": {
+          "status": "partial",
+          "reason": "All four tab categories are represented by initial plus three tab states, including exact reference row labels and percentages. Five-row overflow expansion is mapped; keyboard roving focus remains unverified."
+        },
+        "motion": {
+          "status": "unmapped",
+          "reason": "No reference motion timeline has been mapped for this component."
+        },
+        "variants": {
+          "status": "unmapped",
+          "reason": "Additional documentation examples are not covered by the main preview."
+        }
+      },
+      "exceptions": [],
+      "sides": {
+        "reference": {
+          "url": "https://www.boardui.com/components/bar-list-card",
+          "actions": [
+            {
+              "type": "click",
+              "target": {
+                "role": "tab",
+                "name": "Operating systems"
+              },
+              "elapsedMs": 46
+            },
+            {
+              "type": "click",
+              "target": {
+                "role": "button",
+                "name": "Show 1 more"
+              },
+              "elapsedMs": 45
+            }
+          ],
+          "assertions": [
+            {
+              "type": "visible",
+              "target": {
+                "role": "button",
+                "name": "Show fewer"
+              },
+              "status": "pass",
+              "actual": true
+            },
+            {
+              "type": "text",
+              "pattern": "Mac\\s*44%\\s*iOS\\s*26%\\s*Windows\\s*17%\\s*Android\\s*9%\\s*GNU/Linux\\s*4%\\s*ChromeOS\\s*<0\\.5%",
+              "target": {
+                "role": "tabpanel"
+              },
+              "status": "pass",
+              "actual": "Mac\n44%\niOS\n26%\nWindows\n17%\nAndroid\n9%\nGNU/Linux\n4%\nChromeOS\n<0.5%"
+            }
+          ],
+          "pageErrors": [],
+          "consoleErrors": [],
+          "captures": [
+            {
+              "clip": {
+                "x": 16,
+                "y": 16,
+                "width": 448,
+                "height": 301
+              },
+              "documentClip": {
+                "x": 16,
+                "y": 16,
+                "width": 448,
+                "height": 301
+              },
+              "scrollOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "bounds": {
+                "x": 16,
+                "y": 16,
+                "width": 448,
+                "height": 301
+              },
+              "masks": [],
+              "captureStartedAt": "2026-09-05T06:42:35.065Z",
+              "file": "bar-list-card-show-more-operating-systems-desktop-dark-reference.png"
+            }
+          ],
+          "fontResources": [
+            {
+              "url": "https://www.boardui.com/_next/static/media/234d9015b631dab9-s.p.0_3shu4gwev1q.woff2?dpl=dpl_DtZGATJAq2pV3PKTdLi3wkMiYbQ4",
+              "status": 200,
+              "sha256": "dd8a4575be9806105ac3decd02805cd2782fe7c05abb02c582316bc436ce03ae",
+              "bytes": 73016
+            },
+            {
+              "url": "https://www.boardui.com/_next/static/media/70bc3e132a0a741e-s.p.1409xf.ylxg8g.woff2?dpl=dpl_DtZGATJAq2pV3PKTdLi3wkMiYbQ4",
+              "status": 200,
+              "sha256": "1e06740a02a443fb7f3eeda8fcaa685a0f6c620e3f01e6666e847295469ce3ad",
+              "bytes": 40480
+            }
+          ],
+          "httpStatus": 200,
+          "rootFont": {
+            "family": "Inter, \"Inter Fallback\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "size": "16px",
+            "weight": "400",
+            "opticalSizing": "auto",
+            "variationSettings": "normal"
+          },
+          "setup": [
+            {
+              "type": "click",
+              "target": {
+                "role": "button",
+                "name": "Decline"
+              },
+              "scope": "page",
+              "optional": true,
+              "optionalTimeoutMs": 2500,
+              "reason": "Dismiss the documentation cookie banner through its Decline control before capture; it may mount after hydration.",
+              "elapsedMs": 45
+            }
+          ],
+          "normalization": {
+            "before": {
+              "x": 504,
+              "y": 399,
+              "width": 448,
+              "height": 177
+            },
+            "origin": {
+              "x": 16,
+              "y": 16
+            },
+            "width": 448,
+            "viewport": false,
+            "fullPage": false,
+            "background": "#111111",
+            "method": "stylesheet-scoped"
+          },
+          "interactions": "pass"
+        },
+        "local": {
+          "url": "http://127.0.0.1:4124/components/bar-list-card",
+          "actions": [
+            {
+              "type": "click",
+              "target": {
+                "role": "tab",
+                "name": "Operating systems"
+              },
+              "elapsedMs": 42
+            },
+            {
+              "type": "click",
+              "target": {
+                "role": "button",
+                "name": "Show 1 more"
+              },
+              "elapsedMs": 53
+            }
+          ],
+          "assertions": [
+            {
+              "type": "visible",
+              "target": {
+                "role": "button",
+                "name": "Show fewer"
+              },
+              "status": "pass",
+              "actual": true
+            },
+            {
+              "type": "text",
+              "pattern": "Mac\\s*44%\\s*iOS\\s*26%\\s*Windows\\s*17%\\s*Android\\s*9%\\s*GNU/Linux\\s*4%\\s*ChromeOS\\s*<0\\.5%",
+              "target": {
+                "role": "tabpanel"
+              },
+              "status": "pass",
+              "actual": "Mac\n44%\niOS\n26%\nWindows\n17%\nAndroid\n9%\nGNU/Linux\n4%\nChromeOS\n<0.5%\nShow fewer"
+            }
+          ],
+          "pageErrors": [],
+          "consoleErrors": [],
+          "captures": [
+            {
+              "clip": {
+                "x": 16,
+                "y": 16,
+                "width": 448,
+                "height": 337
+              },
+              "documentClip": {
+                "x": 16,
+                "y": 16,
+                "width": 448,
+                "height": 337
+              },
+              "scrollOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "bounds": {
+                "x": 16,
+                "y": 16,
+                "width": 448,
+                "height": 337
+              },
+              "masks": [],
+              "captureStartedAt": "2026-09-05T06:42:37.273Z",
+              "file": "bar-list-card-show-more-operating-systems-desktop-dark-local.png"
+            }
+          ],
+          "fontResources": [
+            {
+              "url": "http://127.0.0.1:4124/_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2",
+              "status": 200,
+              "sha256": "1e06740a02a443fb7f3eeda8fcaa685a0f6c620e3f01e6666e847295469ce3ad",
+              "bytes": 40480
+            },
+            {
+              "url": "http://127.0.0.1:4124/_next/static/media/234d9015b631dab9-s.p.33gca1im1ku45.woff2",
+              "status": 200,
+              "sha256": "dd8a4575be9806105ac3decd02805cd2782fe7c05abb02c582316bc436ce03ae",
+              "bytes": 73016
+            }
+          ],
+          "httpStatus": 200,
+          "rootFont": {
+            "family": "Inter, \"Inter Fallback\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "size": "16px",
+            "weight": "400",
+            "opticalSizing": "auto",
+            "variationSettings": "normal"
+          },
+          "setup": [],
+          "normalization": {
+            "before": {
+              "x": 504,
+              "y": 348,
+              "width": 448,
+              "height": 177
+            },
+            "origin": {
+              "x": 16,
+              "y": 16
+            },
+            "width": 448,
+            "viewport": false,
+            "fullPage": false,
+            "background": "#111111",
+            "method": "stylesheet-scoped"
+          },
+          "interactions": "pass"
+        }
+      },
+      "images": {
+        "reference": "bar-list-card-show-more-operating-systems-desktop-dark-reference.png",
+        "local": "bar-list-card-show-more-operating-systems-desktop-dark-local.png",
+        "diff": "bar-list-card-show-more-operating-systems-desktop-dark-diff.png"
+      },
+      "metrics": {
+        "reference": {
+          "width": 448,
+          "height": 301
+        },
+        "local": {
+          "width": 448,
+          "height": 337
+        },
+        "dimensionsMatch": false,
+        "changedPixels": 22312,
+        "exactChangedPixels": 22312,
+        "comparedPixels": 150976,
+        "maskedPixels": 0,
+        "changedRatio": 0.14778507842306063,
+        "maxChannelDifference": 255,
+        "meanAbsoluteChannelDifference": 30.393596774763317
+      },
+      "thresholds": {
+        "channelTolerance": 0,
+        "maxChangedRatio": 0
+      },
+      "masks": [],
+      "visualStatus": "fail"
+    },
+    {
+      "sequence": 2,
+      "id": "bar-list-card",
+      "title": "Bar List",
+      "state": "show-more-operating-systems",
+      "profile": "mobile",
+      "theme": "light",
+      "status": "fail",
+      "coverage": {
+        "preview": "mapped",
+        "interactions": {
+          "status": "partial",
+          "reason": "All four tab categories are represented by initial plus three tab states, including exact reference row labels and percentages. Five-row overflow expansion is mapped; keyboard roving focus remains unverified."
+        },
+        "motion": {
+          "status": "unmapped",
+          "reason": "No reference motion timeline has been mapped for this component."
+        },
+        "variants": {
+          "status": "unmapped",
+          "reason": "Additional documentation examples are not covered by the main preview."
+        }
+      },
+      "exceptions": [],
+      "sides": {
+        "reference": {
+          "url": "https://www.boardui.com/components/bar-list-card",
+          "actions": [
+            {
+              "type": "click",
+              "target": {
+                "role": "tab",
+                "name": "Operating systems"
+              },
+              "elapsedMs": 45
+            },
+            {
+              "type": "click",
+              "target": {
+                "role": "button",
+                "name": "Show 1 more"
+              },
+              "elapsedMs": 47
+            }
+          ],
+          "assertions": [
+            {
+              "type": "visible",
+              "target": {
+                "role": "button",
+                "name": "Show fewer"
+              },
+              "status": "pass",
+              "actual": true
+            },
+            {
+              "type": "text",
+              "pattern": "Mac\\s*44%\\s*iOS\\s*26%\\s*Windows\\s*17%\\s*Android\\s*9%\\s*GNU/Linux\\s*4%\\s*ChromeOS\\s*<0\\.5%",
+              "target": {
+                "role": "tabpanel"
+              },
+              "status": "pass",
+              "actual": "Mac\n44%\niOS\n26%\nWindows\n17%\nAndroid\n9%\nGNU/Linux\n4%\nChromeOS\n<0.5%"
+            }
+          ],
+          "pageErrors": [],
+          "consoleErrors": [],
+          "captures": [
+            {
+              "clip": {
+                "x": 16,
+                "y": 16,
+                "width": 358,
+                "height": 301
+              },
+              "documentClip": {
+                "x": 16,
+                "y": 16,
+                "width": 358,
+                "height": 301
+              },
+              "scrollOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "bounds": {
+                "x": 16,
+                "y": 16,
+                "width": 358,
+                "height": 301
+              },
+              "masks": [],
+              "captureStartedAt": "2026-09-05T06:42:34.837Z",
+              "file": "bar-list-card-show-more-operating-systems-mobile-light-reference.png"
+            }
+          ],
+          "fontResources": [
+            {
+              "url": "https://www.boardui.com/_next/static/media/70bc3e132a0a741e-s.p.1409xf.ylxg8g.woff2?dpl=dpl_DtZGATJAq2pV3PKTdLi3wkMiYbQ4",
+              "status": 200,
+              "sha256": "1e06740a02a443fb7f3eeda8fcaa685a0f6c620e3f01e6666e847295469ce3ad",
+              "bytes": 40480
+            },
+            {
+              "url": "https://www.boardui.com/_next/static/media/234d9015b631dab9-s.p.0_3shu4gwev1q.woff2?dpl=dpl_DtZGATJAq2pV3PKTdLi3wkMiYbQ4",
+              "status": 200,
+              "sha256": "dd8a4575be9806105ac3decd02805cd2782fe7c05abb02c582316bc436ce03ae",
+              "bytes": 73016
+            }
+          ],
+          "httpStatus": 200,
+          "rootFont": {
+            "family": "Inter, \"Inter Fallback\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "size": "16px",
+            "weight": "400",
+            "opticalSizing": "auto",
+            "variationSettings": "normal"
+          },
+          "setup": [
+            {
+              "type": "click",
+              "target": {
+                "role": "button",
+                "name": "Decline"
+              },
+              "scope": "page",
+              "optional": true,
+              "optionalTimeoutMs": 2500,
+              "reason": "Dismiss the documentation cookie banner through its Decline control before capture; it may mount after hydration.",
+              "elapsedMs": 47
+            }
+          ],
+          "normalization": {
+            "before": {
+              "x": 57,
+              "y": 545,
+              "width": 276,
+              "height": 177
+            },
+            "origin": {
+              "x": 16,
+              "y": 16
+            },
+            "width": 358,
+            "viewport": false,
+            "fullPage": false,
+            "background": "#ffffff",
+            "method": "stylesheet-scoped"
+          },
+          "interactions": "pass"
+        },
+        "local": {
+          "url": "http://127.0.0.1:4124/components/bar-list-card",
+          "actions": [
+            {
+              "type": "click",
+              "target": {
+                "role": "tab",
+                "name": "Operating systems"
+              },
+              "elapsedMs": 44
+            },
+            {
+              "type": "click",
+              "target": {
+                "role": "button",
+                "name": "Show 1 more"
+              },
+              "elapsedMs": 68
+            }
+          ],
+          "assertions": [
+            {
+              "type": "visible",
+              "target": {
+                "role": "button",
+                "name": "Show fewer"
+              },
+              "status": "pass",
+              "actual": true
+            },
+            {
+              "type": "text",
+              "pattern": "Mac\\s*44%\\s*iOS\\s*26%\\s*Windows\\s*17%\\s*Android\\s*9%\\s*GNU/Linux\\s*4%\\s*ChromeOS\\s*<0\\.5%",
+              "target": {
+                "role": "tabpanel"
+              },
+              "status": "pass",
+              "actual": "Mac\n44%\niOS\n26%\nWindows\n17%\nAndroid\n9%\nGNU/Linux\n4%\nChromeOS\n<0.5%\nShow fewer"
+            }
+          ],
+          "pageErrors": [],
+          "consoleErrors": [],
+          "captures": [
+            {
+              "clip": {
+                "x": 16,
+                "y": 16,
+                "width": 358,
+                "height": 337
+              },
+              "documentClip": {
+                "x": 16,
+                "y": 16,
+                "width": 358,
+                "height": 337
+              },
+              "scrollOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "bounds": {
+                "x": 16,
+                "y": 16,
+                "width": 358,
+                "height": 337
+              },
+              "masks": [],
+              "captureStartedAt": "2026-09-05T06:42:36.840Z",
+              "file": "bar-list-card-show-more-operating-systems-mobile-light-local.png"
+            }
+          ],
+          "fontResources": [
+            {
+              "url": "http://127.0.0.1:4124/_next/static/media/234d9015b631dab9-s.p.33gca1im1ku45.woff2",
+              "status": 200,
+              "sha256": "dd8a4575be9806105ac3decd02805cd2782fe7c05abb02c582316bc436ce03ae",
+              "bytes": 73016
+            },
+            {
+              "url": "http://127.0.0.1:4124/_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2",
+              "status": 200,
+              "sha256": "1e06740a02a443fb7f3eeda8fcaa685a0f6c620e3f01e6666e847295469ce3ad",
+              "bytes": 40480
+            }
+          ],
+          "httpStatus": 200,
+          "rootFont": {
+            "family": "Inter, \"Inter Fallback\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "size": "16px",
+            "weight": "400",
+            "opticalSizing": "auto",
+            "variationSettings": "normal"
+          },
+          "setup": [],
+          "normalization": {
+            "before": {
+              "x": 41,
+              "y": 410,
+              "width": 308,
+              "height": 177
+            },
+            "origin": {
+              "x": 16,
+              "y": 16
+            },
+            "width": 358,
+            "viewport": false,
+            "fullPage": false,
+            "background": "#ffffff",
+            "method": "stylesheet-scoped"
+          },
+          "interactions": "pass"
+        }
+      },
+      "images": {
+        "reference": "bar-list-card-show-more-operating-systems-mobile-light-reference.png",
+        "local": "bar-list-card-show-more-operating-systems-mobile-light-local.png",
+        "diff": "bar-list-card-show-more-operating-systems-mobile-light-diff.png"
+      },
+      "metrics": {
+        "reference": {
+          "width": 358,
+          "height": 301
+        },
+        "local": {
+          "width": 358,
+          "height": 337
+        },
+        "dimensionsMatch": false,
+        "changedPixels": 18730,
+        "exactChangedPixels": 18730,
+        "comparedPixels": 120646,
+        "maskedPixels": 0,
+        "changedRatio": 0.15524758384032625,
+        "maxChannelDifference": 255,
+        "meanAbsoluteChannelDifference": 31.19050776652355
+      },
+      "thresholds": {
+        "channelTolerance": 0,
+        "maxChangedRatio": 0
+      },
+      "masks": [],
+      "visualStatus": "fail"
+    },
+    {
+      "sequence": 3,
+      "id": "bar-list-card",
+      "title": "Bar List",
+      "state": "show-more-operating-systems",
+      "profile": "mobile",
+      "theme": "dark",
+      "status": "fail",
+      "coverage": {
+        "preview": "mapped",
+        "interactions": {
+          "status": "partial",
+          "reason": "All four tab categories are represented by initial plus three tab states, including exact reference row labels and percentages. Five-row overflow expansion is mapped; keyboard roving focus remains unverified."
+        },
+        "motion": {
+          "status": "unmapped",
+          "reason": "No reference motion timeline has been mapped for this component."
+        },
+        "variants": {
+          "status": "unmapped",
+          "reason": "Additional documentation examples are not covered by the main preview."
+        }
+      },
+      "exceptions": [],
+      "sides": {
+        "reference": {
+          "url": "https://www.boardui.com/components/bar-list-card",
+          "actions": [
+            {
+              "type": "click",
+              "target": {
+                "role": "tab",
+                "name": "Operating systems"
+              },
+              "elapsedMs": 48
+            },
+            {
+              "type": "click",
+              "target": {
+                "role": "button",
+                "name": "Show 1 more"
+              },
+              "elapsedMs": 44
+            }
+          ],
+          "assertions": [
+            {
+              "type": "visible",
+              "target": {
+                "role": "button",
+                "name": "Show fewer"
+              },
+              "status": "pass",
+              "actual": true
+            },
+            {
+              "type": "text",
+              "pattern": "Mac\\s*44%\\s*iOS\\s*26%\\s*Windows\\s*17%\\s*Android\\s*9%\\s*GNU/Linux\\s*4%\\s*ChromeOS\\s*<0\\.5%",
+              "target": {
+                "role": "tabpanel"
+              },
+              "status": "pass",
+              "actual": "Mac\n44%\niOS\n26%\nWindows\n17%\nAndroid\n9%\nGNU/Linux\n4%\nChromeOS\n<0.5%"
+            }
+          ],
+          "pageErrors": [],
+          "consoleErrors": [],
+          "captures": [
+            {
+              "clip": {
+                "x": 16,
+                "y": 16,
+                "width": 358,
+                "height": 301
+              },
+              "documentClip": {
+                "x": 16,
+                "y": 16,
+                "width": 358,
+                "height": 301
+              },
+              "scrollOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "bounds": {
+                "x": 16,
+                "y": 16,
+                "width": 358,
+                "height": 301
+              },
+              "masks": [],
+              "captureStartedAt": "2026-09-05T06:42:35.050Z",
+              "file": "bar-list-card-show-more-operating-systems-mobile-dark-reference.png"
+            }
+          ],
+          "fontResources": [
+            {
+              "url": "https://www.boardui.com/_next/static/media/70bc3e132a0a741e-s.p.1409xf.ylxg8g.woff2?dpl=dpl_DtZGATJAq2pV3PKTdLi3wkMiYbQ4",
+              "status": 200,
+              "sha256": "1e06740a02a443fb7f3eeda8fcaa685a0f6c620e3f01e6666e847295469ce3ad",
+              "bytes": 40480
+            },
+            {
+              "url": "https://www.boardui.com/_next/static/media/234d9015b631dab9-s.p.0_3shu4gwev1q.woff2?dpl=dpl_DtZGATJAq2pV3PKTdLi3wkMiYbQ4",
+              "status": 200,
+              "sha256": "dd8a4575be9806105ac3decd02805cd2782fe7c05abb02c582316bc436ce03ae",
+              "bytes": 73016
+            }
+          ],
+          "httpStatus": 200,
+          "rootFont": {
+            "family": "Inter, \"Inter Fallback\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "size": "16px",
+            "weight": "400",
+            "opticalSizing": "auto",
+            "variationSettings": "normal"
+          },
+          "setup": [
+            {
+              "type": "click",
+              "target": {
+                "role": "button",
+                "name": "Decline"
+              },
+              "scope": "page",
+              "optional": true,
+              "optionalTimeoutMs": 2500,
+              "reason": "Dismiss the documentation cookie banner through its Decline control before capture; it may mount after hydration.",
+              "elapsedMs": 54
+            }
+          ],
+          "normalization": {
+            "before": {
+              "x": 57,
+              "y": 545,
+              "width": 276,
+              "height": 177
+            },
+            "origin": {
+              "x": 16,
+              "y": 16
+            },
+            "width": 358,
+            "viewport": false,
+            "fullPage": false,
+            "background": "#111111",
+            "method": "stylesheet-scoped"
+          },
+          "interactions": "pass"
+        },
+        "local": {
+          "url": "http://127.0.0.1:4124/components/bar-list-card",
+          "actions": [
+            {
+              "type": "click",
+              "target": {
+                "role": "tab",
+                "name": "Operating systems"
+              },
+              "elapsedMs": 42
+            },
+            {
+              "type": "click",
+              "target": {
+                "role": "button",
+                "name": "Show 1 more"
+              },
+              "elapsedMs": 54
+            }
+          ],
+          "assertions": [
+            {
+              "type": "visible",
+              "target": {
+                "role": "button",
+                "name": "Show fewer"
+              },
+              "status": "pass",
+              "actual": true
+            },
+            {
+              "type": "text",
+              "pattern": "Mac\\s*44%\\s*iOS\\s*26%\\s*Windows\\s*17%\\s*Android\\s*9%\\s*GNU/Linux\\s*4%\\s*ChromeOS\\s*<0\\.5%",
+              "target": {
+                "role": "tabpanel"
+              },
+              "status": "pass",
+              "actual": "Mac\n44%\niOS\n26%\nWindows\n17%\nAndroid\n9%\nGNU/Linux\n4%\nChromeOS\n<0.5%\nShow fewer"
+            }
+          ],
+          "pageErrors": [],
+          "consoleErrors": [],
+          "captures": [
+            {
+              "clip": {
+                "x": 16,
+                "y": 16,
+                "width": 358,
+                "height": 337
+              },
+              "documentClip": {
+                "x": 16,
+                "y": 16,
+                "width": 358,
+                "height": 337
+              },
+              "scrollOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "bounds": {
+                "x": 16,
+                "y": 16,
+                "width": 358,
+                "height": 337
+              },
+              "masks": [],
+              "captureStartedAt": "2026-09-05T06:42:37.070Z",
+              "file": "bar-list-card-show-more-operating-systems-mobile-dark-local.png"
+            }
+          ],
+          "fontResources": [
+            {
+              "url": "http://127.0.0.1:4124/_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2",
+              "status": 200,
+              "sha256": "1e06740a02a443fb7f3eeda8fcaa685a0f6c620e3f01e6666e847295469ce3ad",
+              "bytes": 40480
+            },
+            {
+              "url": "http://127.0.0.1:4124/_next/static/media/234d9015b631dab9-s.p.33gca1im1ku45.woff2",
+              "status": 200,
+              "sha256": "dd8a4575be9806105ac3decd02805cd2782fe7c05abb02c582316bc436ce03ae",
+              "bytes": 73016
+            }
+          ],
+          "httpStatus": 200,
+          "rootFont": {
+            "family": "Inter, \"Inter Fallback\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "size": "16px",
+            "weight": "400",
+            "opticalSizing": "auto",
+            "variationSettings": "normal"
+          },
+          "setup": [],
+          "normalization": {
+            "before": {
+              "x": 41,
+              "y": 410,
+              "width": 308,
+              "height": 177
+            },
+            "origin": {
+              "x": 16,
+              "y": 16
+            },
+            "width": 358,
+            "viewport": false,
+            "fullPage": false,
+            "background": "#111111",
+            "method": "stylesheet-scoped"
+          },
+          "interactions": "pass"
+        }
+      },
+      "images": {
+        "reference": "bar-list-card-show-more-operating-systems-mobile-dark-reference.png",
+        "local": "bar-list-card-show-more-operating-systems-mobile-dark-local.png",
+        "diff": "bar-list-card-show-more-operating-systems-mobile-dark-diff.png"
+      },
+      "metrics": {
+        "reference": {
+          "width": 358,
+          "height": 301
+        },
+        "local": {
+          "width": 358,
+          "height": 337
+        },
+        "dimensionsMatch": false,
+        "changedPixels": 18795,
+        "exactChangedPixels": 18795,
+        "comparedPixels": 120646,
+        "maskedPixels": 0,
+        "changedRatio": 0.15578635014836795,
+        "maxChannelDifference": 255,
+        "meanAbsoluteChannelDifference": 31.081525012571213
+      },
+      "thresholds": {
+        "channelTolerance": 0,
+        "maxChangedRatio": 0
+      },
+      "masks": [],
+      "visualStatus": "fail"
+    }
+  ],
+  "summary": {
+    "pass": 0,
+    "fail": 4,
+    "error": 0,
+    "unmapped": 0
+  },
+  "exitCode": 1
+}

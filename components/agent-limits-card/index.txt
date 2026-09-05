@@ -1,0 +1,270 @@
+1:"$Sreact.fragment"
+2:I[72844,["/_next/static/chunks/0by1pam5w7cuf.js"],""]
+3:I[37280,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+4:I[75701,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+6:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+a:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"ViewportBoundary"]
+c:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"MetadataBoundary"]
+e:I[84167,["/_next/static/chunks/0by1pam5w7cuf.js"],"default",1]
+:HL["/_next/static/chunks/16_ml9va511u1.css","style"]
+:HL["/_next/static/chunks/1lom8-olk25vh.css","style"]
+:HL["/_next/static/media/234d9015b631dab9-s.p.33gca1im1ku45.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+9:X
+0:{"P":null,"c":["","components","agent-limits-card",""],"q":"","i":false,"f":[[["",{"children":["components",{"children":[["slug","agent-limits-card","d",[]],{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0by1pam5w7cuf.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L2",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/3l5f3qnr89rl0.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0wmbfrsxfdesk.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/3ixdl2m026on9.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/3xa-hzf5c_c6n.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/1zihipy0kqa1_.js","async":true,"nonce":"$undefined"}],["$","script","script-5",{"src":"/_next/static/chunks/0-afrvt74ak7l.js","async":true,"nonce":"$undefined"}],["$","script","script-6",{"src":"/_next/static/chunks/0337601gswv_s.js","async":true,"nonce":"$undefined"}],["$","script","script-7",{"src":"/_next/static/chunks/34zl6f3dq0u0q.js","async":true,"nonce":"$undefined"}],["$","script","script-8",{"src":"/_next/static/chunks/2az_x4uxpy3sm.js","async":true,"nonce":"$undefined"}],["$","script","script-9",{"src":"/_next/static/chunks/23ywcyogzmwlv.js","async":true,"nonce":"$undefined"}],["$","script","script-10",{"src":"/_next/static/chunks/2qg2knl-9_2le.js","async":true,"nonce":"$undefined"}],["$","script","script-11",{"src":"/_next/static/chunks/1wypk9kc4p_mt.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$9"]},null,false,"$9"]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],"$Lf"]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Kgh3aKGUUDrNWttN7OqGM"}
+9:C
+f:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+10:I[54515,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"DocsLayout"]
+5:["$","$L10",null,{"title":"Agent Limits","heading":"Agent Limits","icon":"components","groups":[{"id":"foundations","title":"Foundations","items":[{"name":"tokens","title":"Design tokens","isNew":"$undefined"},{"name":"typography","title":"Typography","isNew":"$undefined"},{"name":"cx","title":"cx","isNew":"$undefined"},{"name":"chevrons","title":"Chevrons","isNew":"$undefined"},{"name":"logo","title":"Logo","isNew":"$undefined"},{"name":"use-count-up","title":"useCountUp","isNew":"$undefined"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress","isNew":"$undefined"}]},{"id":"base","title":"Base","items":[{"name":"button","title":"Button","isNew":"$undefined"},{"name":"icon-button","title":"Icon Button","isNew":"$undefined"},{"name":"link-button","title":"Link Button","isNew":"$undefined"},{"name":"button-group","title":"Button Group","isNew":"$undefined"},{"name":"close-button","title":"Close Button","isNew":"$undefined"},{"name":"social-button","title":"Social Button","isNew":"$undefined"},{"name":"input","title":"Input","isNew":"$undefined"},{"name":"input-otp","title":"Input OTP","isNew":"$undefined"},{"name":"checkbox","title":"Checkbox","isNew":"$undefined"},{"name":"radio","title":"Radio","isNew":"$undefined"},{"name":"switch","title":"Switch","isNew":"$undefined"},{"name":"select","title":"Select","isNew":"$undefined"},{"name":"slider","title":"Slider","isNew":"$undefined"},{"name":"dropdown","title":"Dropdown","isNew":"$undefined"},{"name":"divider","title":"Divider","isNew":"$undefined"},{"name":"file-upload","title":"File Upload","isNew":"$undefined"},{"name":"tabs","title":"Tabs","isNew":"$undefined"},{"name":"segmented-control","title":"Segmented Control","isNew":"$undefined"},{"name":"table","title":"Table","isNew":"$undefined"},{"name":"tooltip","title":"Tooltip","isNew":"$undefined"},{"name":"badge","title":"Badge","isNew":"$undefined"},{"name":"chip","title":"Chip","isNew":"$undefined"},{"name":"status-dot","title":"Status Dot","isNew":"$undefined"},{"name":"kbd","title":"Kbd","isNew":"$undefined"},{"name":"avatar","title":"Avatar","isNew":"$undefined"},{"name":"breadcrumb","title":"Breadcrumb","isNew":"$undefined"},{"name":"pagination","title":"Pagination","isNew":"$undefined"},{"name":"carousel","title":"Carousel","isNew":"$undefined"},{"name":"announcement","title":"Announcement","isNew":"$undefined"},{"name":"notification","title":"Notification","isNew":"$undefined"},{"name":"date-picker","title":"Date Picker","isNew":"$undefined"},{"name":"date-range-picker","title":"Date Range Picker","isNew":"$undefined"},{"name":"meeting-scheduler","title":"Meeting Scheduler","isNew":"$undefined"}]},{"id":"blocks","title":"Blocks","items":[{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"calendar","title":"Calendar","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"theme-toggle","title":"Theme Toggle","isNew":"$undefined"},{"name":"stat-cards","title":"Stat Cards","isNew":"$undefined"},{"name":"data-table","title":"Data Table","isNew":"$undefined"},{"name":"sidebar","title":"Sidebar","isNew":"$undefined"},{"name":"app-shell","title":"App Shell","isNew":"$undefined"},{"name":"notification-center","title":"Notification Center","isNew":"$undefined"},{"name":"settings-modal","title":"Settings Modal","isNew":"$undefined"},{"name":"auth-card","title":"Auth Card","isNew":"$undefined"},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking","isNew":"$undefined"},{"name":"composer-loader","title":"Composer Loader","isNew":"$undefined"},{"name":"agent-log","title":"Agent Log","isNew":"$undefined"},{"name":"agent-chat","title":"Agent Chat","isNew":"$undefined"}]},{"id":"charts","title":"Charts","items":[{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart","isNew":"$undefined"},{"name":"orders-chart-card","title":"Orders Chart","isNew":"$undefined"},{"name":"important-alerts-card","title":"Important Alerts","isNew":"$undefined"},{"name":"patient-info-card","title":"Patient Info","isNew":"$undefined"}]},{"id":"templates","title":"Templates","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true},{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true}]}],"description":"Context window usage as a segmented bar with an expandable token breakdown, plus plan quotas and their reset times.","columnClassName":"$undefined","detail":true,"children":"$L11"}]
+12:I[26438,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"ComponentPage"]
+13:T2da2,"use client";
+
+import { RiArrowDownSLine, RiArrowRightLine, RiArrowRightSLine } from "@remixicon/react";
+import { AnimatePresence, motion, useReducedMotion } from "motion/react";
+import { useId, useState } from "react";
+import { cx } from "../../utils/cx";
+
+export interface AgentContextSegment {
+  label: string;
+  tokens: number;
+  /** Any CSS colour. Defaults to a chart token chosen by position. */
+  color?: string;
+  /** Listed in the breakdown, excluded from the used total and the bar. */
+  deferred?: boolean;
+}
+export interface AgentContextGroupItem { label: string; tokens: number; }
+export interface AgentContextGroup { label: string; tokens: number; items: AgentContextGroupItem[]; }
+export interface AgentContext { max: number; segments: AgentContextSegment[]; groups?: AgentContextGroup[]; }
+export interface AgentPlanLimit {
+  label: string;
+  /** Fraction of the quota consumed; the progress bar clamps to 0–1. */
+  used: number;
+  resets: string;
+}
+export interface AgentLimitsCardProps {
+  context: AgentContext;
+  plan?: string;
+  /** Destination of the "Manage plan" arrow. */
+  planHref?: string;
+  limits?: AgentPlanLimit[];
+  defaultExpanded?: boolean;
+  expanded?: boolean;
+  onExpandedChange?: (expanded: boolean) => void;
+  className?: string;
+}
+
+/** 1_000_000 → "1M", 820_000 → "820k", 69_900 → "69.9k". */
+export function formatTokens(tokens: number): string {
+  const abs = Math.abs(tokens);
+  if (abs >= 1_000_000) return String(Math.round((tokens / 1_000_000) * 10) / 10) + "M";
+  if (abs >= 1_000) return String(Math.round((tokens / 1_000) * 10) / 10) + "k";
+  return String(tokens);
+}
+const share = (part: number, whole: number) => whole > 0 ? (part / whole) * 100 : 0;
+const clamp = (fraction: number) => Math.min(Math.max(fraction, 0), 1);
+const widthPercent = (part: number, whole: number) =>
+  String(Math.round(clamp(whole > 0 ? part / whole : 0) * 1_000_000) / 10_000) + "%";
+const palette = [6, 5, 3, 8, 7, 4, 1, 2, 9];
+const segmentColor = (segment: AgentContextSegment, index: number) =>
+  segment.color ?? (segment.deferred ? "var(--color-chart-cursor)" : "var(--color-chart-" + palette[index % palette.length] + ")");
+// Measured from the live preview: height and opacity use the same curve.
+const ease = [0.22, 1, 0.36, 1] as const;
+
+function GroupRow({ group, open, onToggle, reducedMotion }: {
+  group: AgentContextGroup; open: boolean; onToggle: () => void; reducedMotion: boolean;
+}) {
+  const panelId = useId();
+  return (
+    <li className="flex flex-col">
+      <button type="button" aria-expanded={open} aria-controls={open ? panelId : undefined} onClick={onToggle}
+        className="-mx-2 flex cursor-pointer items-center gap-1.5 rounded-2lg px-2 py-[7px] text-left outline-none transition-colors duration-150 hover:bg-background-secondary-hover focus-visible:ring-2 focus-visible:ring-border-focus-ring motion-reduce:transition-none">
+        <RiArrowRightSLine aria-hidden className={cx("size-4 shrink-0 text-text-tertiary transition-transform duration-200 ease-out motion-reduce:transition-none", open && "rotate-90")} />
+        <span className="min-w-0 flex-1 truncate text-body-regular text-text-secondary">{group.label}</span>
+        <span className="text-body-regular text-text-tertiary tabular-nums">{formatTokens(group.tokens)}</span>
+        <span className="w-14 text-right text-body-regular text-text-tertiary tabular-nums">{group.items.length}</span>
+      </button>
+      <AnimatePresence initial={false}>
+        {open && (
+          <motion.div id={panelId} initial={{ height: 0, opacity: 0 }} animate={{ height: "auto", opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }} transition={{ duration: reducedMotion ? 0 : 0.26, ease }} className="overflow-hidden">
+            <ul className="flex flex-col pb-1 pl-[22px]">
+              {group.items.map(item => (
+                <li key={item.label} className="flex items-center gap-2 py-1">
+                  <span className="min-w-0 flex-1 truncate text-body-2-regular text-text-secondary">{item.label}</span>
+                  <span className="text-body-2-regular text-text-tertiary tabular-nums">{formatTokens(item.tokens)}</span>
+                  <span className="w-14" aria-hidden />
+                </li>
+              ))}
+            </ul>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </li>
+  );
+}
+
+export function AgentLimitsCard({ context, plan, planHref, limits = [], defaultExpanded = false, expanded, onExpandedChange, className }: AgentLimitsCardProps) {
+  const [internalExpanded, setInternalExpanded] = useState(defaultExpanded);
+  // Keep group state outside the exiting panel so reopening restores it.
+  const [openGroups, setOpenGroups] = useState<Record<string, boolean>>({});
+  const open = expanded ?? internalExpanded;
+  const reducedMotion = useReducedMotion() === true;
+  const panelId = useId();
+  const counted = context.segments.map((segment, index) => ({ segment, index })).filter(({ segment }) => !segment.deferred);
+  const used = counted.reduce((sum, { segment }) => sum + segment.tokens, 0);
+  const free = Math.max(context.max - used, 0);
+  function toggle() {
+    if (expanded === undefined) setInternalExpanded(!open);
+    onExpandedChange?.(!open);
+  }
+  return (
+    <section className={cx("flex w-full min-w-0 flex-col rounded-2xl bg-background-secondary-default px-4 pt-2.5 pb-4", className)}>
+      <button type="button" aria-expanded={open} aria-controls={open ? panelId : undefined} onClick={toggle}
+        className="group -mx-2 flex cursor-pointer items-center justify-between gap-3 rounded-2lg px-2 py-1 text-left outline-none transition-colors duration-150 hover:bg-background-secondary-hover focus-visible:ring-2 focus-visible:ring-border-focus-ring motion-reduce:transition-none">
+        <span className="text-body-medium text-text-secondary">Context window</span>
+        <span className="flex items-center gap-2">
+          <span className="text-body-medium whitespace-nowrap text-text-secondary tabular-nums">
+            {formatTokens(used)} / {formatTokens(context.max)}{" "}
+            <span className="text-text-primary">({Math.round(share(used, context.max))}%)</span>
+          </span>
+          <RiArrowDownSLine aria-hidden className={cx("size-4 shrink-0 text-text-tertiary transition-transform duration-200 ease-out group-hover:text-text-secondary motion-reduce:transition-none", open && "rotate-180")} />
+        </span>
+      </button>
+      <div role="progressbar" aria-label="Context window usage"
+        aria-valuenow={Math.round(clamp(context.max > 0 ? used / context.max : 0) * 100)} aria-valuemin={0} aria-valuemax={100}
+        className="mt-1.5 flex h-1.5 w-full gap-px overflow-hidden rounded-full bg-chart-track">
+        {counted.map(({ segment, index }) => (
+          <div key={segment.label} className="h-full shrink-0 transition-[width] duration-500 ease-out motion-reduce:transition-none"
+            style={{ width: widthPercent(segment.tokens, context.max), backgroundColor: segmentColor(segment, index) }}
+            title={segment.label + " · " + formatTokens(segment.tokens)} />
+        ))}
+      </div>
+      <AnimatePresence initial={false}>
+        {open && (
+          <motion.div id={panelId} initial={{ height: 0, opacity: 0 }} animate={{ height: "auto", opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }} transition={{ duration: reducedMotion ? 0 : 0.32, ease }} className="-mx-2 overflow-hidden px-2">
+            <div className="flex flex-col pt-3">
+              <ul className="flex flex-col">
+                {context.segments.map((segment, index) => (
+                  <li key={segment.label} className="flex items-center gap-2 py-[5px]">
+                    <span aria-hidden className="size-2.5 shrink-0 rounded-[3px]" style={{ backgroundColor: segmentColor(segment, index) }} />
+                    <span className="min-w-0 flex-1 truncate text-body-regular text-text-primary">{segment.label}</span>
+                    <span className="text-body-regular text-text-tertiary tabular-nums">{formatTokens(segment.tokens)}</span>
+                    <span className="w-14 text-right text-body-medium text-text-primary tabular-nums">{segment.deferred ? "—" : share(segment.tokens, context.max).toFixed(1) + "%"}</span>
+                  </li>
+                ))}
+                <li className="flex items-center gap-2 py-[5px]">
+                  <span aria-hidden className="size-2.5 shrink-0 rounded-[3px] bg-chart-track" />
+                  <span className="min-w-0 flex-1 truncate text-body-regular text-text-primary">Free space</span>
+                  <span className="text-body-regular text-text-tertiary tabular-nums">{formatTokens(free)}</span>
+                  <span className="w-14 text-right text-body-medium text-text-primary tabular-nums">{share(free, context.max).toFixed(1)}%</span>
+                </li>
+              </ul>
+              {context.groups && context.groups.length > 0 && (
+                <ul className="mt-1.5 flex flex-col">
+                  {context.groups.map(group => (
+                    <GroupRow key={group.label} group={group} open={openGroups[group.label] === true}
+                      onToggle={() => setOpenGroups(current => ({ ...current, [group.label]: !current[group.label] }))}
+                      reducedMotion={reducedMotion} />
+                  ))}
+                </ul>
+              )}
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+      {limits.length > 0 && (
+        <>
+          <div className="my-3 h-px w-full bg-separator-border-strong" />
+          <div className="flex items-center justify-between gap-3 py-1">
+            <span className="text-body-medium text-text-secondary">Plan usage limits{plan ? " · " + plan : ""}</span>
+            {planHref && (
+              <a href={planHref} aria-label="Manage plan"
+                className="flex size-6 items-center justify-center rounded-md text-text-tertiary outline-none transition-colors duration-150 hover:bg-background-secondary-hover hover:text-text-secondary focus-visible:ring-2 focus-visible:ring-border-focus-ring motion-reduce:transition-none">
+                <RiArrowRightLine aria-hidden className="size-4" />
+              </a>
+            )}
+          </div>
+          <ul className="flex flex-col gap-3 pt-1">
+            {limits.map(limit => {
+              const pct = Math.round(clamp(limit.used) * 100);
+              return (
+                <li key={limit.label} className="flex flex-col gap-1.5">
+                  <div className="flex items-baseline justify-between gap-3">
+                    <span className="min-w-0 truncate text-body-medium text-text-primary">{limit.label}</span>
+                    <span className="flex shrink-0 items-baseline gap-2">
+                      <span className="text-body-regular text-text-tertiary">{limit.resets}</span>
+                      <span className="w-9 text-right text-body-medium text-text-primary tabular-nums">{pct}%</span>
+                    </span>
+                  </div>
+                  <div role="progressbar" aria-label={limit.label} aria-valuenow={pct} aria-valuemin={0} aria-valuemax={100}
+                    className="flex h-1.5 w-full gap-px overflow-hidden rounded-full bg-chart-track">
+                    <div className="h-full rounded-full transition-[width] duration-500 ease-out motion-reduce:transition-none"
+                      style={{ width: widthPercent(limit.used, 1), backgroundColor: "var(--color-chart-6)" }} />
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
+        </>
+      )}
+    </section>
+  );
+}
+14:T7f0,"use client";
+
+import { AgentLimitsCard } from "@/components/application/agent/agent-limits-card";
+
+export default function AgentLimitsCardDemo() {
+  return (
+    <div className="w-full max-w-md">
+      <AgentLimitsCard
+        context={{
+          max: 1_000_000,
+          segments: [
+            { label: "Messages", tokens: 520_000 },
+            { label: "System tools", tokens: 96_000 },
+            { label: "MCP tools", tokens: 68_000 },
+            { label: "Skills", tokens: 54_000, color: "var(--color-chart-8)" },
+            { label: "System prompt", tokens: 42_000 },
+            { label: "Memory files", tokens: 24_000 },
+            { label: "Custom agents", tokens: 16_000 },
+            { label: "MCP tools (deferred)", tokens: 69_900, deferred: true },
+            { label: "System tools (deferred)", tokens: 16_100, deferred: true },
+          ],
+          groups: [
+            {
+              label: "MCP tools",
+              tokens: 137_900,
+              items: [
+                { label: "browser", tokens: 54_200 },
+                { label: "figma", tokens: 41_800 },
+                { label: "vercel", tokens: 26_500 },
+                { label: "session", tokens: 15_400 },
+              ],
+            },
+            {
+              label: "Memory files", tokens: 24_000,
+              items: [{ label: "MEMORY.md", tokens: 16_400 }, { label: "project-conventions.md", tokens: 7_600 }],
+            },
+            {
+              label: "Custom agents", tokens: 16_000,
+              items: [{ label: "reviewer", tokens: 7_100 }, { label: "explorer", tokens: 5_200 }, { label: "planner", tokens: 3_700 }],
+            },
+          ],
+        }}
+        plan="Max (5x)"
+        planHref="/dashboard"
+        limits={[
+          { label: "5-hour limit", used: 0.38, resets: "Resets in 2 hr 46 min" },
+          { label: "Weekly · all models", used: 0.03, resets: "Resets Tue 3:00 PM" },
+          { label: "Weekly · Pro", used: 0.05, resets: "Resets Tue 3:00 PM" },
+        ]}
+      />
+    </div>
+  );
+}11:["$","$L12",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"agent-limits-card","title":"Agent Limits","description":"Context window usage as a segmented bar with an expandable token breakdown, plus plan quotas and their reset times.","category":"blocks","tags":["ai","agent","usage","quota","tokens","context-window","progress"],"status":"stable","tier":"free","isNew":true,"dependencies":["@remixicon/react","motion","tailwind-merge"],"registryDependencies":["cx","tokens"],"files":[{"path":"application/agent/agent-limits-card.tsx","target":"components/application/agent/agent-limits-card.tsx","type":"component","content":"$13"}],"hash":"cefe118beb21"},"demoSource":"$14","previous":{"name":"auth-card","title":"Auth Card"},"next":{"name":"agent-thinking","title":"Agent Thinking"}}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:null
+d:[["$","title","0",{"children":"Agent Limits — Zeus UI"}],["$","meta","1",{"name":"description","content":"Context window usage as a segmented bar with an expandable token breakdown, plus plan quotas and their reset times."}],["$","meta","2",{"name":"keywords","content":"ai,agent,usage,quota,tokens,context-window,progress"}]]

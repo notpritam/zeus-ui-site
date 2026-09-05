@@ -1,0 +1,436 @@
+1:"$Sreact.fragment"
+2:I[72844,["/_next/static/chunks/0by1pam5w7cuf.js"],""]
+3:I[37280,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+4:I[75701,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+6:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+a:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"ViewportBoundary"]
+c:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"MetadataBoundary"]
+e:I[84167,["/_next/static/chunks/0by1pam5w7cuf.js"],"default",1]
+:HL["/_next/static/chunks/16_ml9va511u1.css","style"]
+:HL["/_next/static/chunks/1lom8-olk25vh.css","style"]
+:HL["/_next/static/media/234d9015b631dab9-s.p.33gca1im1ku45.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+9:X
+0:{"P":null,"c":["","components","input",""],"q":"","i":false,"f":[[["",{"children":["components",{"children":[["slug","input","d",[]],{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0by1pam5w7cuf.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L2",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/3l5f3qnr89rl0.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0wmbfrsxfdesk.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/3ixdl2m026on9.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/3xa-hzf5c_c6n.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/1zihipy0kqa1_.js","async":true,"nonce":"$undefined"}],["$","script","script-5",{"src":"/_next/static/chunks/0-afrvt74ak7l.js","async":true,"nonce":"$undefined"}],["$","script","script-6",{"src":"/_next/static/chunks/0337601gswv_s.js","async":true,"nonce":"$undefined"}],["$","script","script-7",{"src":"/_next/static/chunks/34zl6f3dq0u0q.js","async":true,"nonce":"$undefined"}],["$","script","script-8",{"src":"/_next/static/chunks/2az_x4uxpy3sm.js","async":true,"nonce":"$undefined"}],["$","script","script-9",{"src":"/_next/static/chunks/23ywcyogzmwlv.js","async":true,"nonce":"$undefined"}],["$","script","script-10",{"src":"/_next/static/chunks/2qg2knl-9_2le.js","async":true,"nonce":"$undefined"}],["$","script","script-11",{"src":"/_next/static/chunks/1wypk9kc4p_mt.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$9"]},null,false,"$9"]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],"$Lf"]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Kgh3aKGUUDrNWttN7OqGM"}
+9:C
+f:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+10:I[54515,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"DocsLayout"]
+5:["$","$L10",null,{"title":"Input","heading":"Input","icon":"components","groups":[{"id":"foundations","title":"Foundations","items":[{"name":"tokens","title":"Design tokens","isNew":"$undefined"},{"name":"typography","title":"Typography","isNew":"$undefined"},{"name":"cx","title":"cx","isNew":"$undefined"},{"name":"chevrons","title":"Chevrons","isNew":"$undefined"},{"name":"logo","title":"Logo","isNew":"$undefined"},{"name":"use-count-up","title":"useCountUp","isNew":"$undefined"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress","isNew":"$undefined"}]},{"id":"base","title":"Base","items":[{"name":"button","title":"Button","isNew":"$undefined"},{"name":"icon-button","title":"Icon Button","isNew":"$undefined"},{"name":"link-button","title":"Link Button","isNew":"$undefined"},{"name":"button-group","title":"Button Group","isNew":"$undefined"},{"name":"close-button","title":"Close Button","isNew":"$undefined"},{"name":"social-button","title":"Social Button","isNew":"$undefined"},{"name":"input","title":"Input","isNew":"$undefined"},{"name":"input-otp","title":"Input OTP","isNew":"$undefined"},{"name":"checkbox","title":"Checkbox","isNew":"$undefined"},{"name":"radio","title":"Radio","isNew":"$undefined"},{"name":"switch","title":"Switch","isNew":"$undefined"},{"name":"select","title":"Select","isNew":"$undefined"},{"name":"slider","title":"Slider","isNew":"$undefined"},{"name":"dropdown","title":"Dropdown","isNew":"$undefined"},{"name":"divider","title":"Divider","isNew":"$undefined"},{"name":"file-upload","title":"File Upload","isNew":"$undefined"},{"name":"tabs","title":"Tabs","isNew":"$undefined"},{"name":"segmented-control","title":"Segmented Control","isNew":"$undefined"},{"name":"table","title":"Table","isNew":"$undefined"},{"name":"tooltip","title":"Tooltip","isNew":"$undefined"},{"name":"badge","title":"Badge","isNew":"$undefined"},{"name":"chip","title":"Chip","isNew":"$undefined"},{"name":"status-dot","title":"Status Dot","isNew":"$undefined"},{"name":"kbd","title":"Kbd","isNew":"$undefined"},{"name":"avatar","title":"Avatar","isNew":"$undefined"},{"name":"breadcrumb","title":"Breadcrumb","isNew":"$undefined"},{"name":"pagination","title":"Pagination","isNew":"$undefined"},{"name":"carousel","title":"Carousel","isNew":"$undefined"},{"name":"announcement","title":"Announcement","isNew":"$undefined"},{"name":"notification","title":"Notification","isNew":"$undefined"},{"name":"date-picker","title":"Date Picker","isNew":"$undefined"},{"name":"date-range-picker","title":"Date Range Picker","isNew":"$undefined"},{"name":"meeting-scheduler","title":"Meeting Scheduler","isNew":"$undefined"}]},{"id":"blocks","title":"Blocks","items":[{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"calendar","title":"Calendar","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"theme-toggle","title":"Theme Toggle","isNew":"$undefined"},{"name":"stat-cards","title":"Stat Cards","isNew":"$undefined"},{"name":"data-table","title":"Data Table","isNew":"$undefined"},{"name":"sidebar","title":"Sidebar","isNew":"$undefined"},{"name":"app-shell","title":"App Shell","isNew":"$undefined"},{"name":"notification-center","title":"Notification Center","isNew":"$undefined"},{"name":"settings-modal","title":"Settings Modal","isNew":"$undefined"},{"name":"auth-card","title":"Auth Card","isNew":"$undefined"},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking","isNew":"$undefined"},{"name":"composer-loader","title":"Composer Loader","isNew":"$undefined"},{"name":"agent-log","title":"Agent Log","isNew":"$undefined"},{"name":"agent-chat","title":"Agent Chat","isNew":"$undefined"}]},{"id":"charts","title":"Charts","items":[{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart","isNew":"$undefined"},{"name":"orders-chart-card","title":"Orders Chart","isNew":"$undefined"},{"name":"important-alerts-card","title":"Important Alerts","isNew":"$undefined"},{"name":"patient-info-card","title":"Patient Info","isNew":"$undefined"}]},{"id":"templates","title":"Templates","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true},{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true}]}],"description":"Text field with label, hint, addons, icons and validation states.","columnClassName":"$undefined","detail":true,"children":"$L11"}]
+12:I[26438,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"ComponentPage"]
+13:T48f,"use client";
+
+import type { ReactNode, Ref } from "react";
+import type { TextProps as AriaTextProps } from "react-aria-components";
+import { Text as AriaText } from "react-aria-components";
+import { cx } from "../../utils/cx";
+
+/**
+ * Caption text rendered below a field. Wraps `react-aria-components`' Text
+ * so the parent `TextField` automatically wires `aria-describedby` (when
+ * `slot="description"`) or `aria-errormessage` (when `slot="errorMessage"`).
+ *
+ * Visuals come from Figma:
+ *   - Inter Medium 12/16, letter-spacing 0.15px
+ *   - color text/secondary (default) or text/error-primary (invalid)
+ *   - 1px top padding to align with the field's bottom edge
+ */
+
+export interface HintTextProps extends AriaTextProps {
+  children: ReactNode;
+  isInvalid?: boolean;
+  ref?: Ref<HTMLElement>;
+}
+
+export function HintText({
+  isInvalid = false,
+  className,
+  ...props
+}: HintTextProps) {
+  return (
+    <AriaText
+      slot={isInvalid ? "errorMessage" : "description"}
+      {...props}
+      className={cx(
+        "pt-px text-caption-1-medium text-text-secondary",
+        isInvalid && "text-text-error-primary",
+        className,
+      )}
+    />
+  );
+}
+14:T23b6,"use client";
+
+import {
+  createContext,
+  useContext,
+  type ComponentType,
+  type ReactNode,
+  type Ref,
+} from "react";
+import {
+  Group as AriaGroup,
+  Input as AriaInput,
+  TextField as AriaTextField,
+} from "react-aria-components";
+import type {
+  InputProps as AriaInputProps,
+  TextFieldProps as AriaTextFieldProps,
+} from "react-aria-components";
+import { Label } from "./label";
+import { HintText } from "./hint-text";
+import { cx, sortCx } from "../../utils/cx";
+
+/**
+ * Figma source: Board UI → Input (node 3665:1849).
+ *
+ * Architecture (mirrors the Untitled UI / React Aria pattern):
+ *
+ *   InputBase   — the styled field shell. Renders <AriaGroup> + adornments
+ *                 + <AriaInput>. State (hover / focus / disabled / invalid)
+ *                 arrives as render-prop booleans from Aria.
+ *   TextField   — wraps <AriaTextField> and a TextFieldContext so size /
+ *                 classes can flow from the composer down into InputBase
+ *                 without prop drilling.
+ *   Input       — opinionated composition: TextField → Label → InputBase
+ *                 → HintText. The component most consumers use.
+ *
+ * Why React Aria:
+ *   - Label ↔ input ↔ hint association via aria-labelledby / aria-describedby
+ *   - aria-required, aria-invalid auto-applied
+ *   - Form library / native validation integration
+ *   - i18n, RTL, autofill edge cases handled
+ *   - Render-prop state surfaces `isFocusWithin`, `isHovered`, `isDisabled`,
+ *     `isInvalid`, `isRequired` — no CSS pseudo gymnastics
+ *
+ * Visuals stay 1:1 with Figma — see `styles/theme.css` for the tokens.
+ */
+
+type InputSize = "medium" | "small";
+
+type IconComponent = ComponentType<{
+  className?: string;
+  "aria-hidden"?: boolean | "true" | "false";
+}>;
+
+/* -------------------------------------------------------------------------- */
+/*  TextFieldContext                                                           */
+/* -------------------------------------------------------------------------- */
+
+interface TextFieldContextValue {
+  size?: InputSize;
+  fieldClassName?: string;
+  inputClassName?: string;
+}
+
+const TextFieldContext = createContext<TextFieldContextValue>({});
+
+/* -------------------------------------------------------------------------- */
+/*  TextField                                                                  */
+/* -------------------------------------------------------------------------- */
+
+export interface TextFieldProps
+  extends Omit<AriaTextFieldProps, "className">,
+    TextFieldContextValue {
+  className?: string;
+  children?: ReactNode | ((state: { isRequired: boolean; isInvalid: boolean; isDisabled: boolean; isReadOnly: boolean }) => ReactNode);
+}
+
+export function TextField({
+  size = "medium",
+  fieldClassName,
+  inputClassName,
+  className,
+  children,
+  ...props
+}: TextFieldProps) {
+  return (
+    <TextFieldContext.Provider value={{ size, fieldClassName, inputClassName }}>
+      <AriaTextField
+        {...props}
+        data-input-size={size}
+        className={cx(
+          "group flex h-max w-full flex-col items-start gap-1",
+          className,
+        )}
+      >
+        {children as never /* RAC accepts render-prop children */}
+      </AriaTextField>
+    </TextFieldContext.Provider>
+  );
+}
+
+TextField.displayName = "TextField";
+
+/* -------------------------------------------------------------------------- */
+/*  InputBase                                                                  */
+/* -------------------------------------------------------------------------- */
+
+export interface InputBaseProps extends Omit<AriaInputProps, "size" | "className"> {
+  size?: InputSize;
+  className?: string;
+  leadingIcon?: IconComponent;
+  trailingIcon?: IconComponent;
+  /** Custom element rendered in the leading slot (Phone basic uses this). */
+  leadingAddon?: ReactNode;
+  /** Class for the field shell. */
+  fieldClassName?: string;
+  /** Ref to the <input> element. */
+  ref?: Ref<HTMLInputElement>;
+  /** Ref to the field shell wrapper. */
+  groupRef?: Ref<HTMLDivElement>;
+}
+
+const inputStyles = sortCx({
+  field: [
+    "relative flex w-full items-center",
+    "rounded-2lg",
+    "bg-background-tertiary-default text-foreground-icon-tertiary",
+    "ring-2 ring-inset ring-transparent",
+    "transition-[background-color,box-shadow,color] duration-[var(--input-transition-ms)] ease",
+  ].join(" "),
+
+  fieldSize: {
+    medium: "p-2",                // 8px all sides → h auto = 36
+    small:  "h-8 px-1.5 py-2",    // 32 / 6 / 8
+  },
+
+  // When a leadingAddon is present (Phone basic): tighten left padding.
+  fieldWithAddonSize: {
+    medium: "h-9 pl-1 pr-2 py-2", // 36 / 4 / 8 / 8
+    small:  "h-8 pl-1 pr-1.5 py-2",
+  },
+
+  content: "flex w-full items-center gap-2 min-w-0",
+  leftSection: "flex flex-1 items-center gap-0.5 min-w-0",
+
+  input: [
+    "min-w-0 flex-1 bg-transparent border-0 outline-none p-0 m-0",
+    "font-sans text-body-regular text-text-primary pl-1",
+    "placeholder:text-text-tertiary",
+    "focus:placeholder:text-text-primary",
+    "disabled:text-input-disabled-text disabled:placeholder:text-input-disabled-text",
+    "disabled:cursor-not-allowed",
+    "aria-invalid:placeholder:text-text-error-placeholder",
+  ].join(" "),
+
+  icon: "size-5 shrink-0",
+});
+
+export function InputBase({
+  size: sizeProp,
+  leadingIcon: Leading,
+  trailingIcon: Trailing,
+  leadingAddon,
+  fieldClassName,
+  className,
+  ref,
+  groupRef,
+  ...inputProps
+}: InputBaseProps) {
+  const ctx = useContext(TextFieldContext);
+  const size: InputSize = sizeProp ?? ctx.size ?? "medium";
+  const hasAddon = leadingAddon !== undefined && leadingAddon !== null;
+
+  return (
+    <AriaGroup
+      ref={groupRef}
+      className={({ isFocusWithin, isHovered, isDisabled, isInvalid }) =>
+        cx(
+          inputStyles.field,
+          hasAddon
+            ? inputStyles.fieldWithAddonSize[size]
+            : inputStyles.fieldSize[size],
+          // Hover: idle, no focus, no disabled, no invalid
+          isHovered &&
+            !isFocusWithin &&
+            !isDisabled &&
+            !isInvalid &&
+            "ring-border-button-hover",
+          // Focus wins over hover
+          isFocusWithin &&
+            !isDisabled &&
+            !isInvalid &&
+            "ring-border-button-active",
+          // Disabled
+          isDisabled &&
+            "bg-input-disabled-background text-input-disabled-foreground",
+          // Invalid
+          isInvalid && "bg-background-tertiary-error text-foreground-icon-error",
+          ctx.fieldClassName,
+          fieldClassName,
+        )
+      }
+    >
+      <div className={inputStyles.content}>
+        <div className={inputStyles.leftSection}>
+          {hasAddon ? (
+            leadingAddon
+          ) : Leading ? (
+            <Leading className={inputStyles.icon} aria-hidden />
+          ) : null}
+          <AriaInput
+            ref={ref}
+            {...inputProps}
+            className={cx(inputStyles.input, ctx.inputClassName, className)}
+          />
+        </div>
+        {Trailing ? (
+          <Trailing className={inputStyles.icon} aria-hidden />
+        ) : null}
+      </div>
+    </AriaGroup>
+  );
+}
+
+InputBase.displayName = "InputBase";
+
+/* -------------------------------------------------------------------------- */
+/*  Input (composed)                                                           */
+/* -------------------------------------------------------------------------- */
+
+export interface InputProps
+  extends Omit<TextFieldProps, "children">,
+    Pick<
+      InputBaseProps,
+      | "leadingIcon"
+      | "trailingIcon"
+      | "leadingAddon"
+      | "fieldClassName"
+      | "groupRef"
+      | "ref"
+    > {
+  label?: ReactNode;
+  hint?: ReactNode;
+  /** Show an info icon next to the label. Replace with tooltip when Tooltip lands. */
+  tooltip?: boolean | string;
+  placeholder?: string;
+}
+
+export function Input({
+  label,
+  hint,
+  tooltip,
+  placeholder,
+  leadingIcon,
+  trailingIcon,
+  leadingAddon,
+  fieldClassName,
+  ref,
+  groupRef,
+  className,
+  ...textFieldProps
+}: InputProps) {
+  return (
+    <TextField
+      {...textFieldProps}
+      className={className}
+      // Don't clobber an explicit aria-label; fall back to the placeholder
+      // only for unlabelled fields that don't provide one.
+      aria-label={
+        textFieldProps["aria-label"] ??
+        (!label && typeof placeholder === "string" ? placeholder : undefined)
+      }
+    >
+      {({ isRequired, isInvalid }) => (
+        <>
+          {label && (
+            <Label
+              isRequired={isRequired}
+              isInvalid={isInvalid}
+              tooltip={tooltip}
+            >
+              {label}
+            </Label>
+          )}
+          <InputBase
+            ref={ref}
+            groupRef={groupRef}
+            placeholder={placeholder}
+            leadingIcon={leadingIcon}
+            trailingIcon={trailingIcon}
+            leadingAddon={leadingAddon}
+            fieldClassName={fieldClassName}
+          />
+          {hint && <HintText isInvalid={isInvalid}>{hint}</HintText>}
+        </>
+      )}
+    </TextField>
+  );
+}
+
+Input.displayName = "Input";
+15:T779,"use client";
+
+import type { ReactNode, Ref } from "react";
+import { RiInformationFill } from "@remixicon/react";
+import type { LabelProps as AriaLabelProps } from "react-aria-components";
+import { Label as AriaLabel } from "react-aria-components";
+import { cx } from "../../utils/cx";
+
+/**
+ * Field label. Wraps `react-aria-components`' Label so the parent `TextField`
+ * automatically wires `htmlFor` / `aria-labelledby`.
+ *
+ * Visuals come from Figma:
+ *   - Inter Medium 14/20, color text/primary
+ *   - 2px gap between label + required asterisk + info icon
+ *   - asterisk is text/error-primary (red/500)
+ *   - info icon is 16×16 in foreground/icon/quaternary
+ *
+ * Pass `isRequired` to show the asterisk. Pass `tooltip` to show the info
+ * icon (currently a static glyph — when the Tooltip component lands it'll
+ * wire up here).
+ */
+
+export interface LabelProps extends AriaLabelProps {
+  children: ReactNode;
+  isRequired?: boolean;
+  /** Reserved for invalid-aware styling (asterisk color, etc.) once we need it. */
+  isInvalid?: boolean;
+  /** Show the info icon next to the label. */
+  tooltip?: boolean | string;
+  ref?: Ref<HTMLLabelElement>;
+}
+
+export function Label({
+  isRequired = false,
+  isInvalid: _isInvalid,
+  tooltip,
+  className,
+  children,
+  ...props
+}: LabelProps) {
+  void _isInvalid;
+  return (
+    <AriaLabel
+      data-label="true"
+      {...props}
+      className={cx(
+        "flex cursor-default items-center gap-0.5",
+        "text-body-medium text-text-primary",
+        className,
+      )}
+    >
+      {children}
+      {isRequired && (
+        <span
+          aria-hidden="true"
+          className="text-body-medium text-text-error-primary"
+        >
+          *
+        </span>
+      )}
+      {tooltip && (
+        <RiInformationFill
+          className="size-4 shrink-0 text-foreground-icon-quaternary"
+          aria-hidden
+        />
+      )}
+    </AriaLabel>
+  );
+}
+11:["$","$L12",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"input","title":"Input","description":"Text field with label, hint, addons, icons and validation states.","category":"base","tags":["form","text","field","validation"],"status":"stable","tier":"free","dependencies":["@remixicon/react","react-aria-components","tailwind-merge"],"registryDependencies":["cx","tokens"],"files":[{"path":"base/input/hint-text.tsx","target":"components/base/input/hint-text.tsx","type":"component","content":"$13"},{"path":"base/input/input.tsx","target":"components/base/input/input.tsx","type":"component","content":"$14"},{"path":"base/input/label.tsx","target":"components/base/input/label.tsx","type":"component","content":"$15"}],"hash":"09131734ac6f"},"demoSource":"\"use client\";\n\nimport { RiQuestionLine, RiUserSmileLine } from \"@remixicon/react\";\nimport { Input } from \"@/components/base/input/input\";\n\nexport default function InputDemo() {\n  return (\n    <div className=\"flex w-full max-w-sm flex-col gap-5\">\n      <Input\n        label=\"Email\"\n        isRequired\n        tooltip\n        placeholder=\"Enter your email\"\n        hint=\"This is a hint about this input.\"\n        leadingIcon={RiUserSmileLine}\n        trailingIcon={RiQuestionLine}\n      />\n      <Input size=\"small\" label=\"Small\" placeholder=\"Small input\" />\n      <Input label=\"Disabled\" placeholder=\"Enter your email\" isDisabled />\n      <Input label=\"Invalid\" defaultValue=\"not-a-real-email\" isInvalid />\n    </div>\n  );\n}","previous":{"name":"social-button","title":"Social Button"},"next":{"name":"input-otp","title":"Input OTP"}}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:null
+d:[["$","title","0",{"children":"Input — Zeus UI"}],["$","meta","1",{"name":"description","content":"Text field with label, hint, addons, icons and validation states."}],["$","meta","2",{"name":"keywords","content":"form,text,field,validation"}]]

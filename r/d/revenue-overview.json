@@ -1,0 +1,36 @@
+{
+  "id": "revenue-overview",
+  "title": "Revenue overview",
+  "description": "The default commerce view: KPIs across the top, revenue against orders, then the customer table underneath.",
+  "author": {
+    "handle": "zeus-ui"
+  },
+  "tags": [
+    "commerce",
+    "kpi",
+    "revenue",
+    "table"
+  ],
+  "createdAt": "2026-09-05",
+  "blocks": [
+    {
+      "component": "stat-cards",
+      "span": 12
+    },
+    {
+      "component": "revenue-chart-card",
+      "span": 6,
+      "title": "Revenue"
+    },
+    {
+      "component": "orders-chart-card",
+      "span": 6,
+      "title": "Orders"
+    },
+    {
+      "component": "data-table",
+      "span": 12,
+      "title": "Customers"
+    }
+  ]
+}

@@ -1,0 +1,424 @@
+1:"$Sreact.fragment"
+2:I[72844,["/_next/static/chunks/0by1pam5w7cuf.js"],""]
+3:I[37280,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+4:I[75701,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+6:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+a:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"ViewportBoundary"]
+c:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"MetadataBoundary"]
+e:I[84167,["/_next/static/chunks/0by1pam5w7cuf.js"],"default",1]
+:HL["/_next/static/chunks/16_ml9va511u1.css","style"]
+:HL["/_next/static/chunks/1lom8-olk25vh.css","style"]
+:HL["/_next/static/media/234d9015b631dab9-s.p.33gca1im1ku45.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+9:X
+0:{"P":null,"c":["","components","theme-toggle",""],"q":"","i":false,"f":[[["",{"children":["components",{"children":[["slug","theme-toggle","d",[]],{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0by1pam5w7cuf.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L2",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/3l5f3qnr89rl0.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0wmbfrsxfdesk.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/3ixdl2m026on9.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/3xa-hzf5c_c6n.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/1zihipy0kqa1_.js","async":true,"nonce":"$undefined"}],["$","script","script-5",{"src":"/_next/static/chunks/0-afrvt74ak7l.js","async":true,"nonce":"$undefined"}],["$","script","script-6",{"src":"/_next/static/chunks/0337601gswv_s.js","async":true,"nonce":"$undefined"}],["$","script","script-7",{"src":"/_next/static/chunks/34zl6f3dq0u0q.js","async":true,"nonce":"$undefined"}],["$","script","script-8",{"src":"/_next/static/chunks/2az_x4uxpy3sm.js","async":true,"nonce":"$undefined"}],["$","script","script-9",{"src":"/_next/static/chunks/23ywcyogzmwlv.js","async":true,"nonce":"$undefined"}],["$","script","script-10",{"src":"/_next/static/chunks/2qg2knl-9_2le.js","async":true,"nonce":"$undefined"}],["$","script","script-11",{"src":"/_next/static/chunks/1wypk9kc4p_mt.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$9"]},null,false,"$9"]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],"$Lf"]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Kgh3aKGUUDrNWttN7OqGM"}
+9:C
+f:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+10:I[54515,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"DocsLayout"]
+5:["$","$L10",null,{"title":"Theme Toggle","heading":"Theme Toggle","icon":"components","groups":[{"id":"foundations","title":"Foundations","items":[{"name":"tokens","title":"Design tokens","isNew":"$undefined"},{"name":"typography","title":"Typography","isNew":"$undefined"},{"name":"cx","title":"cx","isNew":"$undefined"},{"name":"chevrons","title":"Chevrons","isNew":"$undefined"},{"name":"logo","title":"Logo","isNew":"$undefined"},{"name":"use-count-up","title":"useCountUp","isNew":"$undefined"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress","isNew":"$undefined"}]},{"id":"base","title":"Base","items":[{"name":"button","title":"Button","isNew":"$undefined"},{"name":"icon-button","title":"Icon Button","isNew":"$undefined"},{"name":"link-button","title":"Link Button","isNew":"$undefined"},{"name":"button-group","title":"Button Group","isNew":"$undefined"},{"name":"close-button","title":"Close Button","isNew":"$undefined"},{"name":"social-button","title":"Social Button","isNew":"$undefined"},{"name":"input","title":"Input","isNew":"$undefined"},{"name":"input-otp","title":"Input OTP","isNew":"$undefined"},{"name":"checkbox","title":"Checkbox","isNew":"$undefined"},{"name":"radio","title":"Radio","isNew":"$undefined"},{"name":"switch","title":"Switch","isNew":"$undefined"},{"name":"select","title":"Select","isNew":"$undefined"},{"name":"slider","title":"Slider","isNew":"$undefined"},{"name":"dropdown","title":"Dropdown","isNew":"$undefined"},{"name":"divider","title":"Divider","isNew":"$undefined"},{"name":"file-upload","title":"File Upload","isNew":"$undefined"},{"name":"tabs","title":"Tabs","isNew":"$undefined"},{"name":"segmented-control","title":"Segmented Control","isNew":"$undefined"},{"name":"table","title":"Table","isNew":"$undefined"},{"name":"tooltip","title":"Tooltip","isNew":"$undefined"},{"name":"badge","title":"Badge","isNew":"$undefined"},{"name":"chip","title":"Chip","isNew":"$undefined"},{"name":"status-dot","title":"Status Dot","isNew":"$undefined"},{"name":"kbd","title":"Kbd","isNew":"$undefined"},{"name":"avatar","title":"Avatar","isNew":"$undefined"},{"name":"breadcrumb","title":"Breadcrumb","isNew":"$undefined"},{"name":"pagination","title":"Pagination","isNew":"$undefined"},{"name":"carousel","title":"Carousel","isNew":"$undefined"},{"name":"announcement","title":"Announcement","isNew":"$undefined"},{"name":"notification","title":"Notification","isNew":"$undefined"},{"name":"date-picker","title":"Date Picker","isNew":"$undefined"},{"name":"date-range-picker","title":"Date Range Picker","isNew":"$undefined"},{"name":"meeting-scheduler","title":"Meeting Scheduler","isNew":"$undefined"}]},{"id":"blocks","title":"Blocks","items":[{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"calendar","title":"Calendar","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"theme-toggle","title":"Theme Toggle","isNew":"$undefined"},{"name":"stat-cards","title":"Stat Cards","isNew":"$undefined"},{"name":"data-table","title":"Data Table","isNew":"$undefined"},{"name":"sidebar","title":"Sidebar","isNew":"$undefined"},{"name":"app-shell","title":"App Shell","isNew":"$undefined"},{"name":"notification-center","title":"Notification Center","isNew":"$undefined"},{"name":"settings-modal","title":"Settings Modal","isNew":"$undefined"},{"name":"auth-card","title":"Auth Card","isNew":"$undefined"},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking","isNew":"$undefined"},{"name":"composer-loader","title":"Composer Loader","isNew":"$undefined"},{"name":"agent-log","title":"Agent Log","isNew":"$undefined"},{"name":"agent-chat","title":"Agent Chat","isNew":"$undefined"}]},{"id":"charts","title":"Charts","items":[{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart","isNew":"$undefined"},{"name":"orders-chart-card","title":"Orders Chart","isNew":"$undefined"},{"name":"important-alerts-card","title":"Important Alerts","isNew":"$undefined"},{"name":"patient-info-card","title":"Patient Info","isNew":"$undefined"}]},{"id":"templates","title":"Templates","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true},{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true}]}],"description":"Light/dark switch that reveals the next theme from the exact click point.","columnClassName":"$undefined","detail":true,"children":"$L11"}]
+12:I[26438,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"ComponentPage"]
+13:T36e2,"use client";
+
+import { useEffect, useRef, useSyncExternalStore } from "react";
+import { flushSync } from "react-dom";
+import { RiMoonLine, RiSunLine } from "@remixicon/react";
+import { Switch as AriaSwitch } from "react-aria-components";
+import { SwitchTrack } from "../../base/switch/switch";
+import { cx } from "../../utils/cx";
+
+export type ThemeMode = "light" | "dark";
+
+export const THEME_STORAGE_KEY = "zeus:theme";
+export const THEME_CHANGE_EVENT = "zeus:theme-change";
+
+const THEME_TRANSITION_DURATION = 820;
+const THEME_TRANSITION_EASING = "cubic-bezier(0.16, 1, 0.3, 1)";
+const THEME_TRANSITION_STYLE_ID = "boardui-theme-transition-style";
+
+type ThemeTransitionOrigin = { x: number; y: number };
+
+type ViewTransition = {
+  ready: Promise<void>;
+  finished: Promise<void>;
+};
+
+type ViewTransitionDocument = Document & {
+  startViewTransition?: (update: () => void) => ViewTransition;
+};
+
+let themeTransitionRunning = false;
+
+function createBlurCircleMask() {
+  const svg = [
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">',
+    '<defs><filter id="blur" x="-50%" y="-50%" width="200%" height="200%">',
+    '<feGaussianBlur stdDeviation="2" /></filter></defs>',
+    '<circle cx="50" cy="50" r="42" fill="white" filter="url(#blur)" />',
+    "</svg>",
+  ].join("");
+
+  return `url("data:image/svg+xml,${encodeURIComponent(svg)}")`;
+}
+
+function installThemeTransitionStyle(
+  { x, y }: ThemeTransitionOrigin,
+  radius: number,
+  duration: number,
+) {
+  document.getElementById(THEME_TRANSITION_STYLE_ID)?.remove();
+
+  const mask = createBlurCircleMask();
+  const finalMaskSize = radius * 2.5;
+  const finalMaskX = x - finalMaskSize / 2;
+  const finalMaskY = y - finalMaskSize / 2;
+  const style = document.createElement("style");
+  style.id = THEME_TRANSITION_STYLE_ID;
+  style.textContent = `
+    ::view-transition-new(root) {
+      -webkit-mask-image: ${mask};
+      mask-image: ${mask};
+      -webkit-mask-repeat: no-repeat;
+      mask-repeat: no-repeat;
+      animation: boardui-theme-mask-reveal ${duration}ms ${THEME_TRANSITION_EASING} both;
+      transform-origin: ${x}px ${y}px;
+      will-change: -webkit-mask-size, -webkit-mask-position, mask-size, mask-position;
+    }
+
+    @keyframes boardui-theme-mask-reveal {
+      from {
+        -webkit-mask-position: ${x}px ${y}px;
+        mask-position: ${x}px ${y}px;
+        -webkit-mask-size: 0px 0px;
+        mask-size: 0px 0px;
+      }
+      to {
+        -webkit-mask-position: ${finalMaskX}px ${finalMaskY}px;
+        mask-position: ${finalMaskX}px ${finalMaskY}px;
+        -webkit-mask-size: ${finalMaskSize}px ${finalMaskSize}px;
+        mask-size: ${finalMaskSize}px ${finalMaskSize}px;
+      }
+    }
+  `;
+  document.head.appendChild(style);
+  return style;
+}
+
+function storedTheme(): ThemeMode {
+  if (typeof window === "undefined") return "light";
+  try {
+    return window.localStorage.getItem(THEME_STORAGE_KEY) === "dark" ? "dark" : "light";
+  } catch {
+    return "light";
+  }
+}
+
+export function applyTheme(theme: ThemeMode, { persist = true }: { persist?: boolean } = {}) {
+  if (typeof document === "undefined") return;
+  document.documentElement.classList.toggle("dark", theme === "dark");
+  if (persist) {
+    try {
+      window.localStorage.setItem(THEME_STORAGE_KEY, theme);
+    } catch {
+      // The control remains usable when storage is blocked or unavailable.
+    }
+  }
+  window.dispatchEvent(new CustomEvent(THEME_CHANGE_EVENT, { detail: theme }));
+}
+
+function elementCenter(element: HTMLElement | null): ThemeTransitionOrigin {
+  if (!element) {
+    return { x: window.innerWidth / 2, y: window.innerHeight / 2 };
+  }
+  const rect = element.getBoundingClientRect();
+  return { x: rect.left + rect.width / 2, y: rect.top + rect.height / 2 };
+}
+
+function normalizedOrigin(
+  origin: ThemeTransitionOrigin | null,
+  element: HTMLElement | null,
+): ThemeTransitionOrigin {
+  const fallback = elementCenter(element);
+  const x = origin?.x ?? fallback.x;
+  const y = origin?.y ?? fallback.y;
+  return {
+    x: Math.min(Math.max(x, 0), window.innerWidth),
+    y: Math.min(Math.max(y, 0), window.innerHeight),
+  };
+}
+
+/**
+ * Reveals the next theme from the interaction point using the View Transition
+ * API. Keyboard activation starts at the control's center. Unsupported
+ * browsers and reduced-motion users receive the same immediate theme change.
+ */
+export async function applyThemeWithTransition(
+  theme: ThemeMode,
+  {
+    origin = null,
+    element = null,
+    duration = THEME_TRANSITION_DURATION,
+  }: {
+    origin?: ThemeTransitionOrigin | null;
+    element?: HTMLElement | null;
+    duration?: number;
+  } = {},
+) {
+  if (typeof document === "undefined" || currentTheme() === theme) return;
+
+  const transitionDocument = document as ViewTransitionDocument;
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (!transitionDocument.startViewTransition || reduceMotion) {
+    applyTheme(theme);
+    return;
+  }
+  if (themeTransitionRunning) return;
+
+  const { x, y } = normalizedOrigin(origin, element);
+  const radius = Math.hypot(
+    Math.max(x, window.innerWidth - x),
+    Math.max(y, window.innerHeight - y),
+  );
+
+  themeTransitionRunning = true;
+  document.documentElement.classList.add("theme-transitioning");
+  const transitionStyle = installThemeTransitionStyle({ x, y }, radius, duration);
+  try {
+    const transition = transitionDocument.startViewTransition(() => {
+      flushSync(() => applyTheme(theme));
+    });
+
+    await transition.ready;
+    await transition.finished;
+  } catch {
+    // If the browser aborts a transition mid-flight, the theme still changes.
+    if (currentTheme() !== theme) applyTheme(theme);
+  } finally {
+    transitionStyle.remove();
+    document.documentElement.classList.remove("theme-transitioning");
+    themeTransitionRunning = false;
+  }
+}
+
+function currentTheme(): ThemeMode {
+  if (typeof document === "undefined") return "light";
+  return document.documentElement.classList.contains("dark") ? "dark" : "light";
+}
+
+function subscribe(onStoreChange: () => void) {
+  const onThemeChange = () => onStoreChange();
+  const onStorage = (event: StorageEvent) => {
+    if (event.key !== THEME_STORAGE_KEY) return;
+    applyTheme(event.newValue === "dark" ? "dark" : "light", { persist: false });
+  };
+  window.addEventListener(THEME_CHANGE_EVENT, onThemeChange);
+  window.addEventListener("storage", onStorage);
+  return () => {
+    window.removeEventListener(THEME_CHANGE_EVENT, onThemeChange);
+    window.removeEventListener("storage", onStorage);
+  };
+}
+
+export function useThemeMode(): ThemeMode {
+  return useSyncExternalStore(subscribe, currentTheme, () => "light");
+}
+
+export interface ThemeToggleProps {
+  /** Compact icon-only treatment for a collapsed sidebar rail. */
+  collapsed?: boolean;
+  /**
+   * Visual treatment for the control. `glass-segmented` is the landing nav's
+   * skin: literal black/white rather than theme tokens, because it sits on the
+   * hero shader's near-white band in both themes and a token that follows the
+   * page would invert out of sight in dark mode.
+   */
+  appearance?: "sidebar" | "segmented" | "sidebar-segmented" | "glass-segmented";
+  className?: string;
+  /** Circular reveal duration in milliseconds. */
+  transitionDuration?: number;
+}
+
+/** Manual light/dark control. It never reads the operating-system theme. */
+export function ThemeToggle({
+  collapsed = false,
+  appearance = "sidebar",
+  className,
+  transitionDuration = THEME_TRANSITION_DURATION,
+}: ThemeToggleProps) {
+  const theme = useThemeMode();
+  const dark = theme === "dark";
+  const switchRef = useRef<HTMLLabelElement | null>(null);
+  const pointerOriginRef = useRef<ThemeTransitionOrigin | null>(null);
+
+  // Makes the component self-contained in customer projects. BoardUI itself
+  // also runs the same lookup before hydration to avoid a first-paint flash.
+  useEffect(() => {
+    applyTheme(storedTheme(), { persist: false });
+  }, []);
+
+  if (
+    appearance === "segmented" ||
+    appearance === "sidebar-segmented" ||
+    appearance === "glass-segmented"
+  ) {
+    const glass = appearance === "glass-segmented";
+    const sidebarSurface = appearance === "sidebar-segmented";
+    const options = [
+      { mode: "light" as const, label: "Use light mode", Icon: RiSunLine },
+      { mode: "dark" as const, label: "Use dark mode", Icon: RiMoonLine },
+    ];
+
+    return (
+      <div
+        role="group"
+        aria-label="Theme"
+        className={cx(
+          "relative inline-flex w-fit items-center gap-1 rounded-full p-1",
+          // Mobile: 2px padding + 28px segments = 32px tall, matching the
+          // small icon buttons beside it. Desktop keeps the roomier 40px.
+          glass && "p-0.5 sm:p-1",
+          glass
+            ? // No track of its own: the host supplies the surface. A fill
+              // here would paint over it. Kept registry-safe — this component
+              // never imports the landing page's glass.
+              "z-10 bg-transparent"
+            : sidebarSurface
+              ? "bg-theme-toggle-sidebar-background"
+              : "bg-background-secondary-default",
+          className,
+        )}
+      >
+        <span
+          aria-hidden
+          className={cx(
+            "pointer-events-none absolute top-1 left-1 size-8 rounded-full",
+            "shadow-xs transition-transform duration-200 ease",
+            glass && "top-0.5 left-0.5 size-7 sm:top-1 sm:left-1 sm:size-8",
+            glass
+              ? "bg-white dark:bg-[#2e2e33]"
+              : sidebarSurface
+                ? "bg-theme-toggle-sidebar-selected-background"
+                : "bg-background-primary-default",
+            // Segment width + the 4px gap: 28+4 on mobile, 32+4 above it.
+            dark && (glass ? "translate-x-8 sm:translate-x-9" : "translate-x-9"),
+          )}
+        />
+        {options.map(({ mode, label, Icon }) => {
+          const selected = theme === mode;
+          return (
+            <button
+              key={mode}
+              type="button"
+              aria-label={label}
+              aria-pressed={selected}
+              title={mode === "light" ? "Light mode" : "Dark mode"}
+              onClick={(event) => {
+                if (selected) return;
+                const pointerOrigin =
+                  event.clientX === 0 && event.clientY === 0
+                    ? null
+                    : { x: event.clientX, y: event.clientY };
+                void applyThemeWithTransition(mode, {
+                  origin: pointerOrigin,
+                  element: event.currentTarget,
+                  duration: transitionDuration,
+                });
+              }}
+              className={cx(
+                "relative z-10 grid size-8 cursor-pointer place-items-center rounded-full outline-none",
+                glass && "size-7 sm:size-8",
+                "transition-colors duration-150 ease",
+                "focus-visible:ring-2 focus-visible:ring-border-focus-ring",
+                glass
+                  ? selected
+                    ? // Reads against the selected pill, which is white in
+                      // light and dark grey in dark — so it flips with it.
+                      "text-black dark:text-white"
+                    : "text-black/45 hover:text-black/70 dark:text-white/45 dark:hover:text-white/70"
+                  : selected
+                    ? "text-foreground-icon-primary"
+                    : "text-foreground-icon-secondary hover:text-foreground-icon-primary",
+              )}
+            >
+              <Icon className="size-4" aria-hidden />
+            </button>
+          );
+        })}
+      </div>
+    );
+  }
+
+  if (collapsed) {
+    const Icon = dark ? RiSunLine : RiMoonLine;
+    return (
+      <button
+        type="button"
+        aria-label={dark ? "Use light mode" : "Use dark mode"}
+        aria-pressed={dark}
+        title={dark ? "Light mode" : "Dark mode"}
+        onClick={(event) => {
+          const pointerOrigin =
+            event.clientX === 0 && event.clientY === 0
+              ? null
+              : { x: event.clientX, y: event.clientY };
+          void applyThemeWithTransition(dark ? "light" : "dark", {
+            origin: pointerOrigin,
+            element: event.currentTarget,
+            duration: transitionDuration,
+          });
+        }}
+        className={cx(
+          "flex size-9 cursor-pointer items-center justify-center rounded-2lg",
+          "text-foreground-icon-secondary transition-colors duration-150 ease",
+          "hover:bg-background-secondary-hover hover:text-foreground-icon-primary",
+          "outline-none focus-visible:ring-2 focus-visible:ring-border-focus-ring",
+          className,
+        )}
+      >
+        <Icon className="size-5" aria-hidden />
+      </button>
+    );
+  }
+
+  return (
+    <AriaSwitch
+      ref={switchRef}
+      isSelected={dark}
+      onPointerDown={(event) => {
+        pointerOriginRef.current = { x: event.clientX, y: event.clientY };
+      }}
+      onChange={(selected) => {
+        const origin = pointerOriginRef.current;
+        pointerOriginRef.current = null;
+        void applyThemeWithTransition(selected ? "dark" : "light", {
+          origin,
+          element: switchRef.current,
+          duration: transitionDuration,
+        });
+      }}
+      aria-label="Dark mode"
+      className={({ isFocusVisible }) =>
+        cx(
+          "flex w-full cursor-pointer items-center justify-between rounded-2lg p-2",
+          "transition-colors duration-150 ease hover:bg-background-secondary-hover",
+          isFocusVisible && "ring-2 ring-inset ring-border-focus-ring",
+          className,
+        )
+      }
+    >
+      {(state) => (
+        <>
+          <span className="flex min-w-0 items-center gap-2">
+            <RiMoonLine className="size-5 shrink-0 text-foreground-icon-secondary" aria-hidden />
+            <span className="text-body-medium text-text-secondary">Dark mode</span>
+          </span>
+          <SwitchTrack state={state} size="sm" shape="pill" />
+        </>
+      )}
+    </AriaSwitch>
+  );
+}
+11:["$","$L12",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"theme-toggle","title":"Theme Toggle","description":"Light/dark switch that reveals the next theme from the exact click point.","category":"blocks","tags":["theme","dark-mode","view-transition","settings"],"status":"stable","tier":"free","dependencies":["@remixicon/react","react-aria-components","tailwind-merge"],"registryDependencies":["cx","switch","tokens"],"files":[{"path":"application/theme/theme-toggle.tsx","target":"components/application/theme/theme-toggle.tsx","type":"component","content":"$13"}],"hash":"46e862f5ff26"},"demoSource":"\"use client\";\n\nimport { ThemeToggle } from \"@/components/application/theme/theme-toggle\";\n\nexport default function ThemeToggleDemo() {\n  return (\n    <div className=\"flex flex-wrap items-center gap-8\">\n      <div className=\"w-[236px]\">\n        <ThemeToggle />\n      </div>\n      <ThemeToggle collapsed />\n    </div>\n  );\n}","previous":{"name":"meeting-scheduler","title":"Meeting Scheduler"},"next":{"name":"stat-cards","title":"Stat Cards"}}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:null
+d:[["$","title","0",{"children":"Theme Toggle — Zeus UI"}],["$","meta","1",{"name":"description","content":"Light/dark switch that reveals the next theme from the exact click point."}],["$","meta","2",{"name":"keywords","content":"theme,dark-mode,view-transition,settings"}]]

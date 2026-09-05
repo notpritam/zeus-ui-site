@@ -1,0 +1,225 @@
+{
+  "$schema": "https://myzeusui.com/schema/dashboards.json",
+  "count": 5,
+  "tags": [
+    "account",
+    "agent",
+    "ai",
+    "alerts",
+    "auth",
+    "chat",
+    "commerce",
+    "form",
+    "health",
+    "input",
+    "kpi",
+    "notifications",
+    "profile",
+    "reference",
+    "revenue",
+    "settings",
+    "streaming",
+    "table",
+    "validation",
+    "vitals"
+  ],
+  "dashboards": [
+    {
+      "id": "revenue-overview",
+      "title": "Revenue overview",
+      "description": "The default commerce view: KPIs across the top, revenue against orders, then the customer table underneath.",
+      "author": {
+        "handle": "zeus-ui"
+      },
+      "tags": [
+        "commerce",
+        "kpi",
+        "revenue",
+        "table"
+      ],
+      "createdAt": "2026-09-05",
+      "blocks": [
+        {
+          "component": "stat-cards",
+          "span": 12
+        },
+        {
+          "component": "revenue-chart-card",
+          "span": 6,
+          "title": "Revenue"
+        },
+        {
+          "component": "orders-chart-card",
+          "span": 6,
+          "title": "Orders"
+        },
+        {
+          "component": "data-table",
+          "span": 12,
+          "title": "Customers"
+        }
+      ]
+    },
+    {
+      "id": "agent-console",
+      "title": "Agent console",
+      "description": "Everything you need to put an agent in front of a user: the chat itself, the thinking states, and the composer light.",
+      "author": {
+        "handle": "zeus-ui"
+      },
+      "tags": [
+        "ai",
+        "agent",
+        "chat",
+        "streaming"
+      ],
+      "createdAt": "2026-09-05",
+      "blocks": [
+        {
+          "component": "agent-chat",
+          "span": 12,
+          "title": "Chat",
+          "note": "Streams from /api/chat."
+        },
+        {
+          "component": "agent-thinking",
+          "span": 6,
+          "title": "Thinking states",
+          "note": "Four personalities, each with an elapsed timer."
+        },
+        {
+          "component": "composer-loader",
+          "span": 6,
+          "title": "Composer light",
+          "note": "Rims the composer while the agent answers."
+        }
+      ]
+    },
+    {
+      "id": "account-settings",
+      "title": "Account & settings",
+      "description": "The screens every product needs and nobody enjoys building: auth, settings, and the notification inbox.",
+      "author": {
+        "handle": "zeus-ui"
+      },
+      "tags": [
+        "auth",
+        "settings",
+        "account",
+        "notifications"
+      ],
+      "createdAt": "2026-09-05",
+      "blocks": [
+        {
+          "component": "auth-card",
+          "span": 12,
+          "title": "Sign in, sign up, verify"
+        },
+        {
+          "component": "notification-center",
+          "span": 6,
+          "title": "Inbox"
+        },
+        {
+          "component": "settings-modal",
+          "span": 6,
+          "title": "Settings",
+          "note": "Five pages behind one trigger."
+        }
+      ]
+    },
+    {
+      "id": "health-monitor",
+      "title": "Health monitor",
+      "description": "A patient view: identity and vitals beside a dated alert feed.",
+      "author": {
+        "handle": "zeus-ui"
+      },
+      "tags": [
+        "health",
+        "profile",
+        "alerts",
+        "vitals"
+      ],
+      "createdAt": "2026-09-05",
+      "blocks": [
+        {
+          "component": "patient-info-card",
+          "span": 6,
+          "title": "Patient"
+        },
+        {
+          "component": "important-alerts-card",
+          "span": 6,
+          "title": "Alerts"
+        },
+        {
+          "component": "stat-cards",
+          "span": 12
+        }
+      ]
+    },
+    {
+      "id": "form-kit",
+      "title": "Form kit",
+      "description": "Every input the system ships, on one page — useful when you are deciding what a form should be made of.",
+      "author": {
+        "handle": "zeus-ui"
+      },
+      "tags": [
+        "form",
+        "input",
+        "validation",
+        "reference"
+      ],
+      "createdAt": "2026-09-05",
+      "blocks": [
+        {
+          "component": "input",
+          "span": 4,
+          "title": "Text"
+        },
+        {
+          "component": "select",
+          "span": 4,
+          "title": "Select"
+        },
+        {
+          "component": "date-range-picker",
+          "span": 4,
+          "title": "Dates"
+        },
+        {
+          "component": "checkbox",
+          "span": 4,
+          "title": "Checkbox"
+        },
+        {
+          "component": "radio",
+          "span": 4,
+          "title": "Radio"
+        },
+        {
+          "component": "switch",
+          "span": 4,
+          "title": "Switch"
+        },
+        {
+          "component": "slider",
+          "span": 6,
+          "title": "Slider"
+        },
+        {
+          "component": "file-upload",
+          "span": 6,
+          "title": "Upload"
+        },
+        {
+          "component": "input-otp",
+          "span": 12,
+          "title": "One-time code"
+        }
+      ]
+    }
+  ]
+}

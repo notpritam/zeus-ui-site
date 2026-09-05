@@ -1,0 +1,729 @@
+1:"$Sreact.fragment"
+2:I[72844,["/_next/static/chunks/0by1pam5w7cuf.js"],""]
+3:I[37280,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+4:I[75701,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+6:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+a:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"ViewportBoundary"]
+c:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"MetadataBoundary"]
+e:I[84167,["/_next/static/chunks/0by1pam5w7cuf.js"],"default",1]
+:HL["/_next/static/chunks/16_ml9va511u1.css","style"]
+:HL["/_next/static/chunks/1lom8-olk25vh.css","style"]
+:HL["/_next/static/media/234d9015b631dab9-s.p.33gca1im1ku45.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+9:X
+0:{"P":null,"c":["","components","composer",""],"q":"","i":false,"f":[[["",{"children":["components",{"children":[["slug","composer","d",[]],{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0by1pam5w7cuf.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L2",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/3l5f3qnr89rl0.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0wmbfrsxfdesk.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/3ixdl2m026on9.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/3xa-hzf5c_c6n.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/1zihipy0kqa1_.js","async":true,"nonce":"$undefined"}],["$","script","script-5",{"src":"/_next/static/chunks/0-afrvt74ak7l.js","async":true,"nonce":"$undefined"}],["$","script","script-6",{"src":"/_next/static/chunks/0337601gswv_s.js","async":true,"nonce":"$undefined"}],["$","script","script-7",{"src":"/_next/static/chunks/34zl6f3dq0u0q.js","async":true,"nonce":"$undefined"}],["$","script","script-8",{"src":"/_next/static/chunks/2az_x4uxpy3sm.js","async":true,"nonce":"$undefined"}],["$","script","script-9",{"src":"/_next/static/chunks/23ywcyogzmwlv.js","async":true,"nonce":"$undefined"}],["$","script","script-10",{"src":"/_next/static/chunks/2qg2knl-9_2le.js","async":true,"nonce":"$undefined"}],["$","script","script-11",{"src":"/_next/static/chunks/1wypk9kc4p_mt.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$9"]},null,false,"$9"]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],"$Lf"]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Kgh3aKGUUDrNWttN7OqGM"}
+9:C
+f:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+10:I[54515,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"DocsLayout"]
+5:["$","$L10",null,{"title":"Composer","heading":"Composer","icon":"components","groups":[{"id":"foundations","title":"Foundations","items":[{"name":"tokens","title":"Design tokens","isNew":"$undefined"},{"name":"typography","title":"Typography","isNew":"$undefined"},{"name":"cx","title":"cx","isNew":"$undefined"},{"name":"chevrons","title":"Chevrons","isNew":"$undefined"},{"name":"logo","title":"Logo","isNew":"$undefined"},{"name":"use-count-up","title":"useCountUp","isNew":"$undefined"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress","isNew":"$undefined"}]},{"id":"base","title":"Base","items":[{"name":"button","title":"Button","isNew":"$undefined"},{"name":"icon-button","title":"Icon Button","isNew":"$undefined"},{"name":"link-button","title":"Link Button","isNew":"$undefined"},{"name":"button-group","title":"Button Group","isNew":"$undefined"},{"name":"close-button","title":"Close Button","isNew":"$undefined"},{"name":"social-button","title":"Social Button","isNew":"$undefined"},{"name":"input","title":"Input","isNew":"$undefined"},{"name":"input-otp","title":"Input OTP","isNew":"$undefined"},{"name":"checkbox","title":"Checkbox","isNew":"$undefined"},{"name":"radio","title":"Radio","isNew":"$undefined"},{"name":"switch","title":"Switch","isNew":"$undefined"},{"name":"select","title":"Select","isNew":"$undefined"},{"name":"slider","title":"Slider","isNew":"$undefined"},{"name":"dropdown","title":"Dropdown","isNew":"$undefined"},{"name":"divider","title":"Divider","isNew":"$undefined"},{"name":"file-upload","title":"File Upload","isNew":"$undefined"},{"name":"tabs","title":"Tabs","isNew":"$undefined"},{"name":"segmented-control","title":"Segmented Control","isNew":"$undefined"},{"name":"table","title":"Table","isNew":"$undefined"},{"name":"tooltip","title":"Tooltip","isNew":"$undefined"},{"name":"badge","title":"Badge","isNew":"$undefined"},{"name":"chip","title":"Chip","isNew":"$undefined"},{"name":"status-dot","title":"Status Dot","isNew":"$undefined"},{"name":"kbd","title":"Kbd","isNew":"$undefined"},{"name":"avatar","title":"Avatar","isNew":"$undefined"},{"name":"breadcrumb","title":"Breadcrumb","isNew":"$undefined"},{"name":"pagination","title":"Pagination","isNew":"$undefined"},{"name":"carousel","title":"Carousel","isNew":"$undefined"},{"name":"announcement","title":"Announcement","isNew":"$undefined"},{"name":"notification","title":"Notification","isNew":"$undefined"},{"name":"date-picker","title":"Date Picker","isNew":"$undefined"},{"name":"date-range-picker","title":"Date Range Picker","isNew":"$undefined"},{"name":"meeting-scheduler","title":"Meeting Scheduler","isNew":"$undefined"}]},{"id":"blocks","title":"Blocks","items":[{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"calendar","title":"Calendar","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"theme-toggle","title":"Theme Toggle","isNew":"$undefined"},{"name":"stat-cards","title":"Stat Cards","isNew":"$undefined"},{"name":"data-table","title":"Data Table","isNew":"$undefined"},{"name":"sidebar","title":"Sidebar","isNew":"$undefined"},{"name":"app-shell","title":"App Shell","isNew":"$undefined"},{"name":"notification-center","title":"Notification Center","isNew":"$undefined"},{"name":"settings-modal","title":"Settings Modal","isNew":"$undefined"},{"name":"auth-card","title":"Auth Card","isNew":"$undefined"},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking","isNew":"$undefined"},{"name":"composer-loader","title":"Composer Loader","isNew":"$undefined"},{"name":"agent-log","title":"Agent Log","isNew":"$undefined"},{"name":"agent-chat","title":"Agent Chat","isNew":"$undefined"}]},{"id":"charts","title":"Charts","items":[{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart","isNew":"$undefined"},{"name":"orders-chart-card","title":"Orders Chart","isNew":"$undefined"},{"name":"important-alerts-card","title":"Important Alerts","isNew":"$undefined"},{"name":"patient-info-card","title":"Patient Info","isNew":"$undefined"}]},{"id":"templates","title":"Templates","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true},{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true}]}],"description":"The AI chat composer for React + Tailwind CSS: attachment and model menus, voice and send controls, status bar, and a liquid-glass working state","columnClassName":"$undefined","detail":true,"children":"$L11"}]
+12:I[26438,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"ComponentPage"]
+13:T6a6d,"use client";
+
+import {
+  RiAddLine,
+  RiArrowDownSLine,
+  RiArrowDropDownLine,
+  RiArrowUpLine,
+  RiAttachment2,
+  RiCheckLine,
+  RiFocus3Line,
+  RiFolder2Line,
+  RiGitMergeLine,
+  RiInfinityLine,
+  RiListCheck3,
+  RiMic2Line,
+  RiStopFill,
+} from "@remixicon/react";
+import { AnimatePresence, motion, useReducedMotion } from "motion/react";
+import { type CSSProperties, type ReactNode, useEffect, useId, useRef, useState } from "react";
+import { Slider as AriaSlider, SliderThumb, SliderTrack } from "react-aria-components";
+import {
+  Dropdown,
+  DropdownDivider,
+  DropdownGroup,
+  DropdownItem,
+  DropdownPopover,
+  DropdownTrigger,
+} from "../../base/dropdown/dropdown";
+import { InputBase, TextField } from "../../base/input/input";
+import { RadioDot } from "../../base/radio/radio";
+import { cx } from "../../utils/cx";
+import { AgentThinking } from "../agent-thinking/agent-thinking";
+import { ComposerLoader } from "../composer-loader/composer-loader";
+
+export interface ComposerModel {
+  id: string;
+  label: string;
+}
+export interface ComposerProps {
+  value?: string;
+  onValueChange?: (value: string) => void;
+  onSubmit?: (value: string) => void;
+  onStop?: () => void;
+  busy?: boolean;
+  model?: string;
+  models?: ComposerModel[];
+  onModelChange?: (model: string) => void;
+  onFilesChange?: (files: File[]) => void;
+  onToolSelect?: (tool: string) => void;
+  /** Opt into removable selected-tool chips; reference tool actions only dismiss the menu. */
+  showToolSelection?: boolean;
+  onVoiceToggle?: (listening: boolean) => void;
+  placeholder?: string;
+  className?: string;
+}
+export interface StatusBarProps {
+  branch?: string;
+  onBranchPress?: () => void;
+  project?: string;
+  mode?: string;
+  onModeChange?: (mode: string) => void;
+  contextPercent?: number;
+  className?: string;
+}
+export const COMPOSER_MODELS: ComposerModel[] = [
+  { id: "composer-2.5", label: "Composer 2.5" },
+  { id: "gpt-5.6-sol", label: "GPT-5.6 Sol" },
+  { id: "fable-5", label: "Fable 5" },
+  { id: "sonnet-5", label: "Sonnet 5" },
+];
+const PLUGINS = [
+  {
+    id: "documents",
+    label: "Documents",
+    note: "Create and edit documents",
+    asset: "/ai-chat/plugin-documents.svg",
+  },
+  {
+    id: "spreadsheets",
+    label: "Spreadsheets",
+    note: "Generate spreadsheets",
+    asset: "/ai-chat/plugin-spreadsheets.svg",
+  },
+  {
+    id: "presentations",
+    label: "Presentations",
+    note: "Create marketing assets",
+    asset: "/ai-chat/plugin-presentations.svg",
+  },
+  {
+    id: "code",
+    label: "Code blocks",
+    note: "Write and edit existing code",
+    asset: "/ai-chat/plugin-codeblocks.svg",
+  },
+];
+const EFFORT_LEVELS = ["Low", "Medium", "Balanced", "High", "Very High", "Max"];
+const GLASS_STYLE: CSSProperties = {
+  background: "color-mix(in srgb, var(--color-background-primary-default) 14%, transparent)",
+  backdropFilter: "blur(3px) saturate(1.45)",
+  boxShadow:
+    "inset 0 1px 1px color-mix(in srgb, var(--color-control-indicator-background) 90%, transparent), inset 0 -1px 2px color-mix(in srgb, var(--color-text-primary) 14%, transparent), 0 3px 8px color-mix(in srgb, var(--color-text-primary) 8%, transparent)",
+};
+function GlassSurface({
+  active,
+  children,
+  className,
+}: {
+  active: boolean;
+  children: ReactNode;
+  className?: string;
+}) {
+  return (
+    <span
+      className={cx(
+        "relative inline-flex shrink-0 items-center justify-center rounded-full",
+        className,
+      )}
+    >
+      <motion.span
+        aria-hidden
+        initial={false}
+        animate={{ opacity: active ? 1 : 0, scale: active ? 1 : 0.94 }}
+        transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
+        className="pointer-events-none absolute inset-0 rounded-[inherit]"
+        style={GLASS_STYLE}
+      >
+        <span className="landing-glass-stroke" />
+      </motion.span>
+      <span className="relative inline-flex items-center justify-center">{children}</span>
+    </span>
+  );
+}
+
+function ComposerPill({
+  value: controlled,
+  onValueChange,
+  onSubmit,
+  onStop,
+  busy = false,
+  model: controlledModel,
+  models = COMPOSER_MODELS,
+  onModelChange,
+  onFilesChange,
+  onToolSelect,
+  showToolSelection = false,
+  onVoiceToggle,
+  placeholder,
+  className,
+  glass = false,
+}: ComposerProps & { glass?: boolean }) {
+  const [input, setInput] = useState("");
+  const [model, setModel] = useState("fable-5");
+  const [attachmentOpen, setAttachmentOpen] = useState(false);
+  const [modelOpen, setModelOpen] = useState(false);
+  const [effort, setEffort] = useState(1);
+  const [listening, setListening] = useState(false);
+  const [attachments, setAttachments] = useState<string[]>([]);
+  const [tool, setTool] = useState<string | null>(null);
+  const [compactPlaceholder, setCompactPlaceholder] = useState(false);
+  const fileRef = useRef<HTMLInputElement>(null);
+  const reduce = useReducedMotion() === true;
+  const inputId = useId();
+  const value = controlled ?? input;
+  const selectedModel = controlledModel ?? model;
+  const modelLabel = models.find((item) => item.id === selectedModel)?.label ?? selectedModel;
+  useEffect(() => {
+    if (typeof window.matchMedia !== "function") return;
+    const query = window.matchMedia("(max-width: 639px)");
+    const updatePlaceholder = () => setCompactPlaceholder(query.matches);
+    updatePlaceholder();
+    query.addEventListener("change", updatePlaceholder);
+    return () => query.removeEventListener("change", updatePlaceholder);
+  }, []);
+  function update(value: string) {
+    if (controlled === undefined) setInput(value);
+    onValueChange?.(value);
+  }
+  function submit() {
+    if (!value.trim() || busy) return;
+    onSubmit?.(value.trim());
+    if (controlled === undefined) setInput("");
+  }
+  function chooseTool(id: string) {
+    setTool(id);
+    setAttachmentOpen(false);
+    onToolSelect?.(id);
+  }
+  const glassControl = glass && "border-transparent! bg-transparent! shadow-none!";
+  return (
+    <div className={cx("relative w-full", className)}>
+      <AnimatePresence>
+        {((showToolSelection && tool) || attachments.length > 0) && (
+          <motion.div
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: "auto" }}
+            exit={{ opacity: 0, height: 0 }}
+            className="flex flex-wrap gap-1.5 overflow-hidden pb-2"
+          >
+            {[
+              ...(showToolSelection && tool ? [{ name: tool, isTool: true }] : []),
+              ...attachments.map((name) => ({ name, isTool: false })),
+            ].map(({ name, isTool }, index) => (
+              <button
+                type="button"
+                key={`${index}-${name}`}
+                onClick={() => {
+                  if (isTool) setTool(null);
+                  else setAttachments((names) => names.filter((item) => item !== name));
+                }}
+                aria-label={`Remove ${name}`}
+                className="rounded-md bg-background-secondary-default px-2 py-1 text-caption-1-medium text-text-secondary"
+              >
+                {name} <span aria-hidden>×</span>
+              </button>
+            ))}
+          </motion.div>
+        )}
+      </AnimatePresence>
+      <div
+        className={cx(
+          "relative flex h-[52px] w-full items-center gap-2.5 rounded-full p-2",
+          glass ? "bg-transparent" : "bg-background-primary-default shadow-xs",
+        )}
+      >
+        <input
+          ref={fileRef}
+          type="file"
+          multiple
+          className="hidden"
+          aria-label="Attach files"
+          onChange={(event) => {
+            const files = Array.from(event.target.files ?? []);
+            setAttachments((names) => [...names, ...files.map((file) => file.name)]);
+            onFilesChange?.(files);
+            event.target.value = "";
+          }}
+        />
+        <Dropdown isOpen={attachmentOpen} onOpenChange={setAttachmentOpen}>
+          <GlassSurface active={glass}>
+            <DropdownTrigger
+              aria-label="Add attachment"
+              className={cx(
+                "flex size-9 items-center justify-center rounded-full bg-ai-chat-composer-add-background p-2 transition-colors duration-150 hover:bg-ai-chat-composer-add-hover-background",
+                glassControl,
+              )}
+            >
+              <RiAddLine
+                aria-hidden
+                className={cx(
+                  "size-5 text-foreground-icon-primary transition-transform duration-200",
+                  attachmentOpen && "rotate-45",
+                )}
+              />
+            </DropdownTrigger>
+          </GlassSurface>
+          <DropdownPopover
+            aria-label="Add attachment or tool"
+            placement="top start"
+            offset={8}
+            className="w-[361px] p-2"
+            dialogClassName="gap-2"
+          >
+            <DropdownGroup label="Add">
+              <DropdownItem
+                className="px-2 py-1.5"
+                onSelect={() => {
+                  setAttachmentOpen(false);
+                  fileRef.current?.click();
+                }}
+              >
+                <RiAttachment2 className="size-5 shrink-0 text-foreground-icon-secondary" />
+                <span className="truncate text-body-medium whitespace-nowrap">
+                  Files and folders
+                </span>
+              </DropdownItem>
+              <DropdownItem className="px-2 py-1.5" onSelect={() => chooseTool("Goal")}>
+                <RiFocus3Line className="size-5 shrink-0 text-foreground-icon-secondary" />
+                <span className="truncate text-body-medium whitespace-nowrap">
+                  <span>Goal</span>
+                  <span className="ml-1.5 text-text-secondary">Set a goal for faster results</span>
+                </span>
+              </DropdownItem>
+              <DropdownItem className="px-2 py-1.5" onSelect={() => chooseTool("Plan mode")}>
+                <RiListCheck3 className="size-5 shrink-0 text-foreground-icon-secondary" />
+                <span className="truncate text-body-medium whitespace-nowrap">
+                  <span>Plan mode</span>
+                  <span className="ml-1.5 text-text-secondary">Manage complex tasks</span>
+                </span>
+              </DropdownItem>
+            </DropdownGroup>
+            <DropdownGroup label="Plugins">
+              {PLUGINS.map((plugin) => (
+                <DropdownItem
+                  key={plugin.id}
+                  onSelect={() => chooseTool(plugin.label)}
+                  className="px-2 py-1.5"
+                >
+                  <img
+                    src={plugin.asset}
+                    alt=""
+                    aria-hidden
+                    className={cx("size-6 shrink-0", plugin.id === "documents" && "dark:hidden")}
+                  />
+                  {plugin.id === "documents" && (
+                    <img
+                      src="/ai-chat/plugin-documents-dark.svg"
+                      alt=""
+                      aria-hidden
+                      className="hidden size-6 shrink-0 dark:block"
+                    />
+                  )}
+                  <span className="truncate text-body-medium whitespace-nowrap text-text-primary">
+                    {plugin.label}
+                    <span className="ml-1.5 text-text-secondary">{plugin.note}</span>
+                  </span>
+                </DropdownItem>
+              ))}
+            </DropdownGroup>
+          </DropdownPopover>
+        </Dropdown>
+        <TextField
+          aria-label="Message"
+          value={value}
+          onChange={update}
+          className="min-w-0 flex-1"
+          onKeyDown={(event) => {
+            if (event.key === "Enter" && !event.shiftKey && !event.nativeEvent.isComposing) {
+              event.preventDefault();
+              submit();
+            }
+          }}
+        >
+          <InputBase
+            id={inputId}
+            placeholder={
+              listening
+                ? "Listening…"
+                : (placeholder ?? (compactPlaceholder ? "Ask me" : "Ask me anything"))
+            }
+            fieldClassName="rounded-none bg-transparent p-0 ring-0"
+            className="h-5 pl-0 caret-accent-500 focus:placeholder:text-text-tertiary [&:not(:focus)]:[mask-image:linear-gradient(to_right,#000_calc(100%-32px),transparent_100%)]"
+          />
+        </TextField>
+        <Dropdown isOpen={modelOpen} onOpenChange={setModelOpen}>
+          <GlassSurface active={glass} className="rounded-xl">
+            <DropdownTrigger
+              aria-label={`Select model: ${modelLabel}`}
+              className={cx(
+                "flex h-8 items-center justify-center gap-0.5 rounded-xl bg-background-primary-default py-1.5 pr-1 pl-2 hover:bg-background-primary-hover",
+                glassControl,
+              )}
+            >
+              <span className="max-w-[110px] truncate px-0.5 text-body-medium text-text-secondary">
+                {modelLabel}
+              </span>
+              <RiArrowDownSLine
+                aria-hidden
+                className={cx(
+                  "size-[18px] text-foreground-icon-secondary transition-transform duration-200",
+                  modelOpen && "rotate-180",
+                )}
+              />
+            </DropdownTrigger>
+          </GlassSurface>
+          <DropdownPopover
+            aria-label="Models and effort"
+            placement="top start"
+            offset={8}
+            className="w-[266px]"
+            dialogClassName="gap-0"
+          >
+            <DropdownGroup label="Models">
+              <div role="radiogroup" aria-label="Model" className="flex flex-col gap-1">
+                {models.map((item) => (
+                  <button
+                    type="button"
+                    role="radio"
+                    key={item.id}
+                    aria-checked={item.id === selectedModel}
+                    className={cx(
+                      "flex w-full cursor-pointer items-center justify-between gap-2.5 rounded-2lg p-2 outline-none transition-colors hover:bg-background-primary-hover focus-visible:bg-background-primary-hover",
+                      item.id === selectedModel && "bg-background-primary-hover",
+                    )}
+                    onClick={() => {
+                      setModel(item.id);
+                      onModelChange?.(item.id);
+                      setModelOpen(false);
+                    }}
+                  >
+                    <span className="truncate text-body-medium whitespace-nowrap text-text-primary">
+                      {item.label}
+                    </span>
+                    <RadioDot selected={item.id === selectedModel} />
+                  </button>
+                ))}
+              </div>
+            </DropdownGroup>
+            <DropdownDivider className="mt-[7px] mb-3" />
+            <div className="flex w-full flex-col">
+              <div className="pl-2 text-body-medium text-text-secondary">
+                Effort{" "}
+                <motion.span
+                  key={effort}
+                  initial={{ opacity: 0, filter: "blur(4px)" }}
+                  animate={{ opacity: 1, filter: "blur(0px)" }}
+                  transition={{ duration: 0.35, ease: "easeOut" }}
+                  className="inline-block text-text-primary"
+                >
+                  {EFFORT_LEVELS[effort]}
+                </motion.span>
+              </div>
+              <div className="flex justify-between px-2 pt-2 pb-[3px] text-body-2-medium text-text-secondary">
+                <span>Faster</span>
+                <span>Smarter</span>
+              </div>
+              <div className="mt-1 w-full px-2 pb-2">
+                <AriaSlider
+                  aria-label="Effort"
+                  value={effort}
+                  onChange={setEffort}
+                  minValue={0}
+                  maxValue={5}
+                  step={1}
+                  className="w-full"
+                >
+                  <div className="relative h-[27px] w-full overflow-hidden rounded-lg bg-background-secondary-default">
+                    <div
+                      aria-hidden
+                      className="absolute inset-y-0 left-0 rounded-lg bg-background-tertiary-hover transition-[width] duration-150 ease-out"
+                      style={{ width: `calc(${effort * 20}% + ${21 * (1 - effort / 5)}px)` }}
+                    />
+                    <div
+                      aria-hidden
+                      className="absolute inset-x-[9px] top-[7px] flex h-[13px] items-center justify-between"
+                    >
+                      {EFFORT_LEVELS.map((level, index) => (
+                        <span
+                          key={level}
+                          className="h-full w-[3px] rounded-[2px] bg-foreground-icon-tertiary"
+                          style={{ opacity: index <= effort ? 1 : 0.3 }}
+                        />
+                      ))}
+                    </div>
+                    <div className="absolute inset-x-[10.5px] inset-y-0">
+                      <SliderTrack className="h-full w-full">
+                        <SliderThumb className="top-1/2 h-[27px] w-[21px] cursor-grab rounded-[7px] border border-border-checkbox-default bg-background-primary-default shadow-xs outline-none transition-shadow data-[dragging]:cursor-grabbing data-[focus-visible]:ring-2 data-[focus-visible]:ring-border-focus-ring" />
+                      </SliderTrack>
+                    </div>
+                  </div>
+                </AriaSlider>
+              </div>
+            </div>
+          </DropdownPopover>
+        </Dropdown>
+        <div className="flex shrink-0 items-center gap-2 pl-1.5">
+          <GlassSurface active={glass}>
+            <button
+              type="button"
+              aria-label={listening ? "Stop voice input" : "Voice input"}
+              aria-pressed={listening}
+              onClick={() => {
+                setListening(!listening);
+                onVoiceToggle?.(!listening);
+              }}
+              className={cx(
+                "flex size-9 cursor-pointer items-center justify-center rounded-full border border-border-button-default bg-background-primary-default p-2 shadow-xs outline-none hover:bg-background-primary-hover focus-visible:ring-2 focus-visible:ring-border-focus-ring",
+                glassControl,
+              )}
+            >
+              {listening ? (
+                <span className="flex h-5 items-center gap-0.5" aria-hidden>
+                  {[6, 13, 19, 11, 7].map((height, index) => (
+                    <motion.span
+                      key={index}
+                      className="w-0.5 rounded-full bg-foreground-icon-primary"
+                      animate={{ height: reduce ? height : [height, 5, height] }}
+                      transition={{ repeat: Infinity, duration: 0.6 + index * 0.1 }}
+                    />
+                  ))}
+                </span>
+              ) : (
+                <RiMic2Line className="size-5 text-foreground-icon-primary" aria-hidden />
+              )}
+            </button>
+          </GlassSurface>
+          <button
+            type="button"
+            aria-label={busy ? "Stop generating" : "Send message"}
+            onClick={busy ? onStop : submit}
+            className={cx(
+              "flex size-9 cursor-pointer items-center justify-center rounded-full bg-button-primary p-2 outline-none transition-opacity hover:opacity-90 focus-visible:ring-2 focus-visible:ring-border-focus-ring",
+              glass && "bg-transparent! text-foreground-icon-primary",
+            )}
+          >
+            {busy ? (
+              <RiStopFill className="size-5" aria-hidden />
+            ) : (
+              <RiArrowUpLine className="size-5 text-text-white" aria-hidden />
+            )}
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export function Composer(props: ComposerProps = {}) {
+  return <ComposerPill {...props} />;
+}
+export function GlassComposer({
+  glass = false,
+  ...props
+}: ComposerProps & { glass?: boolean } = {}) {
+  return <ComposerPill {...props} glass={glass} />;
+}
+
+export function StatusBar({
+  branch = "Main",
+  onBranchPress,
+  project: controlledProject = "project-sea",
+  mode: controlledMode,
+  onModeChange,
+  contextPercent = 57,
+  className,
+}: StatusBarProps = {}) {
+  const [project, setProject] = useState(controlledProject);
+  const [mode, setMode] = useState("Agent");
+  const [folderOpen, setFolderOpen] = useState(false);
+  const [modeOpen, setModeOpen] = useState(false);
+  const percent = Math.max(0, Math.min(100, contextPercent));
+  const contextCircumference = 2 * Math.PI * 6;
+  const activeMode = controlledMode ?? mode;
+  return (
+    <div className={cx("flex h-[26px] w-full items-center justify-between gap-2", className)}>
+      <div className="flex min-w-0 items-center gap-3">
+        <button
+          type="button"
+          onClick={onBranchPress}
+          className="flex cursor-pointer items-center gap-1"
+        >
+          <RiGitMergeLine
+            className="size-4 shrink-0 -scale-y-100 text-foreground-icon-secondary"
+            aria-hidden
+          />
+          <span className="flex items-center">
+            <span className="whitespace-nowrap text-body-2-medium text-text-secondary">
+              {branch}
+            </span>
+          </span>
+        </button>
+        <Dropdown isOpen={folderOpen} onOpenChange={setFolderOpen}>
+          <DropdownTrigger className="flex min-w-0 items-center gap-1 rounded-sm">
+            <RiFolder2Line className="size-4 shrink-0 text-foreground-icon-secondary" aria-hidden />
+            <span className="flex min-w-0 items-center">
+              <span className="max-w-[150px] truncate text-body-2-medium text-text-secondary">
+                {project}
+              </span>
+              <RiArrowDropDownLine
+                className={cx(
+                  "size-4 shrink-0 text-foreground-icon-secondary transition-transform",
+                  folderOpen && "rotate-180",
+                )}
+                aria-hidden
+              />
+            </span>
+          </DropdownTrigger>
+          <DropdownPopover
+            aria-label="Local folders"
+            placement="top start"
+            offset={8}
+            className="w-[266px]"
+          >
+            <DropdownGroup label="Local Folders">
+              {["users/mertcan/project-sea", "users/desktop/vibl", "users/documents/boardui"].map(
+                (folder) => (
+                  <DropdownItem
+                    key={folder}
+                    selected={folder.endsWith(`/${project}`)}
+                    onSelect={() => {
+                      setProject(folder.split("/").pop() ?? folder);
+                      setFolderOpen(false);
+                    }}
+                  >
+                    <RiFolder2Line className="size-5 shrink-0 text-foreground-icon-secondary" />
+                    <span className="truncate text-body-medium whitespace-nowrap">
+                      <span className="text-text-secondary">
+                        {folder.slice(0, folder.lastIndexOf("/") + 1)}
+                      </span>
+                      <span className="text-text-primary">{folder.split("/").pop()}</span>
+                    </span>
+                  </DropdownItem>
+                ),
+              )}
+            </DropdownGroup>
+          </DropdownPopover>
+        </Dropdown>
+      </div>
+      <div className="flex shrink-0 items-center gap-3">
+        <Dropdown isOpen={modeOpen} onOpenChange={setModeOpen}>
+          <DropdownTrigger className="flex items-center gap-1 rounded-sm">
+            <RiInfinityLine className="size-4 text-foreground-icon-secondary" aria-hidden />
+            <span className="flex items-center">
+              <span className="text-body-2-medium whitespace-nowrap text-text-secondary">
+                {activeMode}
+              </span>
+              <RiArrowDropDownLine className="size-4 text-foreground-icon-secondary" aria-hidden />
+            </span>
+          </DropdownTrigger>
+          <DropdownPopover aria-label="Agent mode" placement="top end" className="w-[180px]">
+            {["Agent", "Ask", "Plan"].map((value) => (
+              <DropdownItem
+                key={value}
+                selected={value === activeMode}
+                onSelect={() => {
+                  setMode(value);
+                  onModeChange?.(value);
+                  setModeOpen(false);
+                }}
+              >
+                <span className="flex-1">{value}</span>
+                {value === activeMode && <RiCheckLine className="size-4" />}
+              </DropdownItem>
+            ))}
+          </DropdownPopover>
+        </Dropdown>
+        <span
+          aria-label={`Context window ${percent}% used`}
+          title={`${percent}% of the context window used`}
+          className="flex items-center gap-1 rounded-full bg-background-tertiary-default py-1 pr-2 pl-1.5"
+        >
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+            className="shrink-0 -rotate-90"
+            aria-hidden
+          >
+            <circle cx="8" cy="8" r="6" stroke="var(--color-neutral-300)" strokeWidth="2.5" />
+            <circle
+              cx="8"
+              cy="8"
+              r="6"
+              stroke="var(--color-neutral-500)"
+              strokeWidth="2.5"
+              strokeDasharray={`${(percent / 100) * contextCircumference} ${contextCircumference}`}
+              strokeLinecap="round"
+            />
+          </svg>
+          <span className="text-body-2-medium whitespace-nowrap text-text-secondary">
+            {`${Math.round(percent)}%`}
+          </span>
+        </span>
+      </div>
+    </div>
+  );
+}
+
+export function AiChatComposerPreview({ busy: controlledBusy, ...props }: ComposerProps = {}) {
+  const [busy, setBusy] = useState(false);
+  const active = controlledBusy ?? busy;
+  useEffect(() => {
+    if (!busy || controlledBusy !== undefined) return;
+    const timer = window.setTimeout(() => setBusy(false), 4500);
+    return () => window.clearTimeout(timer);
+  }, [busy, controlledBusy]);
+  return (
+    <div className="flex w-full max-w-[560px] flex-col gap-2.5">
+      <AnimatePresence>
+        {active && (
+          <motion.div
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: "auto" }}
+            exit={{ opacity: 0, height: 0 }}
+          >
+            <AgentThinking variant="infinity" />
+          </motion.div>
+        )}
+      </AnimatePresence>
+      <div className="relative">
+        <span
+          aria-hidden
+          className="pointer-events-none absolute inset-0 rounded-full bg-text-primary opacity-10 blur-[50px] dark:hidden"
+        />
+        <ComposerLoader active={active} surface={active}>
+          <GlassComposer
+            {...props}
+            busy={active}
+            glass={active}
+            onSubmit={(value) => {
+              props.onSubmit?.(value);
+              if (controlledBusy === undefined) setBusy(true);
+            }}
+            onStop={() => {
+              props.onStop?.();
+              setBusy(false);
+            }}
+          />
+        </ComposerLoader>
+      </div>
+      <StatusBar />
+    </div>
+  );
+}
+11:["$","$L12",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"composer","title":"Composer","description":"The AI chat composer for React + Tailwind CSS: attachment and model menus, voice and send controls, status bar, and a liquid-glass working state","category":"blocks","tags":["interaction","ai","composer"],"status":"stable","tier":"free","isNew":true,"dependencies":["@remixicon/react","motion","react-aria-components","tailwind-merge"],"registryDependencies":["agent-thinking","composer-loader","cx","dropdown","input","radio","select","tokens","use-dismiss-on-outside-press"],"files":[{"path":"application/composer/composer.tsx","target":"components/application/composer/composer.tsx","type":"component","content":"$13"},{"path":"public/ai-chat/plugin-codeblocks.svg","target":"public/ai-chat/plugin-codeblocks.svg","type":"asset","encoding":"base64"},{"path":"public/ai-chat/plugin-documents-dark.svg","target":"public/ai-chat/plugin-documents-dark.svg","type":"asset","encoding":"base64"},{"path":"public/ai-chat/plugin-documents.svg","target":"public/ai-chat/plugin-documents.svg","type":"asset","encoding":"base64"},{"path":"public/ai-chat/plugin-presentations.svg","target":"public/ai-chat/plugin-presentations.svg","type":"asset","encoding":"base64"},{"path":"public/ai-chat/plugin-spreadsheets.svg","target":"public/ai-chat/plugin-spreadsheets.svg","type":"asset","encoding":"base64"}],"hash":"922183fd2cac"},"demoSource":"\"use client\";\nimport { AiChatComposerPreview } from \"@/components/application/composer/composer\";\nexport default function ComposerDemo() {\n  return (\n    <div className=\"flex min-h-[260px] w-full items-center justify-center\">\n      <AiChatComposerPreview />\n    </div>\n  );\n}","previous":{"name":"calendar","title":"Calendar"},"next":{"name":"task-list","title":"Task List"}}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:null
+d:[["$","title","0",{"children":"Composer — Zeus UI"}],["$","meta","1",{"name":"description","content":"The AI chat composer for React + Tailwind CSS: attachment and model menus, voice and send controls, status bar, and a liquid-glass working state"}],["$","meta","2",{"name":"keywords","content":"interaction,ai,composer"}]]

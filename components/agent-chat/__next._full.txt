@@ -1,0 +1,1882 @@
+1:"$Sreact.fragment"
+2:I[72844,["/_next/static/chunks/0by1pam5w7cuf.js"],""]
+3:I[37280,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+4:I[75701,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+6:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+a:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"ViewportBoundary"]
+c:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"MetadataBoundary"]
+e:I[84167,["/_next/static/chunks/0by1pam5w7cuf.js"],"default",1]
+:HL["/_next/static/chunks/16_ml9va511u1.css","style"]
+:HL["/_next/static/chunks/1lom8-olk25vh.css","style"]
+:HL["/_next/static/media/234d9015b631dab9-s.p.33gca1im1ku45.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+9:X
+0:{"P":null,"c":["","components","agent-chat",""],"q":"","i":false,"f":[[["",{"children":["components",{"children":[["slug","agent-chat","d",[]],{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0by1pam5w7cuf.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L2",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/3l5f3qnr89rl0.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0wmbfrsxfdesk.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/3ixdl2m026on9.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/3xa-hzf5c_c6n.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/1zihipy0kqa1_.js","async":true,"nonce":"$undefined"}],["$","script","script-5",{"src":"/_next/static/chunks/0-afrvt74ak7l.js","async":true,"nonce":"$undefined"}],["$","script","script-6",{"src":"/_next/static/chunks/0337601gswv_s.js","async":true,"nonce":"$undefined"}],["$","script","script-7",{"src":"/_next/static/chunks/34zl6f3dq0u0q.js","async":true,"nonce":"$undefined"}],["$","script","script-8",{"src":"/_next/static/chunks/2az_x4uxpy3sm.js","async":true,"nonce":"$undefined"}],["$","script","script-9",{"src":"/_next/static/chunks/23ywcyogzmwlv.js","async":true,"nonce":"$undefined"}],["$","script","script-10",{"src":"/_next/static/chunks/2qg2knl-9_2le.js","async":true,"nonce":"$undefined"}],["$","script","script-11",{"src":"/_next/static/chunks/1wypk9kc4p_mt.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$9"]},null,false,"$9"]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],"$Lf"]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Kgh3aKGUUDrNWttN7OqGM"}
+9:C
+f:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+10:I[54515,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"DocsLayout"]
+5:["$","$L10",null,{"title":"Agent Chat","heading":"Agent Chat","icon":"components","groups":[{"id":"foundations","title":"Foundations","items":[{"name":"tokens","title":"Design tokens","isNew":"$undefined"},{"name":"typography","title":"Typography","isNew":"$undefined"},{"name":"cx","title":"cx","isNew":"$undefined"},{"name":"chevrons","title":"Chevrons","isNew":"$undefined"},{"name":"logo","title":"Logo","isNew":"$undefined"},{"name":"use-count-up","title":"useCountUp","isNew":"$undefined"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress","isNew":"$undefined"}]},{"id":"base","title":"Base","items":[{"name":"button","title":"Button","isNew":"$undefined"},{"name":"icon-button","title":"Icon Button","isNew":"$undefined"},{"name":"link-button","title":"Link Button","isNew":"$undefined"},{"name":"button-group","title":"Button Group","isNew":"$undefined"},{"name":"close-button","title":"Close Button","isNew":"$undefined"},{"name":"social-button","title":"Social Button","isNew":"$undefined"},{"name":"input","title":"Input","isNew":"$undefined"},{"name":"input-otp","title":"Input OTP","isNew":"$undefined"},{"name":"checkbox","title":"Checkbox","isNew":"$undefined"},{"name":"radio","title":"Radio","isNew":"$undefined"},{"name":"switch","title":"Switch","isNew":"$undefined"},{"name":"select","title":"Select","isNew":"$undefined"},{"name":"slider","title":"Slider","isNew":"$undefined"},{"name":"dropdown","title":"Dropdown","isNew":"$undefined"},{"name":"divider","title":"Divider","isNew":"$undefined"},{"name":"file-upload","title":"File Upload","isNew":"$undefined"},{"name":"tabs","title":"Tabs","isNew":"$undefined"},{"name":"segmented-control","title":"Segmented Control","isNew":"$undefined"},{"name":"table","title":"Table","isNew":"$undefined"},{"name":"tooltip","title":"Tooltip","isNew":"$undefined"},{"name":"badge","title":"Badge","isNew":"$undefined"},{"name":"chip","title":"Chip","isNew":"$undefined"},{"name":"status-dot","title":"Status Dot","isNew":"$undefined"},{"name":"kbd","title":"Kbd","isNew":"$undefined"},{"name":"avatar","title":"Avatar","isNew":"$undefined"},{"name":"breadcrumb","title":"Breadcrumb","isNew":"$undefined"},{"name":"pagination","title":"Pagination","isNew":"$undefined"},{"name":"carousel","title":"Carousel","isNew":"$undefined"},{"name":"announcement","title":"Announcement","isNew":"$undefined"},{"name":"notification","title":"Notification","isNew":"$undefined"},{"name":"date-picker","title":"Date Picker","isNew":"$undefined"},{"name":"date-range-picker","title":"Date Range Picker","isNew":"$undefined"},{"name":"meeting-scheduler","title":"Meeting Scheduler","isNew":"$undefined"}]},{"id":"blocks","title":"Blocks","items":[{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"calendar","title":"Calendar","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"theme-toggle","title":"Theme Toggle","isNew":"$undefined"},{"name":"stat-cards","title":"Stat Cards","isNew":"$undefined"},{"name":"data-table","title":"Data Table","isNew":"$undefined"},{"name":"sidebar","title":"Sidebar","isNew":"$undefined"},{"name":"app-shell","title":"App Shell","isNew":"$undefined"},{"name":"notification-center","title":"Notification Center","isNew":"$undefined"},{"name":"settings-modal","title":"Settings Modal","isNew":"$undefined"},{"name":"auth-card","title":"Auth Card","isNew":"$undefined"},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking","isNew":"$undefined"},{"name":"composer-loader","title":"Composer Loader","isNew":"$undefined"},{"name":"agent-log","title":"Agent Log","isNew":"$undefined"},{"name":"agent-chat","title":"Agent Chat","isNew":"$undefined"}]},{"id":"charts","title":"Charts","items":[{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart","isNew":"$undefined"},{"name":"orders-chart-card","title":"Orders Chart","isNew":"$undefined"},{"name":"important-alerts-card","title":"Important Alerts","isNew":"$undefined"},{"name":"patient-info-card","title":"Patient Info","isNew":"$undefined"}]},{"id":"templates","title":"Templates","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true},{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true}]}],"description":"A working chat app: thread history, streaming messages, composer and suggestions.","columnClassName":"$undefined","detail":true,"children":"$L11"}]
+12:I[26438,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"ComponentPage"]
+13:T1177,"use client";
+
+import { RiCheckLine, RiMoreFill, RiUploadLine } from "@remixicon/react";
+import { useEffect, useState } from "react";
+
+import {
+  Dropdown,
+  DropdownGroup,
+  DropdownItem,
+  DropdownPopover,
+  DropdownTrigger,
+} from "../../base/dropdown/dropdown";
+import { cx } from "../../utils/cx";
+
+/**
+ * The controls in the top right of the chat surface: share the open chat, and
+ * a menu of the actions that apply to it.
+ *
+ * Every entry does something the starter can actually do — copy, download,
+ * mark, delete. Nothing here is a placeholder waiting on a backend, because a
+ * control that looks live and does nothing is worse than no control.
+ */
+
+export interface AgentChatActionsProps {
+  /** Plain-text transcript of the open chat, for share and copy. */
+  transcript: string;
+  onExport: () => void;
+  onToggleUnread: () => void;
+  onDelete: () => void;
+  /** No chat open yet, so there is nothing to act on. */
+  disabled?: boolean;
+  className?: string;
+}
+
+export function AgentChatActions({
+  transcript,
+  onExport,
+  onToggleUnread,
+  onDelete,
+  disabled = false,
+  className,
+}: AgentChatActionsProps) {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [shared, setShared] = useState(false);
+
+  useEffect(() => {
+    if (!shared) return;
+    const timer = setTimeout(() => setShared(false), 1600);
+    return () => clearTimeout(timer);
+  }, [shared]);
+
+  const share = async () => {
+    if (!transcript) return;
+    // The Web Share sheet where the browser has one, the clipboard everywhere
+    // else. Both leave the transcript on the device.
+    try {
+      if (navigator.share) {
+        await navigator.share({ text: transcript });
+        return;
+      }
+      await navigator.clipboard.writeText(transcript);
+      setShared(true);
+    } catch {
+      // A dismissed share sheet and a refused clipboard both land here, and
+      // neither is worth interrupting the reader over.
+    }
+  };
+
+  const choose = (action: () => void) => () => {
+    setMenuOpen(false);
+    action();
+  };
+
+  return (
+    <div className={cx("flex shrink-0 items-center gap-0.5", className)}>
+      <button
+        type="button"
+        onClick={share}
+        disabled={disabled}
+        aria-label={shared ? "Transcript copied" : "Share chat"}
+        title={shared ? "Transcript copied" : "Share chat"}
+        className={ACTION_BUTTON}
+      >
+        {shared ? (
+          <RiCheckLine className="size-[18px] shrink-0" aria-hidden />
+        ) : (
+          <RiUploadLine className="size-[18px] shrink-0" aria-hidden />
+        )}
+      </button>
+
+      <Dropdown isOpen={menuOpen} onOpenChange={setMenuOpen}>
+        <DropdownTrigger
+          aria-label="More actions for this chat"
+          isDisabled={disabled}
+          className={cx(ACTION_BUTTON, menuOpen && "bg-background-primary-hover text-text-primary")}
+        >
+          <RiMoreFill className="size-[18px] shrink-0" aria-hidden />
+        </DropdownTrigger>
+
+        <DropdownPopover
+          aria-label="More actions for this chat"
+          placement="bottom end"
+          className="w-[190px] p-2"
+        >
+          <DropdownGroup>
+            <DropdownItem onSelect={choose(onExport)} className="px-2 py-1.5">
+              <span className="truncate text-body-medium whitespace-nowrap text-text-primary">
+                Export chats
+              </span>
+            </DropdownItem>
+            <DropdownItem onSelect={choose(onToggleUnread)} className="px-2 py-1.5">
+              <span className="truncate text-body-medium whitespace-nowrap text-text-primary">
+                Mark as unread
+              </span>
+            </DropdownItem>
+            <DropdownItem onSelect={choose(onDelete)} className="px-2 py-1.5">
+              <span className="truncate text-body-medium whitespace-nowrap text-text-error-primary">
+                Delete chat
+              </span>
+            </DropdownItem>
+          </DropdownGroup>
+        </DropdownPopover>
+      </Dropdown>
+    </div>
+  );
+}
+
+/** DropdownTrigger is itself a button, so both controls share plain classes
+ *  rather than wrapping an IconButton (which would nest one button in another). */
+const ACTION_BUTTON = cx(
+  "inline-flex size-7 shrink-0 cursor-pointer items-center justify-center rounded-md",
+  "text-foreground-icon-secondary transition-colors duration-150 ease",
+  "hover:bg-background-primary-hover hover:text-foreground-icon-primary",
+  "disabled:cursor-not-allowed disabled:opacity-40",
+);
+14:T4909,"use client";
+
+
+import { useStarterBase } from "../app-shell/app-shell";
+import {
+  RiAddLine,
+  RiDownloadLine,
+  RiGlobalLine,
+  RiLogoutBoxRLine,
+  RiMore2Fill,
+  RiSendPlaneLine,
+  RiSettings3Line,
+  RiSpeedUpLine,
+} from "@remixicon/react";
+import { useEffect, useRef, useState, type KeyboardEvent } from "react";
+
+import { Avatar } from "../../base/avatar/avatar";
+import {
+  Dropdown,
+  DropdownGroup,
+  DropdownDivider,
+  DropdownItem,
+  DropdownPopover,
+  DropdownTrigger,
+} from "../../base/dropdown/dropdown";
+import { ChevronDownSmall } from "../../foundations/icons/chevrons";
+import { cx } from "../../utils/cx";
+
+/**
+ * The chat-history rail, a card of its own beside the chat.
+ *
+ * It mirrors the structure of the app sidebar — an action at the top, a
+ * section label, then a list of items with a relative-time badge — so the two
+ * rails read as the same system from opposite sides of the workspace.
+ *
+ * Threads are held by the parent and kept in the visitor's own browser. That
+ * is the honest ceiling for a starter with no database: hosted history across
+ * devices is what a backend buys you, and this is the free version of it.
+ */
+
+export interface ChatThreadSummary {
+  id: string;
+  title: string;
+  updatedAt: number;
+  unread?: boolean;
+}
+
+export interface AgentChatHistoryProps {
+  threads: ChatThreadSummary[];
+  activeId: string;
+  onSelect: (id: string) => void;
+  onNewChat: () => void;
+  onRename: (id: string, title: string) => void;
+  onToggleUnread: (id: string) => void;
+  onDelete: (id: string) => void;
+  /** Downloads the stored chats as JSON. */
+  onExport: () => void;
+  /** Disables switching mid-stream, which would strand the running response. */
+  disabled?: boolean;
+  className?: string;
+}
+
+export function AgentChatHistory({
+  threads,
+  activeId,
+  onSelect,
+  onNewChat,
+  onRename,
+  onToggleUnread,
+  onDelete,
+  onExport,
+  disabled = false,
+  className,
+}: AgentChatHistoryProps) {
+  return (
+    <aside
+      aria-label="Chat history"
+      className={cx(
+        // A card of its own beside the chat rather than a panel within it, the
+        // way the Pro template seats its code panel: same surface and radius as
+        // the chat card, separated by the workspace gap. Full height, and its
+        // own padding, since it no longer borrows the chat card's.
+        "flex h-full w-[260px] shrink-0 flex-col gap-6 overflow-hidden rounded-3xl bg-background-secondary-default p-3",
+        className,
+      )}
+    >
+      <button
+        type="button"
+        onClick={onNewChat}
+        disabled={disabled}
+        className="flex w-full cursor-pointer items-center gap-2 rounded-2lg px-2 py-2 text-body-medium text-text-primary transition-colors hover:bg-background-secondary-hover disabled:cursor-not-allowed disabled:opacity-50"
+      >
+        <RiAddLine className="size-5 shrink-0 text-foreground-icon-secondary" aria-hidden />
+        New chat
+      </button>
+
+      <div className="flex min-h-0 flex-1 flex-col gap-1 overflow-y-auto [scrollbar-width:none]">
+        <p className="px-2 pb-1 text-body-2-medium text-text-tertiary">Recent</p>
+
+        {threads.length === 0 ? (
+          <p className="px-2 text-body-2-regular text-text-tertiary">
+            Chats you start show up here.
+          </p>
+        ) : (
+          threads.map((thread) => (
+            <ThreadRow
+              key={thread.id}
+              thread={thread}
+              active={thread.id === activeId}
+              disabled={disabled}
+              onSelect={onSelect}
+              onRename={onRename}
+              onToggleUnread={onToggleUnread}
+              onDelete={onDelete}
+            />
+          ))
+        )}
+      </div>
+
+      <RailFooter threads={threads} onExport={onExport} />
+    </aside>
+  );
+}
+
+/**
+ * The account strip along the bottom of the rail.
+ *
+ * The trailing control downloads the stored chats as JSON. It does something
+ * real on purpose — this rail's whole premise is that history lives in the
+ * visitor's own browser, and the one thing that premise owes them is a way to
+ * take it with them.
+ */
+function RailFooter({
+  threads,
+  onExport,
+}: {
+  threads: ChatThreadSummary[];
+  onExport: () => void;
+}) {
+  const count = threads.length;
+  const label = count === 0 ? "No chats to export" : `Export ${count} chats`;
+  return (
+    <div className="mt-auto flex items-center gap-1 border-t border-separator-border pt-3 pr-1">
+      <AccountMenu threads={threads} />
+      <button
+        type="button"
+        onClick={onExport}
+        disabled={count === 0}
+        aria-label={label}
+        title={label}
+        className="flex size-6 shrink-0 cursor-pointer items-center justify-center rounded-full bg-button-primary text-white transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-40"
+      >
+        <RiDownloadLine className="size-3.5 shrink-0" aria-hidden />
+      </button>
+    </div>
+  );
+}
+
+/** The rail keeps at most this many chats, which is what makes "chats" a real
+ *  quota rather than a decorative percentage. Mirrors MAX_THREADS in the shell. */
+const THREAD_CAPACITY = 30;
+/** localStorage is about 5MB in practice; enough to make the number mean something. */
+const STORAGE_BUDGET_BYTES = 5 * 1024 * 1024;
+
+/**
+ * The account switcher at the foot of the rail: avatar, name, chevron, and a
+ * grouped menu built from the same pieces as the app sidebar's team card, so
+ * the two read as one system.
+ *
+ * "Usage left" expands in place. Its numbers are the starter's actual
+ * limits — how many of the retained chats are used, and how much of the
+ * browser's storage they occupy — rather than invented percentages, so the row
+ * still means something once this ships inside someone else's app.
+ */
+function AccountMenu({ threads }: { threads: ChatThreadSummary[] }) {
+  const [isOpen, setIsOpen] = useState(false);
+  const [usageOpen, setUsageOpen] = useState(false);
+  const [storedBytes, setStoredBytes] = useState(0);
+  const close = () => setIsOpen(false);
+  const base = useStarterBase();
+  const logOut = () => {
+    close();
+    window.location.assign(`${base}/login`);
+  };
+
+  const chatPercent = Math.min(100, Math.round((threads.length / THREAD_CAPACITY) * 100));
+  const storagePercent = Math.min(100, Math.round((storedBytes / STORAGE_BUDGET_BYTES) * 100));
+
+  const toggleUsage = () => {
+    // Measured when the section opens rather than on every render: it reads
+    // localStorage, which is outside React and not free.
+    if (!usageOpen) setStoredBytes(measureStoredBytes());
+    setUsageOpen((open) => !open);
+  };
+
+  return (
+    <Dropdown
+      isOpen={isOpen}
+      onOpenChange={(open) => {
+        setIsOpen(open);
+        if (!open) setUsageOpen(false);
+      }}
+    >
+      <DropdownTrigger
+        aria-label="Mertcan Esmergul account menu"
+        className={cx(
+          "flex min-w-0 flex-1 items-center gap-2 rounded-2lg px-1 py-1 text-left",
+          "transition-colors hover:bg-background-secondary-hover",
+          isOpen && "bg-background-secondary-hover",
+        )}
+      >
+        <Avatar size="sm" initials="M" color="neutral" alt="Mertcan Esmergul" />
+        <span className="min-w-0 flex-1 truncate text-body-2-medium text-text-primary">
+          Mertcan Esmergul
+        </span>
+      </DropdownTrigger>
+
+      <DropdownPopover
+        aria-label="Account menu"
+        placement="top start"
+        className="w-[248px] p-2.5"
+        dialogClassName="gap-[7px]"
+      >
+        <DropdownGroup>
+          <button
+            type="button"
+            onClick={toggleUsage}
+            aria-expanded={usageOpen}
+            className="flex w-full cursor-pointer items-center gap-2 rounded-2lg px-2 py-1.5 text-left transition-colors hover:bg-background-secondary-default"
+          >
+            <RiSpeedUpLine className="size-[18px] shrink-0 text-foreground-icon-secondary" aria-hidden />
+            <span className="flex-1 truncate text-body-medium whitespace-nowrap text-text-primary">
+              Usage left
+            </span>
+            <ChevronDownSmall
+              className={cx(
+                "size-4 shrink-0 text-foreground-icon-secondary transition-transform duration-150",
+                usageOpen && "rotate-180",
+              )}
+              aria-hidden
+            />
+          </button>
+
+          {usageOpen && (
+            <div className="flex flex-col gap-1 pb-1">
+              <UsageRow label="Chats" value={`${threads.length} of ${THREAD_CAPACITY}`} percent={chatPercent} />
+              <UsageRow label="Storage" value={formatBytes(storedBytes)} percent={storagePercent} />
+              <button
+                type="button"
+                onClick={close}
+                className="flex w-full cursor-pointer items-center gap-2 rounded-2lg py-1 pr-2 pl-9 text-left transition-colors hover:bg-background-secondary-default"
+              >
+                <span className="flex-1 truncate text-body-2-medium whitespace-nowrap text-text-primary">
+                  Upgrade to Max
+                </span>
+                <RiGlobalLine className="size-4 shrink-0 text-foreground-icon-tertiary" aria-hidden />
+              </button>
+            </div>
+          )}
+
+          <DropdownItem onSelect={close} className="px-2 py-1.5">
+            <RiSendPlaneLine className="size-[18px] shrink-0 text-foreground-icon-secondary" aria-hidden />
+            <span className="truncate text-body-medium whitespace-nowrap text-text-primary">
+              Invite a friend
+            </span>
+          </DropdownItem>
+          <DropdownItem onSelect={close} className="px-2 py-1.5">
+            <RiSettings3Line className="size-[18px] shrink-0 text-foreground-icon-secondary" aria-hidden />
+            <span className="truncate text-body-medium whitespace-nowrap text-text-primary">
+              Settings
+            </span>
+          </DropdownItem>
+        </DropdownGroup>
+
+        <DropdownDivider />
+
+        <DropdownGroup>
+          <DropdownItem onSelect={logOut} className="px-2 py-1.5">
+            <RiLogoutBoxRLine className="size-[18px] shrink-0 text-foreground-icon-secondary" aria-hidden />
+            <span className="truncate text-body-medium whitespace-nowrap text-text-primary">
+              Log out
+            </span>
+          </DropdownItem>
+        </DropdownGroup>
+      </DropdownPopover>
+    </Dropdown>
+  );
+}
+
+/** A measured line under "Usage left": what it is, how much, how full. */
+function UsageRow({ label, value, percent }: { label: string; value: string; percent: number }) {
+  return (
+    <div className="flex items-center gap-2 py-0.5 pr-2 pl-9">
+      <span className="flex-1 truncate text-body-2-medium text-text-primary">{label}</span>
+      <span className="shrink-0 text-body-2-regular text-text-secondary">{value}</span>
+      <span className="w-9 shrink-0 text-right text-body-2-regular text-text-tertiary">{percent}%</span>
+    </div>
+  );
+}
+
+/** Bytes the stored chats occupy. UTF-16 in storage, so two bytes a character. */
+function measureStoredBytes() {
+  try {
+    return (window.localStorage.getItem("boardui:agent-chat-threads")?.length ?? 0) * 2;
+  } catch {
+    return 0;
+  }
+}
+
+function formatBytes(bytes: number) {
+  if (bytes < 1024) return `${bytes} B`;
+  if (bytes < 1024 * 1024) return `${Math.round(bytes / 1024)} KB`;
+  return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
+}
+
+function ThreadRow({
+  thread,
+  active,
+  disabled,
+  onSelect,
+  onRename,
+  onToggleUnread,
+  onDelete,
+}: {
+  thread: ChatThreadSummary;
+  active: boolean;
+  disabled: boolean;
+  onSelect: (id: string) => void;
+  onRename: (id: string, title: string) => void;
+  onToggleUnread: (id: string) => void;
+  onDelete: (id: string) => void;
+}) {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [renaming, setRenaming] = useState(false);
+  const [draft, setDraft] = useState(thread.title);
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    if (!renaming) return;
+    inputRef.current?.focus();
+    inputRef.current?.select();
+  }, [renaming]);
+
+  const commit = () => {
+    const next = draft.trim();
+    if (next && next !== thread.title) onRename(thread.id, next);
+    setRenaming(false);
+  };
+
+  const onKeyDown = (event: KeyboardEvent<HTMLInputElement>) => {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      commit();
+    }
+    if (event.key === "Escape") {
+      event.preventDefault();
+      setDraft(thread.title);
+      setRenaming(false);
+    }
+  };
+
+  if (renaming) {
+    return (
+      <div className="rounded-2lg bg-background-secondary-hover px-2 py-1.5">
+        <label className="sr-only" htmlFor={`rename-${thread.id}`}>
+          Rename chat
+        </label>
+        <input
+          id={`rename-${thread.id}`}
+          ref={inputRef}
+          value={draft}
+          onChange={(event) => setDraft(event.target.value)}
+          onKeyDown={onKeyDown}
+          onBlur={commit}
+          className="w-full bg-transparent text-body-2-regular text-text-primary outline-none"
+        />
+      </div>
+    );
+  }
+
+  return (
+    <div
+      className={cx(
+        "group/row relative flex items-center rounded-2lg transition-colors",
+        // Stepped off the rail's own surface. The rail moved to `secondary`
+        // when it became a card of its own, and `primary-hover` resolves to
+        // exactly that colour in light — selection would have been invisible.
+        // Selection and hover share the fill, so hovering previews selecting.
+        active || menuOpen
+          ? "bg-background-secondary-hover"
+          : "hover:bg-background-secondary-hover",
+      )}
+    >
+      <button
+        type="button"
+        onClick={() => onSelect(thread.id)}
+        disabled={disabled}
+        aria-current={active ? "true" : undefined}
+        className="flex min-w-0 flex-1 cursor-pointer items-center gap-1.5 py-1.5 pl-2 text-left disabled:cursor-not-allowed disabled:opacity-50"
+      >
+        {thread.unread && (
+          <span
+            aria-label="Unread"
+            className="size-1.5 shrink-0 rounded-full bg-button-primary"
+          />
+        )}
+        <span
+          className={cx(
+            "min-w-0 flex-1 truncate text-body-2-regular",
+            thread.unread ? "text-text-primary" : "text-text-secondary",
+          )}
+        >
+          {thread.title}
+        </span>
+      </button>
+
+      {/* The age and the menu share one slot: the age steps aside on hover so
+          the control appears in place rather than shifting the title.
+          The two must never be visible together, so they are driven by one
+          condition each way. `focus-visible` rather than `focus-within` is the
+          load-bearing part: closing the menu with the pointer hands focus back
+          to the trigger, and `focus-within` would keep the icon lit on top of
+          the age that has already returned. */}
+      <span className="group/slot relative flex size-7 shrink-0 items-center justify-center pr-1">
+        <span
+          aria-hidden={menuOpen}
+          className={cx(
+            "text-caption-1-regular text-text-tertiary transition-opacity",
+            menuOpen
+              ? "opacity-0"
+              : "opacity-100 group-hover/row:opacity-0 group-has-[:focus-visible]/slot:opacity-0",
+          )}
+        >
+          {relativeTime(thread.updatedAt)}
+        </span>
+
+        <span
+          className={cx(
+            // Nudged 1px left of the age badge's centre: the glyph reads as
+            // sitting slightly right in its own box, so the optical centre and
+            // the geometric one do not agree.
+            "absolute inset-0 flex -translate-x-px items-center justify-center transition-opacity",
+            menuOpen
+              ? "opacity-100"
+              : "opacity-0 group-hover/row:opacity-100 group-has-[:focus-visible]/slot:opacity-100",
+          )}
+        >
+          <RowMenu
+            title={thread.title}
+            isOpen={menuOpen}
+            onOpenChange={setMenuOpen}
+            onRename={() => {
+              setDraft(thread.title);
+              setRenaming(true);
+            }}
+            onToggleUnread={() => onToggleUnread(thread.id)}
+            onDelete={() => onDelete(thread.id)}
+          />
+        </span>
+      </span>
+    </div>
+  );
+}
+
+/** DropdownTrigger is itself the button, so it is styled directly — putting an
+ *  IconButton inside it would nest one button in another. */
+function RowMenu({
+  title,
+  isOpen,
+  onOpenChange,
+  onRename,
+  onToggleUnread,
+  onDelete,
+}: {
+  title: string;
+  isOpen: boolean;
+  onOpenChange: (open: boolean) => void;
+  onRename: () => void;
+  onToggleUnread: () => void;
+  onDelete: () => void;
+}) {
+  const choose = (action: () => void) => () => {
+    onOpenChange(false);
+    action();
+  };
+
+  return (
+    <Dropdown isOpen={isOpen} onOpenChange={onOpenChange}>
+      <DropdownTrigger
+        aria-label={`More actions for ${title}`}
+        className={cx(
+          "inline-flex size-6 shrink-0 items-center justify-center rounded-md",
+          "text-foreground-icon-secondary transition-colors duration-150 ease",
+          "hover:bg-background-tertiary-default hover:text-foreground-icon-primary",
+          isOpen && "bg-background-tertiary-default text-foreground-icon-primary",
+        )}
+      >
+        <RiMore2Fill className="size-4 shrink-0" aria-hidden />
+      </DropdownTrigger>
+
+      <DropdownPopover
+        aria-label={`More actions for ${title}`}
+        placement="bottom end"
+        className="w-[190px] p-2"
+      >
+        <DropdownGroup>
+          <DropdownItem onSelect={choose(onRename)} className="px-2 py-1.5">
+            <span className="truncate text-body-medium whitespace-nowrap text-text-primary">Rename</span>
+          </DropdownItem>
+          <DropdownItem onSelect={choose(onToggleUnread)} className="px-2 py-1.5">
+            <span className="truncate text-body-medium whitespace-nowrap text-text-primary">
+              Mark as unread
+            </span>
+          </DropdownItem>
+          <DropdownItem onSelect={choose(onDelete)} className="px-2 py-1.5">
+            <span className="truncate text-body-medium whitespace-nowrap text-text-error-primary">Delete</span>
+          </DropdownItem>
+        </DropdownGroup>
+      </DropdownPopover>
+    </Dropdown>
+  );
+}
+
+/** Compact ages for a narrow badge: now, 34m, 5h, 18h, 3d. */
+function relativeTime(at: number) {
+  const seconds = Math.max(0, Math.round((Date.now() - at) / 1000));
+  if (seconds < 60) return "now";
+  const minutes = Math.round(seconds / 60);
+  if (minutes < 60) return `${minutes}m`;
+  const hours = Math.round(minutes / 60);
+  if (hours < 24) return `${hours}h`;
+  return `${Math.round(hours / 24)}d`;
+}
+15:T1d58,"use client";
+
+import { RiCheckLine, RiFileCopyLine, RiVolumeMuteLine, RiVolumeUpLine } from "@remixicon/react";
+import { motion, useReducedMotion } from "motion/react";
+import { memo, useEffect, useMemo, useState, type ReactNode } from "react";
+
+import { cx } from "../../utils/cx";
+
+/**
+ * One turn in the transcript.
+ *
+ * Assistant replies arrive a paragraph at a time, each softening in out of a
+ * blur as it first appears and then only growing, so nothing already on screen
+ * ever re-animates.
+ *
+ * The action row is deliberately mounted at all times and revealed on hover or
+ * focus. Rendering it only on hover would make it unreachable by keyboard and
+ * would shift the layout as the pointer moves across the transcript.
+ */
+
+export interface AgentMessageProps {
+  role: string;
+  text: string;
+  /** True while this message is still being streamed. */
+  streaming?: boolean;
+  /** When the message first appeared, for the hover timestamp. */
+  at?: number;
+}
+
+export function AgentMessage({ role, text, streaming = false, at }: AgentMessageProps) {
+  if (!text) return null;
+
+  if (role === "user") {
+    return (
+      <p className="ml-auto flex w-fit max-w-[75%] flex-col rounded-2xl bg-background-primary-default px-3 py-[11px] text-left text-body-regular break-words whitespace-pre-wrap text-text-primary shadow-card">
+        {text}
+      </p>
+    );
+  }
+
+  return (
+    <div className="group/message flex flex-col gap-1 px-1">
+      <StreamedText text={text} />
+      <MessageActions text={text} at={at} hidden={streaming} />
+    </div>
+  );
+}
+
+/**
+ * Paragraphs, each softening in once as it first appears.
+ *
+ * The animation deliberately lives at the line level rather than the word
+ * level. Animating words looks worse in practice: a token arrives as a
+ * fragment, the blur-in plays on that fragment, and then the fragment mutates
+ * to the finished word with no transition — which reads as a stutter. It also
+ * forces a swap from animated spans back to plain text when the stream ends,
+ * and everything mid-flight snaps at once.
+ *
+ * A line mounts exactly once and then only grows, so nothing ever restarts or
+ * snaps. Evenness of the text itself comes from the server, which releases
+ * whole words on a steady tick (see `smoothStream` in the route).
+ */
+function StreamedText({ text }: { text: string }) {
+  const reduceMotion = useReducedMotion();
+  const lines = useMemo(() => text.split("\n").filter((line) => line.trim() !== ""), [text]);
+
+  return (
+    <div className="flex flex-col gap-3">
+      {lines.map((line, index) => (
+        <Line key={index} text={line} animate={!reduceMotion} />
+      ))}
+    </div>
+  );
+}
+
+/**
+ * At module scope so their identity is stable. A line re-renders on every
+ * token of the reply — dozens of times a second — and handing Motion a fresh
+ * object literal each time invites it to re-evaluate a target that has not
+ * actually changed.
+ */
+const LINE_HIDDEN = { opacity: 0, filter: "blur(5px)", y: 4 };
+const LINE_SHOWN = { opacity: 1, filter: "blur(0px)", y: 0 };
+const LINE_TRANSITION = { duration: 0.42, ease: [0.22, 0.61, 0.36, 1] } as const;
+
+/**
+ * A settled line keeps `filter: blur(0px)` rather than losing the filter
+ * altogether — Motion owns that property once it animates it, and a `style`
+ * override does not win it back. At one filtered element per paragraph the
+ * cost is invisible; it was only a problem when every word carried its own.
+ *
+ * memo matters here: without it every paragraph re-renders on each token of
+ * the reply, which is wasted work for the lines that are already finished.
+ */
+const Line = memo(function Line({ text, animate }: { text: string; animate: boolean }) {
+  return (
+    <motion.p
+      initial={animate ? LINE_HIDDEN : false}
+      animate={LINE_SHOWN}
+      transition={LINE_TRANSITION}
+      className="text-body-regular break-words text-text-primary"
+    >
+      {text}
+    </motion.p>
+  );
+});
+
+function MessageActions({ text, at, hidden }: { text: string; at?: number; hidden: boolean }) {
+  const [copied, setCopied] = useState(false);
+  const [speaking, setSpeaking] = useState(false);
+
+  useEffect(() => {
+    if (!copied) return;
+    const timer = setTimeout(() => setCopied(false), 1600);
+    return () => clearTimeout(timer);
+  }, [copied]);
+
+  // Speech keeps running if the component goes away mid-sentence, so it is
+  // cancelled on unmount rather than left talking over the next screen.
+  useEffect(() => {
+    return () => {
+      if (typeof window !== "undefined") window.speechSynthesis?.cancel();
+    };
+  }, []);
+
+  const copy = async () => {
+    try {
+      await navigator.clipboard.writeText(text);
+      setCopied(true);
+    } catch {
+      // Clipboard access can be refused (insecure origin, denied permission).
+      // Silently leaving the icon unchanged is better than a thrown error.
+    }
+  };
+
+  const toggleSpeech = () => {
+    const synth = typeof window === "undefined" ? undefined : window.speechSynthesis;
+    if (!synth) return;
+    if (speaking) {
+      synth.cancel();
+      setSpeaking(false);
+      return;
+    }
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.onend = () => setSpeaking(false);
+    utterance.onerror = () => setSpeaking(false);
+    synth.cancel();
+    synth.speak(utterance);
+    setSpeaking(true);
+  };
+
+  return (
+    <div
+      className={cx(
+        "flex items-center gap-1 transition-opacity duration-150",
+        // Revealed on hover, and whenever a control inside has keyboard focus.
+        hidden
+          ? "pointer-events-none opacity-0"
+          : "opacity-0 group-hover/message:opacity-100 focus-within:opacity-100",
+      )}
+    >
+      <ActionButton label={copied ? "Copied" : "Copy message"} onClick={copy}>
+        {copied ? <RiCheckLine className="size-4" aria-hidden /> : <RiFileCopyLine className="size-4" aria-hidden />}
+      </ActionButton>
+
+      <ActionButton label={speaking ? "Stop reading aloud" : "Read aloud"} onClick={toggleSpeech}>
+        {speaking ? (
+          <RiVolumeMuteLine className="size-4" aria-hidden />
+        ) : (
+          <RiVolumeUpLine className="size-4" aria-hidden />
+        )}
+      </ActionButton>
+
+      {at ? (
+        <time dateTime={new Date(at).toISOString()} className="ml-1 text-caption-1-regular text-text-tertiary">
+          {formatAgo(at)}
+        </time>
+      ) : null}
+    </div>
+  );
+}
+
+function ActionButton({
+  label,
+  onClick,
+  children,
+}: {
+  label: string;
+  onClick: () => void;
+  children: ReactNode;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-label={label}
+      title={label}
+      className="flex size-7 cursor-pointer items-center justify-center rounded-md text-foreground-icon-tertiary transition-colors hover:bg-background-primary-default hover:text-foreground-icon-secondary focus-visible:ring-2 focus-visible:ring-border-focus-ring focus-visible:outline-none"
+    >
+      {children}
+    </button>
+  );
+}
+
+/** "just now", "3 minutes ago", "2 hours ago" — matching how the rail reads. */
+function formatAgo(at: number) {
+  const seconds = Math.max(0, Math.round((Date.now() - at) / 1000));
+  if (seconds < 45) return "just now";
+  const minutes = Math.round(seconds / 60);
+  if (minutes < 60) return `${minutes} minute${minutes === 1 ? "" : "s"} ago`;
+  const hours = Math.round(minutes / 60);
+  if (hours < 24) return `${hours} hour${hours === 1 ? "" : "s"} ago`;
+  const days = Math.round(hours / 24);
+  return `${days} day${days === 1 ? "" : "s"} ago`;
+}
+16:T674e,"use client";
+
+import { useChat } from "@ai-sdk/react";
+import { RiCloseLine, RiMenuLine } from "@remixicon/react";
+import { DefaultChatTransport, type UIMessage } from "ai";
+
+import { Button } from "../../base/buttons/button";
+import { DemoTransport, SwitchingTransport } from "./demo-transport";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+
+import { AgentChatActions } from "./agent-chat-actions";
+import {
+  AgentChatHistory,
+  type ChatThreadSummary,
+} from "./agent-chat-history";
+import { AgentMessage } from "./agent-chat-message";
+import { AgentComposer } from "./agent-composer";
+import { AgentThinking } from "../agent-thinking/agent-thinking";
+import { starterNav, useStarterBase } from "../app-shell/app-shell";
+import { DashboardSidebar } from "../dashboard/dashboard-sidebar";
+import { IconButton } from "../../base/buttons/icon-button";
+import { cx } from "../../utils/cx";
+
+/**
+ * A working chat app, wired to the `/api/chat` runtime.
+ *
+ * Built only from free components — the free `sidebar`, AgentThinking,
+ * ComposerLoader, IconButton — so the whole screen can ship in a public
+ * starter repo without giving away anything sold as Pro. It follows the Pro AI
+ * chat template's geometry (12px page frame, 16px gap, the 260px sidebar card,
+ * a rounded-3xl chat surface) so a starter and a purchased template read as
+ * the same product.
+ *
+ * Any later chat screen that streams from a model should read the same
+ * message shape from the same endpoint, so it can replace this one without
+ * touching the backend.
+ */
+
+const ENDPOINT = "/api/chat";
+const STORAGE_KEY = "boardui:agent-chat-threads";
+/** Remembered so a reload of a keyless deploy lands back in the demo, not on the notice. */
+const DEMO_KEY = "boardui:agent-chat-demo";
+/** Enough history to be useful without letting localStorage grow unbounded. */
+const MAX_THREADS = 30;
+
+const SUGGESTIONS = [
+  "Explain what this starter does",
+  "Write a product update in three sentences",
+  "Give me five names for a scheduling app",
+];
+
+interface StoredThread extends ChatThreadSummary {
+  messages: UIMessage[];
+  /** Message id -> when it arrived, so a restored chat shows real times
+   *  rather than reporting every message as having just landed. */
+  messageAt: Record<string, number>;
+}
+
+type Probe = {
+  status: "checking" | "ready" | "unconfigured";
+  provider: string | null;
+  /** Display name from the runtime ("Anthropic"), so the UI needs no list of its own. */
+  label: string | null;
+  model: string | null;
+};
+
+export function AgentChat({
+  className,
+  contained = false,
+}: {
+  className?: string;
+  /** Docs preview mode: fill the preview frame's height instead of the
+   *  viewport, and keep the phone nav drawer inside the frame. */
+  contained?: boolean;
+}) {
+  const [probe, setProbe] = useState<Probe>({ status: "checking", provider: null, label: null, model: null });
+  const [input, setInput] = useState("");
+  const [navOpen, setNavOpen] = useState(false);
+  // The sidebar links only to pages the starter has; see app-shell.
+  const navItems = starterNav(useStarterBase());
+  const [threads, setThreads] = useState<StoredThread[]>([]);
+  // Empty until the mount effect assigns one: an id generated during render
+  // would differ between server and client and break hydration.
+  const [activeId, setActiveId] = useState("");
+  /** Stamped on send, so render never calls Date.now(). */
+  const [activeUpdatedAt, setActiveUpdatedAt] = useState(0);
+  /** Set when the open thread is renamed. Without it the derived title
+   *  (built from the first message) would immediately overwrite the name. */
+  const [activeTitle, setActiveTitle] = useState<string | null>(null);
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const titleRef = useRef<HTMLSpanElement>(null);
+  const columnRef = useRef<HTMLDivElement>(null);
+  /** When each message arrived, for the hover timestamp. */
+  const [messageAt, setMessageAt] = useState<Record<string, number>>({});
+  /** True once the transcript is scrolled at all. */
+  const [scrolledUnder, setScrolledUnder] = useState(false);
+  /** Whether the title and the message column actually overlap horizontally.
+   *  On a wide screen the column is centred well clear of a short title, so
+   *  text passing behind the header never touches it and a rule would be
+   *  drawing a line under nothing. */
+  const [canClash, setCanClash] = useState(false);
+  /** Guards the writer: before the restore below runs, `threads` is empty,
+   *  and persisting that would erase stored history on every page load. */
+  const [restored, setRestored] = useState(false);
+
+  // Demo mode: the visitor skipped the key notice. Only meaningful while the
+  // runtime reports no key; the moment a key exists, the real route answers.
+  const [demo, setDemo] = useState(false);
+  const demoActive = demo && probe.status === "unconfigured";
+  const [transport] = useState(
+    () => new SwitchingTransport(new DefaultChatTransport({ api: ENDPOINT }), new DemoTransport()),
+  );
+  useEffect(() => {
+    try {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- restoring from localStorage after mount; there is no render-time source for it
+      setDemo(window.localStorage.getItem(DEMO_KEY) === "on");
+    } catch {
+      // Storage can be blocked; the notice simply shows again.
+    }
+  }, []);
+  const enterDemo = () => {
+    setDemo(true);
+    try {
+      window.localStorage.setItem(DEMO_KEY, "on");
+    } catch {
+      // Nothing to remember without storage.
+    }
+  };
+
+  const { messages, sendMessage, setMessages, status, stop, error } = useChat({
+    transport,
+  });
+
+  const busy = status === "submitted" || status === "streaming";
+
+  // Reasoning models stream their thinking before any text, and the SDK flips
+  // status to "streaming" on that first non-text chunk. Gating the indicator on
+  // "submitted" alone therefore hides it seconds before a word appears, leaving
+  // an empty transcript. It stays up until real text exists.
+  const streamedText = useMemo(() => {
+    const last = messages[messages.length - 1];
+    if (!last || last.role !== "assistant") return "";
+    return last.parts
+      .filter((part) => part.type === "text")
+      .map((part) => part.text)
+      .join("");
+  }, [messages]);
+  const showThinking = busy && streamedText.length === 0;
+
+  /** The open chat as plain text, for the share control. */
+  const transcript = useMemo(
+    () =>
+      messages
+        .map((message) => `${message.role === "user" ? "You" : "Assistant"}: ${messageText(message)}`)
+        .filter((line) => !line.endsWith(": "))
+        .join("\n\n"),
+    [messages],
+  );
+
+  // Ask the runtime what it has before the first message, so a deployment with
+  // no key renders setup steps instead of letting someone type into a dead box.
+  useEffect(() => {
+    let cancelled = false;
+    fetch(ENDPOINT, { method: "GET" })
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data: { configured?: boolean; provider?: string; providerLabel?: string; model?: string } | null) => {
+        if (cancelled) return;
+        // Only an explicit `configured: false` means "no key". A failed or
+        // unreadable probe says nothing about the key, and treating it as
+        // missing would hide the composer behind setup steps for a fault that
+        // has nothing to do with configuration.
+        setProbe({
+          status: data && data.configured === false ? "unconfigured" : "ready",
+          provider: data?.provider ?? null,
+          label: data?.providerLabel ?? null,
+          model: data?.model ?? null,
+        });
+      })
+      .catch(() => {
+        // A failed probe shouldn't lock the composer — let the send attempt
+        // surface the real error rather than guessing the cause here.
+        if (!cancelled) setProbe({ status: "ready", provider: null, label: null, model: null });
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  // Restore history, then open on a fresh thread rather than reviving the last
+  // one — landing mid-conversation after a reload is more surprising than
+  // useful, and the rail is right there. localStorage cannot be read during
+  // render (it does not exist while server-rendering), so this is the one
+  // place state has to be set from an effect.
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- restoring from localStorage after mount; there is no render-time source for it
+    setActiveId(newThreadId());
+    setThreads(orderThreads(readThreads()));
+    setRestored(true);
+  }, []);
+
+  // The thread being typed into is derived rather than stored, so its title
+  // appears as soon as the first message lands without a state round-trip.
+  // The timestamp is stamped when a message is sent rather than read during
+  // render, so rendering stays pure and the badge does not drift each frame.
+  const liveThread: StoredThread | null = useMemo(
+    () =>
+      activeId && messages.length > 0
+        ? {
+            id: activeId,
+            title: activeTitle ?? deriveTitle(messages),
+            updatedAt: activeUpdatedAt,
+            messages,
+            messageAt,
+          }
+        : null,
+    [activeId, messages, activeUpdatedAt, messageAt, activeTitle],
+  );
+
+  // Ordered by last message, never by what is open: selecting a thread must
+  // not move it, or the list reshuffles under the pointer as you browse it.
+  const allThreads = useMemo(() => {
+    const rest = threads.filter((thread) => thread.id !== activeId);
+    return orderThreads(liveThread ? [liveThread, ...rest] : rest);
+  }, [liveThread, threads, activeId]);
+
+  // Persist whenever the list settles. Held back during a stream so it is not
+  // rewritten on every token, and until the restore above has run so an empty
+  // first render cannot clobber stored history.
+  useEffect(() => {
+    if (!restored || busy) return;
+    writeThreads(allThreads);
+  }, [restored, busy, allThreads]);
+
+  // Arrival times come from outside React (they are a property of when the
+  // stream delivered each message), so they are recorded rather than derived.
+  useEffect(() => {
+    const unseen = messages.filter((message) => messageAt[message.id] === undefined);
+    if (unseen.length === 0) return;
+    const now = Date.now();
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- restoring from localStorage after mount; there is no render-time source for it
+    setMessageAt((prev) => {
+      const next = { ...prev };
+      for (const message of unseen) next[message.id] = now;
+      return next;
+    });
+  }, [messages, messageAt]);
+
+  // Geometry, not a breakpoint: the title is as wide as its text, so whether
+  // it reaches the column depends on both and has to be measured.
+  useEffect(() => {
+    const measure = () => {
+      const title = titleRef.current?.getBoundingClientRect();
+      const column = columnRef.current?.getBoundingClientRect();
+      if (!title || !column) return;
+      // A 16px buffer so text never slides right up against the title.
+      setCanClash(title.right + 16 > column.left);
+    };
+    measure();
+    const observer = new ResizeObserver(measure);
+    if (scrollRef.current) observer.observe(scrollRef.current);
+    return () => observer.disconnect();
+  }, [messages.length, activeId]);
+
+  useEffect(() => {
+    scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: "smooth" });
+  }, [messages, busy]);
+
+  const submit = (text: string) => {
+    const trimmed = text.trim();
+    if (!trimmed || busy) return;
+    setActiveUpdatedAt(Date.now());
+    sendMessage({ text: trimmed }, { body: { demo: demoActive } });
+    setInput("");
+  };
+
+  /** Folds the thread being left back into the stored list before switching.
+   *  Its timestamp is carried over untouched, so leaving a thread never
+   *  changes where it sits in the list. */
+  const keepLiveThread = useCallback(() => {
+    if (!liveThread) return;
+    setThreads((prev) =>
+      orderThreads([liveThread, ...prev.filter((thread) => thread.id !== liveThread.id)]),
+    );
+  }, [liveThread]);
+
+  const startNewChat = useCallback(() => {
+    if (busy) return;
+    keepLiveThread();
+    setActiveId(newThreadId());
+    setActiveUpdatedAt(0);
+    setActiveTitle(null);
+    setMessageAt({});
+    setMessages([]);
+    setInput("");
+  }, [busy, keepLiveThread, setMessages]);
+
+  const renameThread = useCallback(
+    (id: string, title: string) => {
+      if (id === activeId) setActiveTitle(title);
+      setThreads((prev) =>
+        prev.map((thread) => (thread.id === id ? { ...thread, title } : thread)),
+      );
+    },
+    [activeId],
+  );
+
+  const toggleUnread = useCallback((id: string) => {
+    setThreads((prev) =>
+      prev.map((thread) => (thread.id === id ? { ...thread, unread: !thread.unread } : thread)),
+    );
+  }, []);
+
+  const deleteThread = useCallback(
+    (id: string) => {
+      const remaining = threads.filter((thread) => thread.id !== id);
+      setThreads(remaining);
+      // Deleting the thread you are reading leaves nothing to read, so the
+      // pane opens a fresh one rather than showing a transcript with no row.
+      if (id === activeId) {
+        setActiveId(newThreadId());
+        setActiveUpdatedAt(0);
+        setActiveTitle(null);
+        setMessageAt({});
+        setMessages([]);
+        setInput("");
+      }
+    },
+    [threads, activeId, setMessages],
+  );
+
+  /** Hands the stored chats back as a file. Nothing leaves the browser: the
+   *  blob is built locally and revoked straight after the click. */
+  const exportThreads = useCallback(() => {
+    if (allThreads.length === 0) return;
+    const blob = new Blob([JSON.stringify(allThreads, null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = "boardui-chats.json";
+    // In the document because some browsers ignore click() on a detached
+    // anchor, and revoked a tick later rather than immediately: revoking in the
+    // same turn can kill the URL before the browser has read the blob, which
+    // saves an empty file or nothing at all.
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 0);
+  }, [allThreads]);
+
+  const selectThread = useCallback(
+    (id: string) => {
+      if (busy || id === activeId) return;
+      const thread = allThreads.find((candidate) => candidate.id === id);
+      if (!thread) return;
+      keepLiveThread();
+      // Reading a chat is what marks it read again.
+      if (thread.unread) toggleUnread(id);
+      setActiveId(id);
+      setActiveUpdatedAt(thread.updatedAt);
+      setActiveTitle(thread.title);
+      setMessageAt(thread.messageAt ?? {});
+      setMessages(thread.messages);
+      setInput("");
+    },
+    [busy, activeId, allThreads, keepLiveThread, toggleUnread, setMessages],
+  );
+
+  return (
+    <div
+      className={cx(
+        "relative flex w-full gap-4 overflow-hidden bg-background-full p-3",
+        contained ? "h-[var(--template-preview-height)]" : "h-dvh",
+        className,
+      )}
+    >
+      <DashboardSidebar items={navItems} selected="chat" className="hidden lg:flex" />
+
+      {/* Below lg the sidebar rides in as an overlay drawer. The Pro template
+          pushes the workspace across instead; this is the plain version. */}
+      {navOpen && (
+        <div className={cx(contained ? "absolute" : "fixed", "inset-0 z-50 flex lg:hidden")}>
+          <button
+            type="button"
+            aria-label="Close navigation"
+            onClick={() => setNavOpen(false)}
+            className="absolute inset-0 cursor-pointer bg-black/40"
+          />
+          <div className="relative flex h-full p-3">
+            <DashboardSidebar
+              mobile
+              items={navItems}
+              selected="chat"
+              onClose={() => setNavOpen(false)}
+              className="flex"
+            />
+          </div>
+        </div>
+      )}
+
+      <div className="relative flex min-h-0 min-w-0 flex-1 gap-3 overflow-hidden">
+        <div className="relative flex h-full min-w-0 flex-1 flex-col overflow-hidden rounded-3xl bg-background-secondary-default">
+            <header
+              className={cx(
+                "absolute inset-x-0 top-0 z-10 flex h-12 items-center gap-2 border-b px-4 pt-[7px] transition-colors",
+                // Overlaid rather than stacked above the transcript. Stacked,
+                // the scroll area began below it and text was cut off at the
+                // header's edge; overlaid, it runs to the container's own
+                // rounded top and is clipped by that instead.
+                // A rule only earns its place when the text both passes under
+                // the header AND the title is wide enough to be in its way.
+                // The border is always present but transparent, so appearing
+                // costs no height and nothing shifts.
+                // When it does clash the band frosts over, so the text passing
+                // behind it is obscured instead of running through the title.
+                // Tied to the same condition as the rule: with no clash the
+                // header stays fully transparent and the transcript reads all
+                // the way up to the card's edge.
+                scrolledUnder && canClash
+                  ? "border-separator-border bg-white/20 backdrop-blur-[20px] dark:bg-black/20"
+                  : "border-transparent",
+              )}
+            >
+              <IconButton
+                icon={navOpen ? RiCloseLine : RiMenuLine}
+                size="small"
+                aria-label="Open navigation"
+                onClick={() => setNavOpen((open) => !open)}
+                className="lg:hidden"
+              />
+              <span
+                ref={titleRef}
+                className="min-w-0 shrink truncate text-headline-medium text-text-primary"
+              >
+                {headerTitle(allThreads, activeId)}
+              </span>
+
+              <AgentChatActions
+                className="ml-auto"
+                transcript={transcript}
+                onExport={exportThreads}
+                onToggleUnread={() => toggleUnread(activeId)}
+                onDelete={() => deleteThread(activeId)}
+                disabled={messages.length === 0}
+              />
+            </header>
+
+            {probe.status === "unconfigured" && messages.length === 0 && !demo ? (
+              <SetupNotice onSkip={enterDemo} />
+            ) : (
+              <>
+                <div
+                  ref={scrollRef}
+                  onScroll={(event) => setScrolledUnder(event.currentTarget.scrollTop > 0)}
+                  className="min-h-0 flex-1 overflow-y-auto scroll-smooth"
+                >
+                  <div
+                    ref={columnRef}
+                    className={cx(
+                      "mx-auto flex w-full max-w-3xl flex-col gap-5 px-4 pt-[72px] pb-6",
+                      // With nothing to read, the prompt sits in the middle of
+                      // the empty space rather than pinned under the header.
+                      messages.length === 0 && "min-h-full justify-center",
+                    )}
+                  >
+                    {messages.length === 0 ? (
+                      <EmptyState onPick={submit} demo={demoActive} />
+                    ) : (
+                      messages.map((message, index) => (
+                        <AgentMessage
+                          key={message.id}
+                          role={message.role}
+                          text={messageText(message)}
+                          streaming={busy && index === messages.length - 1}
+                          at={messageAt[message.id]}
+                        />
+                      ))
+                    )}
+
+                    {showThinking && (
+                      <AgentThinking variant="wave" label="Thinking" className="px-1" />
+                    )}
+
+                    {error && (
+                      <p role="alert" className="px-1 text-body-regular text-text-tertiary">
+                        Something went wrong. Check the server logs, then try again.
+                      </p>
+                    )}
+                  </div>
+                </div>
+
+                <div className="shrink-0 px-3 pb-3">
+                  <div className="mx-auto w-full max-w-3xl">
+                    <AgentComposer
+                      value={input}
+                      onValueChange={setInput}
+                      onSubmit={() => submit(input)}
+                      onStop={stop}
+                      busy={busy}
+                      model={probe.model}
+                      provider={demoActive ? "Demo mode" : (probe.label ?? probe.provider)}
+                      messageCount={messages.length}
+                    />
+                  </div>
+                </div>
+              </>
+            )}
+        </div>
+
+        {(probe.status !== "unconfigured" || messages.length > 0 || demo) && (
+            <AgentChatHistory
+              threads={allThreads}
+              activeId={activeId}
+              onSelect={selectThread}
+              onNewChat={startNewChat}
+              onRename={renameThread}
+              onToggleUnread={toggleUnread}
+              onDelete={deleteThread}
+              onExport={exportThreads}
+            disabled={busy}
+            className="hidden xl:flex"
+          />
+        )}
+      </div>
+      {/* Fixed to the viewport, so not inside the docs preview frame. */}
+    </div>
+  );
+}
+
+function EmptyState({ onPick, demo = false }: { onPick: (text: string) => void; demo?: boolean }) {
+  return (
+    <div className="flex flex-col items-center gap-4 text-center">
+      <div className="flex flex-col gap-1">
+        <h2 className="text-title-2-medium text-text-primary">What can I help with?</h2>
+        <p className="text-body-regular text-text-secondary">
+          {demo
+            ? "Demo mode: the answers are scripted. Add AI_API_KEY for a real model."
+            : "This chat runs against your own API key. History stays in this browser."}
+        </p>
+      </div>
+      <div className="flex flex-wrap justify-center gap-2">
+        {SUGGESTIONS.map((suggestion) => (
+          <button
+            key={suggestion}
+            type="button"
+            onClick={() => onPick(suggestion)}
+            className="cursor-pointer rounded-full bg-background-primary-default px-3.5 py-2 text-body-regular text-text-secondary shadow-xs transition-colors hover:bg-background-primary-hover"
+          >
+            {suggestion}
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+/**
+ * Shown when the runtime reports no provider key. Deliberately specific about
+ * where the key goes, because the person seeing this has usually just clicked
+ * Deploy and has no context for where that setting lives.
+ */
+function SetupNotice({ onSkip }: { onSkip: () => void }) {
+  return (
+    <div className="flex min-h-0 flex-1 items-center justify-center p-6">
+      <div className="flex max-w-md flex-col gap-3 rounded-2xl bg-background-primary-default p-6 shadow-card">
+        <h2 className="text-headline-medium text-text-primary">Add an API key to start</h2>
+        <p className="text-body-regular text-text-secondary">
+          The chat is wired up and ready. It needs a model provider key before it can answer.
+        </p>
+        <ol className="flex list-decimal flex-col gap-1.5 pl-5 text-body-regular text-text-secondary">
+          <li>Open your project on Vercel, then Settings, then Environment Variables.</li>
+          <li>
+            Add <code className="text-text-primary">AI_API_KEY</code> with a key from OpenAI,
+            Anthropic, Google, OpenRouter, or Vercel AI Gateway.
+          </li>
+          <li>Redeploy.</li>
+        </ol>
+        <p className="text-caption-1-regular text-text-tertiary">
+          Running locally? Put the same variable in <code>.env.local</code> and restart the dev
+          server.
+        </p>
+        <Button variant="primary" size="medium" className="w-full" onClick={onSkip}>
+          Skip, show me the demo
+        </Button>
+      </div>
+    </div>
+  );
+}
+
+/** Newest message first, and trimmed from the oldest end. */
+function orderThreads(threads: StoredThread[]) {
+  return [...threads].sort((a, b) => b.updatedAt - a.updatedAt).slice(0, MAX_THREADS);
+}
+
+/** The text parts of a message, joined. Reasoning and tool parts ride the
+ *  same array and are ignored here; a richer screen would render them. */
+function messageText(message: UIMessage) {
+  return message.parts
+    .filter((part) => part.type === "text")
+    .map((part) => part.text)
+    .join("");
+}
+
+function newThreadId() {
+  // randomUUID needs a secure context; a deployed starter always has one, but
+  // plain-http previews and older browsers do not.
+  return globalThis.crypto?.randomUUID?.() ?? `t-${Date.now()}-${Math.random().toString(16).slice(2)}`;
+}
+
+function deriveTitle(messages: UIMessage[]) {
+  const firstUser = messages.find((message) => message.role === "user");
+  const text = firstUser?.parts
+    .filter((part) => part.type === "text")
+    .map((part) => part.text)
+    .join("")
+    .trim();
+  if (!text) return "New chat";
+  return text.length > 48 ? `${text.slice(0, 48)}...` : text;
+}
+
+function headerTitle(threads: ChatThreadSummary[], activeId: string) {
+  return threads.find((thread) => thread.id === activeId)?.title ?? "New chat";
+}
+
+/** Storage is a convenience, never a source of truth — every access can throw
+ *  (private browsing, disabled site data) and must not take the chat with it. */
+function readThreads(): StoredThread[] {
+  try {
+    const raw = window.localStorage.getItem(STORAGE_KEY);
+    if (!raw) return [];
+    const parsed: unknown = JSON.parse(raw);
+    if (!Array.isArray(parsed)) return [];
+    return parsed.filter(
+      (thread): thread is StoredThread =>
+        typeof thread === "object" &&
+        thread !== null &&
+        typeof (thread as StoredThread).id === "string" &&
+        Array.isArray((thread as StoredThread).messages),
+    );
+  } catch {
+    return [];
+  }
+}
+
+function writeThreads(threads: StoredThread[]) {
+  try {
+    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(threads));
+  } catch {
+    // Quota or blocked storage: history is best-effort, the chat still works.
+  }
+}
+17:T1c40,"use client";
+
+import {
+  RiArrowUpLine,
+  RiAttachment2,
+  RiInfinityLine,
+  RiSparklingLine,
+  RiStopFill,
+} from "@remixicon/react";
+import { useRef, type FormEvent, type KeyboardEvent } from "react";
+
+import { ComposerLoader } from "../composer-loader/composer-loader";
+import { cx } from "../../utils/cx";
+
+/**
+ * The free composer: a 52px pill with a text field and circular controls,
+ * plus the thin status row beneath it.
+ *
+ * It matches the proportions of the Pro composer on purpose, so a starter
+ * looks like it belongs to the same product — the fixed-height pill, 8px
+ * padding with 36px circles sitting flush inside it, and the 10px gap rhythm
+ * across the row. What it deliberately does NOT carry is the paid work in
+ * `composer`: the liquid-glass surfaces behind the controls, the model and
+ * effort menus, the attachment plugin panel, and the voice equalizer. Those
+ * are the reason someone buys that component, so this one leaves the slots
+ * present but plain.
+ *
+ * The status row shows what is actually true of the running app — which
+ * provider answered, which model, how many messages are in the thread —
+ * rather than decorative chrome, so it stays honest in a deployed starter.
+ */
+
+export interface AgentComposerProps {
+  value: string;
+  onValueChange: (value: string) => void;
+  onSubmit: () => void;
+  onStop: () => void;
+  busy: boolean;
+  /** Model id reported by the runtime, e.g. "openai/gpt-5-nano". */
+  model?: string | null;
+  provider?: string | null;
+  messageCount: number;
+  className?: string;
+}
+
+export function AgentComposer({
+  value,
+  onValueChange,
+  onSubmit,
+  onStop,
+  busy,
+  model,
+  provider,
+  messageCount,
+  className,
+}: AgentComposerProps) {
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  const submit = (event: FormEvent) => {
+    event.preventDefault();
+    onSubmit();
+  };
+
+  const onKeyDown = (event: KeyboardEvent<HTMLInputElement>) => {
+    if (event.key === "Enter" && !event.shiftKey) {
+      event.preventDefault();
+      onSubmit();
+    }
+  };
+
+  return (
+    <div className={cx("flex w-full flex-col gap-2.5", className)}>
+      {/* radius omitted: ComposerLoader defaults to a full pill, matching the form. */}
+      <ComposerLoader active={busy}>
+        {/* The pill sits one step lighter than the chat surface behind it in
+            both themes (white on neutral-100 in light, neutral-800 on
+            neutral-900 in dark), so a single token works without a dark
+            override. Its controls then step back down to secondary. */}
+        <form
+          onSubmit={submit}
+          className={cx(
+            "flex h-[52px] w-full items-center gap-2.5 rounded-full p-2",
+            // ComposerLoader paints its own pill surface and runs the light
+            // behind its children, so an opaque form would cover the light
+            // entirely. While busy the form steps aside and lets it show.
+            busy ? "bg-transparent" : "bg-background-primary-default shadow-xs",
+          )}
+        >
+          {/* Attachment slot. Plain on purpose — the plugin panel behind this
+              button in the Pro composer is part of what that component sells. */}
+          {/* Shares the Pro composer's add-button tokens so the two read as the
+              same control. They resolve one step lighter than the pill in dark
+              and one step darker in light, which is why a single pair works for
+              both themes without a dark: override. */}
+          <button
+            type="button"
+            aria-label="Add attachment"
+            className="flex size-9 shrink-0 cursor-pointer items-center justify-center rounded-full bg-ai-chat-composer-add-background text-foreground-icon-primary transition-colors duration-150 ease hover:bg-ai-chat-composer-add-hover-background"
+          >
+            <RiAttachment2 className="size-5" aria-hidden />
+          </button>
+
+          <label className="sr-only" htmlFor="agent-composer-input">
+            Message
+          </label>
+          <input
+            id="agent-composer-input"
+            ref={inputRef}
+            type="text"
+            value={value}
+            onChange={(event) => onValueChange(event.target.value)}
+            onKeyDown={onKeyDown}
+            placeholder="Ask me anything"
+            autoComplete="off"
+            className="h-5 min-w-0 flex-1 bg-transparent text-body-regular text-text-primary caret-text-primary outline-none placeholder:text-text-tertiary"
+          />
+
+          {model ? (
+            <span
+              // Static where the Pro composer puts its model picker: the model
+              // is set by an env var, so there is nothing to switch at runtime.
+              className="flex h-8 shrink-0 items-center gap-1 rounded-xl py-1.5 pr-2 pl-2 text-body-2-medium text-text-secondary"
+              title={`Answering with ${model}`}
+            >
+              <RiSparklingLine className="size-4 shrink-0 text-foreground-icon-secondary" aria-hidden />
+              <span className="hidden max-w-[13ch] truncate sm:inline">{shortModel(model)}</span>
+            </span>
+          ) : null}
+
+          <div className="flex shrink-0 items-center gap-2 pl-1.5">
+            {busy ? (
+              <button
+                type="button"
+                onClick={onStop}
+                aria-label="Stop generating"
+                className="flex size-9 cursor-pointer items-center justify-center rounded-full bg-background-secondary-default text-foreground-icon-secondary transition-colors hover:bg-background-secondary-hover"
+              >
+                <RiStopFill className="size-5" aria-hidden />
+              </button>
+            ) : (
+              <button
+                type="submit"
+                aria-label="Send message"
+                disabled={value.trim().length === 0}
+                className="flex size-9 cursor-pointer items-center justify-center rounded-full bg-button-primary text-white transition-opacity disabled:cursor-not-allowed disabled:opacity-40"
+              >
+                <RiArrowUpLine className="size-5" aria-hidden />
+              </button>
+            )}
+          </div>
+        </form>
+      </ComposerLoader>
+
+      <div className="flex h-[26px] w-full items-center justify-between">
+        <div className="flex items-center gap-3">
+          <StatusItem icon={RiInfinityLine} label={provider ?? "Not configured"} />
+        </div>
+        <div className="flex items-center gap-3">
+          <StatusItem
+            icon={RiSparklingLine}
+            label={messageCount === 0 ? "New chat" : `${messageCount} messages`}
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function StatusItem({
+  icon: Icon,
+  label,
+}: {
+  icon: typeof RiInfinityLine;
+  label: string;
+}) {
+  return (
+    <span className="flex items-center gap-1">
+      <Icon className="size-4 shrink-0 text-foreground-icon-secondary" aria-hidden />
+      <span className="whitespace-nowrap text-body-2-medium text-text-secondary">{label}</span>
+    </span>
+  );
+}
+
+/** "openai/gpt-5-nano" reads better in a 13ch slot as "gpt-5-nano". */
+function shortModel(model: string) {
+  const slash = model.lastIndexOf("/");
+  return slash === -1 ? model : model.slice(slash + 1);
+}
+18:Tb49,/**
+ * What the chat says when there is no model behind it.
+ *
+ * Demo mode exists so a fresh deploy can be tried before a key is added: the
+ * screen, the streaming, the history all behave as they do with a model, and
+ * only the words are canned. Each answer says so, quietly, so nobody mistakes
+ * it for a model's.
+ */
+
+type DemoAnswer = { match: RegExp; reply: string };
+
+const ANSWERS: DemoAnswer[] = [
+  {
+    match: /starter|what (is|does) this|about this app|boardui/i,
+    reply:
+      "This is the BoardUI chat starter: a Next.js app with a streaming chat, a dashboard, an inbox and sign-in screens, all built from BoardUI's free components and installed as source you own. Right now I'm in demo mode, so this answer is canned. Add AI_API_KEY in your Vercel project settings, redeploy, and the same chat talks to a real model.",
+  },
+  {
+    match: /product update|announcement|release notes|changelog/i,
+    reply:
+      "Here's a product update in three sentences. This release adds a dashboard with revenue and orders charts, an inbox, and sign-in and sign-up screens, all built from the same free components as the chat. Every page installs as source, so nothing is locked behind a package. It deploys to Vercel in a click and runs on your own model key. (Demo mode: canned answer. Add AI_API_KEY for a real one.)",
+  },
+  {
+    match: /names?\b.*\b(app|product|scheduling|startup|company)|name ideas|suggest.*names/i,
+    reply:
+      "Five names for a scheduling app: Slotwise, Tidemark, Cadence, Dayline, and Meridian. Slotwise says what it does, Cadence and Meridian carry a rhythm, Tidemark and Dayline feel like calendars without saying so. (Demo mode: canned answer. With a key, I'd tailor these to your product.)",
+  },
+  {
+    match: /key|api|openrouter|openai|anthropic|provider|model/i,
+    reply:
+      "To connect a real model, add one environment variable, AI_API_KEY, in your Vercel project (Settings, then Environment Variables) and redeploy. The provider is read from the key itself: OpenAI, Anthropic, Google, OpenRouter, Groq, xAI or Vercel AI Gateway all work. Set CHAT_MODEL if you want a specific model. Until then I'm in demo mode, answering from a short script.",
+  },
+  {
+    match: /hello|hi\b|hey|good (morning|afternoon|evening)/i,
+    reply:
+      "Hello. I'm the starter's demo assistant, answering from a short script until a model key is added. Try asking what this starter does, or how to connect a key.",
+  },
+];
+
+const FALLBACK =
+  "I'm in demo mode, so I can only answer from a short script, and that question isn't in it. Add AI_API_KEY in your Vercel project settings and redeploy, and this same chat will answer properly. Meanwhile, try: what does this starter do, or how do I connect a key.";
+
+export function pickDemoAnswer(prompt: string): string {
+  return ANSWERS.find((answer) => answer.match.test(prompt))?.reply ?? FALLBACK;
+}
+19:Tcc0,import type { ChatTransport, UIMessage, UIMessageChunk } from "ai";
+
+import { pickDemoAnswer } from "./demo-answers";
+
+/** A beat before the first word, so the thinking indicator reads as thinking. */
+const THINK_MS = 700;
+/** Per word. Slightly faster than a model, since there is nothing to wait for. */
+const WORD_MS = 28;
+
+const wait = (ms: number, signal?: AbortSignal) =>
+  new Promise<void>((resolve, reject) => {
+    const timer = setTimeout(resolve, ms);
+    signal?.addEventListener("abort", () => {
+      clearTimeout(timer);
+      reject(new DOMException("Aborted", "AbortError"));
+    });
+  });
+
+function lastUserText(messages: UIMessage[]): string {
+  const last = [...messages].reverse().find((message) => message.role === "user");
+  return (
+    last?.parts
+      .filter((part): part is { type: "text"; text: string } => part.type === "text")
+      .map((part) => part.text)
+      .join("\n") ?? ""
+  );
+}
+
+/**
+ * The chat transport for a deploy that has no model key yet. It speaks the
+ * same UI-message stream the real route does, so `useChat` cannot tell the
+ * difference: the words arrive one at a time, Stop works, and the thread is
+ * saved like any other. Only the words are scripted.
+ */
+export class DemoTransport implements ChatTransport<UIMessage> {
+  async sendMessages({
+    messages,
+    abortSignal,
+  }: {
+    messages: UIMessage[];
+    abortSignal: AbortSignal | undefined;
+  }): Promise<ReadableStream<UIMessageChunk>> {
+    const reply = pickDemoAnswer(lastUserText(messages));
+    const id = `demo-${Date.now()}`;
+    return new ReadableStream<UIMessageChunk>({
+      async start(controller) {
+        try {
+          controller.enqueue({ type: "start" });
+          controller.enqueue({ type: "start-step" });
+          await wait(THINK_MS, abortSignal);
+          controller.enqueue({ type: "text-start", id });
+          const words = reply.split(/(?<=\s)/);
+          for (const word of words) {
+            await wait(WORD_MS, abortSignal);
+            controller.enqueue({ type: "text-delta", id, delta: word });
+          }
+          controller.enqueue({ type: "text-end", id });
+          controller.enqueue({ type: "finish-step" });
+          controller.enqueue({ type: "finish" });
+        } catch {
+          controller.enqueue({ type: "abort" });
+        } finally {
+          controller.close();
+        }
+      },
+    });
+  }
+
+  async reconnectToStream(): Promise<ReadableStream<UIMessageChunk> | null> {
+    return null;
+  }
+}
+
+/**
+ * Holds both transports and answers per request: a send carrying
+ * `body.demo` goes to the script, anything else to the real route. Nothing is
+ * mutated after construction, so `useChat` keeps one instance for good.
+ */
+export class SwitchingTransport implements ChatTransport<UIMessage> {
+  constructor(
+    private readonly live: ChatTransport<UIMessage>,
+    private readonly canned: ChatTransport<UIMessage>,
+  ) {}
+
+  sendMessages: ChatTransport<UIMessage>["sendMessages"] = (options) => {
+    const demo = Boolean((options.body as { demo?: boolean } | undefined)?.demo);
+    return (demo ? this.canned : this.live).sendMessages(options);
+  };
+
+  reconnectToStream: ChatTransport<UIMessage>["reconnectToStream"] = (options) =>
+    this.live.reconnectToStream(options);
+}
+11:["$","$L12",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"agent-chat","title":"Agent Chat","description":"A working chat app: thread history, streaming messages, composer and suggestions.","category":"blocks","tags":["ai","chat","agent","streaming","ai-sdk","composer"],"status":"stable","tier":"free","dependencies":["@ai-sdk/react","@internationalized/date","@remixicon/react","ai","motion","react-aria-components","tailwind-merge"],"registryDependencies":["agent-thinking","app-shell","avatar","badge","breadcrumb","button","checkbox","chevrons","chip","close-button","composer-loader","cx","date-picker","dropdown","file-upload","icon-button","input","kbd","notification-center","pagination","segmented-control","select","settings-modal","sidebar","switch","tabs","theme-toggle","tokens","tooltip","use-dismiss-on-outside-press"],"files":[{"path":"application/agent-chat/agent-chat-actions.tsx","target":"components/application/agent-chat/agent-chat-actions.tsx","type":"component","content":"$13"},{"path":"application/agent-chat/agent-chat-history.tsx","target":"components/application/agent-chat/agent-chat-history.tsx","type":"component","content":"$14"},{"path":"application/agent-chat/agent-chat-message.tsx","target":"components/application/agent-chat/agent-chat-message.tsx","type":"component","content":"$15"},{"path":"application/agent-chat/agent-chat.tsx","target":"components/application/agent-chat/agent-chat.tsx","type":"component","content":"$16"},{"path":"application/agent-chat/agent-composer.tsx","target":"components/application/agent-chat/agent-composer.tsx","type":"component","content":"$17"},{"path":"application/agent-chat/demo-answers.ts","target":"components/application/agent-chat/demo-answers.ts","type":"component","content":"$18"},{"path":"application/agent-chat/demo-transport.ts","target":"components/application/agent-chat/demo-transport.ts","type":"component","content":"$19"},{"path":"hooks/use-pathname.ts","target":"hooks/use-pathname.ts","type":"hook","content":"\"use client\";\n\nimport { useSyncExternalStore } from \"react\";\n\nfunction subscribe(listener: () => void) {\n  window.addEventListener(\"popstate\", listener);\n  return () => window.removeEventListener(\"popstate\", listener);\n}\n\n/** Browser navigation without requiring a framework router provider. */\nexport function usePathname() {\n  return useSyncExternalStore(subscribe, () => window.location.pathname, () => \"\");\n}\n"}],"hash":"9b47c0340744"},"demoSource":"\"use client\";\n\nimport { AgentChat } from \"@/components/application/agent-chat/agent-chat\";\n\nexport default function AgentChatDemo() {\n  // `contained` fills the preview frame instead of the viewport.\n  return (\n    <div className=\"h-[640px] w-full overflow-hidden rounded-2lg border border-border-button-white\">\n      <AgentChat contained />\n    </div>\n  );\n}","previous":{"name":"agent-log","title":"Agent Log"},"next":{"name":"area-chart-card","title":"Area Chart"}}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:null
+d:[["$","title","0",{"children":"Agent Chat — Zeus UI"}],["$","meta","1",{"name":"description","content":"A working chat app: thread history, streaming messages, composer and suggestions."}],["$","meta","2",{"name":"keywords","content":"ai,chat,agent,streaming,ai-sdk,composer"}]]

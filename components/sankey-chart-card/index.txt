@@ -1,0 +1,1019 @@
+1:"$Sreact.fragment"
+2:I[72844,["/_next/static/chunks/0by1pam5w7cuf.js"],""]
+3:I[37280,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+4:I[75701,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+6:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+a:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"ViewportBoundary"]
+c:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"MetadataBoundary"]
+e:I[84167,["/_next/static/chunks/0by1pam5w7cuf.js"],"default",1]
+:HL["/_next/static/chunks/16_ml9va511u1.css","style"]
+:HL["/_next/static/chunks/1lom8-olk25vh.css","style"]
+:HL["/_next/static/media/234d9015b631dab9-s.p.33gca1im1ku45.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+9:X
+0:{"P":null,"c":["","components","sankey-chart-card",""],"q":"","i":false,"f":[[["",{"children":["components",{"children":[["slug","sankey-chart-card","d",[]],{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0by1pam5w7cuf.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L2",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/3l5f3qnr89rl0.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0wmbfrsxfdesk.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/3ixdl2m026on9.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/3xa-hzf5c_c6n.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/1zihipy0kqa1_.js","async":true,"nonce":"$undefined"}],["$","script","script-5",{"src":"/_next/static/chunks/0-afrvt74ak7l.js","async":true,"nonce":"$undefined"}],["$","script","script-6",{"src":"/_next/static/chunks/0337601gswv_s.js","async":true,"nonce":"$undefined"}],["$","script","script-7",{"src":"/_next/static/chunks/34zl6f3dq0u0q.js","async":true,"nonce":"$undefined"}],["$","script","script-8",{"src":"/_next/static/chunks/2az_x4uxpy3sm.js","async":true,"nonce":"$undefined"}],["$","script","script-9",{"src":"/_next/static/chunks/23ywcyogzmwlv.js","async":true,"nonce":"$undefined"}],["$","script","script-10",{"src":"/_next/static/chunks/2qg2knl-9_2le.js","async":true,"nonce":"$undefined"}],["$","script","script-11",{"src":"/_next/static/chunks/1wypk9kc4p_mt.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$9"]},null,false,"$9"]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],"$Lf"]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Kgh3aKGUUDrNWttN7OqGM"}
+9:C
+f:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+10:I[54515,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"DocsLayout"]
+5:["$","$L10",null,{"title":"Sankey Chart","heading":"Sankey Chart","icon":"components","groups":[{"id":"foundations","title":"Foundations","items":[{"name":"tokens","title":"Design tokens","isNew":"$undefined"},{"name":"typography","title":"Typography","isNew":"$undefined"},{"name":"cx","title":"cx","isNew":"$undefined"},{"name":"chevrons","title":"Chevrons","isNew":"$undefined"},{"name":"logo","title":"Logo","isNew":"$undefined"},{"name":"use-count-up","title":"useCountUp","isNew":"$undefined"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress","isNew":"$undefined"}]},{"id":"base","title":"Base","items":[{"name":"button","title":"Button","isNew":"$undefined"},{"name":"icon-button","title":"Icon Button","isNew":"$undefined"},{"name":"link-button","title":"Link Button","isNew":"$undefined"},{"name":"button-group","title":"Button Group","isNew":"$undefined"},{"name":"close-button","title":"Close Button","isNew":"$undefined"},{"name":"social-button","title":"Social Button","isNew":"$undefined"},{"name":"input","title":"Input","isNew":"$undefined"},{"name":"input-otp","title":"Input OTP","isNew":"$undefined"},{"name":"checkbox","title":"Checkbox","isNew":"$undefined"},{"name":"radio","title":"Radio","isNew":"$undefined"},{"name":"switch","title":"Switch","isNew":"$undefined"},{"name":"select","title":"Select","isNew":"$undefined"},{"name":"slider","title":"Slider","isNew":"$undefined"},{"name":"dropdown","title":"Dropdown","isNew":"$undefined"},{"name":"divider","title":"Divider","isNew":"$undefined"},{"name":"file-upload","title":"File Upload","isNew":"$undefined"},{"name":"tabs","title":"Tabs","isNew":"$undefined"},{"name":"segmented-control","title":"Segmented Control","isNew":"$undefined"},{"name":"table","title":"Table","isNew":"$undefined"},{"name":"tooltip","title":"Tooltip","isNew":"$undefined"},{"name":"badge","title":"Badge","isNew":"$undefined"},{"name":"chip","title":"Chip","isNew":"$undefined"},{"name":"status-dot","title":"Status Dot","isNew":"$undefined"},{"name":"kbd","title":"Kbd","isNew":"$undefined"},{"name":"avatar","title":"Avatar","isNew":"$undefined"},{"name":"breadcrumb","title":"Breadcrumb","isNew":"$undefined"},{"name":"pagination","title":"Pagination","isNew":"$undefined"},{"name":"carousel","title":"Carousel","isNew":"$undefined"},{"name":"announcement","title":"Announcement","isNew":"$undefined"},{"name":"notification","title":"Notification","isNew":"$undefined"},{"name":"date-picker","title":"Date Picker","isNew":"$undefined"},{"name":"date-range-picker","title":"Date Range Picker","isNew":"$undefined"},{"name":"meeting-scheduler","title":"Meeting Scheduler","isNew":"$undefined"}]},{"id":"blocks","title":"Blocks","items":[{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"calendar","title":"Calendar","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"theme-toggle","title":"Theme Toggle","isNew":"$undefined"},{"name":"stat-cards","title":"Stat Cards","isNew":"$undefined"},{"name":"data-table","title":"Data Table","isNew":"$undefined"},{"name":"sidebar","title":"Sidebar","isNew":"$undefined"},{"name":"app-shell","title":"App Shell","isNew":"$undefined"},{"name":"notification-center","title":"Notification Center","isNew":"$undefined"},{"name":"settings-modal","title":"Settings Modal","isNew":"$undefined"},{"name":"auth-card","title":"Auth Card","isNew":"$undefined"},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking","isNew":"$undefined"},{"name":"composer-loader","title":"Composer Loader","isNew":"$undefined"},{"name":"agent-log","title":"Agent Log","isNew":"$undefined"},{"name":"agent-chat","title":"Agent Chat","isNew":"$undefined"}]},{"id":"charts","title":"Charts","items":[{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart","isNew":"$undefined"},{"name":"orders-chart-card","title":"Orders Chart","isNew":"$undefined"},{"name":"important-alerts-card","title":"Important Alerts","isNew":"$undefined"},{"name":"patient-info-card","title":"Patient Info","isNew":"$undefined"}]},{"id":"templates","title":"Templates","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true},{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true}]}],"description":"pill nodes, target-tinted links, source and share labels, and hover isolation","columnClassName":"$undefined","detail":true,"children":"$L11"}]
+12:I[26438,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"ComponentPage"]
+13:T290e,"use client";
+
+import {
+  RiArrowDownSLine,
+  RiArrowLeftSLine,
+  RiArrowRightSLine,
+  RiCalendarLine,
+} from "@remixicon/react";
+import { motion } from "motion/react";
+import { type ReactNode, useEffect, useRef, useState } from "react";
+import {
+  SegmentedControl,
+  SegmentedControlItem,
+} from "../../base/segmented-control/segmented-control";
+import { Select, SelectItem } from "../../base/select/select";
+import { useHydratedReducedMotion } from "../../hooks/use-hydrated-reduced-motion";
+import { cx } from "../../utils/cx";
+import { formatNumber } from "./chart-card";
+
+export const PALETTE = [2, 6, 5, 3, 8, 7, 1, 4, 9];
+export const ink = (index: number) => `var(--color-chart-${PALETTE[index % PALETTE.length]})`;
+export const safeRatio = (value: number, max: number) =>
+  Number.isFinite(value) && max > 0 ? Math.min(1, Math.max(0, value / max)) : 0;
+export const numeric = (value: unknown) =>
+  typeof value === "number" && Number.isFinite(value) ? value : 0;
+export const sum = (values: number[]) => values.reduce((total, value) => total + numeric(value), 0);
+export const average = (values: number[]) => (values.length ? sum(values) / values.length : 0);
+export const shortNumber = (value: number) =>
+  Math.abs(value) >= 1000 ? `${+(value / 1000).toFixed(1)}K` : `${+value.toFixed(1)}`;
+export const MONTHS = [
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
+  "May",
+  "Jun",
+  "Jul",
+  "Aug",
+  "Sep",
+  "Oct",
+  "Nov",
+  "Dec",
+];
+export const DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+export const chartAxis = {
+  tickLine: false,
+  axisLine: false,
+  tick: { fontSize: 12, fill: "var(--color-text-tertiary)" },
+} as const;
+export interface ChartRange {
+  id: string;
+  label: string;
+  delta?: number;
+  headline?: number;
+}
+export interface ChartCommonProps {
+  title?: string;
+  headline?: number;
+  delta?: number;
+  range?: string;
+  defaultRange?: string;
+  onRangeChange?: (id: string) => void;
+  className?: string;
+  format?: (value: number) => string;
+}
+export function useChartRange<T extends ChartRange>(
+  ranges: T[] | undefined,
+  defaultRange?: string,
+  onChange?: (id: string) => void,
+) {
+  const [selected, setSelected] = useState(defaultRange ?? ranges?.[0]?.id);
+  const current = ranges?.find((range) => range.id === selected) ?? ranges?.[0];
+  const select = (id: string) => {
+    setSelected(id);
+    onChange?.(id);
+  };
+  return { current, id: current?.id, select };
+}
+export function PeriodSelect({
+  ranges,
+  selected,
+  onChange,
+  label = "This year",
+}: {
+  ranges?: ChartRange[];
+  selected?: string;
+  onChange: (id: string) => void;
+  label?: string;
+}) {
+  const content = (
+    <>
+      <RiCalendarLine className="size-4 shrink-0 text-text-secondary" />
+      <span>{label}</span>
+    </>
+  );
+  if (!ranges?.length)
+    return (
+      <span className="flex h-8 shrink-0 items-center gap-1.5 rounded-2lg border border-border-button-default bg-background-primary-default px-2 text-body-medium text-text-primary shadow-xs">
+        {content}
+      </span>
+    );
+  return (
+    <Select
+      aria-label="Change period"
+      selectedKey={selected}
+      onSelectionChange={(key) => key != null && onChange(String(key))}
+      triggerClassName="h-8 pl-2 pr-1.5 py-1 text-body-medium"
+      className="shrink-0"
+      renderValue={<span className="flex items-center gap-1.5">{content}</span>}
+      renderIndicator={(open) => (
+        <RiArrowDownSLine
+          className={cx(
+            "size-4 shrink-0 text-text-secondary transition-transform duration-200 ease-out",
+            open && "rotate-180",
+          )}
+        />
+      )}
+    >
+      <>
+        {ranges.map((range) => (
+          <SelectItem key={range.id} id={range.id}>
+            {range.label}
+          </SelectItem>
+        ))}
+      </>
+    </Select>
+  );
+}
+export function PeriodTabs({
+  ranges,
+  selected,
+  onChange,
+  plain = false,
+}: {
+  ranges: ChartRange[];
+  selected?: string;
+  onChange: (id: string) => void;
+  plain?: boolean;
+}) {
+  return (
+    <SegmentedControl
+      aria-label="Chart period"
+      variant={plain ? "plain" : "solid"}
+      className={cx("shrink-0 bg-transparent", plain && "[&>button]:py-0")}
+      selectedKeys={selected ? [selected] : []}
+      onSelectionChange={(keys) => {
+        const id = [...keys][0];
+        if (id != null) onChange(String(id));
+      }}
+    >
+      {ranges.map((range) => (
+        <SegmentedControlItem id={range.id} key={range.id}>
+          {range.label}
+        </SegmentedControlItem>
+      ))}
+    </SegmentedControl>
+  );
+}
+export function WeekSwitcher({
+  label,
+  onPrevious,
+  onNext,
+}: {
+  label: string;
+  onPrevious: () => void;
+  onNext: () => void;
+}) {
+  return (
+    <div className="flex h-8 shrink-0 items-center gap-1 rounded-2lg border border-border-button-default bg-background-primary-default px-1 shadow-xs">
+      <button
+        type="button"
+        aria-label="Previous period"
+        onClick={onPrevious}
+        className="rounded-md text-text-secondary outline-none focus-visible:ring-2 focus-visible:ring-border-focus-ring"
+      >
+        <RiArrowLeftSLine className="size-4" />
+      </button>
+      <span className="min-w-20 text-center text-body-medium text-text-primary">{label}</span>
+      <button
+        type="button"
+        aria-label="Next period"
+        onClick={onNext}
+        className="rounded-md text-text-secondary outline-none focus-visible:ring-2 focus-visible:ring-border-focus-ring"
+      >
+        <RiArrowRightSLine className="size-4" />
+      </button>
+    </div>
+  );
+}
+export function AnimatedNumber({
+  value,
+  format = formatNumber,
+}: {
+  value: number;
+  format?: (value: number) => string;
+}) {
+  const reduced = useHydratedReducedMotion();
+  const [display, setDisplay] = useState(value);
+  const current = useRef(value);
+  useEffect(() => {
+    if (reduced) {
+      current.current = value;
+      setDisplay(value);
+      return;
+    }
+    const from = current.current,
+      start = performance.now();
+    let frame = 0;
+    const tick = (time: number) => {
+      const t = Math.min(1, (time - start) / 300);
+      current.current = from + (value - from) * (1 - (1 - t) ** 3);
+      setDisplay(current.current);
+      if (t < 1) frame = requestAnimationFrame(tick);
+    };
+    frame = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(frame);
+  }, [value, reduced]);
+  return <>{format(reduced ? value : display)}</>;
+}
+export function ChartFrame({
+  title,
+  value,
+  delta,
+  format,
+  suffix,
+  action,
+  children,
+  className,
+  height,
+  footer,
+  heading,
+}: {
+  title: string;
+  value?: number;
+  delta?: number;
+  format?: (value: number) => string;
+  suffix?: ReactNode;
+  action?: ReactNode;
+  children: ReactNode;
+  className?: string;
+  height?: number;
+  footer?: ReactNode;
+  heading?: ReactNode;
+}) {
+  return (
+    <section
+      className={cx(
+        "flex w-full min-w-0 flex-col gap-4 rounded-2xl bg-background-secondary-default px-4 pt-4 pb-3",
+        className,
+      )}
+      style={height ? { height } : undefined}
+    >
+      <div className="flex w-full flex-wrap items-start justify-between gap-3">
+        <div className="flex min-w-0 flex-1 flex-col gap-0.5">
+          <p className="truncate text-body-medium text-text-secondary">{title}</p>
+          <div className="flex items-center gap-2">
+            <p className="whitespace-nowrap text-title-1-medium text-text-primary tabular-nums">
+              {heading ?? (value != null && <AnimatedNumber value={value} format={format} />)}
+              {suffix && (
+                <span className="ml-1 text-caption-1-medium text-text-secondary">{suffix}</span>
+              )}
+            </p>
+            {delta != null && (
+              <span
+                className={cx(
+                  "rounded-md px-1.5 py-0.5 text-body-medium whitespace-nowrap",
+                  delta >= 0
+                    ? "bg-status-lime-background text-status-lime-text"
+                    : "bg-status-rose-background text-status-rose-text",
+                )}
+              >
+                {delta > 0 ? "+" : ""}
+                {+(delta * 100).toFixed(1)}%
+              </span>
+            )}
+          </div>
+        </div>
+        {action}
+      </div>
+      {children}
+      {footer}
+    </section>
+  );
+}
+export interface StatTile {
+  label: string;
+  value: ReactNode;
+  color?: string;
+}
+export function StatTiles({
+  items,
+  active,
+  onHover,
+  columns = 3,
+}: {
+  items: StatTile[];
+  columns?: number;
+  active?: number | null;
+  onHover?: (index: number | null) => void;
+}) {
+  return (
+    <div className="-mx-2 -mb-1 flex flex-wrap gap-2">
+      {items.map((item, index) => (
+        <div
+          key={item.label}
+          tabIndex={onHover ? 0 : undefined}
+          onMouseEnter={() => onHover?.(index)}
+          onMouseLeave={() => onHover?.(null)}
+          onFocus={() => onHover?.(index)}
+          onBlur={() => onHover?.(null)}
+          className="flex min-w-0 flex-auto basis-[calc(33.333%-8px)] flex-col gap-px rounded-2lg bg-background-inner-default px-2.5 py-2 outline-none transition-opacity duration-200 motion-reduce:transition-none focus-visible:ring-2 focus-visible:ring-border-focus-ring"
+          style={{
+            opacity: active != null && active !== index ? 0.35 : 1,
+            flexBasis: `calc(${100 / columns}% - 8px)`,
+          }}
+        >
+          <span className="flex items-center gap-1.5 truncate text-body-regular text-text-secondary">
+            {item.color && (
+              <span className="size-3 shrink-0 rounded-[4px]" style={{ background: item.color }} />
+            )}
+            {item.label}
+          </span>
+          <span className="text-body-medium text-text-primary tabular-nums">{item.value}</span>
+        </div>
+      ))}
+    </div>
+  );
+}
+export function PulseDot({ cx: x, cy: y, stroke }: { cx?: number; cy?: number; stroke?: string }) {
+  const reduced = useHydratedReducedMotion();
+  if (x == null || y == null) return null;
+  return (
+    <g>
+      <motion.circle
+        key={reduced ? "reduced" : "animated"}
+        cx={x}
+        cy={y}
+        fill={stroke}
+        initial={false}
+        animate={reduced ? { r: 7, opacity: 0.2 } : { r: [5, 11, 5], opacity: [0.25, 0, 0.25] }}
+        transition={reduced ? { duration: 0 } : { duration: 1.6, repeat: Infinity }}
+      />
+      <circle
+        cx={x}
+        cy={y}
+        r={3.5}
+        fill={stroke}
+        stroke="var(--color-background-inner-default)"
+        strokeWidth={2}
+      />
+    </g>
+  );
+}
+14:T29d7,"use client";
+import { useMemo, useState } from "react";
+import { ResponsiveContainer, Sankey } from "recharts";
+import {
+  type ChartCommonProps,
+  ChartFrame,
+  type ChartRange,
+  ink,
+  PeriodSelect,
+  sum,
+  useChartRange,
+} from "./pro-chart";
+import { SANKEY_DEMO_RANGES } from "./sankey-demo-data";
+export interface SankeyNode {
+  name: string;
+  color?: string;
+}
+export interface SankeyLink {
+  source: string | number;
+  target: string | number;
+  value: number;
+}
+export interface SankeyChartRange extends ChartRange {
+  nodes?: SankeyNode[];
+  links: SankeyLink[];
+}
+export interface SankeyChartCardProps extends ChartCommonProps {
+  nodes?: SankeyNode[];
+  links?: SankeyLink[];
+  ranges?: SankeyChartRange[];
+  axisLabels?: [string, string];
+  linkColor?: "source" | "target";
+}
+export const SANKEY_NODES: SankeyNode[] = [
+  { name: "Focus", color: "var(--color-chart-7)" },
+  { name: "Meetings", color: "var(--color-chart-5)" },
+  { name: "Breaks", color: "var(--color-chart-8)" },
+  { name: "Admin", color: "var(--color-chart-6)" },
+  { name: "Learning", color: "var(--color-chart-3)" },
+  ...[
+    "Browsing",
+    "Writing",
+    "Messaging",
+    "Productivity",
+    "Email",
+    "Video calls",
+    "Everything else",
+  ].map((name) => ({ name, color: "neutral" })),
+];
+export const SANKEY_LINKS: SankeyLink[] = SANKEY_DEMO_RANGES[0].links;
+const RANGES: SankeyChartRange[] = SANKEY_DEMO_RANGES;
+interface LayoutNode {
+  x?: number;
+  y?: number;
+  width?: number;
+  height?: number;
+  index?: number;
+  payload?: { name?: string; value?: number; sourceLinks?: number[]; targetLinks?: number[] };
+}
+interface LayoutLink {
+  index?: number;
+  sourceX?: number;
+  sourceY?: number;
+  targetX?: number;
+  targetY?: number;
+  sourceControlX?: number;
+  targetControlX?: number;
+  linkWidth?: number;
+  payload?: {
+    source?: { index?: number; name?: string };
+    target?: { index?: number; name?: string };
+    value?: number;
+  };
+}
+export function SankeyChartCard({
+  nodes,
+  links,
+  ranges: supplied,
+  title = "Tracked time",
+  axisLabels = ["Tracked time", "Share of tracked time"],
+  linkColor = "source",
+  ...props
+}: SankeyChartCardProps = {}) {
+  const ranges = supplied ?? (links ? undefined : RANGES),
+    period = useChartRange(ranges, props.defaultRange, props.onRangeChange),
+    items = period.current?.nodes ?? nodes ?? SANKEY_NODES,
+    raw = period.current?.links ?? links ?? SANKEY_LINKS,
+    [active, setActive] = useState<number | null>(null),
+    [activeLink, setActiveLink] = useState<number | null>(null),
+    [layoutHeight, setLayoutHeight] = useState(0),
+    format = props.format ?? ((n: number) => `${+n.toFixed(1)}h`);
+  const data = useMemo(
+    () => ({
+      nodes: items.map((n) => ({ ...n })),
+      links: raw
+        .map((l) => ({
+          ...l,
+          source:
+            typeof l.source === "number" ? l.source : items.findIndex((n) => n.name === l.source),
+          target:
+            typeof l.target === "number" ? l.target : items.findIndex((n) => n.name === l.target),
+        }))
+        .filter(
+          (l) =>
+            l.source >= 0 &&
+            l.target >= 0 &&
+            l.source < items.length &&
+            l.target < items.length &&
+            l.source !== l.target &&
+            Number.isFinite(l.value) &&
+            l.value > 0,
+        ),
+    }),
+    [items, raw],
+  );
+  const sources = data.nodes
+      .map((_, i) => i)
+      .filter((i) => !data.links.some((l) => l.target === i)),
+    total = sum(data.links.filter((l) => sources.includes(l.source)).map((l) => l.value)),
+    related = (i: number) =>
+      activeLink != null
+        ? data.links[activeLink]?.source === i || data.links[activeLink]?.target === i
+        : active == null ||
+          active === i ||
+          data.links.some(
+            (l) =>
+              (l.source === active && l.target === i) || (l.target === active && l.source === i),
+          ),
+    nodeValue = (i: number) =>
+      Math.max(
+        sum(data.links.filter((l) => l.source === i).map((l) => l.value)),
+        sum(data.links.filter((l) => l.target === i).map((l) => l.value)),
+      ),
+    color = (i: number) =>
+      items[i]?.color === "neutral"
+        ? "light-dark(var(--color-neutral-400), var(--color-neutral-300))"
+        : (items[i]?.color ?? ink(i));
+  const focusedLink = activeLink == null ? undefined : data.links[activeLink];
+  const clearActive = () => {
+    setActive(null);
+    setActiveLink(null);
+  };
+  const selectNode = (index: number) => {
+    setActive(index);
+    setActiveLink(null);
+  };
+  const Node = ({ x = 0, y = 0, width = 12, height = 0, index = 0 }: LayoutNode) => {
+    const source = sources.includes(index),
+      value = nodeValue(index);
+    const w = Math.max(0, width),
+      h = Math.max(0, height),
+      radius = Math.min(5, w / 2, h / 2);
+    const end = x + w,
+      bottom = y + h;
+    // Round the outside edge; the ribbon-facing edge stays flush with the links.
+    const path = source
+      ? `M${x + radius},${y} H${end} V${bottom} H${x + radius} A${radius},${radius} 0 0 1 ${x},${bottom - radius} V${y + radius} A${radius},${radius} 0 0 1 ${x + radius},${y} Z`
+      : `M${x},${y} H${end - radius} A${radius},${radius} 0 0 1 ${end},${y + radius} V${bottom - radius} A${radius},${radius} 0 0 1 ${end - radius},${bottom} H${x} Z`;
+    const fill =
+      active === index
+        ? items[index]?.color === "neutral"
+          ? "light-dark(var(--color-neutral-500), var(--color-neutral-100))"
+          : color(index).replace(/var\(--color-chart-(\d+)\)/, "var(--color-chart-$1-active)")
+        : color(index);
+    return (
+      <g
+        tabIndex={0}
+        role="button"
+        aria-label={`${items[index]?.name}: ${format(value)}`}
+        onFocus={() => selectNode(index)}
+        onBlur={clearActive}
+        opacity={related(index) ? 1 : 0.35}
+        onMouseEnter={() => selectNode(index)}
+        onMouseLeave={clearActive}
+        className="transition-opacity duration-200 ease-out motion-reduce:transition-none"
+      >
+        <path
+          d={path}
+          fill={fill}
+          className="transition-[fill] duration-150 ease-out motion-reduce:transition-none"
+        />
+        {source ? (
+          <g className="pointer-events-none">
+            <text
+              x={x - 8}
+              y={y + h / 2}
+              dy={-2}
+              textAnchor="end"
+              fontSize={13}
+              fontWeight={500}
+              fill="var(--color-text-primary)"
+            >
+              {items[index]?.name}
+            </text>
+            <text
+              x={x - 8}
+              y={y + h / 2}
+              dy={14}
+              textAnchor="end"
+              fontSize={12}
+              fill="var(--color-text-tertiary)"
+              className="tabular-nums"
+            >
+              {format(value)}
+            </text>
+          </g>
+        ) : (
+          <text
+            x={end + 8}
+            y={y + h / 2}
+            dy={4}
+            textAnchor="start"
+            fontSize={13}
+            className="pointer-events-none"
+          >
+            <tspan fontWeight={500} fill="var(--color-text-primary)">
+              {items[index]?.name}
+            </tspan>
+            <tspan
+              fill="var(--color-text-tertiary)"
+              className="tabular-nums"
+            >{` · ${total ? Math.round((value / total) * 100) : 0}%`}</tspan>
+          </text>
+        )}
+      </g>
+    );
+  };
+  const Link = ({
+    index = 0,
+    sourceX = 0,
+    sourceY = 0,
+    targetX = 0,
+    targetY = 0,
+    sourceControlX = 0,
+    targetControlX = 0,
+    linkWidth = 0,
+    payload,
+  }: LayoutLink) => {
+    const source =
+        payload?.source?.index ?? items.findIndex((n) => n.name === payload?.source?.name),
+      target = payload?.target?.index ?? items.findIndex((n) => n.name === payload?.target?.name);
+    return (
+      <path
+        d={`M${sourceX},${sourceY} C${sourceControlX},${sourceY} ${targetControlX},${targetY} ${targetX},${targetY}`}
+        fill="none"
+        stroke={color(linkColor === "source" ? source : target)}
+        strokeWidth={Math.max(0, linkWidth)}
+        strokeOpacity={
+          activeLink != null
+            ? activeLink === index
+              ? 0.7
+              : 0.08
+            : active == null
+              ? 0.32
+              : active === source || active === target
+                ? 0.7
+                : 0.08
+        }
+        onMouseEnter={() => {
+          setActiveLink(index);
+          setActive(null);
+        }}
+        onMouseLeave={clearActive}
+        className="transition-[stroke-opacity] duration-200 ease-out motion-reduce:transition-none"
+      />
+    );
+  };
+  return (
+    <ChartFrame
+      title={
+        focusedLink
+          ? `${items[focusedLink.source]?.name} → ${items[focusedLink.target]?.name}`
+          : active == null
+            ? title
+            : (items[active]?.name ?? title)
+      }
+      value={
+        focusedLink
+          ? focusedLink.value
+          : active == null
+            ? (period.current?.headline ?? props.headline ?? total)
+            : nodeValue(active)
+      }
+      format={format}
+      delta={period.current?.delta ?? props.delta}
+      className={props.className}
+      height={480}
+      action={
+        <PeriodSelect
+          ranges={ranges}
+          selected={period.id}
+          onChange={(id) => {
+            clearActive();
+            period.select(id);
+          }}
+          label={period.current?.label ?? props.range ?? "This week"}
+        />
+      }
+    >
+      <div className="relative min-h-0 w-full flex-1">
+        <ResponsiveContainer
+          width="100%"
+          height="100%"
+          onResize={(_, height) => setLayoutHeight(height)}
+        >
+          {/* ResizeObserver gives unscaled CSS dimensions. The initial bounding rect can
+              be smaller inside transformed previews, leaving less room than the node gaps. */}
+          {layoutHeight > 0 ? (
+            <Sankey
+              data={data}
+              node={Node}
+              link={Link}
+              nodeWidth={12}
+              linkCurvature={0.55}
+              nodePadding={Math.min(
+                14,
+                Math.max(0, (layoutHeight - 4) / Math.max(1, items.length)),
+              )}
+              iterations={32}
+              sort={false}
+              margin={{ top: 2, right: 150, bottom: 2, left: 88 }}
+            />
+          ) : (
+            <div />
+          )}
+        </ResponsiveContainer>
+      </div>
+      <div className="flex w-full justify-between pb-1 text-caption-1-medium text-text-tertiary">
+        <span>{axisLabels[0]}</span>
+        <span>{axisLabels[1]}</span>
+      </div>
+    </ChartFrame>
+  );
+}
+15:T12d0,// Default range values observed in the public Sankey preview on 5 September 2026.
+// Provenance: docs/interaction-inventory.json, referenceFixtures.renderedData.links.
+// The final month entry is the settled month dataset; the preceding entry is its exiting range.
+export const SANKEY_DEMO_RANGES = [
+  {
+    id: "week",
+    label: "This week",
+    links: [
+      {
+        source: 0,
+        target: 5,
+        value: 10.4,
+      },
+      {
+        source: 0,
+        target: 6,
+        value: 8.2,
+      },
+      {
+        source: 0,
+        target: 7,
+        value: 6.1,
+      },
+      {
+        source: 0,
+        target: 8,
+        value: 5,
+      },
+      {
+        source: 0,
+        target: 9,
+        value: 2.3,
+      },
+      {
+        source: 1,
+        target: 10,
+        value: 9.6,
+      },
+      {
+        source: 1,
+        target: 11,
+        value: 3.8,
+      },
+      {
+        source: 1,
+        target: 6,
+        value: 3,
+      },
+      {
+        source: 1,
+        target: 9,
+        value: 1.6,
+      },
+      {
+        source: 2,
+        target: 11,
+        value: 5.6,
+      },
+      {
+        source: 2,
+        target: 5,
+        value: 3.6,
+      },
+      {
+        source: 2,
+        target: 10,
+        value: 2.8,
+      },
+      {
+        source: 3,
+        target: 8,
+        value: 5.2,
+      },
+      {
+        source: 3,
+        target: 6,
+        value: 4,
+      },
+      {
+        source: 3,
+        target: 7,
+        value: 3.2,
+      },
+      {
+        source: 3,
+        target: 11,
+        value: 1.6,
+      },
+      {
+        source: 4,
+        target: 5,
+        value: 4.6,
+      },
+      {
+        source: 4,
+        target: 9,
+        value: 3.4,
+      },
+      {
+        source: 4,
+        target: 7,
+        value: 2,
+      },
+    ],
+  },
+  {
+    id: "previous",
+    label: "Last week",
+    links: [
+      {
+        source: 0,
+        target: 5,
+        value: 8.6,
+      },
+      {
+        source: 0,
+        target: 6,
+        value: 9.4,
+      },
+      {
+        source: 0,
+        target: 7,
+        value: 4.8,
+      },
+      {
+        source: 0,
+        target: 8,
+        value: 6.2,
+      },
+      {
+        source: 0,
+        target: 9,
+        value: 3.1,
+      },
+      {
+        source: 1,
+        target: 10,
+        value: 7.2,
+      },
+      {
+        source: 1,
+        target: 11,
+        value: 4.4,
+      },
+      {
+        source: 1,
+        target: 6,
+        value: 2.6,
+      },
+      {
+        source: 1,
+        target: 9,
+        value: 1.8,
+      },
+      {
+        source: 2,
+        target: 11,
+        value: 5.1,
+      },
+      {
+        source: 2,
+        target: 5,
+        value: 4.9,
+      },
+      {
+        source: 2,
+        target: 10,
+        value: 2.2,
+      },
+      {
+        source: 3,
+        target: 8,
+        value: 4.8,
+      },
+      {
+        source: 3,
+        target: 6,
+        value: 3.6,
+      },
+      {
+        source: 3,
+        target: 7,
+        value: 3.3,
+      },
+      {
+        source: 3,
+        target: 11,
+        value: 2.5,
+      },
+      {
+        source: 4,
+        target: 5,
+        value: 3.9,
+      },
+      {
+        source: 4,
+        target: 9,
+        value: 4.6,
+      },
+      {
+        source: 4,
+        target: 7,
+        value: 1.5,
+      },
+    ],
+  },
+  {
+    id: "month",
+    label: "This month",
+    links: [
+      {
+        source: 0,
+        target: 5,
+        value: 44.8,
+      },
+      {
+        source: 0,
+        target: 6,
+        value: 36.2,
+      },
+      {
+        source: 0,
+        target: 7,
+        value: 24.5,
+      },
+      {
+        source: 0,
+        target: 8,
+        value: 22.6,
+      },
+      {
+        source: 0,
+        target: 9,
+        value: 9.9,
+      },
+      {
+        source: 1,
+        target: 10,
+        value: 38.4,
+      },
+      {
+        source: 1,
+        target: 11,
+        value: 14.2,
+      },
+      {
+        source: 1,
+        target: 6,
+        value: 12.6,
+      },
+      {
+        source: 1,
+        target: 9,
+        value: 7.4,
+      },
+      {
+        source: 2,
+        target: 11,
+        value: 28.8,
+      },
+      {
+        source: 2,
+        target: 5,
+        value: 15.7,
+      },
+      {
+        source: 2,
+        target: 10,
+        value: 10.9,
+      },
+      {
+        source: 3,
+        target: 8,
+        value: 27.2,
+      },
+      {
+        source: 3,
+        target: 6,
+        value: 17.6,
+      },
+      {
+        source: 3,
+        target: 7,
+        value: 12.1,
+      },
+      {
+        source: 3,
+        target: 11,
+        value: 6.5,
+      },
+      {
+        source: 4,
+        target: 5,
+        value: 19.4,
+      },
+      {
+        source: 4,
+        target: 9,
+        value: 14.8,
+      },
+      {
+        source: 4,
+        target: 7,
+        value: 8.3,
+      },
+    ],
+  },
+];
+11:["$","$L12",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"sankey-chart-card","title":"Sankey Chart","description":"pill nodes, target-tinted links, source and share labels, and hover isolation","category":"charts","tags":["chart","data","visualization"],"status":"stable","tier":"free","isNew":true,"dependencies":["@remixicon/react","motion","react-aria-components","recharts","tailwind-merge"],"registryDependencies":["chart-card","chevrons","chip","cx","segmented-control","select","tokens","use-count-up","use-dismiss-on-outside-press"],"files":[{"path":"application/charts/pro-chart.tsx","target":"components/application/charts/pro-chart.tsx","type":"component","content":"$13"},{"path":"application/charts/sankey-chart-card.tsx","target":"components/application/charts/sankey-chart-card.tsx","type":"component","content":"$14"},{"path":"application/charts/sankey-demo-data.ts","target":"components/application/charts/sankey-demo-data.ts","type":"component","content":"$15"},{"path":"hooks/use-hydrated-reduced-motion.ts","target":"hooks/use-hydrated-reduced-motion.ts","type":"hook","content":"\"use client\";\n\nimport { useReducedMotion } from \"motion/react\";\nimport { useSyncExternalStore } from \"react\";\n\nconst subscribe = () => () => {};\nconst clientSnapshot = () => true;\nconst serverSnapshot = () => false;\n\n/** Keep the first server/client render identical, then apply the user's motion preference. */\nexport function useHydratedReducedMotion(): boolean {\n  const reduced = useReducedMotion();\n  const hydrated = useSyncExternalStore(subscribe, clientSnapshot, serverSnapshot);\n  return hydrated && reduced === true;\n}\n"}],"hash":"25d0310d6a3a"},"demoSource":"\"use client\";\n\nimport { SankeyChartCard } from \"@/components/application/charts/sankey-chart-card\";\n\nexport default function SankeyChartCardDemo() {\n  return (\n    <div className=\"w-full max-w-2xl\">\n      <SankeyChartCard />\n    </div>\n  );\n}","previous":{"name":"radial-chart-card","title":"Radial Chart"},"next":{"name":"scatter-chart-card","title":"Scatter Chart"}}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:null
+d:[["$","title","0",{"children":"Sankey Chart — Zeus UI"}],["$","meta","1",{"name":"description","content":"pill nodes, target-tinted links, source and share labels, and hover isolation"}],["$","meta","2",{"name":"keywords","content":"chart,data,visualization"}]]

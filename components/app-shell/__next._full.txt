@@ -1,0 +1,391 @@
+1:"$Sreact.fragment"
+2:I[72844,["/_next/static/chunks/0by1pam5w7cuf.js"],""]
+3:I[37280,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+4:I[75701,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+6:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+a:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"ViewportBoundary"]
+c:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"MetadataBoundary"]
+e:I[84167,["/_next/static/chunks/0by1pam5w7cuf.js"],"default",1]
+:HL["/_next/static/chunks/16_ml9va511u1.css","style"]
+:HL["/_next/static/chunks/1lom8-olk25vh.css","style"]
+:HL["/_next/static/media/234d9015b631dab9-s.p.33gca1im1ku45.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+9:X
+0:{"P":null,"c":["","components","app-shell",""],"q":"","i":false,"f":[[["",{"children":["components",{"children":[["slug","app-shell","d",[]],{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0by1pam5w7cuf.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L2",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/3l5f3qnr89rl0.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0wmbfrsxfdesk.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/3ixdl2m026on9.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/3xa-hzf5c_c6n.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/1zihipy0kqa1_.js","async":true,"nonce":"$undefined"}],["$","script","script-5",{"src":"/_next/static/chunks/0-afrvt74ak7l.js","async":true,"nonce":"$undefined"}],["$","script","script-6",{"src":"/_next/static/chunks/0337601gswv_s.js","async":true,"nonce":"$undefined"}],["$","script","script-7",{"src":"/_next/static/chunks/34zl6f3dq0u0q.js","async":true,"nonce":"$undefined"}],["$","script","script-8",{"src":"/_next/static/chunks/2az_x4uxpy3sm.js","async":true,"nonce":"$undefined"}],["$","script","script-9",{"src":"/_next/static/chunks/23ywcyogzmwlv.js","async":true,"nonce":"$undefined"}],["$","script","script-10",{"src":"/_next/static/chunks/2qg2knl-9_2le.js","async":true,"nonce":"$undefined"}],["$","script","script-11",{"src":"/_next/static/chunks/1wypk9kc4p_mt.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$9"]},null,false,"$9"]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],"$Lf"]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Kgh3aKGUUDrNWttN7OqGM"}
+9:C
+f:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+10:I[54515,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"DocsLayout"]
+5:["$","$L10",null,{"title":"App Shell","heading":"App Shell","icon":"components","groups":[{"id":"foundations","title":"Foundations","items":[{"name":"tokens","title":"Design tokens","isNew":"$undefined"},{"name":"typography","title":"Typography","isNew":"$undefined"},{"name":"cx","title":"cx","isNew":"$undefined"},{"name":"chevrons","title":"Chevrons","isNew":"$undefined"},{"name":"logo","title":"Logo","isNew":"$undefined"},{"name":"use-count-up","title":"useCountUp","isNew":"$undefined"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress","isNew":"$undefined"}]},{"id":"base","title":"Base","items":[{"name":"button","title":"Button","isNew":"$undefined"},{"name":"icon-button","title":"Icon Button","isNew":"$undefined"},{"name":"link-button","title":"Link Button","isNew":"$undefined"},{"name":"button-group","title":"Button Group","isNew":"$undefined"},{"name":"close-button","title":"Close Button","isNew":"$undefined"},{"name":"social-button","title":"Social Button","isNew":"$undefined"},{"name":"input","title":"Input","isNew":"$undefined"},{"name":"input-otp","title":"Input OTP","isNew":"$undefined"},{"name":"checkbox","title":"Checkbox","isNew":"$undefined"},{"name":"radio","title":"Radio","isNew":"$undefined"},{"name":"switch","title":"Switch","isNew":"$undefined"},{"name":"select","title":"Select","isNew":"$undefined"},{"name":"slider","title":"Slider","isNew":"$undefined"},{"name":"dropdown","title":"Dropdown","isNew":"$undefined"},{"name":"divider","title":"Divider","isNew":"$undefined"},{"name":"file-upload","title":"File Upload","isNew":"$undefined"},{"name":"tabs","title":"Tabs","isNew":"$undefined"},{"name":"segmented-control","title":"Segmented Control","isNew":"$undefined"},{"name":"table","title":"Table","isNew":"$undefined"},{"name":"tooltip","title":"Tooltip","isNew":"$undefined"},{"name":"badge","title":"Badge","isNew":"$undefined"},{"name":"chip","title":"Chip","isNew":"$undefined"},{"name":"status-dot","title":"Status Dot","isNew":"$undefined"},{"name":"kbd","title":"Kbd","isNew":"$undefined"},{"name":"avatar","title":"Avatar","isNew":"$undefined"},{"name":"breadcrumb","title":"Breadcrumb","isNew":"$undefined"},{"name":"pagination","title":"Pagination","isNew":"$undefined"},{"name":"carousel","title":"Carousel","isNew":"$undefined"},{"name":"announcement","title":"Announcement","isNew":"$undefined"},{"name":"notification","title":"Notification","isNew":"$undefined"},{"name":"date-picker","title":"Date Picker","isNew":"$undefined"},{"name":"date-range-picker","title":"Date Range Picker","isNew":"$undefined"},{"name":"meeting-scheduler","title":"Meeting Scheduler","isNew":"$undefined"}]},{"id":"blocks","title":"Blocks","items":[{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"calendar","title":"Calendar","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"theme-toggle","title":"Theme Toggle","isNew":"$undefined"},{"name":"stat-cards","title":"Stat Cards","isNew":"$undefined"},{"name":"data-table","title":"Data Table","isNew":"$undefined"},{"name":"sidebar","title":"Sidebar","isNew":"$undefined"},{"name":"app-shell","title":"App Shell","isNew":"$undefined"},{"name":"notification-center","title":"Notification Center","isNew":"$undefined"},{"name":"settings-modal","title":"Settings Modal","isNew":"$undefined"},{"name":"auth-card","title":"Auth Card","isNew":"$undefined"},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking","isNew":"$undefined"},{"name":"composer-loader","title":"Composer Loader","isNew":"$undefined"},{"name":"agent-log","title":"Agent Log","isNew":"$undefined"},{"name":"agent-chat","title":"Agent Chat","isNew":"$undefined"}]},{"id":"charts","title":"Charts","items":[{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart","isNew":"$undefined"},{"name":"orders-chart-card","title":"Orders Chart","isNew":"$undefined"},{"name":"important-alerts-card","title":"Important Alerts","isNew":"$undefined"},{"name":"patient-info-card","title":"Patient Info","isNew":"$undefined"}]},{"id":"templates","title":"Templates","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true},{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true}]}],"description":"The page frame: sidebar, mobile drawer, breadcrumb header and content column.","columnClassName":"$undefined","detail":true,"children":"$L11"}]
+12:I[26438,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"ComponentPage"]
+13:T1b9e,"use client";
+
+import {
+  RiAddFill,
+  RiChatAiLine,
+  RiCloseLine,
+  RiDashboardLine,
+  RiFilter3Fill,
+  RiLayoutGridLine,
+  RiLoginBoxLine,
+  RiMenuLine,
+  RiStackLine,
+  RiUserAddLine,
+} from "@remixicon/react";
+import type { ComponentType } from "react";
+import { usePathname } from "../../hooks/use-pathname";
+import { useState, type ReactNode } from "react";
+
+import {
+  DashboardSidebar,
+  type DashboardNavItem,
+} from "../dashboard/dashboard-sidebar";
+import { NotificationBell } from "./notification-bell";
+import { Avatar } from "../../base/avatar/avatar";
+import { Breadcrumb, BreadcrumbItem } from "../../base/breadcrumb/breadcrumb";
+import { Button } from "../../base/buttons/button";
+import { IconButton } from "../../base/buttons/icon-button";
+import { cx } from "../../utils/cx";
+
+/**
+ * The starter's page frame: the sidebar, a drawer for phones, and a titled
+ * content card. Every page of the starter except the chat renders inside it,
+ * and the chat shares its navigation, so the sidebar only ever links to pages
+ * the app actually has.
+ *
+ * On boardui.com the starter lives under /templates/chat-starter; in a
+ * deployed copy it is the root. The base is read off the URL rather than
+ * configured, so the same files run in both places untouched.
+ */
+export const STARTER_SITE_PREFIX = "/templates/chat-starter";
+
+
+/** "" in a deployed starter, the site prefix on boardui.com. */
+export function useStarterBase(): string {
+  const pathname = usePathname() ?? "";
+  const onSite =
+    pathname === STARTER_SITE_PREFIX || pathname.startsWith(`${STARTER_SITE_PREFIX}/`);
+  return onSite ? STARTER_SITE_PREFIX : "";
+}
+
+export function starterNav(base: string): DashboardNavItem[] {
+  return [
+    { key: "chat", label: "Chat", icon: RiChatAiLine, href: `${base}/chat` },
+    { key: "dashboard", label: "Dashboard", icon: RiDashboardLine, href: `${base}/dashboard` },
+    { key: "dashboards", label: "Dashboards", icon: RiStackLine, href: `${base}/dashboards` },
+    { key: "components", label: "Components and Blocks", icon: RiLayoutGridLine, href: `${base}/components` },
+    // Auth screens, as examples: full-page, so nothing is selected while on them.
+    { key: "login", label: "Sign in", icon: RiLoginBoxLine, href: `${base}/login` },
+    { key: "signup", label: "Sign up", icon: RiUserAddLine, href: `${base}/signup` },
+  ];
+}
+
+/** The nav key of the page at the current URL. */
+export function useStarterSelected(): string {
+  const pathname = usePathname() ?? "";
+  const base = useStarterBase();
+  const rest = pathname.slice(base.length);
+  // Checked before "/dashboard" so the plural route does not match the singular.
+  if (rest.startsWith("/dashboards")) return "dashboards";
+  if (rest.startsWith("/dashboard")) return "dashboard";
+  if (rest.startsWith("/components")) return "components";
+  return "chat";
+}
+
+type IconComponent = ComponentType<{ className?: string; "aria-hidden"?: boolean | "true" | "false" }>;
+
+/**
+ * The page standard every BoardUI template follows, free or Pro: content sits
+ * directly on the page background inside a 1300px column, so cards and tables
+ * carry their own surfaces; above it a breadcrumb trail (team, member, page)
+ * and the page heading. Pages pass what differs and get the rest.
+ */
+export function AppShell({
+  title,
+  heading = title,
+  icon: Icon = RiDashboardLine,
+  actions,
+  children,
+  className,
+  columnClassName,
+}: {
+  /** The page's name, shown as the current breadcrumb item. */
+  title: string;
+  /** The heading over the content. Defaults to the title. */
+  heading?: string;
+  /** Icon on the current breadcrumb item. */
+  icon?: IconComponent;
+  /** Header actions on the right; the Pro dashboard's set by default, `null` for none. */
+  actions?: ReactNode;
+  children: ReactNode;
+  className?: string;
+  /** Overrides the 1300px content column, e.g. `max-w-[964px]` for the catalogue's grids. */
+  columnClassName?: string;
+}) {
+  const [navOpen, setNavOpen] = useState(false);
+  const items = starterNav(useStarterBase());
+  const selected = useStarterSelected();
+
+  return (
+    <div
+      className={cx(
+        "relative flex h-dvh w-full gap-4 overflow-hidden bg-background-full p-3",
+        className,
+      )}
+    >
+      <DashboardSidebar items={items} selected={selected} className="hidden lg:flex" />
+
+      {/* Below lg the sidebar rides in as an overlay drawer. */}
+      {navOpen && (
+        <div className="fixed inset-0 z-50 flex lg:hidden">
+          <button
+            type="button"
+            aria-label="Close navigation"
+            onClick={() => setNavOpen(false)}
+            className="absolute inset-0 cursor-pointer bg-black/40"
+          />
+          <div className="relative flex h-full p-3">
+            <DashboardSidebar
+              mobile
+              items={items}
+              selected={selected}
+              onClose={() => setNavOpen(false)}
+              className="flex"
+            />
+          </div>
+        </div>
+      )}
+
+      <main className="relative flex min-h-0 min-w-0 flex-1 justify-center overflow-x-hidden overflow-y-auto bg-background-full sm:pt-3">
+        <div className={cx("flex w-full max-w-[1300px] flex-col gap-2.5", columnClassName)}>
+          <header className="flex w-full flex-col gap-2">
+            <Breadcrumb>
+              <BreadcrumbItem href="#">
+                <Avatar size="xs" color="blue" initials="B" />
+                Board team
+              </BreadcrumbItem>
+              <BreadcrumbItem href="#">
+                <Avatar size="xs" color="neutral" initials="M" />
+                Mertcan
+              </BreadcrumbItem>
+              <BreadcrumbItem current icon={Icon}>
+                {title}
+              </BreadcrumbItem>
+            </Breadcrumb>
+            <div className="flex w-full flex-wrap items-end justify-between gap-2">
+              <div className="flex min-w-0 items-center gap-1.5">
+                <IconButton
+                  icon={navOpen ? RiCloseLine : RiMenuLine}
+                  size="medium"
+                  aria-label="Open navigation"
+                  onClick={() => setNavOpen((open) => !open)}
+                  className="lg:hidden"
+                />
+                <h1 className="px-1 text-title-2-medium whitespace-nowrap text-text-primary">
+                  {heading}
+                </h1>
+              </div>
+              <div className="flex flex-wrap items-center justify-end gap-2.5">
+                {actions !== undefined ? actions : (
+                  <>
+                    <NotificationBell />
+                    <Button variant="secondary" size="medium" leadingIcon={RiFilter3Fill}>
+                      Filters
+                    </Button>
+                    <Button variant="primary" size="medium" leadingIcon={RiAddFill}>
+                      Create ticket
+                    </Button>
+                  </>
+                )}
+              </div>
+            </div>
+          </header>
+          <div className="flex w-full flex-col gap-4 pb-4">{children}</div>
+        </div>
+      </main>
+    </div>
+  );
+}
+14:T94a,"use client";
+
+import { RiNotificationLine } from "@remixicon/react";
+import { useRef, useState } from "react";
+import { Dialog, Popover } from "react-aria-components";
+import { IconButton } from "../../base/buttons/icon-button";
+import { useDismissOnOutsidePress } from "../../hooks/use-dismiss-on-outside-press";
+import { cx } from "../../utils/cx";
+import {
+  NotificationCenter,
+  type NotificationCenterItem,
+} from "../notification-center/notification-center";
+import { STARTER_NOTIFICATIONS } from "./starter-notifications";
+
+/** The header's bell: unread count on the glyph, the notification center in a popover. */
+export function NotificationBell({
+  notifications = STARTER_NOTIFICATIONS,
+  popoverClassName,
+}: {
+  notifications?: NotificationCenterItem[];
+  popoverClassName?: string;
+} = {}) {
+  const triggerRef = useRef<HTMLButtonElement>(null);
+  const popoverRef = useRef<HTMLElement>(null);
+  const [isOpen, setIsOpen] = useState(false);
+  const unread = notifications.filter((item) => item.unread).length;
+
+  useDismissOnOutsidePress(isOpen, () => setIsOpen(false), [triggerRef, popoverRef]);
+
+  return (
+    <>
+      <span className="group relative inline-flex">
+        <IconButton
+          ref={triggerRef}
+          icon={RiNotificationLine}
+          size="medium"
+          aria-label="Notifications"
+          aria-expanded={isOpen}
+          aria-haspopup="dialog"
+          onClick={() => setIsOpen((open) => !open)}
+        />
+        {unread > 0 && (
+          <span className="pointer-events-none absolute top-0.5 left-[18px] flex size-4 items-center justify-center rounded-full border-[1.5px] border-background-primary-default bg-red-600 group-hover:border-0 group-active:border-0">
+            <span className="w-4 text-center text-[10px] leading-4 font-bold text-white">
+              {unread}
+            </span>
+          </span>
+        )}
+      </span>
+      <Popover
+        ref={popoverRef}
+        triggerRef={triggerRef}
+        isOpen={isOpen}
+        onOpenChange={setIsOpen}
+        placement="bottom end"
+        offset={8}
+        isNonModal
+        className={cx("z-50 w-[440px] max-w-[calc(100vw-24px)] outline-none", popoverClassName)}
+      >
+        <Dialog aria-label="Notifications" className="outline-none">
+          <NotificationCenter notifications={notifications} />
+        </Dialog>
+      </Popover>
+    </>
+  );
+}
+15:T8a7,import { RiDownloadCloud2Line, RiGitPullRequestLine, RiShieldCheckLine } from "@remixicon/react";
+
+import type { NotificationCenterItem } from "../notification-center/notification-center";
+
+/** The starter's inbox. Three unread, matching the sidebar badge and the bell. */
+export const STARTER_NOTIFICATIONS: NotificationCenterItem[] = [
+  {
+    id: "mention-notes",
+    category: "mentions",
+    group: "Today",
+    title: "Livia mentioned you",
+    description: "Can you review the new empty state before we ship the dashboard?",
+    timestamp: "2m",
+    unread: true,
+    avatar: { initials: "LS", alt: "Livia Saris", color: "pink" },
+    actions: [
+      { id: "reply", label: "Reply", variant: "primary" },
+      { id: "view", label: "View thread", variant: "secondary" },
+    ],
+  },
+  {
+    id: "backup-ready",
+    category: "system",
+    group: "Today",
+    title: "Workspace backup is ready",
+    description: "The nightly backup finished and is ready to download.",
+    timestamp: "18m",
+    unread: true,
+    status: "success",
+    icon: RiDownloadCloud2Line,
+    actions: [{ id: "download", label: "Download", variant: "secondary" }],
+  },
+  {
+    id: "review-request",
+    category: "activity",
+    group: "Today",
+    title: "Review requested on the composer changes",
+    description: "Mert opened a pull request that touches the chat composer and the thinking indicator.",
+    timestamp: "1h",
+    unread: true,
+    icon: RiGitPullRequestLine,
+    actions: [{ id: "review", label: "Review", variant: "primary" }],
+  },
+  {
+    id: "key-rotated",
+    category: "system",
+    group: "Yesterday",
+    title: "API key rotated",
+    description: "The model provider key was replaced. Deployments pick it up on the next build.",
+    timestamp: "1d",
+    status: "information",
+    icon: RiShieldCheckLine,
+  },
+  {
+    id: "mention-launch",
+    category: "mentions",
+    group: "Yesterday",
+    title: "Aspen mentioned you",
+    description: "The launch checklist is done on my side. Anything left from yours?",
+    timestamp: "1d",
+    avatar: { initials: "AL", alt: "Aspen Lubin", color: "blue" },
+  },
+];
+
+export const STARTER_UNREAD_COUNT = STARTER_NOTIFICATIONS.filter((item) => item.unread).length;
+16:T777,"use client";
+
+import { AppShell } from "@/components/application/app-shell/app-shell";
+import { Button } from "@/components/base/buttons/button";
+import { RiAddLine } from "@remixicon/react";
+import { useState } from "react";
+
+export default function AppShellDemo() {
+  const [projects, setProjects] = useState(["Website refresh", "Component library"]);
+  return (
+    <div className="w-full overflow-hidden rounded-3xl border border-border-button-default">
+      <AppShell
+        title="Projects"
+        heading="Team workspace"
+        className="h-[520px]"
+        actions={
+          <Button
+            size="small"
+            leadingIcon={RiAddLine}
+            onClick={() => setProjects((items) => [...items, `Project ${items.length + 1}`])}
+          >
+            New project
+          </Button>
+        }
+      >
+        <div className="rounded-2xl bg-background-secondary-default p-4">
+          <p className="text-headline-medium text-text-primary">A home for your team’s work</p>
+          <p className="mt-1 text-body-regular text-text-secondary">
+            Navigation, page actions, and content share one adaptable frame.
+          </p>
+        </div>
+        <div className="grid gap-3 sm:grid-cols-2" aria-live="polite">
+          {projects.map((project, index) => (
+            <article
+              key={project}
+              className="flex flex-col gap-3 rounded-2xl border border-border-button-default bg-background-primary-default p-4"
+            >
+              <span className="text-caption-1-medium text-text-tertiary">
+                PROJECT {String(index + 1).padStart(2, "0")}
+              </span>
+              <h2 className="text-headline-medium text-text-primary">{project}</h2>
+              <p className="text-body-2-regular text-text-secondary">Ready for your next idea.</p>
+            </article>
+          ))}
+        </div>
+      </AppShell>
+    </div>
+  );
+}11:["$","$L12",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"app-shell","title":"App Shell","description":"The page frame: sidebar, mobile drawer, breadcrumb header and content column.","category":"blocks","tags":["layout","shell","page","responsive"],"status":"stable","tier":"free","dependencies":["@internationalized/date","@remixicon/react","motion","react-aria-components","tailwind-merge"],"registryDependencies":["avatar","badge","breadcrumb","button","checkbox","chevrons","chip","close-button","cx","date-picker","dropdown","file-upload","icon-button","input","kbd","notification-center","pagination","segmented-control","select","settings-modal","sidebar","switch","tabs","theme-toggle","tokens","tooltip","use-dismiss-on-outside-press"],"files":[{"path":"application/app-shell/app-shell.tsx","target":"components/application/app-shell/app-shell.tsx","type":"component","content":"$13"},{"path":"application/app-shell/notification-bell.tsx","target":"components/application/app-shell/notification-bell.tsx","type":"component","content":"$14"},{"path":"application/app-shell/starter-notifications.ts","target":"components/application/app-shell/starter-notifications.ts","type":"component","content":"$15"},{"path":"hooks/use-pathname.ts","target":"hooks/use-pathname.ts","type":"hook","content":"\"use client\";\n\nimport { useSyncExternalStore } from \"react\";\n\nfunction subscribe(listener: () => void) {\n  window.addEventListener(\"popstate\", listener);\n  return () => window.removeEventListener(\"popstate\", listener);\n}\n\n/** Browser navigation without requiring a framework router provider. */\nexport function usePathname() {\n  return useSyncExternalStore(subscribe, () => window.location.pathname, () => \"\");\n}\n"}],"hash":"2e5d71461eec"},"demoSource":"$16","previous":{"name":"sidebar","title":"Sidebar"},"next":{"name":"notification-center","title":"Notification Center"}}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:null
+d:[["$","title","0",{"children":"App Shell — Zeus UI"}],["$","meta","1",{"name":"description","content":"The page frame: sidebar, mobile drawer, breadcrumb header and content column."}],["$","meta","2",{"name":"keywords","content":"layout,shell,page,responsive"}]]

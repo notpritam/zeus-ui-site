@@ -1,0 +1,2215 @@
+1:"$Sreact.fragment"
+2:I[54515,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"DocsLayout"]
+12:X
+17:X
+17:C
+0:{"buildId":"Kgh3aKGUUDrNWttN7OqGM","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"Bar List","heading":"Bar List","icon":"components","groups":[{"id":"foundations","title":"Foundations","items":[{"name":"tokens","title":"Design tokens"},{"name":"typography","title":"Typography"},{"name":"cx","title":"cx"},{"name":"chevrons","title":"Chevrons"},{"name":"logo","title":"Logo"},{"name":"use-count-up","title":"useCountUp"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress"}]},{"id":"base","title":"Base","items":[{"name":"button","title":"Button"},{"name":"icon-button","title":"Icon Button"},{"name":"link-button","title":"Link Button"},{"name":"button-group","title":"Button Group"},{"name":"close-button","title":"Close Button"},{"name":"social-button","title":"Social Button"},{"name":"input","title":"Input"},{"name":"input-otp","title":"Input OTP"},{"name":"checkbox","title":"Checkbox"},{"name":"radio","title":"Radio"},{"name":"switch","title":"Switch"},{"name":"select","title":"Select"},{"name":"slider","title":"Slider"},{"name":"dropdown","title":"Dropdown"},{"name":"divider","title":"Divider"},{"name":"file-upload","title":"File Upload"},{"name":"tabs","title":"Tabs"},{"name":"segmented-control","title":"Segmented Control"},{"name":"table","title":"Table"},{"name":"tooltip","title":"Tooltip"},{"name":"badge","title":"Badge"},{"name":"chip","title":"Chip"},{"name":"status-dot","title":"Status Dot"},{"name":"kbd","title":"Kbd"},{"name":"avatar","title":"Avatar"},{"name":"breadcrumb","title":"Breadcrumb"},{"name":"pagination","title":"Pagination"},{"name":"carousel","title":"Carousel"},{"name":"announcement","title":"Announcement"},{"name":"notification","title":"Notification"},{"name":"date-picker","title":"Date Picker"},{"name":"date-range-picker","title":"Date Range Picker"},{"name":"meeting-scheduler","title":"Meeting Scheduler"}]},{"id":"blocks","title":"Blocks","items":[{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"calendar","title":"Calendar","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"theme-toggle","title":"Theme Toggle"},{"name":"stat-cards","title":"Stat Cards"},{"name":"data-table","title":"Data Table"},{"name":"sidebar","title":"Sidebar"},{"name":"app-shell","title":"App Shell"},{"name":"notification-center","title":"Notification Center"},{"name":"settings-modal","title":"Settings Modal"},{"name":"auth-card","title":"Auth Card"},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking"},{"name":"composer-loader","title":"Composer Loader"},{"name":"agent-log","title":"Agent Log"},{"name":"agent-chat","title":"Agent Chat"}]},{"id":"charts","title":"Charts","items":[{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart"},{"name":"orders-chart-card","title":"Orders Chart"},{"name":"important-alerts-card","title":"Important Alerts"},{"name":"patient-info-card","title":"Patient Info"}]},{"id":"templates","title":"Templates","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true},{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true}]}],"description":"A ranked list where each row's bar is its share of the top — no axis, no library.","detail":true,"children":"$L3"}],["$L4","$L5","$L6","$L7","$L8","$L9","$La","$Lb","$Lc","$Ld","$Le","$Lf"],"$L10"]}],"isPartial":"$@11","staleTime":"$12","varyParams":null},{"rsc":"$L13","isPartial":"$@14","staleTime":"$12","varyParams":null},{"rsc":"$L15","isPartial":"$@16","staleTime":"$12","varyParams":"$17"},{"rsc":"$L18","isPartial":"$@19","staleTime":"$12","varyParams":"$17"},{"rsc":"$L1a","isPartial":"$@1b","staleTime":"$12","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@1c","rootVaryParams":null,"needsRuntimeRequest":"$@1d"}
+1e:I[26438,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"ComponentPage"]
+22:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"OutletBoundary"]
+23:"$Sreact.suspense"
+25:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"ViewportBoundary"]
+26:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"MetadataBoundary"]
+27:I[37280,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+28:I[75701,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+29:I[72844,["/_next/static/chunks/0by1pam5w7cuf.js"],""]
+:HL["/_next/static/chunks/16_ml9va511u1.css","style"]
+:HL["/_next/static/chunks/1lom8-olk25vh.css","style"]
+1f:T1bd9,"use client";
+import { RiComputerLine, RiSmartphoneLine, RiTabletLine } from "@remixicon/react";
+import { motion } from "motion/react";
+import { type ReactNode, useState } from "react";
+import { Tab, TabList, TabPanel, Tabs } from "react-aria-components";
+import { useHydratedReducedMotion } from "../../hooks/use-hydrated-reduced-motion";
+import { cx } from "../../utils/cx";
+import { formatNumber } from "./chart-card";
+import { BAR_LIST_DEMO_TABS } from "./chart-demo-data";
+import { safeRatio, sum } from "./pro-chart";
+export interface BarListItem {
+  label: string;
+  value: number;
+  icon?: ReactNode;
+  tone?: number;
+  color?: string;
+  href?: string;
+}
+export interface BarListTab {
+  id: string;
+  label: string;
+  items: BarListItem[];
+}
+export interface BarListCardProps {
+  data?: BarListItem[];
+  items?: BarListItem[];
+  tabs?: BarListTab[];
+  title?: string;
+  unit?: string;
+  metricLabel?: string;
+  metric?: "value" | "share";
+  tone?: number;
+  limit?: number;
+  defaultTab?: string;
+  onTabChange?: (id: string) => void;
+  mono?: boolean;
+  className?: string;
+  height?: number | "auto";
+}
+export const BAR_LIST_DATA: BarListItem[] = [
+  { label: "Desktop", value: 5980, icon: <RiComputerLine className="size-4" /> },
+  { label: "Mobile", value: 3020, icon: <RiSmartphoneLine className="size-4" /> },
+  { label: "Tablet", value: 820, icon: <RiTabletLine className="size-4" /> },
+];
+const TABS: BarListTab[] = BAR_LIST_DEMO_TABS.map((tab) => ({
+  ...tab,
+  items: tab.id === "devices" ? BAR_LIST_DATA : tab.items,
+}));
+
+function formatShare(value: number, total: number) {
+  const percentage = safeRatio(value, total) * 100;
+  return percentage > 0 && percentage < 0.5 ? "<0.5%" : `${Math.round(percentage)}%`;
+}
+
+export function BarListCard({
+  data,
+  items,
+  tabs: provided,
+  title = "Pages",
+  unit,
+  metricLabel = "Visitors",
+  metric = "share",
+  tone = 6,
+  limit = 5,
+  defaultTab,
+  onTabChange,
+  mono = false,
+  className,
+  height = "auto",
+}: BarListCardProps = {}) {
+  const tabs = provided ?? (data || items ? undefined : TABS),
+    [selected, setSelected] = useState(defaultTab ?? tabs?.[0]?.id),
+    [expanded, setExpanded] = useState(false),
+    [hover, setHover] = useState<string | null>(null),
+    reduced = useHydratedReducedMotion();
+  const rows = (tabItems: BarListItem[]) => {
+    const sorted = [...tabItems].sort((a, b) => b.value - a.value),
+      total = sum(sorted.map((r) => r.value)),
+      maximum = Math.max(0, ...sorted.map((r) => r.value));
+    return (
+      <>
+        <ul className="-mx-2 flex flex-col gap-1">
+          {(expanded ? sorted : sorted.slice(0, Math.max(0, limit))).map((row) => (
+            <li
+              key={row.label}
+              onMouseEnter={() => setHover(row.label)}
+              onMouseLeave={() => setHover(null)}
+              className="relative flex h-9 items-center overflow-hidden rounded-lg px-2.5"
+            >
+              <motion.div
+                key={reduced ? "reduced" : "animated"}
+                className="absolute inset-y-0 left-0 rounded-lg"
+                initial={reduced ? false : { width: 0 }}
+                animate={{ width: `${safeRatio(row.value, maximum) * 100}%` }}
+                transition={{ duration: reduced ? 0 : 0.5, ease: "easeOut" }}
+                style={{
+                  background: mono
+                    ? "var(--color-text-tertiary)"
+                    : (row.color ?? `var(--color-chart-${row.tone ?? tone})`),
+                  opacity: hover === row.label ? 0.3 : 0.14,
+                }}
+              />
+              <span className="relative flex min-w-0 flex-1 items-center gap-2 text-body-regular text-text-primary">
+                <span className="text-text-secondary">{row.icon}</span>
+                {row.href ? (
+                  <a
+                    href={row.href}
+                    className="truncate outline-none hover:underline focus-visible:ring-2 focus-visible:ring-border-focus-ring"
+                  >
+                    {row.label}
+                  </a>
+                ) : (
+                  <span className="truncate">{row.label}</span>
+                )}
+              </span>
+              <span className="relative text-body-medium text-text-primary tabular-nums">
+                {metric === "value" ? formatNumber(row.value) : formatShare(row.value, total)}
+              </span>
+            </li>
+          ))}
+        </ul>
+        {sorted.length > limit && (
+          <button
+            type="button"
+            onClick={() => setExpanded(!expanded)}
+            className="mx-auto mt-3 block rounded-full border border-border-button-default bg-background-primary-default px-3 py-1 text-body-2-medium text-text-secondary outline-none focus-visible:ring-2 focus-visible:ring-border-focus-ring"
+          >
+            {expanded ? "Show fewer" : `Show ${sorted.length - limit} more`}
+          </button>
+        )}
+      </>
+    );
+  };
+  const metricHeading = (
+    <span className="shrink-0 pb-2.5 text-caption-1-medium tracking-[0.06em] text-text-tertiary uppercase">
+      {unit ?? metricLabel}
+    </span>
+  );
+  return (
+    <section
+      className={cx(
+        "flex w-full min-w-0 flex-col rounded-2xl bg-background-secondary-default px-4 pt-1 pb-2",
+        className,
+      )}
+      style={height === "auto" ? undefined : { height }}
+    >
+      {tabs ? (
+        <Tabs
+          selectedKey={selected}
+          onSelectionChange={(key) => {
+            setSelected(String(key));
+            setExpanded(false);
+            onTabChange?.(String(key));
+          }}
+          className="flex flex-col gap-3"
+        >
+          <div className="-mx-4 flex items-end gap-3 border-b border-separator-border px-4">
+            <TabList
+              aria-label="Breakdown"
+              className="flex min-w-0 flex-1 overflow-x-auto [scrollbar-width:none]"
+            >
+              {tabs.map((tab) => (
+                <Tab
+                  key={tab.id}
+                  id={tab.id}
+                  className={({ isSelected }) =>
+                    cx(
+                      "cursor-pointer whitespace-nowrap border-b-2 px-2.5 py-[7px] text-body-regular outline-none focus-visible:ring-2 focus-visible:ring-border-focus-ring",
+                      isSelected
+                        ? "border-accent-600 text-accent-600"
+                        : "border-transparent text-text-primary",
+                    )
+                  }
+                >
+                  {tab.label}
+                </Tab>
+              ))}
+            </TabList>
+            {metricHeading}
+          </div>
+          {tabs.map((tab) => (
+            <TabPanel key={tab.id} id={tab.id} className="outline-none">
+              {rows(tab.items)}
+            </TabPanel>
+          ))}
+        </Tabs>
+      ) : (
+        <>
+          <div className="-mx-4 mb-3 flex items-end justify-between border-b border-separator-border px-4">
+            <p className="py-2 text-body-medium text-text-primary">{title}</p>
+            {metricHeading}
+          </div>
+          {rows(items ?? data ?? [])}
+        </>
+      )}
+    </section>
+  );
+}
+20:T6eab,// Default demo fixtures observed in the public component previews on 5 September 2026.
+// Provenance and visible values: docs/interaction-inventory.json. No component implementation is copied.
+
+export const LINE_DEMO_RANGES = [
+  {
+    id: "weekly",
+    label: "Weekly",
+    headline: 18240,
+    delta: 0.094,
+    data: [
+      {
+        label: "Jan",
+        fullLabel: "January",
+        revenue: 1400,
+      },
+      {
+        label: "Feb",
+        fullLabel: "February",
+        revenue: 1900,
+      },
+      {
+        label: "Mar",
+        fullLabel: "March",
+        revenue: 2600,
+      },
+      {
+        label: "Apr",
+        fullLabel: "April",
+        revenue: 2300,
+      },
+      {
+        label: "May",
+        fullLabel: "May",
+        revenue: 3400,
+      },
+      {
+        label: "Jun",
+        fullLabel: "June",
+        revenue: 3100,
+      },
+      {
+        label: "Jul",
+        fullLabel: "July",
+        revenue: 2700,
+      },
+      {
+        label: "Aug",
+        fullLabel: "August",
+        revenue: 3800,
+      },
+      {
+        label: "Sep",
+        fullLabel: "September",
+        revenue: 4600,
+      },
+      {
+        label: "Oct",
+        fullLabel: "October",
+        revenue: 4200,
+      },
+      {
+        label: "Nov",
+        fullLabel: "November",
+        revenue: 3600,
+      },
+      {
+        label: "Dec",
+        fullLabel: "December",
+        revenue: 5200,
+      },
+    ],
+  },
+  {
+    id: "monthly",
+    label: "Monthly",
+    headline: 64820,
+    delta: 0.126,
+    data: [
+      {
+        label: "Jan",
+        fullLabel: "January",
+        revenue: 3200,
+      },
+      {
+        label: "Feb",
+        fullLabel: "February",
+        revenue: 4100,
+      },
+      {
+        label: "Mar",
+        fullLabel: "March",
+        revenue: 3800,
+      },
+      {
+        label: "Apr",
+        fullLabel: "April",
+        revenue: 5200,
+      },
+      {
+        label: "May",
+        fullLabel: "May",
+        revenue: 6400,
+      },
+      {
+        label: "Jun",
+        fullLabel: "June",
+        revenue: 5900,
+      },
+      {
+        label: "Jul",
+        fullLabel: "July",
+        revenue: 5100,
+      },
+      {
+        label: "Aug",
+        fullLabel: "August",
+        revenue: 6800,
+      },
+      {
+        label: "Sep",
+        fullLabel: "September",
+        revenue: 8100,
+      },
+      {
+        label: "Oct",
+        fullLabel: "October",
+        revenue: 7600,
+      },
+      {
+        label: "Nov",
+        fullLabel: "November",
+        revenue: 8400,
+      },
+      {
+        label: "Dec",
+        fullLabel: "December",
+        revenue: 9600,
+      },
+    ],
+  },
+  {
+    id: "yearly",
+    label: "Yearly",
+    headline: 512400,
+    delta: -0.032,
+    data: [
+      {
+        label: "Jan",
+        fullLabel: "January",
+        revenue: 28000,
+      },
+      {
+        label: "Feb",
+        fullLabel: "February",
+        revenue: 34000,
+      },
+      {
+        label: "Mar",
+        fullLabel: "March",
+        revenue: 46000,
+      },
+      {
+        label: "Apr",
+        fullLabel: "April",
+        revenue: 41000,
+      },
+      {
+        label: "May",
+        fullLabel: "May",
+        revenue: 52000,
+      },
+      {
+        label: "Jun",
+        fullLabel: "June",
+        revenue: 49000,
+      },
+      {
+        label: "Jul",
+        fullLabel: "July",
+        revenue: 61000,
+      },
+      {
+        label: "Aug",
+        fullLabel: "August",
+        revenue: 55000,
+      },
+      {
+        label: "Sep",
+        fullLabel: "September",
+        revenue: 68000,
+      },
+      {
+        label: "Oct",
+        fullLabel: "October",
+        revenue: 72000,
+      },
+      {
+        label: "Nov",
+        fullLabel: "November",
+        revenue: 64000,
+      },
+      {
+        label: "Dec",
+        fullLabel: "December",
+        revenue: 83000,
+      },
+    ],
+  },
+];
+
+export const EARNINGS_DEMO_RANGES = [
+  {
+    id: "weekly",
+    label: "Weekly",
+    headline: 7462,
+    delta: 0.14800000000000002,
+    data: [
+      {
+        label: "Jan",
+        fullLabel: "January",
+        value: 3240,
+      },
+      {
+        label: "Feb",
+        fullLabel: "February",
+        value: 7420,
+      },
+      {
+        label: "Mar",
+        fullLabel: "March",
+        value: 9650,
+      },
+      {
+        label: "Apr",
+        fullLabel: "April",
+        value: 7130,
+      },
+      {
+        label: "May",
+        fullLabel: "May",
+        value: 3670,
+      },
+      {
+        label: "Jun",
+        fullLabel: "June",
+        value: 2300,
+      },
+      {
+        label: "Jul",
+        fullLabel: "July",
+        value: 3820,
+      },
+      {
+        label: "Aug",
+        fullLabel: "August",
+        value: 5040,
+      },
+      {
+        label: "Sep",
+        fullLabel: "September",
+        value: 6840,
+      },
+      {
+        label: "Oct",
+        fullLabel: "October",
+        value: 4540,
+      },
+      {
+        label: "Nov",
+        fullLabel: "November",
+        value: 11520,
+      },
+      {
+        label: "Dec",
+        fullLabel: "December",
+        value: 8210,
+      },
+    ],
+  },
+  {
+    id: "monthly",
+    label: "Monthly",
+    headline: 32180,
+    delta: 0.08199999999999999,
+    data: [
+      {
+        label: "Jan",
+        fullLabel: "January",
+        value: 5200,
+      },
+      {
+        label: "Feb",
+        fullLabel: "February",
+        value: 6100,
+      },
+      {
+        label: "Mar",
+        fullLabel: "March",
+        value: 7300,
+      },
+      {
+        label: "Apr",
+        fullLabel: "April",
+        value: 8900,
+      },
+      {
+        label: "May",
+        fullLabel: "May",
+        value: 9600,
+      },
+      {
+        label: "Jun",
+        fullLabel: "June",
+        value: 10800,
+      },
+      {
+        label: "Jul",
+        fullLabel: "July",
+        value: 11200,
+      },
+      {
+        label: "Aug",
+        fullLabel: "August",
+        value: 9800,
+      },
+      {
+        label: "Sep",
+        fullLabel: "September",
+        value: 8600,
+      },
+      {
+        label: "Oct",
+        fullLabel: "October",
+        value: 7400,
+      },
+      {
+        label: "Nov",
+        fullLabel: "November",
+        value: 6900,
+      },
+      {
+        label: "Dec",
+        fullLabel: "December",
+        value: 8100,
+      },
+    ],
+  },
+  {
+    id: "yearly",
+    label: "Yearly",
+    headline: 389204,
+    delta: 0.214,
+    data: [
+      {
+        label: "Jan",
+        fullLabel: "January",
+        value: 4200,
+      },
+      {
+        label: "Feb",
+        fullLabel: "February",
+        value: 4800,
+      },
+      {
+        label: "Mar",
+        fullLabel: "March",
+        value: 5600,
+      },
+      {
+        label: "Apr",
+        fullLabel: "April",
+        value: 6100,
+      },
+      {
+        label: "May",
+        fullLabel: "May",
+        value: 6800,
+      },
+      {
+        label: "Jun",
+        fullLabel: "June",
+        value: 7500,
+      },
+      {
+        label: "Jul",
+        fullLabel: "July",
+        value: 8200,
+      },
+      {
+        label: "Aug",
+        fullLabel: "August",
+        value: 8900,
+      },
+      {
+        label: "Sep",
+        fullLabel: "September",
+        value: 9600,
+      },
+      {
+        label: "Oct",
+        fullLabel: "October",
+        value: 10300,
+      },
+      {
+        label: "Nov",
+        fullLabel: "November",
+        value: 11000,
+      },
+      {
+        label: "Dec",
+        fullLabel: "December",
+        value: 11600,
+      },
+    ],
+  },
+];
+
+export const AREA_DEMO_RANGES = [
+  {
+    id: "year",
+    label: "This year",
+    headline: 94700,
+    delta: 0.08199999999999999,
+    data: [
+      {
+        label: "Jan",
+        organic: 2400,
+        referral: 1200,
+        paid: 800,
+      },
+      {
+        label: "Feb",
+        organic: 2800,
+        referral: 1400,
+        paid: 700,
+      },
+      {
+        label: "Mar",
+        organic: 3200,
+        referral: 1300,
+        paid: 1100,
+      },
+      {
+        label: "Apr",
+        organic: 3000,
+        referral: 1700,
+        paid: 900,
+      },
+      {
+        label: "May",
+        organic: 3600,
+        referral: 1900,
+        paid: 1300,
+      },
+      {
+        label: "Jun",
+        organic: 4200,
+        referral: 1800,
+        paid: 1500,
+      },
+      {
+        label: "Jul",
+        organic: 4600,
+        referral: 2200,
+        paid: 1400,
+      },
+      {
+        label: "Aug",
+        organic: 4400,
+        referral: 2500,
+        paid: 1800,
+      },
+      {
+        label: "Sep",
+        organic: 5100,
+        referral: 2400,
+        paid: 2000,
+      },
+      {
+        label: "Oct",
+        organic: 5600,
+        referral: 2900,
+        paid: 1900,
+      },
+      {
+        label: "Nov",
+        organic: 5400,
+        referral: 3200,
+        paid: 2300,
+      },
+      {
+        label: "Dec",
+        organic: 6200,
+        referral: 3400,
+        paid: 2600,
+      },
+    ],
+  },
+  {
+    id: "six-months",
+    label: "Last 6 months",
+    headline: 59900,
+    delta: 0.114,
+    data: [
+      {
+        label: "Jul",
+        organic: 4600,
+        referral: 2200,
+        paid: 1400,
+      },
+      {
+        label: "Aug",
+        organic: 4400,
+        referral: 2500,
+        paid: 1800,
+      },
+      {
+        label: "Sep",
+        organic: 5100,
+        referral: 2400,
+        paid: 2000,
+      },
+      {
+        label: "Oct",
+        organic: 5600,
+        referral: 2900,
+        paid: 1900,
+      },
+      {
+        label: "Nov",
+        organic: 5400,
+        referral: 3200,
+        paid: 2300,
+      },
+      {
+        label: "Dec",
+        organic: 6200,
+        referral: 3400,
+        paid: 2600,
+      },
+    ],
+  },
+  {
+    id: "previous",
+    label: "Last year",
+    headline: 66100,
+    delta: -0.036000000000000004,
+    data: [
+      {
+        label: "Jan",
+        organic: 1900,
+        referral: 900,
+        paid: 600,
+      },
+      {
+        label: "Feb",
+        organic: 2100,
+        referral: 1100,
+        paid: 500,
+      },
+      {
+        label: "Mar",
+        organic: 2000,
+        referral: 1000,
+        paid: 800,
+      },
+      {
+        label: "Apr",
+        organic: 2400,
+        referral: 1300,
+        paid: 700,
+      },
+      {
+        label: "May",
+        organic: 2600,
+        referral: 1200,
+        paid: 900,
+      },
+      {
+        label: "Jun",
+        organic: 2500,
+        referral: 1500,
+        paid: 1100,
+      },
+      {
+        label: "Jul",
+        organic: 3100,
+        referral: 1600,
+        paid: 1000,
+      },
+      {
+        label: "Aug",
+        organic: 3000,
+        referral: 1800,
+        paid: 1200,
+      },
+      {
+        label: "Sep",
+        organic: 3400,
+        referral: 1700,
+        paid: 1400,
+      },
+      {
+        label: "Oct",
+        organic: 3800,
+        referral: 2100,
+        paid: 1300,
+      },
+      {
+        label: "Nov",
+        organic: 3600,
+        referral: 2300,
+        paid: 1600,
+      },
+      {
+        label: "Dec",
+        organic: 4100,
+        referral: 2200,
+        paid: 1800,
+      },
+    ],
+  },
+];
+
+export const COMBO_DEMO_RANGES = [
+  {
+    id: "year",
+    label: "This year",
+    headline: 83200,
+    delta: 0.094,
+    data: [
+      {
+        label: "Jan",
+        sessions: 4200,
+        rate: 2.4,
+      },
+      {
+        label: "Feb",
+        sessions: 4800,
+        rate: 2.6,
+      },
+      {
+        label: "Mar",
+        sessions: 5600,
+        rate: 3.1,
+      },
+      {
+        label: "Apr",
+        sessions: 5200,
+        rate: 2.9,
+      },
+      {
+        label: "May",
+        sessions: 6400,
+        rate: 3.4,
+      },
+      {
+        label: "Jun",
+        sessions: 7100,
+        rate: 3.8,
+      },
+      {
+        label: "Jul",
+        sessions: 6800,
+        rate: 3.6,
+      },
+      {
+        label: "Aug",
+        sessions: 7600,
+        rate: 4.1,
+      },
+      {
+        label: "Sep",
+        sessions: 8400,
+        rate: 4.4,
+      },
+      {
+        label: "Oct",
+        sessions: 8100,
+        rate: 4.2,
+      },
+      {
+        label: "Nov",
+        sessions: 9200,
+        rate: 4.8,
+      },
+      {
+        label: "Dec",
+        sessions: 9800,
+        rate: 5.2,
+      },
+    ],
+  },
+  {
+    id: "six-months",
+    label: "Last 6 months",
+    headline: 49900,
+    delta: 0.121,
+    data: [
+      {
+        label: "Jul",
+        sessions: 6800,
+        rate: 3.6,
+      },
+      {
+        label: "Aug",
+        sessions: 7600,
+        rate: 4.1,
+      },
+      {
+        label: "Sep",
+        sessions: 8400,
+        rate: 4.4,
+      },
+      {
+        label: "Oct",
+        sessions: 8100,
+        rate: 4.2,
+      },
+      {
+        label: "Nov",
+        sessions: 9200,
+        rate: 4.8,
+      },
+      {
+        label: "Dec",
+        sessions: 9800,
+        rate: 5.2,
+      },
+    ],
+  },
+  {
+    id: "previous",
+    label: "Last year",
+    headline: 55300,
+    delta: -0.027999999999999997,
+    data: [
+      {
+        label: "Jan",
+        sessions: 3100,
+        rate: 1.9,
+      },
+      {
+        label: "Feb",
+        sessions: 3400,
+        rate: 2.1,
+      },
+      {
+        label: "Mar",
+        sessions: 3900,
+        rate: 2.4,
+      },
+      {
+        label: "Apr",
+        sessions: 3700,
+        rate: 2.2,
+      },
+      {
+        label: "May",
+        sessions: 4300,
+        rate: 2.7,
+      },
+      {
+        label: "Jun",
+        sessions: 4600,
+        rate: 2.9,
+      },
+      {
+        label: "Jul",
+        sessions: 4400,
+        rate: 2.8,
+      },
+      {
+        label: "Aug",
+        sessions: 5100,
+        rate: 3.2,
+      },
+      {
+        label: "Sep",
+        sessions: 5400,
+        rate: 3.3,
+      },
+      {
+        label: "Oct",
+        sessions: 5200,
+        rate: 3.1,
+      },
+      {
+        label: "Nov",
+        sessions: 5900,
+        rate: 3.6,
+      },
+      {
+        label: "Dec",
+        sessions: 6300,
+        rate: 3.9,
+      },
+    ],
+  },
+];
+
+export const RADAR_DEMO_RANGES = [
+  {
+    id: "h1",
+    label: "H1 2024",
+    headline: 1424,
+    delta: 0.052000000000000005,
+    data: [
+      {
+        label: "January",
+        desktop: 186,
+        mobile: 80,
+      },
+      {
+        label: "February",
+        desktop: 305,
+        mobile: 200,
+      },
+      {
+        label: "March",
+        desktop: 237,
+        mobile: 120,
+      },
+      {
+        label: "April",
+        desktop: 273,
+        mobile: 190,
+      },
+      {
+        label: "May",
+        desktop: 209,
+        mobile: 130,
+      },
+      {
+        label: "June",
+        desktop: 214,
+        mobile: 140,
+      },
+    ],
+  },
+  {
+    id: "h2",
+    label: "H2 2024",
+    headline: 1633,
+    delta: 0.081,
+    data: [
+      {
+        label: "July",
+        desktop: 244,
+        mobile: 160,
+      },
+      {
+        label: "August",
+        desktop: 198,
+        mobile: 122,
+      },
+      {
+        label: "September",
+        desktop: 286,
+        mobile: 190,
+      },
+      {
+        label: "October",
+        desktop: 312,
+        mobile: 210,
+      },
+      {
+        label: "November",
+        desktop: 262,
+        mobile: 175,
+      },
+      {
+        label: "December",
+        desktop: 331,
+        mobile: 240,
+      },
+    ],
+  },
+  {
+    id: "year",
+    label: "2024",
+    headline: 3057,
+    delta: 0.067,
+    data: [
+      {
+        label: "Jan",
+        desktop: 186,
+        mobile: 80,
+      },
+      {
+        label: "Feb",
+        desktop: 305,
+        mobile: 200,
+      },
+      {
+        label: "Mar",
+        desktop: 237,
+        mobile: 120,
+      },
+      {
+        label: "Apr",
+        desktop: 273,
+        mobile: 190,
+      },
+      {
+        label: "May",
+        desktop: 209,
+        mobile: 130,
+      },
+      {
+        label: "Jun",
+        desktop: 214,
+        mobile: 140,
+      },
+      {
+        label: "Jul",
+        desktop: 244,
+        mobile: 160,
+      },
+      {
+        label: "Aug",
+        desktop: 198,
+        mobile: 122,
+      },
+      {
+        label: "Sep",
+        desktop: 286,
+        mobile: 190,
+      },
+      {
+        label: "Oct",
+        desktop: 312,
+        mobile: 210,
+      },
+      {
+        label: "Nov",
+        desktop: 262,
+        mobile: 175,
+      },
+      {
+        label: "Dec",
+        desktop: 331,
+        mobile: 240,
+      },
+    ],
+  },
+];
+
+export const RADIAL_DEMO_RANGES = [
+  {
+    id: "7d",
+    label: "Last 7 days",
+    headline: 925,
+    delta: 0.052000000000000005,
+    data: [
+      {
+        label: "Other",
+        value: 90,
+      },
+      {
+        label: "Edge",
+        value: 173,
+      },
+      {
+        label: "Firefox",
+        value: 187,
+      },
+      {
+        label: "Safari",
+        value: 200,
+      },
+      {
+        label: "Chrome",
+        value: 275,
+      },
+    ],
+  },
+  {
+    id: "30d",
+    label: "Last 30 days",
+    headline: 3500,
+    delta: 0.081,
+    data: [
+      {
+        label: "Other",
+        value: 410,
+      },
+      {
+        label: "Edge",
+        value: 520,
+      },
+      {
+        label: "Firefox",
+        value: 760,
+      },
+      {
+        label: "Safari",
+        value: 690,
+      },
+      {
+        label: "Chrome",
+        value: 1120,
+      },
+    ],
+  },
+  {
+    id: "90d",
+    label: "Last 90 days",
+    headline: 10970,
+    delta: -0.024,
+    data: [
+      {
+        label: "Other",
+        value: 1480,
+      },
+      {
+        label: "Edge",
+        value: 1720,
+      },
+      {
+        label: "Firefox",
+        value: 1900,
+      },
+      {
+        label: "Safari",
+        value: 2610,
+      },
+      {
+        label: "Chrome",
+        value: 3260,
+      },
+    ],
+  },
+];
+
+export const SCATTER_DEMO_RANGES = [
+  {
+    id: "quarter",
+    label: "This quarter",
+    headline: 742,
+    delta: 0.068,
+    series: [
+      {
+        label: "Starter",
+        points: [
+          {
+            x: 12,
+            y: 180,
+            z: 40,
+            label: "Acme",
+          },
+          {
+            x: 18,
+            y: 240,
+            z: 60,
+            label: "Bolt",
+          },
+          {
+            x: 24,
+            y: 210,
+            z: 30,
+            label: "Corvus",
+          },
+          {
+            x: 31,
+            y: 320,
+            z: 80,
+            label: "Delta",
+          },
+          {
+            x: 38,
+            y: 290,
+            z: 50,
+            label: "Ember",
+          },
+          {
+            x: 45,
+            y: 380,
+            z: 70,
+            label: "Flux",
+          },
+        ],
+      },
+      {
+        label: "Growth",
+        points: [
+          {
+            x: 42,
+            y: 620,
+            z: 90,
+            label: "Gale",
+          },
+          {
+            x: 55,
+            y: 740,
+            z: 120,
+            label: "Helio",
+          },
+          {
+            x: 61,
+            y: 690,
+            z: 70,
+            label: "Ionic",
+          },
+          {
+            x: 68,
+            y: 880,
+            z: 150,
+            label: "Juno",
+          },
+          {
+            x: 74,
+            y: 810,
+            z: 100,
+            label: "Kite",
+          },
+          {
+            x: 83,
+            y: 960,
+            z: 130,
+            label: "Lumen",
+          },
+        ],
+      },
+      {
+        label: "Scale",
+        points: [
+          {
+            x: 78,
+            y: 1240,
+            z: 180,
+            label: "Meridian",
+          },
+          {
+            x: 86,
+            y: 1420,
+            z: 220,
+            label: "Nova",
+          },
+          {
+            x: 92,
+            y: 1310,
+            z: 160,
+            label: "Orbit",
+          },
+          {
+            x: 97,
+            y: 1580,
+            z: 260,
+            label: "Prism",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "previous",
+    label: "Last quarter",
+    headline: 608,
+    delta: 0.040999999999999995,
+    series: [
+      {
+        label: "Starter",
+        points: [
+          {
+            x: 12,
+            y: 148,
+            z: 40,
+            label: "Acme",
+          },
+          {
+            x: 18,
+            y: 197,
+            z: 60,
+            label: "Bolt",
+          },
+          {
+            x: 24,
+            y: 172,
+            z: 30,
+            label: "Corvus",
+          },
+          {
+            x: 31,
+            y: 262,
+            z: 80,
+            label: "Delta",
+          },
+          {
+            x: 38,
+            y: 238,
+            z: 50,
+            label: "Ember",
+          },
+          {
+            x: 45,
+            y: 312,
+            z: 70,
+            label: "Flux",
+          },
+        ],
+      },
+      {
+        label: "Growth",
+        points: [
+          {
+            x: 42,
+            y: 508,
+            z: 90,
+            label: "Gale",
+          },
+          {
+            x: 55,
+            y: 607,
+            z: 120,
+            label: "Helio",
+          },
+          {
+            x: 61,
+            y: 566,
+            z: 70,
+            label: "Ionic",
+          },
+          {
+            x: 68,
+            y: 722,
+            z: 150,
+            label: "Juno",
+          },
+          {
+            x: 74,
+            y: 664,
+            z: 100,
+            label: "Kite",
+          },
+          {
+            x: 83,
+            y: 787,
+            z: 130,
+            label: "Lumen",
+          },
+        ],
+      },
+      {
+        label: "Scale",
+        points: [
+          {
+            x: 78,
+            y: 1017,
+            z: 180,
+            label: "Meridian",
+          },
+          {
+            x: 86,
+            y: 1164,
+            z: 220,
+            label: "Nova",
+          },
+          {
+            x: 92,
+            y: 1074,
+            z: 160,
+            label: "Orbit",
+          },
+          {
+            x: 97,
+            y: 1296,
+            z: 260,
+            label: "Prism",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "year",
+    label: "This year",
+    headline: 2671,
+    delta: -0.019,
+    series: [
+      {
+        label: "Starter",
+        points: [
+          {
+            x: 12,
+            y: 648,
+            z: 40,
+            label: "Acme",
+          },
+          {
+            x: 18,
+            y: 864,
+            z: 60,
+            label: "Bolt",
+          },
+          {
+            x: 24,
+            y: 756,
+            z: 30,
+            label: "Corvus",
+          },
+          {
+            x: 31,
+            y: 1152,
+            z: 80,
+            label: "Delta",
+          },
+          {
+            x: 38,
+            y: 1044,
+            z: 50,
+            label: "Ember",
+          },
+          {
+            x: 45,
+            y: 1368,
+            z: 70,
+            label: "Flux",
+          },
+        ],
+      },
+      {
+        label: "Growth",
+        points: [
+          {
+            x: 42,
+            y: 2232,
+            z: 90,
+            label: "Gale",
+          },
+          {
+            x: 55,
+            y: 2664,
+            z: 120,
+            label: "Helio",
+          },
+          {
+            x: 61,
+            y: 2484,
+            z: 70,
+            label: "Ionic",
+          },
+          {
+            x: 68,
+            y: 3168,
+            z: 150,
+            label: "Juno",
+          },
+          {
+            x: 74,
+            y: 2916,
+            z: 100,
+            label: "Kite",
+          },
+          {
+            x: 83,
+            y: 3456,
+            z: 130,
+            label: "Lumen",
+          },
+        ],
+      },
+      {
+        label: "Scale",
+        points: [
+          {
+            x: 78,
+            y: 4464,
+            z: 180,
+            label: "Meridian",
+          },
+          {
+            x: 86,
+            y: 5112,
+            z: 220,
+            label: "Nova",
+          },
+          {
+            x: 92,
+            y: 4716,
+            z: 160,
+            label: "Orbit",
+          },
+          {
+            x: 97,
+            y: 5688,
+            z: 260,
+            label: "Prism",
+          },
+        ],
+      },
+    ],
+  },
+];
+
+export const BAR_LIST_DEMO_TABS = [
+  {
+    id: "devices",
+    label: "Devices",
+    items: [
+      {
+        label: "Desktop",
+        value: 5980,
+      },
+      {
+        label: "Mobile",
+        value: 3020,
+      },
+      {
+        label: "Tablet",
+        value: 820,
+      },
+    ],
+  },
+  {
+    id: "browsers",
+    label: "Browsers",
+    items: [
+      {
+        label: "Chrome",
+        value: 5210,
+      },
+      {
+        label: "Safari",
+        value: 2640,
+      },
+      {
+        label: "Firefox",
+        value: 860,
+      },
+      {
+        label: "Edge",
+        value: 610,
+      },
+      {
+        label: "Samsung Internet",
+        value: 240,
+      },
+      {
+        label: "Opera",
+        value: 160,
+      },
+      {
+        label: "Brave",
+        value: 100,
+      },
+    ],
+  },
+  {
+    id: "os",
+    label: "Operating systems",
+    items: [
+      {
+        label: "Mac",
+        value: 4320,
+      },
+      {
+        label: "iOS",
+        value: 2550,
+      },
+      {
+        label: "Windows",
+        value: 1670,
+      },
+      {
+        label: "Android",
+        value: 880,
+      },
+      {
+        label: "GNU/Linux",
+        value: 390,
+      },
+      {
+        label: "ChromeOS",
+        value: 10,
+      },
+    ],
+  },
+  {
+    id: "screens",
+    label: "Screen sizes",
+    items: [
+      {
+        label: "1920 × 1080",
+        value: 3140,
+      },
+      {
+        label: "1440 × 900",
+        value: 2260,
+      },
+      {
+        label: "390 × 844",
+        value: 1980,
+      },
+      {
+        label: "1536 × 864",
+        value: 1120,
+      },
+      {
+        label: "430 × 932",
+        value: 760,
+      },
+      {
+        label: "2560 × 1440",
+        value: 560,
+      },
+    ],
+  },
+];
+
+export const HEATMAP_DEMO_RANGES = [
+  {
+    id: "7d",
+    label: "Last 7 days",
+    headline: 1892,
+    delta: 0.052000000000000005,
+    rows: [
+      {
+        label: "Mon",
+        values: [4, 2, 1, 6, 28, 46, 52, 58, 44, 30, 18, 9],
+      },
+      {
+        label: "Tue",
+        values: [3, 2, 2, 8, 32, 50, 55, 62, 48, 33, 20, 10],
+      },
+      {
+        label: "Wed",
+        values: [5, 3, 1, 7, 30, 48, 57, 60, 47, 31, 19, 8],
+      },
+      {
+        label: "Thu",
+        values: [4, 2, 2, 9, 34, 52, 60, 64, 50, 35, 22, 11],
+      },
+      {
+        label: "Fri",
+        values: [6, 3, 2, 8, 29, 44, 49, 46, 36, 24, 15, 9],
+      },
+      {
+        label: "Sat",
+        values: [8, 5, 3, 4, 12, 20, 26, 28, 25, 22, 16, 12],
+      },
+      {
+        label: "Sun",
+        values: [7, 4, 2, 3, 10, 17, 22, 24, 23, 20, 14, 10],
+      },
+    ],
+  },
+  {
+    id: "30d",
+    label: "Last 4 weeks",
+    headline: 7182,
+    delta: 0.11800000000000001,
+    rows: [
+      {
+        label: "Mon",
+        values: [13, 8, 4, 26, 106, 154, 209, 207, 187, 114, 60, 36],
+      },
+      {
+        label: "Tue",
+        values: [11, 7, 8, 29, 136, 190, 184, 250, 171, 140, 76, 33],
+      },
+      {
+        label: "Wed",
+        values: [21, 11, 3, 28, 107, 204, 217, 201, 189, 111, 81, 30],
+      },
+      {
+        label: "Thu",
+        values: [14, 9, 8, 30, 137, 186, 255, 243, 167, 141, 79, 47],
+      },
+      {
+        label: "Fri",
+        values: [24, 11, 9, 30, 97, 177, 175, 196, 137, 80, 60, 32],
+      },
+      {
+        label: "Sat",
+        values: [27, 20, 11, 17, 46, 67, 105, 100, 106, 84, 54, 48],
+      },
+      {
+        label: "Sun",
+        values: [27, 13, 8, 11, 43, 65, 74, 97, 82, 85, 53, 33],
+      },
+    ],
+  },
+  {
+    id: "90d",
+    label: "Last quarter",
+    headline: 21549,
+    delta: 0.034,
+    rows: [
+      {
+        label: "Mon",
+        values: [40, 24, 11, 77, 319, 461, 628, 622, 562, 342, 181, 109],
+      },
+      {
+        label: "Tue",
+        values: [34, 20, 24, 86, 409, 570, 552, 749, 514, 421, 228, 100],
+      },
+      {
+        label: "Wed",
+        values: [64, 34, 10, 85, 321, 613, 650, 602, 568, 332, 243, 91],
+      },
+      {
+        label: "Thu",
+        values: [43, 26, 23, 90, 411, 557, 766, 730, 502, 423, 236, 140],
+      },
+      {
+        label: "Fri",
+        values: [73, 32, 26, 91, 291, 532, 525, 587, 410, 241, 181, 96],
+      },
+      {
+        label: "Sat",
+        values: [80, 60, 32, 51, 137, 201, 314, 300, 319, 251, 161, 145],
+      },
+      {
+        label: "Sun",
+        values: [80, 40, 24, 32, 128, 194, 221, 290, 246, 255, 160, 100],
+      },
+    ],
+  },
+];
+21:T290e,"use client";
+
+import {
+  RiArrowDownSLine,
+  RiArrowLeftSLine,
+  RiArrowRightSLine,
+  RiCalendarLine,
+} from "@remixicon/react";
+import { motion } from "motion/react";
+import { type ReactNode, useEffect, useRef, useState } from "react";
+import {
+  SegmentedControl,
+  SegmentedControlItem,
+} from "../../base/segmented-control/segmented-control";
+import { Select, SelectItem } from "../../base/select/select";
+import { useHydratedReducedMotion } from "../../hooks/use-hydrated-reduced-motion";
+import { cx } from "../../utils/cx";
+import { formatNumber } from "./chart-card";
+
+export const PALETTE = [2, 6, 5, 3, 8, 7, 1, 4, 9];
+export const ink = (index: number) => `var(--color-chart-${PALETTE[index % PALETTE.length]})`;
+export const safeRatio = (value: number, max: number) =>
+  Number.isFinite(value) && max > 0 ? Math.min(1, Math.max(0, value / max)) : 0;
+export const numeric = (value: unknown) =>
+  typeof value === "number" && Number.isFinite(value) ? value : 0;
+export const sum = (values: number[]) => values.reduce((total, value) => total + numeric(value), 0);
+export const average = (values: number[]) => (values.length ? sum(values) / values.length : 0);
+export const shortNumber = (value: number) =>
+  Math.abs(value) >= 1000 ? `${+(value / 1000).toFixed(1)}K` : `${+value.toFixed(1)}`;
+export const MONTHS = [
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
+  "May",
+  "Jun",
+  "Jul",
+  "Aug",
+  "Sep",
+  "Oct",
+  "Nov",
+  "Dec",
+];
+export const DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+export const chartAxis = {
+  tickLine: false,
+  axisLine: false,
+  tick: { fontSize: 12, fill: "var(--color-text-tertiary)" },
+} as const;
+export interface ChartRange {
+  id: string;
+  label: string;
+  delta?: number;
+  headline?: number;
+}
+export interface ChartCommonProps {
+  title?: string;
+  headline?: number;
+  delta?: number;
+  range?: string;
+  defaultRange?: string;
+  onRangeChange?: (id: string) => void;
+  className?: string;
+  format?: (value: number) => string;
+}
+export function useChartRange<T extends ChartRange>(
+  ranges: T[] | undefined,
+  defaultRange?: string,
+  onChange?: (id: string) => void,
+) {
+  const [selected, setSelected] = useState(defaultRange ?? ranges?.[0]?.id);
+  const current = ranges?.find((range) => range.id === selected) ?? ranges?.[0];
+  const select = (id: string) => {
+    setSelected(id);
+    onChange?.(id);
+  };
+  return { current, id: current?.id, select };
+}
+export function PeriodSelect({
+  ranges,
+  selected,
+  onChange,
+  label = "This year",
+}: {
+  ranges?: ChartRange[];
+  selected?: string;
+  onChange: (id: string) => void;
+  label?: string;
+}) {
+  const content = (
+    <>
+      <RiCalendarLine className="size-4 shrink-0 text-text-secondary" />
+      <span>{label}</span>
+    </>
+  );
+  if (!ranges?.length)
+    return (
+      <span className="flex h-8 shrink-0 items-center gap-1.5 rounded-2lg border border-border-button-default bg-background-primary-default px-2 text-body-medium text-text-primary shadow-xs">
+        {content}
+      </span>
+    );
+  return (
+    <Select
+      aria-label="Change period"
+      selectedKey={selected}
+      onSelectionChange={(key) => key != null && onChange(String(key))}
+      triggerClassName="h-8 pl-2 pr-1.5 py-1 text-body-medium"
+      className="shrink-0"
+      renderValue={<span className="flex items-center gap-1.5">{content}</span>}
+      renderIndicator={(open) => (
+        <RiArrowDownSLine
+          className={cx(
+            "size-4 shrink-0 text-text-secondary transition-transform duration-200 ease-out",
+            open && "rotate-180",
+          )}
+        />
+      )}
+    >
+      <>
+        {ranges.map((range) => (
+          <SelectItem key={range.id} id={range.id}>
+            {range.label}
+          </SelectItem>
+        ))}
+      </>
+    </Select>
+  );
+}
+export function PeriodTabs({
+  ranges,
+  selected,
+  onChange,
+  plain = false,
+}: {
+  ranges: ChartRange[];
+  selected?: string;
+  onChange: (id: string) => void;
+  plain?: boolean;
+}) {
+  return (
+    <SegmentedControl
+      aria-label="Chart period"
+      variant={plain ? "plain" : "solid"}
+      className={cx("shrink-0 bg-transparent", plain && "[&>button]:py-0")}
+      selectedKeys={selected ? [selected] : []}
+      onSelectionChange={(keys) => {
+        const id = [...keys][0];
+        if (id != null) onChange(String(id));
+      }}
+    >
+      {ranges.map((range) => (
+        <SegmentedControlItem id={range.id} key={range.id}>
+          {range.label}
+        </SegmentedControlItem>
+      ))}
+    </SegmentedControl>
+  );
+}
+export function WeekSwitcher({
+  label,
+  onPrevious,
+  onNext,
+}: {
+  label: string;
+  onPrevious: () => void;
+  onNext: () => void;
+}) {
+  return (
+    <div className="flex h-8 shrink-0 items-center gap-1 rounded-2lg border border-border-button-default bg-background-primary-default px-1 shadow-xs">
+      <button
+        type="button"
+        aria-label="Previous period"
+        onClick={onPrevious}
+        className="rounded-md text-text-secondary outline-none focus-visible:ring-2 focus-visible:ring-border-focus-ring"
+      >
+        <RiArrowLeftSLine className="size-4" />
+      </button>
+      <span className="min-w-20 text-center text-body-medium text-text-primary">{label}</span>
+      <button
+        type="button"
+        aria-label="Next period"
+        onClick={onNext}
+        className="rounded-md text-text-secondary outline-none focus-visible:ring-2 focus-visible:ring-border-focus-ring"
+      >
+        <RiArrowRightSLine className="size-4" />
+      </button>
+    </div>
+  );
+}
+export function AnimatedNumber({
+  value,
+  format = formatNumber,
+}: {
+  value: number;
+  format?: (value: number) => string;
+}) {
+  const reduced = useHydratedReducedMotion();
+  const [display, setDisplay] = useState(value);
+  const current = useRef(value);
+  useEffect(() => {
+    if (reduced) {
+      current.current = value;
+      setDisplay(value);
+      return;
+    }
+    const from = current.current,
+      start = performance.now();
+    let frame = 0;
+    const tick = (time: number) => {
+      const t = Math.min(1, (time - start) / 300);
+      current.current = from + (value - from) * (1 - (1 - t) ** 3);
+      setDisplay(current.current);
+      if (t < 1) frame = requestAnimationFrame(tick);
+    };
+    frame = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(frame);
+  }, [value, reduced]);
+  return <>{format(reduced ? value : display)}</>;
+}
+export function ChartFrame({
+  title,
+  value,
+  delta,
+  format,
+  suffix,
+  action,
+  children,
+  className,
+  height,
+  footer,
+  heading,
+}: {
+  title: string;
+  value?: number;
+  delta?: number;
+  format?: (value: number) => string;
+  suffix?: ReactNode;
+  action?: ReactNode;
+  children: ReactNode;
+  className?: string;
+  height?: number;
+  footer?: ReactNode;
+  heading?: ReactNode;
+}) {
+  return (
+    <section
+      className={cx(
+        "flex w-full min-w-0 flex-col gap-4 rounded-2xl bg-background-secondary-default px-4 pt-4 pb-3",
+        className,
+      )}
+      style={height ? { height } : undefined}
+    >
+      <div className="flex w-full flex-wrap items-start justify-between gap-3">
+        <div className="flex min-w-0 flex-1 flex-col gap-0.5">
+          <p className="truncate text-body-medium text-text-secondary">{title}</p>
+          <div className="flex items-center gap-2">
+            <p className="whitespace-nowrap text-title-1-medium text-text-primary tabular-nums">
+              {heading ?? (value != null && <AnimatedNumber value={value} format={format} />)}
+              {suffix && (
+                <span className="ml-1 text-caption-1-medium text-text-secondary">{suffix}</span>
+              )}
+            </p>
+            {delta != null && (
+              <span
+                className={cx(
+                  "rounded-md px-1.5 py-0.5 text-body-medium whitespace-nowrap",
+                  delta >= 0
+                    ? "bg-status-lime-background text-status-lime-text"
+                    : "bg-status-rose-background text-status-rose-text",
+                )}
+              >
+                {delta > 0 ? "+" : ""}
+                {+(delta * 100).toFixed(1)}%
+              </span>
+            )}
+          </div>
+        </div>
+        {action}
+      </div>
+      {children}
+      {footer}
+    </section>
+  );
+}
+export interface StatTile {
+  label: string;
+  value: ReactNode;
+  color?: string;
+}
+export function StatTiles({
+  items,
+  active,
+  onHover,
+  columns = 3,
+}: {
+  items: StatTile[];
+  columns?: number;
+  active?: number | null;
+  onHover?: (index: number | null) => void;
+}) {
+  return (
+    <div className="-mx-2 -mb-1 flex flex-wrap gap-2">
+      {items.map((item, index) => (
+        <div
+          key={item.label}
+          tabIndex={onHover ? 0 : undefined}
+          onMouseEnter={() => onHover?.(index)}
+          onMouseLeave={() => onHover?.(null)}
+          onFocus={() => onHover?.(index)}
+          onBlur={() => onHover?.(null)}
+          className="flex min-w-0 flex-auto basis-[calc(33.333%-8px)] flex-col gap-px rounded-2lg bg-background-inner-default px-2.5 py-2 outline-none transition-opacity duration-200 motion-reduce:transition-none focus-visible:ring-2 focus-visible:ring-border-focus-ring"
+          style={{
+            opacity: active != null && active !== index ? 0.35 : 1,
+            flexBasis: `calc(${100 / columns}% - 8px)`,
+          }}
+        >
+          <span className="flex items-center gap-1.5 truncate text-body-regular text-text-secondary">
+            {item.color && (
+              <span className="size-3 shrink-0 rounded-[4px]" style={{ background: item.color }} />
+            )}
+            {item.label}
+          </span>
+          <span className="text-body-medium text-text-primary tabular-nums">{item.value}</span>
+        </div>
+      ))}
+    </div>
+  );
+}
+export function PulseDot({ cx: x, cy: y, stroke }: { cx?: number; cy?: number; stroke?: string }) {
+  const reduced = useHydratedReducedMotion();
+  if (x == null || y == null) return null;
+  return (
+    <g>
+      <motion.circle
+        key={reduced ? "reduced" : "animated"}
+        cx={x}
+        cy={y}
+        fill={stroke}
+        initial={false}
+        animate={reduced ? { r: 7, opacity: 0.2 } : { r: [5, 11, 5], opacity: [0.25, 0, 0.25] }}
+        transition={reduced ? { duration: 0 } : { duration: 1.6, repeat: Infinity }}
+      />
+      <circle
+        cx={x}
+        cy={y}
+        r={3.5}
+        fill={stroke}
+        stroke="var(--color-background-inner-default)"
+        strokeWidth={2}
+      />
+    </g>
+  );
+}
+3:["$","$L1e",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"bar-list-card","title":"Bar List","description":"A ranked list where each row's bar is its share of the top — no axis, no library.","category":"charts","tags":["chart","bar","ranking","top-n","list"],"status":"stable","tier":"free","isNew":true,"dependencies":["@remixicon/react","motion","react-aria-components","tailwind-merge"],"registryDependencies":["chart-card","chevrons","chip","cx","segmented-control","select","tokens","use-count-up","use-dismiss-on-outside-press"],"files":[{"path":"application/charts/bar-list-card.tsx","target":"components/application/charts/bar-list-card.tsx","type":"component","content":"$1f"},{"path":"application/charts/chart-demo-data.ts","target":"components/application/charts/chart-demo-data.ts","type":"component","content":"$20"},{"path":"application/charts/pro-chart.tsx","target":"components/application/charts/pro-chart.tsx","type":"component","content":"$21"},{"path":"hooks/use-hydrated-reduced-motion.ts","target":"hooks/use-hydrated-reduced-motion.ts","type":"hook","content":"\"use client\";\n\nimport { useReducedMotion } from \"motion/react\";\nimport { useSyncExternalStore } from \"react\";\n\nconst subscribe = () => () => {};\nconst clientSnapshot = () => true;\nconst serverSnapshot = () => false;\n\n/** Keep the first server/client render identical, then apply the user's motion preference. */\nexport function useHydratedReducedMotion(): boolean {\n  const reduced = useReducedMotion();\n  const hydrated = useSyncExternalStore(subscribe, clientSnapshot, serverSnapshot);\n  return hydrated && reduced === true;\n}\n"}],"hash":"705b4f318225"},"demoSource":"\"use client\";\n\nimport { BarListCard } from \"@/components/application/charts/bar-list-card\";\n\nexport default function BarListCardDemo() {\n  return (\n    <div className=\"w-full max-w-md\">\n      <BarListCard />\n    </div>\n  );\n}","previous":{"name":"line-chart-card","title":"Line Chart"},"next":{"name":"activity-rings-card","title":"Activity Rings"}}]
+4:["$","script","script-0",{"src":"/_next/static/chunks/3l5f3qnr89rl0.js","async":true}]
+5:["$","script","script-1",{"src":"/_next/static/chunks/0wmbfrsxfdesk.js","async":true}]
+6:["$","script","script-2",{"src":"/_next/static/chunks/3ixdl2m026on9.js","async":true}]
+7:["$","script","script-3",{"src":"/_next/static/chunks/3xa-hzf5c_c6n.js","async":true}]
+8:["$","script","script-4",{"src":"/_next/static/chunks/1zihipy0kqa1_.js","async":true}]
+9:["$","script","script-5",{"src":"/_next/static/chunks/0-afrvt74ak7l.js","async":true}]
+a:["$","script","script-6",{"src":"/_next/static/chunks/0337601gswv_s.js","async":true}]
+b:["$","script","script-7",{"src":"/_next/static/chunks/34zl6f3dq0u0q.js","async":true}]
+c:["$","script","script-8",{"src":"/_next/static/chunks/2az_x4uxpy3sm.js","async":true}]
+d:["$","script","script-9",{"src":"/_next/static/chunks/23ywcyogzmwlv.js","async":true}]
+e:["$","script","script-10",{"src":"/_next/static/chunks/2qg2knl-9_2le.js","async":true}]
+f:["$","script","script-11",{"src":"/_next/static/chunks/1wypk9kc4p_mt.js","async":true}]
+10:["$","$L22",null,{"children":["$","$23",null,{"name":"Next.MetadataOutlet","children":"$@24"}]}]
+13:["$","$1","h",{"children":[null,["$","$L25",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L26",null,{"children":["$","$23",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Bar List — Zeus UI"}],["$","meta","1",{"name":"description","content":"A ranked list where each row's bar is its share of the top — no axis, no library."}],["$","meta","2",{"name":"keywords","content":"chart,bar,ranking,top-n,list"}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+15:["$","$1","c",{"children":[null,["$","$L27",null,{"parallelRouterKey":"children","template":["$","$L28",null,{}]}]]}]
+18:["$","$1","c",{"children":[null,["$","$L27",null,{"parallelRouterKey":"children","template":["$","$L28",null,{}]}]]}]
+1a:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/0by1pam5w7cuf.js","async":true}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L29",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L27",null,{"parallelRouterKey":"children","template":["$","$L28",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]]}]}]]}]
+24:null
+1d:true
+12:300
+12:C
+1c:0
+14:"$undefined"
+16:"$undefined"
+19:"$undefined"
+1b:"$undefined"
+11:"$undefined"

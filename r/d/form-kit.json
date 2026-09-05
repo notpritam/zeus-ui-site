@@ -1,0 +1,62 @@
+{
+  "id": "form-kit",
+  "title": "Form kit",
+  "description": "Every input the system ships, on one page — useful when you are deciding what a form should be made of.",
+  "author": {
+    "handle": "zeus-ui"
+  },
+  "tags": [
+    "form",
+    "input",
+    "validation",
+    "reference"
+  ],
+  "createdAt": "2026-09-05",
+  "blocks": [
+    {
+      "component": "input",
+      "span": 4,
+      "title": "Text"
+    },
+    {
+      "component": "select",
+      "span": 4,
+      "title": "Select"
+    },
+    {
+      "component": "date-range-picker",
+      "span": 4,
+      "title": "Dates"
+    },
+    {
+      "component": "checkbox",
+      "span": 4,
+      "title": "Checkbox"
+    },
+    {
+      "component": "radio",
+      "span": 4,
+      "title": "Radio"
+    },
+    {
+      "component": "switch",
+      "span": 4,
+      "title": "Switch"
+    },
+    {
+      "component": "slider",
+      "span": 6,
+      "title": "Slider"
+    },
+    {
+      "component": "file-upload",
+      "span": 6,
+      "title": "Upload"
+    },
+    {
+      "component": "input-otp",
+      "span": 12,
+      "title": "One-time code"
+    }
+  ]
+}

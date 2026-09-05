@@ -1,0 +1,414 @@
+1:"$Sreact.fragment"
+2:I[72844,["/_next/static/chunks/0by1pam5w7cuf.js"],""]
+3:I[37280,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+4:I[75701,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+6:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+a:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"ViewportBoundary"]
+c:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"MetadataBoundary"]
+e:I[84167,["/_next/static/chunks/0by1pam5w7cuf.js"],"default",1]
+:HL["/_next/static/chunks/16_ml9va511u1.css","style"]
+:HL["/_next/static/chunks/1lom8-olk25vh.css","style"]
+:HL["/_next/static/media/234d9015b631dab9-s.p.33gca1im1ku45.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+9:X
+0:{"P":null,"c":["","components","tabs",""],"q":"","i":false,"f":[[["",{"children":["components",{"children":[["slug","tabs","d",[]],{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0by1pam5w7cuf.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L2",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/3l5f3qnr89rl0.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0wmbfrsxfdesk.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/3ixdl2m026on9.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/3xa-hzf5c_c6n.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/1zihipy0kqa1_.js","async":true,"nonce":"$undefined"}],["$","script","script-5",{"src":"/_next/static/chunks/0-afrvt74ak7l.js","async":true,"nonce":"$undefined"}],["$","script","script-6",{"src":"/_next/static/chunks/0337601gswv_s.js","async":true,"nonce":"$undefined"}],["$","script","script-7",{"src":"/_next/static/chunks/34zl6f3dq0u0q.js","async":true,"nonce":"$undefined"}],["$","script","script-8",{"src":"/_next/static/chunks/2az_x4uxpy3sm.js","async":true,"nonce":"$undefined"}],["$","script","script-9",{"src":"/_next/static/chunks/23ywcyogzmwlv.js","async":true,"nonce":"$undefined"}],["$","script","script-10",{"src":"/_next/static/chunks/2qg2knl-9_2le.js","async":true,"nonce":"$undefined"}],["$","script","script-11",{"src":"/_next/static/chunks/1wypk9kc4p_mt.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$9"]},null,false,"$9"]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],"$Lf"]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Kgh3aKGUUDrNWttN7OqGM"}
+9:C
+f:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+10:I[54515,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"DocsLayout"]
+5:["$","$L10",null,{"title":"Tabs","heading":"Tabs","icon":"components","groups":[{"id":"foundations","title":"Foundations","items":[{"name":"tokens","title":"Design tokens","isNew":"$undefined"},{"name":"typography","title":"Typography","isNew":"$undefined"},{"name":"cx","title":"cx","isNew":"$undefined"},{"name":"chevrons","title":"Chevrons","isNew":"$undefined"},{"name":"logo","title":"Logo","isNew":"$undefined"},{"name":"use-count-up","title":"useCountUp","isNew":"$undefined"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress","isNew":"$undefined"}]},{"id":"base","title":"Base","items":[{"name":"button","title":"Button","isNew":"$undefined"},{"name":"icon-button","title":"Icon Button","isNew":"$undefined"},{"name":"link-button","title":"Link Button","isNew":"$undefined"},{"name":"button-group","title":"Button Group","isNew":"$undefined"},{"name":"close-button","title":"Close Button","isNew":"$undefined"},{"name":"social-button","title":"Social Button","isNew":"$undefined"},{"name":"input","title":"Input","isNew":"$undefined"},{"name":"input-otp","title":"Input OTP","isNew":"$undefined"},{"name":"checkbox","title":"Checkbox","isNew":"$undefined"},{"name":"radio","title":"Radio","isNew":"$undefined"},{"name":"switch","title":"Switch","isNew":"$undefined"},{"name":"select","title":"Select","isNew":"$undefined"},{"name":"slider","title":"Slider","isNew":"$undefined"},{"name":"dropdown","title":"Dropdown","isNew":"$undefined"},{"name":"divider","title":"Divider","isNew":"$undefined"},{"name":"file-upload","title":"File Upload","isNew":"$undefined"},{"name":"tabs","title":"Tabs","isNew":"$undefined"},{"name":"segmented-control","title":"Segmented Control","isNew":"$undefined"},{"name":"table","title":"Table","isNew":"$undefined"},{"name":"tooltip","title":"Tooltip","isNew":"$undefined"},{"name":"badge","title":"Badge","isNew":"$undefined"},{"name":"chip","title":"Chip","isNew":"$undefined"},{"name":"status-dot","title":"Status Dot","isNew":"$undefined"},{"name":"kbd","title":"Kbd","isNew":"$undefined"},{"name":"avatar","title":"Avatar","isNew":"$undefined"},{"name":"breadcrumb","title":"Breadcrumb","isNew":"$undefined"},{"name":"pagination","title":"Pagination","isNew":"$undefined"},{"name":"carousel","title":"Carousel","isNew":"$undefined"},{"name":"announcement","title":"Announcement","isNew":"$undefined"},{"name":"notification","title":"Notification","isNew":"$undefined"},{"name":"date-picker","title":"Date Picker","isNew":"$undefined"},{"name":"date-range-picker","title":"Date Range Picker","isNew":"$undefined"},{"name":"meeting-scheduler","title":"Meeting Scheduler","isNew":"$undefined"}]},{"id":"blocks","title":"Blocks","items":[{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"calendar","title":"Calendar","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"theme-toggle","title":"Theme Toggle","isNew":"$undefined"},{"name":"stat-cards","title":"Stat Cards","isNew":"$undefined"},{"name":"data-table","title":"Data Table","isNew":"$undefined"},{"name":"sidebar","title":"Sidebar","isNew":"$undefined"},{"name":"app-shell","title":"App Shell","isNew":"$undefined"},{"name":"notification-center","title":"Notification Center","isNew":"$undefined"},{"name":"settings-modal","title":"Settings Modal","isNew":"$undefined"},{"name":"auth-card","title":"Auth Card","isNew":"$undefined"},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking","isNew":"$undefined"},{"name":"composer-loader","title":"Composer Loader","isNew":"$undefined"},{"name":"agent-log","title":"Agent Log","isNew":"$undefined"},{"name":"agent-chat","title":"Agent Chat","isNew":"$undefined"}]},{"id":"charts","title":"Charts","items":[{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart","isNew":"$undefined"},{"name":"orders-chart-card","title":"Orders Chart","isNew":"$undefined"},{"name":"important-alerts-card","title":"Important Alerts","isNew":"$undefined"},{"name":"patient-info-card","title":"Patient Info","isNew":"$undefined"}]},{"id":"templates","title":"Templates","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true},{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true}]}],"description":"Underlined tabs with optional icons and counts, plus a pill variant.","columnClassName":"$undefined","detail":true,"children":"$L11"}]
+12:I[26438,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"ComponentPage"]
+13:T1625,"use client";
+
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import type { ComponentType, HTMLAttributes, ReactNode, Ref } from "react";
+import { cx, sortCx } from "../../utils/cx";
+
+const useIsomorphicLayoutEffect = typeof window !== "undefined" ? useLayoutEffect : useEffect;
+
+/**
+ * Figma source: Board UI → "ai_chat" → Changes / Browser panel switcher
+ * (node 4030:5993 region) — the fully-rounded pill tab, in two styles:
+ *
+ *   pill      px 8, py 5, gap 4
+ *   blue      fully rounded (40px); selected bg uses the semantic blue pill
+ *             surface, icon + label color/blue/500 (the AI chat panel switcher)
+ *   gray      radius/2lg (10px); selected bg background/tertiary, label
+ *             text/primary (quieter — scope/filter rows like the settings
+ *             Tools page)
+ *   idle      label text/secondary, icon foreground/icon/secondary,
+ *             background/primary/hover on hover (both styles)
+ *   icon      optional 20px leading glyph
+ *
+ * `PillTabList` owns the animated selection background so it can slide
+ * between pills with a subtle spring-like settle. `PillTab` remains a plain
+ * button (not a React Aria Tabs collection): these switchers drive local view
+ * state, not routed tab panels.
+ */
+
+type IconComponent = ComponentType<{
+  className?: string;
+  "aria-hidden"?: boolean | "true" | "false";
+}>;
+
+export type PillTabVariant = "blue" | "gray";
+
+const styles = sortCx({
+  radius: {
+    blue: "rounded-full",
+    gray: "rounded-2lg",
+  },
+  thumb: {
+    blue: "bg-pill-tab-blue-selected-background",
+    gray: "bg-background-tertiary-default",
+  },
+  hover: {
+    blue: "bg-pill-tab-blue-hover-background",
+    gray: "bg-background-primary-hover",
+  },
+  selectedIcon: {
+    blue: "text-accent-500",
+    gray: "text-foreground-icon-primary",
+  },
+  selectedLabel: {
+    blue: "text-accent-500",
+    gray: "text-text-primary",
+  },
+});
+
+type Thumb = {
+  left: number;
+  top: number;
+  width: number;
+  height: number;
+  variant: PillTabVariant;
+};
+
+export interface PillTabListProps extends HTMLAttributes<HTMLDivElement> {
+  ref?: Ref<HTMLDivElement>;
+}
+
+export function PillTabList({ children, className, ref, ...props }: PillTabListProps) {
+  const innerRef = useRef<HTMLDivElement>(null);
+  const [thumb, setThumb] = useState<Thumb | null>(null);
+
+  useIsomorphicLayoutEffect(() => {
+    const el = innerRef.current;
+    if (!el) return;
+    const measure = () => {
+      const selected = el.querySelector<HTMLElement>("[data-pill-selected]");
+      if (!selected) return;
+      setThumb({
+        left: selected.offsetLeft,
+        top: selected.offsetTop,
+        width: selected.offsetWidth,
+        height: selected.offsetHeight,
+        variant: selected.dataset.pillVariant === "gray" ? "gray" : "blue",
+      });
+    };
+    measure();
+    const mo = new MutationObserver(measure);
+    mo.observe(el, {
+      attributes: true,
+      subtree: true,
+      attributeFilter: ["data-pill-selected"],
+    });
+    const ro = new ResizeObserver(measure);
+    ro.observe(el);
+    return () => {
+      mo.disconnect();
+      ro.disconnect();
+    };
+  }, []);
+
+  const setRefs = (node: HTMLDivElement | null) => {
+    innerRef.current = node;
+    if (typeof ref === "function") ref(node);
+    else if (ref) (ref as { current: HTMLDivElement | null }).current = node;
+  };
+
+  return (
+    <div
+      ref={setRefs}
+      role="group"
+      className={cx("relative inline-flex items-center gap-1", className)}
+      {...props}
+    >
+      {thumb && (
+        <span
+          aria-hidden
+          className={cx(
+            "pointer-events-none absolute left-0 top-0",
+            "transition-[transform,width,height] duration-300",
+            "[transition-timing-function:cubic-bezier(0.34,1.2,0.64,1)]",
+            styles.radius[thumb.variant],
+            styles.thumb[thumb.variant],
+          )}
+          style={{
+            transform: `translate(${thumb.left}px, ${thumb.top}px)`,
+            width: thumb.width,
+            height: thumb.height,
+          }}
+        />
+      )}
+      {children}
+    </div>
+  );
+}
+
+export function PillTab({
+  variant = "blue",
+  icon: Icon,
+  isSelected,
+  onSelect,
+  children,
+  className,
+}: {
+  variant?: PillTabVariant;
+  icon?: IconComponent;
+  isSelected: boolean;
+  onSelect: () => void;
+  children: ReactNode;
+  className?: string;
+}) {
+  return (
+    <button
+      type="button"
+      aria-pressed={isSelected}
+      data-pill-selected={isSelected ? "" : undefined}
+      data-pill-variant={variant}
+      onClick={onSelect}
+      className={cx(
+        "group relative z-10 flex shrink-0 cursor-pointer items-center gap-1 px-2 py-[5px]",
+        styles.radius[variant],
+        "outline-none transition-colors duration-150 ease",
+        "focus-visible:ring-2 focus-visible:ring-border-focus-ring",
+        className,
+      )}
+    >
+      <span
+        aria-hidden
+        className={cx(
+          "pointer-events-none absolute inset-0 opacity-0",
+          "transition-opacity duration-200 ease-out",
+          styles.radius[variant],
+          styles.hover[variant],
+          !isSelected && "group-hover:opacity-100",
+        )}
+      />
+      {Icon && (
+        <Icon
+          className={cx(
+            "relative z-10 size-5 shrink-0",
+            isSelected ? styles.selectedIcon[variant] : "text-foreground-icon-secondary",
+          )}
+          aria-hidden
+        />
+      )}
+      <span
+        className={cx(
+          "relative z-10 text-body-medium whitespace-nowrap",
+          isSelected ? styles.selectedLabel[variant] : "text-text-secondary",
+        )}
+      >
+        {children}
+      </span>
+    </button>
+  );
+}
+14:T1767,"use client";
+
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import type { ComponentType, ReactNode, Ref } from "react";
+import {
+  Tab as AriaTab,
+  TabList as AriaTabList,
+  TabPanel as AriaTabPanel,
+  Tabs as AriaTabs,
+} from "react-aria-components";
+import type {
+  TabListProps as AriaTabListProps,
+  TabPanelProps as AriaTabPanelProps,
+  TabProps as AriaTabProps,
+  TabsProps as AriaTabsProps,
+} from "react-aria-components";
+import { cx } from "../../utils/cx";
+
+const useIsomorphicLayoutEffect = typeof window !== "undefined" ? useLayoutEffect : useEffect;
+
+/**
+ * Figma source: Board UI → Tab (node 3793:2942).
+ *
+ * Underline tabs. The tab strip sits on a 1px border/button/default baseline;
+ * the active tab paints a 2px color/blue/600 underline over it.
+ *   tab       px 10, py 8, gap 10 (label ↔ count), Body 1 (14/20)
+ *     active     text color/blue/600, Medium weight, 2px blue underline
+ *     inactive   text/primary, Regular weight, transparent underline
+ *   count     radius/sm, px 4, py 1, Caption 1/Medium (12/16)
+ *     active     bg color/blue/100, text color/blue/600
+ *     inactive   bg black/10 @ 50% opacity, text/primary
+ *   icon      optional 16px leading glyph, inherits the label color
+ *
+ * Built on react-aria Tabs: roving-tabindex arrow-key navigation, automatic
+ * activation, and TabList/TabPanel association.
+ */
+
+type IconComponent = ComponentType<{
+  className?: string;
+  "aria-hidden"?: boolean | "true" | "false";
+}>;
+
+export interface TabsProps extends AriaTabsProps {
+  ref?: Ref<HTMLDivElement>;
+}
+
+export function Tabs({ className, ref, ...props }: TabsProps) {
+  return (
+    <AriaTabs
+      ref={ref}
+      {...props}
+      className={(state) =>
+        cx(
+          "flex w-full flex-col gap-4",
+          state.orientation === "vertical" && "flex-row",
+          typeof className === "function" ? className(state) : className,
+        )
+      }
+    />
+  );
+}
+
+export interface TabListProps<T extends object> extends AriaTabListProps<T> {
+  ref?: Ref<HTMLDivElement>;
+}
+
+type Underline = { left: number; width: number };
+
+export function TabList<T extends object>({ className, ref, ...props }: TabListProps<T>) {
+  const wrapperRef = useRef<HTMLDivElement>(null);
+  const [underline, setUnderline] = useState<Underline | null>(null);
+
+  useIsomorphicLayoutEffect(() => {
+    const el = wrapperRef.current;
+    if (!el) return;
+    const measure = () => {
+      const selected = el.querySelector<HTMLElement>("[role='tab'][data-selected]");
+      if (selected) {
+        setUnderline({ left: selected.offsetLeft, width: selected.offsetWidth });
+      }
+    };
+    measure();
+    // Re-measure when selection flips (data-selected toggles) or size changes.
+    const mo = new MutationObserver(measure);
+    mo.observe(el, { attributes: true, subtree: true, attributeFilter: ["data-selected"] });
+    const ro = new ResizeObserver(measure);
+    ro.observe(el);
+    return () => {
+      mo.disconnect();
+      ro.disconnect();
+    };
+  }, []);
+
+  return (
+    <div ref={wrapperRef} className="relative w-full">
+      <AriaTabList
+        ref={ref}
+        {...props}
+        className={(state) =>
+          cx(
+            "flex w-full items-center gap-1 border-b border-separator-border",
+            typeof className === "function" ? className(state) : className,
+          )
+        }
+      />
+      {underline && (
+        <span
+          aria-hidden
+          className="pointer-events-none absolute bottom-0 left-0 h-0.5 bg-accent-600 transition-[transform,width] duration-200 ease"
+          style={{
+            transform: `translateX(${underline.left}px)`,
+            width: underline.width,
+          }}
+        />
+      )}
+    </div>
+  );
+}
+
+export interface TabProps extends Omit<AriaTabProps, "children"> {
+  children?: ReactNode;
+  /** Optional leading icon (16px). Inherits the label color. */
+  icon?: IconComponent;
+  /** Optional trailing count badge. */
+  count?: ReactNode;
+  ref?: Ref<HTMLDivElement>;
+}
+
+export function Tab({ className, children, icon: Icon, count, ref, ...props }: TabProps) {
+  return (
+    <AriaTab
+      ref={ref}
+      {...props}
+      className={(state) =>
+        cx(
+          "relative inline-flex cursor-pointer items-center gap-2.5 px-2.5 py-2 whitespace-nowrap",
+          "outline-none transition-colors duration-150 ease",
+          "focus-visible:rounded-sm focus-visible:ring-2 focus-visible:ring-border-focus-ring",
+          state.isDisabled && "cursor-not-allowed opacity-50",
+          typeof className === "function" ? className(state) : className,
+        )
+      }
+    >
+      {({ isSelected }) => (
+        <>
+          <span
+            className={cx(
+              "inline-flex items-center gap-1.5",
+              isSelected
+                ? "text-body-medium text-accent-600"
+                : "text-body-regular text-text-primary",
+            )}
+          >
+            {Icon && <Icon className="size-4 shrink-0" aria-hidden />}
+            {children}
+          </span>
+          {count != null && (
+            <span
+              className={cx(
+                "inline-flex items-center justify-center rounded-sm px-1 py-px text-caption-1-medium whitespace-nowrap",
+                isSelected
+                  ? "bg-tab-count-selected-background text-accent-600"
+                  : "bg-black/10 text-text-primary opacity-50",
+              )}
+            >
+              {count}
+            </span>
+          )}
+        </>
+      )}
+    </AriaTab>
+  );
+}
+
+export interface TabPanelProps extends AriaTabPanelProps {
+  ref?: Ref<HTMLDivElement>;
+}
+
+export function TabPanel({ className, ref, ...props }: TabPanelProps) {
+  return (
+    <AriaTabPanel
+      ref={ref}
+      {...props}
+      className={(state) =>
+        cx(
+          "outline-none focus-visible:rounded-sm focus-visible:ring-2 focus-visible:ring-border-focus-ring",
+          typeof className === "function" ? className(state) : className,
+        )
+      }
+    />
+  );
+}
+11:["$","$L12",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"tabs","title":"Tabs","description":"Underlined tabs with optional icons and counts, plus a pill variant.","category":"base","tags":["navigation","tabs","panels","sections"],"status":"stable","tier":"free","dependencies":["react-aria-components","tailwind-merge"],"registryDependencies":["cx","tokens"],"files":[{"path":"base/tabs/pill-tab.tsx","target":"components/base/tabs/pill-tab.tsx","type":"component","content":"$13"},{"path":"base/tabs/tabs.tsx","target":"components/base/tabs/tabs.tsx","type":"component","content":"$14"}],"hash":"76bd61ce760f"},"demoSource":"\"use client\";\n\nimport { RiArticleLine, RiImage2Line } from \"@remixicon/react\";\nimport { Tab, TabList, TabPanel, Tabs } from \"@/components/base/tabs/tabs\";\n\nexport default function TabsDemo() {\n  return (\n    <Tabs defaultSelectedKey=\"banners\" className=\"w-full\">\n      <TabList aria-label=\"Content types\">\n        <Tab id=\"banners\" icon={RiImage2Line} count={152}>\n          Banners\n        </Tab>\n        <Tab id=\"posts\" icon={RiArticleLine} count={32}>\n          Posts\n        </Tab>\n        <Tab id=\"settings\">Settings</Tab>\n      </TabList>\n\n      <TabPanel id=\"banners\">\n        <p className=\"pt-4 text-body-regular text-text-secondary\">152 banners across 4 campaigns.</p>\n      </TabPanel>\n      <TabPanel id=\"posts\">\n        <p className=\"pt-4 text-body-regular text-text-secondary\">32 posts, 6 awaiting review.</p>\n      </TabPanel>\n      <TabPanel id=\"settings\">\n        <p className=\"pt-4 text-body-regular text-text-secondary\">Workspace defaults live here.</p>\n      </TabPanel>\n    </Tabs>\n  );\n}","previous":{"name":"file-upload","title":"File Upload"},"next":{"name":"segmented-control","title":"Segmented Control"}}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:null
+d:[["$","title","0",{"children":"Tabs — Zeus UI"}],["$","meta","1",{"name":"description","content":"Underlined tabs with optional icons and counts, plus a pill variant."}],["$","meta","2",{"name":"keywords","content":"navigation,tabs,panels,sections"}]]

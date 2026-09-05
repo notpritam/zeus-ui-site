@@ -1,0 +1,33 @@
+{
+  "id": "account-settings",
+  "title": "Account & settings",
+  "description": "The screens every product needs and nobody enjoys building: auth, settings, and the notification inbox.",
+  "author": {
+    "handle": "zeus-ui"
+  },
+  "tags": [
+    "auth",
+    "settings",
+    "account",
+    "notifications"
+  ],
+  "createdAt": "2026-09-05",
+  "blocks": [
+    {
+      "component": "auth-card",
+      "span": 12,
+      "title": "Sign in, sign up, verify"
+    },
+    {
+      "component": "notification-center",
+      "span": 6,
+      "title": "Inbox"
+    },
+    {
+      "component": "settings-modal",
+      "span": 6,
+      "title": "Settings",
+      "note": "Five pages behind one trigger."
+    }
+  ]
+}

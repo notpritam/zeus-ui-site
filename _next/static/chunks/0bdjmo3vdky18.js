@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,76474,i=>{"use strict";var t=i.i(38935),e=i.i(34628);i.s(["default",0,function(){return(0,t.jsx)("div",{className:"w-full max-w-md",children:(0,t.jsx)(e.BarListCard,{})})}])},6e4,function(i){i.n(i.i(76474))}]);

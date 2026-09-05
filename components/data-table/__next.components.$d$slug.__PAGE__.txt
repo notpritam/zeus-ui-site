@@ -1,0 +1,645 @@
+1:"$Sreact.fragment"
+2:I[54515,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"DocsLayout"]
+12:X
+17:X
+17:C
+0:{"buildId":"Kgh3aKGUUDrNWttN7OqGM","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"Data Table","heading":"Data Table","icon":"components","groups":[{"id":"foundations","title":"Foundations","items":[{"name":"tokens","title":"Design tokens"},{"name":"typography","title":"Typography"},{"name":"cx","title":"cx"},{"name":"chevrons","title":"Chevrons"},{"name":"logo","title":"Logo"},{"name":"use-count-up","title":"useCountUp"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress"}]},{"id":"base","title":"Base","items":[{"name":"button","title":"Button"},{"name":"icon-button","title":"Icon Button"},{"name":"link-button","title":"Link Button"},{"name":"button-group","title":"Button Group"},{"name":"close-button","title":"Close Button"},{"name":"social-button","title":"Social Button"},{"name":"input","title":"Input"},{"name":"input-otp","title":"Input OTP"},{"name":"checkbox","title":"Checkbox"},{"name":"radio","title":"Radio"},{"name":"switch","title":"Switch"},{"name":"select","title":"Select"},{"name":"slider","title":"Slider"},{"name":"dropdown","title":"Dropdown"},{"name":"divider","title":"Divider"},{"name":"file-upload","title":"File Upload"},{"name":"tabs","title":"Tabs"},{"name":"segmented-control","title":"Segmented Control"},{"name":"table","title":"Table"},{"name":"tooltip","title":"Tooltip"},{"name":"badge","title":"Badge"},{"name":"chip","title":"Chip"},{"name":"status-dot","title":"Status Dot"},{"name":"kbd","title":"Kbd"},{"name":"avatar","title":"Avatar"},{"name":"breadcrumb","title":"Breadcrumb"},{"name":"pagination","title":"Pagination"},{"name":"carousel","title":"Carousel"},{"name":"announcement","title":"Announcement"},{"name":"notification","title":"Notification"},{"name":"date-picker","title":"Date Picker"},{"name":"date-range-picker","title":"Date Range Picker"},{"name":"meeting-scheduler","title":"Meeting Scheduler"}]},{"id":"blocks","title":"Blocks","items":[{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"calendar","title":"Calendar","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"theme-toggle","title":"Theme Toggle"},{"name":"stat-cards","title":"Stat Cards"},{"name":"data-table","title":"Data Table"},{"name":"sidebar","title":"Sidebar"},{"name":"app-shell","title":"App Shell"},{"name":"notification-center","title":"Notification Center"},{"name":"settings-modal","title":"Settings Modal"},{"name":"auth-card","title":"Auth Card"},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking"},{"name":"composer-loader","title":"Composer Loader"},{"name":"agent-log","title":"Agent Log"},{"name":"agent-chat","title":"Agent Chat"}]},{"id":"charts","title":"Charts","items":[{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart"},{"name":"orders-chart-card","title":"Orders Chart"},{"name":"important-alerts-card","title":"Important Alerts"},{"name":"patient-info-card","title":"Patient Info"}]},{"id":"templates","title":"Templates","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true},{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true}]}],"description":"TanStack Table with sorting, selection, filters, search, density and pagination.","detail":true,"children":"$L3"}],["$L4","$L5","$L6","$L7","$L8","$L9","$La","$Lb","$Lc","$Ld","$Le","$Lf"],"$L10"]}],"isPartial":"$@11","staleTime":"$12","varyParams":null},{"rsc":"$L13","isPartial":"$@14","staleTime":"$12","varyParams":null},{"rsc":"$L15","isPartial":"$@16","staleTime":"$12","varyParams":"$17"},{"rsc":"$L18","isPartial":"$@19","staleTime":"$12","varyParams":"$17"},{"rsc":"$L1a","isPartial":"$@1b","staleTime":"$12","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@1c","rootVaryParams":null,"needsRuntimeRequest":"$@1d"}
+1e:I[26438,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"ComponentPage"]
+20:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"OutletBoundary"]
+21:"$Sreact.suspense"
+23:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"ViewportBoundary"]
+24:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"MetadataBoundary"]
+25:I[37280,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+26:I[75701,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+27:I[72844,["/_next/static/chunks/0by1pam5w7cuf.js"],""]
+:HL["/_next/static/chunks/16_ml9va511u1.css","style"]
+:HL["/_next/static/chunks/1lom8-olk25vh.css","style"]
+1f:T5273,"use client";
+
+import { useMemo, useState } from "react";
+import {
+  RiArchiveLine,
+  RiDeleteBin6Line,
+  RiDownload2Line,
+  RiEditLine,
+  RiFileCopyLine,
+  RiMore2Fill,
+  RiSearchLine,
+  RiUserLine,
+} from "@remixicon/react";
+import { Focusable } from "react-aria-components";
+import {
+  flexRender,
+  getCoreRowModel,
+  getPaginationRowModel,
+  getSortedRowModel,
+  useReactTable,
+} from "@tanstack/react-table";
+import type { ColumnDef, PaginationState, SortingState } from "@tanstack/react-table";
+import { Avatar } from "../../base/avatar/avatar";
+import { Chip } from "../../base/badges/chip";
+import { StatusDot } from "../../base/badges/status-dot";
+import { IconButton } from "../../base/buttons/icon-button";
+import { Checkbox } from "../../base/checkbox/checkbox";
+import {
+  Dropdown,
+  DropdownGroup,
+  DropdownItem,
+  DropdownPopover,
+  DropdownTrigger,
+} from "../../base/dropdown/dropdown";
+import { InputBase } from "../../base/input/input";
+import { Pagination } from "../../base/pagination/pagination";
+import {
+  SegmentedControl,
+  SegmentedControlItem,
+} from "../../base/segmented-control/segmented-control";
+import { Select, SelectItem } from "../../base/select/select";
+import type { SelectSize } from "../../base/select/select";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableColumn,
+  TableHeader,
+  TableRow,
+} from "../../base/table/table";
+import type { TableSize } from "../../base/table/table";
+import { Tooltip, TooltipTrigger } from "../../base/tooltip/tooltip";
+import { ChevronSortDown } from "../../foundations/icons/chevrons";
+import { cx } from "../../utils/cx";
+
+/**
+ * Advanced Data Table - the react-aria `Table` primitive rendered from a
+ * @tanstack/react-table instance, styled to match the dashboard template's
+ * customers table (node 3731:3201). TanStack owns sorting / pagination / row
+ * selection; the price/product/region/search filters pre-filter the rows.
+ */
+
+type StatusColor = "lime" | "yellow" | "rose" | "cyan";
+type Status = { label: string; color: StatusColor };
+
+const STATUSES: Status[] = [
+  { label: "Shipped", color: "lime" },
+  { label: "Delivery waiting", color: "yellow" },
+  { label: "Delivery failed", color: "rose" },
+  { label: "Confirmed", color: "cyan" },
+];
+
+const PRODUCTS = ["Sneakers", "Backpack", "Smart watch", "Headphones", "Sunglasses", "Wallet"];
+const REGIONS = ["North America", "Europe", "Asia", "Oceania"];
+const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+const PRICE_BUCKETS: { id: string; label: string; test: (p: number) => boolean }[] = [
+  { id: "all", label: "All prices", test: () => true },
+  { id: "under-100", label: "Under $100", test: (p) => p < 100 },
+  { id: "100-500", label: "$100 – $500", test: (p) => p >= 100 && p <= 500 },
+  { id: "500-1000", label: "$500 – $1,000", test: (p) => p > 500 && p <= 1000 },
+  { id: "over-1000", label: "Over $1,000", test: (p) => p > 1000 },
+];
+
+type Customer = {
+  id: string;
+  name: string;
+  avatar?: string;
+  initialsColor: "neutral" | "blue";
+  purchase: "completed" | "waiting" | "processing";
+  status: Status;
+  product: string;
+  region: string;
+  price: number;
+  updated: string;
+  updatedTs: number;
+};
+
+const PHOTO_PEOPLE: { name: string; avatar: string }[] = [
+  { name: "John Clarkson", avatar: "/avatars/john-clarkson.webp" },
+  { name: "Aspen Lubin", avatar: "/avatars/aspen-lubin.webp" },
+  { name: "Michael Ekstrom", avatar: "/avatars/michael-ekstrom.webp" },
+  { name: "Kianna Vaccaro", avatar: "/avatars/kianna-vaccaro.webp" },
+  { name: "Livia Saris", avatar: "/avatars/livia-saris.webp" },
+  { name: "Jaydon Aminoff", avatar: "/avatars/jaydon-aminoff.webp" },
+  { name: "Maria Lubin", avatar: "/avatars/maria-lubin.webp" },
+  { name: "Ann Press", avatar: "/avatars/ann-press.webp" },
+];
+
+const FIRST_NAMES = ["Marcus", "Cheyenne", "Alfredo", "Talan", "Roger", "Cristofer", "Emery", "Kadin", "Nolan", "Ruben", "Skylar", "Hanna", "Corey", "Miracle", "Zaire", "Cooper", "Leilani", "Alena", "Terry", "Jaxson"];
+const LAST_NAMES = ["Culhane", "Herwitz", "Septimus", "Bergson", "Curtis", "Vetrovs", "Rhiel", "Dokidis", "Kenter", "Stanton", "Baptista", "Workman", "Torff", "Calzoni", "Rosser", "Geidt", "Bator", "Vaccaro", "Lipshutz", "Botosh"];
+
+function makeRng(seed: number) {
+  let a = seed;
+  return () => {
+    a |= 0;
+    a = (a + 0x6d2b79f5) | 0;
+    let t = Math.imul(a ^ (a >>> 15), 1 | a);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+function formatPrice(n: number) {
+  return n >= 1000 ? `$${Math.floor(n / 1000)}.${String(n % 1000).padStart(3, "0")}` : `$${n}`;
+}
+
+function initialsOf(name: string) {
+  return name
+    .split(" ")
+    .slice(0, 2)
+    .map((part) => part[0])
+    .join("")
+    .toUpperCase();
+}
+
+const CUSTOMERS: Customer[] = (() => {
+  const rng = makeRng(42);
+  const pick = <T,>(arr: T[]) => arr[Math.floor(rng() * arr.length)];
+  return Array.from({ length: 48 }, (_, i) => {
+    const status = pick(STATUSES);
+    const purchase: Customer["purchase"] =
+      rng() < 0.24
+        ? "processing"
+        : status.label === "Shipped" || status.label === "Confirmed"
+          ? "completed"
+          : "waiting";
+    const price = 20 + Math.floor(rng() * 3980);
+    const monthIdx = Math.floor(rng() * 12);
+    const day = 1 + Math.floor(rng() * 28);
+    const updated = `${MONTHS[monthIdx]} ${String(day).padStart(2, "0")}, 2026`;
+    const updatedTs = new Date(2026, monthIdx, day).getTime();
+    const base = {
+      id: String(i),
+      purchase,
+      status,
+      product: pick(PRODUCTS),
+      region: pick(REGIONS),
+      price,
+      updated,
+      updatedTs,
+    };
+    if (i < PHOTO_PEOPLE.length) {
+      return { ...base, name: PHOTO_PEOPLE[i].name, avatar: PHOTO_PEOPLE[i].avatar, initialsColor: "neutral" as const };
+    }
+    const name = `${pick(FIRST_NAMES)} ${pick(LAST_NAMES)}`;
+    return { ...base, name, initialsColor: rng() > 0.5 ? ("blue" as const) : ("neutral" as const) };
+  });
+})();
+
+const PER_PAGE = 8;
+
+function PurchaseSelect({
+  value,
+  name,
+  size = "md",
+}: {
+  value: Customer["purchase"];
+  name: string;
+  size?: SelectSize;
+}) {
+  return (
+    <Select
+      aria-label={`Purchase status for ${name}`}
+      defaultSelectedKey={value}
+      size={size}
+      className={size === "sm" ? "w-[132px]" : "w-[142px]"}
+    >
+      <SelectItem id="completed" textValue="Completed">
+        <StatusDot color="green" />
+        Completed
+      </SelectItem>
+      <SelectItem id="waiting" textValue="Waiting">
+        <StatusDot color="yellow" />
+        Waiting
+      </SelectItem>
+      <SelectItem id="processing" textValue="Processing">
+        <StatusDot color="indigo" />
+        Processing
+      </SelectItem>
+    </Select>
+  );
+}
+
+function SortChevron({ dir }: { dir: false | "asc" | "desc" }) {
+  return (
+    <ChevronSortDown
+      className={cx(
+        "size-6 shrink-0 transition-[transform,color] duration-150",
+        dir === "asc" && "rotate-180",
+        dir ? "text-text-secondary" : "text-text-tertiary",
+      )}
+    />
+  );
+}
+
+/** Icon-only row action with a tooltip label - `IconButton` (a plain
+ *  `<button>`) is wrapped in `Focusable` so react-aria's `TooltipTrigger`
+ *  can attach hover/focus behavior. */
+function RowActionButton({
+  icon,
+  label,
+}: {
+  icon: typeof RiEditLine;
+  label: string;
+}) {
+  return (
+    <TooltipTrigger delay={200}>
+      <Focusable>
+        <IconButton icon={icon} size="small" aria-label={label} />
+      </Focusable>
+      <Tooltip size="md">{label}</Tooltip>
+    </TooltipTrigger>
+  );
+}
+
+const MORE_MENU_ACTIONS = [
+  { icon: RiUserLine, label: "View profile" },
+  { icon: RiFileCopyLine, label: "Duplicate row" },
+  { icon: RiDownload2Line, label: "Download invoice" },
+  { icon: RiArchiveLine, label: "Archive customer" },
+] as const;
+
+/** The "⋮" action: tooltip on hover, contextual dropdown menu on click. The
+ *  trigger is styled to match `IconButton`'s small secondary recipe (nesting
+ *  the real IconButton inside DropdownTrigger would nest <button>s). */
+function RowMoreMenu({ name }: { name: string }) {
+  const [isOpen, setIsOpen] = useState(false);
+  return (
+    <Dropdown isOpen={isOpen} onOpenChange={setIsOpen}>
+      <TooltipTrigger delay={200}>
+        <DropdownTrigger
+          aria-label={`More actions for ${name}`}
+          className={cx(
+            "relative inline-flex size-8 shrink-0 items-center justify-center rounded-2lg",
+            "border border-border-button-default bg-background-primary-default text-foreground-icon-primary shadow-xs",
+            "transition-[background-color,border-color,box-shadow,color] duration-150 ease",
+            "hover:border-border-button-hover hover:bg-background-primary-hover",
+            isOpen && "border-border-button-active bg-background-primary-active",
+          )}
+        >
+          <RiMore2Fill className="size-4 shrink-0" aria-hidden />
+        </DropdownTrigger>
+        <Tooltip size="md">More actions</Tooltip>
+      </TooltipTrigger>
+      <DropdownPopover aria-label={`More actions for ${name}`} placement="bottom end" className="w-[220px] p-2">
+        <DropdownGroup>
+          {MORE_MENU_ACTIONS.map(({ icon: Icon, label }) => (
+            <DropdownItem key={label} onSelect={() => setIsOpen(false)} className="px-2 py-1.5">
+              <Icon className="size-[18px] shrink-0 text-foreground-icon-secondary" aria-hidden />
+              <span className="truncate text-body-medium whitespace-nowrap text-text-primary">{label}</span>
+            </DropdownItem>
+          ))}
+        </DropdownGroup>
+      </DropdownPopover>
+    </Dropdown>
+  );
+}
+
+export function DataTableExample({
+  showSizeToggle = true,
+  pageSize = PER_PAGE,
+}: {
+  /** Show the Normal / Compact density control below the table. */
+  showSizeToggle?: boolean;
+  /** Rows per page - the landing collage shows the 5-row crop from Figma. */
+  pageSize?: number;
+} = {}) {
+  const [sorting, setSorting] = useState<SortingState>([]);
+  const [rowSelection, setRowSelection] = useState<Record<string, boolean>>({ "1": true, "2": true });
+  const [pagination, setPagination] = useState<PaginationState>({ pageIndex: 0, pageSize });
+  const [priceFilter, setPriceFilter] = useState("all");
+  const [productFilter, setProductFilter] = useState("all");
+  const [regionFilter, setRegionFilter] = useState("all");
+  const [query, setQuery] = useState("");
+  const [size, setSize] = useState<TableSize>("md");
+  const avatarSize = size === "sm" ? "xs" : "sm";
+
+  const data = useMemo(() => {
+    const bucket = PRICE_BUCKETS.find((b) => b.id === priceFilter) ?? PRICE_BUCKETS[0];
+    const q = query.trim().toLowerCase();
+    return CUSTOMERS.filter(
+      (c) =>
+        bucket.test(c.price) &&
+        (productFilter === "all" || c.product === productFilter) &&
+        (regionFilter === "all" || c.region === regionFilter) &&
+        (q === "" || c.name.toLowerCase().includes(q)),
+    );
+  }, [priceFilter, productFilter, regionFilter, query]);
+
+  const columns = useMemo<ColumnDef<Customer>[]>(
+    () => [
+      {
+        accessorKey: "name",
+        header: "Customer name",
+        cell: ({ row }) => {
+          const c = row.original;
+          return (
+            <div className="flex min-w-0 items-center gap-2">
+              <Checkbox
+                slot={null}
+                aria-label={`Select ${c.name}`}
+                isSelected={row.getIsSelected()}
+                onChange={(v) => row.toggleSelected(!!v)}
+              />
+              {c.avatar ? (
+                <Avatar size={avatarSize} src={c.avatar} alt="" />
+              ) : (
+                <Avatar size={avatarSize} color={c.initialsColor} initials={initialsOf(c.name)} />
+              )}
+              <span className="truncate text-body-medium text-text-primary">{c.name}</span>
+            </div>
+          );
+        },
+      },
+      {
+        id: "purchase",
+        enableSorting: false,
+        header: "Purchase",
+        cell: ({ row }) => (
+          <PurchaseSelect value={row.original.purchase} name={row.original.name} size={size} />
+        ),
+      },
+      {
+        id: "status",
+        enableSorting: false,
+        header: "Status",
+        cell: ({ row }) => (
+          <Chip variant={size === "sm" ? "caption" : "bold"} color={row.original.status.color}>
+            {row.original.status.label}
+          </Chip>
+        ),
+      },
+      {
+        accessorKey: "updatedTs",
+        header: "Last updated",
+        cell: ({ row }) => (
+          <span className="whitespace-nowrap text-body-medium text-text-primary">{row.original.updated}</span>
+        ),
+      },
+      {
+        accessorKey: "price",
+        header: "Price",
+        cell: ({ row }) => (
+          <Chip variant={size === "sm" ? "caption" : "subtle"} color="gray">
+            {formatPrice(row.original.price)}
+          </Chip>
+        ),
+      },
+      {
+        id: "actions",
+        enableSorting: false,
+        header: "Actions",
+        cell: ({ row }) => (
+          <div className="flex items-center justify-end gap-2.5">
+            <RowActionButton icon={RiDeleteBin6Line} label="Delete" />
+            <RowActionButton icon={RiEditLine} label="Edit" />
+            <RowMoreMenu name={row.original.name} />
+          </div>
+        ),
+      },
+    ],
+    [avatarSize, size],
+  );
+
+  const table = useReactTable({
+    data,
+    columns,
+    getRowId: (row) => row.id,
+    state: { sorting, rowSelection, pagination },
+    onSortingChange: setSorting,
+    onRowSelectionChange: setRowSelection,
+    onPaginationChange: setPagination,
+    getCoreRowModel: getCoreRowModel(),
+    getSortedRowModel: getSortedRowModel(),
+    getPaginationRowModel: getPaginationRowModel(),
+    enableRowSelection: true,
+  });
+
+  const resetPage = () => table.setPageIndex(0);
+  const headers = table.getHeaderGroups()[0].headers;
+  const rows = table.getRowModel().rows;
+  const totalPages = table.getPageCount();
+  const colWidths: Record<string, string> = {
+    name: "w-[240px]",
+    purchase: "w-[172px]",
+    status: "w-[168px]",
+    updatedTs: "w-[160px]",
+    price: "w-[140px]",
+    actions: "w-[132px]",
+  };
+
+  return (
+    <div className="flex w-full flex-col items-center gap-5">
+    <section
+      className={cx(
+        "flex w-full flex-col rounded-2xl border border-border-table pt-2",
+        totalPages > 1 ? "pb-3" : "pb-0",
+      )}
+    >
+      {/* Toolbar */}
+      <div className="flex w-full flex-col items-start gap-3 px-3 py-1 sm:flex-row sm:items-center sm:justify-between">
+        <div className="flex flex-col justify-center">
+          <p className="text-body-medium whitespace-nowrap text-text-tertiary">Total Results</p>
+          <p className="text-body-medium whitespace-nowrap text-text-primary">
+            {data.length.toLocaleString()} customers
+          </p>
+        </div>
+        <div className="-mx-3 flex w-[calc(100%+1.5rem)] items-center gap-2.5 overflow-x-auto px-3 sm:mx-0 sm:w-auto sm:flex-wrap sm:justify-end sm:overflow-visible sm:px-0">
+          <Select
+            aria-label="Filter by price"
+            className="shrink-0"
+            popoverClassName="min-w-40"
+            selectedKey={priceFilter}
+            onSelectionChange={(k) => {
+              setPriceFilter(String(k));
+              resetPage();
+            }}
+          >
+            {PRICE_BUCKETS.map((b) => (
+              <SelectItem key={b.id} id={b.id} textValue={b.label}>
+                {b.label}
+              </SelectItem>
+            ))}
+          </Select>
+          <Select
+            aria-label="Filter by product"
+            className="shrink-0"
+            popoverClassName="min-w-40"
+            selectedKey={productFilter}
+            onSelectionChange={(k) => {
+              setProductFilter(String(k));
+              resetPage();
+            }}
+          >
+            <SelectItem id="all" textValue="All products">
+              All products
+            </SelectItem>
+            {PRODUCTS.map((p) => (
+              <SelectItem key={p} id={p} textValue={p}>
+                {p}
+              </SelectItem>
+            ))}
+          </Select>
+          <Select
+            aria-label="Filter by region"
+            className="shrink-0"
+            popoverClassName="min-w-40"
+            selectedKey={regionFilter}
+            onSelectionChange={(k) => {
+              setRegionFilter(String(k));
+              resetPage();
+            }}
+          >
+            <SelectItem id="all" textValue="All regions">
+              All regions
+            </SelectItem>
+            {REGIONS.map((r) => (
+              <SelectItem key={r} id={r} textValue={r}>
+                {r}
+              </SelectItem>
+            ))}
+          </Select>
+          <InputBase
+            aria-label="Search customers"
+            placeholder="Search"
+            leadingIcon={RiSearchLine}
+            value={query}
+            onChange={(e) => {
+              setQuery(e.target.value);
+              resetPage();
+            }}
+            fieldClassName="min-w-[153px] flex-1 rounded-full bg-background-secondary-default sm:w-[153px] sm:min-w-0 sm:flex-none"
+            className="text-body-medium"
+          />
+        </div>
+      </div>
+
+      {/* Table */}
+      <div className="mt-2">
+        <Table aria-label="Customers" size={size} selectionMode="none" className="min-w-[1000px]">
+          <TableHeader>
+            {headers.map((header) => {
+              const id = header.column.id;
+              const canSort = header.column.getCanSort();
+              const label = flexRender(header.column.columnDef.header, header.getContext());
+              return (
+                <TableColumn key={header.id} id={header.id} isRowHeader={id === "name"} className={colWidths[id]}>
+                  {id === "name" ? (
+                    <div className="flex items-center gap-2">
+                      <Checkbox
+                        slot={null}
+                        aria-label="Select all customers on this page"
+                        isSelected={table.getIsAllPageRowsSelected()}
+                        isIndeterminate={table.getIsSomePageRowsSelected() && !table.getIsAllPageRowsSelected()}
+                        onChange={(v) => table.toggleAllPageRowsSelected(!!v)}
+                      />
+                      <button
+                        type="button"
+                        onClick={header.column.getToggleSortingHandler()}
+                        className="flex cursor-pointer items-center gap-0.5"
+                      >
+                        {label}
+                        <SortChevron dir={header.column.getIsSorted()} />
+                      </button>
+                    </div>
+                  ) : canSort ? (
+                    <button
+                      type="button"
+                      onClick={header.column.getToggleSortingHandler()}
+                      className="flex cursor-pointer items-center gap-0.5"
+                    >
+                      {label}
+                      <SortChevron dir={header.column.getIsSorted()} />
+                    </button>
+                  ) : (
+                    label
+                  )}
+                </TableColumn>
+              );
+            })}
+          </TableHeader>
+          <TableBody
+            renderEmptyState={() => (
+              <div className="flex h-40 items-center justify-center text-body-medium text-text-tertiary">
+                No customers match your filters.
+              </div>
+            )}
+          >
+            {rows.map((row) => {
+              const selected = row.getIsSelected();
+              return (
+                <TableRow
+                  key={row.id}
+                  id={row.id}
+                  style={
+                    selected
+                      ? { backgroundColor: "var(--color-background-secondary-default)" }
+                      : undefined
+                  }
+                >
+                  {row.getVisibleCells().map((cell) => (
+                    <TableCell key={cell.id} className={colWidths[cell.column.id]}>
+                      {flexRender(cell.column.columnDef.cell, cell.getContext())}
+                    </TableCell>
+                  ))}
+                </TableRow>
+              );
+            })}
+          </TableBody>
+        </Table>
+      </div>
+
+      {/* Pagination footer */}
+      {totalPages > 1 && (
+        <div className="px-3 pt-3">
+          <Pagination
+            page={pagination.pageIndex + 1}
+            totalPages={totalPages}
+            onChange={(p) => table.setPageIndex(p - 1)}
+          />
+        </div>
+      )}
+    </section>
+
+      {showSizeToggle && (
+        <SegmentedControl
+          aria-label="Table density"
+          selectedKeys={new Set([size])}
+          onSelectionChange={(keys) => {
+            const next = [...keys][0];
+            if (next) setSize(next as TableSize);
+          }}
+        >
+          <SegmentedControlItem id="md">Normal</SegmentedControlItem>
+          <SegmentedControlItem id="sm">Compact</SegmentedControlItem>
+        </SegmentedControl>
+      )}
+    </div>
+  );
+}
+3:["$","$L1e",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"data-table","title":"Data Table","description":"TanStack Table with sorting, selection, filters, search, density and pagination.","category":"blocks","tags":["data","table","tanstack","sorting","filtering","pagination"],"status":"stable","tier":"free","dependencies":["@remixicon/react","@tanstack/react-table","react-aria-components","tailwind-merge"],"registryDependencies":["avatar","button","checkbox","chevrons","chip","cx","dropdown","icon-button","input","pagination","segmented-control","select","status-dot","table","tokens","tooltip","use-dismiss-on-outside-press"],"files":[{"path":"application/data-table/data-table.tsx","target":"components/application/data-table/data-table.tsx","type":"component","content":"$1f"},{"path":"public/avatars/ann-press.webp","target":"public/avatars/ann-press.webp","type":"asset","encoding":"base64"},{"path":"public/avatars/aspen-lubin.webp","target":"public/avatars/aspen-lubin.webp","type":"asset","encoding":"base64"},{"path":"public/avatars/jaydon-aminoff.webp","target":"public/avatars/jaydon-aminoff.webp","type":"asset","encoding":"base64"},{"path":"public/avatars/john-clarkson.webp","target":"public/avatars/john-clarkson.webp","type":"asset","encoding":"base64"},{"path":"public/avatars/kianna-vaccaro.webp","target":"public/avatars/kianna-vaccaro.webp","type":"asset","encoding":"base64"},{"path":"public/avatars/livia-saris.webp","target":"public/avatars/livia-saris.webp","type":"asset","encoding":"base64"},{"path":"public/avatars/maria-lubin.webp","target":"public/avatars/maria-lubin.webp","type":"asset","encoding":"base64"},{"path":"public/avatars/michael-ekstrom.webp","target":"public/avatars/michael-ekstrom.webp","type":"asset","encoding":"base64"}],"hash":"250987a71291"},"demoSource":"\"use client\";\n\nimport { DataTableExample } from \"@/components/application/data-table/data-table\";\n\nexport default function DataTableDemo() {\n  // Sorting, selection, filters, search, density and pagination all live\n  // inside — TanStack Table for the logic, our primitives for the rendering.\n  return <DataTableExample />;\n}","previous":{"name":"stat-cards","title":"Stat Cards"},"next":{"name":"sidebar","title":"Sidebar"}}]
+4:["$","script","script-0",{"src":"/_next/static/chunks/3l5f3qnr89rl0.js","async":true}]
+5:["$","script","script-1",{"src":"/_next/static/chunks/0wmbfrsxfdesk.js","async":true}]
+6:["$","script","script-2",{"src":"/_next/static/chunks/3ixdl2m026on9.js","async":true}]
+7:["$","script","script-3",{"src":"/_next/static/chunks/3xa-hzf5c_c6n.js","async":true}]
+8:["$","script","script-4",{"src":"/_next/static/chunks/1zihipy0kqa1_.js","async":true}]
+9:["$","script","script-5",{"src":"/_next/static/chunks/0-afrvt74ak7l.js","async":true}]
+a:["$","script","script-6",{"src":"/_next/static/chunks/0337601gswv_s.js","async":true}]
+b:["$","script","script-7",{"src":"/_next/static/chunks/34zl6f3dq0u0q.js","async":true}]
+c:["$","script","script-8",{"src":"/_next/static/chunks/2az_x4uxpy3sm.js","async":true}]
+d:["$","script","script-9",{"src":"/_next/static/chunks/23ywcyogzmwlv.js","async":true}]
+e:["$","script","script-10",{"src":"/_next/static/chunks/2qg2knl-9_2le.js","async":true}]
+f:["$","script","script-11",{"src":"/_next/static/chunks/1wypk9kc4p_mt.js","async":true}]
+10:["$","$L20",null,{"children":["$","$21",null,{"name":"Next.MetadataOutlet","children":"$@22"}]}]
+13:["$","$1","h",{"children":[null,["$","$L23",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L24",null,{"children":["$","$21",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Data Table — Zeus UI"}],["$","meta","1",{"name":"description","content":"TanStack Table with sorting, selection, filters, search, density and pagination."}],["$","meta","2",{"name":"keywords","content":"data,table,tanstack,sorting,filtering,pagination"}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+15:["$","$1","c",{"children":[null,["$","$L25",null,{"parallelRouterKey":"children","template":["$","$L26",null,{}]}]]}]
+18:["$","$1","c",{"children":[null,["$","$L25",null,{"parallelRouterKey":"children","template":["$","$L26",null,{}]}]]}]
+1a:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/0by1pam5w7cuf.js","async":true}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L27",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L25",null,{"parallelRouterKey":"children","template":["$","$L26",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]]}]}]]}]
+22:null
+1d:true
+12:300
+12:C
+1c:0
+14:"$undefined"
+16:"$undefined"
+19:"$undefined"
+1b:"$undefined"
+11:"$undefined"

@@ -1,0 +1,103 @@
+# Zeus UI
+
+Reusable React components, charts and application templates for coding agents.
+
+- [Agent manifest](https://myzeusui.com/agents.json): 88 components with examples, install commands and source URLs.
+- [Registry](https://myzeusui.com/r/registry.json)
+- [Documentation](https://myzeusui.com/foundations/)
+- [Verification status](https://myzeusui.com/verification/): measured parity and known differences.
+
+## Install source
+
+Run `npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui init`, then `npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add agent-limits-card`.
+
+## Components
+
+- [Home Dashboard](https://myzeusui.com/components/home-dashboard/): An overview workspace with revenue, earnings, recent hires and searchable records
+- [Finance Dashboard](https://myzeusui.com/components/finance-dashboard/): Personal finance workspace with cash flow, investments, spending and transaction records
+- [Marketing Dashboard](https://myzeusui.com/components/marketing-dashboard/): Campaign analytics with conversion funnels, channel attribution and campaign management
+- [HR Management](https://myzeusui.com/components/hr-management/): Hiring, engagement and employee management with editable records
+- [Medical Profile](https://myzeusui.com/components/medical-profile/): A patient workspace with health activity, sleep, alerts and patient records
+- [AI Profile](https://myzeusui.com/components/ai-profile/): An editable agent profile with contribution history, agent activity and token usage
+- [AI Chat](https://myzeusui.com/components/ai-chat/): A coding agent workspace with progress, task playback, a code panel and a cancellable backend adapter
+- [AI Image Generation](https://myzeusui.com/components/ai-image-generation/): An image workspace with animated generation, a gallery, styles and a cancellable generation adapter
+- [Agent Progress](https://myzeusui.com/components/agent-progress/): Collapsible AI agent progress block for React and Tailwind CSS with animated task states and completion timing
+- [Calendar](https://myzeusui.com/components/calendar/): event chips, details popover, month switcher, and inbox feed
+- [Composer](https://myzeusui.com/components/composer/): The AI chat composer for React + Tailwind CSS: attachment and model menus, voice and send controls, status bar, and a liquid-glass working state
+- [Task List](https://myzeusui.com/components/task-list/): Streaming agent task log for React and Tailwind CSS. Tasks reveal step by step with soft height, blur, and shimmer, and drop straight into a chat thread.
+- [Web Search](https://myzeusui.com/components/web-search/): Streaming research trail for React and Tailwind CSS: the queries an agent ran and the sources it opened, with real site marks, drawn in as it works.
+- [Combo Chart](https://myzeusui.com/components/combo-chart-card/): independent left and right axes, hover dimming, a pulsing active dot and stat tiles
+- [Contributions](https://myzeusui.com/components/contributions-card/): GitHub-style contributions heat grid for React + Tailwind CSS with a swappable accent family
+- [Earnings Chart](https://myzeusui.com/components/earnings-chart-card/): Bar chart card for React + Tailwind CSS with a period switcher, count-up headline, and hover outline
+- [Funnel Chart](https://myzeusui.com/components/funnel-chart-card/): curved or sharp tapers between stages, centred conversion pills, mono option, and a value/name footer
+- [Heatmap Chart](https://myzeusui.com/components/heatmap-chart-card/): rows × columns of tinted cells with a theme-following ramp, hover-linked headline, and Less → More legend
+- [Most Active Days](https://myzeusui.com/components/most-active-days-card/): Continuous vertical month calendar for React + Tailwind CSS with per-day mini activity rings
+- [Radar Chart](https://myzeusui.com/components/radar-chart-card/): filled, dotted, lines-only, and centre-score variants with a hover-linked headline
+- [Radial Chart](https://myzeusui.com/components/radial-chart-card/): concentric rings, labelled rings, grid, single-value gauges, and a stacked half gauge
+- [Sankey Chart](https://myzeusui.com/components/sankey-chart-card/): pill nodes, target-tinted links, source and share labels, and hover isolation
+- [Scatter Chart](https://myzeusui.com/components/scatter-chart-card/): grouped series, optional size measure, hover isolation and stat tiles
+- [Sleep Score](https://myzeusui.com/components/sleep-score-card/): Segmented sleep score ring for React + Tailwind CSS with hover-focused sub-scores and metric rows
+- [Stage Bars](https://myzeusui.com/components/stage-bars-card/): name, value and share per stage, animated widths, mono option
+- [Steps Chart](https://myzeusui.com/components/steps-card/): Weekly steps bar chart for React + Tailwind CSS with a week switcher, count-up headline, and hover outline
+- [Design tokens](https://myzeusui.com/components/tokens/): Color primitives, semantic light/dark tokens, radii, shadows and the button gradients everything else is built on.
+- [Typography](https://myzeusui.com/components/typography/): The type scale: display, title, headline, body and caption, each in four weights.
+- [cx](https://myzeusui.com/components/cx/): Class merging built on tailwind-merge, plus the sortCx helper for style maps.
+- [Chevrons](https://myzeusui.com/components/chevrons/): The small chevron set used by menus, selects and sortable table headers.
+- [Logo](https://myzeusui.com/components/logo/): The wordmark and its compact circular variant, both theme-aware.
+- [useCountUp](https://myzeusui.com/components/use-count-up/): Animates a number toward a target, respecting prefers-reduced-motion.
+- [useDismissOnOutsidePress](https://myzeusui.com/components/use-dismiss-on-outside-press/): Closes a popover or panel on an outside pointer press, without trapping focus.
+- [Button](https://myzeusui.com/components/button/): Primary, secondary, ghost and danger actions in three sizes, with icon slots.
+- [Icon Button](https://myzeusui.com/components/icon-button/): Square action button, icon only, in two sizes.
+- [Link Button](https://myzeusui.com/components/link-button/): Inline text action styled like a link, rendering an anchor when given an href.
+- [Button Group](https://myzeusui.com/components/button-group/): Fused row of selectable buttons for view switches and toolbars.
+- [Close Button](https://myzeusui.com/components/close-button/): The dismiss ×, in four sizes with matching stroke weights.
+- [Social Button](https://myzeusui.com/components/social-button/): Twenty-four OAuth brands in colourful, black and outlined appearances.
+- [Input](https://myzeusui.com/components/input/): Text field with label, hint, addons, icons and validation states.
+- [Input OTP](https://myzeusui.com/components/input-otp/): One-time-code boxes with paste, autofill and grouping.
+- [Checkbox](https://myzeusui.com/components/checkbox/): Hand-drawn tick animation, indeterminate state, two sizes and a card variant.
+- [Radio](https://myzeusui.com/components/radio/): Gradient dot, two sizes, and a card variant for plan pickers.
+- [Switch](https://myzeusui.com/components/switch/): Pill and rectangle shapes, two sizes, plus a card variant with icon and description.
+- [Select](https://myzeusui.com/components/select/): Single-choice listbox whose items take free-form content — dots, avatars, icons.
+- [Slider](https://myzeusui.com/components/slider/): Single value and range, with a value bubble and custom formatting.
+- [Dropdown](https://myzeusui.com/components/dropdown/): Composable menu primitives — trigger, popover, groups, items and dividers.
+- [Divider](https://myzeusui.com/components/divider/): Single, double and filled separators that can carry any content in the middle.
+- [File Upload](https://myzeusui.com/components/file-upload/): Drag and drop with extension and size validation, and per-file progress.
+- [Tabs](https://myzeusui.com/components/tabs/): Underlined tabs with optional icons and counts, plus a pill variant.
+- [Segmented Control](https://myzeusui.com/components/segmented-control/): Sliding pill option switcher for two to four short choices.
+- [Table](https://myzeusui.com/components/table/): The semantic table primitive: sortable columns, row selection, two densities.
+- [Tooltip](https://myzeusui.com/components/tooltip/): Hover and focus tooltip with the arrow and placement handled for you.
+- [Badge](https://myzeusui.com/components/badge/): Count pills for nav rows and menus, in neutral and primary.
+- [Chip](https://myzeusui.com/components/chip/): Bold, subtle and caption tones across nine colours, for deltas, values and tags.
+- [Status Dot](https://myzeusui.com/components/status-dot/): The small coloured dot that prefixes a status label.
+- [Kbd](https://myzeusui.com/components/kbd/): Keyboard key caps for shortcut hints.
+- [Avatar](https://myzeusui.com/components/avatar/): Photo with initials fallback, four sizes, colour tints and presence.
+- [Breadcrumb](https://myzeusui.com/components/breadcrumb/): Path trail whose items take arbitrary leading content — avatars, icons, dots.
+- [Pagination](https://myzeusui.com/components/pagination/): Page numbers with truncation and prev/next controls.
+- [Carousel](https://myzeusui.com/components/carousel/): Snap track with arrows, dots, configurable gap and alignment.
+- [Announcement](https://myzeusui.com/components/announcement/): Dismissible banner for product news, with an optional action.
+- [Notification](https://myzeusui.com/components/notification/): Toast with status, icon or avatar, timestamp, actions and auto-dismiss.
+- [Date Picker](https://myzeusui.com/components/date-picker/): Popover calendar for a single date, built on @internationalized/date.
+- [Date Range Picker](https://myzeusui.com/components/date-range-picker/): Two-month range picker with quick presets and an apply step.
+- [Meeting Scheduler](https://myzeusui.com/components/meeting-scheduler/): A booking panel: host, duration, timezone, date and time slots.
+- [Theme Toggle](https://myzeusui.com/components/theme-toggle/): Light/dark switch that reveals the next theme from the exact click point.
+- [Stat Cards](https://myzeusui.com/components/stat-cards/): KPI row with gradient icon tiles, info tooltips and delta pills, in two variants.
+- [Data Table](https://myzeusui.com/components/data-table/): TanStack Table with sorting, selection, filters, search, density and pagination.
+- [Sidebar](https://myzeusui.com/components/sidebar/): The 260px dashboard sidebar with collapsing nav, team switcher and user menu.
+- [App Shell](https://myzeusui.com/components/app-shell/): The page frame: sidebar, mobile drawer, breadcrumb header and content column.
+- [Notification Center](https://myzeusui.com/components/notification-center/): Grouped, filterable inbox with unread state and per-item actions.
+- [Settings Modal](https://myzeusui.com/components/settings-modal/): Five-page settings dialog: profile, general, tools, storage and plan.
+- [Auth Card](https://myzeusui.com/components/auth-card/): Sign in, sign up and verify, with stacked, inline and grid provider layouts.
+- [Agent Limits](https://myzeusui.com/components/agent-limits-card/): Context window usage as a segmented bar with an expandable token breakdown, plus plan quotas and their reset times.
+- [Agent Thinking](https://myzeusui.com/components/agent-thinking/): Four loading personalities — wave, spin, stars and infinity — with an elapsed timer.
+- [Composer Loader](https://myzeusui.com/components/composer-loader/): A travelling light that rims the composer while an agent is answering.
+- [Agent Log](https://myzeusui.com/components/agent-log/): The primitives behind a streaming tool log: reveal masks, guides and shimmer text.
+- [Agent Chat](https://myzeusui.com/components/agent-chat/): A working chat app: thread history, streaming messages, composer and suggestions.
+- [Area Chart](https://myzeusui.com/components/area-chart-card/): One or more series as soft filled bands, stacked into a total by default.
+- [Line Chart](https://myzeusui.com/components/line-chart-card/): Several series compared over one axis, smooth or sharp, with a dashed comparison.
+- [Bar List](https://myzeusui.com/components/bar-list-card/): A ranked list where each row's bar is its share of the top — no axis, no library.
+- [Activity Rings](https://myzeusui.com/components/activity-rings-card/): Concentric progress arcs, one per goal, drawn as plain SVG.
+- [Chart Card](https://myzeusui.com/components/chart-card/): The shared frame every chart card is built on: header, count-up headline, delta chip and legend.
+- [Revenue Chart](https://myzeusui.com/components/revenue-chart-card/): Year-over-year area chart with a computed headline and delta.
+- [Orders Chart](https://myzeusui.com/components/orders-chart-card/): Year-over-year bars with the same headline and delta treatment.
+- [Important Alerts](https://myzeusui.com/components/important-alerts-card/): A dated alert feed with severity icons and a week range pill.
+- [Patient Info](https://myzeusui.com/components/patient-info-card/): A profile card with identity fields and vitals.

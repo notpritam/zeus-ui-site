@@ -1,0 +1,929 @@
+1:"$Sreact.fragment"
+2:I[72844,["/_next/static/chunks/0by1pam5w7cuf.js"],""]
+3:I[37280,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+4:I[75701,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+6:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+a:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"ViewportBoundary"]
+c:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"MetadataBoundary"]
+e:I[84167,["/_next/static/chunks/0by1pam5w7cuf.js"],"default",1]
+:HL["/_next/static/chunks/16_ml9va511u1.css","style"]
+:HL["/_next/static/chunks/1lom8-olk25vh.css","style"]
+:HL["/_next/static/media/234d9015b631dab9-s.p.33gca1im1ku45.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+9:X
+0:{"P":null,"c":["","components","ai-chat",""],"q":"","i":false,"f":[[["",{"children":["components",{"children":[["slug","ai-chat","d",[]],{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0by1pam5w7cuf.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L2",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/3l5f3qnr89rl0.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0wmbfrsxfdesk.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/3ixdl2m026on9.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/3xa-hzf5c_c6n.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/1zihipy0kqa1_.js","async":true,"nonce":"$undefined"}],["$","script","script-5",{"src":"/_next/static/chunks/0-afrvt74ak7l.js","async":true,"nonce":"$undefined"}],["$","script","script-6",{"src":"/_next/static/chunks/0337601gswv_s.js","async":true,"nonce":"$undefined"}],["$","script","script-7",{"src":"/_next/static/chunks/34zl6f3dq0u0q.js","async":true,"nonce":"$undefined"}],["$","script","script-8",{"src":"/_next/static/chunks/2az_x4uxpy3sm.js","async":true,"nonce":"$undefined"}],["$","script","script-9",{"src":"/_next/static/chunks/23ywcyogzmwlv.js","async":true,"nonce":"$undefined"}],["$","script","script-10",{"src":"/_next/static/chunks/2qg2knl-9_2le.js","async":true,"nonce":"$undefined"}],["$","script","script-11",{"src":"/_next/static/chunks/1wypk9kc4p_mt.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$9"]},null,false,"$9"]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],"$Lf"]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Kgh3aKGUUDrNWttN7OqGM"}
+9:C
+f:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+10:I[54515,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"DocsLayout"]
+5:["$","$L10",null,{"title":"AI Chat","heading":"AI Chat","icon":"components","groups":[{"id":"foundations","title":"Foundations","items":[{"name":"tokens","title":"Design tokens","isNew":"$undefined"},{"name":"typography","title":"Typography","isNew":"$undefined"},{"name":"cx","title":"cx","isNew":"$undefined"},{"name":"chevrons","title":"Chevrons","isNew":"$undefined"},{"name":"logo","title":"Logo","isNew":"$undefined"},{"name":"use-count-up","title":"useCountUp","isNew":"$undefined"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress","isNew":"$undefined"}]},{"id":"base","title":"Base","items":[{"name":"button","title":"Button","isNew":"$undefined"},{"name":"icon-button","title":"Icon Button","isNew":"$undefined"},{"name":"link-button","title":"Link Button","isNew":"$undefined"},{"name":"button-group","title":"Button Group","isNew":"$undefined"},{"name":"close-button","title":"Close Button","isNew":"$undefined"},{"name":"social-button","title":"Social Button","isNew":"$undefined"},{"name":"input","title":"Input","isNew":"$undefined"},{"name":"input-otp","title":"Input OTP","isNew":"$undefined"},{"name":"checkbox","title":"Checkbox","isNew":"$undefined"},{"name":"radio","title":"Radio","isNew":"$undefined"},{"name":"switch","title":"Switch","isNew":"$undefined"},{"name":"select","title":"Select","isNew":"$undefined"},{"name":"slider","title":"Slider","isNew":"$undefined"},{"name":"dropdown","title":"Dropdown","isNew":"$undefined"},{"name":"divider","title":"Divider","isNew":"$undefined"},{"name":"file-upload","title":"File Upload","isNew":"$undefined"},{"name":"tabs","title":"Tabs","isNew":"$undefined"},{"name":"segmented-control","title":"Segmented Control","isNew":"$undefined"},{"name":"table","title":"Table","isNew":"$undefined"},{"name":"tooltip","title":"Tooltip","isNew":"$undefined"},{"name":"badge","title":"Badge","isNew":"$undefined"},{"name":"chip","title":"Chip","isNew":"$undefined"},{"name":"status-dot","title":"Status Dot","isNew":"$undefined"},{"name":"kbd","title":"Kbd","isNew":"$undefined"},{"name":"avatar","title":"Avatar","isNew":"$undefined"},{"name":"breadcrumb","title":"Breadcrumb","isNew":"$undefined"},{"name":"pagination","title":"Pagination","isNew":"$undefined"},{"name":"carousel","title":"Carousel","isNew":"$undefined"},{"name":"announcement","title":"Announcement","isNew":"$undefined"},{"name":"notification","title":"Notification","isNew":"$undefined"},{"name":"date-picker","title":"Date Picker","isNew":"$undefined"},{"name":"date-range-picker","title":"Date Range Picker","isNew":"$undefined"},{"name":"meeting-scheduler","title":"Meeting Scheduler","isNew":"$undefined"}]},{"id":"blocks","title":"Blocks","items":[{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"calendar","title":"Calendar","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"theme-toggle","title":"Theme Toggle","isNew":"$undefined"},{"name":"stat-cards","title":"Stat Cards","isNew":"$undefined"},{"name":"data-table","title":"Data Table","isNew":"$undefined"},{"name":"sidebar","title":"Sidebar","isNew":"$undefined"},{"name":"app-shell","title":"App Shell","isNew":"$undefined"},{"name":"notification-center","title":"Notification Center","isNew":"$undefined"},{"name":"settings-modal","title":"Settings Modal","isNew":"$undefined"},{"name":"auth-card","title":"Auth Card","isNew":"$undefined"},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking","isNew":"$undefined"},{"name":"composer-loader","title":"Composer Loader","isNew":"$undefined"},{"name":"agent-log","title":"Agent Log","isNew":"$undefined"},{"name":"agent-chat","title":"Agent Chat","isNew":"$undefined"}]},{"id":"charts","title":"Charts","items":[{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart","isNew":"$undefined"},{"name":"orders-chart-card","title":"Orders Chart","isNew":"$undefined"},{"name":"important-alerts-card","title":"Important Alerts","isNew":"$undefined"},{"name":"patient-info-card","title":"Patient Info","isNew":"$undefined"}]},{"id":"templates","title":"Templates","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true},{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true}]}],"description":"A coding agent workspace with progress, task playback, a code panel and a cancellable backend adapter","columnClassName":"$undefined","detail":true,"children":"$L11"}]
+12:I[26438,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"ComponentPage"]
+13:T5c05,"use client";
+
+import {
+  RiAddLine,
+  RiArrowRightSLine,
+  RiCheckLine,
+  RiCloseLine,
+  RiCodeBoxLine,
+  RiCustomerServiceLine,
+  RiFileCopyLine,
+  RiFolder3Line,
+  RiFolderOpenLine,
+  RiGalleryLine,
+  RiGlobalLine,
+  RiInfinityLine,
+  RiMenuLine,
+  RiMoreFill,
+  RiRobot2Line,
+  RiSearchLine,
+  RiSettings4Line,
+  RiShareBoxLine,
+  RiSideBarLine,
+  RiSparklingLine,
+  RiTerminalLine,
+} from "@remixicon/react";
+import { motion, useReducedMotion } from "motion/react";
+import { type ReactNode, useEffect, useRef, useState } from "react";
+import { Avatar } from "../../base/avatar/avatar";
+import { Button } from "../../base/buttons/button";
+import { IconButton } from "../../base/buttons/icon-button";
+import {
+  Dropdown,
+  DropdownItem,
+  DropdownPopover,
+  DropdownTrigger,
+} from "../../base/dropdown/dropdown";
+import { InputBase } from "../../base/input/input";
+import { PillTab, PillTabList } from "../../base/tabs/pill-tab";
+import { cx } from "../../utils/cx";
+import { Composer, StatusBar } from "../composer/composer";
+import { DashboardUserMenu } from "../dashboard/dashboard-user-menu";
+import { SettingsModal } from "../settings/settings-modal";
+import { ThemeToggle } from "../theme/theme-toggle";
+
+const REPOSITORIES = [
+  {
+    name: "boardui",
+    chats: [
+      { name: "pro badge restyle", time: "2h" },
+      { name: "installation docs page", time: "1d" },
+    ],
+  },
+  {
+    name: "vibl coding project",
+    chats: [
+      { name: "landing page design", time: "34m" },
+      { name: "image generation", time: "now", href: "/templates/ai-image-generation" },
+      { name: "coding scenario", time: "now", href: "/templates/ai-chat" },
+      { name: "mobile app for vuejs…", time: "5h" },
+      { name: "code refactor dropdown", time: "18h" },
+    ],
+  },
+  {
+    name: "strider landing page work",
+    chats: [
+      { name: "hero section animation", time: "3d" },
+      { name: "pricing table copy", time: "4d" },
+    ],
+  },
+  {
+    name: "pirate mini game iOS",
+    chats: [
+      { name: "cannon physics tuning", time: "1w" },
+      { name: "sprite sheet cleanup", time: "2w" },
+    ],
+  },
+];
+
+function AgentRepositorySidebar({
+  selected,
+  onNew,
+  onClose,
+  collapsed,
+  onCollapse,
+  className,
+}: {
+  selected: string;
+  onNew: () => void;
+  onClose?: () => void;
+  collapsed: boolean;
+  onCollapse?: () => void;
+  className?: string;
+}) {
+  const [expanded, setExpanded] = useState<Record<string, boolean>>({
+    "vibl coding project": true,
+  });
+  const [query, setQuery] = useState("");
+  const [searchOpen, setSearchOpen] = useState(false);
+  const [settings, setSettings] = useState(false);
+  const [notice, setNotice] = useState<string | null>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
+  useEffect(() => {
+    if (searchOpen) inputRef.current?.focus();
+  }, [searchOpen]);
+  useEffect(() => {
+    const listener = (event: KeyboardEvent) => {
+      if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "l") {
+        event.preventDefault();
+        setSearchOpen(true);
+      }
+    };
+    window.addEventListener("keydown", listener);
+    return () => window.removeEventListener("keydown", listener);
+  }, []);
+  const rows = REPOSITORIES.filter(
+    (repo) =>
+      !query ||
+      `${repo.name} ${repo.chats.map((chat) => chat.name).join(" ")}`
+        .toLowerCase()
+        .includes(query.toLowerCase()),
+  );
+  return (
+    <aside
+      className={cx(
+        "flex h-full shrink-0 flex-col justify-between overflow-hidden rounded-3xl border border-border-button-white bg-background-secondary-default p-3 shadow-sidebar transition-[width] duration-300 motion-reduce:transition-none",
+        collapsed ? "w-[60px]" : "w-[260px]",
+        className,
+      )}
+    >
+      <div className="flex min-h-0 flex-col gap-3">
+        <div className="flex items-center justify-between gap-1">
+          <DashboardUserMenu collapsed={collapsed} />
+          {!collapsed && (
+            <IconButton
+              size="small"
+              icon={onClose ? RiCloseLine : RiSideBarLine}
+              aria-label={onClose ? "Close navigation" : "Collapse sidebar"}
+              onClick={onClose ?? onCollapse}
+            />
+          )}
+        </div>
+        {collapsed ? (
+          <IconButton
+            size="small"
+            icon={RiMenuLine}
+            aria-label="Expand sidebar"
+            onClick={onCollapse}
+          />
+        ) : searchOpen ? (
+          <InputBase
+            ref={inputRef}
+            aria-label="Search repositories"
+            placeholder="Search repositories"
+            value={query}
+            onChange={(event) => setQuery(event.target.value)}
+            onKeyDown={(event) => {
+              if (event.key === "Escape") {
+                setQuery("");
+                setSearchOpen(false);
+              }
+            }}
+            leadingIcon={RiSearchLine}
+          />
+        ) : (
+          <button
+            type="button"
+            onClick={() => setSearchOpen(true)}
+            className="flex h-9 cursor-pointer items-center gap-2 rounded-full bg-background-tertiary-default px-2.5 text-body-medium text-text-secondary"
+          >
+            <RiSearchLine className="size-5" />
+            <span className="flex-1 text-left">Quick Search</span>
+            <span className="rounded-md bg-background-secondary-hover px-1 text-caption-1-medium">
+              ⌘L
+            </span>
+          </button>
+        )}
+        <div className="flex flex-col gap-1">
+          {[
+            { label: "New agent", Icon: RiAddLine, action: onNew },
+            { label: "Automations", Icon: RiRobot2Line, action: () => setNotice("Automations") },
+            { label: "Customize", Icon: RiSparklingLine, action: () => setSettings(true) },
+          ].map(({ label, Icon, action }) => (
+            <button
+              type="button"
+              key={label}
+              onClick={action}
+              aria-label={label}
+              className="flex h-9 cursor-pointer items-center gap-2 overflow-hidden rounded-2lg px-2 text-body-medium whitespace-nowrap text-text-secondary hover:bg-background-secondary-hover"
+            >
+              <Icon className="size-5 shrink-0" />
+              {!collapsed && label}
+            </button>
+          ))}
+        </div>
+        {!collapsed && (
+          <div className="flex min-h-0 flex-col gap-2 overflow-y-auto pt-2">
+            <p className="px-0 text-body-medium text-text-secondary">Repositories</p>
+            {rows.map((repo) => {
+              const open = !!expanded[repo.name] || !!query;
+              return (
+                <div key={repo.name}>
+                  <button
+                    type="button"
+                    aria-expanded={open}
+                    onClick={() => setExpanded((old) => ({ ...old, [repo.name]: !open }))}
+                    className="flex h-9 w-full cursor-pointer items-center gap-2 rounded-2lg px-2 text-left text-body-medium text-text-secondary hover:bg-background-secondary-hover"
+                  >
+                    {open ? (
+                      <RiFolderOpenLine className="size-5" />
+                    ) : (
+                      <RiFolder3Line className="size-5" />
+                    )}
+                    <span className="truncate">{repo.name}</span>
+                  </button>
+                  {open && (
+                    <ul className="relative ml-4 border-l border-separator-border">
+                      {repo.chats.map((chat) => (
+                        <li key={chat.name} className="relative">
+                          <span
+                            aria-hidden
+                            className="absolute top-0 -left-px h-4 w-3 rounded-bl-lg border-b border-l border-separator-border"
+                          />
+                          {chat.href ? (
+                            <a
+                              href={chat.href}
+                              aria-current={selected === chat.name ? "page" : undefined}
+                              className={cx(
+                                "-ml-4 flex h-8 items-center gap-2 rounded-2lg pr-2 pl-9 text-body-medium text-text-secondary hover:bg-background-secondary-hover",
+                                selected === chat.name && "bg-background-tertiary-default",
+                              )}
+                            >
+                              <span className="truncate">{chat.name}</span>
+                              <span className="ml-auto rounded-sm bg-background-tertiary-default px-1 text-caption-1-regular">
+                                {chat.time}
+                              </span>
+                            </a>
+                          ) : (
+                            <button
+                              type="button"
+                              onClick={() => setNotice(chat.name)}
+                              className="-ml-4 flex h-8 w-[calc(100%+16px)] cursor-pointer items-center gap-2 rounded-2lg pr-2 pl-9 text-left text-body-medium text-text-secondary hover:bg-background-secondary-hover"
+                            >
+                              <span className="truncate">{chat.name}</span>
+                              <span className="ml-auto rounded-sm bg-background-tertiary-default px-1 text-caption-1-regular">
+                                {chat.time}
+                              </span>
+                            </button>
+                          )}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              );
+            })}
+            {rows.length === 0 && (
+              <p className="p-2 text-body-regular text-text-tertiary">No repositories found.</p>
+            )}
+          </div>
+        )}
+      </div>
+      <div className="flex flex-col gap-2 pt-4">
+        {!collapsed && <ThemeToggle />}
+        <a
+          href="/foundations"
+          aria-label="Support"
+          className="flex h-8 items-center gap-2 overflow-hidden px-2 text-body-medium text-text-secondary"
+        >
+          <RiCustomerServiceLine className="size-4 shrink-0" />
+          {!collapsed && "Support"}
+        </a>
+        <button
+          type="button"
+          onClick={() => setSettings(true)}
+          aria-label="Settings"
+          className="flex h-8 cursor-pointer items-center gap-2 overflow-hidden px-2 text-body-medium text-text-secondary"
+        >
+          <RiSettings4Line className="size-4 shrink-0" />
+          {!collapsed && "Settings"}
+        </button>
+        <div className="flex items-center gap-2 rounded-2xl bg-background-tertiary-default p-2">
+          <Avatar initials="B" color="blue" size="sm" />
+          {!collapsed && (
+            <>
+              <div className="min-w-0 flex-1">
+                <p className="text-body-medium text-text-primary">Board team</p>
+                <p className="text-body-regular text-text-secondary">Pro Plan</p>
+              </div>
+              <Button variant="secondary" size="small" onClick={() => setSettings(true)}>
+                Upgrade
+              </Button>
+            </>
+          )}
+        </div>
+      </div>
+      <SettingsModal isOpen={settings} onClose={() => setSettings(false)} />
+      {notice && (
+        <div className="absolute inset-3 z-30 flex flex-col justify-center gap-3 rounded-3xl border border-border-button-default bg-background-primary-default p-5 shadow-dropdown">
+          <p className="text-headline-medium text-text-primary">{notice}</p>
+          <p className="text-body-regular text-text-secondary">
+            This workspace is ready for a new conversation.
+          </p>
+          <Button
+            onClick={() => {
+              setNotice(null);
+              onNew();
+            }}
+          >
+            Start a new agent
+          </Button>
+          <Button variant="secondary" onClick={() => setNotice(null)}>
+            Back to workspace
+          </Button>
+        </div>
+      )}
+    </aside>
+  );
+}
+
+export interface AgentWorkspaceProps {
+  kind: "chat" | "image";
+  children: ReactNode;
+  panel: ReactNode;
+  input: string;
+  onInputChange: (value: string) => void;
+  onSubmit: (value: string) => void;
+  onStop: () => void;
+  onNew: () => void;
+  busy?: boolean;
+  contained?: boolean;
+  className?: string;
+}
+
+export function AgentWorkspace({
+  kind,
+  children,
+  panel,
+  input,
+  onInputChange,
+  onSubmit,
+  onStop,
+  onNew,
+  busy,
+  contained,
+  className,
+}: AgentWorkspaceProps) {
+  const [collapsed, setCollapsed] = useState(false);
+  const [navOpen, setNavOpen] = useState(false);
+  const [panelOpen, setPanelOpen] = useState(false);
+  const [copied, setCopied] = useState(false);
+  const reduced = useReducedMotion();
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const selected = kind === "chat" ? "coding scenario" : "image generation";
+  useEffect(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+    const observer = new ResizeObserver(() => {
+      el.scrollTop = el.scrollHeight;
+    });
+    const content = el.firstElementChild;
+    if (content) observer.observe(content);
+    return () => observer.disconnect();
+  }, []);
+  useEffect(() => {
+    const listener = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setNavOpen(false);
+        setPanelOpen(false);
+      }
+    };
+    window.addEventListener("keydown", listener);
+    return () => window.removeEventListener("keydown", listener);
+  }, []);
+  const copy = async () => {
+    try {
+      await navigator.clipboard.writeText(scrollRef.current?.innerText ?? "");
+      setCopied(true);
+    } catch {
+      setCopied(false);
+    }
+  };
+  return (
+    <div
+      className={cx(
+        "relative flex w-full gap-3 overflow-hidden bg-background-full p-3",
+        contained ? "h-full min-h-[640px]" : "h-dvh",
+        className,
+      )}
+    >
+      <AgentRepositorySidebar
+        selected={selected}
+        onNew={onNew}
+        collapsed={collapsed}
+        onCollapse={() => setCollapsed((value) => !value)}
+        className="relative z-10 hidden lg:flex"
+      />
+      <div className="absolute inset-y-3 left-3 lg:hidden" inert={!navOpen}>
+        <AgentRepositorySidebar
+          selected={selected}
+          onNew={() => {
+            onNew();
+            setNavOpen(false);
+          }}
+          collapsed={false}
+          onClose={() => setNavOpen(false)}
+        />
+      </div>
+      <motion.section
+        animate={{ x: navOpen ? 272 : 0 }}
+        transition={{ duration: reduced ? 0 : 0.4, ease: [0.22, 1, 0.36, 1] }}
+        className="relative z-20 flex h-full min-w-0 flex-1 flex-col overflow-hidden rounded-3xl bg-background-secondary-default lg:!transform-none"
+      >
+        <header className="absolute inset-x-0 top-0 z-10 flex h-12 items-center justify-between gap-2 px-4 text-body-2-medium text-text-secondary">
+          <div className="flex min-w-0 items-center gap-2">
+            <IconButton
+              icon={navOpen ? RiCloseLine : RiMenuLine}
+              size="small"
+              aria-label="Open navigation"
+              onClick={() => setNavOpen((value) => !value)}
+              className="lg:hidden"
+            />
+            <RiFolder3Line className="hidden size-4 shrink-0 text-text-tertiary sm:block" />
+            <span className="hidden truncate text-text-tertiary sm:inline">
+              vibl coding project
+            </span>
+            <RiArrowRightSLine className="hidden size-4 shrink-0 sm:block" />
+            <span className="truncate">{selected}</span>
+          </div>
+          <div className="flex shrink-0 items-center gap-1">
+            <IconButton
+              icon={copied ? RiCheckLine : RiShareBoxLine}
+              size="small"
+              aria-label="Copy conversation"
+              onClick={copy}
+            />
+            <Dropdown>
+              <DropdownTrigger
+                aria-label="Conversation actions"
+                className="flex size-7 items-center justify-center rounded-md hover:bg-background-secondary-hover"
+              >
+                <RiMoreFill className="size-4" />
+              </DropdownTrigger>
+              <DropdownPopover aria-label="Conversation actions">
+                <DropdownItem onSelect={copy}>
+                  <RiFileCopyLine className="size-4" />
+                  Copy conversation
+                </DropdownItem>
+                <DropdownItem onSelect={onNew}>
+                  <RiAddLine className="size-4" />
+                  New agent
+                </DropdownItem>
+              </DropdownPopover>
+            </Dropdown>
+            <IconButton
+              icon={kind === "chat" ? RiCodeBoxLine : RiGalleryLine}
+              size="small"
+              aria-label="Open side panel"
+              className="xl:hidden"
+              onClick={() => setPanelOpen(true)}
+            />
+          </div>
+        </header>
+        <div ref={scrollRef} className="min-h-0 flex-1 overflow-y-auto">
+          <div className="flex min-h-full flex-col justify-end gap-4 px-4 pt-16 pb-3">
+            {children}
+          </div>
+        </div>
+        <div className="flex shrink-0 flex-col gap-2.5 px-2 pb-2">
+          <Composer
+            value={input}
+            onValueChange={onInputChange}
+            onSubmit={onSubmit}
+            onStop={onStop}
+            busy={busy}
+          />
+          <StatusBar className="px-1" />
+        </div>
+        {navOpen && (
+          <button
+            type="button"
+            onClick={() => setNavOpen(false)}
+            aria-label="Close navigation overlay"
+            className="absolute inset-0 z-20 lg:hidden"
+          />
+        )}
+      </motion.section>
+      <aside className="hidden h-full w-[410px] shrink-0 flex-col overflow-hidden pt-2 xl:flex">
+        {panel}
+      </aside>
+      {panelOpen && (
+        <div className="absolute inset-0 z-40 xl:hidden">
+          <button
+            type="button"
+            aria-label="Close panel backdrop"
+            className="absolute inset-0 bg-black/40"
+            onClick={() => setPanelOpen(false)}
+          />
+          <div className="absolute inset-y-0 right-0 flex w-[min(410px,calc(100%_-_12px))] flex-col bg-background-full p-3 shadow-sidebar">
+            <div className="flex h-10 shrink-0 items-center justify-between px-1">
+              <span className="text-headline-medium text-text-primary">
+                {kind === "chat" ? "Code" : "Gallery"}
+              </span>
+              <IconButton
+                icon={RiCloseLine}
+                aria-label="Close panel"
+                onClick={() => setPanelOpen(false)}
+              />
+            </div>
+            <div className="flex min-h-0 flex-1 flex-col overflow-hidden pt-2">{panel}</div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+export function AgentChangesPanel({
+  enableBrowserPreview = false,
+}: {
+  /** Show the embedded dashboard in Browser. Defaults to the reference's empty preview panel. */
+  enableBrowserPreview?: boolean;
+} = {}) {
+  const [tab, setTab] = useState("changes");
+  const [fileOpen, setFileOpen] = useState(true);
+  const [terminal, setTerminal] = useState(false);
+  const code = `"use client";\n\nimport { ThemeToggle } from "@zeus/ui/application";\nimport { Button } from "@zeus/ui/base";\n\nexport function WorkspaceToolbar() {\n  return (\n    <header className="flex items-center gap-3">\n      <ThemeToggle />\n      <Button variant="primary">\n        Create project\n      </Button>\n    </header>\n  );\n}\n\n// Semantic tokens switch with the selected theme.\n// This is sample code for the interactive preview.`;
+  return (
+    <>
+      <div className="mb-2.5 flex h-[30px] shrink-0 items-center justify-between gap-2">
+        <PillTabList aria-label="Panel view">
+          {[
+            { id: "changes", label: "Changes", Icon: RiInfinityLine },
+            { id: "browser", label: "Browser", Icon: RiGlobalLine },
+          ].map(({ id, label, Icon }) => (
+            <PillTab key={id} onSelect={() => setTab(id)} isSelected={tab === id} icon={Icon}>
+              {label}
+            </PillTab>
+          ))}
+        </PillTabList>
+        <IconButton
+          size="small"
+          icon={RiTerminalLine}
+          aria-label="Toggle terminal"
+          aria-pressed={terminal}
+          onClick={() => setTerminal((value) => !value)}
+          className="size-[22px] rounded-md border-0 bg-transparent p-0.5 shadow-none [&_svg]:size-[18px]"
+        />
+      </div>
+      {tab === "browser" ? (
+        enableBrowserPreview ? (
+          <iframe
+            src="/templates/dashboard"
+            title="Workspace browser preview"
+            className="min-h-0 w-full flex-1 rounded-2lg border border-separator-border bg-background-full"
+          />
+        ) : (
+          <div className="flex min-h-0 w-full flex-1 items-center justify-center rounded-2lg bg-background-secondary-default">
+            <span className="text-body-medium text-text-tertiary">Browser preview</span>
+          </div>
+        )
+      ) : (
+        <div className="min-h-0 flex-1 overflow-auto rounded-2xl border border-border-component-detail-container p-1">
+          <div className="flex items-center gap-2 px-1.5 py-1 text-body-2-medium text-text-secondary">
+            <span>12 Uncommitted changes</span>
+            <span className="text-status-lime-text">+156</span>
+            <span className="text-status-rose-text">-23</span>
+          </div>
+          <button
+            type="button"
+            onClick={() => setFileOpen((value) => !value)}
+            aria-expanded={fileOpen}
+            className="flex w-full cursor-pointer items-center gap-1 rounded-2lg bg-background-secondary-default px-1.5 py-1 text-left text-body-regular text-text-primary"
+          >
+            <RiCodeBoxLine className="size-4 shrink-0 text-chart-4" />
+            <span className="truncate">notpritam/components/theme-toggle.tsx</span>
+            <span className="text-status-lime-text">+74</span>
+            <span className="ml-auto rounded-sm bg-background-tertiary-default px-1 text-body-2-regular text-text-secondary">
+              New
+            </span>
+          </button>
+          {fileOpen && (
+            <pre className="overflow-x-auto py-5 font-mono text-body-2-regular text-text-secondary">
+              <code>
+                {code.split("\n").map((line, index) => (
+                  <span key={`line-${index + 1}`} className="flex min-h-6">
+                    <span className="w-8 shrink-0 pr-3 text-right text-text-tertiary">
+                      {index + 1}
+                    </span>
+                    <span
+                      className={cx(
+                        "pr-3 whitespace-pre-wrap break-all",
+                        /^(import|export)/.test(line) && "text-chart-7-active",
+                      )}
+                    >
+                      {line || " "}
+                    </span>
+                  </span>
+                ))}
+              </code>
+            </pre>
+          )}
+        </div>
+      )}
+      {terminal && (
+        <div className="mt-2 h-40 shrink-0 overflow-auto rounded-xl bg-background-secondary-default p-3 font-mono text-body-2-regular text-text-secondary">
+          <p>Workspace terminal</p>
+          <p className="pt-2 text-text-tertiary">The example workspace is ready.</p>
+          <a href="/components/theme-toggle" className="mt-2 block text-accent-600 hover:underline">
+            Open the theme toggle source
+          </a>
+        </div>
+      )}
+    </>
+  );
+}
+14:T271b,"use client";
+
+import {
+  RiCheckLine,
+  RiFileCopyLine,
+  RiRefreshLine,
+  RiThumbDownLine,
+  RiThumbUpLine,
+} from "@remixicon/react";
+import { AnimatePresence, motion, useReducedMotion } from "motion/react";
+import { useEffect, useRef, useState } from "react";
+import { Button } from "../../base/buttons/button";
+import { IconButton } from "../../base/buttons/icon-button";
+import { cx } from "../../utils/cx";
+import { AgentProgress } from "../agent-progress/agent-progress";
+import { TaskList } from "../task-list/task-list";
+import { AgentChangesPanel, AgentWorkspace } from "./agent-workspace";
+
+export interface AIChatMessage {
+  id: string;
+  role: "user" | "assistant";
+  content: string;
+}
+export interface AIChatTemplateProps {
+  /** Connect your own agent. Without this callback the screen plays a local demonstration. */
+  onSend?: (
+    message: string,
+    options: { signal: AbortSignal; messages: AIChatMessage[] },
+  ) => Promise<string>;
+  initialMessages?: AIChatMessage[];
+  autoRun?: boolean;
+  /** Opt into the embedded dashboard in Browser; the default matches the reference placeholder. */
+  enableBrowserPreview?: boolean;
+  contained?: boolean;
+  className?: string;
+}
+const PROMPT =
+  "update our color tokens for dark mode and add a reusable theme toggle to the registry. run lint and a production build when you're done.";
+const SUMMARY =
+  "Dark mode tokens and a reusable theme toggle are ready in this example.\n\n• Semantic colors cover backgrounds, text, borders and charts.\n• The theme toggle supports Light and Dark modes.\n• Your selected theme persists between visits.\n\nOpen the Changes panel to explore the example source.";
+
+export function ConversationFeedback({
+  text,
+  onRetry,
+  retryDisabled = false,
+}: {
+  text: string;
+  onRetry: () => void;
+  retryDisabled?: boolean;
+}) {
+  const [vote, setVote] = useState<"up" | "down" | null>(null);
+  const [copied, setCopied] = useState(false);
+  return (
+    <div className="flex items-center gap-1 text-text-tertiary">
+      <IconButton
+        size="small"
+        icon={vote === "up" ? RiCheckLine : RiThumbUpLine}
+        aria-label="Helpful response"
+        aria-pressed={vote === "up"}
+        onClick={() => setVote((value) => (value === "up" ? null : "up"))}
+      />
+      <IconButton
+        size="small"
+        icon={RiThumbDownLine}
+        aria-label="Unhelpful response"
+        aria-pressed={vote === "down"}
+        className={cx(vote === "down" && "bg-background-tertiary-default")}
+        onClick={() => setVote((value) => (value === "down" ? null : "down"))}
+      />
+      <IconButton
+        size="small"
+        icon={copied ? RiCheckLine : RiFileCopyLine}
+        aria-label={copied ? "Copied response" : "Copy response"}
+        onClick={async () => {
+          try {
+            await navigator.clipboard.writeText(text);
+            setCopied(true);
+          } catch {
+            setCopied(false);
+          }
+        }}
+      />
+      <IconButton
+        size="small"
+        icon={RiRefreshLine}
+        aria-label="Regenerate response"
+        disabled={retryDisabled}
+        onClick={onRetry}
+      />
+    </div>
+  );
+}
+
+/** Timed preview with cancellable live-adapter support. No commands execute in the demo. */
+export function AIChatTemplate({
+  onSend,
+  initialMessages,
+  autoRun = true,
+  enableBrowserPreview = false,
+  contained,
+  className,
+}: AIChatTemplateProps = {}) {
+  const [input, setInput] = useState("");
+  const [messages, setMessages] = useState<AIChatMessage[]>(
+    initialMessages ??
+      (autoRun && !onSend ? [{ id: "prompt", role: "user", content: PROMPT }] : []),
+  );
+  const [phase, setPhase] = useState<"idle" | "working" | "done" | "stopped" | "error">(
+    autoRun && !initialMessages && !onSend ? "working" : "idle",
+  );
+  const [run, setRun] = useState(0);
+  const [error, setError] = useState("");
+  const controller = useRef<AbortController | null>(null);
+  const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const generation = useRef(0);
+  const reduced = useReducedMotion();
+  const busy = phase === "working";
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+  const clear = () => {
+    generation.current += 1;
+    controller.current?.abort();
+    if (timer.current) clearTimeout(timer.current);
+  };
+  useEffect(
+    () => () => {
+      controller.current?.abort();
+      if (timer.current) clearTimeout(timer.current);
+    },
+    [],
+  );
+  useEffect(() => {
+    if (!busy || onSend) return;
+    let active = true;
+    const timeout = setTimeout(() => {
+      if (!active || generation.current !== run) return;
+      setMessages((old) => [...old, { id: `answer-${run}`, role: "assistant", content: SUMMARY }]);
+      setPhase("done");
+    }, 12600);
+    timer.current = timeout;
+    return () => {
+      active = false;
+      clearTimeout(timeout);
+    };
+  }, [busy, onSend, run]);
+  const send = async (value: string, retryHistory?: AIChatMessage[]) => {
+    const prompt = value.trim();
+    if (!prompt) return;
+    clear();
+    const requestId = generation.current;
+    const abort = new AbortController();
+    controller.current = abort;
+    const history = retryHistory ?? [
+      ...messages,
+      { id: `user-${requestId}`, role: "user" as const, content: prompt },
+    ];
+    setMessages(history);
+    setInput("");
+    setError("");
+    setPhase("working");
+    setRun(requestId);
+    if (onSend) {
+      try {
+        const content = await onSend(prompt, { signal: abort.signal, messages: history });
+        if (generation.current !== requestId || abort.signal.aborted) return;
+        setMessages((old) => [...old, { id: `answer-${requestId}`, role: "assistant", content }]);
+        setPhase("done");
+      } catch (cause) {
+        if (generation.current !== requestId || abort.signal.aborted) return;
+        setError(cause instanceof Error ? cause.message : "The response could not be completed.");
+        setPhase("error");
+      }
+    }
+  };
+  const retry = (responseId?: string) => {
+    const responseIndex = responseId
+      ? messages.findIndex((item) => item.id === responseId)
+      : messages.length;
+    const history = messages.slice(0, responseIndex);
+    const userIndex = history.findLastIndex((item) => item.role === "user");
+    if (userIndex >= 0) void send(history[userIndex].content, history.slice(0, userIndex + 1));
+  };
+  return (
+    <AgentWorkspace
+      kind="chat"
+      input={input}
+      onInputChange={setInput}
+      onSubmit={(value) => void send(value)}
+      onStop={() => {
+        clear();
+        setPhase("stopped");
+      }}
+      onNew={() => {
+        clear();
+        setMessages([]);
+        setInput("");
+        setError("");
+        setPhase("idle");
+      }}
+      busy={busy}
+      contained={contained}
+      className={className}
+      panel={
+        onSend ? (
+          <p className="p-3 text-body-regular text-text-secondary">
+            No file changes reported by this agent.
+          </p>
+        ) : (
+          <>
+            <p className="sr-only">Example file changes</p>
+            <AgentChangesPanel enableBrowserPreview={enableBrowserPreview} />
+          </>
+        )
+      }
+    >
+      {messages.length === 0 && (
+        <div className="flex flex-1 flex-col justify-center py-20 text-center">
+          <h1 className="text-title-2-medium text-text-primary">What would you like to build?</h1>
+          <p className="pt-2 text-body-regular text-text-secondary">
+            Start a conversation with your coding agent.
+          </p>
+        </div>
+      )}
+      {messages.map((message) => (
+        <motion.div
+          key={message.id}
+          initial={run === 0 || reduced ? false : { opacity: 0, y: 8, filter: "blur(3px)" }}
+          animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+          transition={{ duration: reduced ? 0 : 0.4, ease: [0.22, 1, 0.36, 1] }}
+          className={cx(
+            "text-body-regular text-text-primary",
+            message.role === "user"
+              ? "ml-auto max-w-md rounded-2xl bg-background-tertiary-default px-4 py-3"
+              : "w-full whitespace-pre-line leading-6",
+          )}
+        >
+          <p>{message.content}</p>
+          {message.role === "assistant" && (
+            <div className="mt-3">
+              <ConversationFeedback
+                text={message.content}
+                onRetry={() => retry(message.id)}
+                retryDisabled={busy}
+              />
+            </div>
+          )}
+        </motion.div>
+      ))}
+      <AnimatePresence>
+        {busy && (
+          <motion.div
+            key={`run-${run}`}
+            initial={run === 0 || reduced ? false : { opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: "auto" }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: reduced ? 0 : 0.35 }}
+            className="flex flex-col gap-3"
+          >
+            <p role="status" className="text-body-2-regular text-text-tertiary">
+              {onSend
+                ? "Waiting for your agent…"
+                : "Example agent workflow · No commands are executed"}
+            </p>
+            {!onSend && mounted && (
+              <>
+                <AgentProgress stepDuration={2200} completionDelay={600} />
+                <TaskList startDelay={900} stepInterval={1100} collapseOnComplete="all" />
+              </>
+            )}
+          </motion.div>
+        )}
+      </AnimatePresence>
+      {phase === "stopped" && (
+        <p role="status" className="text-body-regular text-text-secondary">
+          Response stopped.
+        </p>
+      )}
+      {phase === "error" && (
+        <p role="alert" className="text-body-regular text-status-rose-text">
+          {error}
+        </p>
+      )}
+      {(phase === "stopped" || phase === "error") && (
+        <Button size="small" variant="secondary" className="self-start" onClick={() => retry()}>
+          Retry response
+        </Button>
+      )}
+    </AgentWorkspace>
+  );
+}
+11:["$","$L12",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"ai-chat","title":"AI Chat","description":"A coding agent workspace with progress, task playback, a code panel and a cancellable backend adapter","category":"templates","tags":["ai","chat","agent"],"status":"stable","tier":"free","isNew":true,"dependencies":["@internationalized/date","@remixicon/react","motion","react-aria-components","tailwind-merge"],"registryDependencies":["agent-log","agent-progress","agent-thinking","avatar","button","checkbox","chevrons","chip","composer","composer-loader","cx","date-picker","dropdown","file-upload","icon-button","input","pagination","radio","select","settings-modal","sidebar","switch","tabs","task-list","theme-toggle","tokens","tooltip","use-dismiss-on-outside-press"],"files":[{"path":"application/templates/agent-workspace.tsx","target":"components/application/templates/agent-workspace.tsx","type":"component","content":"$13"},{"path":"application/templates/ai-chat.tsx","target":"components/application/templates/ai-chat.tsx","type":"component","content":"$14"},{"path":"hooks/use-hydrated-reduced-motion.ts","target":"hooks/use-hydrated-reduced-motion.ts","type":"hook","content":"\"use client\";\n\nimport { useReducedMotion } from \"motion/react\";\nimport { useSyncExternalStore } from \"react\";\n\nconst subscribe = () => () => {};\nconst clientSnapshot = () => true;\nconst serverSnapshot = () => false;\n\n/** Keep the first server/client render identical, then apply the user's motion preference. */\nexport function useHydratedReducedMotion(): boolean {\n  const reduced = useReducedMotion();\n  const hydrated = useSyncExternalStore(subscribe, clientSnapshot, serverSnapshot);\n  return hydrated && reduced === true;\n}\n"}],"hash":"766970b016fa"},"demoSource":"\"use client\";\n\nimport { AIChatTemplate } from \"@/components/application/templates/ai-chat\";\n\nexport default function Demo() { return <div className=\"h-[900px] w-[1440px] max-w-none\"><AIChatTemplate contained /></div>; }","previous":{"name":"ai-profile","title":"AI Profile"},"next":{"name":"ai-image-generation","title":"AI Image Generation"}}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:null
+d:[["$","title","0",{"children":"AI Chat — Zeus UI"}],["$","meta","1",{"name":"description","content":"A coding agent workspace with progress, task playback, a code panel and a cancellable backend adapter"}],["$","meta","2",{"name":"keywords","content":"ai,chat,agent"}]]

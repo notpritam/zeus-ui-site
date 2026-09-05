@@ -1,0 +1,31 @@
+{
+  "id": "health-monitor",
+  "title": "Health monitor",
+  "description": "A patient view: identity and vitals beside a dated alert feed.",
+  "author": {
+    "handle": "zeus-ui"
+  },
+  "tags": [
+    "health",
+    "profile",
+    "alerts",
+    "vitals"
+  ],
+  "createdAt": "2026-09-05",
+  "blocks": [
+    {
+      "component": "patient-info-card",
+      "span": 6,
+      "title": "Patient"
+    },
+    {
+      "component": "important-alerts-card",
+      "span": 6,
+      "title": "Alerts"
+    },
+    {
+      "component": "stat-cards",
+      "span": 12
+    }
+  ]
+}

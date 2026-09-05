@@ -1,0 +1,2804 @@
+[
+  {
+    "id": "combo-chart-card",
+    "title": "Combo Chart",
+    "category": "charts",
+    "tier": "pro",
+    "reference": {
+      "url": "https://www.boardui.com/components/combo-chart-card",
+      "root": {
+        "selector": "#preview > div > div:last-child > div > section",
+        "nth": 0
+      },
+      "setup": [
+        {
+          "type": "click",
+          "target": {
+            "role": "button",
+            "name": "Decline"
+          },
+          "scope": "page",
+          "optional": true,
+          "optionalTimeoutMs": 2500,
+          "reason": "Dismiss the documentation cookie banner through its Decline control before capture; it may mount after hydration."
+        }
+      ]
+    },
+    "local": {
+      "url": "/components/combo-chart-card",
+      "root": {
+        "selector": "#preview [role=\"tabpanel\"] > div > div > div > section",
+        "nth": 0
+      }
+    },
+    "frame": {
+      "width": 576
+    },
+    "states": [
+      {
+        "id": "initial",
+        "actions": [],
+        "assertions": [
+          {
+            "type": "visible"
+          }
+        ]
+      },
+      {
+        "id": "period-menu",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            }
+          }
+        ],
+        "frame": {
+          "height": 650
+        },
+        "assertions": [
+          {
+            "type": "attribute",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            },
+            "name": "aria-expanded",
+            "value": "true"
+          },
+          {
+            "type": "visible",
+            "target": {
+              "role": "button",
+              "name": "This year"
+            },
+            "scope": "page",
+            "local": {
+              "target": {
+                "role": "option",
+                "name": "This year"
+              }
+            }
+          },
+          {
+            "type": "visible",
+            "target": {
+              "role": "button",
+              "name": "Last 6 months"
+            },
+            "scope": "page",
+            "local": {
+              "target": {
+                "role": "option",
+                "name": "Last 6 months"
+              }
+            }
+          },
+          {
+            "type": "visible",
+            "target": {
+              "role": "button",
+              "name": "Last year"
+            },
+            "scope": "page",
+            "local": {
+              "target": {
+                "role": "option",
+                "name": "Last year"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "period-menu-escape",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            }
+          },
+          {
+            "type": "press",
+            "key": "Escape"
+          }
+        ],
+        "assertions": [
+          {
+            "type": "attribute",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            },
+            "name": "aria-expanded",
+            "value": "false"
+          }
+        ]
+      },
+      {
+        "id": "period-this-year",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            }
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "This year"
+            },
+            "scope": "page",
+            "local": {
+              "target": {
+                "role": "option",
+                "name": "This year"
+              }
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "attribute",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            },
+            "name": "aria-expanded",
+            "value": "false"
+          },
+          {
+            "type": "text",
+            "pattern": "Sessions\\s*·\\s*Conversion\\s*3\\.7%\\s*83,200\\s*\\+9\\.4%"
+          }
+        ]
+      },
+      {
+        "id": "period-last-6-months",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            }
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "Last 6 months"
+            },
+            "scope": "page",
+            "local": {
+              "target": {
+                "role": "option",
+                "name": "Last 6 months"
+              }
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "attribute",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            },
+            "name": "aria-expanded",
+            "value": "false"
+          },
+          {
+            "type": "text",
+            "pattern": "Sessions\\s*·\\s*Conversion\\s*4\\.4%\\s*49,900\\s*\\+12\\.1%"
+          }
+        ]
+      },
+      {
+        "id": "period-last-year",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            }
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "Last year"
+            },
+            "scope": "page",
+            "local": {
+              "target": {
+                "role": "option",
+                "name": "Last year"
+              }
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "attribute",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            },
+            "name": "aria-expanded",
+            "value": "false"
+          },
+          {
+            "type": "text",
+            "pattern": "Sessions\\s*·\\s*Conversion\\s*2\\.8%\\s*55,300\\s*-2\\.8%"
+          }
+        ]
+      },
+      {
+        "id": "hover-first-sample",
+        "actions": [
+          {
+            "type": "hover",
+            "target": {
+              "selector": ".recharts-bar-rectangle",
+              "nth": 0
+            },
+            "local": {
+              "target": {
+                "selector": ".recharts-bar-rectangle",
+                "nth": 0
+              }
+            }
+          }
+        ],
+        "keepPointer": true,
+        "assertions": [
+          {
+            "type": "text",
+            "pattern": "Jan\\s*·\\s*Conversion\\s*2\\.4%\\s*4,200"
+          }
+        ]
+      }
+    ],
+    "coverage": {
+      "preview": "mapped",
+      "interactions": {
+        "status": "partial",
+        "reason": "All three publicly observed period options, escape dismissal, and exact visible summary fixtures are mapped. Chart-specific pointer/keyboard marks and alternate documentation examples remain partial. Missing local options are intentional failures. A public chart hover sample is mapped to its exact heading/value response."
+      },
+      "motion": {
+        "status": "unmapped",
+        "reason": "No reference motion timeline has been mapped for this component."
+      },
+      "variants": {
+        "status": "unmapped",
+        "reason": "Additional documentation examples are not covered by the main preview."
+      }
+    },
+    "masks": [],
+    "exceptions": [],
+    "addStates": [
+      {
+        "id": "period-menu",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            }
+          }
+        ],
+        "frame": {
+          "height": 650
+        },
+        "assertions": [
+          {
+            "type": "attribute",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            },
+            "name": "aria-expanded",
+            "value": "true"
+          },
+          {
+            "type": "visible",
+            "target": {
+              "role": "button",
+              "name": "This year"
+            },
+            "scope": "page",
+            "local": {
+              "target": {
+                "role": "option",
+                "name": "This year"
+              }
+            }
+          },
+          {
+            "type": "visible",
+            "target": {
+              "role": "button",
+              "name": "Last 6 months"
+            },
+            "scope": "page",
+            "local": {
+              "target": {
+                "role": "option",
+                "name": "Last 6 months"
+              }
+            }
+          },
+          {
+            "type": "visible",
+            "target": {
+              "role": "button",
+              "name": "Last year"
+            },
+            "scope": "page",
+            "local": {
+              "target": {
+                "role": "option",
+                "name": "Last year"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "period-menu-escape",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            }
+          },
+          {
+            "type": "press",
+            "key": "Escape"
+          }
+        ],
+        "assertions": [
+          {
+            "type": "attribute",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            },
+            "name": "aria-expanded",
+            "value": "false"
+          }
+        ]
+      },
+      {
+        "id": "period-this-year",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            }
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "This year"
+            },
+            "scope": "page",
+            "local": {
+              "target": {
+                "role": "option",
+                "name": "This year"
+              }
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "attribute",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            },
+            "name": "aria-expanded",
+            "value": "false"
+          },
+          {
+            "type": "text",
+            "pattern": "Sessions\\s*·\\s*Conversion\\s*3\\.7%\\s*83,200\\s*\\+9\\.4%"
+          }
+        ]
+      },
+      {
+        "id": "period-last-6-months",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            }
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "Last 6 months"
+            },
+            "scope": "page",
+            "local": {
+              "target": {
+                "role": "option",
+                "name": "Last 6 months"
+              }
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "attribute",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            },
+            "name": "aria-expanded",
+            "value": "false"
+          },
+          {
+            "type": "text",
+            "pattern": "Sessions\\s*·\\s*Conversion\\s*4\\.4%\\s*49,900\\s*\\+12\\.1%"
+          }
+        ]
+      },
+      {
+        "id": "period-last-year",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            }
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "Last year"
+            },
+            "scope": "page",
+            "local": {
+              "target": {
+                "role": "option",
+                "name": "Last year"
+              }
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "attribute",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            },
+            "name": "aria-expanded",
+            "value": "false"
+          },
+          {
+            "type": "text",
+            "pattern": "Sessions\\s*·\\s*Conversion\\s*2\\.8%\\s*55,300\\s*-2\\.8%"
+          }
+        ]
+      },
+      {
+        "id": "hover-first-sample",
+        "actions": [
+          {
+            "type": "hover",
+            "target": {
+              "selector": ".recharts-bar-rectangle",
+              "nth": 0
+            },
+            "local": {
+              "target": {
+                "selector": ".recharts-bar-rectangle",
+                "nth": 0
+              }
+            }
+          }
+        ],
+        "keepPointer": true,
+        "assertions": [
+          {
+            "type": "text",
+            "pattern": "Jan\\s*·\\s*Conversion\\s*2\\.4%\\s*4,200"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sankey-chart-card",
+    "title": "Sankey Chart",
+    "category": "charts",
+    "tier": "pro",
+    "reference": {
+      "url": "https://www.boardui.com/components/sankey-chart-card",
+      "root": {
+        "selector": "#preview > div > div:last-child > div > section",
+        "nth": 0
+      },
+      "setup": [
+        {
+          "type": "click",
+          "target": {
+            "role": "button",
+            "name": "Decline"
+          },
+          "scope": "page",
+          "optional": true,
+          "optionalTimeoutMs": 2500,
+          "reason": "Dismiss the documentation cookie banner through its Decline control before capture; it may mount after hydration."
+        }
+      ]
+    },
+    "local": {
+      "url": "/components/sankey-chart-card",
+      "root": {
+        "selector": "#preview [role=\"tabpanel\"] > div > div > div > section",
+        "nth": 0
+      }
+    },
+    "frame": {
+      "width": 672
+    },
+    "states": [
+      {
+        "id": "initial",
+        "actions": [],
+        "assertions": [
+          {
+            "type": "visible"
+          }
+        ]
+      },
+      {
+        "id": "period-menu",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            }
+          }
+        ],
+        "frame": {
+          "height": 650
+        },
+        "assertions": [
+          {
+            "type": "attribute",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            },
+            "name": "aria-expanded",
+            "value": "true"
+          },
+          {
+            "type": "visible",
+            "target": {
+              "role": "button",
+              "name": "This week"
+            },
+            "scope": "page",
+            "local": {
+              "target": {
+                "role": "option",
+                "name": "This week"
+              }
+            }
+          },
+          {
+            "type": "visible",
+            "target": {
+              "role": "button",
+              "name": "Last week"
+            },
+            "scope": "page",
+            "local": {
+              "target": {
+                "role": "option",
+                "name": "Last week"
+              }
+            }
+          },
+          {
+            "type": "visible",
+            "target": {
+              "role": "button",
+              "name": "This month"
+            },
+            "scope": "page",
+            "local": {
+              "target": {
+                "role": "option",
+                "name": "This month"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "period-menu-escape",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            }
+          },
+          {
+            "type": "press",
+            "key": "Escape"
+          }
+        ],
+        "assertions": [
+          {
+            "type": "attribute",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            },
+            "name": "aria-expanded",
+            "value": "false"
+          }
+        ]
+      },
+      {
+        "id": "period-this-week",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            }
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "This week"
+            },
+            "scope": "page",
+            "local": {
+              "target": {
+                "role": "option",
+                "name": "This week"
+              }
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "attribute",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            },
+            "name": "aria-expanded",
+            "value": "false"
+          },
+          {
+            "type": "text",
+            "pattern": "Tracked\\s*time\\s*86h"
+          }
+        ]
+      },
+      {
+        "id": "period-last-week",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            }
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "Last week"
+            },
+            "scope": "page",
+            "local": {
+              "target": {
+                "role": "option",
+                "name": "Last week"
+              }
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "attribute",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            },
+            "name": "aria-expanded",
+            "value": "false"
+          },
+          {
+            "type": "text",
+            "pattern": "Tracked\\s*time\\s*84\\.5h"
+          }
+        ]
+      },
+      {
+        "id": "period-this-month",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            }
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "This month"
+            },
+            "scope": "page",
+            "local": {
+              "target": {
+                "role": "option",
+                "name": "This month"
+              }
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "attribute",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            },
+            "name": "aria-expanded",
+            "value": "false"
+          },
+          {
+            "type": "text",
+            "pattern": "Tracked\\s*time\\s*371\\.9h"
+          }
+        ]
+      },
+      {
+        "id": "hover-source",
+        "actions": [
+          {
+            "type": "hover",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 0
+            }
+          }
+        ],
+        "keepPointer": true,
+        "assertions": [
+          {
+            "type": "text",
+            "pattern": "Focus\\s*32h"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 0
+            },
+            "name": "stroke-opacity",
+            "value": "0.7"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 1
+            },
+            "name": "stroke-opacity",
+            "value": "0.7"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 2
+            },
+            "name": "stroke-opacity",
+            "value": "0.7"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 3
+            },
+            "name": "stroke-opacity",
+            "value": "0.7"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 4
+            },
+            "name": "stroke-opacity",
+            "value": "0.7"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 5
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 6
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 7
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 8
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 9
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 10
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 11
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 12
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 13
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 14
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 15
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 16
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 17
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 18
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 0
+            },
+            "name": "opacity",
+            "value": "1"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 1
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 2
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 3
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 4
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 5
+            },
+            "name": "opacity",
+            "value": "1"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 6
+            },
+            "name": "opacity",
+            "value": "1"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 7
+            },
+            "name": "opacity",
+            "value": "1"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 8
+            },
+            "name": "opacity",
+            "value": "1"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 9
+            },
+            "name": "opacity",
+            "value": "1"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 10
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 11
+            },
+            "name": "opacity",
+            "value": "0.35"
+          }
+        ]
+      },
+      {
+        "id": "hover-sink",
+        "actions": [
+          {
+            "type": "hover",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 5
+            }
+          }
+        ],
+        "keepPointer": true,
+        "assertions": [
+          {
+            "type": "text",
+            "pattern": "Browsing\\s*18\\.6h"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 0
+            },
+            "name": "stroke-opacity",
+            "value": "0.7"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 1
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 2
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 3
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 4
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 5
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 6
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 7
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 8
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 9
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 10
+            },
+            "name": "stroke-opacity",
+            "value": "0.7"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 11
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 12
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 13
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 14
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 15
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 16
+            },
+            "name": "stroke-opacity",
+            "value": "0.7"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 17
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 18
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 0
+            },
+            "name": "opacity",
+            "value": "1"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 1
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 2
+            },
+            "name": "opacity",
+            "value": "1"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 3
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 4
+            },
+            "name": "opacity",
+            "value": "1"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 5
+            },
+            "name": "opacity",
+            "value": "1"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 6
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 7
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 8
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 9
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 10
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 11
+            },
+            "name": "opacity",
+            "value": "0.35"
+          }
+        ]
+      },
+      {
+        "id": "hover-link",
+        "actions": [
+          {
+            "type": "hover",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 0
+            }
+          }
+        ],
+        "keepPointer": true,
+        "assertions": [
+          {
+            "type": "text",
+            "pattern": "Focus\\s*→\\s*Browsing\\s*10\\.4h"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 0
+            },
+            "name": "stroke-opacity",
+            "value": "0.7"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 1
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 2
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 3
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 4
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 5
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 6
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 7
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 8
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 9
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 10
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 11
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 12
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 13
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 14
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 15
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 16
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 17
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 18
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 0
+            },
+            "name": "opacity",
+            "value": "1"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 1
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 2
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 3
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 4
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 5
+            },
+            "name": "opacity",
+            "value": "1"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 6
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 7
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 8
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 9
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 10
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 11
+            },
+            "name": "opacity",
+            "value": "0.35"
+          }
+        ]
+      }
+    ],
+    "coverage": {
+      "preview": "mapped",
+      "interactions": {
+        "status": "partial",
+        "reason": "All three publicly observed period options, escape dismissal, and exact visible summary fixtures are mapped. Chart-specific pointer/keyboard marks and alternate documentation examples remain partial. Missing local options are intentional failures."
+      },
+      "motion": {
+        "status": "unmapped",
+        "reason": "No reference motion timeline has been mapped for this component."
+      },
+      "variants": {
+        "status": "unmapped",
+        "reason": "Additional documentation examples are not covered by the main preview."
+      }
+    },
+    "masks": [],
+    "exceptions": [],
+    "addStates": [
+      {
+        "id": "period-menu",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            }
+          }
+        ],
+        "frame": {
+          "height": 650
+        },
+        "assertions": [
+          {
+            "type": "attribute",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            },
+            "name": "aria-expanded",
+            "value": "true"
+          },
+          {
+            "type": "visible",
+            "target": {
+              "role": "button",
+              "name": "This week"
+            },
+            "scope": "page",
+            "local": {
+              "target": {
+                "role": "option",
+                "name": "This week"
+              }
+            }
+          },
+          {
+            "type": "visible",
+            "target": {
+              "role": "button",
+              "name": "Last week"
+            },
+            "scope": "page",
+            "local": {
+              "target": {
+                "role": "option",
+                "name": "Last week"
+              }
+            }
+          },
+          {
+            "type": "visible",
+            "target": {
+              "role": "button",
+              "name": "This month"
+            },
+            "scope": "page",
+            "local": {
+              "target": {
+                "role": "option",
+                "name": "This month"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "period-menu-escape",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            }
+          },
+          {
+            "type": "press",
+            "key": "Escape"
+          }
+        ],
+        "assertions": [
+          {
+            "type": "attribute",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            },
+            "name": "aria-expanded",
+            "value": "false"
+          }
+        ]
+      },
+      {
+        "id": "period-this-week",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            }
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "This week"
+            },
+            "scope": "page",
+            "local": {
+              "target": {
+                "role": "option",
+                "name": "This week"
+              }
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "attribute",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            },
+            "name": "aria-expanded",
+            "value": "false"
+          },
+          {
+            "type": "text",
+            "pattern": "Tracked\\s*time\\s*86h"
+          }
+        ]
+      },
+      {
+        "id": "period-last-week",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            }
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "Last week"
+            },
+            "scope": "page",
+            "local": {
+              "target": {
+                "role": "option",
+                "name": "Last week"
+              }
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "attribute",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            },
+            "name": "aria-expanded",
+            "value": "false"
+          },
+          {
+            "type": "text",
+            "pattern": "Tracked\\s*time\\s*84\\.5h"
+          }
+        ]
+      },
+      {
+        "id": "period-this-month",
+        "actions": [
+          {
+            "type": "click",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            }
+          },
+          {
+            "type": "click",
+            "target": {
+              "role": "button",
+              "name": "This month"
+            },
+            "scope": "page",
+            "local": {
+              "target": {
+                "role": "option",
+                "name": "This month"
+              }
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "attribute",
+            "target": {
+              "selector": "button[aria-label=\"Change period\"]"
+            },
+            "name": "aria-expanded",
+            "value": "false"
+          },
+          {
+            "type": "text",
+            "pattern": "Tracked\\s*time\\s*371\\.9h"
+          }
+        ]
+      },
+      {
+        "id": "hover-source",
+        "actions": [
+          {
+            "type": "hover",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 0
+            }
+          }
+        ],
+        "keepPointer": true,
+        "assertions": [
+          {
+            "type": "text",
+            "pattern": "Focus\\s*32h"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 0
+            },
+            "name": "stroke-opacity",
+            "value": "0.7"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 1
+            },
+            "name": "stroke-opacity",
+            "value": "0.7"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 2
+            },
+            "name": "stroke-opacity",
+            "value": "0.7"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 3
+            },
+            "name": "stroke-opacity",
+            "value": "0.7"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 4
+            },
+            "name": "stroke-opacity",
+            "value": "0.7"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 5
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 6
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 7
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 8
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 9
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 10
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 11
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 12
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 13
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 14
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 15
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 16
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 17
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 18
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 0
+            },
+            "name": "opacity",
+            "value": "1"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 1
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 2
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 3
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 4
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 5
+            },
+            "name": "opacity",
+            "value": "1"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 6
+            },
+            "name": "opacity",
+            "value": "1"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 7
+            },
+            "name": "opacity",
+            "value": "1"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 8
+            },
+            "name": "opacity",
+            "value": "1"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 9
+            },
+            "name": "opacity",
+            "value": "1"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 10
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 11
+            },
+            "name": "opacity",
+            "value": "0.35"
+          }
+        ]
+      },
+      {
+        "id": "hover-sink",
+        "actions": [
+          {
+            "type": "hover",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 5
+            }
+          }
+        ],
+        "keepPointer": true,
+        "assertions": [
+          {
+            "type": "text",
+            "pattern": "Browsing\\s*18\\.6h"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 0
+            },
+            "name": "stroke-opacity",
+            "value": "0.7"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 1
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 2
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 3
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 4
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 5
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 6
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 7
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 8
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 9
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 10
+            },
+            "name": "stroke-opacity",
+            "value": "0.7"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 11
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 12
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 13
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 14
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 15
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 16
+            },
+            "name": "stroke-opacity",
+            "value": "0.7"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 17
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 18
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 0
+            },
+            "name": "opacity",
+            "value": "1"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 1
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 2
+            },
+            "name": "opacity",
+            "value": "1"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 3
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 4
+            },
+            "name": "opacity",
+            "value": "1"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 5
+            },
+            "name": "opacity",
+            "value": "1"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 6
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 7
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 8
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 9
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 10
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 11
+            },
+            "name": "opacity",
+            "value": "0.35"
+          }
+        ]
+      },
+      {
+        "id": "hover-link",
+        "actions": [
+          {
+            "type": "hover",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 0
+            }
+          }
+        ],
+        "keepPointer": true,
+        "assertions": [
+          {
+            "type": "text",
+            "pattern": "Focus\\s*→\\s*Browsing\\s*10\\.4h"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 0
+            },
+            "name": "stroke-opacity",
+            "value": "0.7"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 1
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 2
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 3
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 4
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 5
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 6
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 7
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 8
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 9
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 10
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 11
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 12
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 13
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 14
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 15
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 16
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 17
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-links path",
+              "nth": 18
+            },
+            "name": "stroke-opacity",
+            "value": "0.08"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 0
+            },
+            "name": "opacity",
+            "value": "1"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 1
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 2
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 3
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 4
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 5
+            },
+            "name": "opacity",
+            "value": "1"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 6
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 7
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 8
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 9
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 10
+            },
+            "name": "opacity",
+            "value": "0.35"
+          },
+          {
+            "type": "attribute",
+            "target": {
+              "selector": ".recharts-sankey-nodes > g > g > path",
+              "nth": 11
+            },
+            "name": "opacity",
+            "value": "0.35"
+          }
+        ]
+      }
+    ]
+  }
+]

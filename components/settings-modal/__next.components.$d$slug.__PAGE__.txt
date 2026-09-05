@@ -1,0 +1,2130 @@
+1:"$Sreact.fragment"
+2:I[54515,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"DocsLayout"]
+12:X
+17:X
+17:C
+0:{"buildId":"Kgh3aKGUUDrNWttN7OqGM","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"Settings Modal","heading":"Settings Modal","icon":"components","groups":[{"id":"foundations","title":"Foundations","items":[{"name":"tokens","title":"Design tokens"},{"name":"typography","title":"Typography"},{"name":"cx","title":"cx"},{"name":"chevrons","title":"Chevrons"},{"name":"logo","title":"Logo"},{"name":"use-count-up","title":"useCountUp"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress"}]},{"id":"base","title":"Base","items":[{"name":"button","title":"Button"},{"name":"icon-button","title":"Icon Button"},{"name":"link-button","title":"Link Button"},{"name":"button-group","title":"Button Group"},{"name":"close-button","title":"Close Button"},{"name":"social-button","title":"Social Button"},{"name":"input","title":"Input"},{"name":"input-otp","title":"Input OTP"},{"name":"checkbox","title":"Checkbox"},{"name":"radio","title":"Radio"},{"name":"switch","title":"Switch"},{"name":"select","title":"Select"},{"name":"slider","title":"Slider"},{"name":"dropdown","title":"Dropdown"},{"name":"divider","title":"Divider"},{"name":"file-upload","title":"File Upload"},{"name":"tabs","title":"Tabs"},{"name":"segmented-control","title":"Segmented Control"},{"name":"table","title":"Table"},{"name":"tooltip","title":"Tooltip"},{"name":"badge","title":"Badge"},{"name":"chip","title":"Chip"},{"name":"status-dot","title":"Status Dot"},{"name":"kbd","title":"Kbd"},{"name":"avatar","title":"Avatar"},{"name":"breadcrumb","title":"Breadcrumb"},{"name":"pagination","title":"Pagination"},{"name":"carousel","title":"Carousel"},{"name":"announcement","title":"Announcement"},{"name":"notification","title":"Notification"},{"name":"date-picker","title":"Date Picker"},{"name":"date-range-picker","title":"Date Range Picker"},{"name":"meeting-scheduler","title":"Meeting Scheduler"}]},{"id":"blocks","title":"Blocks","items":[{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"calendar","title":"Calendar","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"theme-toggle","title":"Theme Toggle"},{"name":"stat-cards","title":"Stat Cards"},{"name":"data-table","title":"Data Table"},{"name":"sidebar","title":"Sidebar"},{"name":"app-shell","title":"App Shell"},{"name":"notification-center","title":"Notification Center"},{"name":"settings-modal","title":"Settings Modal"},{"name":"auth-card","title":"Auth Card"},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking"},{"name":"composer-loader","title":"Composer Loader"},{"name":"agent-log","title":"Agent Log"},{"name":"agent-chat","title":"Agent Chat"}]},{"id":"charts","title":"Charts","items":[{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart"},{"name":"orders-chart-card","title":"Orders Chart"},{"name":"important-alerts-card","title":"Important Alerts"},{"name":"patient-info-card","title":"Patient Info"}]},{"id":"templates","title":"Templates","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true},{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true}]}],"description":"Five-page settings dialog: profile, general, tools, storage and plan.","detail":true,"children":"$L3"}],["$L4","$L5","$L6","$L7","$L8","$L9","$La","$Lb","$Lc","$Ld","$Le","$Lf"],"$L10"]}],"isPartial":"$@11","staleTime":"$12","varyParams":null},{"rsc":"$L13","isPartial":"$@14","staleTime":"$12","varyParams":null},{"rsc":"$L15","isPartial":"$@16","staleTime":"$12","varyParams":"$17"},{"rsc":"$L18","isPartial":"$@19","staleTime":"$12","varyParams":"$17"},{"rsc":"$L1a","isPartial":"$@1b","staleTime":"$12","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@1c","rootVaryParams":null,"needsRuntimeRequest":"$@1d"}
+1e:I[26438,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"ComponentPage"]
+26:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"OutletBoundary"]
+27:"$Sreact.suspense"
+29:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"ViewportBoundary"]
+2a:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"MetadataBoundary"]
+2b:I[37280,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+2c:I[75701,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+2d:I[72844,["/_next/static/chunks/0by1pam5w7cuf.js"],""]
+:HL["/_next/static/chunks/16_ml9va511u1.css","style"]
+:HL["/_next/static/chunks/1lom8-olk25vh.css","style"]
+1f:T3167,"use client";
+
+import { useEffect, useRef, useState } from "react";
+import { cx } from "../../utils/cx";
+
+/**
+ * The "Current plan" artwork (settings-plan-art.png) rendered through a WebGL
+ * fragment shader as a burning, wind-torn flag:
+ *
+ *   wave   the image UVs ripple with two crossed sine waves plus low-freq
+ *          fbm turbulence, amplitude growing toward the edges — center stays
+ *          pinned like a flag on a pole, edges flap.
+ *   burn   a slow-drifting fbm field is thresholded against an edge-weighted,
+ *          breathing burn level: past the threshold the cloth is gone (alpha
+ *          holes), just before it a hot ember rim glows orange→yellow, and
+ *          just inside that the fabric chars dark.
+ *   sparks tiny embers detach from burning regions and drift up-right,
+ *          flickering out.
+ *
+ * Same raw-WebGL recipe as the effort slider's FlameOverlay (ai-chat-menus):
+ * fullscreen quad, rAF loop, and a plain <img> fallback when a context can't
+ * be created. The radial fade into the card bg stays as a DOM overlay above.
+ */
+
+const VERT = /* glsl */ `
+attribute vec2 a_pos;
+varying vec2 v_uv;
+void main() {
+  v_uv = a_pos * 0.5 + 0.5;
+  gl_Position = vec4(a_pos, 0.0, 1.0);
+}
+`;
+
+const FRAG = /* glsl */ `
+precision mediump float;
+uniform sampler2D u_tex;
+uniform float u_time;
+uniform vec2 u_mouse;      // pointer in UV space (y up)
+uniform float u_mouseStr;  // 0..1, eased in JS
+varying vec2 v_uv;
+
+float hash(vec2 p) {
+  return fract(sin(dot(p, vec2(127.1, 311.7))) * 43758.5453123);
+}
+
+float noise(vec2 p) {
+  vec2 i = floor(p);
+  vec2 f = fract(p);
+  vec2 u = f * f * (3.0 - 2.0 * f);
+  return mix(
+    mix(hash(i), hash(i + vec2(1.0, 0.0)), u.x),
+    mix(hash(i + vec2(0.0, 1.0)), hash(i + vec2(1.0, 1.0)), u.x),
+    u.y
+  );
+}
+
+float fbm(vec2 p) {
+  float v = 0.0;
+  float a = 0.5;
+  for (int i = 0; i < 4; i++) {
+    v += a * noise(p);
+    p = p * 2.03 + vec2(17.0, 9.2);
+    a *= 0.5;
+  }
+  return v;
+}
+
+void main() {
+  vec2 uv = v_uv;
+
+  // 0 at the center, 1 at the corners — drives both flap amplitude and burn.
+  float edge = clamp(distance(uv, vec2(0.5)) * 1.6, 0.0, 1.0);
+
+  // Pointer heat: a soft hotspot under the cursor that stokes the burn and
+  // agitates the cloth around it.
+  float mouseBoost = u_mouseStr * smoothstep(0.2, 0.02, distance(v_uv, u_mouse));
+
+  // Flag-in-wind: crossed sines + a pinch of turbulence, pinned at center.
+  float amp = 0.004 + 0.022 * edge * edge + 0.012 * mouseBoost;
+  uv.x += sin(uv.y * 9.0 + u_time * 2.2) * amp;
+  uv.y += sin(uv.x * 12.0 - u_time * 2.7) * amp * 0.85;
+  uv += (vec2(
+    fbm(v_uv * 3.0 + vec2(u_time * 0.35, 0.0)),
+    fbm(v_uv * 3.0 + vec2(0.0, u_time * 0.31) + 31.7)
+  ) - 0.5) * 0.03 * edge;
+
+  vec4 img = texture2D(u_tex, uv);
+
+  // Burn field: drifting noise vs an edge-weighted, breathing threshold —
+  // the pointer hotspot raises the local burn level on top.
+  float n = fbm(uv * 4.5 + vec2(u_time * 0.3, -u_time * 0.48));
+  float breathe = 0.78 + 0.22 * sin(u_time * 1.1 + n * 7.0);
+  float burn = min(edge * breathe * 0.85 + mouseBoost * 0.45, 1.05);
+  float d = n - (1.0 - burn); // > 0 → consumed
+
+  float hole = smoothstep(0.0, 0.07, d);
+  float rim = smoothstep(-0.11, 0.0, d) * (1.0 - hole);
+  float charr = smoothstep(-0.26, -0.08, d) * (1.0 - rim) * (1.0 - hole);
+
+  // Ember rim: deep orange at the outside, white-yellow right at the tear.
+  float hot = smoothstep(-0.05, 0.0, d);
+  vec3 ember = mix(vec3(1.0, 0.38, 0.08), vec3(1.0, 0.85, 0.35), hot);
+
+  vec3 col = img.rgb;
+  col = mix(col, col * vec3(0.32, 0.24, 0.22), charr * 0.75); // char darkening
+  col = mix(col, ember, rim);
+  col += ember * rim * 0.6; // rim over-glow
+
+  float alpha = img.a * (1.0 - hole);
+
+  // Burning paper flakes: three parallax layers of small rotated slivers
+  // that drift up-right while tumbling. Each has its own life cycle —
+  // ignites bright yellow-white, cools to orange, then dies out — and they
+  // only spawn near burning fabric (or under the pointer's hotspot).
+  float gate = smoothstep(0.12, 0.5, edge * breathe) + mouseBoost;
+  for (int i = 0; i < 3; i++) {
+    float fi = float(i);
+    float scale = 13.0 + fi * 8.0;
+    vec2 sp = v_uv * scale + vec2(-u_time * (0.8 + fi * 0.5), -u_time * (2.0 + fi * 1.1));
+    vec2 cell = floor(sp);
+    float sh = hash(cell + fi * 13.7);
+    if (sh > 0.7) {
+      vec2 pos = 0.2 + 0.6 * vec2(hash(cell + 3.1), hash(cell + 7.7));
+      // Tumbling sway while it floats
+      pos.x += sin(u_time * (2.0 + sh * 3.0) + sh * 20.0) * 0.08;
+      vec2 delta = fract(sp) - pos;
+      // Rotated, elongated sliver — reads as a torn paper fragment.
+      float angle = sh * 6.2831 + u_time * (1.2 + sh * 2.0);
+      vec2 r = mat2(cos(angle), -sin(angle), sin(angle), cos(angle)) * delta;
+      float body = smoothstep(0.17, 0.03, length(r * vec2(1.0, 2.6)));
+      // Life cycle: quick ignite → glow → burn out and vanish.
+      float life = fract(u_time * (0.35 + sh * 0.5) + sh * 11.0);
+      float glow = smoothstep(0.0, 0.1, life) * (1.0 - smoothstep(0.5, 0.95, life));
+      float flicker = 0.75 + 0.25 * sin(u_time * 11.0 + sh * 40.0);
+      vec3 flakeCol = mix(vec3(1.0, 0.4, 0.07), vec3(1.0, 0.93, 0.55), glow * flicker);
+      float lum = body * glow * flicker * min(gate, 1.2);
+      col += flakeCol * lum;
+      alpha = max(alpha, lum * 0.95);
+    }
+  }
+
+  gl_FragColor = vec4(col, alpha);
+}
+`;
+
+/**
+ * Paints the built-in artwork — the three token-coloured blobs — into an
+ * offscreen canvas so the shader has something to burn when no `src` is given.
+ *
+ * Exists so the component animates on its own: a CLI install ships no image,
+ * and a static gradient in place of the flame made the packaged component look
+ * like a different thing from the one in the templates. Colours are read from
+ * the live custom properties rather than hardcoded, so it follows the theme.
+ */
+function paintFallbackArt(size: number): HTMLCanvasElement | null {
+  const canvas = document.createElement("canvas");
+  canvas.width = size;
+  canvas.height = size;
+  const ctx = canvas.getContext("2d");
+  if (!ctx) return null;
+
+  const styles = getComputedStyle(document.documentElement);
+  const token = (name: string, fallback: string) =>
+    styles.getPropertyValue(name).trim() || fallback;
+
+  // Soft-edged discs, matching the DOM fallback's positions and 70% alpha.
+  // A radial gradient rather than ctx.filter = blur(): Safari leaves the
+  // filter unimplemented on some versions, and a hard disc would read as a
+  // pasted circle instead of a glow.
+  const blob = (cx: number, cy: number, r: number, color: string) => {
+    const gradient = ctx.createRadialGradient(cx, cy, 0, cx, cy, r);
+    gradient.addColorStop(0, color);
+    gradient.addColorStop(0.55, color);
+    gradient.addColorStop(1, "transparent");
+    ctx.fillStyle = gradient;
+    ctx.beginPath();
+    ctx.arc(cx, cy, r, 0, Math.PI * 2);
+    ctx.fill();
+  };
+
+  ctx.fillStyle = token("--color-background-tertiary-default", "#ebebeb");
+  ctx.fillRect(0, 0, size, size);
+  ctx.globalAlpha = 0.7;
+  blob(size * 0.125, size * 0.125, size * 0.42, token("--color-blue-400", "#3392ff"));
+  blob(size * 0.83, size * 0.58, size * 0.38, token("--color-lime-400", "#9ae600"));
+  blob(size * 0.5, size * 0.95, size * 0.42, token("--color-orange-400", "#ff8904"));
+  ctx.globalAlpha = 1;
+
+  return canvas;
+}
+
+export function PlanArtFlame({ src, className }: { src?: string; className?: string }) {
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+  const [failed, setFailed] = useState(false);
+
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+    const gl = canvas.getContext("webgl", { alpha: true, premultipliedAlpha: false });
+    if (!gl) {
+      setFailed(true);
+      return;
+    }
+
+    const { width, height } = canvas.getBoundingClientRect();
+    const dpr = window.devicePixelRatio || 1;
+    canvas.width = width * dpr;
+    canvas.height = height * dpr;
+    gl.viewport(0, 0, canvas.width, canvas.height);
+
+    const compile = (type: number, source: string) => {
+      const shader = gl.createShader(type)!;
+      gl.shaderSource(shader, source);
+      gl.compileShader(shader);
+      return shader;
+    };
+    const program = gl.createProgram()!;
+    gl.attachShader(program, compile(gl.VERTEX_SHADER, VERT));
+    gl.attachShader(program, compile(gl.FRAGMENT_SHADER, FRAG));
+    gl.linkProgram(program);
+    if (!gl.getProgramParameter(program, gl.LINK_STATUS)) {
+      setFailed(true);
+      return;
+    }
+    gl.useProgram(program);
+
+    const buffer = gl.createBuffer();
+    gl.bindBuffer(gl.ARRAY_BUFFER, buffer);
+    gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 1, -1, -1, 1, 1, 1]), gl.STATIC_DRAW);
+    const aPos = gl.getAttribLocation(program, "a_pos");
+    gl.enableVertexAttribArray(aPos);
+    gl.vertexAttribPointer(aPos, 2, gl.FLOAT, false, 0, 0);
+
+    const uTime = gl.getUniformLocation(program, "u_time");
+    const uMouse = gl.getUniformLocation(program, "u_mouse");
+    const uMouseStr = gl.getUniformLocation(program, "u_mouseStr");
+    gl.uniform1i(gl.getUniformLocation(program, "u_tex"), 0);
+
+    // Pointer tracked on window (overlays sit above the canvas, so listening
+    // on the canvas itself would never fire); eased per-frame in the loop.
+    const target = { x: 0.5, y: 0.5, str: 0 };
+    const eased = { x: 0.5, y: 0.5, str: 0 };
+    const onPointerMove = (event: PointerEvent) => {
+      const rect = canvas.getBoundingClientRect();
+      const x = (event.clientX - rect.left) / rect.width;
+      const y = 1 - (event.clientY - rect.top) / rect.height; // GL y-up
+      const inside = x > -0.15 && x < 1.15 && y > -0.15 && y < 1.15;
+      if (inside) {
+        target.x = x;
+        target.y = y;
+      }
+      target.str = inside ? 1 : 0;
+    };
+    window.addEventListener("pointermove", onPointerMove);
+
+    // NPOT-safe texture params (no mipmaps, clamp, linear).
+    const texture = gl.createTexture();
+    gl.activeTexture(gl.TEXTURE0);
+    gl.bindTexture(gl.TEXTURE_2D, texture);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+
+    gl.enable(gl.BLEND);
+    gl.blendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA);
+
+    let raf = 0;
+    let disposed = false;
+    const start = performance.now();
+    const draw = (now: number) => {
+      gl.uniform1f(uTime, (now - start) / 1000);
+      // Ease the pointer hotspot so the heat trails the cursor smoothly.
+      eased.x += (target.x - eased.x) * 0.12;
+      eased.y += (target.y - eased.y) * 0.12;
+      eased.str += (target.str - eased.str) * 0.07;
+      gl.uniform2f(uMouse, eased.x, eased.y);
+      gl.uniform1f(uMouseStr, eased.str);
+      gl.clearColor(0, 0, 0, 0);
+      gl.clear(gl.COLOR_BUFFER_BIT);
+      gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+      raf = requestAnimationFrame(draw);
+    };
+
+    const upload = (source: TexImageSource) => {
+      gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, true);
+      gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, source);
+      raf = requestAnimationFrame(draw);
+    };
+
+    if (src) {
+      const image = new Image();
+      image.onload = () => {
+        if (disposed) return;
+        upload(image);
+      };
+      image.onerror = () => setFailed(true);
+      image.src = src;
+    } else {
+      // No artwork supplied: burn the built-in blobs instead of falling back
+      // to a static gradient.
+      const art = paintFallbackArt(512);
+      if (!art) {
+        setFailed(true);
+        return;
+      }
+      upload(art);
+    }
+
+    return () => {
+      disposed = true;
+      cancelAnimationFrame(raf);
+      window.removeEventListener("pointermove", onPointerMove);
+    };
+  }, [src]);
+
+  // Only when WebGL itself is unavailable: with no `src` the shader now runs
+  // on generated artwork, so this is the no-context / broken-image path.
+  if (failed) {
+    return (
+      <div
+        aria-hidden
+        className={cx(
+          "relative overflow-hidden bg-background-tertiary-default",
+          className,
+        )}
+      >
+        <span className="absolute -top-1/4 -left-1/4 size-3/4 rounded-full bg-blue-400/70 blur-2xl" />
+        <span className="absolute top-1/4 right-0 size-2/3 rounded-full bg-lime-400/70 blur-2xl" />
+        <span className="absolute right-1/4 -bottom-1/4 size-3/4 rounded-full bg-orange-400/70 blur-2xl" />
+      </div>
+    );
+  }
+  return <canvas ref={canvasRef} className={className} aria-hidden />;
+}
+20:T1af2,"use client";
+
+import { useState } from "react";
+import { Button } from "../../base/buttons/button";
+import { Select, SelectItem } from "../../base/select/select";
+import { Switch } from "../../base/switch/switch";
+import { PlanArtFlame } from "./plan-art-flame";
+import {
+  SettingsCard,
+  SettingsRow,
+  SettingsSectionLabel,
+} from "./settings-rows";
+
+/**
+ * Figma source: Board UI → "Settings/General" (node 4079:13037), the right
+ * pane of the settings modal. Taller than the 614px modal, so the pane
+ * scrolls within the shell.
+ *
+ * Sections, 24px apart:
+ *   plan          "Current plan" chip, Ultra $149/mo, upgrade button, and the
+ *                 artwork bleeding off the right edge under a radial fade
+ *                 into the card background.
+ *   limits        single row with a "Manage limits" button.
+ *   pull requests two select rows (Review provider / PR destination).
+ *   notifications four toggle rows, only "Critical requests" on by default.
+ */
+
+/** Compact white select trigger (h 32, radius/lg) per the Figma rows. */
+const SELECT_TRIGGER = "h-8 w-auto gap-1 rounded-lg px-2 py-1.5";
+
+export function SettingsGeneral({ planArtSrc }: { planArtSrc?: string }) {
+  const [toggles, setToggles] = useState({
+    critical: true,
+    system: false,
+    sound: false,
+    dispatch: false,
+  });
+
+  const setToggle = (key: keyof typeof toggles) => (value: boolean) =>
+    setToggles((t) => ({ ...t, [key]: value }));
+
+  return (
+    <div className="flex w-full flex-col gap-6">
+      {/* Current plan */}
+      <div className="relative w-full overflow-hidden rounded-2xl bg-background-secondary-default">
+        {/* Artwork bleeding off the right edge, fading into the card bg.
+            Rendered through a WebGL shader: waving like a wind-torn flag with
+            a continuous burning-edge effect (see plan-art-flame.tsx). */}
+        <div aria-hidden className="absolute -top-[11px] left-[328px] size-[277px]">
+          <PlanArtFlame
+            src={planArtSrc}
+            className="size-full object-cover"
+          />
+          {/* Fades into the card, whatever colour that is: the stops mix the
+              card's own token rather than a hardcoded #f7f7f7, which stayed
+              white and haloed the artwork in dark mode. Mixing toward 0% of
+              the token instead of `transparent` also avoids the grey fringe
+              sRGB interpolation gives when a colour fades to rgba(0,0,0,0). */}
+          <div
+            className="absolute inset-0"
+            style={{
+              background: `radial-gradient(closest-side at center,
+                color-mix(in srgb, var(--color-background-secondary-default) 0%, transparent) 13%,
+                color-mix(in srgb, var(--color-background-secondary-default) 13%, transparent) 37%,
+                color-mix(in srgb, var(--color-background-secondary-default) 85%, transparent) 86%,
+                var(--color-background-secondary-default) 100%)`,
+            }}
+          />
+        </div>
+
+        <div className="relative flex flex-col gap-2.5 py-3 pr-2.5 pl-3">
+          <div className="flex flex-col gap-2">
+            <span className="inline-flex w-fit items-center rounded-md bg-background-tertiary-default px-1.5 py-0.5 text-body-2-medium text-text-secondary">
+              Current plan
+            </span>
+            <div className="flex flex-col gap-0.5">
+              <p className="text-headline-medium text-text-primary">Ultra $149/mo</p>
+              <p className="text-body-2-regular text-text-secondary">
+                You are on 7x more usage than Regular.
+              </p>
+            </div>
+          </div>
+          <Button variant="secondary" size="small" className="w-fit">
+            Upgrade to Max
+          </Button>
+        </div>
+      </div>
+
+      {/* Limits */}
+      <SettingsCard>
+        <SettingsRow label="Limits" description="You are on 7x more usage than Premium">
+          <Button variant="secondary" size="small">
+            Manage limits
+          </Button>
+        </SettingsRow>
+      </SettingsCard>
+
+      {/* Pull Requests */}
+      <div className="flex w-full flex-col gap-2">
+        <SettingsSectionLabel>Pull Requests</SettingsSectionLabel>
+        <SettingsCard>
+          <SettingsRow
+            label="Review provider"
+            description="Select Github or other providers for reviews"
+          >
+            <Select
+              aria-label="Review provider"
+              defaultSelectedKey="github"
+              triggerClassName={SELECT_TRIGGER}
+            >
+              <SelectItem id="github">GitHub</SelectItem>
+              <SelectItem id="gitlab">GitLab</SelectItem>
+              <SelectItem id="bitbucket">Bitbucket</SelectItem>
+            </Select>
+          </SettingsRow>
+          <SettingsRow
+            label="PR destination"
+            description="Open pull request links inside your app"
+          >
+            <Select
+              aria-label="PR destination"
+              defaultSelectedKey="inside"
+              triggerClassName={SELECT_TRIGGER}
+            >
+              <SelectItem id="inside">Inside BoardUI</SelectItem>
+              <SelectItem id="browser">In the browser</SelectItem>
+            </Select>
+          </SettingsRow>
+        </SettingsCard>
+      </div>
+
+      {/* Notifications */}
+      <div className="flex w-full flex-col gap-2">
+        <SettingsSectionLabel>Notifications</SettingsSectionLabel>
+        <SettingsCard>
+          <SettingsRow
+            label="Critical requests"
+            description="Get notified when the mode needs to make a critical decision"
+          >
+            <Switch
+              aria-label="Critical requests"
+              isSelected={toggles.critical}
+              onChange={setToggle("critical")}
+            />
+          </SettingsRow>
+          <SettingsRow
+            label="System notifications"
+            description="Show fundamental notifications when an agent completes a task"
+          >
+            <Switch
+              aria-label="System notifications"
+              isSelected={toggles.system}
+              onChange={setToggle("system")}
+            />
+          </SettingsRow>
+          <SettingsRow
+            label="Completion sound"
+            description="Sound effect a task is completed"
+          >
+            <Switch
+              aria-label="Completion sound"
+              isSelected={toggles.sound}
+              onChange={setToggle("sound")}
+            />
+          </SettingsRow>
+          <SettingsRow
+            label="Dispatch alerts"
+            description="Push notification on your phone when BoardUI messages you"
+          >
+            <Switch
+              aria-label="Dispatch alerts"
+              isSelected={toggles.dispatch}
+              onChange={setToggle("dispatch")}
+            />
+          </SettingsRow>
+        </SettingsCard>
+      </div>
+    </div>
+  );
+}
+21:T3767,"use client";
+
+import { useEffect, useRef, useState, type ComponentType } from "react";
+import { createPortal } from "react-dom";
+import {
+  RiBankCardLine,
+  RiBookOpenLine,
+  RiCheckboxCircleFill,
+  RiCloseLine,
+  RiCodeBlock,
+  RiDatabase2Line,
+  RiGitMergeLine,
+  RiOrganizationChart,
+  RiPaletteLine,
+  RiPlugLine,
+  RiSchoolLine,
+  RiSettings6Line,
+  RiSettingsLine,
+  RiToolsFill,
+} from "@remixicon/react";
+import { cx } from "../../utils/cx";
+import { SettingsGeneral } from "./settings-general";
+import { SettingsProfile } from "./settings-profile";
+import { SettingsStorage } from "./settings-storage";
+import { SettingsTools } from "./settings-tools";
+
+/**
+ * Figma sources: Board UI → "Settings/Profile" (node 4081:13943) and
+ * "Settings/General" (node 4079:13037).
+ *
+ * The app-wide settings modal, opened from any sidebar's "Settings" item.
+ *
+ * Shell (1:1 with Figma):
+ *   backdrop  color/bg_separator — black at 20%.
+ *   panel     871×614 (max-height 614), radius/3xl (24px), white, shadow/xs.
+ *   rail      274px, bg background/secondary, 1px right border, p 10 —
+ *             same group/item recipe as the board-team dropdown menus
+ *             (label pl-8, items p-8 radius/2lg icon-20 + body-medium),
+ *             selected row bg background/secondary/hover.
+ *   content   px 32 (274 + 32 = Figma's 306 title inset), title row fixed,
+ *             the page itself scrolls when taller than the shell (General).
+ *
+ * Open/close animation: the panel fades + blurs in from scale 0.85 (300ms),
+ * the backdrop cross-fades; the same transition plays in reverse on close,
+ * and the modal unmounts only after the exit transition finishes.
+ */
+
+export type SettingsPage = "general" | "profile" | "storage" | "tools";
+
+export interface SettingsModalProps {
+  /** Controlled open state, owned by the host page, sidebar, or menu. */
+  isOpen: boolean;
+  /** Called by the backdrop, close button, and Escape key. */
+  onClose: () => void;
+  /** Page selected each time the modal opens. */
+  defaultPage?: SettingsPage;
+  /** Optional product artwork used by the animated Current plan card. */
+  planArtSrc?: string;
+}
+
+type IconComponent = ComponentType<{
+  className?: string;
+  "aria-hidden"?: boolean | "true" | "false";
+}>;
+
+interface NavEntry {
+  label: string;
+  icon: IconComponent;
+  /** Only pages that exist are navigable; the rest render as static rows. */
+  page?: SettingsPage;
+}
+
+const NAV_GROUPS: { label: string; items: NavEntry[] }[] = [
+  {
+    label: "Settings",
+    items: [
+      { label: "General", icon: RiSettings6Line, page: "general" },
+      { label: "Profile", icon: RiSchoolLine, page: "profile" },
+      { label: "Appearance", icon: RiPaletteLine },
+      { label: "Billing", icon: RiBankCardLine },
+      { label: "Rules and Workflows", icon: RiOrganizationChart },
+      { label: "Tools", icon: RiToolsFill, page: "tools" },
+      { label: "Storage", icon: RiDatabase2Line, page: "storage" },
+    ],
+  },
+  {
+    label: "Desktop app",
+    items: [
+      { label: "General", icon: RiSettingsLine },
+      { label: "Plugins", icon: RiPlugLine },
+      { label: "Developer", icon: RiCodeBlock },
+    ],
+  },
+  {
+    label: "Customize",
+    items: [
+      { label: "Skills", icon: RiBookOpenLine },
+      { label: "Git", icon: RiGitMergeLine },
+    ],
+  },
+];
+
+const PAGE_TITLES: Record<SettingsPage, string> = {
+  general: "General",
+  profile: "Profile",
+  storage: "Storage",
+  tools: "Tools",
+};
+
+export function SettingsModal({
+  isOpen,
+  onClose,
+  defaultPage = "general",
+  planArtSrc,
+}: SettingsModalProps) {
+  const [page, setPage] = useState<SettingsPage>(defaultPage);
+
+  // Mount/visible two-phase state so both the enter and the exit play the
+  // full fade + blur + scale transition before the DOM goes away.
+  const [mounted, setMounted] = useState(false);
+  const [visible, setVisible] = useState(false);
+  const unmountTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const panelRef = useRef<HTMLDivElement>(null);
+
+  // "Saved" toast — floats half-out of the panel's bottom edge for ~2s
+  // whenever a profile field commits a change (Enter / blur). Three phases
+  // so the motion is directional: it rises in from below ("hidden" starting
+  // offset) and keeps drifting upward while fading out ("leaving" offset).
+  const [savedPhase, setSavedPhase] = useState<"hidden" | "shown" | "leaving">("hidden");
+  const savedTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const showSavedToast = () => {
+    if (savedTimer.current) clearTimeout(savedTimer.current);
+    setSavedPhase("shown");
+    savedTimer.current = setTimeout(() => {
+      setSavedPhase("leaving");
+      // Reset to the below-the-edge start once the fade-out finished, so the
+      // next save rises in from the bottom again (invisible: opacity 0 → 0).
+      savedTimer.current = setTimeout(() => setSavedPhase("hidden"), 220);
+    }, 2000);
+  };
+
+  // Top fade over the scrolling page so rows dissolve under the title row
+  // instead of cutting sharply (same recipe as the medical alerts feed).
+  const [contentScrolled, setContentScrolled] = useState(false);
+
+  useEffect(() => {
+    if (isOpen) {
+      if (unmountTimer.current) clearTimeout(unmountTimer.current);
+      setPage(defaultPage);
+      setMounted(true);
+      // Double rAF: the panel must commit its hidden state before the
+      // transition to visible starts, or the browser skips the animation.
+      requestAnimationFrame(() => requestAnimationFrame(() => setVisible(true)));
+    } else {
+      setVisible(false);
+      setSavedPhase("hidden");
+      unmountTimer.current = setTimeout(() => setMounted(false), 320);
+    }
+    return () => {
+      if (unmountTimer.current) clearTimeout(unmountTimer.current);
+      if (savedTimer.current) clearTimeout(savedTimer.current);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- defaultPage only matters at the open transition
+  }, [isOpen]);
+
+  // Escape closes; focus moves into the dialog on open.
+  useEffect(() => {
+    if (!isOpen) return;
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") onClose();
+    };
+    document.addEventListener("keydown", onKeyDown);
+    panelRef.current?.focus();
+    return () => document.removeEventListener("keydown", onKeyDown);
+  }, [isOpen, onClose]);
+
+  if (!mounted || typeof document === "undefined") return null;
+
+  return createPortal(
+    <div className="fixed inset-0 z-100 flex items-center justify-center p-4" role="presentation">
+      {/* Backdrop — dark-mode modal reference uses black at 70%. */}
+      <button
+        type="button"
+        aria-label="Close settings"
+        tabIndex={-1}
+        onClick={onClose}
+        className={cx(
+          "absolute inset-0 cursor-default bg-black/70 transition-opacity duration-300 ease-out",
+          visible ? "opacity-100" : "opacity-0",
+        )}
+      />
+
+      {/* Animated wrapper — carries the open/close transition for the panel
+          AND the saved toast, which straddles the panel's bottom edge and so
+          must live outside the panel's overflow-clip. */}
+      <div
+        className={cx(
+          "relative",
+          // Kept light on purpose: an 8px blur over the full 871×614 panel
+          // forces a huge re-filter every frame of the scale-down, which is
+          // what made the close stutter. 4px + GPU promotion stays smooth.
+          "transform-gpu transition-[opacity,transform,filter] duration-300 ease-[cubic-bezier(0.32,0.72,0,1)] will-change-[opacity,transform,filter]",
+          visible ? "scale-100 opacity-100 blur-0" : "scale-[0.85] opacity-0 blur-[4px]",
+        )}
+      >
+      {/* Panel */}
+      <div
+        ref={panelRef}
+        role="dialog"
+        aria-modal="true"
+        aria-label="Settings"
+        tabIndex={-1}
+        className={cx(
+          "relative flex h-[614px] max-h-[calc(100dvh-32px)] w-[871px] max-w-[calc(100vw-32px)]",
+          // overflow-CLIP, not hidden: hidden boxes are still programmatically
+          // scrollable, so focusing a switch's hidden input in a row clipped
+          // by the inner scroller made the browser scroll-reveal it through
+          // the panel too — shifting the whole modal content up with no way
+          // back. clip forbids scrolling outright.
+          "overflow-clip rounded-3xl bg-background-full shadow-xs outline-none",
+        )}
+      >
+        {/* Nav rail — the board-team dropdown group/item recipe */}
+        <nav
+          aria-label="Settings sections"
+          className="flex w-[274px] shrink-0 flex-col gap-5 overflow-y-auto border-r border-separator-border bg-background-secondary-default p-2.5"
+        >
+          {NAV_GROUPS.map((group) => (
+            <div key={group.label} className="flex w-full flex-col gap-1.5 pt-1">
+              <span className="pl-2 text-body-medium text-text-secondary">{group.label}</span>
+              <div className="flex w-full flex-col gap-1">
+                {group.items.map((item) => {
+                  const selected = item.page !== undefined && item.page === page;
+                  return (
+                    <button
+                      key={`${group.label}:${item.label}`}
+                      type="button"
+                      aria-current={selected ? "page" : undefined}
+                      onClick={
+                        item.page
+                          ? () => {
+                              setPage(item.page!);
+                              setContentScrolled(false);
+                            }
+                          : undefined
+                      }
+                      className={cx(
+                        "flex w-full cursor-pointer items-center gap-2 rounded-2lg p-2 text-left",
+                        "outline-none transition-colors duration-150 ease focus-visible:ring-2 focus-visible:ring-border-focus-ring",
+                        selected
+                          ? "bg-background-secondary-hover"
+                          : "hover:bg-background-secondary-hover/60",
+                      )}
+                    >
+                      <item.icon className="size-5 shrink-0 text-foreground-icon-secondary" aria-hidden />
+                      <span
+                        className={cx(
+                          "truncate text-body-medium",
+                          selected ? "text-text-primary" : "text-text-secondary",
+                        )}
+                      >
+                        {item.label}
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          ))}
+        </nav>
+
+        {/* Content pane — fixed title row, scrollable page below */}
+        <div className="flex min-w-0 flex-1 flex-col">
+          {/* Storage keeps a tighter title gap: its page already carries
+              10px of scroll-safe headroom for the upload progress badge, so
+              the shared pb-3 read as a double margin above the dropzone. */}
+          <div
+            className={cx(
+              "flex shrink-0 items-center justify-between px-8 pt-8",
+              page === "storage" ? "pb-1.5" : "pb-3",
+            )}
+          >
+            <h2 className="text-title-3-medium text-text-primary">{PAGE_TITLES[page]}</h2>
+            <button
+              type="button"
+              aria-label="Close settings"
+              onClick={onClose}
+              className={cx(
+                "flex size-6 shrink-0 cursor-pointer items-center justify-center rounded-full",
+                "bg-background-tertiary-default text-foreground-icon-secondary",
+                "transition-colors duration-150 ease hover:bg-background-tertiary-hover",
+                "outline-none focus-visible:ring-2 focus-visible:ring-border-focus-ring",
+              )}
+            >
+              <RiCloseLine className="size-4" aria-hidden />
+            </button>
+          </div>
+          <div className="relative min-h-0 flex-1">
+            <div
+              className="h-full overflow-y-auto px-8 pb-8"
+              onScroll={(e) => setContentScrolled(e.currentTarget.scrollTop > 0)}
+            >
+              {page === "profile" ? (
+                <SettingsProfile onSaved={showSavedToast} />
+              ) : page === "storage" ? (
+                <SettingsStorage />
+              ) : page === "tools" ? (
+                <SettingsTools />
+              ) : (
+                <SettingsGeneral planArtSrc={planArtSrc} />
+              )}
+            </div>
+            {/* Progressive top fade — eases in once the page is scrolled so
+                content dissolves under the title row instead of hard-cutting. */}
+            <div
+              aria-hidden
+              className={cx(
+                "pointer-events-none absolute inset-x-0 top-0 h-10 bg-linear-to-b from-background-primary-default to-transparent",
+                "transition-opacity duration-200 ease-out",
+                contentScrolled ? "opacity-100" : "opacity-0",
+              )}
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* Saved toast — straddles the panel's bottom edge, half in / half out. */}
+      <div
+        aria-live="polite"
+        className={cx(
+          "pointer-events-none absolute bottom-0 left-1/2 z-10 flex -translate-x-1/2 items-center gap-1",
+          "rounded-full border border-border-button-default bg-background-primary-default py-1 pr-2.5 pl-1.5 shadow-dropdown",
+          "transition-[opacity,transform,filter] duration-200 ease-out",
+          savedPhase === "shown" && "translate-y-1/2 opacity-100 scale-100 blur-0",
+          // Starts below the resting spot, rises in; keeps drifting up on exit.
+          savedPhase === "hidden" && "translate-y-[calc(50%+12px)] opacity-0 scale-90 blur-[2px]",
+          savedPhase === "leaving" && "translate-y-[calc(50%-10px)] opacity-0 scale-90 blur-[2px]",
+        )}
+      >
+        <RiCheckboxCircleFill className="size-4 shrink-0 text-lime-600" aria-hidden />
+        <span className="text-body-2-medium whitespace-nowrap text-text-primary">Saved</span>
+      </div>
+      </div>
+    </div>,
+    document.body,
+  );
+}
+22:T154c,"use client";
+
+import { useRef, useState, type ComponentProps } from "react";
+import { CalendarDate } from "@internationalized/date";
+import { RiCalendarLine, RiExternalLinkLine, RiLogoutCircleLine, RiMailLine } from "@remixicon/react";
+import { Button } from "../../base/buttons/button";
+import { DatePicker } from "../../base/date-picker/date-picker";
+import { Input } from "../../base/input/input";
+import { Switch } from "../../base/switch/switch";
+import { cx } from "../../utils/cx";
+import {
+  SettingsCard,
+  SettingsRow,
+  SettingsValueField,
+} from "./settings-rows";
+
+/**
+ * Figma source: Board UI → "Settings/Profile" (node 4081:13943), the right
+ * pane of the settings modal.
+ *
+ * Two cards, 24px apart:
+ *   1. identity   Email / First name / Last name as editable design-system
+ *                 Inputs (small, 202px — mail icon on Email), Date of birth
+ *                 (white date-picker trigger, 202px)
+ *   2. account    BoardUI account → "Manage", Public profile toggle (on),
+ *                 Device ID (muted, truncated), Log out from all devices.
+ */
+
+const MONTHS = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December",
+];
+
+function formatBirthDate(date: CalendarDate) {
+  return `${date.day} ${MONTHS[date.month - 1]} ${date.year}`;
+}
+
+/**
+ * Design-system Input that commits on Enter / blur: Enter just blurs the
+ * field, and blur fires `onSaved` only when the value actually changed since
+ * the last commit — so clicking in and out without typing stays silent.
+ */
+function SavableInput({
+  initialValue,
+  onSaved,
+  ...inputProps
+}: { initialValue: string; onSaved?: () => void } & Omit<
+  ComponentProps<typeof Input>,
+  "value" | "onChange" | "defaultValue"
+>) {
+  const [value, setValue] = useState(initialValue);
+  const committed = useRef(initialValue);
+
+  return (
+    <Input
+      size="small"
+      {...inputProps}
+      value={value}
+      onChange={setValue}
+      onKeyDown={(event) => {
+        if (event.key === "Enter") (event.target as HTMLElement).blur();
+      }}
+      onBlur={() => {
+        if (value !== committed.current) {
+          committed.current = value;
+          onSaved?.();
+        }
+      }}
+      className={cx("w-[202px] shrink-0", inputProps.className)}
+    />
+  );
+}
+
+export function SettingsProfile({ onSaved }: { onSaved?: () => void } = {}) {
+  const [birthDate, setBirthDate] = useState<CalendarDate>(new CalendarDate(1997, 7, 28));
+  const [birthOpen, setBirthOpen] = useState(false);
+  const birthTriggerRef = useRef<HTMLButtonElement>(null);
+  const [publicProfile, setPublicProfile] = useState(true);
+
+  return (
+    <div className="flex w-full flex-col gap-6">
+      <SettingsCard>
+        <SettingsRow label="Email">
+          <SavableInput
+            aria-label="Email"
+            type="email"
+            leadingIcon={RiMailLine}
+            initialValue="hi@mertcan.works"
+            onSaved={onSaved}
+          />
+        </SettingsRow>
+        <SettingsRow label="First name">
+          <SavableInput aria-label="First name" initialValue="Mertcan" onSaved={onSaved} />
+        </SettingsRow>
+        <SettingsRow label="Last name">
+          <SavableInput aria-label="Last name" initialValue="Esmergül" onSaved={onSaved} />
+        </SettingsRow>
+        <SettingsRow label="Date of birth">
+          <button
+            ref={birthTriggerRef}
+            type="button"
+            onClick={() => setBirthOpen((o) => !o)}
+            className={[
+              "flex h-8 w-[202px] shrink-0 cursor-pointer items-center gap-0.5 rounded-lg px-2",
+              "border border-border-button-default bg-background-primary-default shadow-xs",
+              "transition-colors duration-150 ease hover:bg-background-primary-hover",
+              "outline-none focus-visible:ring-2 focus-visible:ring-border-focus-ring",
+            ].join(" ")}
+          >
+            <RiCalendarLine className="size-[18px] shrink-0 text-foreground-icon-primary" aria-hidden />
+            <span className="px-0.5 text-body-regular whitespace-nowrap text-text-primary">
+              {formatBirthDate(birthDate)}
+            </span>
+          </button>
+          <DatePicker
+            aria-label="Date of birth"
+            triggerRef={birthTriggerRef}
+            isOpen={birthOpen}
+            onOpenChange={setBirthOpen}
+            value={birthDate}
+            onChange={(next) => next && setBirthDate(next)}
+          />
+        </SettingsRow>
+      </SettingsCard>
+
+      <SettingsCard>
+        <SettingsRow label="BoardUI account">
+          <Button variant="secondary" size="small" leadingIcon={RiExternalLinkLine}>
+            Manage
+          </Button>
+        </SettingsRow>
+        <SettingsRow
+          label="Public profile"
+          description="When enabled your profile page will be visible to anyone"
+        >
+          <Switch
+            aria-label="Public profile"
+            isSelected={publicProfile}
+            onChange={setPublicProfile}
+          />
+        </SettingsRow>
+        <SettingsRow label="Device ID">
+          <SettingsValueField muted>593e2611-b9e3-44e2-1289-ab3f9d21</SettingsValueField>
+        </SettingsRow>
+        <SettingsRow label="Log out from all devices">
+          <Button variant="secondary" size="small" leadingIcon={RiLogoutCircleLine}>
+            Logout
+          </Button>
+        </SettingsRow>
+      </SettingsCard>
+    </div>
+  );
+}
+23:Tc80,import type { ComponentType, ReactNode } from "react";
+import { cx } from "../../utils/cx";
+
+/**
+ * Shared row chrome for the settings modal pages (Figma "Settings/Profile"
+ * node 4081:13943 and "Settings/General" node 4079:13037).
+ *
+ * Every settings group is the same recipe:
+ *   card   bg background/secondary, radius/2xl (16px), pl 12 — the left
+ *          padding lives on the card so each row's bottom border stops
+ *          12px short of the left edge, exactly like Figma.
+ *   row    py 10 pr 10, min-height 52, 1px border/button/default under
+ *          every row except the last, label left / control right.
+ *   label  Body 1/Regular text/primary, optional Body 2/Regular
+ *          text/secondary description underneath.
+ */
+
+type IconComponent = ComponentType<{
+  className?: string;
+  "aria-hidden"?: boolean | "true" | "false";
+}>;
+
+/** Grouped card — rows divide themselves with borders that respect pl-12. */
+export function SettingsCard({ className, children }: { className?: string; children: ReactNode }) {
+  return (
+    <div
+      className={cx(
+        "flex w-full flex-col rounded-2xl bg-background-secondary-default pl-3",
+        className,
+      )}
+    >
+      {children}
+    </div>
+  );
+}
+
+/** Muted 13px section heading above a card ("Pull Requests", "Notifications"). */
+export function SettingsSectionLabel({ className, children }: { className?: string; children: ReactNode }) {
+  return (
+    <p className={cx("w-full px-3 text-body-2-medium text-text-secondary", className)}>{children}</p>
+  );
+}
+
+/** One label + control row. Rows separate themselves; the last has no border. */
+export function SettingsRow({
+  label,
+  description,
+  children,
+}: {
+  label: string;
+  description?: string;
+  children?: ReactNode;
+}) {
+  return (
+    <div
+      className={cx(
+        "flex min-h-[52px] w-full items-center justify-between gap-4 py-2.5 pr-2.5",
+        "border-b border-separator-border last:border-b-0",
+      )}
+    >
+      <div className="flex min-w-0 flex-col">
+        <p className="text-body-regular text-text-primary">{label}</p>
+        {description && (
+          <p className="text-body-2-regular text-text-secondary">{description}</p>
+        )}
+      </div>
+      {children}
+    </div>
+  );
+}
+
+/**
+ * The grey read-only value field (Figma "Input" instances — bg
+ * background/tertiary, h 32, radius/2lg, 202px wide). Not an editable input
+ * in the design: it presents the stored value.
+ */
+export function SettingsValueField({
+  icon: Icon,
+  children,
+  muted = false,
+  className,
+}: {
+  icon?: IconComponent;
+  children: ReactNode;
+  /** Secondary text color (e.g. the truncated Device ID). */
+  muted?: boolean;
+  className?: string;
+}) {
+  return (
+    <div
+      className={cx(
+        "flex h-8 w-[202px] shrink-0 items-center gap-0.5 rounded-2lg bg-background-tertiary-default px-1.5",
+        className,
+      )}
+    >
+      {Icon && <Icon className="size-5 shrink-0 text-foreground-icon-secondary" aria-hidden />}
+      <span
+        className={cx(
+          "truncate pl-1 text-body-regular",
+          muted ? "text-text-secondary" : "text-text-primary",
+        )}
+      >
+        {children}
+      </span>
+    </div>
+  );
+}
+24:T59bd,"use client";
+
+import {
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+  type ReactNode,
+} from "react";
+import {
+  RiDeleteBin6Line,
+  RiDownload2Line,
+  RiEditLine,
+  RiFileCopyLine,
+  RiMore2Fill,
+  RiSearchLine,
+} from "@remixicon/react";
+import { Focusable } from "react-aria-components";
+import { Chip } from "../../base/badges/chip";
+import { IconButton } from "../../base/buttons/icon-button";
+import { Checkbox } from "../../base/checkbox/checkbox";
+import {
+  Dropdown,
+  DropdownGroup,
+  DropdownItem,
+  DropdownPopover,
+  DropdownTrigger,
+} from "../../base/dropdown/dropdown";
+import { FileUpload, formatFileSize } from "../../base/file-upload/file-upload";
+import { InputBase } from "../../base/input/input";
+import { Pagination } from "../../base/pagination/pagination";
+import { Select, SelectItem } from "../../base/select/select";
+import { Tooltip, TooltipTrigger } from "../../base/tooltip/tooltip";
+import { ChevronSortDown } from "../../foundations/icons/chevrons";
+import { cx } from "../../utils/cx";
+
+/**
+ * Figma sources: Board UI → "Upload file" (node 4105:25269, default),
+ * "Upload in progress" (node 4107:27192) and the 100% complete frame
+ * (node 4107:30456) — the settings modal's Storage page.
+ *
+ * Dropzone (533×164, radius/2xl):
+ *   default    bg background/secondary, 2px DASHED border/checkbox/default,
+ *              40px background/quaternary circle with a white 24px
+ *              upload-cloud-2-line, "Drag and drop to upload or select"
+ *              (Body 1/Medium, "select" in blue-500) over "PDF, JPG, PNG or
+ *              XLSX (max 8 MB)" (Body 2/Regular, text/tertiary).
+ *   uploading  bg white; the border becomes the progress indicator: a 2px
+ *              border/button/default track with a blue-400 stroke tracing
+ *              the rounded-rect perimeter clockwise from top-center
+ *              (decoded from Figma's "Rectangle 7519" vector), plus a
+ *              blue-400 radius/md badge straddling the top border with the
+ *              percentage (Caption 1/Medium, white). Content: 40px
+ *              white/1px-bordered circle with the file-type icon, the file
+ *              name (Body 1/Medium) and "Uploading N MB…" (Body 2/Regular).
+ *   complete   same, ring closed at 100%, copy "Uploaded successfully!" —
+ *              held briefly, then everything transitions back to default
+ *              and the file lands at the top of the table below.
+ *
+ * Every phase change cross-fades: outgoing content slides up 10px while
+ * fading/blurring out, incoming settles in from -10px — nothing snaps.
+ * The upload itself is front-end-only (simulated progress, max 8 MB).
+ *
+ * The table below is the BoardUI table recipe (same chrome as the
+ * dashboard's customers table): toolbar with live filters/search, sortable
+ * columns, row selection, per-row delete + a ⋮ dropdown, pagination.
+ */
+
+/* ------------------------------------------------------------------ files */
+
+type FileKind = "document" | "spreadsheet" | "video";
+
+const FILE_ICONS: Record<FileKind, { light: string; dark?: string }> = {
+  document: {
+    light: "/ai-chat/plugin-documents.svg",
+    dark: "/ai-chat/plugin-documents-dark.svg",
+  },
+  spreadsheet: { light: "/ai-chat/plugin-spreadsheets.svg" },
+  video: { light: "/ai-chat/plugin-videos.svg" },
+};
+
+const KIND_LABELS: Record<FileKind, string> = {
+  document: "Documents",
+  spreadsheet: "Spreadsheets",
+  video: "Videos",
+};
+
+interface StoredFile {
+  id: string;
+  name: string;
+  kind: FileKind;
+  /** Display label, e.g. "May 11, 2026". */
+  uploadedOn: string;
+  /** Epoch-ish ordinal used for the Modified sort (bigger = newer). */
+  uploadedStamp: number;
+  sizeLabel: string;
+  bytes: number;
+  selected?: boolean;
+}
+
+function kindForFile(name: string): FileKind {
+  const ext = name.split(".").pop()?.toLowerCase() ?? "";
+  if (ext === "xlsx") return "spreadsheet";
+  if (["mp4", "mov", "webm"].includes(ext)) return "video";
+  return "document";
+}
+
+function StoredFileIcon({ kind }: { kind: FileKind }) {
+  const { light, dark } = FILE_ICONS[kind];
+
+  if (dark) {
+    return (
+      <>
+        {/* eslint-disable-next-line @next/next/no-img-element -- decorative registry-packaged SVG */}
+        <img src={light} alt="" className="theme-asset-light size-6 shrink-0 object-contain" />
+        {/* eslint-disable-next-line @next/next/no-img-element -- decorative registry-packaged SVG */}
+        <img src={dark} alt="" className="theme-asset-dark size-6 shrink-0 object-contain" />
+      </>
+    );
+  }
+
+  // eslint-disable-next-line @next/next/no-img-element -- decorative registry-packaged SVG
+  return <img src={light} alt="" className="size-6 shrink-0 object-contain" />;
+}
+
+/** mulberry32 — deterministic PRNG so the mock inventory is stable across
+ *  renders/SSR (same recipe as the customers table). */
+function makeRng(seed: number) {
+  let a = seed;
+  return () => {
+    a |= 0;
+    a = (a + 0x6d2b79f5) | 0;
+    let t = Math.imul(a ^ (a >>> 15), 1 | a);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+const GENERATED_NAMES = [
+  "Invoice", "Contract", "Payroll Sheet", "Quarterly report", "Pitch deck",
+  "Budget plan", "Onboarding video", "Team photo", "Meeting notes", "Roadmap",
+];
+const MONTH_LABELS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+/** 1,262 files — the Figma toolbar's "Stored in 1,262 files" is the real
+ *  count of this inventory. The first five rows pin Figma's exact examples
+ *  (names, dates, sizes, selection); the rest are generated. */
+const STORED_FILES: StoredFile[] = (() => {
+  const pinned: Array<Omit<StoredFile, "id" | "uploadedStamp">> = [
+    { name: "Invoice 1", kind: "document", uploadedOn: "May 11, 2026", sizeLabel: "4 MB", bytes: 4 * 1024 * 1024 },
+    { name: "Payroll Sheet", kind: "spreadsheet", uploadedOn: "May 11, 2026", sizeLabel: "539 KB", bytes: 539 * 1024, selected: true },
+    { name: "Welcome video", kind: "video", uploadedOn: "May 11, 2026", sizeLabel: "36 MB", bytes: 36 * 1024 * 1024 },
+    { name: "Payroll Sheet", kind: "spreadsheet", uploadedOn: "May 11, 2026", sizeLabel: "539 KB", bytes: 539 * 1024, selected: true },
+    { name: "Invoice 1", kind: "document", uploadedOn: "May 11, 2026", sizeLabel: "4 MB", bytes: 4 * 1024 * 1024 },
+  ];
+
+  const rng = makeRng(26);
+  const pick = <T,>(arr: T[]) => arr[Math.floor(rng() * arr.length)];
+  const kinds: FileKind[] = ["document", "document", "spreadsheet", "video"];
+  const total = 1262;
+
+  return Array.from({ length: total }, (_, i): StoredFile => {
+    if (i < pinned.length) {
+      return { ...pinned[i], id: `file-${i}`, uploadedStamp: total - i };
+    }
+    const kind = pick(kinds);
+    const bytes = Math.floor(
+      kind === "video" ? (4 + rng() * 60) * 1024 * 1024 : 40 * 1024 + rng() * 7 * 1024 * 1024,
+    );
+    const month = Math.floor(rng() * 5); // Jan–May 2026, before the pinned rows
+    const day = 1 + Math.floor(rng() * 28);
+    return {
+      id: `file-${i}`,
+      name: `${pick(GENERATED_NAMES)} ${1 + Math.floor(rng() * 40)}`,
+      kind,
+      uploadedOn: `${MONTH_LABELS[month]} ${day}, 2026`,
+      uploadedStamp: total - i,
+      sizeLabel: formatFileSize(bytes),
+      bytes,
+    };
+  });
+})();
+
+/* ------------------------------------------------------------------- table */
+
+type SortKey = "name" | "uploadedOn" | "bytes";
+type SortState = { key: SortKey; dir: "asc" | "desc" } | null;
+
+const PER_PAGE = 6;
+
+function SortableHeader({
+  label,
+  sortKey,
+  sort,
+  onSort,
+}: {
+  label: string;
+  sortKey: SortKey;
+  sort: SortState;
+  onSort: (key: SortKey) => void;
+}) {
+  const active = sort?.key === sortKey;
+  return (
+    <button
+      type="button"
+      aria-label={`Sort by ${label}`}
+      onClick={() => onSort(sortKey)}
+      className="flex cursor-pointer items-center gap-0.5 rounded-sm outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-border-focus-ring"
+    >
+      <span className={cx("text-body-medium whitespace-nowrap", active ? "text-text-primary" : "text-text-tertiary")}>
+        {label}
+      </span>
+      <span className="flex size-6 shrink-0 items-center justify-center">
+        <ChevronSortDown
+          className={cx(
+            "size-6 transition-[transform,color] duration-150 ease",
+            active ? "text-text-secondary" : "text-text-tertiary",
+            active && sort?.dir === "asc" && "rotate-180",
+          )}
+        />
+      </span>
+    </button>
+  );
+}
+
+function RowActionButton({ icon, label }: { icon: typeof RiDeleteBin6Line; label: string }) {
+  return (
+    <TooltipTrigger delay={200}>
+      <Focusable>
+        <IconButton icon={icon} size="small" aria-label={label} />
+      </Focusable>
+      <Tooltip size="md">{label}</Tooltip>
+    </TooltipTrigger>
+  );
+}
+
+const MORE_MENU_ACTIONS = [
+  { icon: RiDownload2Line, label: "Download file" },
+  { icon: RiEditLine, label: "Rename" },
+  { icon: RiFileCopyLine, label: "Copy link" },
+] as const;
+
+/** The "⋮" action: tooltip on hover, contextual menu on click — same recipe
+ *  as the customers table's more-menu (trigger styled as a small secondary
+ *  IconButton because nesting the real one would nest <button>s). */
+function RowMoreMenu({ name }: { name: string }) {
+  const [isOpen, setIsOpen] = useState(false);
+  return (
+    <Dropdown isOpen={isOpen} onOpenChange={setIsOpen}>
+      <TooltipTrigger delay={200}>
+        <DropdownTrigger
+          aria-label={`More actions for ${name}`}
+          className={cx(
+            "relative inline-flex size-8 shrink-0 items-center justify-center rounded-2lg",
+            "border border-border-button-default bg-background-primary-default text-foreground-icon-primary shadow-xs",
+            "transition-[background-color,border-color,box-shadow,color] duration-150 ease",
+            "hover:border-border-button-hover hover:bg-background-primary-hover",
+            isOpen && "border-border-button-active bg-background-primary-active",
+          )}
+        >
+          <RiMore2Fill className="size-4 shrink-0" aria-hidden />
+        </DropdownTrigger>
+        <Tooltip size="md">More actions</Tooltip>
+      </TooltipTrigger>
+      <DropdownPopover aria-label={`More actions for ${name}`} placement="bottom end" className="w-[200px] p-2">
+        <DropdownGroup>
+          {MORE_MENU_ACTIONS.map(({ icon: Icon, label }) => (
+            <DropdownItem key={label} onSelect={() => setIsOpen(false)} className="px-2 py-1.5">
+              <Icon className="size-[18px] shrink-0 text-foreground-icon-secondary" aria-hidden />
+              <span className="truncate text-body-medium whitespace-nowrap text-text-primary">{label}</span>
+            </DropdownItem>
+          ))}
+        </DropdownGroup>
+      </DropdownPopover>
+    </Dropdown>
+  );
+}
+
+type RowAnimationPhase = "idle" | "entering" | "exiting";
+const ROW_EXIT_DURATION_MS = 225;
+
+/** Shared row transition shell. Entry reveals a newly uploaded row from
+ *  beneath the header; exit plays the exact structural reverse before the
+ *  item is removed from state. */
+function AnimatedRow({
+  phase,
+  children,
+}: {
+  phase: RowAnimationPhase;
+  children: ReactNode;
+}) {
+  return (
+    <div
+      className={cx(
+        "grid grid-rows-[1fr]",
+        phase === "entering" && "animate-row-grow-in",
+        phase === "exiting" && "pointer-events-none animate-row-collapse-out",
+      )}
+    >
+      <div className="overflow-hidden">
+        <div
+          className={cx(
+            phase === "entering" && "animate-row-slide-in",
+            phase === "exiting" && "animate-row-slide-out",
+          )}
+        >
+          {children}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* -------------------------------------------------------------------- page */
+
+export function SettingsStorage() {
+  const [files, setFiles] = useState<StoredFile[]>(STORED_FILES);
+  const [selected, setSelected] = useState<Set<string>>(
+    () => new Set(STORED_FILES.filter((f) => f.selected).map((f) => f.id)),
+  );
+  const [page, setPage] = useState(1);
+  const [kindFilter, setKindFilter] = useState("all");
+  const [recency, setRecency] = useState<"newest" | "oldest">("newest");
+  const [query, setQuery] = useState("");
+  const [sort, setSort] = useState<SortState>(null);
+  // The row that just arrived from the dropzone — its table row plays the
+  // grow-in entrance; cleared once the animation has run so pagination
+  // round-trips don't replay it.
+  const [justAddedId, setJustAddedId] = useState<string | null>(null);
+  const [deletingIds, setDeletingIds] = useState<Set<string>>(() => new Set());
+  const justAddedTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const deleteTimers = useRef<Map<string, ReturnType<typeof setTimeout>>>(new Map());
+  useEffect(
+    () => () => {
+      if (justAddedTimer.current) clearTimeout(justAddedTimer.current);
+      for (const timer of deleteTimers.current.values()) clearTimeout(timer);
+      deleteTimers.current.clear();
+    },
+    [],
+  );
+
+  const onSort = (key: SortKey) => {
+    setSort((prev) => {
+      if (!prev || prev.key !== key) return { key, dir: "asc" };
+      if (prev.dir === "asc") return { key, dir: "desc" };
+      return null;
+    });
+  };
+
+  const filtered = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    const rows = files.filter(
+      (f) =>
+        (kindFilter === "all" || f.kind === kindFilter) &&
+        (q === "" || f.name.toLowerCase().includes(q)),
+    );
+    if (sort) {
+      const { key, dir } = sort;
+      rows.sort((a, b) => {
+        const cmp =
+          key === "name"
+            ? a.name.localeCompare(b.name)
+            : key === "bytes"
+              ? a.bytes - b.bytes
+              : a.uploadedStamp - b.uploadedStamp;
+        return dir === "asc" ? cmp : -cmp;
+      });
+    } else {
+      rows.sort((a, b) =>
+        recency === "newest" ? b.uploadedStamp - a.uploadedStamp : a.uploadedStamp - b.uploadedStamp,
+      );
+    }
+    return rows;
+  }, [files, kindFilter, query, sort, recency]);
+
+  const totalPages = Math.max(1, Math.ceil(filtered.length / PER_PAGE));
+  const currentPage = Math.min(page, totalPages);
+  const rows = filtered.slice((currentPage - 1) * PER_PAGE, currentPage * PER_PAGE);
+
+  const selectedOnPage = rows.filter((f) => selected.has(f.id)).length;
+  const allOnPageSelected = rows.length > 0 && selectedOnPage === rows.length;
+  const someOnPageSelected = selectedOnPage > 0 && !allOnPageSelected;
+
+  const toggleRow = (id: string, isSelected: boolean) => {
+    setSelected((prev) => {
+      const next = new Set(prev);
+      if (isSelected) next.add(id);
+      else next.delete(id);
+      return next;
+    });
+  };
+
+  const toggleAllOnPage = (isSelected: boolean) => {
+    setSelected((prev) => {
+      const next = new Set(prev);
+      for (const f of rows) {
+        if (isSelected) next.add(f.id);
+        else next.delete(f.id);
+      }
+      return next;
+    });
+  };
+
+  const deleteFile = (id: string) => {
+    if (deleteTimers.current.has(id)) return;
+    setDeletingIds((prev) => {
+      const next = new Set(prev);
+      next.add(id);
+      return next;
+    });
+    deleteTimers.current.set(
+      id,
+      setTimeout(() => {
+        setFiles((prev) => prev.filter((f) => f.id !== id));
+        setSelected((prev) => {
+          if (!prev.has(id)) return prev;
+          const next = new Set(prev);
+          next.delete(id);
+          return next;
+        });
+        setDeletingIds((prev) => {
+          const next = new Set(prev);
+          next.delete(id);
+          return next;
+        });
+        deleteTimers.current.delete(id);
+      }, ROW_EXIT_DURATION_MS),
+    );
+  };
+
+  return (
+    // pt-2.5 gives the percentage badge (which straddles the dropzone's top
+    // border, overhanging 9.5px) headroom inside the modal's scroll clip.
+    <div className="flex w-full flex-col gap-6 pt-2.5">
+      <FileUpload
+        renderFileIcon={(file) => <StoredFileIcon kind={kindForFile(file.name)} />}
+        onUploadComplete={(file) => {
+          const now = new Date();
+          const storedFile: StoredFile = {
+            id: `upload-${now.getTime()}`,
+            name: file.name.replace(/\.[^.]+$/, ""),
+            kind: kindForFile(file.name),
+            uploadedOn: now.toLocaleDateString("en-US", {
+              month: "short",
+              day: "numeric",
+              year: "numeric",
+            }),
+            uploadedStamp: 10_000 + now.getTime() / 1000,
+            sizeLabel: formatFileSize(file.size),
+            bytes: file.size,
+          };
+          setFiles((prev) => [storedFile, ...prev]);
+          setPage(1);
+          setJustAddedId(storedFile.id);
+          if (justAddedTimer.current) clearTimeout(justAddedTimer.current);
+          justAddedTimer.current = setTimeout(() => setJustAddedId(null), 700);
+        }}
+      />
+
+      <section className="flex w-full flex-col rounded-2xl border border-border-table pt-2 pb-3">
+        {/* Toolbar */}
+        <div className="flex w-full flex-col items-start gap-3 px-3 py-1 sm:flex-row sm:items-center sm:justify-between">
+          <div className="flex flex-col justify-center">
+            <p className="text-body-medium whitespace-nowrap text-text-tertiary">Stored in</p>
+            <p className="text-body-medium whitespace-nowrap text-text-primary">
+              {filtered.length.toLocaleString()} files
+            </p>
+          </div>
+          <div className="flex items-center gap-2.5">
+            <Select
+              aria-label="Filter by file type"
+              className="shrink-0"
+              selectedKey={kindFilter}
+              onSelectionChange={(k) => {
+                setKindFilter(String(k));
+                setPage(1);
+              }}
+            >
+              <SelectItem id="all" textValue="File type">
+                File type
+              </SelectItem>
+              {(Object.keys(KIND_LABELS) as FileKind[]).map((kind) => (
+                <SelectItem key={kind} id={kind} textValue={KIND_LABELS[kind]}>
+                  {KIND_LABELS[kind]}
+                </SelectItem>
+              ))}
+            </Select>
+            <Select
+              aria-label="Order by"
+              className="shrink-0"
+              selectedKey={recency}
+              onSelectionChange={(k) => {
+                setRecency(k as "newest" | "oldest");
+                setSort(null);
+                setPage(1);
+              }}
+            >
+              <SelectItem id="newest" textValue="Modified">
+                Modified
+              </SelectItem>
+              <SelectItem id="oldest" textValue="Oldest first">
+                Oldest first
+              </SelectItem>
+            </Select>
+            <InputBase
+              aria-label="Search files"
+              placeholder="Search"
+              leadingIcon={RiSearchLine}
+              value={query}
+              onChange={(e) => {
+                setQuery(e.target.value);
+                setPage(1);
+              }}
+              fieldClassName="w-[153px] rounded-full bg-background-secondary-default"
+              className="text-body-medium"
+            />
+          </div>
+        </div>
+
+        {/* Column headers */}
+        <div className="mt-2 flex w-full items-center border-y border-separator-border bg-background-secondary-default pl-3">
+          <div className="flex min-w-0 flex-1 items-center gap-2 py-2.5">
+            <Checkbox
+              isSelected={allOnPageSelected}
+              isIndeterminate={someOnPageSelected}
+              onChange={toggleAllOnPage}
+              aria-label="Select all files on this page"
+            />
+            <SortableHeader label="File name" sortKey="name" sort={sort} onSort={onSort} />
+          </div>
+          <div className="flex w-[150px] shrink-0 items-center px-3 py-2.5">
+            <SortableHeader label="Uploaded on" sortKey="uploadedOn" sort={sort} onSort={onSort} />
+          </div>
+          <div className="flex w-[104px] shrink-0 items-center px-3 py-2.5">
+            <SortableHeader label="File size" sortKey="bytes" sort={sort} onSort={onSort} />
+          </div>
+          <div className="flex w-[116px] shrink-0 items-center px-3 py-2.5">
+            <span className="text-body-medium whitespace-nowrap text-text-tertiary">Actions</span>
+          </div>
+        </div>
+
+        {/* Rows */}
+        <div className="flex w-full flex-col pl-3">
+          {rows.length > 0 ? (
+            rows.map((file) => {
+              const phase: RowAnimationPhase = deletingIds.has(file.id)
+                ? "exiting"
+                : file.id === justAddedId
+                  ? "entering"
+                  : "idle";
+              return (
+                <AnimatedRow key={file.id} phase={phase}>
+                  <div className="flex w-full items-center border-b border-separator-border">
+                    <div className="flex min-w-0 flex-1 items-center gap-2 py-2.5">
+                      <Checkbox
+                        isSelected={selected.has(file.id)}
+                        onChange={(isSelected) => toggleRow(file.id, isSelected)}
+                        aria-label={`Select ${file.name}`}
+                      />
+                      <div className="flex min-w-0 items-center gap-2">
+                        <StoredFileIcon kind={file.kind} />
+                        <span className="truncate text-body-medium text-text-primary">
+                          {file.name}
+                        </span>
+                      </div>
+                    </div>
+                    <div className="flex w-[150px] shrink-0 items-center px-3 py-2.5">
+                      <span className="text-body-medium whitespace-nowrap text-text-primary">
+                        {file.uploadedOn}
+                      </span>
+                    </div>
+                    <div className="flex w-[104px] shrink-0 items-center px-3 py-2.5">
+                      <Chip variant="subtle" color="gray">
+                        {file.sizeLabel}
+                      </Chip>
+                    </div>
+                    <div className="flex w-[116px] shrink-0 items-center justify-end gap-2.5 px-3 py-2.5">
+                      <span onClick={() => deleteFile(file.id)}>
+                        <RowActionButton icon={RiDeleteBin6Line} label="Delete file" />
+                      </span>
+                      <RowMoreMenu name={file.name} />
+                    </div>
+                  </div>
+                </AnimatedRow>
+              );
+            })
+          ) : (
+            <div className="flex w-full items-center justify-center py-10 pr-3">
+              <span className="text-body-medium text-text-tertiary">No files match your filters.</span>
+            </div>
+          )}
+        </div>
+
+        {/* Pagination */}
+        <div className="px-3 pt-3">
+          <Pagination page={currentPage} totalPages={totalPages} onChange={setPage} />
+        </div>
+      </section>
+    </div>
+  );
+}
+25:T36d5,"use client";
+
+import { useState, type ReactNode } from "react";
+import { RiAddLine, RiMoreFill } from "@remixicon/react";
+import { Chip } from "../../base/badges/chip";
+import { Button } from "../../base/buttons/button";
+import { PillTab, PillTabList } from "../../base/tabs/pill-tab";
+import {
+  Dropdown,
+  DropdownGroup,
+  DropdownItem,
+  DropdownPopover,
+  DropdownTrigger,
+} from "../../base/dropdown/dropdown";
+import { Switch } from "../../base/switch/switch";
+import { ChevronUpDownSmall } from "../../foundations/icons/chevrons";
+import { cx } from "../../utils/cx";
+import { SettingsCard, SettingsRow, SettingsSectionLabel } from "./settings-rows";
+
+/**
+ * The settings modal's Tools page — MCP server management, structured after
+ * the classic tools/servers settings layout: a scope switcher (per-project
+ * pills), an Authentication toggle, the selected scope's server list, an
+ * empty-state Team section, and the global Plugin servers.
+ *
+ * No Figma frame for this page — composed from the settings modal's own
+ * recipes (SettingsCard/SettingsRow chrome, Switch, secondary Buttons, the
+ * dropdown menu pattern) plus page-local pieces that follow the system:
+ * icon tiles use the inbox-feed swatch pairs (bg-*-200 / text-*-700), the
+ * status dot is ringed with the card background like the sidebar's badge
+ * treatments, and the expandable tool list reuses the grid-rows grow
+ * transition from the Storage table.
+ */
+
+/* ------------------------------------------------------------------- data */
+
+type ServerStatus = "connected" | "error";
+
+interface McpServer {
+  id: string;
+  name: string;
+  /** Letter tile — bg/text pair from the swatch palette. */
+  initial: string;
+  tileClass: string;
+  status: ServerStatus;
+  /** e.g. "26 tools, 1 prompts, 104 resources enabled" */
+  summary?: string;
+  /** Names revealed by the expander chevron. */
+  tools?: string[];
+}
+
+const SERVERS: Record<string, McpServer> = {
+  astro: {
+    id: "astro",
+    name: "astro",
+    initial: "A",
+    tileClass: "bg-background-tertiary-default text-text-secondary",
+    status: "error",
+  },
+  figma: {
+    id: "figma",
+    name: "Figma",
+    initial: "F",
+    tileClass: "bg-pink-200 text-pink-700",
+    status: "connected",
+    summary: "26 tools, 1 prompts, 104 resources enabled",
+    tools: ["get_design_context", "get_metadata", "get_screenshot", "get_variable_defs", "create_new_file"],
+  },
+  paper: {
+    id: "paper",
+    name: "paper",
+    initial: "P",
+    tileClass: "bg-blue-200 text-blue-700",
+    status: "error",
+  },
+  posthog: {
+    id: "posthog",
+    name: "posthog",
+    initial: "P",
+    tileClass: "bg-amber-200 text-amber-700",
+    status: "connected",
+    summary: "521 tools, 173 resources enabled",
+    tools: ["query_insights", "list_dashboards", "capture_event", "feature_flags", "session_recordings"],
+  },
+  vercel: {
+    id: "vercel",
+    name: "vercel",
+    initial: "V",
+    tileClass: "bg-neutral-950 text-white",
+    status: "connected",
+    summary: "30 tools, 13 prompts enabled",
+    tools: ["list_deployments", "get_build_logs", "promote_deployment", "env_variables"],
+  },
+};
+
+/** Per-scope server lists — switching a pill swaps the section below. */
+const SCOPES: { id: string; label: string; servers: McpServer[] }[] = [
+  { id: "home", label: "Home", servers: [SERVERS.astro, SERVERS.figma] },
+  { id: "boardui", label: "boardui", servers: [SERVERS.figma, SERVERS.vercel] },
+  { id: "iospoke", label: "iospoke", servers: [SERVERS.astro] },
+  { id: "mideo", label: "mideo", servers: [SERVERS.posthog] },
+  { id: "bereal", label: "BeReal Task", servers: [SERVERS.figma] },
+  { id: "poke", label: "poke-1", servers: [] },
+  { id: "cloud", label: "Cloud", servers: [SERVERS.vercel, SERVERS.posthog] },
+];
+
+const PLUGIN_SERVERS: McpServer[] = [SERVERS.paper, SERVERS.posthog, SERVERS.vercel];
+
+/* ----------------------------------------------------------------- pieces */
+
+/** 32px rounded letter tile with a connection dot pinned to its corner,
+ *  ringed in the card background so it reads as punched-through. */
+function ServerTile({ server }: { server: McpServer }) {
+  return (
+    <span className="relative flex size-8 shrink-0 items-center justify-center rounded-lg">
+      <span
+        className={cx(
+          "flex size-8 items-center justify-center rounded-lg text-body-2-medium",
+          server.tileClass,
+        )}
+      >
+        {server.initial}
+      </span>
+      <span
+        aria-hidden
+        className={cx(
+          "absolute -bottom-0.5 -left-0.5 size-2.5 rounded-full ring-2 ring-background-secondary-default",
+          server.status === "connected" ? "bg-green-500" : "bg-red-600",
+        )}
+      />
+    </span>
+  );
+}
+
+/** Bare "…" row action — quieter than IconButton on the grey card, same
+ *  hover language as the sidebar rows. Opens the shared dropdown menu. */
+function ServerMenu({ name }: { name: string }) {
+  const [isOpen, setIsOpen] = useState(false);
+  return (
+    <Dropdown isOpen={isOpen} onOpenChange={setIsOpen}>
+      <DropdownTrigger
+        aria-label={`Actions for ${name}`}
+        className={cx(
+          "flex size-7 shrink-0 cursor-pointer items-center justify-center rounded-md",
+          "text-foreground-icon-secondary outline-none transition-colors duration-150 ease",
+          "hover:bg-background-secondary-hover focus-visible:ring-2 focus-visible:ring-border-focus-ring",
+          isOpen && "bg-background-secondary-hover",
+        )}
+      >
+        <RiMoreFill className="size-4 shrink-0" aria-hidden />
+      </DropdownTrigger>
+      <DropdownPopover aria-label={`Actions for ${name}`} placement="bottom end" className="w-[180px] p-2">
+        <DropdownGroup>
+          {["Show output", "Refresh tools", "Remove server"].map((label) => (
+            <DropdownItem key={label} onSelect={() => setIsOpen(false)} className="px-2 py-1.5">
+              <span className="truncate text-body-medium whitespace-nowrap text-text-primary">{label}</span>
+            </DropdownItem>
+          ))}
+        </DropdownGroup>
+      </DropdownPopover>
+    </Dropdown>
+  );
+}
+
+/** Quiet inline text action ("Logout", "Show Output"). */
+function InlineAction({ children, onClick }: { children: ReactNode; onClick?: () => void }) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className={cx(
+        "cursor-pointer rounded-sm text-body-2-regular whitespace-nowrap text-text-tertiary",
+        "outline-none transition-colors duration-150 ease",
+        "hover:text-text-secondary focus-visible:ring-2 focus-visible:ring-border-focus-ring",
+      )}
+    >
+      {children}
+    </button>
+  );
+}
+
+function ServerRow({ server }: { server: McpServer }) {
+  const [expanded, setExpanded] = useState(false);
+  return (
+    <div className="border-b border-separator-border py-2.5 pr-2.5 last:border-b-0">
+      <div className="flex w-full items-center gap-2.5">
+        <ServerTile server={server} />
+        <div className="flex min-w-0 flex-1 flex-col">
+          <div className="flex items-baseline gap-2">
+            <p className="text-body-medium whitespace-nowrap text-text-primary">{server.name}</p>
+            <InlineAction>Logout</InlineAction>
+          </div>
+          {server.status === "connected" ? (
+            <div className="flex items-center gap-1">
+              <p className="truncate text-body-2-regular text-text-secondary">{server.summary}</p>
+              {server.tools && (
+                <button
+                  type="button"
+                  aria-label={`${expanded ? "Hide" : "Show"} ${server.name} tools`}
+                  aria-expanded={expanded}
+                  onClick={() => setExpanded((v) => !v)}
+                  className={cx(
+                    "flex size-4 shrink-0 cursor-pointer items-center justify-center rounded-xs",
+                    "text-foreground-icon-tertiary outline-none transition-colors duration-150 ease",
+                    "hover:text-foreground-icon-secondary focus-visible:ring-2 focus-visible:ring-border-focus-ring",
+                  )}
+                >
+                  <ChevronUpDownSmall className="size-4" aria-hidden />
+                </button>
+              )}
+            </div>
+          ) : (
+            <div className="flex items-center gap-1">
+              <p className="text-body-2-regular whitespace-nowrap text-text-secondary">Error</p>
+              <span className="text-body-2-regular text-text-tertiary">–</span>
+              <InlineAction>Show Output</InlineAction>
+            </div>
+          )}
+        </div>
+        <ServerMenu name={server.name} />
+      </div>
+
+      {/* Expandable tool chips — same grid-rows grow transition as the
+          Storage table's new-row entrance, but as a two-way toggle. */}
+      {server.tools && (
+        <div
+          className={cx(
+            "grid transition-[grid-template-rows,opacity] duration-300 ease-out",
+            expanded ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0",
+          )}
+        >
+          <div className="overflow-hidden">
+            <div className="flex flex-wrap gap-1.5 pt-2 pl-[42px]">
+              {server.tools.map((tool) => (
+                <Chip key={tool} variant="caption" color="soft">
+                  {tool}
+                </Chip>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function NewServerRow() {
+  return (
+    <button
+      type="button"
+      className={cx(
+        "group flex w-full cursor-pointer items-center gap-2.5 py-2.5 pr-2.5 text-left",
+        "outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-border-focus-ring",
+      )}
+    >
+      <span
+        className={cx(
+          "flex size-8 shrink-0 items-center justify-center rounded-lg bg-background-tertiary-default",
+          "transition-colors duration-150 ease group-hover:bg-background-tertiary-hover",
+        )}
+      >
+        <RiAddLine className="size-5 shrink-0 text-foreground-icon-secondary" aria-hidden />
+      </span>
+      <span className="flex min-w-0 flex-col">
+        <span className="text-body-medium whitespace-nowrap text-text-primary">New MCP Server</span>
+        <span className="text-body-2-regular whitespace-nowrap text-text-secondary">
+          Add a Custom MCP Server
+        </span>
+      </span>
+    </button>
+  );
+}
+
+/* ------------------------------------------------------------------- page */
+
+export function SettingsTools() {
+  const [scopeId, setScopeId] = useState("home");
+  const [waitForAuth, setWaitForAuth] = useState(true);
+  const scope = SCOPES.find((s) => s.id === scopeId) ?? SCOPES[0];
+
+  return (
+    <div className="flex w-full flex-col gap-6">
+      {/* Scope switcher — the shared fully-rounded pill tabs (same component
+          as the AI chat panel's Changes/Browser switcher). */}
+      <PillTabList
+        aria-label="Project scope"
+        className="-mx-1 flex w-[calc(100%+8px)] overflow-x-auto px-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+      >
+        {SCOPES.map((s) => (
+          <PillTab key={s.id} variant="gray" isSelected={s.id === scopeId} onSelect={() => setScopeId(s.id)}>
+            {s.label}
+          </PillTab>
+        ))}
+      </PillTabList>
+
+      {/* Authentication */}
+      <div className="flex w-full flex-col gap-2">
+        <SettingsSectionLabel className="px-2">Authentication</SettingsSectionLabel>
+        <SettingsCard>
+          <SettingsRow
+            label="Wait for MCP Authentication"
+            description="Wait indefinitely to authenticate when prompted. When off, skip authentication prompts after 30 seconds."
+          >
+            <Switch isSelected={waitForAuth} onChange={setWaitForAuth} aria-label="Wait for MCP authentication" />
+          </SettingsRow>
+        </SettingsCard>
+      </div>
+
+      {/* Scope servers */}
+      <div className="flex w-full flex-col gap-2">
+        <div className="flex w-full flex-col gap-0.5">
+          <SettingsSectionLabel className="px-2">{scope.label} MCP Servers</SettingsSectionLabel>
+          <p className="w-full px-2 text-body-2-regular text-text-tertiary">
+            Servers available from {scope.label}.
+          </p>
+        </div>
+        <SettingsCard>
+          {scope.servers.map((server) => (
+            <ServerRow key={server.id} server={server} />
+          ))}
+          <NewServerRow />
+        </SettingsCard>
+      </div>
+
+      {/* Team servers — empty state */}
+      <div className="flex w-full flex-col gap-2">
+        <div className="flex w-full items-end justify-between gap-3">
+          <div className="flex min-w-0 flex-col gap-0.5">
+            <SettingsSectionLabel className="px-2">Team MCP Servers</SettingsSectionLabel>
+            <p className="w-full px-2 text-body-2-regular text-text-tertiary">
+              Configured in the dashboard
+            </p>
+          </div>
+          <Button variant="secondary" size="small" className="shrink-0">
+            Manage
+          </Button>
+        </div>
+        <div className="flex w-full flex-col items-center gap-3 rounded-2xl bg-background-secondary-default px-6 py-8">
+          <div className="flex flex-col items-center gap-1 text-center">
+            <p className="text-body-medium text-text-primary">No Team MCP Servers</p>
+            <p className="max-w-[360px] text-body-2-regular text-text-secondary">
+              Configure MCP servers in the dashboard to make them available in BoardUI on desktop
+              and in the cloud.
+            </p>
+          </div>
+          <Button variant="secondary" size="small">
+            Configure Team MCP Servers
+          </Button>
+        </div>
+      </div>
+
+      {/* Plugin servers */}
+      <div className="flex w-full flex-col gap-2">
+        <SettingsSectionLabel className="px-2">Plugin MCP Servers</SettingsSectionLabel>
+        <SettingsCard>
+          {PLUGIN_SERVERS.map((server) => (
+            <ServerRow key={server.id} server={server} />
+          ))}
+        </SettingsCard>
+      </div>
+    </div>
+  );
+}
+3:["$","$L1e",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"settings-modal","title":"Settings Modal","description":"Five-page settings dialog: profile, general, tools, storage and plan.","category":"blocks","tags":["settings","modal","dialog","preferences","account"],"status":"stable","tier":"free","dependencies":["@internationalized/date","@remixicon/react","motion","react-aria-components","tailwind-merge"],"registryDependencies":["button","checkbox","chevrons","chip","cx","date-picker","dropdown","file-upload","icon-button","input","pagination","select","switch","tabs","tokens","tooltip","use-dismiss-on-outside-press"],"files":[{"path":"application/settings/plan-art-flame.tsx","target":"components/application/settings/plan-art-flame.tsx","type":"component","content":"$1f"},{"path":"application/settings/settings-general.tsx","target":"components/application/settings/settings-general.tsx","type":"component","content":"$20"},{"path":"application/settings/settings-modal.tsx","target":"components/application/settings/settings-modal.tsx","type":"component","content":"$21"},{"path":"application/settings/settings-profile.tsx","target":"components/application/settings/settings-profile.tsx","type":"component","content":"$22"},{"path":"application/settings/settings-rows.tsx","target":"components/application/settings/settings-rows.tsx","type":"component","content":"$23"},{"path":"application/settings/settings-storage.tsx","target":"components/application/settings/settings-storage.tsx","type":"component","content":"$24"},{"path":"application/settings/settings-tools.tsx","target":"components/application/settings/settings-tools.tsx","type":"component","content":"$25"},{"path":"public/ai-chat/plugin-documents-dark.svg","target":"public/ai-chat/plugin-documents-dark.svg","type":"asset","encoding":"base64"},{"path":"public/ai-chat/plugin-documents.svg","target":"public/ai-chat/plugin-documents.svg","type":"asset","encoding":"base64"},{"path":"public/ai-chat/plugin-spreadsheets.svg","target":"public/ai-chat/plugin-spreadsheets.svg","type":"asset","encoding":"base64"},{"path":"public/ai-chat/plugin-videos.svg","target":"public/ai-chat/plugin-videos.svg","type":"asset","encoding":"base64"}],"hash":"9f30fd4e8fe0"},"demoSource":"\"use client\";\n\nimport { useState } from \"react\";\nimport { RiSettingsLine } from \"@remixicon/react\";\nimport { SettingsModal } from \"@/components/application/settings/settings-modal\";\nimport { Button } from \"@/components/base/buttons/button\";\n\nexport default function SettingsModalDemo() {\n  const [isOpen, setIsOpen] = useState(false);\n\n  return (\n    <>\n      <Button variant=\"secondary\" leadingIcon={RiSettingsLine} onClick={() => setIsOpen(true)}>\n        Open settings\n      </Button>\n      <SettingsModal isOpen={isOpen} onClose={() => setIsOpen(false)} />\n    </>\n  );\n}","previous":{"name":"notification-center","title":"Notification Center"},"next":{"name":"auth-card","title":"Auth Card"}}]
+4:["$","script","script-0",{"src":"/_next/static/chunks/3l5f3qnr89rl0.js","async":true}]
+5:["$","script","script-1",{"src":"/_next/static/chunks/0wmbfrsxfdesk.js","async":true}]
+6:["$","script","script-2",{"src":"/_next/static/chunks/3ixdl2m026on9.js","async":true}]
+7:["$","script","script-3",{"src":"/_next/static/chunks/3xa-hzf5c_c6n.js","async":true}]
+8:["$","script","script-4",{"src":"/_next/static/chunks/1zihipy0kqa1_.js","async":true}]
+9:["$","script","script-5",{"src":"/_next/static/chunks/0-afrvt74ak7l.js","async":true}]
+a:["$","script","script-6",{"src":"/_next/static/chunks/0337601gswv_s.js","async":true}]
+b:["$","script","script-7",{"src":"/_next/static/chunks/34zl6f3dq0u0q.js","async":true}]
+c:["$","script","script-8",{"src":"/_next/static/chunks/2az_x4uxpy3sm.js","async":true}]
+d:["$","script","script-9",{"src":"/_next/static/chunks/23ywcyogzmwlv.js","async":true}]
+e:["$","script","script-10",{"src":"/_next/static/chunks/2qg2knl-9_2le.js","async":true}]
+f:["$","script","script-11",{"src":"/_next/static/chunks/1wypk9kc4p_mt.js","async":true}]
+10:["$","$L26",null,{"children":["$","$27",null,{"name":"Next.MetadataOutlet","children":"$@28"}]}]
+13:["$","$1","h",{"children":[null,["$","$L29",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L2a",null,{"children":["$","$27",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Settings Modal — Zeus UI"}],["$","meta","1",{"name":"description","content":"Five-page settings dialog: profile, general, tools, storage and plan."}],["$","meta","2",{"name":"keywords","content":"settings,modal,dialog,preferences,account"}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+15:["$","$1","c",{"children":[null,["$","$L2b",null,{"parallelRouterKey":"children","template":["$","$L2c",null,{}]}]]}]
+18:["$","$1","c",{"children":[null,["$","$L2b",null,{"parallelRouterKey":"children","template":["$","$L2c",null,{}]}]]}]
+1a:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/0by1pam5w7cuf.js","async":true}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L2d",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L2b",null,{"parallelRouterKey":"children","template":["$","$L2c",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]]}]}]]}]
+28:null
+1d:true
+12:300
+12:C
+1c:0
+14:"$undefined"
+16:"$undefined"
+19:"$undefined"
+1b:"$undefined"
+11:"$undefined"

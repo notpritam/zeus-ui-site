@@ -1,0 +1,949 @@
+1:"$Sreact.fragment"
+2:I[54515,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"DocsLayout"]
+12:X
+17:X
+17:C
+0:{"buildId":"Kgh3aKGUUDrNWttN7OqGM","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"AI Profile","heading":"AI Profile","icon":"components","groups":[{"id":"foundations","title":"Foundations","items":[{"name":"tokens","title":"Design tokens"},{"name":"typography","title":"Typography"},{"name":"cx","title":"cx"},{"name":"chevrons","title":"Chevrons"},{"name":"logo","title":"Logo"},{"name":"use-count-up","title":"useCountUp"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress"}]},{"id":"base","title":"Base","items":[{"name":"button","title":"Button"},{"name":"icon-button","title":"Icon Button"},{"name":"link-button","title":"Link Button"},{"name":"button-group","title":"Button Group"},{"name":"close-button","title":"Close Button"},{"name":"social-button","title":"Social Button"},{"name":"input","title":"Input"},{"name":"input-otp","title":"Input OTP"},{"name":"checkbox","title":"Checkbox"},{"name":"radio","title":"Radio"},{"name":"switch","title":"Switch"},{"name":"select","title":"Select"},{"name":"slider","title":"Slider"},{"name":"dropdown","title":"Dropdown"},{"name":"divider","title":"Divider"},{"name":"file-upload","title":"File Upload"},{"name":"tabs","title":"Tabs"},{"name":"segmented-control","title":"Segmented Control"},{"name":"table","title":"Table"},{"name":"tooltip","title":"Tooltip"},{"name":"badge","title":"Badge"},{"name":"chip","title":"Chip"},{"name":"status-dot","title":"Status Dot"},{"name":"kbd","title":"Kbd"},{"name":"avatar","title":"Avatar"},{"name":"breadcrumb","title":"Breadcrumb"},{"name":"pagination","title":"Pagination"},{"name":"carousel","title":"Carousel"},{"name":"announcement","title":"Announcement"},{"name":"notification","title":"Notification"},{"name":"date-picker","title":"Date Picker"},{"name":"date-range-picker","title":"Date Range Picker"},{"name":"meeting-scheduler","title":"Meeting Scheduler"}]},{"id":"blocks","title":"Blocks","items":[{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"calendar","title":"Calendar","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"theme-toggle","title":"Theme Toggle"},{"name":"stat-cards","title":"Stat Cards"},{"name":"data-table","title":"Data Table"},{"name":"sidebar","title":"Sidebar"},{"name":"app-shell","title":"App Shell"},{"name":"notification-center","title":"Notification Center"},{"name":"settings-modal","title":"Settings Modal"},{"name":"auth-card","title":"Auth Card"},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking"},{"name":"composer-loader","title":"Composer Loader"},{"name":"agent-log","title":"Agent Log"},{"name":"agent-chat","title":"Agent Chat"}]},{"id":"charts","title":"Charts","items":[{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart"},{"name":"orders-chart-card","title":"Orders Chart"},{"name":"important-alerts-card","title":"Important Alerts"},{"name":"patient-info-card","title":"Patient Info"}]},{"id":"templates","title":"Templates","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true},{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true}]}],"description":"An editable agent profile with contribution history, agent activity and token usage","detail":true,"children":"$L3"}],["$L4","$L5","$L6","$L7","$L8","$L9","$La","$Lb","$Lc","$Ld","$Le","$Lf"],"$L10"]}],"isPartial":"$@11","staleTime":"$12","varyParams":null},{"rsc":"$L13","isPartial":"$@14","staleTime":"$12","varyParams":null},{"rsc":"$L15","isPartial":"$@16","staleTime":"$12","varyParams":"$17"},{"rsc":"$L18","isPartial":"$@19","staleTime":"$12","varyParams":"$17"},{"rsc":"$L1a","isPartial":"$@1b","staleTime":"$12","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@1c","rootVaryParams":null,"needsRuntimeRequest":"$@1d"}
+1e:I[26438,["/_next/static/chunks/0by1pam5w7cuf.js","/_next/static/chunks/3l5f3qnr89rl0.js","/_next/static/chunks/0wmbfrsxfdesk.js","/_next/static/chunks/3ixdl2m026on9.js","/_next/static/chunks/3xa-hzf5c_c6n.js","/_next/static/chunks/1zihipy0kqa1_.js","/_next/static/chunks/0-afrvt74ak7l.js","/_next/static/chunks/0337601gswv_s.js","/_next/static/chunks/34zl6f3dq0u0q.js","/_next/static/chunks/2az_x4uxpy3sm.js","/_next/static/chunks/23ywcyogzmwlv.js","/_next/static/chunks/2qg2knl-9_2le.js","/_next/static/chunks/1wypk9kc4p_mt.js"],"ComponentPage"]
+22:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"OutletBoundary"]
+23:"$Sreact.suspense"
+25:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"ViewportBoundary"]
+26:I[79014,["/_next/static/chunks/0by1pam5w7cuf.js"],"MetadataBoundary"]
+27:I[37280,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+28:I[75701,["/_next/static/chunks/0by1pam5w7cuf.js"],"default"]
+29:I[72844,["/_next/static/chunks/0by1pam5w7cuf.js"],""]
+:HL["/_next/static/chunks/16_ml9va511u1.css","style"]
+:HL["/_next/static/chunks/1lom8-olk25vh.css","style"]
+1f:T290e,"use client";
+
+import {
+  RiArrowDownSLine,
+  RiArrowLeftSLine,
+  RiArrowRightSLine,
+  RiCalendarLine,
+} from "@remixicon/react";
+import { motion } from "motion/react";
+import { type ReactNode, useEffect, useRef, useState } from "react";
+import {
+  SegmentedControl,
+  SegmentedControlItem,
+} from "../../base/segmented-control/segmented-control";
+import { Select, SelectItem } from "../../base/select/select";
+import { useHydratedReducedMotion } from "../../hooks/use-hydrated-reduced-motion";
+import { cx } from "../../utils/cx";
+import { formatNumber } from "./chart-card";
+
+export const PALETTE = [2, 6, 5, 3, 8, 7, 1, 4, 9];
+export const ink = (index: number) => `var(--color-chart-${PALETTE[index % PALETTE.length]})`;
+export const safeRatio = (value: number, max: number) =>
+  Number.isFinite(value) && max > 0 ? Math.min(1, Math.max(0, value / max)) : 0;
+export const numeric = (value: unknown) =>
+  typeof value === "number" && Number.isFinite(value) ? value : 0;
+export const sum = (values: number[]) => values.reduce((total, value) => total + numeric(value), 0);
+export const average = (values: number[]) => (values.length ? sum(values) / values.length : 0);
+export const shortNumber = (value: number) =>
+  Math.abs(value) >= 1000 ? `${+(value / 1000).toFixed(1)}K` : `${+value.toFixed(1)}`;
+export const MONTHS = [
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
+  "May",
+  "Jun",
+  "Jul",
+  "Aug",
+  "Sep",
+  "Oct",
+  "Nov",
+  "Dec",
+];
+export const DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+export const chartAxis = {
+  tickLine: false,
+  axisLine: false,
+  tick: { fontSize: 12, fill: "var(--color-text-tertiary)" },
+} as const;
+export interface ChartRange {
+  id: string;
+  label: string;
+  delta?: number;
+  headline?: number;
+}
+export interface ChartCommonProps {
+  title?: string;
+  headline?: number;
+  delta?: number;
+  range?: string;
+  defaultRange?: string;
+  onRangeChange?: (id: string) => void;
+  className?: string;
+  format?: (value: number) => string;
+}
+export function useChartRange<T extends ChartRange>(
+  ranges: T[] | undefined,
+  defaultRange?: string,
+  onChange?: (id: string) => void,
+) {
+  const [selected, setSelected] = useState(defaultRange ?? ranges?.[0]?.id);
+  const current = ranges?.find((range) => range.id === selected) ?? ranges?.[0];
+  const select = (id: string) => {
+    setSelected(id);
+    onChange?.(id);
+  };
+  return { current, id: current?.id, select };
+}
+export function PeriodSelect({
+  ranges,
+  selected,
+  onChange,
+  label = "This year",
+}: {
+  ranges?: ChartRange[];
+  selected?: string;
+  onChange: (id: string) => void;
+  label?: string;
+}) {
+  const content = (
+    <>
+      <RiCalendarLine className="size-4 shrink-0 text-text-secondary" />
+      <span>{label}</span>
+    </>
+  );
+  if (!ranges?.length)
+    return (
+      <span className="flex h-8 shrink-0 items-center gap-1.5 rounded-2lg border border-border-button-default bg-background-primary-default px-2 text-body-medium text-text-primary shadow-xs">
+        {content}
+      </span>
+    );
+  return (
+    <Select
+      aria-label="Change period"
+      selectedKey={selected}
+      onSelectionChange={(key) => key != null && onChange(String(key))}
+      triggerClassName="h-8 pl-2 pr-1.5 py-1 text-body-medium"
+      className="shrink-0"
+      renderValue={<span className="flex items-center gap-1.5">{content}</span>}
+      renderIndicator={(open) => (
+        <RiArrowDownSLine
+          className={cx(
+            "size-4 shrink-0 text-text-secondary transition-transform duration-200 ease-out",
+            open && "rotate-180",
+          )}
+        />
+      )}
+    >
+      <>
+        {ranges.map((range) => (
+          <SelectItem key={range.id} id={range.id}>
+            {range.label}
+          </SelectItem>
+        ))}
+      </>
+    </Select>
+  );
+}
+export function PeriodTabs({
+  ranges,
+  selected,
+  onChange,
+  plain = false,
+}: {
+  ranges: ChartRange[];
+  selected?: string;
+  onChange: (id: string) => void;
+  plain?: boolean;
+}) {
+  return (
+    <SegmentedControl
+      aria-label="Chart period"
+      variant={plain ? "plain" : "solid"}
+      className={cx("shrink-0 bg-transparent", plain && "[&>button]:py-0")}
+      selectedKeys={selected ? [selected] : []}
+      onSelectionChange={(keys) => {
+        const id = [...keys][0];
+        if (id != null) onChange(String(id));
+      }}
+    >
+      {ranges.map((range) => (
+        <SegmentedControlItem id={range.id} key={range.id}>
+          {range.label}
+        </SegmentedControlItem>
+      ))}
+    </SegmentedControl>
+  );
+}
+export function WeekSwitcher({
+  label,
+  onPrevious,
+  onNext,
+}: {
+  label: string;
+  onPrevious: () => void;
+  onNext: () => void;
+}) {
+  return (
+    <div className="flex h-8 shrink-0 items-center gap-1 rounded-2lg border border-border-button-default bg-background-primary-default px-1 shadow-xs">
+      <button
+        type="button"
+        aria-label="Previous period"
+        onClick={onPrevious}
+        className="rounded-md text-text-secondary outline-none focus-visible:ring-2 focus-visible:ring-border-focus-ring"
+      >
+        <RiArrowLeftSLine className="size-4" />
+      </button>
+      <span className="min-w-20 text-center text-body-medium text-text-primary">{label}</span>
+      <button
+        type="button"
+        aria-label="Next period"
+        onClick={onNext}
+        className="rounded-md text-text-secondary outline-none focus-visible:ring-2 focus-visible:ring-border-focus-ring"
+      >
+        <RiArrowRightSLine className="size-4" />
+      </button>
+    </div>
+  );
+}
+export function AnimatedNumber({
+  value,
+  format = formatNumber,
+}: {
+  value: number;
+  format?: (value: number) => string;
+}) {
+  const reduced = useHydratedReducedMotion();
+  const [display, setDisplay] = useState(value);
+  const current = useRef(value);
+  useEffect(() => {
+    if (reduced) {
+      current.current = value;
+      setDisplay(value);
+      return;
+    }
+    const from = current.current,
+      start = performance.now();
+    let frame = 0;
+    const tick = (time: number) => {
+      const t = Math.min(1, (time - start) / 300);
+      current.current = from + (value - from) * (1 - (1 - t) ** 3);
+      setDisplay(current.current);
+      if (t < 1) frame = requestAnimationFrame(tick);
+    };
+    frame = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(frame);
+  }, [value, reduced]);
+  return <>{format(reduced ? value : display)}</>;
+}
+export function ChartFrame({
+  title,
+  value,
+  delta,
+  format,
+  suffix,
+  action,
+  children,
+  className,
+  height,
+  footer,
+  heading,
+}: {
+  title: string;
+  value?: number;
+  delta?: number;
+  format?: (value: number) => string;
+  suffix?: ReactNode;
+  action?: ReactNode;
+  children: ReactNode;
+  className?: string;
+  height?: number;
+  footer?: ReactNode;
+  heading?: ReactNode;
+}) {
+  return (
+    <section
+      className={cx(
+        "flex w-full min-w-0 flex-col gap-4 rounded-2xl bg-background-secondary-default px-4 pt-4 pb-3",
+        className,
+      )}
+      style={height ? { height } : undefined}
+    >
+      <div className="flex w-full flex-wrap items-start justify-between gap-3">
+        <div className="flex min-w-0 flex-1 flex-col gap-0.5">
+          <p className="truncate text-body-medium text-text-secondary">{title}</p>
+          <div className="flex items-center gap-2">
+            <p className="whitespace-nowrap text-title-1-medium text-text-primary tabular-nums">
+              {heading ?? (value != null && <AnimatedNumber value={value} format={format} />)}
+              {suffix && (
+                <span className="ml-1 text-caption-1-medium text-text-secondary">{suffix}</span>
+              )}
+            </p>
+            {delta != null && (
+              <span
+                className={cx(
+                  "rounded-md px-1.5 py-0.5 text-body-medium whitespace-nowrap",
+                  delta >= 0
+                    ? "bg-status-lime-background text-status-lime-text"
+                    : "bg-status-rose-background text-status-rose-text",
+                )}
+              >
+                {delta > 0 ? "+" : ""}
+                {+(delta * 100).toFixed(1)}%
+              </span>
+            )}
+          </div>
+        </div>
+        {action}
+      </div>
+      {children}
+      {footer}
+    </section>
+  );
+}
+export interface StatTile {
+  label: string;
+  value: ReactNode;
+  color?: string;
+}
+export function StatTiles({
+  items,
+  active,
+  onHover,
+  columns = 3,
+}: {
+  items: StatTile[];
+  columns?: number;
+  active?: number | null;
+  onHover?: (index: number | null) => void;
+}) {
+  return (
+    <div className="-mx-2 -mb-1 flex flex-wrap gap-2">
+      {items.map((item, index) => (
+        <div
+          key={item.label}
+          tabIndex={onHover ? 0 : undefined}
+          onMouseEnter={() => onHover?.(index)}
+          onMouseLeave={() => onHover?.(null)}
+          onFocus={() => onHover?.(index)}
+          onBlur={() => onHover?.(null)}
+          className="flex min-w-0 flex-auto basis-[calc(33.333%-8px)] flex-col gap-px rounded-2lg bg-background-inner-default px-2.5 py-2 outline-none transition-opacity duration-200 motion-reduce:transition-none focus-visible:ring-2 focus-visible:ring-border-focus-ring"
+          style={{
+            opacity: active != null && active !== index ? 0.35 : 1,
+            flexBasis: `calc(${100 / columns}% - 8px)`,
+          }}
+        >
+          <span className="flex items-center gap-1.5 truncate text-body-regular text-text-secondary">
+            {item.color && (
+              <span className="size-3 shrink-0 rounded-[4px]" style={{ background: item.color }} />
+            )}
+            {item.label}
+          </span>
+          <span className="text-body-medium text-text-primary tabular-nums">{item.value}</span>
+        </div>
+      ))}
+    </div>
+  );
+}
+export function PulseDot({ cx: x, cy: y, stroke }: { cx?: number; cy?: number; stroke?: string }) {
+  const reduced = useHydratedReducedMotion();
+  if (x == null || y == null) return null;
+  return (
+    <g>
+      <motion.circle
+        key={reduced ? "reduced" : "animated"}
+        cx={x}
+        cy={y}
+        fill={stroke}
+        initial={false}
+        animate={reduced ? { r: 7, opacity: 0.2 } : { r: [5, 11, 5], opacity: [0.25, 0, 0.25] }}
+        transition={reduced ? { duration: 0 } : { duration: 1.6, repeat: Infinity }}
+      />
+      <circle
+        cx={x}
+        cy={y}
+        r={3.5}
+        fill={stroke}
+        stroke="var(--color-background-inner-default)"
+        strokeWidth={2}
+      />
+    </g>
+  );
+}
+20:T311f,"use client";
+
+import {
+  RiArrowLeftSLine,
+  RiArrowRightSLine,
+  RiCheckLine,
+  RiEditBoxLine,
+  RiShareBoxLine,
+} from "@remixicon/react";
+import { motion } from "motion/react";
+import { useId, useState } from "react";
+import { Dialog, Heading, Modal, ModalOverlay } from "react-aria-components";
+import { Avatar } from "../../base/avatar/avatar";
+import { Chip } from "../../base/badges/chip";
+import { Button } from "../../base/buttons/button";
+import { Input } from "../../base/input/input";
+import { useHydratedReducedMotion } from "../../hooks/use-hydrated-reduced-motion";
+import { CONTRIBUTIONS_DATA, ContributionsCard } from "../charts/contributions-card";
+import { TemplateShell } from "./template-shell";
+
+export interface AIProfileData {
+  name: string;
+  handle: string;
+  cover: string;
+  avatar?: string;
+}
+export interface AIProfileProps {
+  profile?: AIProfileData;
+  onProfileChange?: (profile: AIProfileData) => void;
+  contained?: boolean;
+  className?: string;
+}
+const DEFAULT_PROFILE: AIProfileData = {
+  name: "Mertcan Esmergül",
+  handle: "sitenley",
+  cover: "/templates/ai-profile-cover.png",
+};
+const MONTHS = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
+
+function ProfileHistory({ kind }: { kind: "agents" | "tokens" }) {
+  const [month, setMonth] = useState(11);
+  const [active, setActive] = useState<number | null>(null);
+  const reduced = useHydratedReducedMotion();
+  const id = useId();
+  const values = Array.from({ length: 30 }, (_, i) =>
+    kind === "agents"
+      ? ((i * 17 + month * 3) % 18) + 1
+      : 8 + ((i * 19 + month * 11) % 22) + Math.sin(i / 2) * 5,
+  );
+  const maximum = Math.max(...values);
+  const width = 648,
+    height = kind === "agents" ? 221 : 171;
+  const points = values.map((value, i) => [
+    (i * width) / 29,
+    height - (value / maximum) * (height - 10),
+  ]);
+  const line = points.map(([x, y], i) => `${i ? "L" : "M"}${x},${y}`).join(" ");
+  const headline =
+    active === null
+      ? kind === "agents"
+        ? "32 agents"
+        : "667.7M tokens"
+      : kind === "agents"
+        ? `${values[active]} agents`
+        : `${values[active].toFixed(1)}M tokens`;
+  return (
+    <section className="flex flex-col gap-3 rounded-[20px] bg-background-secondary-default px-2.5 py-3">
+      <div className="flex items-start justify-between gap-3 px-1.5">
+        <div>
+          <p className="text-body-medium text-text-secondary">
+            {kind === "agents" ? "Agents" : "Tokens"}
+          </p>
+          <div className="flex items-center gap-2">
+            <p className="text-title-2-medium text-text-secondary tabular-nums">{headline}</p>
+            {kind === "tokens" && <Chip color="purple">+9.4%</Chip>}
+          </div>
+        </div>
+        {kind === "agents" && (
+          <div className="flex items-center rounded-2lg border border-border-button-default bg-background-primary-default shadow-xs">
+            <button
+              type="button"
+              aria-label="Previous month"
+              onClick={() => {
+                setMonth((value) => (value + 11) % 12);
+                setActive(null);
+              }}
+              className="cursor-pointer rounded-l-2lg p-1 text-text-secondary"
+            >
+              <RiArrowLeftSLine className="size-4" />
+            </button>
+            <span className="px-1 text-body-medium text-text-primary">{MONTHS[month]}</span>
+            <button
+              type="button"
+              aria-label="Next month"
+              onClick={() => {
+                setMonth((value) => (value + 1) % 12);
+                setActive(null);
+              }}
+              className="cursor-pointer rounded-r-2lg p-1 text-text-secondary"
+            >
+              <RiArrowRightSLine className="size-4" />
+            </button>
+          </div>
+        )}
+      </div>
+      <div className="relative" style={{ height }}>
+        {kind === "agents" ? (
+          <div className="flex h-full items-end gap-1.5">
+            {values.map((value, i) => (
+              <button
+                key={`day-${i + 1}`}
+                type="button"
+                aria-label={`Day ${i + 1}: ${value} agents`}
+                onMouseEnter={() => setActive(i)}
+                onMouseLeave={() => setActive(null)}
+                onFocus={() => setActive(i)}
+                onBlur={() => setActive(null)}
+                className="relative h-full min-w-0 flex-1 rounded-sm outline-none focus-visible:ring-2 focus-visible:ring-border-focus-ring"
+              >
+                <motion.span
+                  key={`${month}-${reduced}`}
+                  initial={reduced ? false : { height: 0 }}
+                  animate={{
+                    height: `${(value / maximum) * 90}%`,
+                    opacity: active !== null && active !== i ? 0.3 : 1,
+                  }}
+                  transition={{ duration: reduced ? 0 : 0.65, delay: reduced ? 0 : i * 0.012 }}
+                  className="absolute inset-x-0 bottom-0 rounded-sm bg-chart-5"
+                />
+              </button>
+            ))}
+          </div>
+        ) : (
+          <>
+            <svg
+              viewBox={`0 0 ${width} ${height}`}
+              preserveAspectRatio="none"
+              className="h-full w-full"
+              role="img"
+              aria-label="Token use over the last 30 days"
+            >
+              <defs>
+                <linearGradient id={id} x1="0" x2="0" y1="0" y2="1">
+                  <stop stopColor="var(--color-chart-5)" stopOpacity=".35" />
+                  <stop offset="1" stopColor="var(--color-chart-5)" stopOpacity="0" />
+                </linearGradient>
+              </defs>
+              <motion.path
+                key={`fill-${reduced}`}
+                d={`${line} L${width},${height} L0,${height} Z`}
+                fill={`url(#${id})`}
+                initial={reduced ? false : { opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: reduced ? 0 : 0.8 }}
+              />
+              <motion.path
+                key={`line-${reduced}`}
+                d={line}
+                fill="none"
+                stroke="var(--color-chart-5)"
+                strokeWidth={2}
+                initial={reduced ? false : { pathLength: 0 }}
+                animate={{ pathLength: 1 }}
+                transition={{ duration: reduced ? 0 : 1.2, ease: "easeOut" }}
+              />
+              {active !== null && (
+                <circle
+                  cx={points[active][0]}
+                  cy={points[active][1]}
+                  r={4}
+                  fill="var(--color-chart-5-active)"
+                  stroke="var(--color-background-full)"
+                  strokeWidth={2}
+                />
+              )}
+            </svg>
+            <div className="absolute inset-0 flex">
+              {values.map((value, i) => (
+                <button
+                  key={`day-${i + 1}`}
+                  type="button"
+                  aria-label={`Day ${i + 1}: ${value.toFixed(1)} million tokens`}
+                  onMouseEnter={() => setActive(i)}
+                  onMouseLeave={() => setActive(null)}
+                  onFocus={() => setActive(i)}
+                  onBlur={() => setActive(null)}
+                  className="h-full flex-1 outline-none focus-visible:ring-2 focus-visible:ring-border-focus-ring"
+                />
+              ))}
+            </div>
+          </>
+        )}
+      </div>
+      <div className="flex justify-between px-1.5 text-caption-1-regular text-text-tertiary">
+        <span>Jun 14</span>
+        <span>Today</span>
+      </div>
+    </section>
+  );
+}
+
+export function AIProfile({
+  profile: supplied,
+  onProfileChange,
+  contained,
+  className,
+}: AIProfileProps = {}) {
+  const [local, setLocal] = useState(DEFAULT_PROFILE);
+  const profile = supplied ?? local;
+  const [draft, setDraft] = useState(profile);
+  const [editing, setEditing] = useState(false);
+  const [copied, setCopied] = useState(false);
+  const [shareError, setShareError] = useState("");
+  const share = async () => {
+    try {
+      await navigator.clipboard.writeText(window.location.href);
+      setCopied(true);
+    } catch {
+      setShareError("Copy the URL from your browser’s address bar to share this profile.");
+    }
+  };
+  return (
+    <TemplateShell
+      title="Profile"
+      selected="profile"
+      hideHeader
+      contained={contained}
+      className={className}
+      columnClassName="max-w-[680px] gap-4 sm:pb-6"
+    >
+      <section className="relative w-full overflow-hidden rounded-3xl border border-border-ai-profile-card bg-background-full">
+        <img src={profile.cover} alt="" className="h-[165px] w-full object-cover" />
+        <div className="relative px-4 pt-4">
+          <div className="absolute -top-10 left-4">
+            <Avatar
+              size="lg"
+              src={profile.avatar}
+              initials={profile.name[0]}
+              alt={profile.name}
+              className="size-20"
+            />
+          </div>
+          <div className="flex justify-end gap-2">
+            <Button
+              variant="secondary"
+              size="small"
+              leadingIcon={copied ? RiCheckLine : RiShareBoxLine}
+              onClick={share}
+            >
+              {copied ? "Copied" : "Share"}
+            </Button>
+            <Button
+              variant="secondary"
+              size="small"
+              leadingIcon={RiEditBoxLine}
+              onClick={() => {
+                setDraft(profile);
+                setEditing(true);
+              }}
+            >
+              Edit
+            </Button>
+          </div>
+          <h1 className="mt-1 text-title-2-medium text-text-primary">{profile.name}</h1>
+          <div className="mt-0.5 flex items-center gap-1.5">
+            <p className="text-headline-medium text-text-secondary">@{profile.handle}</p>
+            <Chip color="neutral">PRO</Chip>
+          </div>
+          {shareError && (
+            <p role="status" className="pt-2 text-body-2-regular text-text-secondary">
+              {shareError}
+            </p>
+          )}
+        </div>
+        <ContributionsCard
+          headline={7462}
+          data={CONTRIBUTIONS_DATA}
+          className="rounded-none bg-background-full [&_div.bg-background-inner-default]:bg-background-secondary-default"
+        />
+      </section>
+      <ProfileHistory kind="agents" />
+      <ProfileHistory kind="tokens" />
+      <ModalOverlay
+        isOpen={editing}
+        onOpenChange={setEditing}
+        isDismissable
+        className="fixed inset-0 z-50 flex items-center justify-center bg-background-modal-overlay p-4 backdrop-blur-sm"
+      >
+        <Modal className="w-full max-w-md rounded-3xl border border-border-button-default bg-background-primary-default p-6 shadow-dropdown">
+          <Dialog className="outline-none">
+            <form
+              onSubmit={(event) => {
+                event.preventDefault();
+                const next = {
+                  ...draft,
+                  name: draft.name.trim(),
+                  handle: draft.handle.replace(/^@/, "").trim(),
+                };
+                if (!next.name || !next.handle) return;
+                setLocal(next);
+                onProfileChange?.(next);
+                setEditing(false);
+              }}
+              className="flex flex-col gap-4"
+            >
+              <Heading slot="title" className="text-title-3-medium text-text-primary">
+                Edit profile
+              </Heading>
+              <Input
+                label="Name"
+                value={draft.name}
+                onChange={(name) => setDraft({ ...draft, name })}
+                isRequired
+              />
+              <Input
+                label="Username"
+                value={draft.handle}
+                onChange={(handle) => setDraft({ ...draft, handle })}
+                isRequired
+              />
+              <Input
+                label="Cover image URL"
+                value={draft.cover}
+                onChange={(cover) => setDraft({ ...draft, cover })}
+              />
+              <div className="flex justify-end gap-2">
+                <Button variant="secondary" onClick={() => setEditing(false)}>
+                  Cancel
+                </Button>
+                <Button type="submit">Save changes</Button>
+              </div>
+            </form>
+          </Dialog>
+        </Modal>
+      </ModalOverlay>
+    </TemplateShell>
+  );
+}
+21:T1b84,"use client";
+
+import {
+  RiAddLine,
+  RiCloseLine,
+  RiFilter3Fill,
+  RiGroupLine,
+  RiHomeLine,
+  RiMenuLine,
+} from "@remixicon/react";
+import { type ComponentType, type ReactNode, useEffect, useRef, useState } from "react";
+import { Avatar } from "../../base/avatar/avatar";
+import { Breadcrumb, BreadcrumbItem } from "../../base/breadcrumb/breadcrumb";
+import { Button } from "../../base/buttons/button";
+import { IconButton } from "../../base/buttons/icon-button";
+import { cx } from "../../utils/cx";
+import { NotificationBell } from "../app-shell/notification-bell";
+import { DASHBOARD_NAV, DashboardSidebar } from "../dashboard/dashboard-sidebar";
+
+export interface TemplateShellProps {
+  title: string;
+  heading?: string;
+  selected?: string;
+  action?: string;
+  onAction?: () => void;
+  actions?: ReactNode;
+  children: ReactNode;
+  contained?: boolean;
+  className?: string;
+  columnClassName?: string;
+  hideHeader?: boolean;
+  icon?: ComponentType<{ className?: string; "aria-hidden"?: boolean | "true" | "false" }>;
+}
+
+/** The floating navigation and 1300px content column shared by dashboard templates. */
+export function TemplateShell({
+  title,
+  heading = title,
+  selected = "home",
+  action = "Create ticket",
+  onAction,
+  actions,
+  children,
+  contained,
+  className,
+  columnClassName,
+  hideHeader,
+  icon: Icon = RiHomeLine,
+}: TemplateShellProps) {
+  const [navOpen, setNavOpen] = useState(false);
+  const [filtersOpen, setFiltersOpen] = useState(false);
+  const closeRef = useRef<HTMLButtonElement>(null);
+  useEffect(() => {
+    if (!navOpen) return;
+    closeRef.current?.focus();
+    const close = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setNavOpen(false);
+    };
+    window.addEventListener("keydown", close);
+    return () => window.removeEventListener("keydown", close);
+  }, [navOpen]);
+  const nav = [
+    ...DASHBOARD_NAV,
+    // The library intentionally adds its HR template to the reference navigation.
+    { key: "hr", label: "HR Team", icon: RiGroupLine, href: "/templates/hr" },
+  ];
+  return (
+    <div
+      className={cx(
+        "relative flex w-full bg-background-full",
+        contained ? "h-full min-h-[600px] overflow-hidden" : "min-h-dvh",
+        className,
+      )}
+    >
+      <div
+        className={cx(
+          "hidden shrink-0 py-3 pl-3 lg:block",
+          contained ? "h-full" : "sticky top-0 h-dvh",
+        )}
+      >
+        <DashboardSidebar items={nav} selected={selected} />
+      </div>
+      {navOpen && (
+        <div className={cx("inset-0 z-40 lg:hidden", contained ? "absolute" : "fixed")}>
+          <button
+            type="button"
+            aria-label="Close navigation overlay"
+            onClick={() => setNavOpen(false)}
+            className="absolute inset-0 bg-background-modal-overlay backdrop-blur-sm"
+          />
+          <div className="relative h-full w-[284px] p-3">
+            <DashboardSidebar
+              mobile
+              items={nav}
+              selected={selected}
+              onClose={() => setNavOpen(false)}
+            />
+          </div>
+          <button
+            type="button"
+            ref={closeRef}
+            onClick={() => setNavOpen(false)}
+            aria-label="Close navigation"
+            className="absolute top-5 left-[290px] rounded-full bg-background-primary-default p-2 text-text-primary"
+          >
+            <RiCloseLine className="size-5" />
+          </button>
+        </div>
+      )}
+      <main
+        className={cx(
+          "relative flex min-w-0 flex-1 justify-center bg-background-full p-3 sm:pt-6",
+          contained && "overflow-y-auto",
+        )}
+      >
+        <div className={cx("flex w-full max-w-[1300px] flex-col gap-4 pb-4", columnClassName)}>
+          {/* The header has a 10px following gap; content rows remain 16px apart. */}
+          {!hideHeader && (
+            <header className="-mb-1.5 flex w-full flex-col gap-2">
+              <Breadcrumb>
+                <BreadcrumbItem href="/templates/dashboard">
+                  <Avatar size="xs" color="blue" initials="B" />
+                  Board team
+                </BreadcrumbItem>
+                <BreadcrumbItem href="/templates/ai-profile">
+                  <Avatar size="xs" initials="M" />
+                  Mertcan
+                </BreadcrumbItem>
+                <BreadcrumbItem current icon={Icon}>
+                  {title}
+                </BreadcrumbItem>
+              </Breadcrumb>
+              <div className="flex w-full flex-wrap items-end justify-between gap-2">
+                <div className="flex min-w-0 items-center gap-1.5">
+                  <IconButton
+                    icon={RiMenuLine}
+                    className="lg:hidden"
+                    aria-label="Open navigation"
+                    onClick={() => setNavOpen(true)}
+                  />
+                  <h1 className="px-1 text-title-2-medium text-text-primary">{heading}</h1>
+                </div>
+                <div className="flex flex-wrap items-center justify-end gap-2.5">
+                  {actions !== undefined ? (
+                    actions
+                  ) : (
+                    <>
+                      <NotificationBell />
+                      <Button
+                        variant="secondary"
+                        leadingIcon={RiFilter3Fill}
+                        onClick={() => setFiltersOpen((open) => !open)}
+                        aria-expanded={filtersOpen}
+                      >
+                        Filters
+                      </Button>
+                      {onAction && (
+                        <Button leadingIcon={RiAddLine} onClick={onAction}>
+                          {action}
+                        </Button>
+                      )}
+                    </>
+                  )}
+                </div>
+              </div>
+              {filtersOpen && (
+                <div className="flex items-center justify-between gap-3 rounded-xl bg-background-secondary-default px-4 py-3 text-body-regular text-text-secondary">
+                  <span>
+                    Use each chart’s period menu and the table filters below to explore this view.
+                  </span>
+                  <Button
+                    size="small"
+                    variant="secondary"
+                    onClick={() => {
+                      document
+                        .querySelector("main section:last-child")
+                        ?.scrollIntoView({ behavior: "smooth" });
+                      setFiltersOpen(false);
+                    }}
+                  >
+                    Go to records
+                  </Button>
+                </div>
+              )}
+            </header>
+          )}
+          {hideHeader && (
+            <div className="lg:hidden">
+              <IconButton
+                icon={RiMenuLine}
+                aria-label="Open navigation"
+                onClick={() => setNavOpen(true)}
+              />
+            </div>
+          )}
+          {children}
+        </div>
+      </main>
+    </div>
+  );
+}
+3:["$","$L1e",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"ai-profile","title":"AI Profile","description":"An editable agent profile with contribution history, agent activity and token usage","category":"templates","tags":["ai","profile","contributions"],"status":"stable","tier":"free","isNew":true,"dependencies":["@internationalized/date","@remixicon/react","motion","react-aria-components","tailwind-merge"],"registryDependencies":["app-shell","avatar","badge","breadcrumb","button","chart-card","checkbox","chevrons","chip","close-button","contributions-card","cx","date-picker","dropdown","file-upload","icon-button","input","kbd","notification-center","pagination","segmented-control","select","settings-modal","sidebar","switch","tabs","theme-toggle","tokens","tooltip","use-count-up","use-dismiss-on-outside-press"],"files":[{"path":"application/charts/pro-chart.tsx","target":"components/application/charts/pro-chart.tsx","type":"component","content":"$1f"},{"path":"application/templates/ai-profile.tsx","target":"components/application/templates/ai-profile.tsx","type":"component","content":"$20"},{"path":"application/templates/template-shell.tsx","target":"components/application/templates/template-shell.tsx","type":"component","content":"$21"},{"path":"hooks/use-hydrated-reduced-motion.ts","target":"hooks/use-hydrated-reduced-motion.ts","type":"hook","content":"\"use client\";\n\nimport { useReducedMotion } from \"motion/react\";\nimport { useSyncExternalStore } from \"react\";\n\nconst subscribe = () => () => {};\nconst clientSnapshot = () => true;\nconst serverSnapshot = () => false;\n\n/** Keep the first server/client render identical, then apply the user's motion preference. */\nexport function useHydratedReducedMotion(): boolean {\n  const reduced = useReducedMotion();\n  const hydrated = useSyncExternalStore(subscribe, clientSnapshot, serverSnapshot);\n  return hydrated && reduced === true;\n}\n"},{"path":"public/templates/ai-profile-cover.png","target":"public/templates/ai-profile-cover.png","type":"asset","encoding":"base64"}],"hash":"364ee994b6df"},"demoSource":"\"use client\";\n\nimport { AIProfile } from \"@/components/application/templates/ai-profile\";\n\nexport default function Demo() { return <div className=\"h-[900px] w-[1440px] max-w-none\"><AIProfile contained /></div>; }","previous":{"name":"medical-profile","title":"Medical Profile"},"next":{"name":"ai-chat","title":"AI Chat"}}]
+4:["$","script","script-0",{"src":"/_next/static/chunks/3l5f3qnr89rl0.js","async":true}]
+5:["$","script","script-1",{"src":"/_next/static/chunks/0wmbfrsxfdesk.js","async":true}]
+6:["$","script","script-2",{"src":"/_next/static/chunks/3ixdl2m026on9.js","async":true}]
+7:["$","script","script-3",{"src":"/_next/static/chunks/3xa-hzf5c_c6n.js","async":true}]
+8:["$","script","script-4",{"src":"/_next/static/chunks/1zihipy0kqa1_.js","async":true}]
+9:["$","script","script-5",{"src":"/_next/static/chunks/0-afrvt74ak7l.js","async":true}]
+a:["$","script","script-6",{"src":"/_next/static/chunks/0337601gswv_s.js","async":true}]
+b:["$","script","script-7",{"src":"/_next/static/chunks/34zl6f3dq0u0q.js","async":true}]
+c:["$","script","script-8",{"src":"/_next/static/chunks/2az_x4uxpy3sm.js","async":true}]
+d:["$","script","script-9",{"src":"/_next/static/chunks/23ywcyogzmwlv.js","async":true}]
+e:["$","script","script-10",{"src":"/_next/static/chunks/2qg2knl-9_2le.js","async":true}]
+f:["$","script","script-11",{"src":"/_next/static/chunks/1wypk9kc4p_mt.js","async":true}]
+10:["$","$L22",null,{"children":["$","$23",null,{"name":"Next.MetadataOutlet","children":"$@24"}]}]
+13:["$","$1","h",{"children":[null,["$","$L25",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L26",null,{"children":["$","$23",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"AI Profile — Zeus UI"}],["$","meta","1",{"name":"description","content":"An editable agent profile with contribution history, agent activity and token usage"}],["$","meta","2",{"name":"keywords","content":"ai,profile,contributions"}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+15:["$","$1","c",{"children":[null,["$","$L27",null,{"parallelRouterKey":"children","template":["$","$L28",null,{}]}]]}]
+18:["$","$1","c",{"children":[null,["$","$L27",null,{"parallelRouterKey":"children","template":["$","$L28",null,{}]}]]}]
+1a:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16_ml9va511u1.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1lom8-olk25vh.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/0by1pam5w7cuf.js","async":true}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L29",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L27",null,{"parallelRouterKey":"children","template":["$","$L28",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]]}]}]]}]
+24:null
+1d:true
+12:300
+12:C
+1c:0
+14:"$undefined"
+16:"$undefined"
+19:"$undefined"
+1b:"$undefined"
+11:"$undefined"

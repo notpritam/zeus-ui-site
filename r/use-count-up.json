@@ -1,0 +1,36 @@
+{
+  "$schema": "https://myzeusui.com/schema/registry-item.json",
+  "name": "use-count-up",
+  "title": "useCountUp",
+  "description": "Animates a number toward a target, respecting prefers-reduced-motion.",
+  "category": "foundations",
+  "tags": [
+    "hook",
+    "animation",
+    "number",
+    "counter"
+  ],
+  "status": "stable",
+  "tier": "free",
+  "dependencies": [
+    "motion"
+  ],
+  "registryDependencies": [
+    "tokens"
+  ],
+  "files": [
+    {
+      "path": "hooks/use-count-up.ts",
+      "target": "hooks/use-count-up.ts",
+      "type": "hook",
+      "content": "\"use client\";\n\nimport { useEffect, useRef, useState } from \"react\";\nimport { useHydratedReducedMotion } from \"./use-hydrated-reduced-motion\";\n\nconst easeOutCubic = (t: number) => 1 - (1 - t) ** 3;\n\n/**\n * Rolls the displayed number from its current value to `target` with an\n * ease-out curve. Used by the dashboard chart cards so headline figures\n * animate when the dataset or the hovered point changes.\n */\nexport function useCountUp(target: number, duration = 320) {\n  const reduced = useHydratedReducedMotion();\n  const [display, setDisplay] = useState(target);\n  const fromRef = useRef(target);\n\n  useEffect(() => {\n    if (reduced || duration <= 0) {\n      fromRef.current = target;\n      setDisplay(target);\n      return;\n    }\n    const from = fromRef.current;\n    if (from === target) return;\n    const start = performance.now();\n    let raf = 0;\n    const tick = (now: number) => {\n      const t = Math.min(1, (now - start) / duration);\n      const value = Math.round(from + (target - from) * easeOutCubic(t));\n      fromRef.current = value;\n      setDisplay(value);\n      if (t < 1) raf = requestAnimationFrame(tick);\n      else fromRef.current = target;\n    };\n    raf = requestAnimationFrame(tick);\n    return () => cancelAnimationFrame(raf);\n  }, [target, duration, reduced]);\n\n  return reduced || duration <= 0 ? target : display;\n}\n"
+    },
+    {
+      "path": "hooks/use-hydrated-reduced-motion.ts",
+      "target": "hooks/use-hydrated-reduced-motion.ts",
+      "type": "hook",
+      "content": "\"use client\";\n\nimport { useReducedMotion } from \"motion/react\";\nimport { useSyncExternalStore } from \"react\";\n\nconst subscribe = () => () => {};\nconst clientSnapshot = () => true;\nconst serverSnapshot = () => false;\n\n/** Keep the first server/client render identical, then apply the user's motion preference. */\nexport function useHydratedReducedMotion(): boolean {\n  const reduced = useReducedMotion();\n  const hydrated = useSyncExternalStore(subscribe, clientSnapshot, serverSnapshot);\n  return hydrated && reduced === true;\n}\n"
+    }
+  ],
+  "hash": "36a2259fce77"
+}

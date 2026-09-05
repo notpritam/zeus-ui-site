@@ -1,0 +1,2762 @@
+{
+  "name": "Zeus UI",
+  "version": "0.1.0",
+  "homepage": "https://myzeusui.com",
+  "registry": "https://myzeusui.com/r/registry.json",
+  "mcp": {
+    "command": "npx",
+    "args": [
+      "--yes",
+      "--package=https://myzeusui.com/install/zeus-mcp-0.1.0.tgz",
+      "zeus-mcp"
+    ]
+  },
+  "sdk": {
+    "ui": "https://myzeusui.com/install/sdk/zeus-ui-0.1.0.tgz",
+    "tokens": "https://myzeusui.com/install/sdk/zeus-tokens-0.1.0.tgz",
+    "imports": [
+      "@zeus/ui/base",
+      "@zeus/ui/application",
+      "@zeus/ui/hooks",
+      "@zeus/ui/utils"
+    ],
+    "setup": "@import \"@zeus/tokens\";\n@source \"../node_modules/@zeus/ui/dist\";"
+  },
+  "components": [
+    {
+      "name": "home-dashboard",
+      "title": "Home Dashboard",
+      "description": "An overview workspace with revenue, earnings, recent hires and searchable records",
+      "category": "templates",
+      "tags": [
+        "dashboard",
+        "analytics",
+        "overview"
+      ],
+      "docs": "https://myzeusui.com/components/home-dashboard/",
+      "source": "https://myzeusui.com/r/home-dashboard.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add home-dashboard",
+      "dependencies": [
+        "@internationalized/date",
+        "@remixicon/react",
+        "@tanstack/react-table",
+        "motion",
+        "react-aria-components",
+        "recharts",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "app-shell",
+        "avatar",
+        "badge",
+        "breadcrumb",
+        "button",
+        "chart-card",
+        "checkbox",
+        "chevrons",
+        "chip",
+        "close-button",
+        "contributions-card",
+        "cx",
+        "data-table",
+        "date-picker",
+        "dropdown",
+        "earnings-chart-card",
+        "file-upload",
+        "icon-button",
+        "input",
+        "kbd",
+        "line-chart-card",
+        "notification-center",
+        "pagination",
+        "segmented-control",
+        "select",
+        "settings-modal",
+        "sidebar",
+        "stat-cards",
+        "status-dot",
+        "switch",
+        "table",
+        "tabs",
+        "theme-toggle",
+        "tokens",
+        "tooltip",
+        "use-count-up",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { HomeDashboard } from \"@/components/application/templates/home-dashboard\";\n\nexport default function Demo() { return <div className=\"h-[900px] w-[1440px] max-w-none\"><HomeDashboard contained /></div>; }"
+    },
+    {
+      "name": "finance-dashboard",
+      "title": "Finance Dashboard",
+      "description": "Personal finance workspace with cash flow, investments, spending and transaction records",
+      "category": "templates",
+      "tags": [
+        "dashboard",
+        "finance",
+        "transactions"
+      ],
+      "docs": "https://myzeusui.com/components/finance-dashboard/",
+      "source": "https://myzeusui.com/r/finance-dashboard.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add finance-dashboard",
+      "dependencies": [
+        "@internationalized/date",
+        "@remixicon/react",
+        "motion",
+        "react-aria-components",
+        "recharts",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "app-shell",
+        "avatar",
+        "badge",
+        "breadcrumb",
+        "button",
+        "chart-card",
+        "checkbox",
+        "chevrons",
+        "chip",
+        "close-button",
+        "cx",
+        "date-picker",
+        "dropdown",
+        "file-upload",
+        "heatmap-chart-card",
+        "icon-button",
+        "input",
+        "kbd",
+        "notification-center",
+        "pagination",
+        "radial-chart-card",
+        "sankey-chart-card",
+        "scatter-chart-card",
+        "segmented-control",
+        "select",
+        "settings-modal",
+        "sidebar",
+        "stat-cards",
+        "switch",
+        "table",
+        "tabs",
+        "theme-toggle",
+        "tokens",
+        "tooltip",
+        "use-count-up",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { FinanceDashboard } from \"@/components/application/templates/finance-dashboard\";\n\nexport default function Demo() { return <div className=\"h-[900px] w-[1440px] max-w-none\"><FinanceDashboard contained /></div>; }"
+    },
+    {
+      "name": "marketing-dashboard",
+      "title": "Marketing Dashboard",
+      "description": "Campaign analytics with conversion funnels, channel attribution and campaign management",
+      "category": "templates",
+      "tags": [
+        "dashboard",
+        "marketing",
+        "campaigns"
+      ],
+      "docs": "https://myzeusui.com/components/marketing-dashboard/",
+      "source": "https://myzeusui.com/r/marketing-dashboard.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add marketing-dashboard",
+      "dependencies": [
+        "@internationalized/date",
+        "@remixicon/react",
+        "motion",
+        "react-aria-components",
+        "recharts",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "app-shell",
+        "area-chart-card",
+        "avatar",
+        "badge",
+        "bar-list-card",
+        "breadcrumb",
+        "button",
+        "chart-card",
+        "checkbox",
+        "chevrons",
+        "chip",
+        "close-button",
+        "combo-chart-card",
+        "cx",
+        "date-picker",
+        "dropdown",
+        "file-upload",
+        "funnel-chart-card",
+        "icon-button",
+        "input",
+        "kbd",
+        "notification-center",
+        "pagination",
+        "radial-chart-card",
+        "segmented-control",
+        "select",
+        "settings-modal",
+        "sidebar",
+        "stat-cards",
+        "switch",
+        "table",
+        "tabs",
+        "theme-toggle",
+        "tokens",
+        "tooltip",
+        "use-count-up",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { MarketingDashboard } from \"@/components/application/templates/marketing-dashboard\";\n\nexport default function Demo() { return <div className=\"h-[900px] w-[1440px] max-w-none\"><MarketingDashboard contained /></div>; }"
+    },
+    {
+      "name": "hr-management",
+      "title": "HR Management",
+      "description": "Hiring, engagement and employee management with editable records",
+      "category": "templates",
+      "tags": [
+        "dashboard",
+        "hr",
+        "employees"
+      ],
+      "docs": "https://myzeusui.com/components/hr-management/",
+      "source": "https://myzeusui.com/r/hr-management.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add hr-management",
+      "dependencies": [
+        "@internationalized/date",
+        "@remixicon/react",
+        "motion",
+        "react-aria-components",
+        "recharts",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "app-shell",
+        "avatar",
+        "badge",
+        "bar-list-card",
+        "breadcrumb",
+        "button",
+        "chart-card",
+        "checkbox",
+        "chevrons",
+        "chip",
+        "close-button",
+        "combo-chart-card",
+        "cx",
+        "date-picker",
+        "dropdown",
+        "file-upload",
+        "funnel-chart-card",
+        "icon-button",
+        "input",
+        "kbd",
+        "notification-center",
+        "pagination",
+        "radar-chart-card",
+        "segmented-control",
+        "select",
+        "settings-modal",
+        "sidebar",
+        "stage-bars-card",
+        "stat-cards",
+        "switch",
+        "table",
+        "tabs",
+        "theme-toggle",
+        "tokens",
+        "tooltip",
+        "use-count-up",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { HRManagement } from \"@/components/application/templates/hr-management\";\n\nexport default function Demo() { return <div className=\"h-[900px] w-[1440px] max-w-none\"><HRManagement contained /></div>; }"
+    },
+    {
+      "name": "medical-profile",
+      "title": "Medical Profile",
+      "description": "A patient workspace with health activity, sleep, alerts and patient records",
+      "category": "templates",
+      "tags": [
+        "dashboard",
+        "health",
+        "profile"
+      ],
+      "docs": "https://myzeusui.com/components/medical-profile/",
+      "source": "https://myzeusui.com/r/medical-profile.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add medical-profile",
+      "dependencies": [
+        "@internationalized/date",
+        "@remixicon/react",
+        "motion",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "activity-rings-card",
+        "app-shell",
+        "avatar",
+        "badge",
+        "breadcrumb",
+        "button",
+        "chart-card",
+        "checkbox",
+        "chevrons",
+        "chip",
+        "close-button",
+        "cx",
+        "date-picker",
+        "dropdown",
+        "file-upload",
+        "icon-button",
+        "important-alerts-card",
+        "input",
+        "kbd",
+        "most-active-days-card",
+        "notification-center",
+        "pagination",
+        "patient-info-card",
+        "segmented-control",
+        "select",
+        "settings-modal",
+        "sidebar",
+        "sleep-score-card",
+        "steps-card",
+        "switch",
+        "table",
+        "tabs",
+        "theme-toggle",
+        "tokens",
+        "tooltip",
+        "use-count-up",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { MedicalProfile } from \"@/components/application/templates/medical-profile\";\n\nexport default function Demo() { return <div className=\"h-[900px] w-[1440px] max-w-none\"><MedicalProfile contained /></div>; }"
+    },
+    {
+      "name": "ai-profile",
+      "title": "AI Profile",
+      "description": "An editable agent profile with contribution history, agent activity and token usage",
+      "category": "templates",
+      "tags": [
+        "ai",
+        "profile",
+        "contributions"
+      ],
+      "docs": "https://myzeusui.com/components/ai-profile/",
+      "source": "https://myzeusui.com/r/ai-profile.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add ai-profile",
+      "dependencies": [
+        "@internationalized/date",
+        "@remixicon/react",
+        "motion",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "app-shell",
+        "avatar",
+        "badge",
+        "breadcrumb",
+        "button",
+        "chart-card",
+        "checkbox",
+        "chevrons",
+        "chip",
+        "close-button",
+        "contributions-card",
+        "cx",
+        "date-picker",
+        "dropdown",
+        "file-upload",
+        "icon-button",
+        "input",
+        "kbd",
+        "notification-center",
+        "pagination",
+        "segmented-control",
+        "select",
+        "settings-modal",
+        "sidebar",
+        "switch",
+        "tabs",
+        "theme-toggle",
+        "tokens",
+        "tooltip",
+        "use-count-up",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { AIProfile } from \"@/components/application/templates/ai-profile\";\n\nexport default function Demo() { return <div className=\"h-[900px] w-[1440px] max-w-none\"><AIProfile contained /></div>; }"
+    },
+    {
+      "name": "ai-chat",
+      "title": "AI Chat",
+      "description": "A coding agent workspace with progress, task playback, a code panel and a cancellable backend adapter",
+      "category": "templates",
+      "tags": [
+        "ai",
+        "chat",
+        "agent"
+      ],
+      "docs": "https://myzeusui.com/components/ai-chat/",
+      "source": "https://myzeusui.com/r/ai-chat.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add ai-chat",
+      "dependencies": [
+        "@internationalized/date",
+        "@remixicon/react",
+        "motion",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "agent-log",
+        "agent-progress",
+        "agent-thinking",
+        "avatar",
+        "button",
+        "checkbox",
+        "chevrons",
+        "chip",
+        "composer",
+        "composer-loader",
+        "cx",
+        "date-picker",
+        "dropdown",
+        "file-upload",
+        "icon-button",
+        "input",
+        "pagination",
+        "radio",
+        "select",
+        "settings-modal",
+        "sidebar",
+        "switch",
+        "tabs",
+        "task-list",
+        "theme-toggle",
+        "tokens",
+        "tooltip",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { AIChatTemplate } from \"@/components/application/templates/ai-chat\";\n\nexport default function Demo() { return <div className=\"h-[900px] w-[1440px] max-w-none\"><AIChatTemplate contained /></div>; }"
+    },
+    {
+      "name": "ai-image-generation",
+      "title": "AI Image Generation",
+      "description": "An image workspace with animated generation, a gallery, styles and a cancellable generation adapter",
+      "category": "templates",
+      "tags": [
+        "ai",
+        "image",
+        "generation"
+      ],
+      "docs": "https://myzeusui.com/components/ai-image-generation/",
+      "source": "https://myzeusui.com/r/ai-image-generation.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add ai-image-generation",
+      "dependencies": [
+        "@internationalized/date",
+        "@remixicon/react",
+        "motion",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "agent-log",
+        "agent-progress",
+        "agent-thinking",
+        "ai-chat",
+        "avatar",
+        "button",
+        "checkbox",
+        "chevrons",
+        "chip",
+        "composer",
+        "composer-loader",
+        "cx",
+        "date-picker",
+        "dropdown",
+        "file-upload",
+        "icon-button",
+        "input",
+        "pagination",
+        "radio",
+        "select",
+        "settings-modal",
+        "sidebar",
+        "switch",
+        "tabs",
+        "task-list",
+        "theme-toggle",
+        "tokens",
+        "tooltip",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { AIImageGenerationTemplate } from \"@/components/application/templates/ai-image-generation\";\n\nexport default function Demo() { return <div className=\"h-[900px] w-[1440px] max-w-none\"><AIImageGenerationTemplate contained /></div>; }"
+    },
+    {
+      "name": "agent-progress",
+      "title": "Agent Progress",
+      "description": "Collapsible AI agent progress block for React and Tailwind CSS with animated task states and completion timing",
+      "category": "blocks",
+      "tags": [
+        "interaction",
+        "ai",
+        "agent-progress"
+      ],
+      "docs": "https://myzeusui.com/components/agent-progress/",
+      "source": "https://myzeusui.com/r/agent-progress.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add agent-progress",
+      "dependencies": [
+        "motion",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\nimport { AgentProgress } from \"@/components/application/agent-progress/agent-progress\";\nexport default function AgentProgressDemo() {\n  return (\n    <div className=\"flex min-h-[300px] w-full items-center justify-center\">\n      <AgentProgress />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "calendar",
+      "title": "Calendar",
+      "description": "event chips, details popover, month switcher, and inbox feed",
+      "category": "blocks",
+      "tags": [
+        "interaction",
+        "calendar",
+        "events"
+      ],
+      "docs": "https://myzeusui.com/components/calendar/",
+      "source": "https://myzeusui.com/r/calendar.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add calendar",
+      "dependencies": [
+        "@internationalized/date",
+        "@remixicon/react",
+        "motion",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "app-shell",
+        "avatar",
+        "button",
+        "cx",
+        "date-picker",
+        "dropdown",
+        "icon-button",
+        "input",
+        "notification-center",
+        "segmented-control",
+        "select",
+        "tokens",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\nimport { Calendar } from \"@/components/application/calendar/calendar\";\nexport default function CalendarDemo() {\n  return <Calendar />;\n}"
+    },
+    {
+      "name": "composer",
+      "title": "Composer",
+      "description": "The AI chat composer for React + Tailwind CSS: attachment and model menus, voice and send controls, status bar, and a liquid-glass working state",
+      "category": "blocks",
+      "tags": [
+        "interaction",
+        "ai",
+        "composer"
+      ],
+      "docs": "https://myzeusui.com/components/composer/",
+      "source": "https://myzeusui.com/r/composer.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add composer",
+      "dependencies": [
+        "@remixicon/react",
+        "motion",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "agent-thinking",
+        "composer-loader",
+        "cx",
+        "dropdown",
+        "input",
+        "radio",
+        "select",
+        "tokens",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\nimport { AiChatComposerPreview } from \"@/components/application/composer/composer\";\nexport default function ComposerDemo() {\n  return (\n    <div className=\"flex min-h-[260px] w-full items-center justify-center\">\n      <AiChatComposerPreview />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "task-list",
+      "title": "Task List",
+      "description": "Streaming agent task log for React and Tailwind CSS. Tasks reveal step by step with soft height, blur, and shimmer, and drop straight into a chat thread.",
+      "category": "blocks",
+      "tags": [
+        "interaction",
+        "ai",
+        "task-list"
+      ],
+      "docs": "https://myzeusui.com/components/task-list/",
+      "source": "https://myzeusui.com/r/task-list.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add task-list",
+      "dependencies": [
+        "@remixicon/react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "agent-log",
+        "agent-thinking",
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\nimport { TaskList } from \"@/components/application/task-list/task-list\";\nimport { RiRefreshLine } from \"@remixicon/react\";\nimport { useState } from \"react\";\nexport default function TaskListDemo() {\n  const [turn, setTurn] = useState(0);\n  const [complete, setComplete] = useState(false);\n  return (\n    <div className=\"flex min-h-[320px] w-full items-center justify-center p-2\">\n      <div className=\"flex w-full max-w-[420px] flex-col gap-4\">\n        <TaskList key={turn} onComplete={() => setComplete(true)} />\n        {complete && (\n          <button\n            type=\"button\"\n            className=\"flex cursor-pointer items-center gap-1.5 self-start rounded-lg border border-border-button-default bg-background-primary-default px-2.5 py-1.5 text-body-medium text-text-secondary shadow-xs transition-colors duration-150 hover:bg-background-primary-hover hover:text-text-primary focus-visible:ring-2 focus-visible:ring-border-focus-ring focus-visible:outline-none\"\n            onClick={() => {\n              setComplete(false);\n              setTurn((value) => value + 1);\n            }}\n          >\n            <RiRefreshLine className=\"size-4\" aria-hidden />\n            Run again\n          </button>\n        )}\n      </div>\n    </div>\n  );\n}"
+    },
+    {
+      "name": "web-search",
+      "title": "Web Search",
+      "description": "Streaming research trail for React and Tailwind CSS: the queries an agent ran and the sources it opened, with real site marks, drawn in as it works.",
+      "category": "blocks",
+      "tags": [
+        "interaction",
+        "ai",
+        "web-search"
+      ],
+      "docs": "https://myzeusui.com/components/web-search/",
+      "source": "https://myzeusui.com/r/web-search.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add web-search",
+      "dependencies": [
+        "@remixicon/react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "agent-log",
+        "agent-thinking",
+        "cx",
+        "social-button",
+        "tokens"
+      ],
+      "example": "\"use client\";\nimport { WebSearch } from \"@/components/application/web-search/web-search\";\nimport { RiRefreshLine } from \"@remixicon/react\";\nimport { useState } from \"react\";\nexport default function WebSearchDemo() {\n  const [turn, setTurn] = useState(0);\n  const [complete, setComplete] = useState(false);\n  return (\n    <div className=\"flex min-h-[420px] w-full items-center justify-center p-2\">\n      <div className=\"flex w-full max-w-[560px] flex-col gap-4\">\n        <WebSearch key={turn} onComplete={() => setComplete(true)} />\n        {complete && (\n          <button\n            type=\"button\"\n            className=\"flex cursor-pointer items-center gap-1.5 self-start rounded-lg border border-border-button-default bg-background-primary-default px-2.5 py-1.5 text-body-medium text-text-secondary shadow-xs transition-colors duration-150 hover:bg-background-primary-hover hover:text-text-primary focus-visible:ring-2 focus-visible:ring-border-focus-ring focus-visible:outline-none\"\n            onClick={() => {\n              setComplete(false);\n              setTurn((value) => value + 1);\n            }}\n          >\n            <RiRefreshLine className=\"size-4\" aria-hidden />\n            Run again\n          </button>\n        )}\n      </div>\n    </div>\n  );\n}"
+    },
+    {
+      "name": "combo-chart-card",
+      "title": "Combo Chart",
+      "description": "independent left and right axes, hover dimming, a pulsing active dot and stat tiles",
+      "category": "charts",
+      "tags": [
+        "chart",
+        "data",
+        "visualization"
+      ],
+      "docs": "https://myzeusui.com/components/combo-chart-card/",
+      "source": "https://myzeusui.com/r/combo-chart-card.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add combo-chart-card",
+      "dependencies": [
+        "@remixicon/react",
+        "motion",
+        "react-aria-components",
+        "recharts",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "chart-card",
+        "chevrons",
+        "chip",
+        "cx",
+        "segmented-control",
+        "select",
+        "tokens",
+        "use-count-up",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { ComboChartCard } from \"@/components/application/charts/combo-chart-card\";\n\nexport default function ComboChartCardDemo() {\n  return (\n    <div className=\"w-full max-w-xl\">\n      <ComboChartCard />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "contributions-card",
+      "title": "Contributions",
+      "description": "GitHub-style contributions heat grid for React + Tailwind CSS with a swappable accent family",
+      "category": "charts",
+      "tags": [
+        "chart",
+        "data",
+        "visualization"
+      ],
+      "docs": "https://myzeusui.com/components/contributions-card/",
+      "source": "https://myzeusui.com/r/contributions-card.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add contributions-card",
+      "dependencies": [
+        "@remixicon/react",
+        "motion",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "chart-card",
+        "chevrons",
+        "chip",
+        "cx",
+        "segmented-control",
+        "select",
+        "tokens",
+        "use-count-up",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { ContributionsCard } from \"@/components/application/charts/contributions-card\";\n\nexport default function ContributionsCardDemo() {\n  return (\n    <div className=\"w-full max-w-2xl\">\n      <ContributionsCard />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "earnings-chart-card",
+      "title": "Earnings Chart",
+      "description": "Bar chart card for React + Tailwind CSS with a period switcher, count-up headline, and hover outline",
+      "category": "charts",
+      "tags": [
+        "chart",
+        "data",
+        "visualization"
+      ],
+      "docs": "https://myzeusui.com/components/earnings-chart-card/",
+      "source": "https://myzeusui.com/r/earnings-chart-card.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add earnings-chart-card",
+      "dependencies": [
+        "@remixicon/react",
+        "motion",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "chart-card",
+        "chevrons",
+        "chip",
+        "cx",
+        "segmented-control",
+        "select",
+        "tokens",
+        "use-count-up",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { EarningsChartCard } from \"@/components/application/charts/earnings-chart-card\";\n\nexport default function EarningsChartCardDemo() {\n  return (\n    <div className=\"w-full max-w-[673px]\">\n      <EarningsChartCard />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "funnel-chart-card",
+      "title": "Funnel Chart",
+      "description": "curved or sharp tapers between stages, centred conversion pills, mono option, and a value/name footer",
+      "category": "charts",
+      "tags": [
+        "chart",
+        "data",
+        "visualization"
+      ],
+      "docs": "https://myzeusui.com/components/funnel-chart-card/",
+      "source": "https://myzeusui.com/r/funnel-chart-card.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add funnel-chart-card",
+      "dependencies": [
+        "@remixicon/react",
+        "motion",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "chart-card",
+        "chevrons",
+        "chip",
+        "cx",
+        "segmented-control",
+        "select",
+        "tokens",
+        "use-count-up",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { FunnelChartCard } from \"@/components/application/charts/funnel-chart-card\";\n\nexport default function FunnelChartCardDemo() {\n  return (\n    <div className=\"w-full max-w-2xl\">\n      <FunnelChartCard />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "heatmap-chart-card",
+      "title": "Heatmap Chart",
+      "description": "rows × columns of tinted cells with a theme-following ramp, hover-linked headline, and Less → More legend",
+      "category": "charts",
+      "tags": [
+        "chart",
+        "data",
+        "visualization"
+      ],
+      "docs": "https://myzeusui.com/components/heatmap-chart-card/",
+      "source": "https://myzeusui.com/r/heatmap-chart-card.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add heatmap-chart-card",
+      "dependencies": [
+        "@remixicon/react",
+        "motion",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "chart-card",
+        "chevrons",
+        "chip",
+        "cx",
+        "segmented-control",
+        "select",
+        "tokens",
+        "use-count-up",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { HeatmapChartCard } from \"@/components/application/charts/heatmap-chart-card\";\n\nexport default function HeatmapChartCardDemo() {\n  return (\n    <div className=\"w-full max-w-md\">\n      <HeatmapChartCard />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "most-active-days-card",
+      "title": "Most Active Days",
+      "description": "Continuous vertical month calendar for React + Tailwind CSS with per-day mini activity rings",
+      "category": "charts",
+      "tags": [
+        "chart",
+        "data",
+        "visualization"
+      ],
+      "docs": "https://myzeusui.com/components/most-active-days-card/",
+      "source": "https://myzeusui.com/r/most-active-days-card.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add most-active-days-card",
+      "dependencies": [
+        "@remixicon/react",
+        "motion",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "activity-rings-card",
+        "chart-card",
+        "chevrons",
+        "chip",
+        "cx",
+        "segmented-control",
+        "select",
+        "tokens",
+        "use-count-up",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { MostActiveDaysCard } from \"@/components/application/charts/most-active-days-card\";\n\nexport default function MostActiveDaysCardDemo() {\n  return (\n    <div className=\"w-full max-w-3xl\">\n      <MostActiveDaysCard />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "radar-chart-card",
+      "title": "Radar Chart",
+      "description": "filled, dotted, lines-only, and centre-score variants with a hover-linked headline",
+      "category": "charts",
+      "tags": [
+        "chart",
+        "data",
+        "visualization"
+      ],
+      "docs": "https://myzeusui.com/components/radar-chart-card/",
+      "source": "https://myzeusui.com/r/radar-chart-card.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add radar-chart-card",
+      "dependencies": [
+        "@remixicon/react",
+        "motion",
+        "react-aria-components",
+        "recharts",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "chart-card",
+        "chevrons",
+        "chip",
+        "cx",
+        "segmented-control",
+        "select",
+        "tokens",
+        "use-count-up",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { RadarChartCard } from \"@/components/application/charts/radar-chart-card\";\n\nexport default function RadarChartCardDemo() {\n  return (\n    <div className=\"w-full max-w-md\">\n      <RadarChartCard tiles />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "radial-chart-card",
+      "title": "Radial Chart",
+      "description": "concentric rings, labelled rings, grid, single-value gauges, and a stacked half gauge",
+      "category": "charts",
+      "tags": [
+        "chart",
+        "data",
+        "visualization"
+      ],
+      "docs": "https://myzeusui.com/components/radial-chart-card/",
+      "source": "https://myzeusui.com/r/radial-chart-card.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add radial-chart-card",
+      "dependencies": [
+        "@remixicon/react",
+        "motion",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "chart-card",
+        "chevrons",
+        "chip",
+        "cx",
+        "segmented-control",
+        "select",
+        "tokens",
+        "use-count-up",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { RadialChartCard } from \"@/components/application/charts/radial-chart-card\";\n\nexport default function RadialChartCardDemo() {\n  return (\n    <div className=\"w-full max-w-md\">\n      <RadialChartCard tiles />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "sankey-chart-card",
+      "title": "Sankey Chart",
+      "description": "pill nodes, target-tinted links, source and share labels, and hover isolation",
+      "category": "charts",
+      "tags": [
+        "chart",
+        "data",
+        "visualization"
+      ],
+      "docs": "https://myzeusui.com/components/sankey-chart-card/",
+      "source": "https://myzeusui.com/r/sankey-chart-card.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add sankey-chart-card",
+      "dependencies": [
+        "@remixicon/react",
+        "motion",
+        "react-aria-components",
+        "recharts",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "chart-card",
+        "chevrons",
+        "chip",
+        "cx",
+        "segmented-control",
+        "select",
+        "tokens",
+        "use-count-up",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { SankeyChartCard } from \"@/components/application/charts/sankey-chart-card\";\n\nexport default function SankeyChartCardDemo() {\n  return (\n    <div className=\"w-full max-w-2xl\">\n      <SankeyChartCard />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "scatter-chart-card",
+      "title": "Scatter Chart",
+      "description": "grouped series, optional size measure, hover isolation and stat tiles",
+      "category": "charts",
+      "tags": [
+        "chart",
+        "data",
+        "visualization"
+      ],
+      "docs": "https://myzeusui.com/components/scatter-chart-card/",
+      "source": "https://myzeusui.com/r/scatter-chart-card.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add scatter-chart-card",
+      "dependencies": [
+        "@remixicon/react",
+        "motion",
+        "react-aria-components",
+        "recharts",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "chart-card",
+        "chevrons",
+        "chip",
+        "cx",
+        "segmented-control",
+        "select",
+        "tokens",
+        "use-count-up",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { ScatterChartCard } from \"@/components/application/charts/scatter-chart-card\";\n\nexport default function ScatterChartCardDemo() {\n  return (\n    <div className=\"w-full max-w-xl\">\n      <ScatterChartCard />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "sleep-score-card",
+      "title": "Sleep Score",
+      "description": "Segmented sleep score ring for React + Tailwind CSS with hover-focused sub-scores and metric rows",
+      "category": "charts",
+      "tags": [
+        "chart",
+        "data",
+        "visualization"
+      ],
+      "docs": "https://myzeusui.com/components/sleep-score-card/",
+      "source": "https://myzeusui.com/r/sleep-score-card.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add sleep-score-card",
+      "dependencies": [
+        "@remixicon/react",
+        "motion",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "chart-card",
+        "chevrons",
+        "chip",
+        "cx",
+        "segmented-control",
+        "select",
+        "tokens",
+        "use-count-up",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { SleepScoreCard } from \"@/components/application/charts/sleep-score-card\";\n\nexport default function SleepScoreCardDemo() {\n  return (\n    <div className=\"w-full max-w-md\">\n      <SleepScoreCard />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "stage-bars-card",
+      "title": "Stage Bars",
+      "description": "name, value and share per stage, animated widths, mono option",
+      "category": "charts",
+      "tags": [
+        "chart",
+        "data",
+        "visualization"
+      ],
+      "docs": "https://myzeusui.com/components/stage-bars-card/",
+      "source": "https://myzeusui.com/r/stage-bars-card.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add stage-bars-card",
+      "dependencies": [
+        "@remixicon/react",
+        "motion",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "chart-card",
+        "chevrons",
+        "chip",
+        "cx",
+        "funnel-chart-card",
+        "segmented-control",
+        "select",
+        "tokens",
+        "use-count-up",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { StageBarsCard } from \"@/components/application/charts/stage-bars-card\";\n\nexport default function StageBarsCardDemo() {\n  return (\n    <div className=\"w-full max-w-md\">\n      <StageBarsCard />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "steps-card",
+      "title": "Steps Chart",
+      "description": "Weekly steps bar chart for React + Tailwind CSS with a week switcher, count-up headline, and hover outline",
+      "category": "charts",
+      "tags": [
+        "chart",
+        "data",
+        "visualization"
+      ],
+      "docs": "https://myzeusui.com/components/steps-card/",
+      "source": "https://myzeusui.com/r/steps-card.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add steps-card",
+      "dependencies": [
+        "@remixicon/react",
+        "motion",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "chart-card",
+        "chevrons",
+        "chip",
+        "cx",
+        "segmented-control",
+        "select",
+        "tokens",
+        "use-count-up",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { StepsCard } from \"@/components/application/charts/steps-card\";\n\nexport default function StepsCardDemo() {\n  return (\n    <div className=\"w-full max-w-xl\">\n      <StepsCard />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "tokens",
+      "title": "Design tokens",
+      "description": "Color primitives, semantic light/dark tokens, radii, shadows and the button gradients everything else is built on.",
+      "category": "foundations",
+      "tags": [
+        "theme",
+        "color",
+        "dark-mode",
+        "css-variables",
+        "tailwind"
+      ],
+      "docs": "https://myzeusui.com/components/tokens/",
+      "source": "https://myzeusui.com/r/tokens.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add tokens",
+      "dependencies": [
+        "tailwindcss"
+      ],
+      "registryDependencies": [],
+      "example": "\"use client\";\n\nimport { cx } from \"@/utils/cx\";\n\nconst SURFACES = [\n  { label: \"Primary\", className: \"bg-background-primary-default\" },\n  { label: \"Secondary\", className: \"bg-background-secondary-default\" },\n  { label: \"Inner\", className: \"bg-background-inner-default\" },\n];\nconst CHART_COLORS = [\n  \"bg-chart-1\",\n  \"bg-chart-2\",\n  \"bg-chart-3\",\n  \"bg-chart-4\",\n  \"bg-chart-5\",\n  \"bg-chart-6\",\n  \"bg-chart-7\",\n  \"bg-chart-8\",\n  \"bg-chart-9\",\n];\n\nexport default function TokensDemo() {\n  return (\n    <div className=\"flex w-full max-w-xl flex-col gap-6 rounded-3xl border border-border-button-default bg-background-full p-6\">\n      <div className=\"flex flex-col gap-1\">\n        <p className=\"text-title-2-medium text-text-primary\">A shared visual language</p>\n        <p className=\"text-body-regular text-text-secondary\">\n          Surfaces, text, and data colors adapt to the selected theme.\n        </p>\n      </div>\n      <div className=\"grid grid-cols-3 gap-3\">\n        {SURFACES.map((surface) => (\n          <div\n            key={surface.label}\n            className={cx(\n              surface.className,\n              \"flex h-24 items-end rounded-2xl border border-border-button-default p-3\",\n            )}\n          >\n            <span className=\"text-body-2-medium text-text-primary\">{surface.label}</span>\n          </div>\n        ))}\n      </div>\n      <div className=\"flex flex-wrap gap-x-6 gap-y-2 text-body-medium\">\n        <span className=\"text-text-primary\">Primary text</span>\n        <span className=\"text-text-secondary\">Secondary text</span>\n        <span className=\"text-text-tertiary\">Supporting text</span>\n      </div>\n      <div className=\"flex flex-col gap-2\">\n        <p className=\"text-body-2-medium text-text-secondary\">Chart palette</p>\n        <div className=\"grid grid-cols-9 gap-2\">\n          {CHART_COLORS.map((className, index) => (\n            <span\n              key={className}\n              role=\"img\"\n              aria-label={`Chart color ${index + 1}`}\n              className={cx(className, \"aspect-square rounded-lg\")}\n            />\n          ))}\n        </div>\n      </div>\n    </div>\n  );\n}"
+    },
+    {
+      "name": "typography",
+      "title": "Typography",
+      "description": "The type scale: display, title, headline, body and caption, each in four weights.",
+      "category": "foundations",
+      "tags": [
+        "type-scale",
+        "font",
+        "text",
+        "hierarchy"
+      ],
+      "docs": "https://myzeusui.com/components/typography/",
+      "source": "https://myzeusui.com/r/typography.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add typography",
+      "dependencies": [],
+      "registryDependencies": [
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { cx } from \"@/utils/cx\";\n\nconst STYLES = [\n  {\n    label: \"Title 1 · Medium\",\n    className: \"text-title-1-medium\",\n    sample: \"Make room for good ideas.\",\n  },\n  {\n    label: \"Title 2 · Medium\",\n    className: \"text-title-2-medium\",\n    sample: \"A clear view of your work\",\n  },\n  {\n    label: \"Headline · Medium\",\n    className: \"text-headline-medium\",\n    sample: \"Everything in its place\",\n  },\n  {\n    label: \"Body · Regular\",\n    className: \"text-body-regular\",\n    sample: \"Thoughtful type makes a busy interface easier to read.\",\n  },\n  {\n    label: \"Body 2 · Medium\",\n    className: \"text-body-2-medium\",\n    sample: \"Last updated a few moments ago\",\n  },\n  {\n    label: \"Caption 1 · Medium\",\n    className: \"text-caption-1-medium\",\n    sample: \"HELPFUL DETAILS, QUIETLY PRESENT\",\n  },\n];\n\nexport default function TypographyDemo() {\n  return (\n    <div className=\"w-full max-w-xl overflow-hidden rounded-3xl border border-border-button-default bg-background-primary-default\">\n      {STYLES.map((style) => (\n        <div\n          key={style.className}\n          className=\"flex flex-col gap-2 border-b border-separator-border px-5 py-4 last:border-0\"\n        >\n          <span className=\"text-caption-1-medium text-text-tertiary\">{style.label}</span>\n          <p className={cx(style.className, \"text-text-primary\")}>{style.sample}</p>\n        </div>\n      ))}\n    </div>\n  );\n}"
+    },
+    {
+      "name": "cx",
+      "title": "cx",
+      "description": "Class merging built on tailwind-merge, plus the sortCx helper for style maps.",
+      "category": "foundations",
+      "tags": [
+        "utility",
+        "classnames",
+        "tailwind-merge",
+        "server-safe"
+      ],
+      "docs": "https://myzeusui.com/components/cx/",
+      "source": "https://myzeusui.com/r/cx.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add cx",
+      "dependencies": [
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { Button } from \"@/components/base/buttons/button\";\nimport { cx } from \"@/utils/cx\";\nimport { useState } from \"react\";\n\nexport default function CxDemo() {\n  const [compact, setCompact] = useState(false);\n  const base = \"rounded-2xl bg-background-secondary-default p-6 text-body-medium text-text-primary\";\n  const override = compact ? \"p-3 text-body-2-medium\" : \"\";\n  const classes = cx(base, override);\n  return (\n    <div className=\"flex w-full max-w-xl flex-col gap-4\">\n      <div className=\"flex items-center justify-between gap-3\">\n        <p className=\"text-body-medium text-text-secondary\">\n          Later classes replace conflicting styles.\n        </p>\n        <Button\n          variant=\"secondary\"\n          size=\"small\"\n          onClick={() => setCompact((value) => !value)}\n          aria-pressed={compact}\n        >\n          {compact ? \"Use spacious\" : \"Use compact\"}\n        </Button>\n      </div>\n      <div className={classes}>A single source of truth for spacing and typography.</div>\n      <div className=\"flex flex-col gap-2 rounded-2xl border border-border-button-default bg-background-primary-default p-4\">\n        <p className=\"text-caption-1-medium text-text-tertiary\">Result from cx()</p>\n        <code className=\"break-words text-body-2-regular text-text-secondary\">{classes}</code>\n      </div>\n    </div>\n  );\n}"
+    },
+    {
+      "name": "chevrons",
+      "title": "Chevrons",
+      "description": "The small chevron set used by menus, selects and sortable table headers.",
+      "category": "foundations",
+      "tags": [
+        "icon",
+        "chevron",
+        "svg"
+      ],
+      "docs": "https://myzeusui.com/components/chevrons/",
+      "source": "https://myzeusui.com/r/chevrons.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add chevrons",
+      "dependencies": [],
+      "registryDependencies": [
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { ChevronDownSmall, ChevronRightSmall, ChevronSortDown, ChevronUpDownSmall } from \"@/components/foundations/icons/chevrons\";\n\nconst ICONS = [\n  { Icon: ChevronDownSmall, name: \"ChevronDownSmall\" },\n  { Icon: ChevronRightSmall, name: \"ChevronRightSmall\" },\n  { Icon: ChevronUpDownSmall, name: \"ChevronUpDownSmall\" },\n  { Icon: ChevronSortDown, name: \"ChevronSortDown\" },\n];\n\nexport default function ChevronsDemo() {\n  return (\n    <div className=\"flex flex-wrap items-start gap-8\">\n      {ICONS.map(({ Icon, name }) => (\n        <div key={name} className=\"flex flex-col items-center gap-2\">\n          <Icon className=\"size-5 text-foreground-icon-secondary\" />\n          <span className=\"text-caption-2-regular text-text-tertiary\">{name}</span>\n        </div>\n      ))}\n    </div>\n  );\n}"
+    },
+    {
+      "name": "logo",
+      "title": "Logo",
+      "description": "The wordmark and its compact circular variant, both theme-aware.",
+      "category": "foundations",
+      "tags": [
+        "brand",
+        "logo",
+        "mark"
+      ],
+      "docs": "https://myzeusui.com/components/logo/",
+      "source": "https://myzeusui.com/r/logo.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add logo",
+      "dependencies": [
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { Logo } from \"@/components/foundations/brand/logo\";\n\nexport default function LogoDemo() {\n  return (\n    <div className=\"flex items-center gap-8\">\n      <Logo />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "use-count-up",
+      "title": "useCountUp",
+      "description": "Animates a number toward a target, respecting prefers-reduced-motion.",
+      "category": "foundations",
+      "tags": [
+        "hook",
+        "animation",
+        "number",
+        "counter"
+      ],
+      "docs": "https://myzeusui.com/components/use-count-up/",
+      "source": "https://myzeusui.com/r/use-count-up.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add use-count-up",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { Button } from \"@/components/base/buttons/button\";\nimport { useCountUp } from \"@/hooks/use-count-up\";\nimport { useEffect, useState } from \"react\";\n\nexport default function UseCountUpDemo() {\n  const [target, setTarget] = useState(6400);\n  const [reduced, setReduced] = useState(false);\n  useEffect(() => {\n    const query = window.matchMedia(\"(prefers-reduced-motion: reduce)\");\n    const update = () => setReduced(query.matches);\n    update();\n    query.addEventListener(\"change\", update);\n    return () => query.removeEventListener(\"change\", update);\n  }, []);\n  const display = useCountUp(target, reduced ? 1 : 600);\n  return (\n    <div className=\"flex w-full max-w-sm flex-col items-center gap-5 rounded-3xl border border-border-button-default bg-background-secondary-default p-6\">\n      <div className=\"text-center\">\n        <p className=\"text-body-medium text-text-secondary\">Total subscribers</p>\n        <p className=\"text-display-3-medium text-text-primary tabular-nums\">\n          {(reduced ? target : display).toLocaleString(\"en-US\")}\n        </p>\n        <p className=\"text-body-2-regular text-text-tertiary\">\n          The value animates from its current position.\n        </p>\n      </div>\n      <div className=\"flex gap-2\">\n        <Button variant=\"secondary\" size=\"small\" onClick={() => setTarget(6400)}>\n          Reset\n        </Button>\n        <Button size=\"small\" onClick={() => setTarget((value) => value + 1250)}>\n          Add 1,250\n        </Button>\n      </div>\n      <span className=\"sr-only\" aria-live=\"polite\">\n        Target: {target.toLocaleString(\"en-US\")} subscribers\n      </span>\n    </div>\n  );\n}"
+    },
+    {
+      "name": "use-dismiss-on-outside-press",
+      "title": "useDismissOnOutsidePress",
+      "description": "Closes a popover or panel on an outside pointer press, without trapping focus.",
+      "category": "foundations",
+      "tags": [
+        "hook",
+        "popover",
+        "dismiss",
+        "outside-click"
+      ],
+      "docs": "https://myzeusui.com/components/use-dismiss-on-outside-press/",
+      "source": "https://myzeusui.com/r/use-dismiss-on-outside-press.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add use-dismiss-on-outside-press",
+      "dependencies": [],
+      "registryDependencies": [
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { Button } from \"@/components/base/buttons/button\";\nimport { useDismissOnOutsidePress } from \"@/hooks/use-dismiss-on-outside-press\";\nimport { useEffect, useRef, useState } from \"react\";\n\nexport default function UseDismissOnOutsidePressDemo() {\n  const [open, setOpen] = useState(false);\n  const [saved, setSaved] = useState(0);\n  const triggerRef = useRef<HTMLButtonElement>(null);\n  const panelRef = useRef<HTMLDivElement>(null);\n  useDismissOnOutsidePress(open, () => setOpen(false), [triggerRef, panelRef]);\n  useEffect(() => {\n    if (!open) return;\n    const onKeyDown = (event: KeyboardEvent) => {\n      if (event.key === \"Escape\") {\n        setOpen(false);\n        triggerRef.current?.focus();\n      }\n    };\n    document.addEventListener(\"keydown\", onKeyDown);\n    return () => document.removeEventListener(\"keydown\", onKeyDown);\n  }, [open]);\n  return (\n    <div className=\"flex min-h-[340px] w-full max-w-md flex-col items-center gap-4 rounded-3xl border border-border-button-default bg-background-secondary-default p-6\">\n      <p className=\"text-center text-body-regular text-text-secondary\">\n        Open the panel, interact inside it, then press anywhere outside to dismiss.\n      </p>\n      <div className=\"relative\">\n        <Button\n          ref={triggerRef}\n          variant=\"secondary\"\n          onClick={() => setOpen((value) => !value)}\n          aria-expanded={open}\n          aria-controls=\"outside-press-demo-panel\"\n        >\n          {open ? \"Close panel\" : \"Open panel\"}\n        </Button>\n        {open && (\n          <div\n            ref={panelRef}\n            id=\"outside-press-demo-panel\"\n            className=\"absolute top-full left-1/2 z-10 mt-2 flex w-64 -translate-x-1/2 flex-col gap-3 rounded-2xl border border-border-button-default bg-background-primary-default p-4 shadow-dropdown\"\n          >\n            <p className=\"text-body-medium text-text-primary\">Presses inside keep this open.</p>\n            <p className=\"text-body-2-regular text-text-secondary\" aria-live=\"polite\">\n              {saved} {saved === 1 ? \"item\" : \"items\"} saved\n            </p>\n            <Button size=\"small\" onClick={() => setSaved((value) => value + 1)}>\n              Save an item\n            </Button>\n          </div>\n        )}\n      </div>\n      <button\n        type=\"button\"\n        className=\"mt-auto rounded-lg px-3 py-1.5 text-body-2-medium text-text-secondary outline-none focus-visible:ring-2 focus-visible:ring-border-focus-ring\"\n      >\n        Outside the panel\n      </button>\n    </div>\n  );\n}"
+    },
+    {
+      "name": "button",
+      "title": "Button",
+      "description": "Primary, secondary, ghost and danger actions in three sizes, with icon slots.",
+      "category": "base",
+      "tags": [
+        "action",
+        "cta",
+        "form",
+        "gradient"
+      ],
+      "docs": "https://myzeusui.com/components/button/",
+      "source": "https://myzeusui.com/r/button.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add button",
+      "dependencies": [
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { RiAddLine, RiArrowRightLine } from \"@remixicon/react\";\nimport { Button } from \"@/components/base/buttons/button\";\n\nexport default function ButtonDemo() {\n  return (\n    <div className=\"flex flex-col gap-6\">\n      <div className=\"flex flex-wrap items-center gap-3\">\n        <Button>Get started</Button>\n        <Button variant=\"secondary\" trailingIcon={RiArrowRightLine}>\n          Continue\n        </Button>\n        <Button variant=\"ghost\">Mark as done</Button>\n        <Button variant=\"danger\">Delete</Button>\n      </div>\n\n      <div className=\"flex flex-wrap items-center gap-3\">\n        <Button size=\"medium\">Medium</Button>\n        <Button size=\"small\">Small</Button>\n        <Button size=\"xs\">Xs</Button>\n      </div>\n\n      <div className=\"flex flex-wrap items-center gap-3\">\n        <Button leadingIcon={RiAddLine}>New project</Button>\n        <Button iconOnly leadingIcon={RiAddLine} aria-label=\"Add\" />\n        <Button disabled>Disabled</Button>\n      </div>\n    </div>\n  );\n}"
+    },
+    {
+      "name": "icon-button",
+      "title": "Icon Button",
+      "description": "Square action button, icon only, in two sizes.",
+      "category": "base",
+      "tags": [
+        "action",
+        "icon",
+        "toolbar",
+        "compact"
+      ],
+      "docs": "https://myzeusui.com/components/icon-button/",
+      "source": "https://myzeusui.com/r/icon-button.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add icon-button",
+      "dependencies": [
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { RiEditLine, RiNotificationLine, RiSettingsLine } from \"@remixicon/react\";\nimport { IconButton } from \"@/components/base/buttons/icon-button\";\n\nexport default function IconButtonDemo() {\n  return (\n    <div className=\"flex items-center gap-3\">\n      <IconButton icon={RiNotificationLine} aria-label=\"Notifications\" />\n      <IconButton icon={RiEditLine} size=\"small\" aria-label=\"Edit\" />\n      <IconButton icon={RiSettingsLine} aria-label=\"Settings\" disabled />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "link-button",
+      "title": "Link Button",
+      "description": "Inline text action styled like a link, rendering an anchor when given an href.",
+      "category": "base",
+      "tags": [
+        "action",
+        "link",
+        "inline",
+        "navigation"
+      ],
+      "docs": "https://myzeusui.com/components/link-button/",
+      "source": "https://myzeusui.com/r/link-button.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add link-button",
+      "dependencies": [
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { RiArrowRightLine, RiDownloadLine } from \"@remixicon/react\";\nimport { LinkButton } from \"@/components/base/buttons/link-button\";\n\nexport default function LinkButtonDemo() {\n  return (\n    <div className=\"flex flex-wrap items-center gap-5\">\n      <LinkButton href=\"#\" trailingIcon={RiArrowRightLine}>\n        Learn more\n      </LinkButton>\n      <LinkButton size=\"small\" leadingIcon={RiDownloadLine}>\n        Download report\n      </LinkButton>\n      <LinkButton size=\"xs\" variant=\"secondary\" trailingIcon={RiArrowRightLine}>\n        See all\n      </LinkButton>\n    </div>\n  );\n}"
+    },
+    {
+      "name": "button-group",
+      "title": "Button Group",
+      "description": "Fused row of selectable buttons for view switches and toolbars.",
+      "category": "base",
+      "tags": [
+        "action",
+        "toggle",
+        "segmented",
+        "toolbar"
+      ],
+      "docs": "https://myzeusui.com/components/button-group/",
+      "source": "https://myzeusui.com/r/button-group.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add button-group",
+      "dependencies": [
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { useState } from \"react\";\nimport { RiBold, RiItalic, RiUnderline } from \"@remixicon/react\";\nimport { ButtonGroup, ButtonGroupItem } from \"@/components/base/buttons/button-group\";\n\nconst RANGES = [\"Day\", \"Week\", \"Month\", \"Year\"];\n\nexport default function ButtonGroupDemo() {\n  const [range, setRange] = useState(\"Week\");\n\n  return (\n    <div className=\"flex flex-col gap-6\">\n      <ButtonGroup aria-label=\"Time range\">\n        {RANGES.map((label) => (\n          <ButtonGroupItem\n            key={label}\n            selected={range === label}\n            onClick={() => setRange(label)}\n          >\n            {label}\n          </ButtonGroupItem>\n        ))}\n      </ButtonGroup>\n\n      <ButtonGroup size=\"small\" aria-label=\"Formatting\">\n        <ButtonGroupItem iconOnly leadingIcon={RiBold} aria-label=\"Bold\" />\n        <ButtonGroupItem iconOnly leadingIcon={RiItalic} aria-label=\"Italic\" />\n        <ButtonGroupItem iconOnly leadingIcon={RiUnderline} aria-label=\"Underline\" />\n      </ButtonGroup>\n    </div>\n  );\n}"
+    },
+    {
+      "name": "close-button",
+      "title": "Close Button",
+      "description": "The dismiss ×, in four sizes with matching stroke weights.",
+      "category": "base",
+      "tags": [
+        "action",
+        "dismiss",
+        "modal",
+        "icon"
+      ],
+      "docs": "https://myzeusui.com/components/close-button/",
+      "source": "https://myzeusui.com/r/close-button.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add close-button",
+      "dependencies": [
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { CloseButton } from \"@/components/base/buttons/close-button\";\n\nexport default function CloseButtonDemo() {\n  return (\n    <div className=\"flex items-center gap-6\">\n      <CloseButton size=\"2xs\" aria-label=\"Close\" />\n      <CloseButton size=\"xs\" aria-label=\"Close\" />\n      <CloseButton size=\"sm\" aria-label=\"Close\" />\n      <CloseButton size=\"md\" aria-label=\"Close\" />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "social-button",
+      "title": "Social Button",
+      "description": "Twenty-four OAuth brands in colourful, black and outlined appearances.",
+      "category": "base",
+      "tags": [
+        "auth",
+        "oauth",
+        "sso",
+        "brand",
+        "sign-in"
+      ],
+      "docs": "https://myzeusui.com/components/social-button/",
+      "source": "https://myzeusui.com/r/social-button.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add social-button",
+      "dependencies": [
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { SocialButton } from \"@/components/base/social-button/social-button\";\n\nexport default function SocialButtonDemo() {\n  return (\n    <div className=\"flex flex-col gap-6\">\n      <div className=\"flex max-w-xs flex-col gap-3\">\n        <SocialButton brand=\"google\" />\n        <SocialButton brand=\"github\" appearance=\"black\" />\n        <SocialButton brand=\"slack\" appearance=\"white\" />\n      </div>\n\n      <div className=\"flex items-center gap-3\">\n        <SocialButton brand=\"google\" appearance=\"white\" iconOnly />\n        <SocialButton brand=\"apple\" appearance=\"white\" iconOnly />\n        <SocialButton brand=\"github\" appearance=\"white\" iconOnly />\n        <SocialButton brand=\"figma\" appearance=\"white\" iconOnly />\n      </div>\n    </div>\n  );\n}"
+    },
+    {
+      "name": "input",
+      "title": "Input",
+      "description": "Text field with label, hint, addons, icons and validation states.",
+      "category": "base",
+      "tags": [
+        "form",
+        "text",
+        "field",
+        "validation"
+      ],
+      "docs": "https://myzeusui.com/components/input/",
+      "source": "https://myzeusui.com/r/input.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add input",
+      "dependencies": [
+        "@remixicon/react",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { RiQuestionLine, RiUserSmileLine } from \"@remixicon/react\";\nimport { Input } from \"@/components/base/input/input\";\n\nexport default function InputDemo() {\n  return (\n    <div className=\"flex w-full max-w-sm flex-col gap-5\">\n      <Input\n        label=\"Email\"\n        isRequired\n        tooltip\n        placeholder=\"Enter your email\"\n        hint=\"This is a hint about this input.\"\n        leadingIcon={RiUserSmileLine}\n        trailingIcon={RiQuestionLine}\n      />\n      <Input size=\"small\" label=\"Small\" placeholder=\"Small input\" />\n      <Input label=\"Disabled\" placeholder=\"Enter your email\" isDisabled />\n      <Input label=\"Invalid\" defaultValue=\"not-a-real-email\" isInvalid />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "input-otp",
+      "title": "Input OTP",
+      "description": "One-time-code boxes with paste, autofill and grouping.",
+      "category": "base",
+      "tags": [
+        "form",
+        "otp",
+        "verification",
+        "2fa",
+        "code"
+      ],
+      "docs": "https://myzeusui.com/components/input-otp/",
+      "source": "https://myzeusui.com/r/input-otp.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add input-otp",
+      "dependencies": [
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { useState } from \"react\";\nimport { InputOtp } from \"@/components/base/input-otp/input-otp\";\n\nexport default function InputOtpDemo() {\n  const [code, setCode] = useState(\"\");\n\n  return (\n    <div className=\"flex flex-col gap-6\">\n      <InputOtp value={code} onChange={setCode} aria-label=\"Verification code\" />\n      <div className=\"flex flex-wrap items-center gap-6\">\n        <InputOtp groupEvery={3} aria-label=\"Grouped code\" />\n        <InputOtp length={4} aria-label=\"PIN\" />\n      </div>\n      <div className=\"flex flex-wrap items-center gap-6\">\n        <InputOtp isInvalid aria-label=\"Invalid code\" />\n        <InputOtp isDisabled defaultValue=\"1234\" aria-label=\"Disabled code\" />\n      </div>\n    </div>\n  );\n}"
+    },
+    {
+      "name": "checkbox",
+      "title": "Checkbox",
+      "description": "Hand-drawn tick animation, indeterminate state, two sizes and a card variant.",
+      "category": "base",
+      "tags": [
+        "form",
+        "selection",
+        "toggle",
+        "multi-select"
+      ],
+      "docs": "https://myzeusui.com/components/checkbox/",
+      "source": "https://myzeusui.com/r/checkbox.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add checkbox",
+      "dependencies": [
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { Checkbox } from \"@/components/base/checkbox/checkbox\";\nimport { CheckboxCard } from \"@/components/base/checkbox/checkbox-card\";\n\nexport default function CheckboxDemo() {\n  return (\n    <div className=\"flex flex-col gap-6\">\n      <div className=\"flex flex-wrap items-center gap-6\">\n        <Checkbox aria-label=\"Unchecked\" />\n        <Checkbox defaultSelected aria-label=\"Checked\" />\n        <Checkbox isIndeterminate aria-label=\"Indeterminate\" />\n        <Checkbox isDisabled aria-label=\"Disabled\" />\n        <Checkbox size=\"sm\" defaultSelected aria-label=\"Small\" />\n      </div>\n\n      <Checkbox defaultSelected>Remember me</Checkbox>\n\n      <div className=\"flex w-full max-w-sm flex-col gap-3\">\n        <CheckboxCard\n          defaultSelected\n          title=\"Weekly digest\"\n          description=\"A summary of what changed, every Monday.\"\n        />\n        <CheckboxCard title=\"Product updates\" description=\"Only when something ships.\" />\n      </div>\n    </div>\n  );\n}"
+    },
+    {
+      "name": "radio",
+      "title": "Radio",
+      "description": "Gradient dot, two sizes, and a card variant for plan pickers.",
+      "category": "base",
+      "tags": [
+        "form",
+        "selection",
+        "single-select",
+        "group"
+      ],
+      "docs": "https://myzeusui.com/components/radio/",
+      "source": "https://myzeusui.com/r/radio.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add radio",
+      "dependencies": [
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { Radio, RadioGroup } from \"@/components/base/radio/radio\";\nimport { RadioCard } from \"@/components/base/radio/radio-card\";\n\nexport default function RadioDemo() {\n  return (\n    <div className=\"flex flex-col gap-8\">\n      <RadioGroup aria-label=\"Billing period\" defaultValue=\"monthly\">\n        <Radio value=\"monthly\">Monthly billing</Radio>\n        <Radio value=\"yearly\">Yearly billing</Radio>\n        <Radio value=\"usage\" isDisabled>\n          Usage based\n        </Radio>\n      </RadioGroup>\n\n      <RadioGroup aria-label=\"Plan\" defaultValue=\"pro\" className=\"w-full max-w-sm\">\n        <RadioCard value=\"starter\" title=\"Starter\" description=\"For side projects and experiments.\" />\n        <RadioCard value=\"pro\" title=\"Pro\" description=\"For growing teams that need more.\" />\n        <RadioCard\n          value=\"enterprise\"\n          title=\"Enterprise\"\n          description=\"Custom limits and support.\"\n          isDisabled\n        />\n      </RadioGroup>\n    </div>\n  );\n}"
+    },
+    {
+      "name": "switch",
+      "title": "Switch",
+      "description": "Pill and rectangle shapes, two sizes, plus a card variant with icon and description.",
+      "category": "base",
+      "tags": [
+        "form",
+        "toggle",
+        "settings",
+        "boolean"
+      ],
+      "docs": "https://myzeusui.com/components/switch/",
+      "source": "https://myzeusui.com/r/switch.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add switch",
+      "dependencies": [
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { useState } from \"react\";\nimport { RiMoonLine, RiNotification4Line } from \"@remixicon/react\";\nimport { Switch } from \"@/components/base/switch/switch\";\nimport { SwitchCard } from \"@/components/base/switch/switch-card\";\n\nexport default function SwitchDemo() {\n  const [enabled, setEnabled] = useState(true);\n\n  return (\n    <div className=\"flex flex-col gap-6\">\n      <div className=\"flex flex-wrap items-center gap-6\">\n        <Switch isSelected={enabled} onChange={setEnabled}>\n          Enable notifications\n        </Switch>\n        <Switch shape=\"rectangle\" size=\"sm\" aria-label=\"Compact\" />\n        <Switch isDisabled defaultSelected aria-label=\"Disabled\" />\n      </div>\n\n      <div className=\"flex w-full max-w-sm flex-col gap-4\">\n        <SwitchCard\n          icon={RiNotification4Line}\n          title=\"Push notifications\"\n          description=\"Get notified when something needs your attention.\"\n          defaultSelected\n        />\n        <SwitchCard icon={RiMoonLine} title=\"Dark mode\" />\n      </div>\n    </div>\n  );\n}"
+    },
+    {
+      "name": "select",
+      "title": "Select",
+      "description": "Single-choice listbox whose items take free-form content — dots, avatars, icons.",
+      "category": "base",
+      "tags": [
+        "form",
+        "dropdown",
+        "listbox",
+        "picker"
+      ],
+      "docs": "https://myzeusui.com/components/select/",
+      "source": "https://myzeusui.com/r/select.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add select",
+      "dependencies": [
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "chevrons",
+        "cx",
+        "tokens",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { Select, SelectItem } from \"@/components/base/select/select\";\nimport { StatusDot } from \"@/components/base/badges/status-dot\";\n\nexport default function SelectDemo() {\n  return (\n    <div className=\"flex flex-wrap items-start gap-6\">\n      <Select aria-label=\"Filter by price\" defaultSelectedKey=\"all\">\n        <SelectItem id=\"all\" textValue=\"All prices\">\n          All prices\n        </SelectItem>\n        <SelectItem id=\"low\" textValue=\"Under $100\">\n          Under $100\n        </SelectItem>\n        <SelectItem id=\"high\" textValue=\"Over $100\">\n          Over $100\n        </SelectItem>\n      </Select>\n\n      <Select aria-label=\"Purchase status\" defaultSelectedKey=\"completed\" className=\"w-[142px]\">\n        <SelectItem id=\"completed\" textValue=\"Completed\">\n          <StatusDot color=\"green\" />\n          Completed\n        </SelectItem>\n        <SelectItem id=\"waiting\" textValue=\"Waiting\">\n          <StatusDot color=\"yellow\" />\n          Waiting\n        </SelectItem>\n        <SelectItem id=\"processing\" textValue=\"Processing\">\n          <StatusDot color=\"indigo\" />\n          Processing\n        </SelectItem>\n      </Select>\n    </div>\n  );\n}"
+    },
+    {
+      "name": "slider",
+      "title": "Slider",
+      "description": "Single value and range, with a value bubble and custom formatting.",
+      "category": "base",
+      "tags": [
+        "form",
+        "range",
+        "numeric",
+        "filter"
+      ],
+      "docs": "https://myzeusui.com/components/slider/",
+      "source": "https://myzeusui.com/r/slider.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add slider",
+      "dependencies": [
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { useState } from \"react\";\nimport { RangeSlider, Slider } from \"@/components/base/slider/slider\";\n\nconst currency = new Intl.NumberFormat(\"en-US\", {\n  style: \"currency\",\n  currency: \"USD\",\n  maximumFractionDigits: 0,\n});\n\nexport default function SliderDemo() {\n  const [volume, setVolume] = useState(42);\n\n  return (\n    <div className=\"flex w-full max-w-md flex-col gap-10 pt-2\">\n      <Slider label=\"Volume\" value={volume} onChange={(value) => setVolume(value as number)} />\n      <RangeSlider\n        label=\"Price range\"\n        defaultValue={[200, 800]}\n        minValue={0}\n        maxValue={1000}\n        step={50}\n        formatValue={(value) => currency.format(value)}\n      />\n      <RangeSlider label=\"Disabled\" defaultValue={[20, 70]} isDisabled />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "dropdown",
+      "title": "Dropdown",
+      "description": "Composable menu primitives — trigger, popover, groups, items and dividers.",
+      "category": "base",
+      "tags": [
+        "menu",
+        "popover",
+        "overlay",
+        "actions"
+      ],
+      "docs": "https://myzeusui.com/components/dropdown/",
+      "source": "https://myzeusui.com/r/dropdown.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add dropdown",
+      "dependencies": [
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "select",
+        "tokens",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { useState } from \"react\";\nimport { RiAddLine, RiAttachment2, RiFocus3Line, RiListCheck3 } from \"@remixicon/react\";\nimport { Dropdown, DropdownGroup, DropdownItem, DropdownPopover, DropdownTrigger } from \"@/components/base/dropdown/dropdown\";\nimport { cx } from \"@/utils/cx\";\n\nconst ROWS = [\n  { icon: RiAttachment2, label: \"Files and folders\" },\n  { icon: RiFocus3Line, label: \"Goal\", description: \"Set a goal for faster results\" },\n  { icon: RiListCheck3, label: \"Plan mode\", description: \"Manage complex tasks\" },\n];\n\nexport default function DropdownDemo() {\n  const [isOpen, setIsOpen] = useState(false);\n\n  return (\n    <Dropdown isOpen={isOpen} onOpenChange={setIsOpen}>\n      <DropdownTrigger\n        aria-label=\"Add to chat\"\n        className=\"flex size-9 items-center justify-center rounded-full bg-background-secondary-default p-2 transition-colors hover:bg-background-secondary-hover\"\n      >\n        <RiAddLine\n          className={cx(\n            \"size-5 text-foreground-icon-secondary transition-transform duration-200\",\n            isOpen && \"rotate-45\",\n          )}\n          aria-hidden\n        />\n      </DropdownTrigger>\n\n      <DropdownPopover aria-label=\"Add to chat\" className=\"w-[361px] p-2\" dialogClassName=\"gap-2\">\n        <DropdownGroup label=\"Add\">\n          {ROWS.map(({ icon: Icon, label, description }) => (\n            <DropdownItem key={label} onSelect={() => setIsOpen(false)} className=\"px-2 py-1.5\">\n              <Icon className=\"size-5 shrink-0 text-foreground-icon-secondary\" aria-hidden />\n              <span className=\"truncate text-body-medium whitespace-nowrap\">\n                <span className=\"text-text-primary\">{label}</span>\n                {description && <span className=\"ml-1.5 text-text-secondary\">{description}</span>}\n              </span>\n            </DropdownItem>\n          ))}\n        </DropdownGroup>\n      </DropdownPopover>\n    </Dropdown>\n  );\n}"
+    },
+    {
+      "name": "divider",
+      "title": "Divider",
+      "description": "Single, double and filled separators that can carry any content in the middle.",
+      "category": "base",
+      "tags": [
+        "layout",
+        "separator",
+        "rule",
+        "section"
+      ],
+      "docs": "https://myzeusui.com/components/divider/",
+      "source": "https://myzeusui.com/r/divider.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add divider",
+      "dependencies": [
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { RiAddLine } from \"@remixicon/react\";\nimport { ButtonGroup, ButtonGroupItem } from \"@/components/base/buttons/button-group\";\nimport { Chip } from \"@/components/base/badges/chip\";\nimport { Divider } from \"@/components/base/divider/divider\";\n\nexport default function DividerDemo() {\n  return (\n    <div className=\"flex w-full flex-col gap-8\">\n      <Divider>Notifications</Divider>\n      <Divider variant=\"double\">Today</Divider>\n      <Divider variant=\"fill\">Latest activity</Divider>\n\n      <Divider>\n        <RiAddLine className=\"size-5 text-foreground-icon-secondary\" aria-hidden />\n      </Divider>\n\n      <Divider>\n        <Chip color=\"neutral\">NEW</Chip>\n      </Divider>\n\n      <Divider variant=\"fill\">\n        <ButtonGroup size=\"small\" aria-label=\"Activity filter\">\n          <ButtonGroupItem size=\"small\" selected>\n            All\n          </ButtonGroupItem>\n          <ButtonGroupItem size=\"small\">Unread</ButtonGroupItem>\n          <ButtonGroupItem size=\"small\">Archived</ButtonGroupItem>\n        </ButtonGroup>\n      </Divider>\n    </div>\n  );\n}"
+    },
+    {
+      "name": "file-upload",
+      "title": "File Upload",
+      "description": "Drag and drop with extension and size validation, and per-file progress.",
+      "category": "base",
+      "tags": [
+        "form",
+        "upload",
+        "drag-drop",
+        "files",
+        "progress"
+      ],
+      "docs": "https://myzeusui.com/components/file-upload/",
+      "source": "https://myzeusui.com/r/file-upload.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add file-upload",
+      "dependencies": [
+        "@remixicon/react",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { FileUpload } from \"@/components/base/file-upload/file-upload\";\n\nexport default function FileUploadDemo() {\n  return (\n    <div className=\"w-full max-w-lg\">\n      <FileUpload\n        allowedExtensions={[\"pdf\", \"png\", \"webp\"]}\n        maxBytes={4 * 1024 * 1024}\n        onUploadComplete={(file) => {\n          // Hand the finished file to your storage layer here.\n          void file;\n        }}\n      />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "tabs",
+      "title": "Tabs",
+      "description": "Underlined tabs with optional icons and counts, plus a pill variant.",
+      "category": "base",
+      "tags": [
+        "navigation",
+        "tabs",
+        "panels",
+        "sections"
+      ],
+      "docs": "https://myzeusui.com/components/tabs/",
+      "source": "https://myzeusui.com/r/tabs.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add tabs",
+      "dependencies": [
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { RiArticleLine, RiImage2Line } from \"@remixicon/react\";\nimport { Tab, TabList, TabPanel, Tabs } from \"@/components/base/tabs/tabs\";\n\nexport default function TabsDemo() {\n  return (\n    <Tabs defaultSelectedKey=\"banners\" className=\"w-full\">\n      <TabList aria-label=\"Content types\">\n        <Tab id=\"banners\" icon={RiImage2Line} count={152}>\n          Banners\n        </Tab>\n        <Tab id=\"posts\" icon={RiArticleLine} count={32}>\n          Posts\n        </Tab>\n        <Tab id=\"settings\">Settings</Tab>\n      </TabList>\n\n      <TabPanel id=\"banners\">\n        <p className=\"pt-4 text-body-regular text-text-secondary\">152 banners across 4 campaigns.</p>\n      </TabPanel>\n      <TabPanel id=\"posts\">\n        <p className=\"pt-4 text-body-regular text-text-secondary\">32 posts, 6 awaiting review.</p>\n      </TabPanel>\n      <TabPanel id=\"settings\">\n        <p className=\"pt-4 text-body-regular text-text-secondary\">Workspace defaults live here.</p>\n      </TabPanel>\n    </Tabs>\n  );\n}"
+    },
+    {
+      "name": "segmented-control",
+      "title": "Segmented Control",
+      "description": "Sliding pill option switcher for two to four short choices.",
+      "category": "base",
+      "tags": [
+        "navigation",
+        "toggle",
+        "filter",
+        "period"
+      ],
+      "docs": "https://myzeusui.com/components/segmented-control/",
+      "source": "https://myzeusui.com/r/segmented-control.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add segmented-control",
+      "dependencies": [
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { useState } from \"react\";\nimport { SegmentedControl, SegmentedControlItem } from \"@/components/base/segmented-control/segmented-control\";\n\nexport default function SegmentedControlDemo() {\n  const [period, setPeriod] = useState(new Set([\"weekly\"]));\n\n  return (\n    <SegmentedControl\n      selectedKeys={period}\n      onSelectionChange={(keys) => {\n        if (keys.size > 0) setPeriod(new Set(keys as Set<string>));\n      }}\n      aria-label=\"Period\"\n    >\n      <SegmentedControlItem id=\"weekly\">Weekly</SegmentedControlItem>\n      <SegmentedControlItem id=\"monthly\">Monthly</SegmentedControlItem>\n      <SegmentedControlItem id=\"yearly\">Yearly</SegmentedControlItem>\n    </SegmentedControl>\n  );\n}"
+    },
+    {
+      "name": "table",
+      "title": "Table",
+      "description": "The semantic table primitive: sortable columns, row selection, two densities.",
+      "category": "base",
+      "tags": [
+        "data",
+        "table",
+        "grid",
+        "rows"
+      ],
+      "docs": "https://myzeusui.com/components/table/",
+      "source": "https://myzeusui.com/r/table.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add table",
+      "dependencies": [
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { Chip } from \"@/components/base/badges/chip\";\nimport { Table, TableBody, TableCell, TableColumn, TableHeader, TableRow } from \"@/components/base/table/table\";\n\nexport default function TableDemo() {\n  return (\n    <Table aria-label=\"Users\" className=\"w-full\">\n      <TableHeader>\n        <TableColumn id=\"name\" isRowHeader>\n          Name\n        </TableColumn>\n        <TableColumn id=\"role\">Role</TableColumn>\n        <TableColumn id=\"status\">Status</TableColumn>\n      </TableHeader>\n      <TableBody>\n        <TableRow id=\"1\">\n          <TableCell>Olivia Rhye</TableCell>\n          <TableCell>Product Designer</TableCell>\n          <TableCell>\n            <Chip variant=\"bold\" color=\"lime\">\n              Active\n            </Chip>\n          </TableCell>\n        </TableRow>\n        <TableRow id=\"2\">\n          <TableCell>Phoenix Baker</TableCell>\n          <TableCell>Staff Engineer</TableCell>\n          <TableCell>\n            <Chip variant=\"bold\" color=\"lime\">\n              Active\n            </Chip>\n          </TableCell>\n        </TableRow>\n        <TableRow id=\"3\">\n          <TableCell>Lana Steiner</TableCell>\n          <TableCell>Data Scientist</TableCell>\n          <TableCell>\n            <Chip variant=\"bold\" color=\"yellow\">\n              Invited\n            </Chip>\n          </TableCell>\n        </TableRow>\n      </TableBody>\n    </Table>\n  );\n}"
+    },
+    {
+      "name": "tooltip",
+      "title": "Tooltip",
+      "description": "Hover and focus tooltip with the arrow and placement handled for you.",
+      "category": "base",
+      "tags": [
+        "overlay",
+        "hint",
+        "hover",
+        "accessibility"
+      ],
+      "docs": "https://myzeusui.com/components/tooltip/",
+      "source": "https://myzeusui.com/r/tooltip.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add tooltip",
+      "dependencies": [
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { Focusable } from \"react-aria-components\";\nimport { Button } from \"@/components/base/buttons/button\";\nimport { IconButton } from \"@/components/base/buttons/icon-button\";\nimport { Tooltip, TooltipTrigger } from \"@/components/base/tooltip/tooltip\";\nimport { RiInformationLine } from \"@remixicon/react\";\n\nexport default function TooltipDemo() {\n  return (\n    <div className=\"flex items-center gap-5\">\n      <TooltipTrigger delay={0}>\n        {/* Focusable adapts a plain <button> into a valid React Aria trigger. */}\n        <Focusable>\n          <Button variant=\"secondary\">Hover me</Button>\n        </Focusable>\n        <Tooltip>12 contributions on April 26</Tooltip>\n      </TooltipTrigger>\n\n      <TooltipTrigger delay={0}>\n        <Focusable>\n          <IconButton icon={RiInformationLine} size=\"small\" aria-label=\"More information\" />\n        </Focusable>\n        <Tooltip>Gross revenue across all channels</Tooltip>\n      </TooltipTrigger>\n    </div>\n  );\n}"
+    },
+    {
+      "name": "badge",
+      "title": "Badge",
+      "description": "Count pills for nav rows and menus, in neutral and primary.",
+      "category": "base",
+      "tags": [
+        "indicator",
+        "count",
+        "pill",
+        "nav"
+      ],
+      "docs": "https://myzeusui.com/components/badge/",
+      "source": "https://myzeusui.com/r/badge.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add badge",
+      "dependencies": [
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { Badge } from \"@/components/base/badges/badge\";\n\nexport default function BadgeDemo() {\n  return (\n    <div className=\"flex items-center gap-4\">\n      <Badge color=\"neutral\">91</Badge>\n      <Badge color=\"primary\">152</Badge>\n    </div>\n  );\n}"
+    },
+    {
+      "name": "chip",
+      "title": "Chip",
+      "description": "Bold, subtle and caption tones across nine colours, for deltas, values and tags.",
+      "category": "base",
+      "tags": [
+        "indicator",
+        "tag",
+        "status",
+        "delta",
+        "filter"
+      ],
+      "docs": "https://myzeusui.com/components/chip/",
+      "source": "https://myzeusui.com/r/chip.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add chip",
+      "dependencies": [
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { Chip } from \"@/components/base/badges/chip\";\n\nconst COLORS = [\n  \"lime\",\n  \"rose\",\n  \"yellow\",\n  \"cyan\",\n  \"blue\",\n  \"purple\",\n  \"neutral\",\n  \"gray\",\n  \"soft\",\n] as const;\n\nexport default function ChipDemo() {\n  return (\n    <div className=\"flex flex-col gap-6\">\n      <div className=\"flex flex-wrap items-center gap-3\">\n        <Chip variant=\"bold\" color=\"lime\">\n          +12.5%\n        </Chip>\n        <Chip variant=\"subtle\" color=\"cyan\">\n          $3.252\n        </Chip>\n        <Chip variant=\"caption\" color=\"rose\">\n          Backend Engineer\n        </Chip>\n      </div>\n\n      <div className=\"flex flex-wrap items-center gap-3\">\n        {COLORS.map((color) => (\n          <Chip key={color} variant=\"bold\" color={color}>\n            {color}\n          </Chip>\n        ))}\n      </div>\n    </div>\n  );\n}"
+    },
+    {
+      "name": "status-dot",
+      "title": "Status Dot",
+      "description": "The small coloured dot that prefixes a status label.",
+      "category": "base",
+      "tags": [
+        "indicator",
+        "status",
+        "dot",
+        "presence"
+      ],
+      "docs": "https://myzeusui.com/components/status-dot/",
+      "source": "https://myzeusui.com/r/status-dot.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add status-dot",
+      "dependencies": [
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { StatusDot } from \"@/components/base/badges/status-dot\";\n\nconst STATUSES = [\n  { color: \"green\", label: \"Completed\" },\n  { color: \"yellow\", label: \"Waiting\" },\n  { color: \"indigo\", label: \"Processing\" },\n] as const;\n\nexport default function StatusDotDemo() {\n  return (\n    <div className=\"flex flex-wrap items-center gap-6\">\n      {STATUSES.map(({ color, label }) => (\n        <span key={label} className=\"inline-flex items-center gap-2 text-body-medium text-text-primary\">\n          <StatusDot color={color} />\n          {label}\n        </span>\n      ))}\n    </div>\n  );\n}"
+    },
+    {
+      "name": "kbd",
+      "title": "Kbd",
+      "description": "Keyboard key caps for shortcut hints.",
+      "category": "base",
+      "tags": [
+        "indicator",
+        "keyboard",
+        "shortcut",
+        "hint"
+      ],
+      "docs": "https://myzeusui.com/components/kbd/",
+      "source": "https://myzeusui.com/r/kbd.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add kbd",
+      "dependencies": [
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { Kbd } from \"@/components/base/kbd/kbd\";\n\nexport default function KbdDemo() {\n  return (\n    <div className=\"flex items-center gap-3\">\n      <Kbd>⌘K</Kbd>\n      <Kbd>⌘L</Kbd>\n      <Kbd>esc</Kbd>\n      <Kbd>⇧⌘P</Kbd>\n    </div>\n  );\n}"
+    },
+    {
+      "name": "avatar",
+      "title": "Avatar",
+      "description": "Photo with initials fallback, four sizes, colour tints and presence.",
+      "category": "base",
+      "tags": [
+        "identity",
+        "user",
+        "image",
+        "presence"
+      ],
+      "docs": "https://myzeusui.com/components/avatar/",
+      "source": "https://myzeusui.com/r/avatar.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add avatar",
+      "dependencies": [
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { Avatar } from \"@/components/base/avatar/avatar\";\n\nexport default function AvatarDemo() {\n  return (\n    <div className=\"flex flex-col gap-6\">\n      <div className=\"flex items-center gap-4\">\n        <Avatar size=\"lg\" src=\"/avatars/livia-saris.webp\" alt=\"Livia Saris\" />\n        <Avatar size=\"lg\" color=\"blue\" initials=\"B\" />\n        <Avatar size=\"lg\" color=\"neutral\" initials=\"M\" />\n      </div>\n\n      <div className=\"flex items-center gap-4\">\n        <Avatar size=\"xs\" initials=\"M\" />\n        <Avatar size=\"sm\" initials=\"M\" />\n        <Avatar size=\"md\" initials=\"M\" />\n        <Avatar size=\"lg\" initials=\"M\" />\n      </div>\n\n      {/* Overlapping stack */}\n      <div className=\"flex items-center\">\n        <Avatar size=\"md\" src=\"/avatars/aspen-lubin.webp\" alt=\"Aspen Lubin\" className=\"ring-2 ring-background-secondary-default\" />\n        <Avatar size=\"md\" src=\"/avatars/john-clarkson.webp\" alt=\"John Clarkson\" className=\"-ml-2 ring-2 ring-background-secondary-default\" />\n        <Avatar size=\"md\" src=\"/avatars/maria-lubin.webp\" alt=\"Maria Lubin\" className=\"-ml-2 ring-2 ring-background-secondary-default\" />\n      </div>\n    </div>\n  );\n}"
+    },
+    {
+      "name": "breadcrumb",
+      "title": "Breadcrumb",
+      "description": "Path trail whose items take arbitrary leading content — avatars, icons, dots.",
+      "category": "base",
+      "tags": [
+        "navigation",
+        "path",
+        "hierarchy",
+        "header"
+      ],
+      "docs": "https://myzeusui.com/components/breadcrumb/",
+      "source": "https://myzeusui.com/r/breadcrumb.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add breadcrumb",
+      "dependencies": [
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "chevrons",
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { RiHomeLine } from \"@remixicon/react\";\nimport { Avatar } from \"@/components/base/avatar/avatar\";\nimport { Breadcrumb, BreadcrumbItem } from \"@/components/base/breadcrumb/breadcrumb\";\n\nexport default function BreadcrumbDemo() {\n  return (\n    <div className=\"flex flex-col items-start gap-5\">\n      <Breadcrumb aria-label=\"Pages\">\n        <BreadcrumbItem href=\"#\">Dashboard</BreadcrumbItem>\n        <BreadcrumbItem href=\"#\">Projects</BreadcrumbItem>\n        <BreadcrumbItem current icon={RiHomeLine}>\n          Design system\n        </BreadcrumbItem>\n      </Breadcrumb>\n\n      <Breadcrumb aria-label=\"Team\">\n        <BreadcrumbItem href=\"#\">\n          <Avatar size=\"xs\" color=\"blue\" initials=\"N\" />\n          notpritam\n        </BreadcrumbItem>\n        <BreadcrumbItem current icon={RiHomeLine}>\n          Home\n        </BreadcrumbItem>\n      </Breadcrumb>\n    </div>\n  );\n}"
+    },
+    {
+      "name": "pagination",
+      "title": "Pagination",
+      "description": "Page numbers with truncation and prev/next controls.",
+      "category": "base",
+      "tags": [
+        "navigation",
+        "pages",
+        "table",
+        "list"
+      ],
+      "docs": "https://myzeusui.com/components/pagination/",
+      "source": "https://myzeusui.com/r/pagination.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add pagination",
+      "dependencies": [
+        "@remixicon/react",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "button",
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { useState } from \"react\";\nimport { Pagination } from \"@/components/base/pagination/pagination\";\n\nexport default function PaginationDemo() {\n  const [page, setPage] = useState(3);\n\n  return <Pagination page={page} totalPages={10} onChange={setPage} />;\n}"
+    },
+    {
+      "name": "carousel",
+      "title": "Carousel",
+      "description": "Snap track with arrows, dots, configurable gap and alignment.",
+      "category": "base",
+      "tags": [
+        "media",
+        "slider",
+        "gallery",
+        "swipe"
+      ],
+      "docs": "https://myzeusui.com/components/carousel/",
+      "source": "https://myzeusui.com/r/carousel.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add carousel",
+      "dependencies": [
+        "@remixicon/react",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "icon-button",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport Image from \"next/image\";\nimport { Carousel, CarouselItem } from \"@/components/base/carousel/carousel\";\n\nconst SLIDES = [\n  { src: \"/carousel/sunrise.webp\", label: \"Sunrise\" },\n  { src: \"/carousel/floral.webp\", label: \"Floral\" },\n  { src: \"/carousel/seafood.webp\", label: \"Seafood\" },\n  { src: \"/carousel/space-squid.webp\", label: \"Space squid\" },\n];\n\nexport default function CarouselDemo() {\n  return (\n    <Carousel aria-label=\"Recent work\" align=\"center\" gap={16} className=\"w-full\">\n      {SLIDES.map((slide) => (\n        <CarouselItem key={slide.src} className=\"w-[85%]\">\n          <Image\n            src={slide.src}\n            alt={slide.label}\n            width={640}\n            height={220}\n            className=\"h-[220px] w-full rounded-2lg object-cover\"\n          />\n        </CarouselItem>\n      ))}\n    </Carousel>\n  );\n}"
+    },
+    {
+      "name": "announcement",
+      "title": "Announcement",
+      "description": "Dismissible banner for product news, with an optional action.",
+      "category": "base",
+      "tags": [
+        "feedback",
+        "banner",
+        "news",
+        "dismissible"
+      ],
+      "docs": "https://myzeusui.com/components/announcement/",
+      "source": "https://myzeusui.com/r/announcement.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add announcement",
+      "dependencies": [
+        "@remixicon/react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "button",
+        "close-button",
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { RiSparklingFill } from \"@remixicon/react\";\nimport { Announcement } from \"@/components/base/announcement/announcement\";\n\nexport default function AnnouncementDemo() {\n  return (\n    <div className=\"flex w-full flex-col gap-4\">\n      <Announcement\n        title=\"Setting up your account\"\n        description=\"Take the tour and learn how to use the design system.\"\n        actionLabel=\"Take the tour\"\n        dismissible\n      />\n      <Announcement\n        icon={RiSparklingFill}\n        title=\"What's new in v0.1\"\n        description=\"A registry, a CLI and an MCP server — all free.\"\n        actionLabel=\"See the changelog\"\n      />\n      <Announcement title=\"2 seats left on your plan\" actionLabel=\"Upgrade\" />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "notification",
+      "title": "Notification",
+      "description": "Toast with status, icon or avatar, timestamp, actions and auto-dismiss.",
+      "category": "base",
+      "tags": [
+        "feedback",
+        "toast",
+        "alert",
+        "status"
+      ],
+      "docs": "https://myzeusui.com/components/notification/",
+      "source": "https://myzeusui.com/r/notification.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add notification",
+      "dependencies": [
+        "@remixicon/react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "avatar",
+        "button",
+        "close-button",
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { Notification } from \"@/components/base/notification/notification\";\n\nexport default function NotificationDemo() {\n  return (\n    <div className=\"flex w-full flex-col gap-4\">\n      <Notification\n        avatar={{\n          src: \"/avatars/kianna-vaccaro.webp\",\n          alt: \"Kianna Vaccaro\",\n          presence: \"online\",\n        }}\n        title=\"Kianna Vaccaro\"\n        timestamp=\"2 mins ago\"\n        description=\"I've finished adding my notes. Happy for us to review whenever you're ready!\"\n        actions={[\n          { label: \"Dismiss\", variant: \"secondary\" },\n          { label: \"View thread\", variant: \"primary\" },\n        ]}\n      />\n      <Notification\n        status=\"success\"\n        title=\"Changes saved\"\n        description=\"Your workspace settings have been updated.\"\n      />\n      <Notification\n        status=\"error\"\n        title=\"Upload failed\"\n        description=\"Check the file size and try again.\"\n      />\n      <Notification\n        status=\"information\"\n        title=\"New version available\"\n        description=\"Refresh to start using the latest dashboard updates.\"\n      />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "date-picker",
+      "title": "Date Picker",
+      "description": "Popover calendar for a single date, built on @internationalized/date.",
+      "category": "base",
+      "tags": [
+        "form",
+        "date",
+        "calendar",
+        "picker"
+      ],
+      "docs": "https://myzeusui.com/components/date-picker/",
+      "source": "https://myzeusui.com/r/date-picker.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add date-picker",
+      "dependencies": [
+        "@internationalized/date",
+        "@remixicon/react",
+        "motion",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "button",
+        "cx",
+        "tokens",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { DatePicker } from \"@/components/base/date-picker/date-picker\";\n\nexport default function DatePickerDemo() {\n  return (\n    <div className=\"flex flex-wrap items-center gap-5\">\n      <DatePicker aria-label=\"Meeting date\" />\n      <DatePicker aria-label=\"Disabled\" isDisabled />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "date-range-picker",
+      "title": "Date Range Picker",
+      "description": "Two-month range picker with quick presets and an apply step.",
+      "category": "base",
+      "tags": [
+        "form",
+        "date",
+        "range",
+        "presets",
+        "report"
+      ],
+      "docs": "https://myzeusui.com/components/date-range-picker/",
+      "source": "https://myzeusui.com/r/date-range-picker.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add date-range-picker",
+      "dependencies": [
+        "@internationalized/date",
+        "@remixicon/react",
+        "motion",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "button",
+        "cx",
+        "date-picker",
+        "tokens",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { DateRangePicker } from \"@/components/base/date-picker/date-range-picker\";\n\nexport default function DateRangePickerDemo() {\n  return (\n    <div className=\"flex flex-wrap items-center gap-5\">\n      <DateRangePicker aria-label=\"Report period\" />\n      <DateRangePicker aria-label=\"Disabled\" isDisabled />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "meeting-scheduler",
+      "title": "Meeting Scheduler",
+      "description": "A booking panel: host, duration, timezone, date and time slots.",
+      "category": "base",
+      "tags": [
+        "form",
+        "scheduling",
+        "booking",
+        "calendar",
+        "timezone"
+      ],
+      "docs": "https://myzeusui.com/components/meeting-scheduler/",
+      "source": "https://myzeusui.com/r/meeting-scheduler.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add meeting-scheduler",
+      "dependencies": [
+        "@internationalized/date",
+        "@remixicon/react",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "avatar",
+        "button",
+        "chevrons",
+        "cx",
+        "date-picker",
+        "tokens",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { MeetingScheduler } from \"@/components/base/date-picker/meeting-scheduler\";\n\nexport default function MeetingSchedulerDemo() {\n  return (\n    <MeetingScheduler\n      aria-label=\"Schedule meeting\"\n      triggerLabel=\"Schedule a meeting\"\n      host={{ name: \"zeus-ui\", email: \"pritam@emergent.sh\", avatarInitial: \"P\" }}\n      meeting={{\n        title: \"30 min intro\",\n        description: \"A quick call about the design system.\",\n        durationMinutes: 30,\n        language: \"English\",\n        conferencing: \"Google Meet\",\n      }}\n    />\n  );\n}"
+    },
+    {
+      "name": "theme-toggle",
+      "title": "Theme Toggle",
+      "description": "Light/dark switch that reveals the next theme from the exact click point.",
+      "category": "blocks",
+      "tags": [
+        "theme",
+        "dark-mode",
+        "view-transition",
+        "settings"
+      ],
+      "docs": "https://myzeusui.com/components/theme-toggle/",
+      "source": "https://myzeusui.com/r/theme-toggle.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add theme-toggle",
+      "dependencies": [
+        "@remixicon/react",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "switch",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { ThemeToggle } from \"@/components/application/theme/theme-toggle\";\n\nexport default function ThemeToggleDemo() {\n  return (\n    <div className=\"flex flex-wrap items-center gap-8\">\n      <div className=\"w-[236px]\">\n        <ThemeToggle />\n      </div>\n      <ThemeToggle collapsed />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "stat-cards",
+      "title": "Stat Cards",
+      "description": "KPI row with gradient icon tiles, info tooltips and delta pills, in two variants.",
+      "category": "blocks",
+      "tags": [
+        "dashboard",
+        "kpi",
+        "metrics",
+        "cards"
+      ],
+      "docs": "https://myzeusui.com/components/stat-cards/",
+      "source": "https://myzeusui.com/r/stat-cards.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add stat-cards",
+      "dependencies": [
+        "@remixicon/react",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "chip",
+        "cx",
+        "tokens",
+        "tooltip"
+      ],
+      "example": "\"use client\";\n\nimport { StatCards } from \"@/components/application/dashboard/stat-cards\";\n\nexport default function StatCardsDemo() {\n  return (\n    <div className=\"flex w-full flex-col gap-8\">\n      <StatCards variant=\"footer\" />\n      <StatCards />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "data-table",
+      "title": "Data Table",
+      "description": "TanStack Table with sorting, selection, filters, search, density and pagination.",
+      "category": "blocks",
+      "tags": [
+        "data",
+        "table",
+        "tanstack",
+        "sorting",
+        "filtering",
+        "pagination"
+      ],
+      "docs": "https://myzeusui.com/components/data-table/",
+      "source": "https://myzeusui.com/r/data-table.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add data-table",
+      "dependencies": [
+        "@remixicon/react",
+        "@tanstack/react-table",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "avatar",
+        "button",
+        "checkbox",
+        "chevrons",
+        "chip",
+        "cx",
+        "dropdown",
+        "icon-button",
+        "input",
+        "pagination",
+        "segmented-control",
+        "select",
+        "status-dot",
+        "table",
+        "tokens",
+        "tooltip",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { DataTableExample } from \"@/components/application/data-table/data-table\";\n\nexport default function DataTableDemo() {\n  // Sorting, selection, filters, search, density and pagination all live\n  // inside — TanStack Table for the logic, our primitives for the rendering.\n  return <DataTableExample />;\n}"
+    },
+    {
+      "name": "sidebar",
+      "title": "Sidebar",
+      "description": "The 260px dashboard sidebar with collapsing nav, team switcher and user menu.",
+      "category": "blocks",
+      "tags": [
+        "navigation",
+        "shell",
+        "sidebar",
+        "menu"
+      ],
+      "docs": "https://myzeusui.com/components/sidebar/",
+      "source": "https://myzeusui.com/r/sidebar.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add sidebar",
+      "dependencies": [
+        "@internationalized/date",
+        "@remixicon/react",
+        "motion",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "avatar",
+        "badge",
+        "button",
+        "checkbox",
+        "chevrons",
+        "chip",
+        "close-button",
+        "cx",
+        "date-picker",
+        "dropdown",
+        "file-upload",
+        "icon-button",
+        "input",
+        "kbd",
+        "pagination",
+        "select",
+        "settings-modal",
+        "switch",
+        "tabs",
+        "theme-toggle",
+        "tokens",
+        "tooltip",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { DashboardSidebar } from \"@/components/application/dashboard/dashboard-sidebar\";\n\nexport default function SidebarDemo() {\n  return (\n    <div className=\"h-[560px] w-full overflow-hidden rounded-2lg border border-border-button-white bg-background-full\">\n      <div className=\"flex h-full p-3\">\n        <DashboardSidebar className=\"flex\" />\n      </div>\n    </div>\n  );\n}"
+    },
+    {
+      "name": "app-shell",
+      "title": "App Shell",
+      "description": "The page frame: sidebar, mobile drawer, breadcrumb header and content column.",
+      "category": "blocks",
+      "tags": [
+        "layout",
+        "shell",
+        "page",
+        "responsive"
+      ],
+      "docs": "https://myzeusui.com/components/app-shell/",
+      "source": "https://myzeusui.com/r/app-shell.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add app-shell",
+      "dependencies": [
+        "@internationalized/date",
+        "@remixicon/react",
+        "motion",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "avatar",
+        "badge",
+        "breadcrumb",
+        "button",
+        "checkbox",
+        "chevrons",
+        "chip",
+        "close-button",
+        "cx",
+        "date-picker",
+        "dropdown",
+        "file-upload",
+        "icon-button",
+        "input",
+        "kbd",
+        "notification-center",
+        "pagination",
+        "segmented-control",
+        "select",
+        "settings-modal",
+        "sidebar",
+        "switch",
+        "tabs",
+        "theme-toggle",
+        "tokens",
+        "tooltip",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { AppShell } from \"@/components/application/app-shell/app-shell\";\nimport { Button } from \"@/components/base/buttons/button\";\nimport { RiAddLine } from \"@remixicon/react\";\nimport { useState } from \"react\";\n\nexport default function AppShellDemo() {\n  const [projects, setProjects] = useState([\"Website refresh\", \"Component library\"]);\n  return (\n    <div className=\"w-full overflow-hidden rounded-3xl border border-border-button-default\">\n      <AppShell\n        title=\"Projects\"\n        heading=\"Team workspace\"\n        className=\"h-[520px]\"\n        actions={\n          <Button\n            size=\"small\"\n            leadingIcon={RiAddLine}\n            onClick={() => setProjects((items) => [...items, `Project ${items.length + 1}`])}\n          >\n            New project\n          </Button>\n        }\n      >\n        <div className=\"rounded-2xl bg-background-secondary-default p-4\">\n          <p className=\"text-headline-medium text-text-primary\">A home for your team’s work</p>\n          <p className=\"mt-1 text-body-regular text-text-secondary\">\n            Navigation, page actions, and content share one adaptable frame.\n          </p>\n        </div>\n        <div className=\"grid gap-3 sm:grid-cols-2\" aria-live=\"polite\">\n          {projects.map((project, index) => (\n            <article\n              key={project}\n              className=\"flex flex-col gap-3 rounded-2xl border border-border-button-default bg-background-primary-default p-4\"\n            >\n              <span className=\"text-caption-1-medium text-text-tertiary\">\n                PROJECT {String(index + 1).padStart(2, \"0\")}\n              </span>\n              <h2 className=\"text-headline-medium text-text-primary\">{project}</h2>\n              <p className=\"text-body-2-regular text-text-secondary\">Ready for your next idea.</p>\n            </article>\n          ))}\n        </div>\n      </AppShell>\n    </div>\n  );\n}"
+    },
+    {
+      "name": "notification-center",
+      "title": "Notification Center",
+      "description": "Grouped, filterable inbox with unread state and per-item actions.",
+      "category": "blocks",
+      "tags": [
+        "feedback",
+        "inbox",
+        "notifications",
+        "filtering"
+      ],
+      "docs": "https://myzeusui.com/components/notification-center/",
+      "source": "https://myzeusui.com/r/notification-center.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add notification-center",
+      "dependencies": [
+        "@remixicon/react",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "avatar",
+        "button",
+        "cx",
+        "segmented-control",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { NotificationCenter } from \"@/components/application/notification-center/notification-center\";\nimport type { NotificationCenterItem } from \"@/components/application/notification-center/notification-center\";\n\nconst NOTIFICATIONS: NotificationCenterItem[] = [\n  {\n    id: \"mention-notes\",\n    category: \"mentions\",\n    group: \"Today\",\n    title: \"Livia mentioned you\",\n    description: \"Can you review the new empty state before we ship?\",\n    timestamp: \"2m\",\n    unread: true,\n    avatar: { src: \"/avatars/livia-saris.webp\", alt: \"Livia Saris\" },\n    actions: [\n      { id: \"reply\", label: \"Reply\", variant: \"primary\" },\n      { id: \"view\", label: \"View thread\", variant: \"secondary\" },\n    ],\n  },\n  {\n    id: \"backup-ready\",\n    category: \"system\",\n    group: \"Today\",\n    title: \"Workspace backup is ready\",\n    description: \"The latest backup finished successfully.\",\n    timestamp: \"18m\",\n    unread: true,\n    status: \"success\",\n  },\n  {\n    id: \"deploy-failed\",\n    category: \"system\",\n    group: \"Earlier this week\",\n    title: \"Preview deployment failed\",\n    description: \"The build stopped while validating routes.\",\n    timestamp: \"Sat\",\n    status: \"error\",\n    actions: [\n      { id: \"retry\", label: \"Retry\", variant: \"primary\" },\n      { id: \"logs\", label: \"View logs\", variant: \"secondary\" },\n    ],\n  },\n  {\n    id: \"invite-accepted\",\n    category: \"activity\",\n    group: \"Earlier this week\",\n    title: \"Michael joined the workspace\",\n    description: \"They accepted your invite to the team.\",\n    timestamp: \"Fri\",\n    avatar: { src: \"/avatars/michael-ekstrom.webp\", alt: \"Michael Ekstrom\" },\n  },\n];\n\nexport default function NotificationCenterDemo() {\n  return <NotificationCenter notifications={NOTIFICATIONS} />;\n}"
+    },
+    {
+      "name": "settings-modal",
+      "title": "Settings Modal",
+      "description": "Five-page settings dialog: profile, general, tools, storage and plan.",
+      "category": "blocks",
+      "tags": [
+        "settings",
+        "modal",
+        "dialog",
+        "preferences",
+        "account"
+      ],
+      "docs": "https://myzeusui.com/components/settings-modal/",
+      "source": "https://myzeusui.com/r/settings-modal.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add settings-modal",
+      "dependencies": [
+        "@internationalized/date",
+        "@remixicon/react",
+        "motion",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "button",
+        "checkbox",
+        "chevrons",
+        "chip",
+        "cx",
+        "date-picker",
+        "dropdown",
+        "file-upload",
+        "icon-button",
+        "input",
+        "pagination",
+        "select",
+        "switch",
+        "tabs",
+        "tokens",
+        "tooltip",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { useState } from \"react\";\nimport { RiSettingsLine } from \"@remixicon/react\";\nimport { SettingsModal } from \"@/components/application/settings/settings-modal\";\nimport { Button } from \"@/components/base/buttons/button\";\n\nexport default function SettingsModalDemo() {\n  const [isOpen, setIsOpen] = useState(false);\n\n  return (\n    <>\n      <Button variant=\"secondary\" leadingIcon={RiSettingsLine} onClick={() => setIsOpen(true)}>\n        Open settings\n      </Button>\n      <SettingsModal isOpen={isOpen} onClose={() => setIsOpen(false)} />\n    </>\n  );\n}"
+    },
+    {
+      "name": "auth-card",
+      "title": "Auth Card",
+      "description": "Sign in, sign up and verify, with stacked, inline and grid provider layouts.",
+      "category": "blocks",
+      "tags": [
+        "auth",
+        "sign-in",
+        "sign-up",
+        "oauth",
+        "otp",
+        "form"
+      ],
+      "docs": "https://myzeusui.com/components/auth-card/",
+      "source": "https://myzeusui.com/r/auth-card.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add auth-card",
+      "dependencies": [
+        "@remixicon/react",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "button",
+        "checkbox",
+        "cx",
+        "divider",
+        "input",
+        "input-otp",
+        "link-button",
+        "social-button",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { AuthCard } from \"@/components/application/auth/auth-card\";\n\nexport default function AuthCardDemo() {\n  return (\n    <div className=\"grid w-full gap-8 lg:grid-cols-3\">\n      <AuthCard mode=\"signin\" layout=\"stacked\" providers={[\"google\", \"apple\", \"github\"]} />\n      <AuthCard mode=\"signup\" layout=\"grid\" providers={[\"apple\", \"google\", \"figma\"]} />\n      <AuthCard mode=\"verify\" email=\"pritam@emergent.sh\" codeLength={6} />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "agent-limits-card",
+      "title": "Agent Limits",
+      "description": "Context window usage as a segmented bar with an expandable token breakdown, plus plan quotas and their reset times.",
+      "category": "blocks",
+      "tags": [
+        "ai",
+        "agent",
+        "usage",
+        "quota",
+        "tokens",
+        "context-window",
+        "progress"
+      ],
+      "docs": "https://myzeusui.com/components/agent-limits-card/",
+      "source": "https://myzeusui.com/r/agent-limits-card.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add agent-limits-card",
+      "dependencies": [
+        "@remixicon/react",
+        "motion",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { AgentLimitsCard } from \"@/components/application/agent/agent-limits-card\";\n\nexport default function AgentLimitsCardDemo() {\n  return (\n    <div className=\"w-full max-w-md\">\n      <AgentLimitsCard\n        context={{\n          max: 1_000_000,\n          segments: [\n            { label: \"Messages\", tokens: 520_000 },\n            { label: \"System tools\", tokens: 96_000 },\n            { label: \"MCP tools\", tokens: 68_000 },\n            { label: \"Skills\", tokens: 54_000, color: \"var(--color-chart-8)\" },\n            { label: \"System prompt\", tokens: 42_000 },\n            { label: \"Memory files\", tokens: 24_000 },\n            { label: \"Custom agents\", tokens: 16_000 },\n            { label: \"MCP tools (deferred)\", tokens: 69_900, deferred: true },\n            { label: \"System tools (deferred)\", tokens: 16_100, deferred: true },\n          ],\n          groups: [\n            {\n              label: \"MCP tools\",\n              tokens: 137_900,\n              items: [\n                { label: \"browser\", tokens: 54_200 },\n                { label: \"figma\", tokens: 41_800 },\n                { label: \"vercel\", tokens: 26_500 },\n                { label: \"session\", tokens: 15_400 },\n              ],\n            },\n            {\n              label: \"Memory files\", tokens: 24_000,\n              items: [{ label: \"MEMORY.md\", tokens: 16_400 }, { label: \"project-conventions.md\", tokens: 7_600 }],\n            },\n            {\n              label: \"Custom agents\", tokens: 16_000,\n              items: [{ label: \"reviewer\", tokens: 7_100 }, { label: \"explorer\", tokens: 5_200 }, { label: \"planner\", tokens: 3_700 }],\n            },\n          ],\n        }}\n        plan=\"Max (5x)\"\n        planHref=\"/dashboard\"\n        limits={[\n          { label: \"5-hour limit\", used: 0.38, resets: \"Resets in 2 hr 46 min\" },\n          { label: \"Weekly · all models\", used: 0.03, resets: \"Resets Tue 3:00 PM\" },\n          { label: \"Weekly · Pro\", used: 0.05, resets: \"Resets Tue 3:00 PM\" },\n        ]}\n      />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "agent-thinking",
+      "title": "Agent Thinking",
+      "description": "Four loading personalities — wave, spin, stars and infinity — with an elapsed timer.",
+      "category": "blocks",
+      "tags": [
+        "ai",
+        "agent",
+        "loading",
+        "streaming",
+        "chat"
+      ],
+      "docs": "https://myzeusui.com/components/agent-thinking/",
+      "source": "https://myzeusui.com/r/agent-thinking.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add agent-thinking",
+      "dependencies": [
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { AgentThinking } from \"@/components/application/agent-thinking/agent-thinking\";\n\nexport default function AgentThinkingDemo() {\n  return (\n    <div className=\"flex flex-col gap-6\">\n      <AgentThinking variant=\"wave\" label=\"Thinking\" />\n      <AgentThinking variant=\"spin\" label=\"Searching the docs\" />\n      <AgentThinking variant=\"stars\" label=\"Reading files\" />\n      <AgentThinking variant=\"infinity\" label=\"Planning\" tone=\"accent\" />\n      <AgentThinking variant=\"wave\" label=\"Working\" showTimer={false} shimmer={false} />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "composer-loader",
+      "title": "Composer Loader",
+      "description": "A travelling light that rims the composer while an agent is answering.",
+      "category": "blocks",
+      "tags": [
+        "ai",
+        "agent",
+        "loading",
+        "composer",
+        "svg"
+      ],
+      "docs": "https://myzeusui.com/components/composer-loader/",
+      "source": "https://myzeusui.com/r/composer-loader.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add composer-loader",
+      "dependencies": [
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { useState } from \"react\";\nimport { ComposerLoader } from \"@/components/application/composer-loader/composer-loader\";\nimport { Switch } from \"@/components/base/switch/switch\";\n\nexport default function ComposerLoaderDemo() {\n  const [active, setActive] = useState(true);\n\n  return (\n    <div className=\"flex w-full flex-col gap-5\">\n      <ComposerLoader active={active} radius={26}>\n        {/* The wrapped composer must not paint its own surface — the light\n            layers between the pill background and the content. */}\n        <div className=\"flex min-h-[92px] items-start rounded-[26px] bg-transparent px-4 py-3\">\n          <span className=\"text-body-regular text-text-secondary\">\n            Ask anything — the rim lights while this is active.\n          </span>\n        </div>\n      </ComposerLoader>\n\n      <Switch isSelected={active} onChange={setActive}>\n        Active\n      </Switch>\n    </div>\n  );\n}"
+    },
+    {
+      "name": "agent-log",
+      "title": "Agent Log",
+      "description": "The primitives behind a streaming tool log: reveal masks, guides and shimmer text.",
+      "category": "blocks",
+      "tags": [
+        "ai",
+        "agent",
+        "log",
+        "streaming",
+        "motion"
+      ],
+      "docs": "https://myzeusui.com/components/agent-log/",
+      "source": "https://myzeusui.com/r/agent-log.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add agent-log",
+      "dependencies": [
+        "motion",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "agent-thinking",
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { LogRow, useLogMotion, useRevealTicker, WorkingRow } from \"@/components/application/agent-log/agent-log\";\nimport { Button } from \"@/components/base/buttons/button\";\nimport { RiCheckLine, RiFileSearchLine } from \"@remixicon/react\";\nimport { useState } from \"react\";\n\nconst FINDINGS = [\n  \"Read the component specification\",\n  \"Reviewed the existing interaction patterns\",\n  \"Verified semantic colors and typography\",\n  \"Prepared the implementation notes\",\n];\n\nfunction LogSequence({ run, onComplete }: { run: boolean; onComplete: () => void }) {\n  const reduce = useLogMotion();\n  const revealed = useRevealTicker({\n    total: FINDINGS.length,\n    run,\n    stepInterval: 850,\n    startDelay: 250,\n    onComplete,\n  });\n  return (\n    <div className=\"flex min-h-44 flex-col gap-2\">\n      <div className=\"flex items-center gap-2 text-body-medium text-text-primary\">\n        <RiFileSearchLine className=\"size-4 text-foreground-icon-secondary\" />\n        Reviewing the component\n      </div>\n      <ol aria-label=\"Agent work log\" className=\"ml-2\" aria-live=\"polite\">\n        {FINDINGS.slice(0, revealed).map((finding, index) => (\n          <LogRow key={finding} first={index === 0} last={index === revealed - 1} reduce={reduce}>\n            <div className=\"flex items-center gap-2 py-1 text-body-regular text-text-secondary\">\n              <RiCheckLine className=\"size-4 shrink-0 text-foreground-icon-secondary\" />\n              {finding}\n            </div>\n          </LogRow>\n        ))}\n      </ol>\n      {revealed < FINDINGS.length ? (\n        <WorkingRow\n          label={run ? \"Checking the next step\" : \"Paused\"}\n          reduce={reduce}\n          className=\"ml-6\"\n        />\n      ) : (\n        <p className=\"ml-6 text-body-2-medium text-text-secondary\">Review complete.</p>\n      )}\n    </div>\n  );\n}\n\nexport default function AgentLogDemo() {\n  const [run, setRun] = useState(true);\n  const [finished, setFinished] = useState(false);\n  const [replay, setReplay] = useState(0);\n  return (\n    <div className=\"flex w-full max-w-lg flex-col gap-4 rounded-3xl border border-border-button-default bg-background-primary-default p-5\">\n      <LogSequence key={replay} run={run} onComplete={() => setFinished(true)} />\n      <div className=\"flex gap-2 border-t border-separator-border pt-4\">\n        <Button\n          variant=\"secondary\"\n          size=\"small\"\n          disabled={finished}\n          onClick={() => setRun((value) => !value)}\n        >\n          {run ? \"Pause\" : \"Resume\"}\n        </Button>\n        <Button\n          variant=\"secondary\"\n          size=\"small\"\n          onClick={() => {\n            setReplay((value) => value + 1);\n            setFinished(false);\n            setRun(true);\n          }}\n        >\n          Replay\n        </Button>\n      </div>\n    </div>\n  );\n}"
+    },
+    {
+      "name": "agent-chat",
+      "title": "Agent Chat",
+      "description": "A working chat app: thread history, streaming messages, composer and suggestions.",
+      "category": "blocks",
+      "tags": [
+        "ai",
+        "chat",
+        "agent",
+        "streaming",
+        "ai-sdk",
+        "composer"
+      ],
+      "docs": "https://myzeusui.com/components/agent-chat/",
+      "source": "https://myzeusui.com/r/agent-chat.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add agent-chat",
+      "dependencies": [
+        "@ai-sdk/react",
+        "@internationalized/date",
+        "@remixicon/react",
+        "ai",
+        "motion",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "agent-thinking",
+        "app-shell",
+        "avatar",
+        "badge",
+        "breadcrumb",
+        "button",
+        "checkbox",
+        "chevrons",
+        "chip",
+        "close-button",
+        "composer-loader",
+        "cx",
+        "date-picker",
+        "dropdown",
+        "file-upload",
+        "icon-button",
+        "input",
+        "kbd",
+        "notification-center",
+        "pagination",
+        "segmented-control",
+        "select",
+        "settings-modal",
+        "sidebar",
+        "switch",
+        "tabs",
+        "theme-toggle",
+        "tokens",
+        "tooltip",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { AgentChat } from \"@/components/application/agent-chat/agent-chat\";\n\nexport default function AgentChatDemo() {\n  // `contained` fills the preview frame instead of the viewport.\n  return (\n    <div className=\"h-[640px] w-full overflow-hidden rounded-2lg border border-border-button-white\">\n      <AgentChat contained />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "area-chart-card",
+      "title": "Area Chart",
+      "description": "One or more series as soft filled bands, stacked into a total by default.",
+      "category": "charts",
+      "tags": [
+        "chart",
+        "area",
+        "stacked",
+        "recharts",
+        "trend"
+      ],
+      "docs": "https://myzeusui.com/components/area-chart-card/",
+      "source": "https://myzeusui.com/r/area-chart-card.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add area-chart-card",
+      "dependencies": [
+        "@remixicon/react",
+        "motion",
+        "react-aria-components",
+        "recharts",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "chart-card",
+        "chevrons",
+        "chip",
+        "cx",
+        "segmented-control",
+        "select",
+        "tokens",
+        "use-count-up",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { AreaChartCard } from \"@/components/application/charts/area-chart-card\";\n\nexport default function AreaChartCardDemo() {\n  return (\n    <div className=\"w-full max-w-xl\">\n      <AreaChartCard />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "line-chart-card",
+      "title": "Line Chart",
+      "description": "Several series compared over one axis, smooth or sharp, with a dashed comparison.",
+      "category": "charts",
+      "tags": [
+        "chart",
+        "line",
+        "series",
+        "recharts",
+        "comparison"
+      ],
+      "docs": "https://myzeusui.com/components/line-chart-card/",
+      "source": "https://myzeusui.com/r/line-chart-card.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add line-chart-card",
+      "dependencies": [
+        "@remixicon/react",
+        "motion",
+        "react-aria-components",
+        "recharts",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "chart-card",
+        "chevrons",
+        "chip",
+        "cx",
+        "segmented-control",
+        "select",
+        "tokens",
+        "use-count-up",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { LineChartCard } from \"@/components/application/charts/line-chart-card\";\n\nexport default function LineChartCardDemo() {\n  return (\n    <div className=\"w-full max-w-xl\">\n      <LineChartCard />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "bar-list-card",
+      "title": "Bar List",
+      "description": "A ranked list where each row's bar is its share of the top — no axis, no library.",
+      "category": "charts",
+      "tags": [
+        "chart",
+        "bar",
+        "ranking",
+        "top-n",
+        "list"
+      ],
+      "docs": "https://myzeusui.com/components/bar-list-card/",
+      "source": "https://myzeusui.com/r/bar-list-card.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add bar-list-card",
+      "dependencies": [
+        "@remixicon/react",
+        "motion",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "chart-card",
+        "chevrons",
+        "chip",
+        "cx",
+        "segmented-control",
+        "select",
+        "tokens",
+        "use-count-up",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { BarListCard } from \"@/components/application/charts/bar-list-card\";\n\nexport default function BarListCardDemo() {\n  return (\n    <div className=\"w-full max-w-md\">\n      <BarListCard />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "activity-rings-card",
+      "title": "Activity Rings",
+      "description": "Concentric progress arcs, one per goal, drawn as plain SVG.",
+      "category": "charts",
+      "tags": [
+        "chart",
+        "radial",
+        "progress",
+        "goals",
+        "health",
+        "svg"
+      ],
+      "docs": "https://myzeusui.com/components/activity-rings-card/",
+      "source": "https://myzeusui.com/r/activity-rings-card.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add activity-rings-card",
+      "dependencies": [
+        "@remixicon/react",
+        "motion",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "chart-card",
+        "chevrons",
+        "chip",
+        "cx",
+        "segmented-control",
+        "select",
+        "tokens",
+        "use-count-up",
+        "use-dismiss-on-outside-press"
+      ],
+      "example": "\"use client\";\n\nimport { ActivityRingsCard } from \"@/components/application/charts/activity-rings-card\";\n\nexport default function ActivityRingsCardDemo() {\n  return (\n    <div className=\"w-full max-w-md\">\n      <ActivityRingsCard />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "chart-card",
+      "title": "Chart Card",
+      "description": "The shared frame every chart card is built on: header, count-up headline, delta chip and legend.",
+      "category": "charts",
+      "tags": [
+        "chart",
+        "shell",
+        "layout",
+        "primitive"
+      ],
+      "docs": "https://myzeusui.com/components/chart-card/",
+      "source": "https://myzeusui.com/r/chart-card.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add chart-card",
+      "dependencies": [
+        "motion",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "chip",
+        "cx",
+        "tokens",
+        "use-count-up"
+      ],
+      "example": "\"use client\";\n\nimport { ChartCard } from \"@/components/application/charts/chart-card\";\nimport { Button } from \"@/components/base/buttons/button\";\nimport { useState } from \"react\";\n\nconst PERIODS = [\n  [\n    { label: \"Mon\", value: 28 },\n    { label: \"Tue\", value: 42 },\n    { label: \"Wed\", value: 35 },\n    { label: \"Thu\", value: 56 },\n    { label: \"Fri\", value: 49 },\n  ],\n  [\n    { label: \"Mon\", value: 36 },\n    { label: \"Tue\", value: 31 },\n    { label: \"Wed\", value: 52 },\n    { label: \"Thu\", value: 44 },\n    { label: \"Fri\", value: 61 },\n  ],\n];\n\nexport default function ChartCardDemo() {\n  const [period, setPeriod] = useState(0);\n  const [active, setActive] = useState<number | null>(null);\n  const data = PERIODS[period]!;\n  const total = data.reduce((value, point) => value + point.value, 0);\n  return (\n    <div className=\"w-full max-w-lg\">\n      <ChartCard\n        label={active === null ? \"Completed tasks\" : data[active]!.label}\n        value={active === null ? total : data[active]!.value}\n        caption={active === null ? \"Hover a bar to inspect a day\" : \"Tasks completed on this day\"}\n        pulseKey={active}\n        height={300}\n        action={\n          <Button\n            variant=\"secondary\"\n            size=\"small\"\n            onClick={() => {\n              setPeriod((value) => (value + 1) % PERIODS.length);\n              setActive(null);\n            }}\n          >\n            {period === 0 ? \"This week\" : \"Last week\"}\n          </Button>\n        }\n      >\n        <div className=\"flex h-full items-stretch gap-5 pt-3\">\n          {data.map((point, index) => (\n            <div key={point.label} className=\"flex min-w-0 flex-1 flex-col items-center gap-2\">\n              <button\n                type=\"button\"\n                aria-label={`${point.label}: ${point.value} completed tasks`}\n                onMouseEnter={() => setActive(index)}\n                onMouseLeave={() => setActive(null)}\n                onFocus={() => setActive(index)}\n                onBlur={() => setActive(null)}\n                className=\"relative w-full flex-1 rounded-lg bg-chart-track outline-none focus-visible:ring-2 focus-visible:ring-border-focus-ring\"\n              >\n                <span\n                  className=\"absolute inset-x-0 bottom-0 rounded-lg bg-chart-2 transition-[height,opacity] duration-300 motion-reduce:transition-none\"\n                  style={{\n                    height: `${(point.value / 70) * 100}%`,\n                    opacity: active !== null && active !== index ? 0.4 : 1,\n                  }}\n                />\n              </button>\n              <span className=\"text-caption-1-medium text-text-secondary\">{point.label}</span>\n            </div>\n          ))}\n        </div>\n      </ChartCard>\n    </div>\n  );\n}"
+    },
+    {
+      "name": "revenue-chart-card",
+      "title": "Revenue Chart",
+      "description": "Year-over-year area chart with a computed headline and delta.",
+      "category": "charts",
+      "tags": [
+        "chart",
+        "area",
+        "revenue",
+        "recharts",
+        "yoy"
+      ],
+      "docs": "https://myzeusui.com/components/revenue-chart-card/",
+      "source": "https://myzeusui.com/r/revenue-chart-card.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add revenue-chart-card",
+      "dependencies": [
+        "motion",
+        "recharts",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "chip",
+        "cx",
+        "tokens",
+        "use-count-up"
+      ],
+      "example": "\"use client\";\n\nimport { RevenueChartCard } from \"@/components/application/dashboard/revenue-chart-card\";\n\nexport default function RevenueChartCardDemo() {\n  return <RevenueChartCard />;\n}"
+    },
+    {
+      "name": "orders-chart-card",
+      "title": "Orders Chart",
+      "description": "Year-over-year bars with the same headline and delta treatment.",
+      "category": "charts",
+      "tags": [
+        "chart",
+        "bar",
+        "orders",
+        "recharts",
+        "yoy"
+      ],
+      "docs": "https://myzeusui.com/components/orders-chart-card/",
+      "source": "https://myzeusui.com/r/orders-chart-card.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add orders-chart-card",
+      "dependencies": [
+        "motion",
+        "recharts",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "chip",
+        "cx",
+        "tokens",
+        "use-count-up"
+      ],
+      "example": "\"use client\";\n\nimport { OrdersChartCard } from \"@/components/application/dashboard/orders-chart-card\";\n\nexport default function OrdersChartCardDemo() {\n  return <OrdersChartCard />;\n}"
+    },
+    {
+      "name": "important-alerts-card",
+      "title": "Important Alerts",
+      "description": "A dated alert feed with severity icons and a week range pill.",
+      "category": "charts",
+      "tags": [
+        "health",
+        "alerts",
+        "feed",
+        "timeline"
+      ],
+      "docs": "https://myzeusui.com/components/important-alerts-card/",
+      "source": "https://myzeusui.com/r/important-alerts-card.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add important-alerts-card",
+      "dependencies": [
+        "@internationalized/date",
+        "@remixicon/react",
+        "react-aria-components",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "cx",
+        "date-picker",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { ImportantAlertsCard } from \"@/components/application/medical/important-alerts-card\";\n\nexport default function ImportantAlertsCardDemo() {\n  return <ImportantAlertsCard />;\n}"
+    },
+    {
+      "name": "patient-info-card",
+      "title": "Patient Info",
+      "description": "A profile card with identity fields and vitals.",
+      "category": "charts",
+      "tags": [
+        "health",
+        "profile",
+        "vitals",
+        "card"
+      ],
+      "docs": "https://myzeusui.com/components/patient-info-card/",
+      "source": "https://myzeusui.com/r/patient-info-card.json",
+      "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.1.0.tgz zeus-ui add patient-info-card",
+      "dependencies": [
+        "@remixicon/react",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [
+        "avatar",
+        "button",
+        "cx",
+        "tokens"
+      ],
+      "example": "\"use client\";\n\nimport { PatientInfoCard } from \"@/components/application/medical/patient-info-card\";\n\nexport default function PatientInfoCardDemo() {\n  return <PatientInfoCard />;\n}"
+    }
+  ]
+}
