@@ -104,6 +104,7 @@
       ],
       "docs": "https://myzeusui.com/components/morphing-tooltip/",
       "source": "https://myzeusui.com/r/morphing-tooltip.json",
+      "playground": "https://myzeusui.com/playground/morphing-tooltip/",
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.1.tgz zeus-ui add morphing-tooltip",
       "dependencies": [
         "@gsap/react",
@@ -127,6 +128,7 @@
       ],
       "docs": "https://myzeusui.com/components/text-reveal/",
       "source": "https://myzeusui.com/r/text-reveal.json",
+      "playground": "https://myzeusui.com/playground/text-reveal/",
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.1.tgz zeus-ui add text-reveal",
       "dependencies": [
         "@gsap/react",
@@ -150,6 +152,7 @@
       ],
       "docs": "https://myzeusui.com/components/animated-accordion/",
       "source": "https://myzeusui.com/r/animated-accordion.json",
+      "playground": "https://myzeusui.com/playground/animated-accordion/",
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.1.tgz zeus-ui add animated-accordion",
       "dependencies": [
         "@gsap/react",
@@ -173,6 +176,7 @@
       ],
       "docs": "https://myzeusui.com/components/dual-scramble/",
       "source": "https://myzeusui.com/r/dual-scramble.json",
+      "playground": "https://myzeusui.com/playground/dual-scramble/",
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.1.tgz zeus-ui add dual-scramble",
       "dependencies": [
         "@gsap/react",
@@ -196,6 +200,7 @@
       ],
       "docs": "https://myzeusui.com/components/multi-level-drawer-menu/",
       "source": "https://myzeusui.com/r/multi-level-drawer-menu.json",
+      "playground": "https://myzeusui.com/playground/multi-level-drawer-menu/",
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.1.tgz zeus-ui add multi-level-drawer-menu",
       "dependencies": [
         "@gsap/react",
@@ -219,6 +224,7 @@
       ],
       "docs": "https://myzeusui.com/components/image-fly-in/",
       "source": "https://myzeusui.com/r/image-fly-in.json",
+      "playground": "https://myzeusui.com/playground/image-fly-in/",
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.1.tgz zeus-ui add image-fly-in",
       "dependencies": [
         "@gsap/react",
@@ -242,6 +248,7 @@
       ],
       "docs": "https://myzeusui.com/components/scale-slider/",
       "source": "https://myzeusui.com/r/scale-slider.json",
+      "playground": "https://myzeusui.com/playground/scale-slider/",
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.1.tgz zeus-ui add scale-slider",
       "dependencies": [
         "@gsap/react",
@@ -265,6 +272,7 @@
       ],
       "docs": "https://myzeusui.com/components/curtain-slider/",
       "source": "https://myzeusui.com/r/curtain-slider.json",
+      "playground": "https://myzeusui.com/playground/curtain-slider/",
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.1.tgz zeus-ui add curtain-slider",
       "dependencies": [
         "@gsap/react",
@@ -288,6 +296,7 @@
       ],
       "docs": "https://myzeusui.com/components/feature-dialog/",
       "source": "https://myzeusui.com/r/feature-dialog.json",
+      "playground": "https://myzeusui.com/playground/feature-dialog/",
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.1.tgz zeus-ui add feature-dialog",
       "dependencies": [
         "@gsap/react",
@@ -311,6 +320,7 @@
       ],
       "docs": "https://myzeusui.com/components/ascii-overlay/",
       "source": "https://myzeusui.com/r/ascii-overlay.json",
+      "playground": "https://myzeusui.com/playground/ascii-overlay/",
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.1.tgz zeus-ui add ascii-overlay",
       "dependencies": [
         "gsap",
@@ -334,6 +344,7 @@
       ],
       "docs": "https://myzeusui.com/components/animated-pricing/",
       "source": "https://myzeusui.com/r/animated-pricing.json",
+      "playground": "https://myzeusui.com/playground/animated-pricing/",
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.1.tgz zeus-ui add animated-pricing",
       "dependencies": [
         "@gsap/react",
