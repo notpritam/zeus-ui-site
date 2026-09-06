@@ -4,6 +4,13 @@
   "title": "Social Button",
   "description": "Twenty-four OAuth brands in colourful, black and outlined appearances.",
   "category": "base",
+  "family": "buttons",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "auth",
     "oauth",

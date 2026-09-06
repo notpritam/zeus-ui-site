@@ -4,6 +4,15 @@
   "title": "Area Chart",
   "description": "One or more series as soft filled bands, stacked into a total by default.",
   "category": "charts",
+  "family": "data",
+  "kind": "chart",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "chart",
     "area",

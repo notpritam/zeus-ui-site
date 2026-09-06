@@ -4,6 +4,15 @@
   "title": "Stage Bars",
   "description": "name, value and share per stage, animated widths, mono option",
   "category": "charts",
+  "family": "data",
+  "kind": "chart",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "chart",
     "data",

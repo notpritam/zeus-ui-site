@@ -4,6 +4,15 @@
   "title": "Task List",
   "description": "Streaming agent task log for React and Tailwind CSS. Tasks reveal step by step with soft height, blur, and shimmer, and drop straight into a chat thread.",
   "category": "blocks",
+  "family": "ai",
+  "kind": "block",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "interaction",
     "ai",

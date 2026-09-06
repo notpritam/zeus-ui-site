@@ -4,6 +4,13 @@
   "title": "Tooltip",
   "description": "Hover and focus tooltip with the arrow and placement handled for you.",
   "category": "base",
+  "family": "overlays",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "overlay",
     "hint",

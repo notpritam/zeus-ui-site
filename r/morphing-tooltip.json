@@ -4,6 +4,13 @@
   "title": "Morphing Tooltip",
   "description": "A shared liquid tooltip that rises from toolbar buttons, travels between them and resizes to each caption",
   "category": "animations",
+  "family": "overlays",
+  "kind": "animation",
+  "designSystem": null,
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "animation",
     "gsap",

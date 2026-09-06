@@ -4,6 +4,13 @@
   "title": "Breadcrumb",
   "description": "Path trail whose items take arbitrary leading content — avatars, icons, dots.",
   "category": "base",
+  "family": "navigation",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "navigation",
     "path",

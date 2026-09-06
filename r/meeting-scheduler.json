@@ -4,6 +4,15 @@
   "title": "Meeting Scheduler",
   "description": "A booking panel: host, duration, timezone, date and time slots.",
   "category": "base",
+  "family": "scheduling",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "form",
     "scheduling",

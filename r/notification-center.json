@@ -4,6 +4,15 @@
   "title": "Notification Center",
   "description": "Grouped, filterable inbox with unread state and per-item actions.",
   "category": "blocks",
+  "family": "feedback",
+  "kind": "block",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "feedback",
     "inbox",

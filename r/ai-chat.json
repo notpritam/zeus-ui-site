@@ -4,6 +4,15 @@
   "title": "AI Chat",
   "description": "A coding agent workspace with progress, task playback, a code panel and a cancellable backend adapter",
   "category": "templates",
+  "family": "ai",
+  "kind": "template",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "ai",
     "chat",

@@ -4,6 +4,15 @@
   "title": "Patient Info",
   "description": "A profile card with identity fields and vitals.",
   "category": "charts",
+  "family": "data",
+  "kind": "chart",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "health",
     "profile",

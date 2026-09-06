@@ -4,6 +4,13 @@
   "title": "Tabs",
   "description": "Underlined tabs with optional icons and counts, plus a pill variant.",
   "category": "base",
+  "family": "navigation",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "navigation",
     "tabs",

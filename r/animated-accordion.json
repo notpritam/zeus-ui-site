@@ -4,6 +4,13 @@
   "title": "Animated Accordion",
   "description": "Coordinated expandable panels with rotating icons and optional line-by-line text reveals",
   "category": "animations",
+  "family": "overlays",
+  "kind": "animation",
+  "designSystem": null,
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "animation",
     "gsap",

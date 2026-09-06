@@ -4,6 +4,13 @@
   "title": "Switch",
   "description": "Pill and rectangle shapes, two sizes, plus a card variant with icon and description.",
   "category": "base",
+  "family": "forms",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "form",
     "toggle",

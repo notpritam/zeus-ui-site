@@ -4,6 +4,13 @@
   "title": "Table",
   "description": "The semantic table primitive: sortable columns, row selection, two densities.",
   "category": "base",
+  "family": "data",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "data",
     "table",

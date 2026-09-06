@@ -4,6 +4,13 @@
   "title": "Revenue Chart",
   "description": "Year-over-year area chart with a computed headline and delta.",
   "category": "charts",
+  "family": "data",
+  "kind": "chart",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "chart",
     "area",

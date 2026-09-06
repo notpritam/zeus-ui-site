@@ -4,6 +4,15 @@
   "title": "Finance Dashboard",
   "description": "Personal finance workspace with cash flow, investments, spending and transaction records",
   "category": "templates",
+  "family": "screens",
+  "kind": "template",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "dashboard",
     "finance",

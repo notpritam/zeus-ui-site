@@ -4,6 +4,15 @@
   "title": "Composer",
   "description": "The AI chat composer for React + Tailwind CSS: attachment and model menus, voice and send controls, status bar, and a liquid-glass working state",
   "category": "blocks",
+  "family": "ai",
+  "kind": "block",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "interaction",
     "ai",

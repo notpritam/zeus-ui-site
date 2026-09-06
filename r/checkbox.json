@@ -4,6 +4,13 @@
   "title": "Checkbox",
   "description": "Hand-drawn tick animation, indeterminate state, two sizes and a card variant.",
   "category": "base",
+  "family": "forms",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "form",
     "selection",

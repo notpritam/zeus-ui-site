@@ -4,6 +4,15 @@
   "title": "Web Search",
   "description": "Streaming research trail for React and Tailwind CSS: the queries an agent ran and the sources it opened, with real site marks, drawn in as it works.",
   "category": "blocks",
+  "family": "ai",
+  "kind": "block",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "interaction",
     "ai",

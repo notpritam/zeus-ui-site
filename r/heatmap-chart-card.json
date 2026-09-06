@@ -4,6 +4,15 @@
   "title": "Heatmap Chart",
   "description": "rows × columns of tinted cells with a theme-following ramp, hover-linked headline, and Less → More legend",
   "category": "charts",
+  "family": "data",
+  "kind": "chart",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "chart",
     "data",

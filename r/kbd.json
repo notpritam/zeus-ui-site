@@ -4,6 +4,13 @@
   "title": "Kbd",
   "description": "Keyboard key caps for shortcut hints.",
   "category": "base",
+  "family": "typography",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "indicator",
     "keyboard",

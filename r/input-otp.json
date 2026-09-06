@@ -4,6 +4,13 @@
   "title": "Input OTP",
   "description": "One-time-code boxes with paste, autofill and grouping.",
   "category": "base",
+  "family": "forms",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "form",
     "otp",

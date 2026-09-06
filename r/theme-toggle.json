@@ -4,6 +4,15 @@
   "title": "Theme Toggle",
   "description": "Light/dark switch that reveals the next theme from the exact click point.",
   "category": "blocks",
+  "family": "feedback",
+  "kind": "block",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "theme",
     "dark-mode",

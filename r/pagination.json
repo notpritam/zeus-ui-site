@@ -4,6 +4,15 @@
   "title": "Pagination",
   "description": "Page numbers with truncation and prev/next controls.",
   "category": "base",
+  "family": "navigation",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "navigation",
     "pages",

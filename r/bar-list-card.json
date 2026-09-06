@@ -4,6 +4,15 @@
   "title": "Bar List",
   "description": "A ranked list where each row's bar is its share of the top — no axis, no library.",
   "category": "charts",
+  "family": "data",
+  "kind": "chart",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "chart",
     "bar",

@@ -4,6 +4,13 @@
   "title": "Animated Pricing",
   "description": "Pricing cards with digit-by-digit billing transitions, a savings chip and shimmering names",
   "category": "animations",
+  "family": "pricing",
+  "kind": "animation",
+  "designSystem": null,
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "animation",
     "gsap",

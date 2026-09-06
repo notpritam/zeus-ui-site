@@ -4,6 +4,15 @@
   "title": "Calendar",
   "description": "event chips, details popover, month switcher, and inbox feed",
   "category": "blocks",
+  "family": "scheduling",
+  "kind": "block",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "interaction",
     "calendar",

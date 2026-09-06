@@ -4,6 +4,13 @@
   "title": "Select",
   "description": "Single-choice listbox whose items take free-form content — dots, avatars, icons.",
   "category": "base",
+  "family": "forms",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "form",
     "dropdown",

@@ -4,6 +4,15 @@
   "title": "Date Picker",
   "description": "Popover calendar for a single date, built on @internationalized/date.",
   "category": "base",
+  "family": "scheduling",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "form",
     "date",

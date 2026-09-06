@@ -3,7 +3,149 @@
   "name": "zeus-ui",
   "homepage": "https://myzeusui.com",
   "license": "MIT",
-  "version": "0.2.1",
+  "version": "0.2.2",
+  "organizationVersion": 1,
+  "families": [
+    {
+      "id": "buttons",
+      "title": "Buttons",
+      "blurb": "Actions, button groups and alternate button implementations."
+    },
+    {
+      "id": "forms",
+      "title": "Forms & inputs",
+      "blurb": "Collect information and make selections."
+    },
+    {
+      "id": "navigation",
+      "title": "Navigation",
+      "blurb": "Move between pages, sections and views."
+    },
+    {
+      "id": "feedback",
+      "title": "Feedback & status",
+      "blurb": "Confirm actions, explain progress and surface updates."
+    },
+    {
+      "id": "overlays",
+      "title": "Overlays & disclosures",
+      "blurb": "Tooltips, dialogs and expandable content."
+    },
+    {
+      "id": "typography",
+      "title": "Text & typography",
+      "blurb": "Readable type, text effects and keyboard hints."
+    },
+    {
+      "id": "icons",
+      "title": "Icons & identity",
+      "blurb": "Icon resources, avatars and identity elements."
+    },
+    {
+      "id": "layout",
+      "title": "Layout & structure",
+      "blurb": "Application frames, dividers and spatial structure."
+    },
+    {
+      "id": "data",
+      "title": "Data & charts",
+      "blurb": "Tables, visualizations, statistics and records."
+    },
+    {
+      "id": "media",
+      "title": "Images & media",
+      "blurb": "Galleries, carousels and image effects."
+    },
+    {
+      "id": "scheduling",
+      "title": "Dates & scheduling",
+      "blurb": "Calendars, date selection and meeting tools."
+    },
+    {
+      "id": "ai",
+      "title": "AI & agents",
+      "blurb": "Composers, agent activity and complete AI experiences."
+    },
+    {
+      "id": "pricing",
+      "title": "Pricing & billing",
+      "blurb": "Plans, billing periods and pricing interactions."
+    },
+    {
+      "id": "screens",
+      "title": "Complete screens",
+      "blurb": "Application screens ready to adapt to your data."
+    },
+    {
+      "id": "foundations",
+      "title": "Design foundations",
+      "blurb": "The declared token and styling resources of a design system."
+    },
+    {
+      "id": "utilities",
+      "title": "Hooks & utilities",
+      "blurb": "Reusable behavior and implementation helpers."
+    }
+  ],
+  "resourceKinds": [
+    {
+      "id": "component",
+      "title": "Components"
+    },
+    {
+      "id": "block",
+      "title": "Blocks"
+    },
+    {
+      "id": "chart",
+      "title": "Charts"
+    },
+    {
+      "id": "animation",
+      "title": "Animations"
+    },
+    {
+      "id": "template",
+      "title": "Templates"
+    },
+    {
+      "id": "tokens",
+      "title": "Token sets"
+    },
+    {
+      "id": "typography",
+      "title": "Typography"
+    },
+    {
+      "id": "icons",
+      "title": "Icon resources"
+    },
+    {
+      "id": "utility",
+      "title": "Hooks & utilities"
+    }
+  ],
+  "designSystems": [
+    {
+      "id": "zeus",
+      "title": "Zeus",
+      "default": true,
+      "description": "The default Zeus system: semantic colors, typography and component conventions. Its tokens can be customized in a consuming project.",
+      "foundationItems": [
+        "tokens"
+      ],
+      "stylesheet": "styles/zeus/index.css",
+      "scope": "global"
+    }
+  ],
+  "iconLibraries": [
+    {
+      "id": "remix",
+      "title": "Remix Icon",
+      "package": "@remixicon/react",
+      "description": "The external React icon dependency used by many current Zeus components."
+    }
+  ],
   "categories": [
     {
       "id": "foundations",
@@ -853,6 +995,13 @@
       "title": "Morphing Tooltip",
       "description": "A shared liquid tooltip that rises from toolbar buttons, travels between them and resizes to each caption",
       "category": "animations",
+      "family": "overlays",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "animation",
         "gsap",
@@ -884,6 +1033,13 @@
       "title": "Text Reveal",
       "description": "Scroll-triggered line, word and character reveals with masks and readable static content",
       "category": "animations",
+      "family": "typography",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "animation",
         "gsap",
@@ -915,6 +1071,13 @@
       "title": "Animated Accordion",
       "description": "Coordinated expandable panels with rotating icons and optional line-by-line text reveals",
       "category": "animations",
+      "family": "overlays",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "animation",
         "gsap",
@@ -946,6 +1109,13 @@
       "title": "Dual Scramble",
       "description": "Two-stage colored text scrambling on scroll, hover, focus, click or load",
       "category": "animations",
+      "family": "typography",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "animation",
         "gsap",
@@ -977,6 +1147,13 @@
       "title": "Multi-Level Drawer Menu",
       "description": "Two-panel navigation with animated category previews and a mobile drill-down",
       "category": "animations",
+      "family": "navigation",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "animation",
         "gsap",
@@ -1041,6 +1218,13 @@
       "title": "Image Fly-In",
       "description": "A continuous image depth field with cursor parallax and a clear central content zone",
       "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "animation",
         "gsap",
@@ -1159,6 +1343,13 @@
       "title": "Scale Slider",
       "description": "An exponential image conveyor with drag inertia, keyboard navigation and optional drift",
       "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "animation",
         "gsap",
@@ -1277,6 +1468,13 @@
       "title": "Curtain Slider",
       "description": "A full-bleed image carousel with staggered column wipes and rolling titles",
       "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "animation",
         "gsap",
@@ -1341,6 +1539,13 @@
       "title": "Feature Dialog",
       "description": "An expandable preview tile with a rising modal, gradient band and managed keyboard focus",
       "category": "animations",
+      "family": "overlays",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "animation",
         "gsap",
@@ -1411,6 +1616,13 @@
       "title": "ASCII Overlay",
       "description": "Image-aware WebGL character overlays with scroll-driven density and a static media fallback",
       "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "animation",
         "gsap",
@@ -1457,6 +1669,13 @@
       "title": "Animated Pricing",
       "description": "Pricing cards with digit-by-digit billing transitions, a savings chip and shimmering names",
       "category": "animations",
+      "family": "pricing",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "animation",
         "gsap",
@@ -1509,6 +1728,15 @@
       "title": "Home Dashboard",
       "description": "An overview workspace with revenue, earnings, recent hires and searchable records",
       "category": "templates",
+      "family": "screens",
+      "kind": "template",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "dashboard",
         "analytics",
@@ -1653,6 +1881,15 @@
       "title": "Finance Dashboard",
       "description": "Personal finance workspace with cash flow, investments, spending and transaction records",
       "category": "templates",
+      "family": "screens",
+      "kind": "template",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "dashboard",
         "finance",
@@ -1810,6 +2047,15 @@
       "title": "Marketing Dashboard",
       "description": "Campaign analytics with conversion funnels, channel attribution and campaign management",
       "category": "templates",
+      "family": "screens",
+      "kind": "template",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "dashboard",
         "marketing",
@@ -1963,6 +2209,15 @@
       "title": "HR Management",
       "description": "Hiring, engagement and employee management with editable records",
       "category": "templates",
+      "family": "screens",
+      "kind": "template",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "dashboard",
         "hr",
@@ -2121,6 +2376,15 @@
       "title": "Medical Profile",
       "description": "A patient workspace with health activity, sleep, alerts and patient records",
       "category": "templates",
+      "family": "screens",
+      "kind": "template",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "dashboard",
         "health",
@@ -2268,6 +2532,15 @@
       "title": "AI Profile",
       "description": "An editable agent profile with contribution history, agent activity and token usage",
       "category": "templates",
+      "family": "ai",
+      "kind": "template",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "ai",
         "profile",
@@ -2352,6 +2625,15 @@
       "title": "AI Chat",
       "description": "A coding agent workspace with progress, task playback, a code panel and a cancellable backend adapter",
       "category": "templates",
+      "family": "ai",
+      "kind": "template",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "ai",
         "chat",
@@ -2422,6 +2704,15 @@
       "title": "AI Image Generation",
       "description": "An image workspace with animated generation, a gallery, styles and a cancellable generation adapter",
       "category": "templates",
+      "family": "ai",
+      "kind": "template",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "ai",
         "image",
@@ -2624,6 +2915,13 @@
       "title": "Agent Progress",
       "description": "Collapsible AI agent progress block for React and Tailwind CSS with animated task states and completion timing",
       "category": "blocks",
+      "family": "ai",
+      "kind": "block",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "interaction",
         "ai",
@@ -2660,6 +2958,15 @@
       "title": "Calendar",
       "description": "event chips, details popover, month switcher, and inbox feed",
       "category": "blocks",
+      "family": "scheduling",
+      "kind": "block",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "interaction",
         "calendar",
@@ -2723,6 +3030,15 @@
       "title": "Composer",
       "description": "The AI chat composer for React + Tailwind CSS: attachment and model menus, voice and send controls, status bar, and a liquid-glass working state",
       "category": "blocks",
+      "family": "ai",
+      "kind": "block",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "interaction",
         "ai",
@@ -2793,6 +3109,15 @@
       "title": "Task List",
       "description": "Streaming agent task log for React and Tailwind CSS. Tasks reveal step by step with soft height, blur, and shimmer, and drop straight into a chat thread.",
       "category": "blocks",
+      "family": "ai",
+      "kind": "block",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "interaction",
         "ai",
@@ -2832,6 +3157,15 @@
       "title": "Web Search",
       "description": "Streaming research trail for React and Tailwind CSS: the queries an agent ran and the sources it opened, with real site marks, drawn in as it works.",
       "category": "blocks",
+      "family": "ai",
+      "kind": "block",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "interaction",
         "ai",
@@ -2872,6 +3206,15 @@
       "title": "Combo Chart",
       "description": "independent left and right axes, hover dimming, a pulsing active dot and stat tiles",
       "category": "charts",
+      "family": "data",
+      "kind": "chart",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "chart",
         "data",
@@ -2928,6 +3271,15 @@
       "title": "Contributions",
       "description": "GitHub-style contributions heat grid for React + Tailwind CSS with a swappable accent family",
       "category": "charts",
+      "family": "data",
+      "kind": "chart",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "chart",
         "data",
@@ -2978,6 +3330,15 @@
       "title": "Earnings Chart",
       "description": "Bar chart card for React + Tailwind CSS with a period switcher, count-up headline, and hover outline",
       "category": "charts",
+      "family": "data",
+      "kind": "chart",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "chart",
         "data",
@@ -3033,6 +3394,15 @@
       "title": "Funnel Chart",
       "description": "curved or sharp tapers between stages, centred conversion pills, mono option, and a value/name footer",
       "category": "charts",
+      "family": "data",
+      "kind": "chart",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "chart",
         "data",
@@ -3083,6 +3453,15 @@
       "title": "Heatmap Chart",
       "description": "rows × columns of tinted cells with a theme-following ramp, hover-linked headline, and Less → More legend",
       "category": "charts",
+      "family": "data",
+      "kind": "chart",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "chart",
         "data",
@@ -3138,6 +3517,15 @@
       "title": "Most Active Days",
       "description": "Continuous vertical month calendar for React + Tailwind CSS with per-day mini activity rings",
       "category": "charts",
+      "family": "data",
+      "kind": "chart",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "chart",
         "data",
@@ -3189,6 +3577,15 @@
       "title": "Radar Chart",
       "description": "filled, dotted, lines-only, and centre-score variants with a hover-linked headline",
       "category": "charts",
+      "family": "data",
+      "kind": "chart",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "chart",
         "data",
@@ -3245,6 +3642,15 @@
       "title": "Radial Chart",
       "description": "concentric rings, labelled rings, grid, single-value gauges, and a stacked half gauge",
       "category": "charts",
+      "family": "data",
+      "kind": "chart",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "chart",
         "data",
@@ -3300,6 +3706,15 @@
       "title": "Sankey Chart",
       "description": "pill nodes, target-tinted links, source and share labels, and hover isolation",
       "category": "charts",
+      "family": "data",
+      "kind": "chart",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "chart",
         "data",
@@ -3356,6 +3771,15 @@
       "title": "Scatter Chart",
       "description": "grouped series, optional size measure, hover isolation and stat tiles",
       "category": "charts",
+      "family": "data",
+      "kind": "chart",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "chart",
         "data",
@@ -3412,6 +3836,15 @@
       "title": "Sleep Score",
       "description": "Segmented sleep score ring for React + Tailwind CSS with hover-focused sub-scores and metric rows",
       "category": "charts",
+      "family": "data",
+      "kind": "chart",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "chart",
         "data",
@@ -3462,6 +3895,15 @@
       "title": "Stage Bars",
       "description": "name, value and share per stage, animated widths, mono option",
       "category": "charts",
+      "family": "data",
+      "kind": "chart",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "chart",
         "data",
@@ -3513,6 +3955,15 @@
       "title": "Steps Chart",
       "description": "Weekly steps bar chart for React + Tailwind CSS with a week switcher, count-up headline, and hover outline",
       "category": "charts",
+      "family": "data",
+      "kind": "chart",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "chart",
         "data",
@@ -3563,6 +4014,11 @@
       "title": "Design tokens",
       "description": "Color primitives, semantic light/dark tokens, radii, shadows and the button gradients everything else is built on.",
       "category": "foundations",
+      "family": "foundations",
+      "kind": "tokens",
+      "designSystem": "zeus",
+      "foundationDependencies": [],
+      "iconLibraries": [],
       "tags": [
         "theme",
         "color",
@@ -3576,17 +4032,11 @@
         "tailwindcss"
       ],
       "registryDependencies": [],
-      "hash": "21f6cf293307",
+      "hash": "e62aeae6ecca",
       "files": [
         {
           "path": "tokens/index.css",
           "target": "styles/zeus/index.css",
-          "type": "style",
-          "encoding": "utf8"
-        },
-        {
-          "path": "tokens/preflight.css",
-          "target": "styles/zeus/preflight.css",
           "type": "style",
           "encoding": "utf8"
         },
@@ -3601,6 +4051,12 @@
           "target": "styles/zeus/typography.css",
           "type": "style",
           "encoding": "utf8"
+        },
+        {
+          "path": "tokens/preflight.css",
+          "target": "styles/zeus/preflight.css",
+          "type": "style",
+          "encoding": "utf8"
         }
       ]
     },
@@ -3610,6 +4066,13 @@
       "title": "Typography",
       "description": "The type scale: display, title, headline, body and caption, each in four weights.",
       "category": "foundations",
+      "family": "typography",
+      "kind": "typography",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "type-scale",
         "font",
@@ -3631,6 +4094,13 @@
       "title": "cx",
       "description": "Class merging built on tailwind-merge, plus the sortCx helper for style maps.",
       "category": "foundations",
+      "family": "utilities",
+      "kind": "utility",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "utility",
         "classnames",
@@ -3660,6 +4130,13 @@
       "title": "Chevrons",
       "description": "The small chevron set used by menus, selects and sortable table headers.",
       "category": "foundations",
+      "family": "icons",
+      "kind": "icons",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "icon",
         "chevron",
@@ -3686,6 +4163,13 @@
       "title": "Logo",
       "description": "The wordmark and its compact circular variant, both theme-aware.",
       "category": "foundations",
+      "family": "icons",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "brand",
         "logo",
@@ -3715,6 +4199,13 @@
       "title": "useCountUp",
       "description": "Animates a number toward a target, respecting prefers-reduced-motion.",
       "category": "foundations",
+      "family": "utilities",
+      "kind": "utility",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "hook",
         "animation",
@@ -3749,6 +4240,13 @@
       "title": "useDismissOnOutsidePress",
       "description": "Closes a popover or panel on an outside pointer press, without trapping focus.",
       "category": "foundations",
+      "family": "utilities",
+      "kind": "utility",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "hook",
         "popover",
@@ -3776,6 +4274,13 @@
       "title": "Button",
       "description": "Primary, secondary, ghost and danger actions in three sizes, with icon slots.",
       "category": "base",
+      "family": "buttons",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "action",
         "cta",
@@ -3806,6 +4311,13 @@
       "title": "Icon Button",
       "description": "Square action button, icon only, in two sizes.",
       "category": "base",
+      "family": "buttons",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "action",
         "icon",
@@ -3836,6 +4348,13 @@
       "title": "Link Button",
       "description": "Inline text action styled like a link, rendering an anchor when given an href.",
       "category": "base",
+      "family": "buttons",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "action",
         "link",
@@ -3866,6 +4385,13 @@
       "title": "Button Group",
       "description": "Fused row of selectable buttons for view switches and toolbars.",
       "category": "base",
+      "family": "buttons",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "action",
         "toggle",
@@ -3896,6 +4422,13 @@
       "title": "Close Button",
       "description": "The dismiss ×, in four sizes with matching stroke weights.",
       "category": "base",
+      "family": "buttons",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "action",
         "dismiss",
@@ -3926,6 +4459,13 @@
       "title": "Social Button",
       "description": "Twenty-four OAuth brands in colourful, black and outlined appearances.",
       "category": "base",
+      "family": "buttons",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "auth",
         "oauth",
@@ -3967,6 +4507,15 @@
       "title": "Input",
       "description": "Text field with label, hint, addons, icons and validation states.",
       "category": "base",
+      "family": "forms",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "form",
         "text",
@@ -4009,6 +4558,13 @@
       "title": "Input OTP",
       "description": "One-time-code boxes with paste, autofill and grouping.",
       "category": "base",
+      "family": "forms",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "form",
         "otp",
@@ -4040,6 +4596,13 @@
       "title": "Checkbox",
       "description": "Hand-drawn tick animation, indeterminate state, two sizes and a card variant.",
       "category": "base",
+      "family": "forms",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "form",
         "selection",
@@ -4081,6 +4644,13 @@
       "title": "Radio",
       "description": "Gradient dot, two sizes, and a card variant for plan pickers.",
       "category": "base",
+      "family": "forms",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "form",
         "selection",
@@ -4117,6 +4687,13 @@
       "title": "Switch",
       "description": "Pill and rectangle shapes, two sizes, plus a card variant with icon and description.",
       "category": "base",
+      "family": "forms",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "form",
         "toggle",
@@ -4153,6 +4730,13 @@
       "title": "Select",
       "description": "Single-choice listbox whose items take free-form content — dots, avatars, icons.",
       "category": "base",
+      "family": "forms",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "form",
         "dropdown",
@@ -4191,6 +4775,13 @@
       "title": "Slider",
       "description": "Single value and range, with a value bubble and custom formatting.",
       "category": "base",
+      "family": "forms",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "form",
         "range",
@@ -4222,6 +4813,13 @@
       "title": "Dropdown",
       "description": "Composable menu primitives — trigger, popover, groups, items and dividers.",
       "category": "base",
+      "family": "navigation",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "menu",
         "popover",
@@ -4255,6 +4853,13 @@
       "title": "Divider",
       "description": "Single, double and filled separators that can carry any content in the middle.",
       "category": "base",
+      "family": "layout",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "layout",
         "separator",
@@ -4285,6 +4890,15 @@
       "title": "File Upload",
       "description": "Drag and drop with extension and size validation, and per-file progress.",
       "category": "base",
+      "family": "forms",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "form",
         "upload",
@@ -4317,6 +4931,13 @@
       "title": "Tabs",
       "description": "Underlined tabs with optional icons and counts, plus a pill variant.",
       "category": "base",
+      "family": "navigation",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "navigation",
         "tabs",
@@ -4353,6 +4974,13 @@
       "title": "Segmented Control",
       "description": "Sliding pill option switcher for two to four short choices.",
       "category": "base",
+      "family": "navigation",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "navigation",
         "toggle",
@@ -4384,6 +5012,13 @@
       "title": "Table",
       "description": "The semantic table primitive: sortable columns, row selection, two densities.",
       "category": "base",
+      "family": "data",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "data",
         "table",
@@ -4415,6 +5050,13 @@
       "title": "Tooltip",
       "description": "Hover and focus tooltip with the arrow and placement handled for you.",
       "category": "base",
+      "family": "overlays",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "overlay",
         "hint",
@@ -4446,6 +5088,13 @@
       "title": "Badge",
       "description": "Count pills for nav rows and menus, in neutral and primary.",
       "category": "base",
+      "family": "feedback",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "indicator",
         "count",
@@ -4476,6 +5125,13 @@
       "title": "Chip",
       "description": "Bold, subtle and caption tones across nine colours, for deltas, values and tags.",
       "category": "base",
+      "family": "feedback",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "indicator",
         "tag",
@@ -4507,6 +5163,13 @@
       "title": "Status Dot",
       "description": "The small coloured dot that prefixes a status label.",
       "category": "base",
+      "family": "feedback",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "indicator",
         "status",
@@ -4537,6 +5200,13 @@
       "title": "Kbd",
       "description": "Keyboard key caps for shortcut hints.",
       "category": "base",
+      "family": "typography",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "indicator",
         "keyboard",
@@ -4567,6 +5237,13 @@
       "title": "Avatar",
       "description": "Photo with initials fallback, four sizes, colour tints and presence.",
       "category": "base",
+      "family": "icons",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "identity",
         "user",
@@ -4597,6 +5274,13 @@
       "title": "Breadcrumb",
       "description": "Path trail whose items take arbitrary leading content — avatars, icons, dots.",
       "category": "base",
+      "family": "navigation",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "navigation",
         "path",
@@ -4628,6 +5312,15 @@
       "title": "Pagination",
       "description": "Page numbers with truncation and prev/next controls.",
       "category": "base",
+      "family": "navigation",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "navigation",
         "pages",
@@ -4660,6 +5353,15 @@
       "title": "Carousel",
       "description": "Snap track with arrows, dots, configurable gap and alignment.",
       "category": "base",
+      "family": "media",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "media",
         "slider",
@@ -4692,6 +5394,15 @@
       "title": "Announcement",
       "description": "Dismissible banner for product news, with an optional action.",
       "category": "base",
+      "family": "feedback",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "feedback",
         "banner",
@@ -4726,6 +5437,15 @@
       "title": "Notification",
       "description": "Toast with status, icon or avatar, timestamp, actions and auto-dismiss.",
       "category": "base",
+      "family": "feedback",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "feedback",
         "toast",
@@ -4761,6 +5481,15 @@
       "title": "Date Picker",
       "description": "Popover calendar for a single date, built on @internationalized/date.",
       "category": "base",
+      "family": "scheduling",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "form",
         "date",
@@ -4802,6 +5531,15 @@
       "title": "Date Range Picker",
       "description": "Two-month range picker with quick presets and an apply step.",
       "category": "base",
+      "family": "scheduling",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "form",
         "date",
@@ -4840,6 +5578,15 @@
       "title": "Meeting Scheduler",
       "description": "A booking panel: host, duration, timezone, date and time slots.",
       "category": "base",
+      "family": "scheduling",
+      "kind": "component",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "form",
         "scheduling",
@@ -4885,6 +5632,15 @@
       "title": "Theme Toggle",
       "description": "Light/dark switch that reveals the next theme from the exact click point.",
       "category": "blocks",
+      "family": "feedback",
+      "kind": "block",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "theme",
         "dark-mode",
@@ -4918,6 +5674,15 @@
       "title": "Stat Cards",
       "description": "KPI row with gradient icon tiles, info tooltips and delta pills, in two variants.",
       "category": "blocks",
+      "family": "data",
+      "kind": "block",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "dashboard",
         "kpi",
@@ -4952,6 +5717,15 @@
       "title": "Data Table",
       "description": "TanStack Table with sorting, selection, filters, search, density and pagination.",
       "category": "blocks",
+      "family": "data",
+      "kind": "block",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "data",
         "table",
@@ -5050,6 +5824,15 @@
       "title": "Sidebar",
       "description": "The 260px dashboard sidebar with collapsing nav, team switcher and user menu.",
       "category": "blocks",
+      "family": "navigation",
+      "kind": "block",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "navigation",
         "shell",
@@ -5127,6 +5910,15 @@
       "title": "App Shell",
       "description": "The page frame: sidebar, mobile drawer, breadcrumb header and content column.",
       "category": "blocks",
+      "family": "layout",
+      "kind": "block",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "layout",
         "shell",
@@ -5201,6 +5993,15 @@
       "title": "Notification Center",
       "description": "Grouped, filterable inbox with unread state and per-item actions.",
       "category": "blocks",
+      "family": "feedback",
+      "kind": "block",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "feedback",
         "inbox",
@@ -5236,6 +6037,15 @@
       "title": "Settings Modal",
       "description": "Five-page settings dialog: profile, general, tools, storage and plan.",
       "category": "blocks",
+      "family": "overlays",
+      "kind": "block",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "settings",
         "modal",
@@ -5340,6 +6150,15 @@
       "title": "Auth Card",
       "description": "Sign in, sign up and verify, with stacked, inline and grid provider layouts.",
       "category": "blocks",
+      "family": "forms",
+      "kind": "block",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "auth",
         "sign-in",
@@ -5386,6 +6205,15 @@
       "title": "Agent Limits",
       "description": "Context window usage as a segmented bar with an expandable token breakdown, plus plan quotas and their reset times.",
       "category": "blocks",
+      "family": "ai",
+      "kind": "block",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "ai",
         "agent",
@@ -5422,6 +6250,13 @@
       "title": "Agent Thinking",
       "description": "Four loading personalities — wave, spin, stars and infinity — with an elapsed timer.",
       "category": "blocks",
+      "family": "ai",
+      "kind": "block",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "ai",
         "agent",
@@ -5453,6 +6288,13 @@
       "title": "Composer Loader",
       "description": "A travelling light that rims the composer while an agent is answering.",
       "category": "blocks",
+      "family": "ai",
+      "kind": "block",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "ai",
         "agent",
@@ -5484,6 +6326,13 @@
       "title": "Agent Log",
       "description": "The primitives behind a streaming tool log: reveal masks, guides and shimmer text.",
       "category": "blocks",
+      "family": "ai",
+      "kind": "block",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "ai",
         "agent",
@@ -5522,6 +6371,15 @@
       "title": "Agent Chat",
       "description": "A working chat app: thread history, streaming messages, composer and suggestions.",
       "category": "blocks",
+      "family": "ai",
+      "kind": "block",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "ai",
         "chat",
@@ -5623,6 +6481,15 @@
       "title": "Area Chart",
       "description": "One or more series as soft filled bands, stacked into a total by default.",
       "category": "charts",
+      "family": "data",
+      "kind": "chart",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "chart",
         "area",
@@ -5681,6 +6548,15 @@
       "title": "Line Chart",
       "description": "Several series compared over one axis, smooth or sharp, with a dashed comparison.",
       "category": "charts",
+      "family": "data",
+      "kind": "chart",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "chart",
         "line",
@@ -5739,6 +6615,15 @@
       "title": "Bar List",
       "description": "A ranked list where each row's bar is its share of the top — no axis, no library.",
       "category": "charts",
+      "family": "data",
+      "kind": "chart",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "chart",
         "bar",
@@ -5796,6 +6681,15 @@
       "title": "Activity Rings",
       "description": "Concentric progress arcs, one per goal, drawn as plain SVG.",
       "category": "charts",
+      "family": "data",
+      "kind": "chart",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "chart",
         "radial",
@@ -5849,6 +6743,13 @@
       "title": "Chart Card",
       "description": "The shared frame every chart card is built on: header, count-up headline, delta chip and legend.",
       "category": "charts",
+      "family": "data",
+      "kind": "chart",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "chart",
         "shell",
@@ -5888,6 +6789,13 @@
       "title": "Revenue Chart",
       "description": "Year-over-year area chart with a computed headline and delta.",
       "category": "charts",
+      "family": "data",
+      "kind": "chart",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "chart",
         "area",
@@ -5928,6 +6836,13 @@
       "title": "Orders Chart",
       "description": "Year-over-year bars with the same headline and delta treatment.",
       "category": "charts",
+      "family": "data",
+      "kind": "chart",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [],
       "tags": [
         "chart",
         "bar",
@@ -5968,6 +6883,15 @@
       "title": "Important Alerts",
       "description": "A dated alert feed with severity icons and a week range pill.",
       "category": "charts",
+      "family": "data",
+      "kind": "chart",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "health",
         "alerts",
@@ -6007,6 +6931,15 @@
       "title": "Patient Info",
       "description": "A profile card with identity fields and vitals.",
       "category": "charts",
+      "family": "data",
+      "kind": "chart",
+      "designSystem": "zeus",
+      "foundationDependencies": [
+        "tokens"
+      ],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "health",
         "profile",

@@ -4,6 +4,15 @@
   "title": "Sankey Chart",
   "description": "pill nodes, target-tinted links, source and share labels, and hover isolation",
   "category": "charts",
+  "family": "data",
+  "kind": "chart",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "chart",
     "data",

@@ -4,6 +4,15 @@
   "title": "Date Range Picker",
   "description": "Two-month range picker with quick presets and an apply step.",
   "category": "base",
+  "family": "scheduling",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "form",
     "date",

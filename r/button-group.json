@@ -4,6 +4,13 @@
   "title": "Button Group",
   "description": "Fused row of selectable buttons for view switches and toolbars.",
   "category": "base",
+  "family": "buttons",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "action",
     "toggle",

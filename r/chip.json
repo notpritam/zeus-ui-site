@@ -4,6 +4,13 @@
   "title": "Chip",
   "description": "Bold, subtle and caption tones across nine colours, for deltas, values and tags.",
   "category": "base",
+  "family": "feedback",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "indicator",
     "tag",

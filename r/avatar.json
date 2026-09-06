@@ -4,6 +4,13 @@
   "title": "Avatar",
   "description": "Photo with initials fallback, four sizes, colour tints and presence.",
   "category": "base",
+  "family": "icons",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "identity",
     "user",

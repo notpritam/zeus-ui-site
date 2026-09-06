@@ -4,6 +4,15 @@
   "title": "App Shell",
   "description": "The page frame: sidebar, mobile drawer, breadcrumb header and content column.",
   "category": "blocks",
+  "family": "layout",
+  "kind": "block",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "layout",
     "shell",

@@ -4,6 +4,13 @@
   "title": "Badge",
   "description": "Count pills for nav rows and menus, in neutral and primary.",
   "category": "base",
+  "family": "feedback",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "indicator",
     "count",

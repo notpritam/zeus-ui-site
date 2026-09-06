@@ -4,6 +4,13 @@
   "title": "Dual Scramble",
   "description": "Two-stage colored text scrambling on scroll, hover, focus, click or load",
   "category": "animations",
+  "family": "typography",
+  "kind": "animation",
+  "designSystem": null,
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "animation",
     "gsap",

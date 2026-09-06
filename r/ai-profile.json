@@ -4,6 +4,15 @@
   "title": "AI Profile",
   "description": "An editable agent profile with contribution history, agent activity and token usage",
   "category": "templates",
+  "family": "ai",
+  "kind": "template",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "ai",
     "profile",

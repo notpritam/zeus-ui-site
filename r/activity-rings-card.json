@@ -4,6 +4,15 @@
   "title": "Activity Rings",
   "description": "Concentric progress arcs, one per goal, drawn as plain SVG.",
   "category": "charts",
+  "family": "data",
+  "kind": "chart",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "chart",
     "radial",

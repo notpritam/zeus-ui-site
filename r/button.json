@@ -4,6 +4,13 @@
   "title": "Button",
   "description": "Primary, secondary, ghost and danger actions in three sizes, with icon slots.",
   "category": "base",
+  "family": "buttons",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "action",
     "cta",

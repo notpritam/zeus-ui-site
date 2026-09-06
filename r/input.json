@@ -4,6 +4,15 @@
   "title": "Input",
   "description": "Text field with label, hint, addons, icons and validation states.",
   "category": "base",
+  "family": "forms",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "form",
     "text",

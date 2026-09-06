@@ -4,6 +4,15 @@
   "title": "File Upload",
   "description": "Drag and drop with extension and size validation, and per-file progress.",
   "category": "base",
+  "family": "forms",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "form",
     "upload",

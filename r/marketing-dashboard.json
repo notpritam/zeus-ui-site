@@ -4,6 +4,15 @@
   "title": "Marketing Dashboard",
   "description": "Campaign analytics with conversion funnels, channel attribution and campaign management",
   "category": "templates",
+  "family": "screens",
+  "kind": "template",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "dashboard",
     "marketing",

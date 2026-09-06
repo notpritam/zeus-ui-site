@@ -4,6 +4,15 @@
   "title": "Agent Chat",
   "description": "A working chat app: thread history, streaming messages, composer and suggestions.",
   "category": "blocks",
+  "family": "ai",
+  "kind": "block",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "ai",
     "chat",

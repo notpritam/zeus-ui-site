@@ -4,6 +4,13 @@
   "title": "Status Dot",
   "description": "The small coloured dot that prefixes a status label.",
   "category": "base",
+  "family": "feedback",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "indicator",
     "status",

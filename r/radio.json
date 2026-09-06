@@ -4,6 +4,13 @@
   "title": "Radio",
   "description": "Gradient dot, two sizes, and a card variant for plan pickers.",
   "category": "base",
+  "family": "forms",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "form",
     "selection",

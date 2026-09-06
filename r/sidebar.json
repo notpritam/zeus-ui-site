@@ -4,6 +4,15 @@
   "title": "Sidebar",
   "description": "The 260px dashboard sidebar with collapsing nav, team switcher and user menu.",
   "category": "blocks",
+  "family": "navigation",
+  "kind": "block",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "navigation",
     "shell",

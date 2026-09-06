@@ -4,6 +4,13 @@
   "title": "cx",
   "description": "Class merging built on tailwind-merge, plus the sortCx helper for style maps.",
   "category": "foundations",
+  "family": "utilities",
+  "kind": "utility",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "utility",
     "classnames",

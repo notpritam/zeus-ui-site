@@ -4,6 +4,13 @@
   "title": "Logo",
   "description": "The wordmark and its compact circular variant, both theme-aware.",
   "category": "foundations",
+  "family": "icons",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "brand",
     "logo",

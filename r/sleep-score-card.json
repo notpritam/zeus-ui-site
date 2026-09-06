@@ -4,6 +4,15 @@
   "title": "Sleep Score",
   "description": "Segmented sleep score ring for React + Tailwind CSS with hover-focused sub-scores and metric rows",
   "category": "charts",
+  "family": "data",
+  "kind": "chart",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "chart",
     "data",

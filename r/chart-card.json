@@ -4,6 +4,13 @@
   "title": "Chart Card",
   "description": "The shared frame every chart card is built on: header, count-up headline, delta chip and legend.",
   "category": "charts",
+  "family": "data",
+  "kind": "chart",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "chart",
     "shell",

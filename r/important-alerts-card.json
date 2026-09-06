@@ -4,6 +4,15 @@
   "title": "Important Alerts",
   "description": "A dated alert feed with severity icons and a week range pill.",
   "category": "charts",
+  "family": "data",
+  "kind": "chart",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "health",
     "alerts",

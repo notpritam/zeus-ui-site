@@ -4,6 +4,13 @@
   "title": "Typography",
   "description": "The type scale: display, title, headline, body and caption, each in four weights.",
   "category": "foundations",
+  "family": "typography",
+  "kind": "typography",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "type-scale",
     "font",

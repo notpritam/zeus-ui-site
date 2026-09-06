@@ -4,6 +4,13 @@
   "title": "Orders Chart",
   "description": "Year-over-year bars with the same headline and delta treatment.",
   "category": "charts",
+  "family": "data",
+  "kind": "chart",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "chart",
     "bar",

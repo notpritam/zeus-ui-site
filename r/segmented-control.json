@@ -4,6 +4,13 @@
   "title": "Segmented Control",
   "description": "Sliding pill option switcher for two to four short choices.",
   "category": "base",
+  "family": "navigation",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "navigation",
     "toggle",

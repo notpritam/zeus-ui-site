@@ -4,6 +4,15 @@
   "title": "Funnel Chart",
   "description": "curved or sharp tapers between stages, centred conversion pills, mono option, and a value/name footer",
   "category": "charts",
+  "family": "data",
+  "kind": "chart",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "chart",
     "data",

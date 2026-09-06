@@ -4,6 +4,15 @@
   "title": "Combo Chart",
   "description": "independent left and right axes, hover dimming, a pulsing active dot and stat tiles",
   "category": "charts",
+  "family": "data",
+  "kind": "chart",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "chart",
     "data",

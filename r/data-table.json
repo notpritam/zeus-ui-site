@@ -4,6 +4,15 @@
   "title": "Data Table",
   "description": "TanStack Table with sorting, selection, filters, search, density and pagination.",
   "category": "blocks",
+  "family": "data",
+  "kind": "block",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "data",
     "table",

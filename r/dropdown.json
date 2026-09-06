@@ -4,6 +4,13 @@
   "title": "Dropdown",
   "description": "Composable menu primitives — trigger, popover, groups, items and dividers.",
   "category": "base",
+  "family": "navigation",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "menu",
     "popover",

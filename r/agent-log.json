@@ -4,6 +4,13 @@
   "title": "Agent Log",
   "description": "The primitives behind a streaming tool log: reveal masks, guides and shimmer text.",
   "category": "blocks",
+  "family": "ai",
+  "kind": "block",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "ai",
     "agent",

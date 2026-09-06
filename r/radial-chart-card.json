@@ -4,6 +4,15 @@
   "title": "Radial Chart",
   "description": "concentric rings, labelled rings, grid, single-value gauges, and a stacked half gauge",
   "category": "charts",
+  "family": "data",
+  "kind": "chart",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "chart",
     "data",

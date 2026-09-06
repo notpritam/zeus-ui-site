@@ -4,6 +4,15 @@
   "title": "Auth Card",
   "description": "Sign in, sign up and verify, with stacked, inline and grid provider layouts.",
   "category": "blocks",
+  "family": "forms",
+  "kind": "block",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "auth",
     "sign-in",

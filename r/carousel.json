@@ -4,6 +4,15 @@
   "title": "Carousel",
   "description": "Snap track with arrows, dots, configurable gap and alignment.",
   "category": "base",
+  "family": "media",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "media",
     "slider",

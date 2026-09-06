@@ -4,6 +4,13 @@
   "title": "useDismissOnOutsidePress",
   "description": "Closes a popover or panel on an outside pointer press, without trapping focus.",
   "category": "foundations",
+  "family": "utilities",
+  "kind": "utility",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "hook",
     "popover",

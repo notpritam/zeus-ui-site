@@ -4,6 +4,15 @@
   "title": "Scatter Chart",
   "description": "grouped series, optional size measure, hover isolation and stat tiles",
   "category": "charts",
+  "family": "data",
+  "kind": "chart",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "chart",
     "data",

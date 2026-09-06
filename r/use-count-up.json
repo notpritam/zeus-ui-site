@@ -4,6 +4,13 @@
   "title": "useCountUp",
   "description": "Animates a number toward a target, respecting prefers-reduced-motion.",
   "category": "foundations",
+  "family": "utilities",
+  "kind": "utility",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "hook",
     "animation",

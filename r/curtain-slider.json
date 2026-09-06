@@ -4,6 +4,13 @@
   "title": "Curtain Slider",
   "description": "A full-bleed image carousel with staggered column wipes and rolling titles",
   "category": "animations",
+  "family": "media",
+  "kind": "animation",
+  "designSystem": null,
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "animation",
     "gsap",

@@ -4,6 +4,15 @@
   "title": "AI Image Generation",
   "description": "An image workspace with animated generation, a gallery, styles and a cancellable generation adapter",
   "category": "templates",
+  "family": "ai",
+  "kind": "template",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "ai",
     "image",

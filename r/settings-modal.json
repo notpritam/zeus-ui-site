@@ -4,6 +4,15 @@
   "title": "Settings Modal",
   "description": "Five-page settings dialog: profile, general, tools, storage and plan.",
   "category": "blocks",
+  "family": "overlays",
+  "kind": "block",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "settings",
     "modal",

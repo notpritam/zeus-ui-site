@@ -4,6 +4,15 @@
   "title": "Agent Limits",
   "description": "Context window usage as a segmented bar with an expandable token breakdown, plus plan quotas and their reset times.",
   "category": "blocks",
+  "family": "ai",
+  "kind": "block",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "ai",
     "agent",

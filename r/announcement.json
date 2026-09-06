@@ -4,6 +4,15 @@
   "title": "Announcement",
   "description": "Dismissible banner for product news, with an optional action.",
   "category": "base",
+  "family": "feedback",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "feedback",
     "banner",

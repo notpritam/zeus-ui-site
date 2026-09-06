@@ -4,6 +4,15 @@
   "title": "Contributions",
   "description": "GitHub-style contributions heat grid for React + Tailwind CSS with a swappable accent family",
   "category": "charts",
+  "family": "data",
+  "kind": "chart",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "chart",
     "data",

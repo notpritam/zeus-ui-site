@@ -4,6 +4,15 @@
   "title": "Notification",
   "description": "Toast with status, icon or avatar, timestamp, actions and auto-dismiss.",
   "category": "base",
+  "family": "feedback",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "feedback",
     "toast",

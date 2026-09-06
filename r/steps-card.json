@@ -4,6 +4,15 @@
   "title": "Steps Chart",
   "description": "Weekly steps bar chart for React + Tailwind CSS with a week switcher, count-up headline, and hover outline",
   "category": "charts",
+  "family": "data",
+  "kind": "chart",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "chart",
     "data",

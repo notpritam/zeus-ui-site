@@ -4,6 +4,13 @@
   "title": "Multi-Level Drawer Menu",
   "description": "Two-panel navigation with animated category previews and a mobile drill-down",
   "category": "animations",
+  "family": "navigation",
+  "kind": "animation",
+  "designSystem": null,
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "animation",
     "gsap",

@@ -4,6 +4,15 @@
   "title": "Most Active Days",
   "description": "Continuous vertical month calendar for React + Tailwind CSS with per-day mini activity rings",
   "category": "charts",
+  "family": "data",
+  "kind": "chart",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "chart",
     "data",

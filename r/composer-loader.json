@@ -4,6 +4,13 @@
   "title": "Composer Loader",
   "description": "A travelling light that rims the composer while an agent is answering.",
   "category": "blocks",
+  "family": "ai",
+  "kind": "block",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "ai",
     "agent",

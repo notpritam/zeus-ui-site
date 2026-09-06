@@ -4,6 +4,13 @@
   "title": "ASCII Overlay",
   "description": "Image-aware WebGL character overlays with scroll-driven density and a static media fallback",
   "category": "animations",
+  "family": "media",
+  "kind": "animation",
+  "designSystem": null,
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "animation",
     "gsap",

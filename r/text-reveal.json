@@ -4,6 +4,13 @@
   "title": "Text Reveal",
   "description": "Scroll-triggered line, word and character reveals with masks and readable static content",
   "category": "animations",
+  "family": "typography",
+  "kind": "animation",
+  "designSystem": null,
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "animation",
     "gsap",

@@ -4,6 +4,13 @@
   "title": "Scale Slider",
   "description": "An exponential image conveyor with drag inertia, keyboard navigation and optional drift",
   "category": "animations",
+  "family": "media",
+  "kind": "animation",
+  "designSystem": null,
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "animation",
     "gsap",

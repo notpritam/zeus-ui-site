@@ -4,6 +4,15 @@
   "title": "Radar Chart",
   "description": "filled, dotted, lines-only, and centre-score variants with a hover-linked headline",
   "category": "charts",
+  "family": "data",
+  "kind": "chart",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "chart",
     "data",

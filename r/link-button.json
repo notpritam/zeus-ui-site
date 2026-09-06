@@ -4,6 +4,13 @@
   "title": "Link Button",
   "description": "Inline text action styled like a link, rendering an anchor when given an href.",
   "category": "base",
+  "family": "buttons",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "action",
     "link",

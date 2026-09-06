@@ -4,6 +4,13 @@
   "title": "Divider",
   "description": "Single, double and filled separators that can carry any content in the middle.",
   "category": "base",
+  "family": "layout",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "layout",
     "separator",

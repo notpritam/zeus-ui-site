@@ -4,6 +4,15 @@
   "title": "Line Chart",
   "description": "Several series compared over one axis, smooth or sharp, with a dashed comparison.",
   "category": "charts",
+  "family": "data",
+  "kind": "chart",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "chart",
     "line",

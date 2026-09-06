@@ -4,6 +4,13 @@
   "title": "Image Fly-In",
   "description": "A continuous image depth field with cursor parallax and a clear central content zone",
   "category": "animations",
+  "family": "media",
+  "kind": "animation",
+  "designSystem": null,
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [],
   "tags": [
     "animation",
     "gsap",

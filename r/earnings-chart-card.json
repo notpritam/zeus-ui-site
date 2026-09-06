@@ -4,6 +4,15 @@
   "title": "Earnings Chart",
   "description": "Bar chart card for React + Tailwind CSS with a period switcher, count-up headline, and hover outline",
   "category": "charts",
+  "family": "data",
+  "kind": "chart",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
   "tags": [
     "chart",
     "data",
