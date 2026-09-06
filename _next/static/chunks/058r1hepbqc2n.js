@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,35174,n=>{"use strict";var i=n.i(38935),e=n.i(52400);n.s(["default",0,function(){return(0,i.jsx)("div",{className:"h-[900px] w-[1440px] max-w-none",children:(0,i.jsx)(e.FinanceDashboard,{contained:!0})})}])},23620,function(n){n.n(n.i(35174))}]);
