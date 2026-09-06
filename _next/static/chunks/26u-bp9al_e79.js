@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,759457,t=>{"use strict";var i=t.i(538935),e=t.i(816874);t.s(["default",0,function(){return(0,i.jsx)("div",{className:"w-full max-w-2xl",children:(0,i.jsx)(e.SankeyChartCard,{})})}])},475286,function(t){t.n(t.i(759457))}]);
