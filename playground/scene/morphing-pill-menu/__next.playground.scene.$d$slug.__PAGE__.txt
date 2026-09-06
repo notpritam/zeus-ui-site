@@ -1,0 +1,23 @@
+1:"$Sreact.fragment"
+2:I[796895,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js","/_next/static/chunks/2xn5pwjq1-71y.js","/_next/static/chunks/1b1o9h96o0xwl.js"],"PlaygroundScene"]
+3:I[579014,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+8:I[579014,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js"],"ViewportBoundary"]
+9:I[579014,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js"],"MetadataBoundary"]
+b:I[337280,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js"],"default"]
+c:I[475701,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js"],"default"]
+:HL["/_next/static/chunks/3oewvv6nkp1i8.css","style"]
+7:X
+e:X
+e:C
+0:{"buildId":"UfJyyO88iN0C3HvvrH7WP","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"slug":"morphing-pill-menu"}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3oewvv6nkp1i8.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/2xn5pwjq1-71y.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/1b1o9h96o0xwl.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":"$@6","staleTime":"$7","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$L8",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L9",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Zeus UI — The best components for your agent"}],["$","meta","1",{"name":"description","content":"Discover standout React components for any interface. Curated picks, useful essentials and clean animations, ready for your coding agent."}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"isPartial":"$@a","staleTime":"$7","varyParams":null},{"rsc":["$","$1","c",{"children":[null,["$","$Lb",null,{"parallelRouterKey":"children","template":["$","$Lc",null,{}]}]]}],"isPartial":"$@d","staleTime":"$7","varyParams":"$e"},{"rsc":["$","$1","c",{"children":[null,["$","$Lb",null,{"parallelRouterKey":"children","template":["$","$Lc",null,{}]}]]}],"isPartial":"$@f","staleTime":"$7","varyParams":"$e"},{"rsc":["$","$1","c",{"children":[null,["$","$Lb",null,{"parallelRouterKey":"children","template":["$","$Lc",null,{}]}]]}],"isPartial":"$@10","staleTime":"$7","varyParams":"$e"}],"isUpgradeableISRFallback":false,"a":"$@11","rootVaryParams":null,"needsRuntimeRequest":"$@12"}
+5:null
+12:true
+7:300
+7:C
+11:0
+a:"$undefined"
+d:"$undefined"
+f:"$undefined"
+10:"$undefined"
+6:"$undefined"

@@ -2,14 +2,13 @@
 
 The best components for your agent. Curated React components for websites, dashboards, AI products and everyday interfaces.
 
-- [Agent manifest](https://myzeusui.com/agents.json): 99 components with examples, install commands and source URLs.
+- [Agent manifest](https://myzeusui.com/agents.json): 178 components with examples, install commands and source URLs.
 - [Registry](https://myzeusui.com/r/registry.json)
 - [Documentation](https://myzeusui.com/foundations/)
-- [Verification status](https://myzeusui.com/verification/): measured parity and known differences.
 
 ## Install source
 
-Run `npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.2.3.tgz zeus-ui add agent-limits-card` in your React project. Source, dependencies and token styles are installed together. Import the copied styles once; see the getting started guide.
+Run `npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.3.0.tgz zeus-ui add agent-limits-card` in your React project. Source, dependencies and token styles are installed together. Import the copied styles once; see the getting started guide.
 
 ## Curated collections
 
@@ -20,6 +19,85 @@ Run `npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui
 
 ## Components
 
+- [Background Fill Button](https://myzeusui.com/components/background-fill-button/): A rounded background rises from below as the button gently compresses
+- [Circle Fill Button](https://myzeusui.com/components/circle-fill-button/): A circle grows from the cursor entry point to fill every corner in the same duration
+- [Curve Fill Button](https://myzeusui.com/components/curve-fill-button/): A curved wave enters from the nearest pointer edge and rolls back out
+- [Animated Icon Button](https://myzeusui.com/components/animated-icon-button/): A circular icon background fills the button while icons cycle diagonally
+- [Magnetic Button](https://myzeusui.com/components/magnetic-button/): The button and its label follow the pointer independently before springing home
+- [Rainbow Button](https://myzeusui.com/components/rainbow-button/): A dark button with a flowing rainbow border and a glow that expands on hover
+- [Text Underline](https://myzeusui.com/components/text-underline/): An underline draws from the left and erases toward the right on hover or focus
+- [Mesh Gradient](https://myzeusui.com/components/mesh-gradient/): Moving blended color fields with pointer displacement and a static fallback
+- [Dithering](https://myzeusui.com/components/dithering/): Ordered dot rendering with a smooth lens that restores original image colors
+- [Image Glitch](https://myzeusui.com/components/image-glitch/): Analog scan lines, separated color channels and digital block tearing on hover
+- [Gooey Hover Reveal](https://myzeusui.com/components/gooey-hover-reveal/): A decaying liquid mask reveals content under the moving pointer
+- [Dither Cursor Trail](https://myzeusui.com/components/dither-cursor-trail/): Pointer marks break into ordered dots as their trail fades away
+- [Image Dissolve Scroll](https://myzeusui.com/components/image-dissolve-scroll/): Scroll dissolves an image through irregular noise boundaries and a glowing edge
+- [Grid Chapters](https://myzeusui.com/components/grid-chapters/): Pinned chapter headings exchange masked lines while image columns pass independently through a visible grid
+- [Network Globe](https://myzeusui.com/components/network-globe/): A draggable dotted sphere rotates toward selected locations and draws raised routes between them
+- [Dock Footer](https://myzeusui.com/components/dock-footer/): Scroll uncovers a staggered footer and a translucent navigation dock that expands at the page bottom
+- [Flip Filter](https://myzeusui.com/components/flip-filter/): Category and grid/list changes preserve product cards through measured, interruptible FLIP layout transitions
+- [Capsule Hero](https://myzeusui.com/components/capsule-hero/): Large letterforms part around a rounded media aperture that expands on activation and reverses on close
+- [Wipe Slider](https://myzeusui.com/components/wipe-slider/): Directional background wipes coordinate masked slide text and a rolling percentage index
+- [Step Wipe](https://myzeusui.com/components/step-wipe/): A pinned product sequence synchronizes separate background, foreground, caption and numbering wipes with scroll
+- [Gradient Footer](https://myzeusui.com/components/gradient-footer/): A scroll-revealed footer combines a bottom glow, width-filling brand typography and animated link underlines
+- [Testimonial Globe](https://myzeusui.com/components/testimonial-globe/): Portraits rotate on a draggable sphere beneath translucent quotation cards with a lighter mobile presentation
+- [Drift Gallery](https://myzeusui.com/components/drift-gallery/): Product cards separate on grab and travel with release inertia that controls grain and color intensity
+- [Morphing Pill Menu](https://myzeusui.com/components/morphing-pill-menu/): A compact pill expands into navigation with staggered and rolling links
+- [Gooey Menu](https://myzeusui.com/components/gooey-menu/): Floating actions separate through liquid connections in arc, radial, row or grid arrangements
+- [Mega Menu](https://myzeusui.com/components/mega-menu/): A shared dropdown resizes between navigation groups with mobile accordion navigation
+- [Fullscreen Slide Menu](https://myzeusui.com/components/fullscreen-slide-menu/): Navigation turns the page away and reveals a full-screen menu with changing imagery
+- [Scatter Cluster](https://myzeusui.com/components/scatter-cluster/): A central overlapping pile of image and statistic cards separates into a surrounding arrangement with scroll progress, revealing the headline beneath
+- [Multi Flip](https://myzeusui.com/components/multi-flip/): An overlapping irregular card pile transitions into an ordered grid with scroll, preserving each card while changing its position and rotation
+- [Velocity Clip](https://myzeusui.com/components/velocity-clip/): The visible media region contracts and releases according to scrolling speed, with stronger clipping during faster movement
+- [SVG Draw Path](https://myzeusui.com/components/svg-draw-path/): Scroll progress reveals an SVG stroke from its beginning to its end, following the supplied path geometry
+- [Progress](https://myzeusui.com/components/progress/): Page progress is represented by a ring, linear fill, or numeric percentage that follows the document's scroll position
+- [Parallax](https://myzeusui.com/components/parallax/): Multiple elements respond to scroll with different displacement rates, creating relative depth between foreground and background layers
+- [Mask Reveal](https://myzeusui.com/components/mask-reveal/): Scroll opens or closes a configurable shape mask over content, including circular, rectangular, organic, or supplied outlines
+- [Hide Header](https://myzeusui.com/components/hide-header/): The navigation hides during downward movement and returns when direction reverses, with thresholds and zones that keep it visible
+- [Flip Zone](https://myzeusui.com/components/flip-zone/): One media element moves and resizes between successive layout frames as scroll advances, maintaining a continuous visual identity
+- [Element Reveal](https://myzeusui.com/components/element-reveal/): Elements enter using selectable fade, translation, scale, clipping, blur, or rotation treatments, with optional group staggering
+- [Counter](https://myzeusui.com/components/counter/): Numbers animate to target values on entry, using either smooth counting or independently rolling digit columns with optional units
+- [Background Color](https://myzeusui.com/components/background-color/): Foreground and background colors interpolate between authored scroll zones instead of switching abruptly at section boundaries
+- [Animated Grid](https://myzeusui.com/components/animated-grid/): Image columns advance at different rates during scrolling, producing a multi-column parallax composition with selectable motion variations
+- [Random Rotate](https://myzeusui.com/components/random-rotate/): Items appear with independently varied rotational offsets, giving their final arrangement an irregular placed-by-hand character
+- [Photo Stack Gallery](https://myzeusui.com/components/photo-stack-gallery/): Clicking a compact image stack opens a thumbnail strip and large feature image; choosing another thumbnail exchanges their positions.
+- [Spiral Gallery](https://myzeusui.com/components/spiral-gallery/): Image planes orbit through a vertical helix; dragging changes rotation velocity, release preserves momentum, and the composition continues drifting.
+- [Lens Rail](https://myzeusui.com/components/lens-rail/): A draggable horizontal image rail enlarges cards near its center and compresses distant cards; arrow controls move the focal position.
+- [Expanding Strip](https://myzeusui.com/components/expanding-strip/): Hovering a narrow image column widens that column, compresses its siblings, and reveals its caption inside the expanded area.
+- [Index Wipe](https://myzeusui.com/components/index-wipe/): Hovering indexed chapter names changes the full background through a directional wipe and rolls the numeric index to the active item.
+- [Card Fan](https://myzeusui.com/components/card-fan/): Hovering a stacked group spreads images into an arc; targeting one card raises it and widens neighboring spacing before the stack closes again.
+- [Radial Gallery](https://myzeusui.com/components/radial-gallery/): Image cards occupy a slowly rotating circular arrangement sized to the viewport; the ring can appear whole or partially outside the frame.
+- [Circular Slider](https://myzeusui.com/components/circular-slider/): Cards travel along the visible upper arc of a large circle; dragging or arrows advances the sequence and the nearest card snaps into position.
+- [Infinite Parallax Slider](https://myzeusui.com/components/infinite-parallax-slider/): A looping horizontal carousel offsets internal layers at different rates, supports autonomous playback, and pauses when hovered.
+- [Image Follow List](https://myzeusui.com/components/image-follow-list/): Hovering a project row displays its image near the pointer; the preview tracks movement and switches content across rows.
+- [Hoverable List](https://myzeusui.com/components/hoverable-list/): Pointer entry fills each list row with a curved moving surface whose bend depends on whether the pointer approached from above or below.
+- [Infinite Draggable Grid](https://myzeusui.com/components/infinite-draggable-grid/): A repeating horizontal set of visual items supports pointer dragging and inertial continuation with no visible end boundary.
+- [Infinite Marquee](https://myzeusui.com/components/infinite-marquee/): Repeated content travels horizontally or vertically in a seamless loop and can be dragged to scrub before automatic movement resumes.
+- [Image Trail](https://myzeusui.com/components/image-trail/): Pointer movement emits overlapping images that lag, rotate, shrink and fade
+- [Custom Cursor](https://myzeusui.com/components/custom-cursor/): A smoothly following cursor with contextual labels and native touch input
+- [3D Card Flip](https://myzeusui.com/components/3d-card-flip/): A perspective card with pointer tilt, moving glare and a shifting shadow
+- [Gooey Filter Chips](https://myzeusui.com/components/gooey-filter-chips/): Filter chips move into a shared liquid result tray with rolling counts
+- [Morphing Island](https://myzeusui.com/components/morphing-island/): A section capsule expands through navigation and summaries before scrolling to a destination
+- [Multi-Step Form](https://myzeusui.com/components/multi-step-form/): Directional form steps, floating labels, validation and cancellable asynchronous submission
+- [Morphing Tabs](https://myzeusui.com/components/morphing-tabs/): A measured curved bridge follows the selected tab while its content changes
+- [Morphing Accordion](https://myzeusui.com/components/morphing-accordion/): Question pills and expanding answers briefly merge through a decorative liquid layer
+- [Morphing Select](https://myzeusui.com/components/morphing-select/): A liquid option panel separates from a select trigger with a clipped rolling label
+- [Detail Drawer](https://myzeusui.com/components/detail-drawer/): A hero image shifts and darkens as a side detail panel reveals staggered text
+- [Animated Tooltip](https://myzeusui.com/components/animated-tooltip/): Delayed anchored or pointer-following captions flip at viewport edges
+- [Morphing Dialog](https://myzeusui.com/components/morphing-dialog/): A product card expands into a native dialog with shared image and text transitions
+- [Text On Path](https://myzeusui.com/components/text-on-path/): Scrolling progressively places words along an undulating invisible path, allowing the sentence itself to reveal the curve
+- [Text Fill Wave](https://myzeusui.com/components/text-fill-wave/): A headline gains its foreground color progressively while a brighter accent band travels along the advancing edge across successive lines
+- [Velocity Type](https://myzeusui.com/components/velocity-type/): Scroll speed and direction alter headline weight, width, slant, and lean; the type settles back when scrolling slows
+- [Typewriter](https://myzeusui.com/components/typewriter/): Phrases type character by character, pause, erase, and cycle with separately configurable typing and deletion speeds
+- [Character Appear](https://myzeusui.com/components/character-appear/): Scroll reveals individual glyphs by opacity, either sequentially or in a randomized order, without translating their positions
+- [Text Morph](https://myzeusui.com/components/text-morph/): Editing an input repositions matching characters and transitions changed text; rapid input favors responsiveness over completing every animation
+- [Text Split Zoom](https://myzeusui.com/components/text-split-zoom/): A growing image separates two portions of a headline, expanding from their shared center as the entrance or scroll animation progresses
+- [Text Scramble](https://myzeusui.com/components/text-scramble/): A text trigger temporarily displays changing random glyphs before resolving to the intended words, with configurable character pool and pacing
+- [Rectangle Text Reveal](https://myzeusui.com/components/rectangle-text-reveal/): Rounded masks withdraw from successive text lines while each line moves into its readable resting position
+- [Popping Text](https://myzeusui.com/components/popping-text/): Individual letters scale into view with overshoot and varied rotation, producing a staggered bouncing headline entrance
+- [Folding Text](https://myzeusui.com/components/folding-text/): Individual glyphs rotate through perspective as though hinged, unfolding into legible text with scroll progress
+- [Cinematic Text](https://myzeusui.com/components/cinematic-text/): Headlines move into view from opposing horizontal directions, split into lines, words, or characters for staggered timing
+- [Text Shimmer Wave](https://myzeusui.com/components/text-shimmer-wave/): A light-like highlight travels over successive glyphs, either as a continuous loop or a scroll-triggered pass
 - [Morphing Tooltip](https://myzeusui.com/components/morphing-tooltip/): A shared liquid tooltip that rises from toolbar buttons, travels between them and resizes to each caption
 - [Text Reveal](https://myzeusui.com/components/text-reveal/): Scroll-triggered line, word and character reveals with masks and readable static content
 - [Animated Accordion](https://myzeusui.com/components/animated-accordion/): Coordinated expandable panels with rotating icons and optional line-by-line text reveals

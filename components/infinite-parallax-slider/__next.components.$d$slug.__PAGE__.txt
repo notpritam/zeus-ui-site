@@ -1,0 +1,642 @@
+1:"$Sreact.fragment"
+2:I[392511,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js","/_next/static/chunks/0lh826sok5gy8.js","/_next/static/chunks/3_1pfg1675we5.js","/_next/static/chunks/3b-j35phbz363.js","/_next/static/chunks/2v6dx3y3pgbg2.js","/_next/static/chunks/3znghnjm2oz_l.js","/_next/static/chunks/3458ylrm-tu9f.js","/_next/static/chunks/1h9znjrekhrnu.js","/_next/static/chunks/052khci2jbxel.js","/_next/static/chunks/3fuakxesa5sfw.js","/_next/static/chunks/34kutq8p1wnfe.js","/_next/static/chunks/0y5abjvkezh1o.js"],"DocsLayout"]
+11:X
+16:X
+16:C
+0:{"buildId":"UfJyyO88iN0C3HvvrH7WP","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"Infinite Parallax Slider","heading":"Infinite Parallax Slider","icon":"components","groups":[{"id":"buttons","title":"Buttons","items":[{"name":"background-fill-button","title":"Background Fill Button","isNew":true},{"name":"circle-fill-button","title":"Circle Fill Button","isNew":true},{"name":"curve-fill-button","title":"Curve Fill Button","isNew":true},{"name":"animated-icon-button","title":"Animated Icon Button","isNew":true},{"name":"magnetic-button","title":"Magnetic Button","isNew":true},{"name":"rainbow-button","title":"Rainbow Button","isNew":true},{"name":"text-underline","title":"Text Underline","isNew":true},{"name":"button","title":"Button"},{"name":"icon-button","title":"Icon Button"},{"name":"link-button","title":"Link Button"},{"name":"button-group","title":"Button Group"},{"name":"close-button","title":"Close Button"},{"name":"social-button","title":"Social Button"}]},{"id":"forms","title":"Forms & inputs","items":[{"name":"gooey-filter-chips","title":"Gooey Filter Chips","isNew":true},{"name":"multi-step-form","title":"Multi-Step Form","isNew":true},{"name":"morphing-select","title":"Morphing Select","isNew":true},{"name":"input","title":"Input"},{"name":"input-otp","title":"Input OTP"},{"name":"checkbox","title":"Checkbox"},{"name":"radio","title":"Radio"},{"name":"switch","title":"Switch"},{"name":"select","title":"Select"},{"name":"slider","title":"Slider"},{"name":"file-upload","title":"File Upload"},{"name":"auth-card","title":"Auth Card"}]},{"id":"navigation","title":"Navigation","items":[{"name":"morphing-pill-menu","title":"Morphing Pill Menu","isNew":true},{"name":"gooey-menu","title":"Gooey Menu","isNew":true},{"name":"mega-menu","title":"Mega Menu","isNew":true},{"name":"fullscreen-slide-menu","title":"Fullscreen Slide Menu","isNew":true},{"name":"hide-header","title":"Hide Header","isNew":true},{"name":"custom-cursor","title":"Custom Cursor","isNew":true},{"name":"morphing-island","title":"Morphing Island","isNew":true},{"name":"morphing-tabs","title":"Morphing Tabs","isNew":true},{"name":"multi-level-drawer-menu","title":"Multi-Level Drawer Menu","isNew":true},{"name":"dropdown","title":"Dropdown"},{"name":"tabs","title":"Tabs"},{"name":"segmented-control","title":"Segmented Control"},{"name":"breadcrumb","title":"Breadcrumb"},{"name":"pagination","title":"Pagination"},{"name":"sidebar","title":"Sidebar"}]},{"id":"feedback","title":"Feedback & status","items":[{"name":"badge","title":"Badge"},{"name":"chip","title":"Chip"},{"name":"status-dot","title":"Status Dot"},{"name":"announcement","title":"Announcement"},{"name":"notification","title":"Notification"},{"name":"theme-toggle","title":"Theme Toggle"},{"name":"notification-center","title":"Notification Center"}]},{"id":"overlays","title":"Overlays & disclosures","items":[{"name":"morphing-accordion","title":"Morphing Accordion","isNew":true},{"name":"detail-drawer","title":"Detail Drawer","isNew":true},{"name":"animated-tooltip","title":"Animated Tooltip","isNew":true},{"name":"morphing-dialog","title":"Morphing Dialog","isNew":true},{"name":"morphing-tooltip","title":"Morphing Tooltip","isNew":true},{"name":"animated-accordion","title":"Animated Accordion","isNew":true},{"name":"feature-dialog","title":"Feature Dialog","isNew":true},{"name":"tooltip","title":"Tooltip"},{"name":"settings-modal","title":"Settings Modal"}]},{"id":"typography","title":"Text & typography","items":[{"name":"text-on-path","title":"Text On Path","isNew":true},{"name":"text-fill-wave","title":"Text Fill Wave","isNew":true},{"name":"velocity-type","title":"Velocity Type","isNew":true},{"name":"typewriter","title":"Typewriter","isNew":true},{"name":"character-appear","title":"Character Appear","isNew":true},{"name":"text-morph","title":"Text Morph","isNew":true},{"name":"text-split-zoom","title":"Text Split Zoom","isNew":true},{"name":"text-scramble","title":"Text Scramble","isNew":true},{"name":"rectangle-text-reveal","title":"Rectangle Text Reveal","isNew":true},{"name":"popping-text","title":"Popping Text","isNew":true},{"name":"folding-text","title":"Folding Text","isNew":true},{"name":"cinematic-text","title":"Cinematic Text","isNew":true},{"name":"text-shimmer-wave","title":"Text Shimmer Wave","isNew":true},{"name":"text-reveal","title":"Text Reveal","isNew":true},{"name":"dual-scramble","title":"Dual Scramble","isNew":true},{"name":"typography","title":"Typography"},{"name":"kbd","title":"Kbd"}]},{"id":"icons","title":"Icons & identity","items":[{"name":"chevrons","title":"Chevrons"},{"name":"logo","title":"Logo"},{"name":"avatar","title":"Avatar"}]},{"id":"layout","title":"Layout & structure","items":[{"name":"grid-chapters","title":"Grid Chapters","isNew":true},{"name":"network-globe","title":"Network Globe","isNew":true},{"name":"dock-footer","title":"Dock Footer","isNew":true},{"name":"flip-filter","title":"Flip Filter","isNew":true},{"name":"capsule-hero","title":"Capsule Hero","isNew":true},{"name":"wipe-slider","title":"Wipe Slider","isNew":true},{"name":"step-wipe","title":"Step Wipe","isNew":true},{"name":"gradient-footer","title":"Gradient Footer","isNew":true},{"name":"testimonial-globe","title":"Testimonial Globe","isNew":true},{"name":"drift-gallery","title":"Drift Gallery","isNew":true},{"name":"divider","title":"Divider"},{"name":"app-shell","title":"App Shell"}]},{"id":"data","title":"Data & charts","items":[{"name":"progress","title":"Progress","isNew":true},{"name":"counter","title":"Counter","isNew":true},{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"table","title":"Table"},{"name":"stat-cards","title":"Stat Cards"},{"name":"data-table","title":"Data Table"},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart"},{"name":"orders-chart-card","title":"Orders Chart"},{"name":"important-alerts-card","title":"Important Alerts"},{"name":"patient-info-card","title":"Patient Info"}]},{"id":"media","title":"Images & media","items":[{"name":"mesh-gradient","title":"Mesh Gradient","isNew":true},{"name":"dithering","title":"Dithering","isNew":true},{"name":"image-glitch","title":"Image Glitch","isNew":true},{"name":"gooey-hover-reveal","title":"Gooey Hover Reveal","isNew":true},{"name":"dither-cursor-trail","title":"Dither Cursor Trail","isNew":true},{"name":"image-dissolve-scroll","title":"Image Dissolve Scroll","isNew":true},{"name":"scatter-cluster","title":"Scatter Cluster","isNew":true},{"name":"multi-flip","title":"Multi Flip","isNew":true},{"name":"velocity-clip","title":"Velocity Clip","isNew":true},{"name":"svg-draw-path","title":"SVG Draw Path","isNew":true},{"name":"parallax","title":"Parallax","isNew":true},{"name":"mask-reveal","title":"Mask Reveal","isNew":true},{"name":"flip-zone","title":"Flip Zone","isNew":true},{"name":"element-reveal","title":"Element Reveal","isNew":true},{"name":"background-color","title":"Background Color","isNew":true},{"name":"animated-grid","title":"Animated Grid","isNew":true},{"name":"random-rotate","title":"Random Rotate","isNew":true},{"name":"photo-stack-gallery","title":"Photo Stack Gallery","isNew":true},{"name":"spiral-gallery","title":"Spiral Gallery","isNew":true},{"name":"lens-rail","title":"Lens Rail","isNew":true},{"name":"expanding-strip","title":"Expanding Strip","isNew":true},{"name":"index-wipe","title":"Index Wipe","isNew":true},{"name":"card-fan","title":"Card Fan","isNew":true},{"name":"radial-gallery","title":"Radial Gallery","isNew":true},{"name":"circular-slider","title":"Circular Slider","isNew":true},{"name":"infinite-parallax-slider","title":"Infinite Parallax Slider","isNew":true},{"name":"image-follow-list","title":"Image Follow List","isNew":true},{"name":"hoverable-list","title":"Hoverable List","isNew":true},{"name":"infinite-draggable-grid","title":"Infinite Draggable Grid","isNew":true},{"name":"infinite-marquee","title":"Infinite Marquee","isNew":true},{"name":"image-trail","title":"Image Trail","isNew":true},{"name":"3d-card-flip","title":"3D Card Flip","isNew":true},{"name":"image-fly-in","title":"Image Fly-In","isNew":true},{"name":"scale-slider","title":"Scale Slider","isNew":true},{"name":"curtain-slider","title":"Curtain Slider","isNew":true},{"name":"ascii-overlay","title":"ASCII Overlay","isNew":true},{"name":"carousel","title":"Carousel"}]},{"id":"scheduling","title":"Dates & scheduling","items":[{"name":"calendar","title":"Calendar","isNew":true},{"name":"date-picker","title":"Date Picker"},{"name":"date-range-picker","title":"Date Range Picker"},{"name":"meeting-scheduler","title":"Meeting Scheduler"}]},{"id":"ai","title":"AI & agents","items":[{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true},{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking"},{"name":"composer-loader","title":"Composer Loader"},{"name":"agent-log","title":"Agent Log"},{"name":"agent-chat","title":"Agent Chat"}]},{"id":"pricing","title":"Pricing & billing","items":[{"name":"animated-pricing","title":"Animated Pricing","isNew":true}]},{"id":"screens","title":"Complete screens","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true}]},{"id":"foundations","title":"Design foundations","items":[{"name":"tokens","title":"Design tokens"}]},{"id":"utilities","title":"Hooks & utilities","items":[{"name":"cx","title":"cx"},{"name":"use-count-up","title":"useCountUp"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress"}]}],"description":"A looping horizontal carousel offsets internal layers at different rates, supports autonomous playback, and pauses when hovered.","detail":true,"children":"$L3"}],["$L4","$L5","$L6","$L7","$L8","$L9","$La","$Lb","$Lc","$Ld","$Le"],"$Lf"]}],"isPartial":"$@10","staleTime":"$11","varyParams":null},{"rsc":"$L12","isPartial":"$@13","staleTime":"$11","varyParams":null},{"rsc":"$L14","isPartial":"$@15","staleTime":"$11","varyParams":"$16"},{"rsc":"$L17","isPartial":"$@18","staleTime":"$11","varyParams":"$16"}],"isUpgradeableISRFallback":false,"a":"$@19","rootVaryParams":null,"needsRuntimeRequest":"$@1a"}
+1b:I[125016,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js","/_next/static/chunks/0lh826sok5gy8.js","/_next/static/chunks/3_1pfg1675we5.js","/_next/static/chunks/3b-j35phbz363.js","/_next/static/chunks/2v6dx3y3pgbg2.js","/_next/static/chunks/3znghnjm2oz_l.js","/_next/static/chunks/3458ylrm-tu9f.js","/_next/static/chunks/1h9znjrekhrnu.js","/_next/static/chunks/052khci2jbxel.js","/_next/static/chunks/3fuakxesa5sfw.js","/_next/static/chunks/34kutq8p1wnfe.js","/_next/static/chunks/0y5abjvkezh1o.js"],"ComponentPage"]
+1f:I[579014,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js"],"OutletBoundary"]
+20:"$Sreact.suspense"
+22:I[579014,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js"],"ViewportBoundary"]
+23:I[579014,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js"],"MetadataBoundary"]
+24:I[337280,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js"],"default"]
+25:I[475701,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js"],"default"]
+1c:T3634,// @zeus-internal
+"use client";
+import {
+  useCallback,
+  useEffect,
+  useRef,
+  useState,
+  type CSSProperties,
+  type ReactNode,
+  type PointerEvent,
+  type KeyboardEvent,
+} from "react";
+export interface GalleryInternalItem {
+  id: string;
+  src?: string;
+  alt?: string;
+  title?: string;
+  description?: string;
+  content?: ReactNode;
+}
+export interface GalleryInternalProps {
+  items: readonly GalleryInternalItem[];
+  index?: number;
+  defaultIndex?: number;
+  onChange?: (index: number) => void;
+  onSelect?: (item: GalleryInternalItem, index: number) => void;
+  renderCaption?: (item: GalleryInternalItem, index: number) => ReactNode;
+  className?: string;
+  style?: CSSProperties;
+  label?: string;
+  height?: number;
+}
+export const galleryWrap = (value: number, length: number) =>
+  length > 0 ? ((value % length) + length) % length : 0;
+export const galleryDistance = (index: number, phase: number, count: number) =>
+  count > 0 ? galleryWrap(index - phase + count / 2, count) - count / 2 : 0;
+const galleryControlTarget = (target: Element) =>
+  target.closest(
+    "[data-gallery-control], [data-gallery-content] :is(button, a, input, textarea, select, [contenteditable], [role=button])",
+  );
+export function useGalleryEnvironment() {
+  const ref = useRef<HTMLDivElement>(null);
+  const [size, setSize] = useState({ width: 1000, height: 640 });
+  const [active, setActive] = useState(false);
+  const [reduced, setReduced] = useState(false);
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    let visible = true;
+    const media = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const update = () => {
+      setReduced(media.matches);
+      setActive(visible && !document.hidden);
+    };
+    const resize = () => setSize({ width: el.clientWidth || 1000, height: el.clientHeight || 640 });
+    resize();
+    const ro = typeof ResizeObserver === "undefined" ? null : new ResizeObserver(resize);
+    ro?.observe(el);
+    const io =
+      typeof IntersectionObserver === "undefined"
+        ? null
+        : new IntersectionObserver((entries) => {
+            visible = entries[0]?.isIntersecting ?? true;
+            update();
+          });
+    io?.observe(el);
+    media.addEventListener("change", update);
+    document.addEventListener("visibilitychange", update);
+    update();
+    return () => {
+      ro?.disconnect();
+      io?.disconnect();
+      media.removeEventListener("change", update);
+      document.removeEventListener("visibilitychange", update);
+    };
+  }, []);
+  return { ref, size, active, reduced };
+}
+export function useGalleryIndex({
+  items,
+  index,
+  defaultIndex = 0,
+  onChange,
+}: GalleryInternalProps) {
+  const [value, setValue] = useState(defaultIndex);
+  const current = galleryWrap(index ?? value, items.length);
+  const choose = useCallback(
+    (next: number) => {
+      next = galleryWrap(next, items.length);
+      if (index === undefined) setValue(next);
+      if (next !== current) onChange?.(next);
+    },
+    [current, index, items.length, onChange],
+  );
+  return { current, choose };
+}
+export function useGalleryMotion(
+  count: number,
+  options: {
+    index?: number;
+    defaultIndex?: number;
+    onChange?: (index: number) => void;
+    drag?: boolean;
+    autoplay?: boolean;
+    speed?: number;
+    sensitivity?: number;
+    snap?: boolean;
+    vertical?: boolean;
+    pauseOnHover?: boolean;
+  },
+  environment: ReturnType<typeof useGalleryEnvironment>,
+) {
+  const {
+    index,
+    defaultIndex = 0,
+    onChange,
+    drag = true,
+    autoplay = false,
+    speed = 0.15,
+    sensitivity = 220,
+    snap = false,
+    vertical = false,
+    pauseOnHover = false,
+  } = options;
+  const [phase, setPhase] = useState(defaultIndex);
+  const value = useRef(defaultIndex);
+  const velocity = useRef(0);
+  const target = useRef<number | null>(null);
+  const pointer = useRef<{ id: number; position: number; time: number; distance: number } | null>(
+    null,
+  );
+  const moved = useRef(false);
+  const [hovered, setHovered] = useState(false);
+  const [focused, setFocused] = useState(false);
+  const [paused, setPaused] = useState(false);
+  const [dragging, setDragging] = useState(false);
+  const lastIndex = useRef(galleryWrap(Math.round(defaultIndex), count));
+  const changeRef = useRef(onChange);
+  changeRef.current = onChange;
+  const commit = useCallback(
+    (next: number) => {
+      if (!Number.isFinite(next)) return;
+      value.current = next;
+      setPhase(next);
+      const selected = galleryWrap(Math.round(next), count);
+      if (lastIndex.current !== selected) {
+        lastIndex.current = selected;
+        changeRef.current?.(selected);
+      }
+    },
+    [count],
+  );
+  const choose = useCallback(
+    (next: number) => {
+      if (index !== undefined) {
+        changeRef.current?.(galleryWrap(Math.round(next), count));
+        return;
+      }
+      velocity.current = 0;
+      if (environment.reduced) {
+        target.current = null;
+        commit(next);
+      } else target.current = next;
+    },
+    [commit, environment.reduced, index, count],
+  );
+  useEffect(() => {
+    if (index !== undefined) {
+      target.current = null;
+      velocity.current = 0;
+      value.current = index;
+      setPhase(index);
+      lastIndex.current = galleryWrap(Math.round(index), count);
+    }
+  }, [index, count]);
+  useEffect(() => {
+    if (!environment.active || environment.reduced || count < 1) return;
+    let frame = 0,
+      last = 0;
+    const tick = (time: number) => {
+      const dt = Math.min((time - (last || time)) / 1000, 0.04);
+      last = time;
+      if (!pointer.current) {
+        if (target.current !== null) {
+          const next = value.current + (target.current - value.current) * (1 - Math.exp(-dt * 12));
+          if (Math.abs(next - target.current) < 0.0005) {
+            commit(target.current);
+            target.current = null;
+          } else commit(next);
+        } else {
+          velocity.current *= Math.exp(-dt * 5);
+          const drift = autoplay && !paused && !focused && !(pauseOnHover && hovered) ? speed : 0;
+          if (Math.abs(velocity.current) > 0.0001 || drift)
+            commit(value.current + (velocity.current + drift) * dt);
+        }
+      }
+      frame = requestAnimationFrame(tick);
+    };
+    frame = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(frame);
+  }, [
+    environment.active,
+    environment.reduced,
+    count,
+    autoplay,
+    speed,
+    paused,
+    hovered,
+    focused,
+    pauseOnHover,
+    commit,
+  ]);
+  const release = (event: PointerEvent<HTMLDivElement>) => {
+    const p = pointer.current;
+    if (!p || p.id !== event.pointerId) return;
+    pointer.current = null;
+    setDragging(false);
+    if (event.currentTarget.hasPointerCapture?.(event.pointerId))
+      event.currentTarget.releasePointerCapture(event.pointerId);
+    if (environment.reduced) velocity.current = 0;
+    if (snap) {
+      const next = Math.round(value.current + velocity.current * 0.1);
+      velocity.current = 0;
+      choose(next);
+    }
+  };
+  return {
+    phase: index ?? phase,
+    current: galleryWrap(Math.round(index ?? phase), count),
+    choose,
+    dragging,
+    paused,
+    setPaused: (next: boolean) => {
+      setPaused(next);
+      if (next) {
+        velocity.current = 0;
+        target.current = null;
+      }
+    },
+    moved,
+    handlers: {
+      onPointerEnter: () => setHovered(true),
+      onPointerLeave: () => setHovered(false),
+      onFocus: (event: React.FocusEvent<HTMLDivElement>) =>
+        setFocused(!galleryControlTarget(event.target as Element)),
+      onBlur: (event: React.FocusEvent<HTMLDivElement>) => {
+        if (!event.currentTarget.contains(event.relatedTarget)) setFocused(false);
+      },
+      onPointerDown: (event: PointerEvent<HTMLDivElement>) => {
+        if (!drag || event.button !== 0 || galleryControlTarget(event.target as Element)) return;
+        target.current = null;
+        velocity.current = 0;
+        moved.current = false;
+        pointer.current = {
+          id: event.pointerId,
+          position: vertical ? event.clientY : event.clientX,
+          time: performance.now(),
+          distance: 0,
+        };
+        setDragging(true);
+      },
+      onPointerMove: (event: PointerEvent<HTMLDivElement>) => {
+        const p = pointer.current;
+        if (!p || p.id !== event.pointerId) return;
+        const next = vertical ? event.clientY : event.clientX;
+        const now = performance.now();
+        const delta = -(next - p.position) / Math.max(1, sensitivity);
+        p.distance += Math.abs(next - p.position);
+        moved.current = p.distance > 5;
+        if (moved.current && !event.currentTarget.hasPointerCapture(event.pointerId))
+          event.currentTarget.setPointerCapture(event.pointerId);
+        velocity.current = delta / Math.max(0.008, (now - p.time) / 1000);
+        commit(value.current + delta);
+        p.position = next;
+        p.time = now;
+      },
+      onPointerUp: release,
+      onPointerCancel: (event: PointerEvent<HTMLDivElement>) => {
+        velocity.current = 0;
+        release(event);
+      },
+      onKeyDown: (event: KeyboardEvent<HTMLDivElement>) => {
+        if (event.key === "ArrowRight" || event.key === "ArrowDown") {
+          event.preventDefault();
+          choose(Math.round(value.current) + 1);
+        } else if (event.key === "ArrowLeft" || event.key === "ArrowUp") {
+          event.preventDefault();
+          choose(Math.round(value.current) - 1);
+        } else if (event.key === "Home") {
+          event.preventDefault();
+          choose(0);
+        } else if (event.key === "End") {
+          event.preventDefault();
+          choose(count - 1);
+        } else if (event.key === " " && event.target === event.currentTarget) {
+          event.preventDefault();
+          setPaused((v) => !v);
+          setFocused(false);
+        }
+      },
+    },
+  };
+}
+export function GalleryInternalImage({
+  item,
+  style,
+  className,
+}: {
+  item: GalleryInternalItem;
+  style?: CSSProperties;
+  className?: string;
+}) {
+  return item.content ? (
+    <div className={className} style={style}>
+      {item.content}
+    </div>
+  ) : item.src ? (
+    <img
+      className={className}
+      src={item.src}
+      alt={item.alt ?? item.title ?? ""}
+      draggable={false}
+      style={style}
+    />
+  ) : (
+    <div
+      className={className}
+      style={{ ...style, background: "#d8d6d1", display: "grid", placeItems: "center" }}
+    >
+      {item.title}
+    </div>
+  );
+}
+export function GalleryInternalControls({
+  current,
+  count,
+  onPrevious,
+  onNext,
+  paused,
+  onPause,
+}: {
+  current: number;
+  count: number;
+  onPrevious: () => void;
+  onNext: () => void;
+  paused?: boolean;
+  onPause?: () => void;
+}) {
+  return (
+    <div className="z-ag-controls" data-gallery-control>
+      <button type="button" aria-label="Previous item" disabled={count < 2} onClick={onPrevious}>
+        ‹
+      </button>
+      <span className="z-ag-sr" role="status">
+        {count ? current + 1 : 0} of {count}
+      </span>
+      <button type="button" aria-label="Next item" disabled={count < 2} onClick={onNext}>
+        ›
+      </button>
+      {onPause && (
+        <button
+          type="button"
+          aria-label={paused ? "Play animation" : "Pause animation"}
+          aria-pressed={paused}
+          onClick={onPause}
+        >
+          {paused ? "▷" : "Ⅱ"}
+        </button>
+      )}
+    </div>
+  );
+}
+export function GalleryInternalStyles() {
+  return (
+    <style>{`
+.z-ag{position:relative;width:100%;height:var(--z-ag-height,640px);min-width:0;overflow:hidden;background:#eeedeb;color:#161616;font-family:Arial,sans-serif;isolation:isolate}.z-ag *{box-sizing:border-box}.z-ag button{font:inherit;color:inherit}.z-ag img{display:block;object-fit:cover;width:100%;height:100%;user-select:none}.z-ag button:focus-visible,.z-ag:focus-visible{outline:3px solid #ff5b2b;outline-offset:-3px}.z-ag-card{position:absolute;left:50%;top:50%;padding:0;border:0;background:none;overflow:hidden}.z-ag-controls{position:absolute;z-index:100;bottom:24px;left:50%;display:flex;gap:8px;transform:translateX(-50%);align-items:center}.z-ag-controls button{border:0;border-radius:6px;background:#d5d4d1;color:#151515;width:40px;height:40px;font-size:25px;cursor:pointer}.z-ag-controls button:disabled{opacity:.35}.z-ag-caption{position:absolute;left:24px;right:20px;bottom:24px;text-align:left;color:white;text-shadow:0 1px 14px #000;font-size:clamp(18px,2.2vw,32px);font-weight:600}.z-ag-hint{position:absolute;bottom:24px;left:24px;z-index:2;color:#969591;font-size:12px}.z-ag-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.z-ag-list{height:auto;min-height:var(--z-ag-height,640px);display:flex;flex-direction:column;justify-content:center}.z-ag-row{position:relative;display:flex;align-items:center;width:100%;min-height:70px;padding:22px 24px;text-align:left;border:0;border-top:1px solid #d7d6d4;background:transparent;cursor:pointer;overflow:hidden}.z-ag-row:last-child{border-bottom:1px solid #d7d6d4}.z-ag-row-label{position:relative;z-index:2;transition:transform .35s}.z-ag-row[data-active=true] .z-ag-row-label{transform:translateX(16px)}.z-ag-empty{position:absolute;inset:0;display:grid;place-items:center;color:#777}@media(max-width:600px){.z-ag{height:var(--z-ag-mobile-height,520px)}.z-ag-controls{bottom:16px}.z-ag-caption{left:15px;bottom:18px}.z-ag-list{height:auto;min-height:520px}.z-ag-row{min-height:64px;padding:20px 18px}}@media(prefers-reduced-motion:reduce){.z-ag *{transition-duration:0s!important;animation:none!important}}
+`}</style>
+  );
+}
+export const galleryStyle = (height: number, style?: CSSProperties) =>
+  ({
+    "--z-ag-height": `${height}px`,
+    "--z-ag-mobile-height": `${Math.min(height, 560)}px`,
+    ...style,
+  }) as CSSProperties;
+1d:T1343,"use client";
+import {
+  GalleryInternalImage,
+  GalleryInternalStyles,
+  GalleryInternalControls,
+  galleryDistance,
+  galleryStyle,
+  useGalleryEnvironment,
+  useGalleryMotion,
+  type GalleryInternalProps,
+  type GalleryInternalItem,
+} from "./gallery-shared";
+export interface InfiniteParallaxSliderItem extends GalleryInternalItem {}
+export interface InfiniteParallaxSliderProps extends GalleryInternalProps {
+  items: readonly InfiniteParallaxSliderItem[];
+  cardWidth?: number;
+  gap?: number;
+  parallax?: number;
+  speed?: number;
+  autoplay?: boolean;
+  pauseOnHover?: boolean;
+  drag?: boolean;
+}
+export function InfiniteParallaxSlider({
+  items,
+  cardWidth = 360,
+  gap = 16,
+  parallax = 0.22,
+  speed = 0.16,
+  autoplay = true,
+  pauseOnHover = true,
+  drag = true,
+  index,
+  defaultIndex,
+  onChange,
+  onSelect,
+  height = 640,
+  label = "Infinite parallax slider",
+  className = "",
+  style,
+  renderCaption,
+}: InfiniteParallaxSliderProps) {
+  const env = useGalleryEnvironment();
+  const width = Math.min(cardWidth, env.size.width * 0.82),
+    step = width + gap;
+  const motion = useGalleryMotion(
+    items.length,
+    { index, defaultIndex, onChange, drag, autoplay, speed, pauseOnHover, sensitivity: step },
+    env,
+  );
+  const repeats = items.length
+    ? Math.max(1, Math.ceil((env.size.width / step + 2) / items.length))
+    : 0;
+  const total = items.length * repeats;
+  return (
+    <div
+      ref={env.ref}
+      {...motion.handlers}
+      className={`z-ag ${className}`}
+      data-gallery="infinite-parallax-slider"
+      data-index={motion.current}
+      data-phase={motion.phase.toFixed(4)}
+      tabIndex={0}
+      role="region"
+      aria-label={label}
+      style={galleryStyle(height, {
+        userSelect: drag ? "none" : undefined,
+        touchAction: drag ? "pan-y" : undefined,
+        cursor: drag ? "grab" : undefined,
+        ...style,
+      })}
+    >
+      <GalleryInternalStyles />
+      {Array.from({ length: total }, (_, i) => {
+        const item = items[i % items.length];
+        const d = galleryDistance(i, motion.phase, total);
+        const x = d * step;
+        return (
+          <button
+            key={`${item.id}-${i}`}
+            className="z-ag-card"
+            type="button"
+            data-gallery-card={i}
+            tabIndex={i < items.length ? 0 : -1}
+            aria-label={item.title ?? `Image ${i + 1}`}
+            onClick={(event) => {
+              if (event.detail === 0 || !motion.moved.current) onSelect?.(item, i % items.length);
+            }}
+            style={{
+              width,
+              height: Math.min(width * 1.33, env.size.height - 125),
+              borderRadius: 8,
+              transform: `translate(-50%,-50%) translate(${x}px,-15px)`,
+              background: "#444",
+            }}
+          >
+            <GalleryInternalImage
+              item={item}
+              className="z-ag-parallax-image"
+              style={{
+                width: `${100 + Math.abs(parallax) * 100}%`,
+                maxWidth: "none",
+                marginLeft: `-${Math.abs(parallax) * 50}%`,
+                transform: `translateX(${-d * width * parallax * 0.3}px)`,
+              }}
+            />
+            <div
+              style={{
+                position: "absolute",
+                inset: 0,
+                background: "linear-gradient(transparent 55%,#000b)",
+              }}
+            />
+            <span
+              className="z-ag-caption"
+              style={{ transform: `translateX(${-d * width * parallax * 0.06}px)` }}
+            >
+              {renderCaption?.(item, i % items.length) ?? item.title}
+            </span>
+          </button>
+        );
+      })}
+      <GalleryInternalControls
+        current={motion.current}
+        count={items.length}
+        onPrevious={() => motion.choose(Math.round(motion.phase) - 1)}
+        onNext={() => motion.choose(Math.round(motion.phase) + 1)}
+        paused={motion.paused}
+        onPause={autoplay ? () => motion.setPaused(!motion.paused) : undefined}
+      />
+      <div
+        data-gallery-control
+        style={{
+          position: "absolute",
+          bottom: 78,
+          left: "50%",
+          transform: "translateX(-50%)",
+          display: "flex",
+          gap: 8,
+        }}
+      >
+        {items.map((item, i) => (
+          <button
+            key={item.id}
+            type="button"
+            aria-label={`Go to slide ${i + 1}`}
+            aria-pressed={motion.current === i}
+            onClick={() =>
+              motion.choose(motion.phase + galleryDistance(i, motion.phase, items.length))
+            }
+            style={{
+              width: motion.current === i ? 24 : 8,
+              height: 8,
+              padding: 0,
+              border: 0,
+              borderRadius: 9,
+              background: motion.current === i ? "#111" : "#ccc",
+            }}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
+1e:T602,"use client";
+
+import { InfiniteParallaxSlider } from "@/components/application/animations/expanded/galleries/infinite-parallax-slider";
+
+export default function Example() {
+  return (
+    <InfiniteParallaxSlider
+      items={[
+        {
+          "id": "running",
+          "src": "/assets/annnimate/street-running-hero-4.avif",
+          "alt": "Running Collection",
+          "title": "Running Collection"
+        },
+        {
+          "id": "cycling",
+          "src": "/assets/annnimate/action_cyclist-climb_02.jpg",
+          "alt": "Cycling Gear",
+          "title": "Cycling Gear"
+        },
+        {
+          "id": "apparel",
+          "src": "/assets/annnimate/product_half-zip_01.jpg",
+          "alt": "Performance Apparel",
+          "title": "Performance Apparel"
+        },
+        {
+          "id": "training",
+          "src": "/assets/annnimate/product_tennis-racket_05.jpg",
+          "alt": "Training Accessories",
+          "title": "Training Accessories"
+        },
+        {
+          "id": "winter",
+          "src": "/assets/annnimate/action_leap_01.jpg",
+          "alt": "Winter Sports",
+          "title": "Winter Sports"
+        },
+        {
+          "id": "recovery",
+          "src": "/assets/annnimate/roster_profile_06.jpg",
+          "alt": "Recovery & Wellness",
+          "title": "Recovery & Wellness"
+        }
+      ]}
+      height={640}
+      drag={true}
+      autoplay={true}
+      speed={0.15}
+      pauseOnHover={true}
+      cardWidth={360}
+      gap={16}
+      parallax={0.22}
+    />
+  );
+}3:["$","$L1b",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"infinite-parallax-slider","title":"Infinite Parallax Slider","description":"A looping horizontal carousel offsets internal layers at different rates, supports autonomous playback, and pauses when hovered.","category":"animations","family":"media","kind":"animation","designSystem":null,"foundationDependencies":[],"iconLibraries":[],"tags":["animation","annnimate","drag","ambient"],"status":"beta","tier":"free","isNew":true,"dependencies":[],"registryDependencies":[],"files":[{"path":"application/animations/expanded/galleries/gallery-shared.tsx","target":"components/application/animations/expanded/galleries/gallery-shared.tsx","type":"component","content":"$1c"},{"path":"application/animations/expanded/galleries/infinite-parallax-slider.tsx","target":"components/application/animations/expanded/galleries/infinite-parallax-slider.tsx","type":"component","content":"$1d"},{"path":"public/assets/annnimate/action_cyclist-climb_02.jpg","target":"public/assets/annnimate/action_cyclist-climb_02.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/action_leap_01.jpg","target":"public/assets/annnimate/action_leap_01.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/product_half-zip_01.jpg","target":"public/assets/annnimate/product_half-zip_01.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/product_tennis-racket_05.jpg","target":"public/assets/annnimate/product_tennis-racket_05.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/roster_profile_06.jpg","target":"public/assets/annnimate/roster_profile_06.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/street-running-hero-4.avif","target":"public/assets/annnimate/street-running-hero-4.avif","type":"asset","encoding":"base64"}],"hash":"ba26470bba2d"},"demoSource":"$1e","previous":{"name":"circular-slider","title":"Circular Slider"},"next":{"name":"image-follow-list","title":"Image Follow List"}}]
+4:["$","script","script-0",{"src":"/_next/static/chunks/0lh826sok5gy8.js","async":true}]
+5:["$","script","script-1",{"src":"/_next/static/chunks/3_1pfg1675we5.js","async":true}]
+6:["$","script","script-2",{"src":"/_next/static/chunks/3b-j35phbz363.js","async":true}]
+7:["$","script","script-3",{"src":"/_next/static/chunks/2v6dx3y3pgbg2.js","async":true}]
+8:["$","script","script-4",{"src":"/_next/static/chunks/3znghnjm2oz_l.js","async":true}]
+9:["$","script","script-5",{"src":"/_next/static/chunks/3458ylrm-tu9f.js","async":true}]
+a:["$","script","script-6",{"src":"/_next/static/chunks/1h9znjrekhrnu.js","async":true}]
+b:["$","script","script-7",{"src":"/_next/static/chunks/052khci2jbxel.js","async":true}]
+c:["$","script","script-8",{"src":"/_next/static/chunks/3fuakxesa5sfw.js","async":true}]
+d:["$","script","script-9",{"src":"/_next/static/chunks/34kutq8p1wnfe.js","async":true}]
+e:["$","script","script-10",{"src":"/_next/static/chunks/0y5abjvkezh1o.js","async":true}]
+f:["$","$L1f",null,{"children":["$","$20",null,{"name":"Next.MetadataOutlet","children":"$@21"}]}]
+12:["$","$1","h",{"children":[null,["$","$L22",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L23",null,{"children":["$","$20",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Infinite Parallax Slider — Zeus UI"}],["$","meta","1",{"name":"description","content":"A looping horizontal carousel offsets internal layers at different rates, supports autonomous playback, and pauses when hovered."}],["$","meta","2",{"name":"keywords","content":"animation,annnimate,drag,ambient"}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+14:["$","$1","c",{"children":[null,["$","$L24",null,{"parallelRouterKey":"children","template":["$","$L25",null,{}]}]]}]
+17:["$","$1","c",{"children":[null,["$","$L24",null,{"parallelRouterKey":"children","template":["$","$L25",null,{}]}]]}]
+1a:true
+21:null
+11:300
+11:C
+19:0
+13:"$undefined"
+15:"$undefined"
+18:"$undefined"
+10:"$undefined"

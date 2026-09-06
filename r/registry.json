@@ -3,7 +3,7 @@
   "name": "zeus-ui",
   "homepage": "https://myzeusui.com",
   "license": "MIT",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "organizationVersion": 1,
   "families": [
     {
@@ -180,6 +180,26 @@
   ],
   "tags": [
     {
+      "tag": "animation",
+      "count": 91
+    },
+    {
+      "tag": "annnimate",
+      "count": 90
+    },
+    {
+      "tag": "scroll",
+      "count": 29
+    },
+    {
+      "tag": "hover",
+      "count": 25
+    },
+    {
+      "tag": "click",
+      "count": 21
+    },
+    {
       "tag": "chart",
       "count": 20
     },
@@ -200,16 +220,16 @@
       "count": 12
     },
     {
-      "tag": "animation",
-      "count": 12
-    },
-    {
-      "tag": "annnimate",
-      "count": 11
-    },
-    {
       "tag": "gsap",
       "count": 11
+    },
+    {
+      "tag": "drag",
+      "count": 9
+    },
+    {
+      "tag": "ambient",
+      "count": 8
     },
     {
       "tag": "agent",
@@ -220,7 +240,15 @@
       "count": 6
     },
     {
+      "tag": "menu",
+      "count": 6
+    },
+    {
       "tag": "navigation",
+      "count": 6
+    },
+    {
+      "tag": "shader",
       "count": 6
     },
     {
@@ -273,6 +301,10 @@
     },
     {
       "tag": "layout",
+      "count": 3
+    },
+    {
+      "tag": "pointer",
       "count": 3
     },
     {
@@ -336,6 +368,10 @@
       "count": 2
     },
     {
+      "tag": "dropdown",
+      "count": 2
+    },
+    {
       "tag": "filtering",
       "count": 2
     },
@@ -361,10 +397,6 @@
     },
     {
       "tag": "loading",
-      "count": 2
-    },
-    {
-      "tag": "menu",
       "count": 2
     },
     {
@@ -428,6 +460,10 @@
       "count": 1
     },
     {
+      "tag": "3d",
+      "count": 1
+    },
+    {
       "tag": "accessibility",
       "count": 1
     },
@@ -468,7 +504,15 @@
       "count": 1
     },
     {
+      "tag": "animated-tooltip",
+      "count": 1
+    },
+    {
       "tag": "ascii-overlay",
+      "count": 1
+    },
+    {
+      "tag": "background-fill-button",
       "count": 1
     },
     {
@@ -497,6 +541,10 @@
     },
     {
       "tag": "chevron",
+      "count": 1
+    },
+    {
+      "tag": "circle-fill-button",
       "count": 1
     },
     {
@@ -544,11 +592,23 @@
       "count": 1
     },
     {
+      "tag": "cursor",
+      "count": 1
+    },
+    {
       "tag": "curtain-slider",
       "count": 1
     },
     {
+      "tag": "curve-fill-button",
+      "count": 1
+    },
+    {
       "tag": "delta",
+      "count": 1
+    },
+    {
+      "tag": "detail-drawer",
       "count": 1
     },
     {
@@ -560,15 +620,19 @@
       "count": 1
     },
     {
+      "tag": "dither-cursor-trail",
+      "count": 1
+    },
+    {
+      "tag": "dithering",
+      "count": 1
+    },
+    {
       "tag": "dot",
       "count": 1
     },
     {
       "tag": "drag-drop",
-      "count": 1
-    },
-    {
-      "tag": "dropdown",
       "count": 1
     },
     {
@@ -608,6 +672,10 @@
       "count": 1
     },
     {
+      "tag": "fullscreen",
+      "count": 1
+    },
+    {
       "tag": "gallery",
       "count": 1
     },
@@ -617,6 +685,18 @@
     },
     {
       "tag": "goals",
+      "count": 1
+    },
+    {
+      "tag": "gooey",
+      "count": 1
+    },
+    {
+      "tag": "gooey-filter-chips",
+      "count": 1
+    },
+    {
+      "tag": "gooey-hover-reveal",
       "count": 1
     },
     {
@@ -636,11 +716,11 @@
       "count": 1
     },
     {
-      "tag": "hover",
+      "tag": "hr",
       "count": 1
     },
     {
-      "tag": "hr",
+      "tag": "icon-button",
       "count": 1
     },
     {
@@ -648,7 +728,19 @@
       "count": 1
     },
     {
+      "tag": "image-dissolve-scroll",
+      "count": 1
+    },
+    {
       "tag": "image-fly-in",
+      "count": 1
+    },
+    {
+      "tag": "image-glitch",
+      "count": 1
+    },
+    {
+      "tag": "images",
       "count": 1
     },
     {
@@ -657,6 +749,10 @@
     },
     {
       "tag": "inline",
+      "count": 1
+    },
+    {
+      "tag": "input",
       "count": 1
     },
     {
@@ -688,6 +784,10 @@
       "count": 1
     },
     {
+      "tag": "magnetic-button",
+      "count": 1
+    },
+    {
       "tag": "mark",
       "count": 1
     },
@@ -700,7 +800,35 @@
       "count": 1
     },
     {
+      "tag": "mesh-gradient",
+      "count": 1
+    },
+    {
       "tag": "metrics",
+      "count": 1
+    },
+    {
+      "tag": "morphing",
+      "count": 1
+    },
+    {
+      "tag": "morphing-accordion",
+      "count": 1
+    },
+    {
+      "tag": "morphing-dialog",
+      "count": 1
+    },
+    {
+      "tag": "morphing-island",
+      "count": 1
+    },
+    {
+      "tag": "morphing-select",
+      "count": 1
+    },
+    {
+      "tag": "morphing-tabs",
       "count": 1
     },
     {
@@ -717,6 +845,10 @@
     },
     {
       "tag": "multi-select",
+      "count": 1
+    },
+    {
+      "tag": "multi-step-form",
       "count": 1
     },
     {
@@ -797,6 +929,10 @@
     },
     {
       "tag": "radial",
+      "count": 1
+    },
+    {
+      "tag": "rainbow-button",
       "count": 1
     },
     {
@@ -920,6 +1056,10 @@
       "count": 1
     },
     {
+      "tag": "text-underline",
+      "count": 1
+    },
+    {
       "tag": "timeline",
       "count": 1
     },
@@ -991,6 +1131,4138 @@
   "items": [
     {
       "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "background-fill-button",
+      "title": "Background Fill Button",
+      "description": "A rounded background rises from below as the button gently compresses",
+      "category": "animations",
+      "family": "buttons",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "background-fill-button",
+        "hover"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "7b6752405953",
+      "files": [
+        {
+          "path": "application/animations/expanded/buttons/background-fill-button.tsx",
+          "target": "components/application/animations/expanded/buttons/background-fill-button.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/buttons/button-shared.tsx",
+          "target": "components/application/animations/expanded/buttons/button-shared.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "circle-fill-button",
+      "title": "Circle Fill Button",
+      "description": "A circle grows from the cursor entry point to fill every corner in the same duration",
+      "category": "animations",
+      "family": "buttons",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "circle-fill-button",
+        "hover"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "055dab46c551",
+      "files": [
+        {
+          "path": "application/animations/expanded/buttons/button-shared.tsx",
+          "target": "components/application/animations/expanded/buttons/button-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/buttons/circle-fill-button.tsx",
+          "target": "components/application/animations/expanded/buttons/circle-fill-button.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "curve-fill-button",
+      "title": "Curve Fill Button",
+      "description": "A curved wave enters from the nearest pointer edge and rolls back out",
+      "category": "animations",
+      "family": "buttons",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "curve-fill-button",
+        "hover"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "2c9032a685fa",
+      "files": [
+        {
+          "path": "application/animations/expanded/buttons/button-shared.tsx",
+          "target": "components/application/animations/expanded/buttons/button-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/buttons/curve-fill-button.tsx",
+          "target": "components/application/animations/expanded/buttons/curve-fill-button.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "animated-icon-button",
+      "title": "Animated Icon Button",
+      "description": "A circular icon background fills the button while icons cycle diagonally",
+      "category": "animations",
+      "family": "buttons",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "icon-button",
+        "hover"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "55690a101507",
+      "files": [
+        {
+          "path": "application/animations/expanded/buttons/animated-icon-button.tsx",
+          "target": "components/application/animations/expanded/buttons/animated-icon-button.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/buttons/button-shared.tsx",
+          "target": "components/application/animations/expanded/buttons/button-shared.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "magnetic-button",
+      "title": "Magnetic Button",
+      "description": "The button and its label follow the pointer independently before springing home",
+      "category": "animations",
+      "family": "buttons",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "magnetic-button",
+        "hover"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "8c8f9b579d4e",
+      "files": [
+        {
+          "path": "application/animations/expanded/buttons/button-shared.tsx",
+          "target": "components/application/animations/expanded/buttons/button-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/buttons/magnetic-button.tsx",
+          "target": "components/application/animations/expanded/buttons/magnetic-button.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "rainbow-button",
+      "title": "Rainbow Button",
+      "description": "A dark button with a flowing rainbow border and a glow that expands on hover",
+      "category": "animations",
+      "family": "buttons",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "rainbow-button",
+        "hover"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "1aa011ab6864",
+      "files": [
+        {
+          "path": "application/animations/expanded/buttons/button-shared.tsx",
+          "target": "components/application/animations/expanded/buttons/button-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/buttons/rainbow-button.tsx",
+          "target": "components/application/animations/expanded/buttons/rainbow-button.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "text-underline",
+      "title": "Text Underline",
+      "description": "An underline draws from the left and erases toward the right on hover or focus",
+      "category": "animations",
+      "family": "buttons",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "text-underline",
+        "hover"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "e660cbd62457",
+      "files": [
+        {
+          "path": "application/animations/expanded/buttons/button-shared.tsx",
+          "target": "components/application/animations/expanded/buttons/button-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/buttons/text-underline.tsx",
+          "target": "components/application/animations/expanded/buttons/text-underline.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "mesh-gradient",
+      "title": "Mesh Gradient",
+      "description": "Moving blended color fields with pointer displacement and a static fallback",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "shader",
+        "mesh-gradient",
+        "hover"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "08e999abb76b",
+      "files": [
+        {
+          "path": "application/animations/expanded/shaders/field-shaders.ts",
+          "target": "components/application/animations/expanded/shaders/field-shaders.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/shaders/mesh-gradient.tsx",
+          "target": "components/application/animations/expanded/shaders/mesh-gradient.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/shaders/shader-surface.tsx",
+          "target": "components/application/animations/expanded/shaders/shader-surface.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "dithering",
+      "title": "Dithering",
+      "description": "Ordered dot rendering with a smooth lens that restores original image colors",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "shader",
+        "dithering",
+        "hover"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "fb915977e33c",
+      "files": [
+        {
+          "path": "application/animations/expanded/shaders/dithering.tsx",
+          "target": "components/application/animations/expanded/shaders/dithering.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/shaders/field-shaders.ts",
+          "target": "components/application/animations/expanded/shaders/field-shaders.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/shaders/shader-surface.tsx",
+          "target": "components/application/animations/expanded/shaders/shader-surface.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/hero_profile_02.jpg",
+          "target": "public/assets/annnimate/hero_profile_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "image-glitch",
+      "title": "Image Glitch",
+      "description": "Analog scan lines, separated color channels and digital block tearing on hover",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "shader",
+        "image-glitch",
+        "hover"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "cc4f4507669d",
+      "files": [
+        {
+          "path": "application/animations/expanded/shaders/field-shaders.ts",
+          "target": "components/application/animations/expanded/shaders/field-shaders.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/shaders/image-glitch.tsx",
+          "target": "components/application/animations/expanded/shaders/image-glitch.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/shaders/shader-surface.tsx",
+          "target": "components/application/animations/expanded/shaders/shader-surface.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "target": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "gooey-hover-reveal",
+      "title": "Gooey Hover Reveal",
+      "description": "A decaying liquid mask reveals content under the moving pointer",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "shader",
+        "gooey-hover-reveal",
+        "hover"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "0d88af41a853",
+      "files": [
+        {
+          "path": "application/animations/expanded/shaders/field-shaders.ts",
+          "target": "components/application/animations/expanded/shaders/field-shaders.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/shaders/gooey-hover-reveal.tsx",
+          "target": "components/application/animations/expanded/shaders/gooey-hover-reveal.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/shaders/shader-surface.tsx",
+          "target": "components/application/animations/expanded/shaders/shader-surface.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/hero_run_02.jpg",
+          "target": "public/assets/annnimate/hero_run_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "dither-cursor-trail",
+      "title": "Dither Cursor Trail",
+      "description": "Pointer marks break into ordered dots as their trail fades away",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "shader",
+        "dither-cursor-trail",
+        "hover"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "1749dc213594",
+      "files": [
+        {
+          "path": "application/animations/expanded/shaders/dither-cursor-trail.tsx",
+          "target": "components/application/animations/expanded/shaders/dither-cursor-trail.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/shaders/field-shaders.ts",
+          "target": "components/application/animations/expanded/shaders/field-shaders.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/shaders/shader-surface.tsx",
+          "target": "components/application/animations/expanded/shaders/shader-surface.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "image-dissolve-scroll",
+      "title": "Image Dissolve Scroll",
+      "description": "Scroll dissolves an image through irregular noise boundaries and a glowing edge",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "shader",
+        "image-dissolve-scroll",
+        "scroll"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "83bdda636c5f",
+      "files": [
+        {
+          "path": "application/animations/expanded/shaders/field-shaders.ts",
+          "target": "components/application/animations/expanded/shaders/field-shaders.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/shaders/image-dissolve-scroll.tsx",
+          "target": "components/application/animations/expanded/shaders/image-dissolve-scroll.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/shaders/shader-surface.tsx",
+          "target": "components/application/animations/expanded/shaders/shader-surface.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/action_leap_01.jpg",
+          "target": "public/assets/annnimate/action_leap_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "grid-chapters",
+      "title": "Grid Chapters",
+      "description": "Pinned chapter headings exchange masked lines while image columns pass independently through a visible grid",
+      "category": "animations",
+      "family": "layout",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "scroll"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "b0dca11a4be5",
+      "files": [
+        {
+          "path": "application/animations/expanded/sections/grid-chapters.tsx",
+          "target": "components/application/animations/expanded/sections/grid-chapters.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/sections/section-math.ts",
+          "target": "components/application/animations/expanded/sections/section-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/sections/section-shared.tsx",
+          "target": "components/application/animations/expanded/sections/section-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "target": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_ball_05.jpg",
+          "target": "public/assets/annnimate/product_ball_05.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_football-boot_06.jpg",
+          "target": "public/assets/annnimate/product_football-boot_06.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_shoe_01.jpg",
+          "target": "public/assets/annnimate/product_shoe_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_shoe_06.jpg",
+          "target": "public/assets/annnimate/product_shoe_06.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/texture_fabric-macro_01.jpg",
+          "target": "public/assets/annnimate/texture_fabric-macro_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "network-globe",
+      "title": "Network Globe",
+      "description": "A draggable dotted sphere rotates toward selected locations and draws raised routes between them",
+      "category": "animations",
+      "family": "layout",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "drag",
+        "click",
+        "ambient"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "hash": "f5a28d486709",
+      "files": [
+        {
+          "path": "application/animations/expanded/sections/globe-geometry.ts",
+          "target": "components/application/animations/expanded/sections/globe-geometry.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/sections/network-globe.tsx",
+          "target": "components/application/animations/expanded/sections/network-globe.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/sections/section-math.ts",
+          "target": "components/application/animations/expanded/sections/section-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/sections/section-shared.tsx",
+          "target": "components/application/animations/expanded/sections/section-shared.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "dock-footer",
+      "title": "Dock Footer",
+      "description": "Scroll uncovers a staggered footer and a translucent navigation dock that expands at the page bottom",
+      "category": "animations",
+      "family": "layout",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "scroll",
+        "click"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "hash": "173e8816afe7",
+      "files": [
+        {
+          "path": "application/animations/expanded/sections/dock-footer.tsx",
+          "target": "components/application/animations/expanded/sections/dock-footer.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/sections/section-math.ts",
+          "target": "components/application/animations/expanded/sections/section-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/sections/section-shared.tsx",
+          "target": "components/application/animations/expanded/sections/section-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/texture_fabric-macro_01.jpg",
+          "target": "public/assets/annnimate/texture_fabric-macro_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "flip-filter",
+      "title": "Flip Filter",
+      "description": "Category and grid/list changes preserve product cards through measured, interruptible FLIP layout transitions",
+      "category": "animations",
+      "family": "layout",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "click"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "hash": "ffd63eeb9ec5",
+      "files": [
+        {
+          "path": "application/animations/expanded/sections/flip-filter.tsx",
+          "target": "components/application/animations/expanded/sections/flip-filter.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/sections/section-math.ts",
+          "target": "components/application/animations/expanded/sections/section-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/sections/section-shared.tsx",
+          "target": "components/application/animations/expanded/sections/section-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/product_ball_02.jpg",
+          "target": "public/assets/annnimate/product_ball_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_ball_05.jpg",
+          "target": "public/assets/annnimate/product_ball_05.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_football-boot_06.jpg",
+          "target": "public/assets/annnimate/product_football-boot_06.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_shoe_01.jpg",
+          "target": "public/assets/annnimate/product_shoe_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_shoe_06.jpg",
+          "target": "public/assets/annnimate/product_shoe_06.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_tennis-racket_02.jpg",
+          "target": "public/assets/annnimate/product_tennis-racket_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_tennis-racket_05.jpg",
+          "target": "public/assets/annnimate/product_tennis-racket_05.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/silhouette_eyewear-silhouette_01.jpg",
+          "target": "public/assets/annnimate/silhouette_eyewear-silhouette_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "capsule-hero",
+      "title": "Capsule Hero",
+      "description": "Large letterforms part around a rounded media aperture that expands on activation and reverses on close",
+      "category": "animations",
+      "family": "layout",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "click"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "hash": "d1e15aae9582",
+      "files": [
+        {
+          "path": "application/animations/expanded/sections/capsule-hero.tsx",
+          "target": "components/application/animations/expanded/sections/capsule-hero.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/sections/section-math.ts",
+          "target": "components/application/animations/expanded/sections/section-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/sections/section-shared.tsx",
+          "target": "components/application/animations/expanded/sections/section-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/hero_run_02.jpg",
+          "target": "public/assets/annnimate/hero_run_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "wipe-slider",
+      "title": "Wipe Slider",
+      "description": "Directional background wipes coordinate masked slide text and a rolling percentage index",
+      "category": "animations",
+      "family": "layout",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "click"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "hash": "b9a0b2ff5b93",
+      "files": [
+        {
+          "path": "application/animations/expanded/sections/section-math.ts",
+          "target": "components/application/animations/expanded/sections/section-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/sections/section-shared.tsx",
+          "target": "components/application/animations/expanded/sections/section-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/sections/wipe-slider.tsx",
+          "target": "components/application/animations/expanded/sections/wipe-slider.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "target": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/action_leap_01.jpg",
+          "target": "public/assets/annnimate/action_leap_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/hero_profile_03.jpg",
+          "target": "public/assets/annnimate/hero_profile_03.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/hero_run_02.jpg",
+          "target": "public/assets/annnimate/hero_run_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "step-wipe",
+      "title": "Step Wipe",
+      "description": "A pinned product sequence synchronizes separate background, foreground, caption and numbering wipes with scroll",
+      "category": "animations",
+      "family": "layout",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "scroll"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "5bdbc19470c9",
+      "files": [
+        {
+          "path": "application/animations/expanded/sections/section-math.ts",
+          "target": "components/application/animations/expanded/sections/section-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/sections/section-shared.tsx",
+          "target": "components/application/animations/expanded/sections/section-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/sections/step-wipe.tsx",
+          "target": "components/application/animations/expanded/sections/step-wipe.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "target": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/action_leap_01.jpg",
+          "target": "public/assets/annnimate/action_leap_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/hero_run_02.jpg",
+          "target": "public/assets/annnimate/hero_run_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_football-boot_06.jpg",
+          "target": "public/assets/annnimate/product_football-boot_06.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_shoe_06.jpg",
+          "target": "public/assets/annnimate/product_shoe_06.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_tennis-racket_02.jpg",
+          "target": "public/assets/annnimate/product_tennis-racket_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "gradient-footer",
+      "title": "Gradient Footer",
+      "description": "A scroll-revealed footer combines a bottom glow, width-filling brand typography and animated link underlines",
+      "category": "animations",
+      "family": "layout",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "scroll",
+        "hover"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "62768b7d2b09",
+      "files": [
+        {
+          "path": "application/animations/expanded/sections/gradient-footer.tsx",
+          "target": "components/application/animations/expanded/sections/gradient-footer.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/sections/section-math.ts",
+          "target": "components/application/animations/expanded/sections/section-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/sections/section-shared.tsx",
+          "target": "components/application/animations/expanded/sections/section-shared.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "testimonial-globe",
+      "title": "Testimonial Globe",
+      "description": "Portraits rotate on a draggable sphere beneath translucent quotation cards with a lighter mobile presentation",
+      "category": "animations",
+      "family": "layout",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "drag",
+        "ambient",
+        "click"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "hash": "2b9c377be7c2",
+      "files": [
+        {
+          "path": "application/animations/expanded/sections/section-math.ts",
+          "target": "components/application/animations/expanded/sections/section-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/sections/section-shared.tsx",
+          "target": "components/application/animations/expanded/sections/section-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/sections/testimonial-globe.tsx",
+          "target": "components/application/animations/expanded/sections/testimonial-globe.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/roster_profile_01.jpg",
+          "target": "public/assets/annnimate/roster_profile_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/roster_profile_06.jpg",
+          "target": "public/assets/annnimate/roster_profile_06.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/roster_profile_07.jpg",
+          "target": "public/assets/annnimate/roster_profile_07.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/roster_profile_09.jpg",
+          "target": "public/assets/annnimate/roster_profile_09.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "drift-gallery",
+      "title": "Drift Gallery",
+      "description": "Product cards separate on grab and travel with release inertia that controls grain and color intensity",
+      "category": "animations",
+      "family": "layout",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "drag"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "c585d448365e",
+      "files": [
+        {
+          "path": "application/animations/expanded/sections/drift-gallery.tsx",
+          "target": "components/application/animations/expanded/sections/drift-gallery.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/sections/section-math.ts",
+          "target": "components/application/animations/expanded/sections/section-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/sections/section-shared.tsx",
+          "target": "components/application/animations/expanded/sections/section-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/product_ball_02.jpg",
+          "target": "public/assets/annnimate/product_ball_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_ball_05.jpg",
+          "target": "public/assets/annnimate/product_ball_05.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_football-boot_06.jpg",
+          "target": "public/assets/annnimate/product_football-boot_06.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_shoe_01.jpg",
+          "target": "public/assets/annnimate/product_shoe_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_shoe_06.jpg",
+          "target": "public/assets/annnimate/product_shoe_06.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_tennis-racket_02.jpg",
+          "target": "public/assets/annnimate/product_tennis-racket_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_tennis-racket_05.jpg",
+          "target": "public/assets/annnimate/product_tennis-racket_05.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/silhouette_eyewear-silhouette_01.jpg",
+          "target": "public/assets/annnimate/silhouette_eyewear-silhouette_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "morphing-pill-menu",
+      "title": "Morphing Pill Menu",
+      "description": "A compact pill expands into navigation with staggered and rolling links",
+      "category": "animations",
+      "family": "navigation",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "menu",
+        "click",
+        "morphing"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "fdde761801eb",
+      "files": [
+        {
+          "path": "application/animations/expanded/menus/menu-shared.tsx",
+          "target": "components/application/animations/expanded/menus/menu-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/menus/morphing-pill-menu.tsx",
+          "target": "components/application/animations/expanded/menus/morphing-pill-menu.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "target": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_shoe_01.jpg",
+          "target": "public/assets/annnimate/product_shoe_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "gooey-menu",
+      "title": "Gooey Menu",
+      "description": "Floating actions separate through liquid connections in arc, radial, row or grid arrangements",
+      "category": "animations",
+      "family": "navigation",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "menu",
+        "click",
+        "gooey"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "e4eaa25087f2",
+      "files": [
+        {
+          "path": "application/animations/expanded/menus/gooey-menu.tsx",
+          "target": "components/application/animations/expanded/menus/gooey-menu.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/menus/menu-shared.tsx",
+          "target": "components/application/animations/expanded/menus/menu-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/action_leap_01.jpg",
+          "target": "public/assets/annnimate/action_leap_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/hero_profile_02.jpg",
+          "target": "public/assets/annnimate/hero_profile_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/hero_run_02.jpg",
+          "target": "public/assets/annnimate/hero_run_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "mega-menu",
+      "title": "Mega Menu",
+      "description": "A shared dropdown resizes between navigation groups with mobile accordion navigation",
+      "category": "animations",
+      "family": "navigation",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "menu",
+        "hover",
+        "dropdown"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "582401528d44",
+      "files": [
+        {
+          "path": "application/animations/expanded/menus/mega-menu.tsx",
+          "target": "components/application/animations/expanded/menus/mega-menu.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/menus/menu-shared.tsx",
+          "target": "components/application/animations/expanded/menus/menu-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/hero_run_02.jpg",
+          "target": "public/assets/annnimate/hero_run_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_half-zip_01.jpg",
+          "target": "public/assets/annnimate/product_half-zip_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_shoe_01.jpg",
+          "target": "public/assets/annnimate/product_shoe_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_tennis-racket_02.jpg",
+          "target": "public/assets/annnimate/product_tennis-racket_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "fullscreen-slide-menu",
+      "title": "Fullscreen Slide Menu",
+      "description": "Navigation turns the page away and reveals a full-screen menu with changing imagery",
+      "category": "animations",
+      "family": "navigation",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "menu",
+        "click",
+        "fullscreen"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "hash": "c434e68eff7d",
+      "files": [
+        {
+          "path": "application/animations/expanded/controls/control-shared.tsx",
+          "target": "components/application/animations/expanded/controls/control-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/controls/control-styles.ts",
+          "target": "components/application/animations/expanded/controls/control-styles.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/menus/fullscreen-slide-menu.tsx",
+          "target": "components/application/animations/expanded/menus/fullscreen-slide-menu.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/menus/menu-shared.tsx",
+          "target": "components/application/animations/expanded/menus/menu-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "target": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/hero_run_02.jpg",
+          "target": "public/assets/annnimate/hero_run_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_tennis-racket_02.jpg",
+          "target": "public/assets/annnimate/product_tennis-racket_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "scatter-cluster",
+      "title": "Scatter Cluster",
+      "description": "A central overlapping pile of image and statistic cards separates into a surrounding arrangement with scroll progress, revealing the headline beneath",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "scroll"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "79f64705d311",
+      "files": [
+        {
+          "path": "application/animations/expanded/scroll/scatter-cluster.tsx",
+          "target": "components/application/animations/expanded/scroll/scatter-cluster.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/scroll/scroll-math.ts",
+          "target": "components/application/animations/expanded/scroll/scroll-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/scroll/scroll-shared.tsx",
+          "target": "components/application/animations/expanded/scroll/scroll-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/hero_profile_02.jpg",
+          "target": "public/assets/annnimate/hero_profile_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/hero_run_02.jpg",
+          "target": "public/assets/annnimate/hero_run_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_ball_05.jpg",
+          "target": "public/assets/annnimate/product_ball_05.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_tennis-net_01.jpg",
+          "target": "public/assets/annnimate/product_tennis-net_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/scatter_ball-rackets_01.jpg",
+          "target": "public/assets/annnimate/scatter_ball-rackets_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "multi-flip",
+      "title": "Multi Flip",
+      "description": "An overlapping irregular card pile transitions into an ordered grid with scroll, preserving each card while changing its position and rotation",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "scroll"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "a9fb4c8fb6ef",
+      "files": [
+        {
+          "path": "application/animations/expanded/scroll/multi-flip.tsx",
+          "target": "components/application/animations/expanded/scroll/multi-flip.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/scroll/scroll-math.ts",
+          "target": "components/application/animations/expanded/scroll/scroll-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/scroll/scroll-shared.tsx",
+          "target": "components/application/animations/expanded/scroll/scroll-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "target": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/action_leap_01.jpg",
+          "target": "public/assets/annnimate/action_leap_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/hero_profile_02.jpg",
+          "target": "public/assets/annnimate/hero_profile_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/hero_run_02.jpg",
+          "target": "public/assets/annnimate/hero_run_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "velocity-clip",
+      "title": "Velocity Clip",
+      "description": "The visible media region contracts and releases according to scrolling speed, with stronger clipping during faster movement",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "scroll"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "dddd8ad04a24",
+      "files": [
+        {
+          "path": "application/animations/expanded/scroll/scroll-math.ts",
+          "target": "components/application/animations/expanded/scroll/scroll-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/scroll/scroll-shared.tsx",
+          "target": "components/application/animations/expanded/scroll/scroll-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/scroll/velocity-clip.tsx",
+          "target": "components/application/animations/expanded/scroll/velocity-clip.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/hero_run_02.jpg",
+          "target": "public/assets/annnimate/hero_run_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "svg-draw-path",
+      "title": "SVG Draw Path",
+      "description": "Scroll progress reveals an SVG stroke from its beginning to its end, following the supplied path geometry",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "scroll"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "ffa193a9733f",
+      "files": [
+        {
+          "path": "application/animations/expanded/scroll/scroll-math.ts",
+          "target": "components/application/animations/expanded/scroll/scroll-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/scroll/scroll-shared.tsx",
+          "target": "components/application/animations/expanded/scroll/scroll-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/scroll/svg-draw-path.tsx",
+          "target": "components/application/animations/expanded/scroll/svg-draw-path.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "progress",
+      "title": "Progress",
+      "description": "Page progress is represented by a ring, linear fill, or numeric percentage that follows the document's scroll position",
+      "category": "animations",
+      "family": "data",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "scroll"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "19709565cd7c",
+      "files": [
+        {
+          "path": "application/animations/expanded/scroll/progress.tsx",
+          "target": "components/application/animations/expanded/scroll/progress.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/scroll/scroll-math.ts",
+          "target": "components/application/animations/expanded/scroll/scroll-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/scroll/scroll-shared.tsx",
+          "target": "components/application/animations/expanded/scroll/scroll-shared.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "parallax",
+      "title": "Parallax",
+      "description": "Multiple elements respond to scroll with different displacement rates, creating relative depth between foreground and background layers",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "scroll"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "6a5d45253c61",
+      "files": [
+        {
+          "path": "application/animations/expanded/scroll/parallax.tsx",
+          "target": "components/application/animations/expanded/scroll/parallax.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/scroll/scroll-math.ts",
+          "target": "components/application/animations/expanded/scroll/scroll-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/scroll/scroll-shared.tsx",
+          "target": "components/application/animations/expanded/scroll/scroll-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "target": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/hero_run_02.jpg",
+          "target": "public/assets/annnimate/hero_run_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "mask-reveal",
+      "title": "Mask Reveal",
+      "description": "Scroll opens or closes a configurable shape mask over content, including circular, rectangular, organic, or supplied outlines",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "scroll"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "2813844d23b7",
+      "files": [
+        {
+          "path": "application/animations/expanded/scroll/mask-reveal.tsx",
+          "target": "components/application/animations/expanded/scroll/mask-reveal.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/scroll/scroll-math.ts",
+          "target": "components/application/animations/expanded/scroll/scroll-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/scroll/scroll-shared.tsx",
+          "target": "components/application/animations/expanded/scroll/scroll-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/hero_run_02.jpg",
+          "target": "public/assets/annnimate/hero_run_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "hide-header",
+      "title": "Hide Header",
+      "description": "The navigation hides during downward movement and returns when direction reverses, with thresholds and zones that keep it visible",
+      "category": "animations",
+      "family": "navigation",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "scroll"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "b7c767a2fd7e",
+      "files": [
+        {
+          "path": "application/animations/expanded/scroll/hide-header.tsx",
+          "target": "components/application/animations/expanded/scroll/hide-header.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/scroll/scroll-math.ts",
+          "target": "components/application/animations/expanded/scroll/scroll-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/scroll/scroll-shared.tsx",
+          "target": "components/application/animations/expanded/scroll/scroll-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/hero_run_02.jpg",
+          "target": "public/assets/annnimate/hero_run_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "flip-zone",
+      "title": "Flip Zone",
+      "description": "One media element moves and resizes between successive layout frames as scroll advances, maintaining a continuous visual identity",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "scroll"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "ace565de8821",
+      "files": [
+        {
+          "path": "application/animations/expanded/scroll/flip-zone.tsx",
+          "target": "components/application/animations/expanded/scroll/flip-zone.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/scroll/scroll-math.ts",
+          "target": "components/application/animations/expanded/scroll/scroll-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/scroll/scroll-shared.tsx",
+          "target": "components/application/animations/expanded/scroll/scroll-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/hero_run_02.jpg",
+          "target": "public/assets/annnimate/hero_run_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "element-reveal",
+      "title": "Element Reveal",
+      "description": "Elements enter using selectable fade, translation, scale, clipping, blur, or rotation treatments, with optional group staggering",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "scroll"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "02c29a704bef",
+      "files": [
+        {
+          "path": "application/animations/expanded/scroll/element-reveal.tsx",
+          "target": "components/application/animations/expanded/scroll/element-reveal.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/scroll/scroll-math.ts",
+          "target": "components/application/animations/expanded/scroll/scroll-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/scroll/scroll-shared.tsx",
+          "target": "components/application/animations/expanded/scroll/scroll-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "target": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/action_leap_01.jpg",
+          "target": "public/assets/annnimate/action_leap_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/hero_run_02.jpg",
+          "target": "public/assets/annnimate/hero_run_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "counter",
+      "title": "Counter",
+      "description": "Numbers animate to target values on entry, using either smooth counting or independently rolling digit columns with optional units",
+      "category": "animations",
+      "family": "data",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "scroll"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "75f060f9dad2",
+      "files": [
+        {
+          "path": "application/animations/expanded/scroll/counter.tsx",
+          "target": "components/application/animations/expanded/scroll/counter.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/scroll/scroll-math.ts",
+          "target": "components/application/animations/expanded/scroll/scroll-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/scroll/scroll-shared.tsx",
+          "target": "components/application/animations/expanded/scroll/scroll-shared.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "background-color",
+      "title": "Background Color",
+      "description": "Foreground and background colors interpolate between authored scroll zones instead of switching abruptly at section boundaries",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "scroll"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "282fca95886b",
+      "files": [
+        {
+          "path": "application/animations/expanded/scroll/background-color.tsx",
+          "target": "components/application/animations/expanded/scroll/background-color.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/scroll/scroll-math.ts",
+          "target": "components/application/animations/expanded/scroll/scroll-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/scroll/scroll-shared.tsx",
+          "target": "components/application/animations/expanded/scroll/scroll-shared.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "animated-grid",
+      "title": "Animated Grid",
+      "description": "Image columns advance at different rates during scrolling, producing a multi-column parallax composition with selectable motion variations",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "scroll"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "28021b0fcec7",
+      "files": [
+        {
+          "path": "application/animations/expanded/scroll/animated-grid.tsx",
+          "target": "components/application/animations/expanded/scroll/animated-grid.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/scroll/scroll-math.ts",
+          "target": "components/application/animations/expanded/scroll/scroll-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/scroll/scroll-shared.tsx",
+          "target": "components/application/animations/expanded/scroll/scroll-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "target": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/action_leap_01.jpg",
+          "target": "public/assets/annnimate/action_leap_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/hero_profile_02.jpg",
+          "target": "public/assets/annnimate/hero_profile_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/hero_profile_03.jpg",
+          "target": "public/assets/annnimate/hero_profile_03.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/hero_run_02.jpg",
+          "target": "public/assets/annnimate/hero_run_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/running-hero-female-1.avif",
+          "target": "public/assets/annnimate/running-hero-female-1.avif",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "random-rotate",
+      "title": "Random Rotate",
+      "description": "Items appear with independently varied rotational offsets, giving their final arrangement an irregular placed-by-hand character",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "scroll"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "b31b05c4d0bc",
+      "files": [
+        {
+          "path": "application/animations/expanded/scroll/random-rotate.tsx",
+          "target": "components/application/animations/expanded/scroll/random-rotate.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/scroll/scroll-math.ts",
+          "target": "components/application/animations/expanded/scroll/scroll-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/scroll/scroll-shared.tsx",
+          "target": "components/application/animations/expanded/scroll/scroll-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "target": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/action_leap_01.jpg",
+          "target": "public/assets/annnimate/action_leap_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/hero_run_02.jpg",
+          "target": "public/assets/annnimate/hero_run_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "photo-stack-gallery",
+      "title": "Photo Stack Gallery",
+      "description": "Clicking a compact image stack opens a thumbnail strip and large feature image; choosing another thumbnail exchanges their positions.",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "click"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "hash": "038412ec6c56",
+      "files": [
+        {
+          "path": "application/animations/expanded/galleries/gallery-shared.tsx",
+          "target": "components/application/animations/expanded/galleries/gallery-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/galleries/photo-stack-gallery.tsx",
+          "target": "components/application/animations/expanded/galleries/photo-stack-gallery.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/product_ball_05.jpg",
+          "target": "public/assets/annnimate/product_ball_05.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_football-boot_06.jpg",
+          "target": "public/assets/annnimate/product_football-boot_06.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_shoe_01.jpg",
+          "target": "public/assets/annnimate/product_shoe_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_tennis-racket_02.jpg",
+          "target": "public/assets/annnimate/product_tennis-racket_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/scatter_ball-rackets_01.jpg",
+          "target": "public/assets/annnimate/scatter_ball-rackets_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/silhouette_eyewear-silhouette_01.jpg",
+          "target": "public/assets/annnimate/silhouette_eyewear-silhouette_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "spiral-gallery",
+      "title": "Spiral Gallery",
+      "description": "Image planes orbit through a vertical helix; dragging changes rotation velocity, release preserves momentum, and the composition continues drifting.",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "drag",
+        "ambient"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "e55a14f692be",
+      "files": [
+        {
+          "path": "application/animations/expanded/galleries/gallery-shared.tsx",
+          "target": "components/application/animations/expanded/galleries/gallery-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/galleries/spiral-gallery.tsx",
+          "target": "components/application/animations/expanded/galleries/spiral-gallery.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "target": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/action_leap_01.jpg",
+          "target": "public/assets/annnimate/action_leap_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/hero_profile_03.jpg",
+          "target": "public/assets/annnimate/hero_profile_03.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/hero_run_02.jpg",
+          "target": "public/assets/annnimate/hero_run_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_ball_02.jpg",
+          "target": "public/assets/annnimate/product_ball_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_football-boot_01.jpg",
+          "target": "public/assets/annnimate/product_football-boot_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_tennis-net_01.jpg",
+          "target": "public/assets/annnimate/product_tennis-net_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/texture_fabric-macro_01.jpg",
+          "target": "public/assets/annnimate/texture_fabric-macro_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "lens-rail",
+      "title": "Lens Rail",
+      "description": "A draggable horizontal image rail enlarges cards near its center and compresses distant cards; arrow controls move the focal position.",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "drag",
+        "click"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "4286707e2f0e",
+      "files": [
+        {
+          "path": "application/animations/expanded/galleries/gallery-shared.tsx",
+          "target": "components/application/animations/expanded/galleries/gallery-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/galleries/lens-rail.tsx",
+          "target": "components/application/animations/expanded/galleries/lens-rail.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/product_ball_05.jpg",
+          "target": "public/assets/annnimate/product_ball_05.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_football-boot_06.jpg",
+          "target": "public/assets/annnimate/product_football-boot_06.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_shoe_06.jpg",
+          "target": "public/assets/annnimate/product_shoe_06.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_tennis-racket_02.jpg",
+          "target": "public/assets/annnimate/product_tennis-racket_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/scatter_ball-rackets_01.jpg",
+          "target": "public/assets/annnimate/scatter_ball-rackets_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/silhouette_eyewear-silhouette_01.jpg",
+          "target": "public/assets/annnimate/silhouette_eyewear-silhouette_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "expanding-strip",
+      "title": "Expanding Strip",
+      "description": "Hovering a narrow image column widens that column, compresses its siblings, and reveals its caption inside the expanded area.",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "hover"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "a6ebcd4e7e80",
+      "files": [
+        {
+          "path": "application/animations/expanded/galleries/expanding-strip.tsx",
+          "target": "components/application/animations/expanded/galleries/expanding-strip.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/galleries/gallery-shared.tsx",
+          "target": "components/application/animations/expanded/galleries/gallery-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "target": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/action_leap_01.jpg",
+          "target": "public/assets/annnimate/action_leap_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/hero_run_02.jpg",
+          "target": "public/assets/annnimate/hero_run_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_football-boot_01.jpg",
+          "target": "public/assets/annnimate/product_football-boot_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_tennis-net_01.jpg",
+          "target": "public/assets/annnimate/product_tennis-net_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "index-wipe",
+      "title": "Index Wipe",
+      "description": "Hovering indexed chapter names changes the full background through a directional wipe and rolls the numeric index to the active item.",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "hover"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "hash": "2da8e08b114d",
+      "files": [
+        {
+          "path": "application/animations/expanded/galleries/gallery-shared.tsx",
+          "target": "components/application/animations/expanded/galleries/gallery-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/galleries/index-wipe.tsx",
+          "target": "components/application/animations/expanded/galleries/index-wipe.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "target": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/action_leap_01.jpg",
+          "target": "public/assets/annnimate/action_leap_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/hero_profile_03.jpg",
+          "target": "public/assets/annnimate/hero_profile_03.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/hero_run_02.jpg",
+          "target": "public/assets/annnimate/hero_run_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_tennis-net_01.jpg",
+          "target": "public/assets/annnimate/product_tennis-net_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/texture_fabric-macro_01.jpg",
+          "target": "public/assets/annnimate/texture_fabric-macro_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "card-fan",
+      "title": "Card Fan",
+      "description": "Hovering a stacked group spreads images into an arc; targeting one card raises it and widens neighboring spacing before the stack closes again.",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "hover"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "hash": "a650c1b4eb0f",
+      "files": [
+        {
+          "path": "application/animations/expanded/galleries/card-fan.tsx",
+          "target": "components/application/animations/expanded/galleries/card-fan.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/galleries/gallery-shared.tsx",
+          "target": "components/application/animations/expanded/galleries/gallery-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "target": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_ball_02.jpg",
+          "target": "public/assets/annnimate/product_ball_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_tennis-net_01.jpg",
+          "target": "public/assets/annnimate/product_tennis-net_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/roster_profile_09.jpg",
+          "target": "public/assets/annnimate/roster_profile_09.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/silhouette_eyewear-silhouette_01.jpg",
+          "target": "public/assets/annnimate/silhouette_eyewear-silhouette_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "radial-gallery",
+      "title": "Radial Gallery",
+      "description": "Image cards occupy a slowly rotating circular arrangement sized to the viewport; the ring can appear whole or partially outside the frame.",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "hover",
+        "ambient"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "f0658b7bad26",
+      "files": [
+        {
+          "path": "application/animations/expanded/galleries/gallery-shared.tsx",
+          "target": "components/application/animations/expanded/galleries/gallery-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/galleries/radial-gallery.tsx",
+          "target": "components/application/animations/expanded/galleries/radial-gallery.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "target": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/action_leap_01.jpg",
+          "target": "public/assets/annnimate/action_leap_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/hero_run_02.jpg",
+          "target": "public/assets/annnimate/hero_run_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_football-boot_01.jpg",
+          "target": "public/assets/annnimate/product_football-boot_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_tennis-net_01.jpg",
+          "target": "public/assets/annnimate/product_tennis-net_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "circular-slider",
+      "title": "Circular Slider",
+      "description": "Cards travel along the visible upper arc of a large circle; dragging or arrows advances the sequence and the nearest card snaps into position.",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "click",
+        "drag"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "7a51a914e4f1",
+      "files": [
+        {
+          "path": "application/animations/expanded/galleries/circular-slider.tsx",
+          "target": "components/application/animations/expanded/galleries/circular-slider.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/galleries/gallery-shared.tsx",
+          "target": "components/application/animations/expanded/galleries/gallery-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/product_ball_05.jpg",
+          "target": "public/assets/annnimate/product_ball_05.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_football-boot_06.jpg",
+          "target": "public/assets/annnimate/product_football-boot_06.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_tennis-racket_02.jpg",
+          "target": "public/assets/annnimate/product_tennis-racket_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/roster_profile_09.jpg",
+          "target": "public/assets/annnimate/roster_profile_09.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/scatter_ball-rackets_01.jpg",
+          "target": "public/assets/annnimate/scatter_ball-rackets_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/silhouette_eyewear-silhouette_01.jpg",
+          "target": "public/assets/annnimate/silhouette_eyewear-silhouette_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "infinite-parallax-slider",
+      "title": "Infinite Parallax Slider",
+      "description": "A looping horizontal carousel offsets internal layers at different rates, supports autonomous playback, and pauses when hovered.",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "drag",
+        "ambient"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "ba26470bba2d",
+      "files": [
+        {
+          "path": "application/animations/expanded/galleries/gallery-shared.tsx",
+          "target": "components/application/animations/expanded/galleries/gallery-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/galleries/infinite-parallax-slider.tsx",
+          "target": "components/application/animations/expanded/galleries/infinite-parallax-slider.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "target": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/action_leap_01.jpg",
+          "target": "public/assets/annnimate/action_leap_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_half-zip_01.jpg",
+          "target": "public/assets/annnimate/product_half-zip_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_tennis-racket_05.jpg",
+          "target": "public/assets/annnimate/product_tennis-racket_05.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/roster_profile_06.jpg",
+          "target": "public/assets/annnimate/roster_profile_06.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/street-running-hero-4.avif",
+          "target": "public/assets/annnimate/street-running-hero-4.avif",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "image-follow-list",
+      "title": "Image Follow List",
+      "description": "Hovering a project row displays its image near the pointer; the preview tracks movement and switches content across rows.",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "hover"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "hash": "d2718248e8ba",
+      "files": [
+        {
+          "path": "application/animations/expanded/galleries/gallery-shared.tsx",
+          "target": "components/application/animations/expanded/galleries/gallery-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/galleries/image-follow-list.tsx",
+          "target": "components/application/animations/expanded/galleries/image-follow-list.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "target": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/action_leap_01.jpg",
+          "target": "public/assets/annnimate/action_leap_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_half-zip_01.jpg",
+          "target": "public/assets/annnimate/product_half-zip_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_tennis-racket_05.jpg",
+          "target": "public/assets/annnimate/product_tennis-racket_05.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/roster_profile_06.jpg",
+          "target": "public/assets/annnimate/roster_profile_06.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/street-running-hero-4.avif",
+          "target": "public/assets/annnimate/street-running-hero-4.avif",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "hoverable-list",
+      "title": "Hoverable List",
+      "description": "Pointer entry fills each list row with a curved moving surface whose bend depends on whether the pointer approached from above or below.",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "hover"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "hash": "1f9b34e3ce29",
+      "files": [
+        {
+          "path": "application/animations/expanded/galleries/gallery-shared.tsx",
+          "target": "components/application/animations/expanded/galleries/gallery-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/galleries/hoverable-list.tsx",
+          "target": "components/application/animations/expanded/galleries/hoverable-list.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "infinite-draggable-grid",
+      "title": "Infinite Draggable Grid",
+      "description": "A repeating horizontal set of visual items supports pointer dragging and inertial continuation with no visible end boundary.",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "drag"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "710da96afea9",
+      "files": [
+        {
+          "path": "application/animations/expanded/galleries/gallery-shared.tsx",
+          "target": "components/application/animations/expanded/galleries/gallery-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/galleries/infinite-draggable-grid.tsx",
+          "target": "components/application/animations/expanded/galleries/infinite-draggable-grid.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "target": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/action_leap_01.jpg",
+          "target": "public/assets/annnimate/action_leap_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_half-zip_01.jpg",
+          "target": "public/assets/annnimate/product_half-zip_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_tennis-racket_05.jpg",
+          "target": "public/assets/annnimate/product_tennis-racket_05.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/roster_profile_06.jpg",
+          "target": "public/assets/annnimate/roster_profile_06.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/roster_profile_07.jpg",
+          "target": "public/assets/annnimate/roster_profile_07.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/roster_profile_09.jpg",
+          "target": "public/assets/annnimate/roster_profile_09.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/street-running-hero-4.avif",
+          "target": "public/assets/annnimate/street-running-hero-4.avif",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "infinite-marquee",
+      "title": "Infinite Marquee",
+      "description": "Repeated content travels horizontally or vertically in a seamless loop and can be dragged to scrub before automatic movement resumes.",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "drag",
+        "ambient"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "9df7a343be38",
+      "files": [
+        {
+          "path": "application/animations/expanded/galleries/gallery-shared.tsx",
+          "target": "components/application/animations/expanded/galleries/gallery-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/galleries/infinite-marquee.tsx",
+          "target": "components/application/animations/expanded/galleries/infinite-marquee.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "target": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_half-zip_01.jpg",
+          "target": "public/assets/annnimate/product_half-zip_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_shoe_06.jpg",
+          "target": "public/assets/annnimate/product_shoe_06.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/silhouette_eyewear-silhouette_01.jpg",
+          "target": "public/assets/annnimate/silhouette_eyewear-silhouette_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "image-trail",
+      "title": "Image Trail",
+      "description": "Pointer movement emits overlapping images that lag, rotate, shrink and fade",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "pointer",
+        "hover",
+        "images"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "57918b913fac",
+      "files": [
+        {
+          "path": "application/animations/expanded/pointer/image-trail.tsx",
+          "target": "components/application/animations/expanded/pointer/image-trail.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "target": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/action_leap_01.jpg",
+          "target": "public/assets/annnimate/action_leap_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/hero_profile_02.jpg",
+          "target": "public/assets/annnimate/hero_profile_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/hero_run_02.jpg",
+          "target": "public/assets/annnimate/hero_run_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_shoe_01.jpg",
+          "target": "public/assets/annnimate/product_shoe_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "custom-cursor",
+      "title": "Custom Cursor",
+      "description": "A smoothly following cursor with contextual labels and native touch input",
+      "category": "animations",
+      "family": "navigation",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "pointer",
+        "hover",
+        "cursor"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "e3a32ecd4797",
+      "files": [
+        {
+          "path": "application/animations/expanded/pointer/custom-cursor.tsx",
+          "target": "components/application/animations/expanded/pointer/custom-cursor.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "target": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/hero_profile_02.jpg",
+          "target": "public/assets/annnimate/hero_profile_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/hero_run_02.jpg",
+          "target": "public/assets/annnimate/hero_run_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "3d-card-flip",
+      "title": "3D Card Flip",
+      "description": "A perspective card with pointer tilt, moving glare and a shifting shadow",
+      "category": "animations",
+      "family": "media",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "pointer",
+        "hover",
+        "3d"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "66e0352a8a4b",
+      "files": [
+        {
+          "path": "application/animations/expanded/pointer/3d-card-flip.tsx",
+          "target": "components/application/animations/expanded/pointer/3d-card-flip.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "target": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "gooey-filter-chips",
+      "title": "Gooey Filter Chips",
+      "description": "Filter chips move into a shared liquid result tray with rolling counts",
+      "category": "animations",
+      "family": "forms",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "gooey-filter-chips",
+        "click"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "hash": "6540fa780091",
+      "files": [
+        {
+          "path": "application/animations/expanded/controls/control-shared.tsx",
+          "target": "components/application/animations/expanded/controls/control-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/controls/control-styles.ts",
+          "target": "components/application/animations/expanded/controls/control-styles.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/controls/gooey-filter-chips.tsx",
+          "target": "components/application/animations/expanded/controls/gooey-filter-chips.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "morphing-island",
+      "title": "Morphing Island",
+      "description": "A section capsule expands through navigation and summaries before scrolling to a destination",
+      "category": "animations",
+      "family": "navigation",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "morphing-island",
+        "click"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "hash": "48a019f2e369",
+      "files": [
+        {
+          "path": "application/animations/expanded/controls/control-shared.tsx",
+          "target": "components/application/animations/expanded/controls/control-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/controls/control-styles.ts",
+          "target": "components/application/animations/expanded/controls/control-styles.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/controls/morphing-island.tsx",
+          "target": "components/application/animations/expanded/controls/morphing-island.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "target": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/action_leap_01.jpg",
+          "target": "public/assets/annnimate/action_leap_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/hero_run_02.jpg",
+          "target": "public/assets/annnimate/hero_run_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "multi-step-form",
+      "title": "Multi-Step Form",
+      "description": "Directional form steps, floating labels, validation and cancellable asynchronous submission",
+      "category": "animations",
+      "family": "forms",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "multi-step-form",
+        "click"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "hash": "792104d753e2",
+      "files": [
+        {
+          "path": "application/animations/expanded/controls/control-shared.tsx",
+          "target": "components/application/animations/expanded/controls/control-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/controls/control-styles.ts",
+          "target": "components/application/animations/expanded/controls/control-styles.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/controls/multi-step-form.tsx",
+          "target": "components/application/animations/expanded/controls/multi-step-form.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "morphing-tabs",
+      "title": "Morphing Tabs",
+      "description": "A measured curved bridge follows the selected tab while its content changes",
+      "category": "animations",
+      "family": "navigation",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "morphing-tabs",
+        "click"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "hash": "1ca75a73b58a",
+      "files": [
+        {
+          "path": "application/animations/expanded/controls/control-shared.tsx",
+          "target": "components/application/animations/expanded/controls/control-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/controls/control-styles.ts",
+          "target": "components/application/animations/expanded/controls/control-styles.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/controls/morphing-tabs.tsx",
+          "target": "components/application/animations/expanded/controls/morphing-tabs.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/product_football-boot_01.jpg",
+          "target": "public/assets/annnimate/product_football-boot_01.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/annnimate/product_shoe_06.jpg",
+          "target": "public/assets/annnimate/product_shoe_06.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "morphing-accordion",
+      "title": "Morphing Accordion",
+      "description": "Question pills and expanding answers briefly merge through a decorative liquid layer",
+      "category": "animations",
+      "family": "overlays",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "morphing-accordion",
+        "click"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "hash": "6009a8cd462f",
+      "files": [
+        {
+          "path": "application/animations/expanded/controls/control-shared.tsx",
+          "target": "components/application/animations/expanded/controls/control-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/controls/control-styles.ts",
+          "target": "components/application/animations/expanded/controls/control-styles.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/controls/morphing-accordion.tsx",
+          "target": "components/application/animations/expanded/controls/morphing-accordion.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "morphing-select",
+      "title": "Morphing Select",
+      "description": "A liquid option panel separates from a select trigger with a clipped rolling label",
+      "category": "animations",
+      "family": "forms",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "morphing-select",
+        "click"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "motion",
+        "react-aria-components"
+      ],
+      "registryDependencies": [],
+      "hash": "8f1225fabcfe",
+      "files": [
+        {
+          "path": "application/animations/expanded/controls/control-shared.tsx",
+          "target": "components/application/animations/expanded/controls/control-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/controls/control-styles.ts",
+          "target": "components/application/animations/expanded/controls/control-styles.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/controls/morphing-select.tsx",
+          "target": "components/application/animations/expanded/controls/morphing-select.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "detail-drawer",
+      "title": "Detail Drawer",
+      "description": "A hero image shifts and darkens as a side detail panel reveals staggered text",
+      "category": "animations",
+      "family": "overlays",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "detail-drawer",
+        "click"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "hash": "fc79381cf853",
+      "files": [
+        {
+          "path": "application/animations/expanded/controls/control-shared.tsx",
+          "target": "components/application/animations/expanded/controls/control-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/controls/control-styles.ts",
+          "target": "components/application/animations/expanded/controls/control-styles.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/controls/detail-drawer.tsx",
+          "target": "components/application/animations/expanded/controls/detail-drawer.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/product_shoe_06.jpg",
+          "target": "public/assets/annnimate/product_shoe_06.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "animated-tooltip",
+      "title": "Animated Tooltip",
+      "description": "Delayed anchored or pointer-following captions flip at viewport edges",
+      "category": "animations",
+      "family": "overlays",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "animated-tooltip",
+        "hover"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "hash": "3381b7c22e25",
+      "files": [
+        {
+          "path": "application/animations/expanded/controls/animated-tooltip.tsx",
+          "target": "components/application/animations/expanded/controls/animated-tooltip.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/controls/control-shared.tsx",
+          "target": "components/application/animations/expanded/controls/control-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/controls/control-styles.ts",
+          "target": "components/application/animations/expanded/controls/control-styles.ts",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "morphing-dialog",
+      "title": "Morphing Dialog",
+      "description": "A product card expands into a native dialog with shared image and text transitions",
+      "category": "animations",
+      "family": "overlays",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "morphing-dialog",
+        "click"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "hash": "c9ec9a8dd435",
+      "files": [
+        {
+          "path": "application/animations/expanded/controls/control-shared.tsx",
+          "target": "components/application/animations/expanded/controls/control-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/controls/control-styles.ts",
+          "target": "components/application/animations/expanded/controls/control-styles.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/controls/morphing-dialog.tsx",
+          "target": "components/application/animations/expanded/controls/morphing-dialog.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/hero_run_02.jpg",
+          "target": "public/assets/annnimate/hero_run_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "text-on-path",
+      "title": "Text On Path",
+      "description": "Scrolling progressively places words along an undulating invisible path, allowing the sentence itself to reveal the curve",
+      "category": "animations",
+      "family": "typography",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "scroll"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "162fd150f1a4",
+      "files": [
+        {
+          "path": "application/animations/expanded/typography/text-on-path.tsx",
+          "target": "components/application/animations/expanded/typography/text-on-path.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/typography/typography-math.ts",
+          "target": "components/application/animations/expanded/typography/typography-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/typography/typography-shared.tsx",
+          "target": "components/application/animations/expanded/typography/typography-shared.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "text-fill-wave",
+      "title": "Text Fill Wave",
+      "description": "A headline gains its foreground color progressively while a brighter accent band travels along the advancing edge across successive lines",
+      "category": "animations",
+      "family": "typography",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "scroll"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "9e003cafb477",
+      "files": [
+        {
+          "path": "application/animations/expanded/typography/text-fill-wave.tsx",
+          "target": "components/application/animations/expanded/typography/text-fill-wave.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/typography/typography-math.ts",
+          "target": "components/application/animations/expanded/typography/typography-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/typography/typography-shared.tsx",
+          "target": "components/application/animations/expanded/typography/typography-shared.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "velocity-type",
+      "title": "Velocity Type",
+      "description": "Scroll speed and direction alter headline weight, width, slant, and lean; the type settles back when scrolling slows",
+      "category": "animations",
+      "family": "typography",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "scroll"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "314c5eef8583",
+      "files": [
+        {
+          "path": "application/animations/expanded/typography/typography-math.ts",
+          "target": "components/application/animations/expanded/typography/typography-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/typography/typography-shared.tsx",
+          "target": "components/application/animations/expanded/typography/typography-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/typography/velocity-type.tsx",
+          "target": "components/application/animations/expanded/typography/velocity-type.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "typewriter",
+      "title": "Typewriter",
+      "description": "Phrases type character by character, pause, erase, and cycle with separately configurable typing and deletion speeds",
+      "category": "animations",
+      "family": "typography",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "ambient"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "61e529404df5",
+      "files": [
+        {
+          "path": "application/animations/expanded/typography/typewriter.tsx",
+          "target": "components/application/animations/expanded/typography/typewriter.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/typography/typography-math.ts",
+          "target": "components/application/animations/expanded/typography/typography-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/typography/typography-shared.tsx",
+          "target": "components/application/animations/expanded/typography/typography-shared.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "character-appear",
+      "title": "Character Appear",
+      "description": "Scroll reveals individual glyphs by opacity, either sequentially or in a randomized order, without translating their positions",
+      "category": "animations",
+      "family": "typography",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "scroll"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "88d420436373",
+      "files": [
+        {
+          "path": "application/animations/expanded/typography/character-appear.tsx",
+          "target": "components/application/animations/expanded/typography/character-appear.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/typography/typography-math.ts",
+          "target": "components/application/animations/expanded/typography/typography-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/typography/typography-shared.tsx",
+          "target": "components/application/animations/expanded/typography/typography-shared.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "text-morph",
+      "title": "Text Morph",
+      "description": "Editing an input repositions matching characters and transitions changed text; rapid input favors responsiveness over completing every animation",
+      "category": "animations",
+      "family": "typography",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "click",
+        "input"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "333dd21f9074",
+      "files": [
+        {
+          "path": "application/animations/expanded/typography/text-morph.tsx",
+          "target": "components/application/animations/expanded/typography/text-morph.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/typography/typography-math.ts",
+          "target": "components/application/animations/expanded/typography/typography-math.ts",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "text-split-zoom",
+      "title": "Text Split Zoom",
+      "description": "A growing image separates two portions of a headline, expanding from their shared center as the entrance or scroll animation progresses",
+      "category": "animations",
+      "family": "typography",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "scroll"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "4b7328c1e6c3",
+      "files": [
+        {
+          "path": "application/animations/expanded/typography/text-split-zoom.tsx",
+          "target": "components/application/animations/expanded/typography/text-split-zoom.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/typography/typography-math.ts",
+          "target": "components/application/animations/expanded/typography/typography-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/typography/typography-shared.tsx",
+          "target": "components/application/animations/expanded/typography/typography-shared.tsx",
+          "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "target": "public/assets/annnimate/action_cyclist-climb_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "text-scramble",
+      "title": "Text Scramble",
+      "description": "A text trigger temporarily displays changing random glyphs before resolving to the intended words, with configurable character pool and pacing",
+      "category": "animations",
+      "family": "typography",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "scroll"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "c35f4c671fc2",
+      "files": [
+        {
+          "path": "application/animations/expanded/typography/text-scramble.tsx",
+          "target": "components/application/animations/expanded/typography/text-scramble.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/typography/typography-math.ts",
+          "target": "components/application/animations/expanded/typography/typography-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/typography/typography-shared.tsx",
+          "target": "components/application/animations/expanded/typography/typography-shared.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "rectangle-text-reveal",
+      "title": "Rectangle Text Reveal",
+      "description": "Rounded masks withdraw from successive text lines while each line moves into its readable resting position",
+      "category": "animations",
+      "family": "typography",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "scroll"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "971d4354a18d",
+      "files": [
+        {
+          "path": "application/animations/expanded/typography/rectangle-text-reveal.tsx",
+          "target": "components/application/animations/expanded/typography/rectangle-text-reveal.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/typography/typography-math.ts",
+          "target": "components/application/animations/expanded/typography/typography-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/typography/typography-shared.tsx",
+          "target": "components/application/animations/expanded/typography/typography-shared.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "popping-text",
+      "title": "Popping Text",
+      "description": "Individual letters scale into view with overshoot and varied rotation, producing a staggered bouncing headline entrance",
+      "category": "animations",
+      "family": "typography",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "scroll"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "db3fc0c425e6",
+      "files": [
+        {
+          "path": "application/animations/expanded/typography/popping-text.tsx",
+          "target": "components/application/animations/expanded/typography/popping-text.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/typography/typography-math.ts",
+          "target": "components/application/animations/expanded/typography/typography-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/typography/typography-shared.tsx",
+          "target": "components/application/animations/expanded/typography/typography-shared.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "folding-text",
+      "title": "Folding Text",
+      "description": "Individual glyphs rotate through perspective as though hinged, unfolding into legible text with scroll progress",
+      "category": "animations",
+      "family": "typography",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "scroll"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "76810ab9b292",
+      "files": [
+        {
+          "path": "application/animations/expanded/typography/folding-text.tsx",
+          "target": "components/application/animations/expanded/typography/folding-text.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/typography/typography-math.ts",
+          "target": "components/application/animations/expanded/typography/typography-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/typography/typography-shared.tsx",
+          "target": "components/application/animations/expanded/typography/typography-shared.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "cinematic-text",
+      "title": "Cinematic Text",
+      "description": "Headlines move into view from opposing horizontal directions, split into lines, words, or characters for staggered timing",
+      "category": "animations",
+      "family": "typography",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "scroll"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "e26d68d99513",
+      "files": [
+        {
+          "path": "application/animations/expanded/typography/cinematic-text.tsx",
+          "target": "components/application/animations/expanded/typography/cinematic-text.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/typography/typography-math.ts",
+          "target": "components/application/animations/expanded/typography/typography-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/typography/typography-shared.tsx",
+          "target": "components/application/animations/expanded/typography/typography-shared.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "text-shimmer-wave",
+      "title": "Text Shimmer Wave",
+      "description": "A light-like highlight travels over successive glyphs, either as a continuous loop or a scroll-triggered pass",
+      "category": "animations",
+      "family": "typography",
+      "kind": "animation",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "animation",
+        "annnimate",
+        "ambient"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "isNew": true,
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "535148836dcb",
+      "files": [
+        {
+          "path": "application/animations/expanded/typography/text-shimmer-wave.tsx",
+          "target": "components/application/animations/expanded/typography/text-shimmer-wave.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/typography/typography-math.ts",
+          "target": "components/application/animations/expanded/typography/typography-math.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/animations/expanded/typography/typography-shared.tsx",
+          "target": "components/application/animations/expanded/typography/typography-shared.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
       "name": "morphing-tooltip",
       "title": "Morphing Tooltip",
       "description": "A shared liquid tooltip that rises from toolbar buttons, travels between them and resizes to each caption",
@@ -1001,7 +5273,9 @@
       "foundationDependencies": [
         "tokens"
       ],
-      "iconLibraries": [],
+      "iconLibraries": [
+        "remix"
+      ],
       "tags": [
         "animation",
         "gsap",
@@ -1013,6 +5287,7 @@
       "isNew": true,
       "dependencies": [
         "@gsap/react",
+        "@remixicon/react",
         "gsap"
       ],
       "registryDependencies": [
@@ -1639,7 +5914,7 @@
       "registryDependencies": [
         "tokens"
       ],
-      "hash": "cdde3d5585e2",
+      "hash": "186bc1193b39",
       "files": [
         {
           "path": "application/animations/ascii-overlay-engine.d.ts",
@@ -1660,6 +5935,12 @@
           "path": "application/animations/ascii-overlay.tsx",
           "target": "components/application/animations/ascii-overlay.tsx",
           "type": "component"
+        },
+        {
+          "path": "public/assets/annnimate/hero_profile_02.jpg",
+          "target": "public/assets/annnimate/hero_profile_02.jpg",
+          "type": "asset",
+          "encoding": "base64"
         }
       ]
     },
@@ -1944,7 +6225,7 @@
         "use-count-up",
         "use-dismiss-on-outside-press"
       ],
-      "hash": "20713695011a",
+      "hash": "f150e296d688",
       "files": [
         {
           "path": "application/charts/chart-demo-data.ts",
@@ -2111,7 +6392,7 @@
         "use-count-up",
         "use-dismiss-on-outside-press"
       ],
-      "hash": "a195aa3b867d",
+      "hash": "341a01b40196",
       "files": [
         {
           "path": "application/charts/chart-demo-data.ts",
@@ -2273,7 +6554,7 @@
         "use-count-up",
         "use-dismiss-on-outside-press"
       ],
-      "hash": "600e9c827dd6",
+      "hash": "8560b2a0c316",
       "files": [
         {
           "path": "application/charts/chart-demo-data.ts",
@@ -2439,7 +6720,7 @@
         "use-count-up",
         "use-dismiss-on-outside-press"
       ],
-      "hash": "f1687f3256fc",
+      "hash": "f9633d70c386",
       "files": [
         {
           "path": "application/charts/pro-chart.tsx",

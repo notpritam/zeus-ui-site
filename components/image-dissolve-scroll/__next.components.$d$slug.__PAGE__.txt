@@ -1,0 +1,592 @@
+1:"$Sreact.fragment"
+2:I[392511,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js","/_next/static/chunks/0lh826sok5gy8.js","/_next/static/chunks/3_1pfg1675we5.js","/_next/static/chunks/3b-j35phbz363.js","/_next/static/chunks/2v6dx3y3pgbg2.js","/_next/static/chunks/3znghnjm2oz_l.js","/_next/static/chunks/3458ylrm-tu9f.js","/_next/static/chunks/1h9znjrekhrnu.js","/_next/static/chunks/052khci2jbxel.js","/_next/static/chunks/3fuakxesa5sfw.js","/_next/static/chunks/34kutq8p1wnfe.js","/_next/static/chunks/0y5abjvkezh1o.js"],"DocsLayout"]
+11:X
+16:X
+16:C
+0:{"buildId":"UfJyyO88iN0C3HvvrH7WP","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"Image Dissolve Scroll","heading":"Image Dissolve Scroll","icon":"components","groups":[{"id":"buttons","title":"Buttons","items":[{"name":"background-fill-button","title":"Background Fill Button","isNew":true},{"name":"circle-fill-button","title":"Circle Fill Button","isNew":true},{"name":"curve-fill-button","title":"Curve Fill Button","isNew":true},{"name":"animated-icon-button","title":"Animated Icon Button","isNew":true},{"name":"magnetic-button","title":"Magnetic Button","isNew":true},{"name":"rainbow-button","title":"Rainbow Button","isNew":true},{"name":"text-underline","title":"Text Underline","isNew":true},{"name":"button","title":"Button"},{"name":"icon-button","title":"Icon Button"},{"name":"link-button","title":"Link Button"},{"name":"button-group","title":"Button Group"},{"name":"close-button","title":"Close Button"},{"name":"social-button","title":"Social Button"}]},{"id":"forms","title":"Forms & inputs","items":[{"name":"gooey-filter-chips","title":"Gooey Filter Chips","isNew":true},{"name":"multi-step-form","title":"Multi-Step Form","isNew":true},{"name":"morphing-select","title":"Morphing Select","isNew":true},{"name":"input","title":"Input"},{"name":"input-otp","title":"Input OTP"},{"name":"checkbox","title":"Checkbox"},{"name":"radio","title":"Radio"},{"name":"switch","title":"Switch"},{"name":"select","title":"Select"},{"name":"slider","title":"Slider"},{"name":"file-upload","title":"File Upload"},{"name":"auth-card","title":"Auth Card"}]},{"id":"navigation","title":"Navigation","items":[{"name":"morphing-pill-menu","title":"Morphing Pill Menu","isNew":true},{"name":"gooey-menu","title":"Gooey Menu","isNew":true},{"name":"mega-menu","title":"Mega Menu","isNew":true},{"name":"fullscreen-slide-menu","title":"Fullscreen Slide Menu","isNew":true},{"name":"hide-header","title":"Hide Header","isNew":true},{"name":"custom-cursor","title":"Custom Cursor","isNew":true},{"name":"morphing-island","title":"Morphing Island","isNew":true},{"name":"morphing-tabs","title":"Morphing Tabs","isNew":true},{"name":"multi-level-drawer-menu","title":"Multi-Level Drawer Menu","isNew":true},{"name":"dropdown","title":"Dropdown"},{"name":"tabs","title":"Tabs"},{"name":"segmented-control","title":"Segmented Control"},{"name":"breadcrumb","title":"Breadcrumb"},{"name":"pagination","title":"Pagination"},{"name":"sidebar","title":"Sidebar"}]},{"id":"feedback","title":"Feedback & status","items":[{"name":"badge","title":"Badge"},{"name":"chip","title":"Chip"},{"name":"status-dot","title":"Status Dot"},{"name":"announcement","title":"Announcement"},{"name":"notification","title":"Notification"},{"name":"theme-toggle","title":"Theme Toggle"},{"name":"notification-center","title":"Notification Center"}]},{"id":"overlays","title":"Overlays & disclosures","items":[{"name":"morphing-accordion","title":"Morphing Accordion","isNew":true},{"name":"detail-drawer","title":"Detail Drawer","isNew":true},{"name":"animated-tooltip","title":"Animated Tooltip","isNew":true},{"name":"morphing-dialog","title":"Morphing Dialog","isNew":true},{"name":"morphing-tooltip","title":"Morphing Tooltip","isNew":true},{"name":"animated-accordion","title":"Animated Accordion","isNew":true},{"name":"feature-dialog","title":"Feature Dialog","isNew":true},{"name":"tooltip","title":"Tooltip"},{"name":"settings-modal","title":"Settings Modal"}]},{"id":"typography","title":"Text & typography","items":[{"name":"text-on-path","title":"Text On Path","isNew":true},{"name":"text-fill-wave","title":"Text Fill Wave","isNew":true},{"name":"velocity-type","title":"Velocity Type","isNew":true},{"name":"typewriter","title":"Typewriter","isNew":true},{"name":"character-appear","title":"Character Appear","isNew":true},{"name":"text-morph","title":"Text Morph","isNew":true},{"name":"text-split-zoom","title":"Text Split Zoom","isNew":true},{"name":"text-scramble","title":"Text Scramble","isNew":true},{"name":"rectangle-text-reveal","title":"Rectangle Text Reveal","isNew":true},{"name":"popping-text","title":"Popping Text","isNew":true},{"name":"folding-text","title":"Folding Text","isNew":true},{"name":"cinematic-text","title":"Cinematic Text","isNew":true},{"name":"text-shimmer-wave","title":"Text Shimmer Wave","isNew":true},{"name":"text-reveal","title":"Text Reveal","isNew":true},{"name":"dual-scramble","title":"Dual Scramble","isNew":true},{"name":"typography","title":"Typography"},{"name":"kbd","title":"Kbd"}]},{"id":"icons","title":"Icons & identity","items":[{"name":"chevrons","title":"Chevrons"},{"name":"logo","title":"Logo"},{"name":"avatar","title":"Avatar"}]},{"id":"layout","title":"Layout & structure","items":[{"name":"grid-chapters","title":"Grid Chapters","isNew":true},{"name":"network-globe","title":"Network Globe","isNew":true},{"name":"dock-footer","title":"Dock Footer","isNew":true},{"name":"flip-filter","title":"Flip Filter","isNew":true},{"name":"capsule-hero","title":"Capsule Hero","isNew":true},{"name":"wipe-slider","title":"Wipe Slider","isNew":true},{"name":"step-wipe","title":"Step Wipe","isNew":true},{"name":"gradient-footer","title":"Gradient Footer","isNew":true},{"name":"testimonial-globe","title":"Testimonial Globe","isNew":true},{"name":"drift-gallery","title":"Drift Gallery","isNew":true},{"name":"divider","title":"Divider"},{"name":"app-shell","title":"App Shell"}]},{"id":"data","title":"Data & charts","items":[{"name":"progress","title":"Progress","isNew":true},{"name":"counter","title":"Counter","isNew":true},{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"table","title":"Table"},{"name":"stat-cards","title":"Stat Cards"},{"name":"data-table","title":"Data Table"},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart"},{"name":"orders-chart-card","title":"Orders Chart"},{"name":"important-alerts-card","title":"Important Alerts"},{"name":"patient-info-card","title":"Patient Info"}]},{"id":"media","title":"Images & media","items":[{"name":"mesh-gradient","title":"Mesh Gradient","isNew":true},{"name":"dithering","title":"Dithering","isNew":true},{"name":"image-glitch","title":"Image Glitch","isNew":true},{"name":"gooey-hover-reveal","title":"Gooey Hover Reveal","isNew":true},{"name":"dither-cursor-trail","title":"Dither Cursor Trail","isNew":true},{"name":"image-dissolve-scroll","title":"Image Dissolve Scroll","isNew":true},{"name":"scatter-cluster","title":"Scatter Cluster","isNew":true},{"name":"multi-flip","title":"Multi Flip","isNew":true},{"name":"velocity-clip","title":"Velocity Clip","isNew":true},{"name":"svg-draw-path","title":"SVG Draw Path","isNew":true},{"name":"parallax","title":"Parallax","isNew":true},{"name":"mask-reveal","title":"Mask Reveal","isNew":true},{"name":"flip-zone","title":"Flip Zone","isNew":true},{"name":"element-reveal","title":"Element Reveal","isNew":true},{"name":"background-color","title":"Background Color","isNew":true},{"name":"animated-grid","title":"Animated Grid","isNew":true},{"name":"random-rotate","title":"Random Rotate","isNew":true},{"name":"photo-stack-gallery","title":"Photo Stack Gallery","isNew":true},{"name":"spiral-gallery","title":"Spiral Gallery","isNew":true},{"name":"lens-rail","title":"Lens Rail","isNew":true},{"name":"expanding-strip","title":"Expanding Strip","isNew":true},{"name":"index-wipe","title":"Index Wipe","isNew":true},{"name":"card-fan","title":"Card Fan","isNew":true},{"name":"radial-gallery","title":"Radial Gallery","isNew":true},{"name":"circular-slider","title":"Circular Slider","isNew":true},{"name":"infinite-parallax-slider","title":"Infinite Parallax Slider","isNew":true},{"name":"image-follow-list","title":"Image Follow List","isNew":true},{"name":"hoverable-list","title":"Hoverable List","isNew":true},{"name":"infinite-draggable-grid","title":"Infinite Draggable Grid","isNew":true},{"name":"infinite-marquee","title":"Infinite Marquee","isNew":true},{"name":"image-trail","title":"Image Trail","isNew":true},{"name":"3d-card-flip","title":"3D Card Flip","isNew":true},{"name":"image-fly-in","title":"Image Fly-In","isNew":true},{"name":"scale-slider","title":"Scale Slider","isNew":true},{"name":"curtain-slider","title":"Curtain Slider","isNew":true},{"name":"ascii-overlay","title":"ASCII Overlay","isNew":true},{"name":"carousel","title":"Carousel"}]},{"id":"scheduling","title":"Dates & scheduling","items":[{"name":"calendar","title":"Calendar","isNew":true},{"name":"date-picker","title":"Date Picker"},{"name":"date-range-picker","title":"Date Range Picker"},{"name":"meeting-scheduler","title":"Meeting Scheduler"}]},{"id":"ai","title":"AI & agents","items":[{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true},{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking"},{"name":"composer-loader","title":"Composer Loader"},{"name":"agent-log","title":"Agent Log"},{"name":"agent-chat","title":"Agent Chat"}]},{"id":"pricing","title":"Pricing & billing","items":[{"name":"animated-pricing","title":"Animated Pricing","isNew":true}]},{"id":"screens","title":"Complete screens","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true}]},{"id":"foundations","title":"Design foundations","items":[{"name":"tokens","title":"Design tokens"}]},{"id":"utilities","title":"Hooks & utilities","items":[{"name":"cx","title":"cx"},{"name":"use-count-up","title":"useCountUp"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress"}]}],"description":"Scroll dissolves an image through irregular noise boundaries and a glowing edge","detail":true,"children":"$L3"}],["$L4","$L5","$L6","$L7","$L8","$L9","$La","$Lb","$Lc","$Ld","$Le"],"$Lf"]}],"isPartial":"$@10","staleTime":"$11","varyParams":null},{"rsc":"$L12","isPartial":"$@13","staleTime":"$11","varyParams":null},{"rsc":"$L14","isPartial":"$@15","staleTime":"$11","varyParams":"$16"},{"rsc":"$L17","isPartial":"$@18","staleTime":"$11","varyParams":"$16"}],"isUpgradeableISRFallback":false,"a":"$@19","rootVaryParams":null,"needsRuntimeRequest":"$@1a"}
+1b:I[125016,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js","/_next/static/chunks/0lh826sok5gy8.js","/_next/static/chunks/3_1pfg1675we5.js","/_next/static/chunks/3b-j35phbz363.js","/_next/static/chunks/2v6dx3y3pgbg2.js","/_next/static/chunks/3znghnjm2oz_l.js","/_next/static/chunks/3458ylrm-tu9f.js","/_next/static/chunks/1h9znjrekhrnu.js","/_next/static/chunks/052khci2jbxel.js","/_next/static/chunks/3fuakxesa5sfw.js","/_next/static/chunks/34kutq8p1wnfe.js","/_next/static/chunks/0y5abjvkezh1o.js"],"ComponentPage"]
+1f:I[579014,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js"],"OutletBoundary"]
+20:"$Sreact.suspense"
+22:I[579014,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js"],"ViewportBoundary"]
+23:I[579014,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js"],"MetadataBoundary"]
+24:I[337280,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js"],"default"]
+25:I[475701,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js"],"default"]
+1c:T10e8,// @zeus-internal
+/** Independent effect algorithms; the renderer owns sizing, textures and lifecycle. */
+export const fieldVertex = `attribute vec2 position;varying vec2 uv;void main(){uv=position*.5+.5;gl_Position=vec4(position,0.,1.);}`;
+const common = `precision highp float;
+varying vec2 uv;uniform vec2 resolution,imageSize,mouse;uniform sampler2D media;
+uniform float time,intensity,scale,hover,progress,radius,mouseStrength,variant;
+uniform vec3 colorA,colorB,colorC,colorD;uniform vec3 trail[24];
+float hash(vec2 p){return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453);}
+float noise(vec2 p){vec2 i=floor(p),f=fract(p);f=f*f*(3.-2.*f);return mix(mix(hash(i),hash(i+vec2(1.,0.)),f.x),mix(hash(i+vec2(0.,1.)),hash(i+vec2(1.,1.)),f.x),f.y);}
+float fbm(vec2 p){float n=0.;float a=.5;for(int i=0;i<5;i++){n+=a*noise(p);p=p*2.03+7.1;a*=.5;}return n;}
+vec2 cover(vec2 p){float a=resolution.x/resolution.y,b=imageSize.x/imageSize.y;return (p-.5)*vec2(min(a/b,1.),min(b/a,1.))+.5;}
+vec4 photo(vec2 p){return texture2D(media,clamp(cover(p),vec2(.001),vec2(.999)));}
+vec2 metric(vec2 p){return p*resolution/min(resolution.x,resolution.y);}
+float bayer(vec2 p){vec2 a=mod(floor(p),4.);float x=a.x,y=a.y;float b=mod(x,2.)*2.+mod(y,2.)*3.;b=mod(b,4.);float c=mod(floor(x/2.),2.)*2.+mod(floor(y/2.),2.)*3.;return (b*4.+mod(c,4.)+.5)/16.;}
+`;
+export const fieldFragments = {
+  mesh:
+    common +
+    `void main(){vec2 p=metric(uv)*scale;vec2 m=metric(mouse);p+=(p-m)*exp(-length(p-m)*2.)*hover*mouseStrength*.22;float t=time*.3;vec2 a=vec2(.2+sin(t)*.3,.3+cos(t*.8)*.4);vec2 b=vec2(.8+cos(t*.7)*.4,.1+sin(t*.5)*.4);vec2 c=vec2(.2+sin(t*.6)*.4,.9+cos(t*.9)*.3);vec2 d=vec2(.9+cos(t*.4)*.3,.8+sin(t)*.3);p+=vec2(sin(p.y*3.+t),cos(p.x*2.-t))*.12*intensity;vec4 logWeight=-3.*vec4(dot(p-a,p-a),dot(p-b,p-b),dot(p-c,p-c),dot(p-d,p-d));float strongest=max(max(logWeight.x,logWeight.y),max(logWeight.z,logWeight.w));vec4 weights=exp(logWeight-strongest);float wa=weights.x,wb=weights.y,wc=weights.z,wd=weights.w;vec3 col=(colorA*wa+colorB*wb+colorC*wc+colorD*wd)/(wa+wb+wc+wd);gl_FragColor=vec4(col,1.);}`,
+  dither:
+    common +
+    `void main(){vec2 cells=floor(uv*resolution/max(scale,1.));vec2 sampleUv=(cells+.5)*max(scale,1.)/resolution;vec3 rgb=photo(sampleUv).rgb;float luminance=dot(rgb,vec3(.299,.587,.114));float threshold=bayer(cells);vec3 dots=mix(colorA,colorB,step(threshold,luminance));float distance=length(metric(uv-mouse));float lens=(1.-smoothstep(radius*.82,radius,distance))*hover;gl_FragColor=vec4(mix(dots,photo(uv).rgb,lens),1.);}`,
+  glitch:
+    common +
+    `void main(){float t=floor(time*18.);float amount=intensity*(.045+hover);vec2 p=uv;float line=noise(vec2(floor(p.y*scale*18.),t));if(variant<.5){p.x+=sin(p.y*90.+time*10.)*.002*amount;p.x+=(line-.5)*.045*amount*step(.65,line);}else{float block=hash(vec2(floor(p.y*scale*9.),t));p.x+=(block-.5)*.18*amount*step(.72,block);p.y+=.008*amount*(hash(vec2(t,1.))-.5);}float shift=.009*amount;vec3 col=vec3(photo(p+vec2(shift,0.)).r,photo(p).g,photo(p-vec2(shift,0.)).b);float scan=.98+.02*sin(uv.y*resolution.y*1.4);float vignette=1.-.32*dot((uv-.5)*1.4,(uv-.5)*1.4);col*=mix(1.,scan*vignette,min(intensity,1.));gl_FragColor=vec4(col,1.);}`,
+  dissolve:
+    common +
+    `void main(){float n=fbm(metric(uv)*scale);float p=clamp(progress,0.,1.)*1.16-.08;float edgeWidth=max(.003,.035*intensity);float visible=smoothstep(p,p+.008,n);float edge=visible*(1.-smoothstep(p+edgeWidth,p+edgeWidth*2.,n));vec3 col=mix(photo(uv).rgb,colorA,edge);gl_FragColor=vec4(col,visible);}`,
+  gooey:
+    common +
+    `void main(){float field=0.;for(int i=0;i<24;i++){vec3 mark=trail[i];vec2 distance=metric(uv-mark.xy);field+=exp(-dot(distance,distance)/max(.0001,radius*radius)) * mark.z;}float revealed=smoothstep(.45,.8,field*intensity);revealed=max(revealed,progress);gl_FragColor=vec4(colorA,1.-revealed);}`,
+  trail:
+    common +
+    `void main(){vec2 cells=floor(uv*resolution/max(scale,1.));vec2 p=(cells+.5)*max(scale,1.)/resolution;float field=0.;for(int i=0;i<24;i++){vec3 mark=trail[i];vec2 d=metric(p-mark.xy);field+=exp(-dot(d,d)/max(.0001,radius*radius))*mark.z*.28;}float alpha=step(bayer(cells),clamp(field*intensity,0.,1.));vec2 dotUv=fract(uv*resolution/max(scale,1.))-.5;alpha*=1.-smoothstep(.31,.43,length(dotUv));gl_FragColor=vec4(colorA,alpha);}`,
+} as const;
+1d:Tab6,"use client";
+import { useEffect, useRef, useState } from "react";
+import { ShaderSurface, type ShaderSurfaceOptions } from "./shader-surface";
+export interface ImageDissolveScrollProps
+  extends Pick<
+    ShaderSurfaceOptions,
+    | "children"
+    | "className"
+    | "style"
+    | "height"
+    | "alt"
+    | "progress"
+    | "background"
+    | "maxDpr"
+    | "onReady"
+  > {
+  image: string;
+  noiseScale?: number;
+  edgeColor?: string;
+  edgeWidth?: number;
+  onProgress?: (progress: number) => void;
+}
+/** Controlled noise dissolve, or a pinned window-scroll scene when progress is omitted. */
+export function ImageDissolveScroll({
+  progress,
+  height = "var(--zeus-animation-height, 600px)",
+  noiseScale = 4,
+  edgeColor = "#ff9a43",
+  edgeWidth = 1,
+  onProgress,
+  ...props
+}: ImageDissolveScrollProps) {
+  const root = useRef<HTMLDivElement>(null),
+    scene = useRef<HTMLDivElement>(null);
+  const [observed, setObserved] = useState(0);
+  const callback = useRef(onProgress);
+  callback.current = onProgress;
+  useEffect(() => {
+    if (progress !== undefined) return;
+    let frame = 0;
+    const update = () => {
+      frame = 0;
+      const node = root.current,
+        stage = scene.current;
+      if (!node || !stage) return;
+      const next = Math.min(
+        1,
+        Math.max(
+          0,
+          -node.getBoundingClientRect().top / Math.max(1, node.offsetHeight - stage.offsetHeight),
+        ),
+      );
+      setObserved(next);
+      callback.current?.(next);
+    };
+    const schedule = () => {
+      if (!frame) frame = requestAnimationFrame(update);
+    };
+    window.addEventListener("scroll", schedule, { passive: true });
+    window.addEventListener("resize", schedule);
+    const observer = new ResizeObserver(schedule);
+    if (root.current) observer.observe(root.current);
+    update();
+    return () => {
+      cancelAnimationFrame(frame);
+      observer.disconnect();
+      window.removeEventListener("scroll", schedule);
+      window.removeEventListener("resize", schedule);
+    };
+  }, [progress]);
+  return (
+    <div
+      ref={root}
+      data-dissolve-scroll
+      style={{
+        width: "100%",
+        height:
+          progress === undefined
+            ? `calc(${typeof height === "number" ? `${height}px` : height} * 2)`
+            : height,
+        position: "relative",
+      }}
+    >
+      <div
+        ref={scene}
+        style={{ position: progress === undefined ? "sticky" : "relative", top: 0, height }}
+      >
+        <ShaderSurface
+          kind="dissolve"
+          height="100%"
+          scale={noiseScale}
+          intensity={edgeWidth}
+          colors={[edgeColor]}
+          progress={progress ?? observed}
+          {...props}
+        />
+      </div>
+    </div>
+  );
+}
+1e:T39be,// @zeus-internal
+"use client";
+import { type CSSProperties, type ReactNode, useEffect, useRef, useState } from "react";
+import { fieldFragments, fieldVertex } from "./field-shaders";
+
+export interface ShaderSurfaceOptions {
+  image?: string;
+  alt?: string;
+  children?: ReactNode;
+  className?: string;
+  style?: CSSProperties;
+  height?: CSSProperties["height"];
+  speed?: number;
+  scale?: number;
+  intensity?: number;
+  radius?: number;
+  mouseStrength?: number;
+  duration?: number;
+  progress?: number;
+  colors?: readonly string[];
+  background?: string;
+  variant?: "analog" | "digital";
+  maxDpr?: number;
+  onReady?: (ready: boolean) => void;
+}
+function color(value: string): number[] {
+  const context = document.createElement("canvas").getContext("2d");
+  if (!context) return [0, 0, 0];
+  context.fillStyle = value;
+  context.fillRect(0, 0, 1, 1);
+  return [...context.getImageData(0, 0, 1, 1).data].slice(0, 3).map((v) => v / 255);
+}
+const clamp = (n: number, min: number, max: number) =>
+  Math.min(max, Math.max(min, Number.isFinite(n) ? n : min));
+export function ShaderSurface({
+  kind,
+  ...options
+}: ShaderSurfaceOptions & { kind: keyof typeof fieldFragments }) {
+  const host = useRef<HTMLDivElement>(null),
+    canvas = useRef<HTMLCanvasElement>(null);
+  const latest = useRef(options);
+  latest.current = options;
+  const refresh = useRef<() => void>(() => {});
+  const [ready, setReady] = useState(false),
+    [contextVersion, setContextVersion] = useState(0);
+  useEffect(() => {
+    refresh.current();
+  });
+  // biome-ignore lint/correctness/useExhaustiveDependencies: A restored WebGL context requires recreating its resources.
+  useEffect(() => {
+    const node = host.current,
+      element = canvas.current;
+    if (!node || !element) return;
+    let disposed = false,
+      contextLost = false;
+    setReady(false);
+    const gl = element.getContext("webgl", {
+      alpha: true,
+      premultipliedAlpha: false,
+      antialias: false,
+    });
+    if (!gl) {
+      setReady(false);
+      latest.current.onReady?.(false);
+      return;
+    }
+    const compile = (type: number, source: string) => {
+      const shader = gl.createShader(type);
+      if (!shader) return null;
+      gl.shaderSource(shader, source);
+      gl.compileShader(shader);
+      if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
+        gl.deleteShader(shader);
+        return null;
+      }
+      return shader;
+    };
+    const vertex = compile(gl.VERTEX_SHADER, fieldVertex),
+      fragment = compile(gl.FRAGMENT_SHADER, fieldFragments[kind]);
+    const program = gl.createProgram();
+    if (!vertex || !fragment || !program) {
+      if (vertex) gl.deleteShader(vertex);
+      if (fragment) gl.deleteShader(fragment);
+      if (program) gl.deleteProgram(program);
+      setReady(false);
+      latest.current.onReady?.(false);
+      return;
+    }
+    gl.attachShader(program, vertex);
+    gl.attachShader(program, fragment);
+    gl.linkProgram(program);
+    if (!gl.getProgramParameter(program, gl.LINK_STATUS)) {
+      gl.deleteShader(vertex);
+      gl.deleteShader(fragment);
+      gl.deleteProgram(program);
+      setReady(false);
+      latest.current.onReady?.(false);
+      return;
+    }
+    gl.useProgram(program);
+    const buffer = gl.createBuffer();
+    gl.bindBuffer(gl.ARRAY_BUFFER, buffer);
+    gl.bufferData(
+      gl.ARRAY_BUFFER,
+      new Float32Array([-1, -1, 1, -1, -1, 1, -1, 1, 1, -1, 1, 1]),
+      gl.STATIC_DRAW,
+    );
+    const position = gl.getAttribLocation(program, "position");
+    gl.enableVertexAttribArray(position);
+    gl.vertexAttribPointer(position, 2, gl.FLOAT, false, 0, 0);
+    const uniforms = new Map<string, WebGLUniformLocation | null>();
+    const uniform = (name: string) => {
+      if (!uniforms.has(name)) uniforms.set(name, gl.getUniformLocation(program, name));
+      return uniforms.get(name)!;
+    };
+    const texture = gl.createTexture();
+    gl.bindTexture(gl.TEXTURE_2D, texture);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+    gl.texImage2D(
+      gl.TEXTURE_2D,
+      0,
+      gl.RGBA,
+      1,
+      1,
+      0,
+      gl.RGBA,
+      gl.UNSIGNED_BYTE,
+      new Uint8Array([255, 255, 255, 255]),
+    );
+    let imageWidth = 1,
+      imageHeight = 1,
+      loaded = !options.image,
+      visible = true,
+      frame = 0,
+      last = 0,
+      elapsed = 0,
+      hover = 0,
+      targetHover = 0,
+      announced = false;
+    let bounds = node.getBoundingClientRect();
+    const pointer = [0.5, 0.5],
+      destination = [0.5, 0.5],
+      marks: { x: number; y: number; born: number }[] = [];
+    const reduced = matchMedia("(prefers-reduced-motion: reduce)"),
+      coarse = matchMedia("(pointer: coarse)");
+    const wantsImage = kind === "glitch" || kind === "dither" || kind === "dissolve";
+    let paletteKey = "",
+      paletteValues: number[][] = [];
+    const draw = (now: number) => {
+      frame = 0;
+      if (disposed || contextLost || !visible || document.hidden) return;
+      const o = latest.current,
+        delta = Math.min(64, last ? now - last : 16);
+      last = now;
+      if (!reduced.matches) elapsed += delta * 0.001 * clamp(o.speed ?? 1, 0, 10);
+      const ease = 1 - Math.exp(-delta / Math.max(16, (o.duration ?? 0.35) * 300));
+      hover += (targetHover - hover) * ease;
+      pointer[0] += (destination[0] - pointer[0]) * ease;
+      pointer[1] += (destination[1] - pointer[1]) * ease;
+      const dpr = clamp(window.devicePixelRatio || 1, 1, clamp(o.maxDpr ?? 2, 1, 3)),
+        rect = bounds;
+      const w = Math.max(1, Math.round(rect.width * dpr)),
+        h = Math.max(1, Math.round(rect.height * dpr));
+      if (element.width !== w || element.height !== h) {
+        element.width = w;
+        element.height = h;
+        gl.viewport(0, 0, w, h);
+      }
+      gl.useProgram(program);
+      gl.uniform2f(uniform("resolution"), w, h);
+      gl.uniform2f(uniform("imageSize"), imageWidth, imageHeight);
+      gl.uniform2f(uniform("mouse"), pointer[0], pointer[1]);
+      gl.uniform1f(uniform("time"), reduced.matches ? 0 : elapsed);
+      gl.uniform1f(uniform("hover"), reduced.matches ? 0 : hover);
+      gl.uniform1f(
+        uniform("intensity"),
+        reduced.matches && kind === "glitch" ? 0 : clamp(o.intensity ?? 1, 0, 8),
+      );
+      gl.uniform1f(
+        uniform("scale"),
+        clamp(o.scale ?? 1, 0.1, 100) * (kind === "dither" || kind === "trail" ? dpr : 1),
+      );
+      gl.uniform1f(
+        uniform("radius"),
+        clamp(o.radius ?? 100, 1, 1000) / Math.max(1, Math.min(rect.width, rect.height)),
+      );
+      gl.uniform1f(uniform("mouseStrength"), clamp(o.mouseStrength ?? 1, 0, 5));
+      gl.uniform1f(uniform("variant"), o.variant === "digital" ? 1 : 0);
+      gl.uniform1f(
+        uniform("progress"),
+        kind === "gooey" && (reduced.matches || coarse.matches || node.matches(":focus-within"))
+          ? 1
+          : clamp(o.progress ?? 0, 0, 1),
+      );
+      const palette = o.colors?.length ? o.colors : ["#ff963b", "#ae4bf5", "#f6adcb", "#f8a676"];
+      if (paletteKey !== palette.join("|")) {
+        paletteKey = palette.join("|");
+        paletteValues = [0, 1, 2, 3].map((i) => color(palette[i % palette.length] ?? "#101010"));
+      }
+      ["colorA", "colorB", "colorC", "colorD"].forEach((name, i) => {
+        gl.uniform3fv(uniform(name), paletteValues[i]);
+      });
+      const life = clamp(o.duration ?? 1.4, 0.1, 10) * 1000;
+      while (marks.length && now - marks[0].born > life) marks.shift();
+      const trail = new Float32Array(24 * 3);
+      if (!reduced.matches)
+        marks.slice(-24).forEach((mark, i) => {
+          trail.set([mark.x, mark.y, Math.max(0, 1 - (now - mark.born) / life) ** 1.6], i * 3);
+        });
+      gl.uniform3fv(uniform("trail[0]"), trail);
+      gl.uniform1i(uniform("media"), 0);
+      gl.clearColor(0, 0, 0, 0);
+      gl.clear(gl.COLOR_BUFFER_BIT);
+      gl.drawArrays(gl.TRIANGLES, 0, 6);
+      if (!announced && (loaded || !wantsImage)) {
+        announced = true;
+        setReady(true);
+      }
+      const moving =
+        Math.abs(targetHover - hover) > 0.002 ||
+        Math.abs(destination[0] - pointer[0]) + Math.abs(destination[1] - pointer[1]) > 0.001;
+      const animatedTime =
+        clamp(o.speed ?? 1, 0, 10) > 0 &&
+        (kind === "mesh" || (kind === "glitch" && hover > 0.002 && (o.intensity ?? 1) > 0));
+      if (!reduced.matches && (animatedTime || moving || marks.length > 0))
+        frame = requestAnimationFrame(draw);
+    };
+    const schedule = () => {
+      if (!frame && !disposed && !contextLost && visible && !document.hidden)
+        frame = requestAnimationFrame(draw);
+    };
+    refresh.current = schedule;
+    const move = (event: PointerEvent) => {
+      if (event.pointerType === "touch" && (kind === "trail" || kind === "gooey")) return;
+      const rect = node.getBoundingClientRect();
+      destination[0] = clamp((event.clientX - rect.left) / rect.width, 0, 1);
+      destination[1] = 1 - clamp((event.clientY - rect.top) / rect.height, 0, 1);
+      targetHover = 1;
+      if (kind === "trail" || kind === "gooey") {
+        const previous = marks.at(-1);
+        if (
+          !previous ||
+          Math.hypot(
+            (destination[0] - previous.x) * rect.width,
+            (destination[1] - previous.y) * rect.height,
+          ) > 5
+        ) {
+          marks.push({ x: destination[0], y: destination[1], born: performance.now() });
+          if (marks.length > 24) marks.shift();
+        }
+      }
+      schedule();
+    };
+    const enter = () => {
+        targetHover = 1;
+        schedule();
+      },
+      leave = () => {
+        targetHover = 0;
+        schedule();
+      };
+    const visibility = () => {
+      last = 0;
+      if (document.hidden) {
+        cancelAnimationFrame(frame);
+        frame = 0;
+      } else schedule();
+    };
+    const preference = () => {
+      marks.length = 0;
+      schedule();
+    };
+    node.addEventListener("pointermove", move);
+    node.addEventListener("pointerenter", enter);
+    node.addEventListener("pointerleave", leave);
+    node.addEventListener("focusin", enter);
+    node.addEventListener("focusout", leave);
+    document.addEventListener("visibilitychange", visibility);
+    reduced.addEventListener("change", preference);
+    const resize = new ResizeObserver(() => {
+      bounds = node.getBoundingClientRect();
+      schedule();
+    });
+    resize.observe(node);
+    const observer = new IntersectionObserver(
+      (entries) => {
+        visible = !!entries[0]?.isIntersecting;
+        if (visible) {
+          last = 0;
+          schedule();
+        } else {
+          cancelAnimationFrame(frame);
+          frame = 0;
+        }
+      },
+      { rootMargin: "80px" },
+    );
+    observer.observe(node);
+    let image: HTMLImageElement | null = null;
+    if (options.image) {
+      image = new Image();
+      image.crossOrigin = "anonymous";
+      image.onload = () => {
+        if (disposed || !image) return;
+        try {
+          gl.bindTexture(gl.TEXTURE_2D, texture);
+          gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, true);
+          gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, image);
+          imageWidth = image.naturalWidth;
+          imageHeight = image.naturalHeight;
+          loaded = true;
+          latest.current.onReady?.(true);
+          schedule();
+        } catch {
+          setReady(false);
+          latest.current.onReady?.(false);
+        }
+      };
+      image.onerror = () => {
+        if (!disposed) {
+          setReady(false);
+          latest.current.onReady?.(false);
+        }
+      };
+      image.src = options.image;
+    } else latest.current.onReady?.(true);
+    const lost = (event: Event) => {
+      event.preventDefault();
+      contextLost = true;
+      cancelAnimationFrame(frame);
+      frame = 0;
+      setReady(false);
+      latest.current.onReady?.(false);
+    };
+    const restored = () => setContextVersion((value) => value + 1);
+    element.addEventListener("webglcontextlost", lost);
+    element.addEventListener("webglcontextrestored", restored);
+    schedule();
+    return () => {
+      disposed = true;
+      refresh.current = () => {};
+      cancelAnimationFrame(frame);
+      resize.disconnect();
+      observer.disconnect();
+      reduced.removeEventListener("change", preference);
+      document.removeEventListener("visibilitychange", visibility);
+      node.removeEventListener("pointermove", move);
+      node.removeEventListener("pointerenter", enter);
+      node.removeEventListener("pointerleave", leave);
+      node.removeEventListener("focusin", enter);
+      node.removeEventListener("focusout", leave);
+      element.removeEventListener("webglcontextlost", lost);
+      element.removeEventListener("webglcontextrestored", restored);
+      if (image) {
+        image.onload = null;
+        image.onerror = null;
+      }
+      gl.deleteTexture(texture);
+      gl.deleteBuffer(buffer);
+      gl.deleteProgram(program);
+      gl.deleteShader(vertex);
+      gl.deleteShader(fragment);
+    };
+  }, [kind, options.image, contextVersion]);
+  const mesh = kind === "mesh";
+  return (
+    <div
+      ref={host}
+      data-shader={kind}
+      data-shader-ready={ready}
+      className={options.className}
+      style={{
+        position: "relative",
+        isolation: "isolate",
+        overflow: "hidden",
+        width: "100%",
+        height: options.height ?? "var(--zeus-animation-height, 480px)",
+        background: mesh
+          ? `radial-gradient(at 10% 20%,${options.colors?.[0] ?? "#ff963b"},transparent 70%),radial-gradient(at 90% 70%,${options.colors?.[1] ?? "#ae4bf5"},transparent 70%),${options.colors?.[2] ?? "#f6adcb"}`
+          : (options.background ?? "#f2f1eb"),
+        ...options.style,
+      }}
+    >
+      {options.image && (
+        <img
+          src={options.image}
+          alt={options.alt ?? ""}
+          style={{
+            position: "absolute",
+            inset: 0,
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            opacity: ready && kind === "dissolve" ? 0 : 1,
+          }}
+        />
+      )}
+      <canvas
+        ref={canvas}
+        aria-hidden
+        style={{
+          position: "absolute",
+          inset: 0,
+          width: "100%",
+          height: "100%",
+          pointerEvents: "none",
+          opacity: ready ? 1 : 0,
+          zIndex: kind === "gooey" ? 3 : 1,
+        }}
+      />
+      <div style={{ position: "relative", zIndex: 2, width: "100%", height: "100%" }}>
+        {options.children}
+      </div>
+    </div>
+  );
+}
+3:["$","$L1b",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"image-dissolve-scroll","title":"Image Dissolve Scroll","description":"Scroll dissolves an image through irregular noise boundaries and a glowing edge","category":"animations","family":"media","kind":"animation","designSystem":null,"foundationDependencies":[],"iconLibraries":[],"tags":["animation","annnimate","shader","image-dissolve-scroll","scroll"],"status":"beta","tier":"free","isNew":true,"dependencies":[],"registryDependencies":[],"files":[{"path":"application/animations/expanded/shaders/field-shaders.ts","target":"components/application/animations/expanded/shaders/field-shaders.ts","type":"component","content":"$1c"},{"path":"application/animations/expanded/shaders/image-dissolve-scroll.tsx","target":"components/application/animations/expanded/shaders/image-dissolve-scroll.tsx","type":"component","content":"$1d"},{"path":"application/animations/expanded/shaders/shader-surface.tsx","target":"components/application/animations/expanded/shaders/shader-surface.tsx","type":"component","content":"$1e"},{"path":"public/assets/annnimate/action_leap_01.jpg","target":"public/assets/annnimate/action_leap_01.jpg","type":"asset","encoding":"base64"}],"hash":"83bdda636c5f"},"demoSource":"\"use client\";\n\nimport { ImageDissolveScroll } from \"@/components/application/animations/expanded/shaders/image-dissolve-scroll\";\n\n// This example uses Zeus demo images. Install the component's assets\n// or pass your own image URLs. Setup: https://myzeusui.com/components/image-dissolve-scroll/#installation\n\nexport default function Example() {\n  return (\n    <ImageDissolveScroll\n      image={\"/assets/annnimate/action_leap_01.jpg\"}\n      noiseScale={4}\n      edgeColor={\"#ff9a43\"}\n      edgeWidth={1}\n      background={\"#101010\"}\n    />\n  );\n}","previous":{"name":"dither-cursor-trail","title":"Dither Cursor Trail"},"next":{"name":"grid-chapters","title":"Grid Chapters"}}]
+4:["$","script","script-0",{"src":"/_next/static/chunks/0lh826sok5gy8.js","async":true}]
+5:["$","script","script-1",{"src":"/_next/static/chunks/3_1pfg1675we5.js","async":true}]
+6:["$","script","script-2",{"src":"/_next/static/chunks/3b-j35phbz363.js","async":true}]
+7:["$","script","script-3",{"src":"/_next/static/chunks/2v6dx3y3pgbg2.js","async":true}]
+8:["$","script","script-4",{"src":"/_next/static/chunks/3znghnjm2oz_l.js","async":true}]
+9:["$","script","script-5",{"src":"/_next/static/chunks/3458ylrm-tu9f.js","async":true}]
+a:["$","script","script-6",{"src":"/_next/static/chunks/1h9znjrekhrnu.js","async":true}]
+b:["$","script","script-7",{"src":"/_next/static/chunks/052khci2jbxel.js","async":true}]
+c:["$","script","script-8",{"src":"/_next/static/chunks/3fuakxesa5sfw.js","async":true}]
+d:["$","script","script-9",{"src":"/_next/static/chunks/34kutq8p1wnfe.js","async":true}]
+e:["$","script","script-10",{"src":"/_next/static/chunks/0y5abjvkezh1o.js","async":true}]
+f:["$","$L1f",null,{"children":["$","$20",null,{"name":"Next.MetadataOutlet","children":"$@21"}]}]
+12:["$","$1","h",{"children":[null,["$","$L22",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L23",null,{"children":["$","$20",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Image Dissolve Scroll — Zeus UI"}],["$","meta","1",{"name":"description","content":"Scroll dissolves an image through irregular noise boundaries and a glowing edge"}],["$","meta","2",{"name":"keywords","content":"animation,annnimate,shader,image-dissolve-scroll,scroll"}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+14:["$","$1","c",{"children":[null,["$","$L24",null,{"parallelRouterKey":"children","template":["$","$L25",null,{}]}]]}]
+17:["$","$1","c",{"children":[null,["$","$L24",null,{"parallelRouterKey":"children","template":["$","$L25",null,{}]}]]}]
+1a:true
+21:null
+11:300
+11:C
+19:0
+13:"$undefined"
+15:"$undefined"
+18:"$undefined"
+10:"$undefined"

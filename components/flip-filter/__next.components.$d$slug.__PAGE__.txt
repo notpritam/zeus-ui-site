@@ -1,0 +1,695 @@
+1:"$Sreact.fragment"
+2:I[392511,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js","/_next/static/chunks/0lh826sok5gy8.js","/_next/static/chunks/3_1pfg1675we5.js","/_next/static/chunks/3b-j35phbz363.js","/_next/static/chunks/2v6dx3y3pgbg2.js","/_next/static/chunks/3znghnjm2oz_l.js","/_next/static/chunks/3458ylrm-tu9f.js","/_next/static/chunks/1h9znjrekhrnu.js","/_next/static/chunks/052khci2jbxel.js","/_next/static/chunks/3fuakxesa5sfw.js","/_next/static/chunks/34kutq8p1wnfe.js","/_next/static/chunks/0y5abjvkezh1o.js"],"DocsLayout"]
+11:X
+16:X
+16:C
+0:{"buildId":"UfJyyO88iN0C3HvvrH7WP","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"Flip Filter","heading":"Flip Filter","icon":"components","groups":[{"id":"buttons","title":"Buttons","items":[{"name":"background-fill-button","title":"Background Fill Button","isNew":true},{"name":"circle-fill-button","title":"Circle Fill Button","isNew":true},{"name":"curve-fill-button","title":"Curve Fill Button","isNew":true},{"name":"animated-icon-button","title":"Animated Icon Button","isNew":true},{"name":"magnetic-button","title":"Magnetic Button","isNew":true},{"name":"rainbow-button","title":"Rainbow Button","isNew":true},{"name":"text-underline","title":"Text Underline","isNew":true},{"name":"button","title":"Button"},{"name":"icon-button","title":"Icon Button"},{"name":"link-button","title":"Link Button"},{"name":"button-group","title":"Button Group"},{"name":"close-button","title":"Close Button"},{"name":"social-button","title":"Social Button"}]},{"id":"forms","title":"Forms & inputs","items":[{"name":"gooey-filter-chips","title":"Gooey Filter Chips","isNew":true},{"name":"multi-step-form","title":"Multi-Step Form","isNew":true},{"name":"morphing-select","title":"Morphing Select","isNew":true},{"name":"input","title":"Input"},{"name":"input-otp","title":"Input OTP"},{"name":"checkbox","title":"Checkbox"},{"name":"radio","title":"Radio"},{"name":"switch","title":"Switch"},{"name":"select","title":"Select"},{"name":"slider","title":"Slider"},{"name":"file-upload","title":"File Upload"},{"name":"auth-card","title":"Auth Card"}]},{"id":"navigation","title":"Navigation","items":[{"name":"morphing-pill-menu","title":"Morphing Pill Menu","isNew":true},{"name":"gooey-menu","title":"Gooey Menu","isNew":true},{"name":"mega-menu","title":"Mega Menu","isNew":true},{"name":"fullscreen-slide-menu","title":"Fullscreen Slide Menu","isNew":true},{"name":"hide-header","title":"Hide Header","isNew":true},{"name":"custom-cursor","title":"Custom Cursor","isNew":true},{"name":"morphing-island","title":"Morphing Island","isNew":true},{"name":"morphing-tabs","title":"Morphing Tabs","isNew":true},{"name":"multi-level-drawer-menu","title":"Multi-Level Drawer Menu","isNew":true},{"name":"dropdown","title":"Dropdown"},{"name":"tabs","title":"Tabs"},{"name":"segmented-control","title":"Segmented Control"},{"name":"breadcrumb","title":"Breadcrumb"},{"name":"pagination","title":"Pagination"},{"name":"sidebar","title":"Sidebar"}]},{"id":"feedback","title":"Feedback & status","items":[{"name":"badge","title":"Badge"},{"name":"chip","title":"Chip"},{"name":"status-dot","title":"Status Dot"},{"name":"announcement","title":"Announcement"},{"name":"notification","title":"Notification"},{"name":"theme-toggle","title":"Theme Toggle"},{"name":"notification-center","title":"Notification Center"}]},{"id":"overlays","title":"Overlays & disclosures","items":[{"name":"morphing-accordion","title":"Morphing Accordion","isNew":true},{"name":"detail-drawer","title":"Detail Drawer","isNew":true},{"name":"animated-tooltip","title":"Animated Tooltip","isNew":true},{"name":"morphing-dialog","title":"Morphing Dialog","isNew":true},{"name":"morphing-tooltip","title":"Morphing Tooltip","isNew":true},{"name":"animated-accordion","title":"Animated Accordion","isNew":true},{"name":"feature-dialog","title":"Feature Dialog","isNew":true},{"name":"tooltip","title":"Tooltip"},{"name":"settings-modal","title":"Settings Modal"}]},{"id":"typography","title":"Text & typography","items":[{"name":"text-on-path","title":"Text On Path","isNew":true},{"name":"text-fill-wave","title":"Text Fill Wave","isNew":true},{"name":"velocity-type","title":"Velocity Type","isNew":true},{"name":"typewriter","title":"Typewriter","isNew":true},{"name":"character-appear","title":"Character Appear","isNew":true},{"name":"text-morph","title":"Text Morph","isNew":true},{"name":"text-split-zoom","title":"Text Split Zoom","isNew":true},{"name":"text-scramble","title":"Text Scramble","isNew":true},{"name":"rectangle-text-reveal","title":"Rectangle Text Reveal","isNew":true},{"name":"popping-text","title":"Popping Text","isNew":true},{"name":"folding-text","title":"Folding Text","isNew":true},{"name":"cinematic-text","title":"Cinematic Text","isNew":true},{"name":"text-shimmer-wave","title":"Text Shimmer Wave","isNew":true},{"name":"text-reveal","title":"Text Reveal","isNew":true},{"name":"dual-scramble","title":"Dual Scramble","isNew":true},{"name":"typography","title":"Typography"},{"name":"kbd","title":"Kbd"}]},{"id":"icons","title":"Icons & identity","items":[{"name":"chevrons","title":"Chevrons"},{"name":"logo","title":"Logo"},{"name":"avatar","title":"Avatar"}]},{"id":"layout","title":"Layout & structure","items":[{"name":"grid-chapters","title":"Grid Chapters","isNew":true},{"name":"network-globe","title":"Network Globe","isNew":true},{"name":"dock-footer","title":"Dock Footer","isNew":true},{"name":"flip-filter","title":"Flip Filter","isNew":true},{"name":"capsule-hero","title":"Capsule Hero","isNew":true},{"name":"wipe-slider","title":"Wipe Slider","isNew":true},{"name":"step-wipe","title":"Step Wipe","isNew":true},{"name":"gradient-footer","title":"Gradient Footer","isNew":true},{"name":"testimonial-globe","title":"Testimonial Globe","isNew":true},{"name":"drift-gallery","title":"Drift Gallery","isNew":true},{"name":"divider","title":"Divider"},{"name":"app-shell","title":"App Shell"}]},{"id":"data","title":"Data & charts","items":[{"name":"progress","title":"Progress","isNew":true},{"name":"counter","title":"Counter","isNew":true},{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"table","title":"Table"},{"name":"stat-cards","title":"Stat Cards"},{"name":"data-table","title":"Data Table"},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart"},{"name":"orders-chart-card","title":"Orders Chart"},{"name":"important-alerts-card","title":"Important Alerts"},{"name":"patient-info-card","title":"Patient Info"}]},{"id":"media","title":"Images & media","items":[{"name":"mesh-gradient","title":"Mesh Gradient","isNew":true},{"name":"dithering","title":"Dithering","isNew":true},{"name":"image-glitch","title":"Image Glitch","isNew":true},{"name":"gooey-hover-reveal","title":"Gooey Hover Reveal","isNew":true},{"name":"dither-cursor-trail","title":"Dither Cursor Trail","isNew":true},{"name":"image-dissolve-scroll","title":"Image Dissolve Scroll","isNew":true},{"name":"scatter-cluster","title":"Scatter Cluster","isNew":true},{"name":"multi-flip","title":"Multi Flip","isNew":true},{"name":"velocity-clip","title":"Velocity Clip","isNew":true},{"name":"svg-draw-path","title":"SVG Draw Path","isNew":true},{"name":"parallax","title":"Parallax","isNew":true},{"name":"mask-reveal","title":"Mask Reveal","isNew":true},{"name":"flip-zone","title":"Flip Zone","isNew":true},{"name":"element-reveal","title":"Element Reveal","isNew":true},{"name":"background-color","title":"Background Color","isNew":true},{"name":"animated-grid","title":"Animated Grid","isNew":true},{"name":"random-rotate","title":"Random Rotate","isNew":true},{"name":"photo-stack-gallery","title":"Photo Stack Gallery","isNew":true},{"name":"spiral-gallery","title":"Spiral Gallery","isNew":true},{"name":"lens-rail","title":"Lens Rail","isNew":true},{"name":"expanding-strip","title":"Expanding Strip","isNew":true},{"name":"index-wipe","title":"Index Wipe","isNew":true},{"name":"card-fan","title":"Card Fan","isNew":true},{"name":"radial-gallery","title":"Radial Gallery","isNew":true},{"name":"circular-slider","title":"Circular Slider","isNew":true},{"name":"infinite-parallax-slider","title":"Infinite Parallax Slider","isNew":true},{"name":"image-follow-list","title":"Image Follow List","isNew":true},{"name":"hoverable-list","title":"Hoverable List","isNew":true},{"name":"infinite-draggable-grid","title":"Infinite Draggable Grid","isNew":true},{"name":"infinite-marquee","title":"Infinite Marquee","isNew":true},{"name":"image-trail","title":"Image Trail","isNew":true},{"name":"3d-card-flip","title":"3D Card Flip","isNew":true},{"name":"image-fly-in","title":"Image Fly-In","isNew":true},{"name":"scale-slider","title":"Scale Slider","isNew":true},{"name":"curtain-slider","title":"Curtain Slider","isNew":true},{"name":"ascii-overlay","title":"ASCII Overlay","isNew":true},{"name":"carousel","title":"Carousel"}]},{"id":"scheduling","title":"Dates & scheduling","items":[{"name":"calendar","title":"Calendar","isNew":true},{"name":"date-picker","title":"Date Picker"},{"name":"date-range-picker","title":"Date Range Picker"},{"name":"meeting-scheduler","title":"Meeting Scheduler"}]},{"id":"ai","title":"AI & agents","items":[{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true},{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking"},{"name":"composer-loader","title":"Composer Loader"},{"name":"agent-log","title":"Agent Log"},{"name":"agent-chat","title":"Agent Chat"}]},{"id":"pricing","title":"Pricing & billing","items":[{"name":"animated-pricing","title":"Animated Pricing","isNew":true}]},{"id":"screens","title":"Complete screens","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true}]},{"id":"foundations","title":"Design foundations","items":[{"name":"tokens","title":"Design tokens"}]},{"id":"utilities","title":"Hooks & utilities","items":[{"name":"cx","title":"cx"},{"name":"use-count-up","title":"useCountUp"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress"}]}],"description":"Category and grid/list changes preserve product cards through measured, interruptible FLIP layout transitions","detail":true,"children":"$L3"}],["$L4","$L5","$L6","$L7","$L8","$L9","$La","$Lb","$Lc","$Ld","$Le"],"$Lf"]}],"isPartial":"$@10","staleTime":"$11","varyParams":null},{"rsc":"$L12","isPartial":"$@13","staleTime":"$11","varyParams":null},{"rsc":"$L14","isPartial":"$@15","staleTime":"$11","varyParams":"$16"},{"rsc":"$L17","isPartial":"$@18","staleTime":"$11","varyParams":"$16"}],"isUpgradeableISRFallback":false,"a":"$@19","rootVaryParams":null,"needsRuntimeRequest":"$@1a"}
+1b:I[125016,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js","/_next/static/chunks/0lh826sok5gy8.js","/_next/static/chunks/3_1pfg1675we5.js","/_next/static/chunks/3b-j35phbz363.js","/_next/static/chunks/2v6dx3y3pgbg2.js","/_next/static/chunks/3znghnjm2oz_l.js","/_next/static/chunks/3458ylrm-tu9f.js","/_next/static/chunks/1h9znjrekhrnu.js","/_next/static/chunks/052khci2jbxel.js","/_next/static/chunks/3fuakxesa5sfw.js","/_next/static/chunks/34kutq8p1wnfe.js","/_next/static/chunks/0y5abjvkezh1o.js"],"ComponentPage"]
+20:I[579014,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js"],"OutletBoundary"]
+21:"$Sreact.suspense"
+23:I[579014,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js"],"ViewportBoundary"]
+24:I[579014,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js"],"MetadataBoundary"]
+25:I[337280,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js"],"default"]
+26:I[475701,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js"],"default"]
+1c:T1ffb,"use client";
+import { useState, type CSSProperties, type ReactNode } from "react";
+import { AnimatePresence, motion } from "motion/react";
+import {
+  SectionImage,
+  sectionStyles,
+  useSectionEnvironment,
+} from "./section-shared";
+export interface FlipFilterItem {
+  id: string;
+  title: string;
+  category: string;
+  src?: string;
+  alt?: string;
+  description?: string;
+  price?: string;
+  content?: ReactNode;
+}
+export interface FlipFilterProps {
+  items: readonly FlipFilterItem[];
+  categories?: readonly { id: string; label: string }[];
+  filter?: string;
+  defaultFilter?: string;
+  onFilterChange?: (filter: string) => void;
+  layout?: "grid" | "list";
+  defaultLayout?: "grid" | "list";
+  onLayoutChange?: (layout: "grid" | "list") => void;
+  onSelect?: (item: FlipFilterItem) => void;
+  duration?: number;
+  columns?: number;
+  gap?: number;
+  height?: number;
+  className?: string;
+  style?: CSSProperties;
+  label?: string;
+}
+/** Measured FLIP layout retaining keyed cards through filter and grid/list interruptions. */
+export function FlipFilter({
+  items,
+  categories,
+  filter,
+  defaultFilter = "all",
+  onFilterChange,
+  layout,
+  defaultLayout = "grid",
+  onLayoutChange,
+  onSelect,
+  duration = 0.7,
+  columns = 4,
+  gap = 20,
+  height = 720,
+  className = "",
+  style,
+  label = "Product collection",
+}: FlipFilterProps) {
+  const env = useSectionEnvironment(),
+    [localFilter, setFilter] = useState(defaultFilter),
+    [localLayout, setLayout] = useState(defaultLayout),
+    category = filter ?? localFilter,
+    mode = layout ?? localLayout;
+  const options =
+      categories ??
+      Array.from(new Set(items.map((i) => i.category))).map((id) => ({
+        id,
+        label: id,
+      })),
+    visible =
+      category === "all"
+        ? items
+        : items.filter((item) => item.category === category);
+  const count =
+      env.size.width < 560
+        ? 2
+        : env.size.width < 850
+          ? 3
+          : Math.max(1, Math.min(6, Math.round(columns))),
+    transition = {
+      duration: env.reduced ? 0 : Math.max(0, duration),
+      ease: [0.22, 0.8, 0.2, 1] as const,
+    };
+  const changeFilter = (id: string) => {
+      if (filter === undefined) setFilter(id);
+      onFilterChange?.(id);
+    },
+    changeLayout = (next: "grid" | "list") => {
+      if (layout === undefined) setLayout(next);
+      onLayoutChange?.(next);
+    };
+  return (
+    <div
+      ref={env.ref}
+      role="region"
+      aria-label={label}
+      className={`z-as z-as-filter ${className}`}
+      data-section="flip-filter"
+      data-filter={category}
+      data-count={visible.length}
+      data-layout={mode}
+      style={{
+        minHeight: Math.min(height, 540),
+        padding: "28px clamp(16px,3.2vw,40px) 85px",
+        ...style,
+      }}
+    >
+      <style>
+        {sectionStyles +
+          `.z-as-filter .z-as-filter-nav{display:flex;align-items:center;gap:8px;flex-wrap:wrap;border-bottom:1px solid #1112;padding-bottom:16px;margin-bottom:24px}.z-as-filter .z-as-filter-nav button{padding:9px 14px;border-radius:30px;background:transparent;color:#6d6d6b}.z-as-filter .z-as-filter-nav button[aria-pressed=true]{background:#1111;color:#171717}.z-as-filter .z-as-filter-nav sup{font-size:10px;margin-left:6px;opacity:.6}.z-as-filter .z-as-filter-count{margin-left:auto;font-size:30px;line-height:1}.z-as-filter .z-as-filter-count small{font-size:12px;opacity:.5}.z-as-filter .z-as-products{position:relative;display:grid;align-items:start}.z-as-filter .z-as-product{position:relative;overflow:hidden;border-radius:20px;background:#d5d5d0;min-width:0;cursor:pointer;transform-origin:0 0}.z-as-filter .z-as-product>button{position:absolute;inset:0;z-index:2;background:none;cursor:pointer}.z-as-filter .z-as-product-image{width:100%;height:100%;min-height:0;overflow:hidden}.z-as-filter .z-as-product-caption{position:absolute;bottom:0;left:0;right:0;padding:30px 16px 14px;color:white;background:linear-gradient(transparent,#0008)}.z-as-filter .z-as-product-caption p{font-size:13px;opacity:.7}.z-as-filter[data-layout=list] .z-as-product{display:grid;grid-template-columns:150px 1fr;height:150px!important;background:#e1e1dc}.z-as-filter[data-layout=list] .z-as-product-caption{position:static;color:#171717;background:none;padding:20px;align-self:center}.z-as-filter .z-as-filter-toggle{position:sticky;bottom:20px;margin:28px 0 0 auto;width:max-content;z-index:5}.z-as-filter .z-as-filter-toggle button[aria-pressed=true]{background:#fff3}@media(max-width:600px){.z-as-filter .z-as-filter-nav{gap:3px}.z-as-filter .z-as-filter-nav button{padding:8px 10px;font-size:12px}.z-as-filter .z-as-filter-count{font-size:22px}.z-as-filter .z-as-product{border-radius:12px}.z-as-filter .z-as-product-caption{padding:20px 10px 10px;font-size:13px}.z-as-filter[data-layout=list] .z-as-product{grid-template-columns:110px 1fr;height:120px!important}}`}
+      </style>
+      <div className="z-as-filter-nav" aria-label="Filter products">
+        <button
+          type="button"
+          aria-pressed={category === "all"}
+          onClick={() => changeFilter("all")}
+        >
+          All <sup>{items.length}</sup>
+        </button>
+        {options.map((option) => (
+          <button
+            key={option.id}
+            type="button"
+            aria-pressed={category === option.id}
+            onClick={() => changeFilter(option.id)}
+          >
+            {option.label}
+            <sup>{items.filter((i) => i.category === option.id).length}</sup>
+          </button>
+        ))}
+        <span className="z-as-filter-count" aria-live="polite">
+          {visible.length} <small>shown</small>
+        </span>
+      </div>
+      <motion.div
+        layout
+        className="z-as-products"
+        style={{
+          gridTemplateColumns:
+            mode === "grid" ? `repeat(${count},minmax(0,1fr))` : "1fr",
+          gap: Math.max(0, gap),
+        }}
+        transition={transition}
+      >
+        <AnimatePresence initial={false} mode="popLayout">
+          {visible.map((item) => (
+            <motion.article
+              key={item.id}
+              layout
+              data-product={item.id}
+              className="z-as-product"
+              initial={{ opacity: 0, scale: 0.85 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.8, pointerEvents: "none" }}
+              transition={transition}
+              style={{
+                height:
+                  mode === "grid"
+                    ? Math.max(
+                        170,
+                        ((env.size.width - 80 - (count - 1) * gap) / count) *
+                          1.24,
+                      )
+                    : 150,
+              }}
+            >
+              <motion.div layout className="z-as-product-image">
+                <SectionImage item={item} />
+              </motion.div>
+              <motion.div layout="position" className="z-as-product-caption">
+                <h3 style={{ fontSize: "inherit", fontWeight: 500 }}>
+                  {item.title}
+                </h3>
+                {mode === "list" && (
+                  <p>
+                    {item.description ?? item.category}
+                    {item.price ? ` · ${item.price}` : ""}
+                  </p>
+                )}
+              </motion.div>
+              <button
+                type="button"
+                aria-label={`View ${item.title}`}
+                onClick={() => onSelect?.(item)}
+              />
+            </motion.article>
+          ))}
+        </AnimatePresence>
+      </motion.div>
+      {!visible.length && <p role="status">No products in this category.</p>}
+      <div
+        className="z-as-filter-toggle z-as-pill"
+        aria-label="Collection layout"
+      >
+        <button
+          type="button"
+          aria-label="Grid view"
+          aria-pressed={mode === "grid"}
+          onClick={() => changeLayout("grid")}
+        >
+          ▦
+        </button>
+        <button
+          type="button"
+          aria-label="List view"
+          aria-pressed={mode === "list"}
+          onClick={() => changeLayout("list")}
+        >
+          ☰
+        </button>
+      </div>
+    </div>
+  );
+}
+1d:T4ae,// @zeus-internal
+export const sectionClamp = (value: number, min = 0, max = 1) =>
+  Math.min(max, Math.max(min, Number.isFinite(value) ? value : 0));
+export const sectionWrap = (value: number, count: number) =>
+  count > 0 ? ((value % count) + count) % count : 0;
+export type SectionPoint = readonly [number, number, number];
+export function spherePoint(latitude: number, longitude: number): SectionPoint {
+  const lat = (latitude * Math.PI) / 180,
+    lon = (longitude * Math.PI) / 180;
+  return [
+    Math.cos(lat) * Math.sin(lon),
+    -Math.sin(lat),
+    Math.cos(lat) * Math.cos(lon),
+  ];
+}
+export function rotatePoint(
+  [x, y, z]: SectionPoint,
+  yaw: number,
+  pitch: number,
+): SectionPoint {
+  const xx = x * Math.cos(yaw) + z * Math.sin(yaw),
+    zz = z * Math.cos(yaw) - x * Math.sin(yaw);
+  return [
+    xx,
+    y * Math.cos(pitch) - zz * Math.sin(pitch),
+    zz * Math.cos(pitch) + y * Math.sin(pitch),
+  ];
+}
+export function fibonacciPoint(index: number, count: number): SectionPoint {
+  const y = 1 - (2 * (index + 0.5)) / Math.max(1, count),
+    r = Math.sqrt(1 - y * y),
+    angle = index * Math.PI * (3 - Math.sqrt(5));
+  return [Math.cos(angle) * r, y, Math.sin(angle) * r];
+}
+1e:T2a65,// @zeus-internal
+"use client";
+import {
+  useCallback,
+  useEffect,
+  useLayoutEffect,
+  useRef,
+  useState,
+  type CSSProperties,
+  type ReactNode,
+  type RefObject,
+  type PointerEvent,
+} from "react";
+import { sectionClamp, sectionWrap } from "./section-math";
+export interface SectionInternalMedia {
+  src?: string;
+  alt?: string;
+  content?: ReactNode;
+}
+export interface SectionInternalItem extends SectionInternalMedia {
+  id: string;
+  title: string;
+  description?: string;
+}
+export interface SectionInternalBase {
+  className?: string;
+  style?: CSSProperties;
+  height?: number;
+  label?: string;
+}
+export interface SectionInternalLink {
+  label: string;
+  href: string;
+}
+export interface SectionInternalGroup {
+  title: string;
+  links: readonly SectionInternalLink[];
+}
+export function useSectionEnvironment() {
+  const ref = useRef<HTMLDivElement>(null),
+    [size, setSize] = useState({ width: 1000, height: 640 }),
+    [active, setActive] = useState(false),
+    [reduced, setReduced] = useState(false);
+  useEffect(() => {
+    const node = ref.current;
+    if (!node) return;
+    let visible = true;
+    const media = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const update = () => {
+      setActive(visible && !document.hidden);
+      setReduced(media.matches);
+    };
+    const resize = () =>
+      setSize({
+        width: node.clientWidth || 1000,
+        height: node.clientHeight || 640,
+      });
+    const ro =
+      typeof ResizeObserver === "undefined" ? null : new ResizeObserver(resize);
+    ro?.observe(node);
+    const io =
+      typeof IntersectionObserver === "undefined"
+        ? null
+        : new IntersectionObserver((entries) => {
+            visible = entries[0]?.isIntersecting ?? true;
+            update();
+          });
+    io?.observe(node);
+    media.addEventListener("change", update);
+    document.addEventListener("visibilitychange", update);
+    resize();
+    update();
+    return () => {
+      ro?.disconnect();
+      io?.disconnect();
+      media.removeEventListener("change", update);
+      document.removeEventListener("visibilitychange", update);
+    };
+  }, []);
+  return { ref, size, active, reduced };
+}
+export function useSectionLoop(
+  active: boolean,
+  callback: (delta: number) => void,
+) {
+  const latest = useRef(callback);
+  latest.current = callback;
+  useEffect(() => {
+    if (!active) return;
+    let frame = 0,
+      last = 0;
+    const tick = (now: number) => {
+      const delta = last ? Math.min(0.04, (now - last) / 1000) : 0;
+      last = now;
+      latest.current(delta);
+      frame = requestAnimationFrame(tick);
+    };
+    frame = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(frame);
+  }, [active]);
+}
+export function useSectionSelection(
+  count: number,
+  index: number | undefined,
+  defaultIndex: number,
+  onChange?: (index: number) => void,
+) {
+  const [local, setLocal] = useState(defaultIndex);
+  const selected = sectionWrap(Math.round(index ?? local), count),
+    current = useRef(selected);
+  current.current = selected;
+  const select = useCallback(
+    (next: number) => {
+      next = sectionWrap(Math.round(next), count);
+      if (next === current.current) return;
+      if (index === undefined) {
+        current.current = next;
+        setLocal(next);
+      }
+      onChange?.(next);
+    },
+    [count, index, onChange],
+  );
+  return { selected, select, current };
+}
+export function useSectionScroll(
+  ref: RefObject<HTMLElement | null>,
+  scrollContainer?: RefObject<HTMLElement | null>,
+  onProgress?: (progress: number) => void,
+) {
+  const [progress, setProgress] = useState(0),
+    latest = useRef(onProgress),
+    previous = useRef(-1);
+  latest.current = onProgress;
+  useLayoutEffect(() => {
+    const node = ref.current;
+    if (!node) return;
+    let frame = 0;
+    const container = scrollContainer?.current;
+    const measure = () => {
+      frame = 0;
+      const box = node.getBoundingClientRect(),
+        top = container?.getBoundingClientRect().top ?? 0,
+        view = container?.clientHeight ?? innerHeight;
+      const next = sectionClamp(
+        (top - box.top) / Math.max(1, box.height - view),
+      );
+      if (Math.abs(previous.current - next) >= 0.0001) {
+        previous.current = next;
+        setProgress(next);
+        latest.current?.(next);
+      }
+    };
+    const request = () => {
+      if (!frame) frame = requestAnimationFrame(measure);
+    };
+    const target = container ?? window;
+    target.addEventListener("scroll", request, { passive: true });
+    window.addEventListener("resize", request);
+    const ro =
+      typeof ResizeObserver === "undefined"
+        ? null
+        : new ResizeObserver(request);
+    ro?.observe(node);
+    measure();
+    return () => {
+      cancelAnimationFrame(frame);
+      target.removeEventListener("scroll", request);
+      window.removeEventListener("resize", request);
+      ro?.disconnect();
+    };
+  }, [ref, scrollContainer]);
+  return progress;
+}
+export function useSphereRotation(
+  active: boolean,
+  reduced: boolean,
+  autoplay: boolean,
+  speed: number,
+  drag: boolean,
+) {
+  const state = useRef({
+      yaw: 0,
+      pitch: 0,
+      vx: 0,
+      vy: 0,
+      target: null as null | { yaw: number; pitch: number },
+    }),
+    [rotation, setRotation] = useState({ yaw: 0, pitch: 0 }),
+    pointer = useRef<null | { id: number; x: number; y: number; time: number }>(
+      null,
+    );
+  const publish = () =>
+    setRotation({ yaw: state.current.yaw, pitch: state.current.pitch });
+  useSectionLoop(active && !reduced, (delta) => {
+    const s = state.current;
+    if (pointer.current) return;
+    if (s.target) {
+      const ease = 1 - Math.exp(-delta * 6);
+      s.yaw += (s.target.yaw - s.yaw) * ease;
+      s.pitch += (s.target.pitch - s.pitch) * ease;
+      if (
+        Math.abs(s.yaw - s.target.yaw) + Math.abs(s.pitch - s.target.pitch) <
+        0.001
+      )
+        s.target = null;
+    } else {
+      s.yaw += (s.vx + (autoplay ? speed : 0)) * delta;
+      s.pitch = sectionClamp(s.pitch + s.vy * delta, -1.2, 1.2);
+      s.vx *= Math.exp(-delta * 5);
+      s.vy *= Math.exp(-delta * 5);
+    }
+    publish();
+  });
+  const orient = useCallback(
+    (yaw: number, pitch: number) => {
+      const s = state.current;
+      const shortest =
+        ((((yaw - s.yaw + Math.PI) % (Math.PI * 2)) + Math.PI * 2) %
+          (Math.PI * 2)) -
+        Math.PI;
+      s.vx = 0;
+      s.vy = 0;
+      if (reduced) {
+        s.yaw += shortest;
+        s.pitch = pitch;
+        s.target = null;
+        setRotation({ yaw: s.yaw, pitch: s.pitch });
+      } else s.target = { yaw: s.yaw + shortest, pitch };
+    },
+    [reduced],
+  );
+  const end = (event: PointerEvent<HTMLElement>) => {
+    if (pointer.current?.id !== event.pointerId) return;
+    pointer.current = null;
+    if (reduced) {
+      state.current.vx = 0;
+      state.current.vy = 0;
+    }
+    event.currentTarget.releasePointerCapture?.(event.pointerId);
+  };
+  return {
+    rotation,
+    orient,
+    handlers: {
+      onPointerDown: (event: PointerEvent<HTMLElement>) => {
+        if (
+          !drag ||
+          event.button !== 0 ||
+          (event.target as HTMLElement).closest("button,a,input")
+        )
+          return;
+        pointer.current = {
+          id: event.pointerId,
+          x: event.clientX,
+          y: event.clientY,
+          time: event.timeStamp,
+        };
+        state.current.target = null;
+        state.current.vx = state.current.vy = 0;
+        event.currentTarget.setPointerCapture?.(event.pointerId);
+      },
+      onPointerMove: (event: PointerEvent<HTMLElement>) => {
+        const p = pointer.current;
+        if (!p || p.id !== event.pointerId) return;
+        const dx = (event.clientX - p.x) * 0.006,
+          dy = (event.clientY - p.y) * 0.006,
+          dt = Math.max(0.008, (event.timeStamp - p.time) / 1000);
+        state.current.yaw += dx;
+        state.current.pitch = sectionClamp(state.current.pitch + dy, -1.2, 1.2);
+        state.current.vx = sectionClamp(dx / dt, -5, 5);
+        state.current.vy = sectionClamp(dy / dt, -3, 3);
+        pointer.current = {
+          id: p.id,
+          x: event.clientX,
+          y: event.clientY,
+          time: event.timeStamp,
+        };
+        publish();
+      },
+      onPointerUp: end,
+      onPointerCancel: end,
+      onLostPointerCapture: () => {
+        pointer.current = null;
+      },
+    },
+  };
+}
+export function SectionImage({
+  item,
+  className,
+  style,
+}: {
+  item: SectionInternalMedia;
+  className?: string;
+  style?: CSSProperties;
+}) {
+  return item.content ? (
+    <div className={className} style={style}>
+      {item.content}
+    </div>
+  ) : item.src ? (
+    <img
+      className={className}
+      style={style}
+      src={item.src}
+      alt={item.alt ?? ""}
+      draggable={false}
+    />
+  ) : (
+    <div className={className} style={style} />
+  );
+}
+export const sectionStyles = `.z-as{position:relative;width:100%;box-sizing:border-box;isolation:isolate;background:#ebebe9;color:#171717;font:15px/1.5 Arial,Helvetica,sans-serif;--z-as-accent:#dfff00}.z-as *{box-sizing:border-box}.z-as h2,.z-as h3,.z-as p,.z-as figure{margin:0}.z-as button,.z-as a{font:inherit;color:inherit}.z-as button{cursor:pointer}.z-as button:focus-visible,.z-as a:focus-visible,.z-as:focus-visible{outline:3px solid #548bff;outline-offset:5px}.z-as button{border:0}.z-as img,.z-as video{display:block;width:100%;height:100%;object-fit:cover}.z-as .z-as-controls{display:flex;align-items:center;justify-content:center;gap:16px}.z-as .z-as-controls button{width:40px;height:40px;border-radius:50%;background:#ffffff18;flex:none}.z-as .z-as-pill{display:flex;align-items:center;gap:12px;padding:6px;border:1px solid #ffffff12;background:#30302fd9;backdrop-filter:blur(14px);border-radius:999px;color:#efeee9}.z-as .z-as-pill button{background:#ffffff12;border-radius:50%;width:40px;height:40px}.z-as .z-as-pill span{min-width:80px;text-align:center;font-size:13px}.z-as .z-as-heading{font-weight:400;line-height:1.05;letter-spacing:-.045em;font-size:clamp(32px,5vw,64px)}.z-as .z-as-fill{position:absolute;inset:0}.z-as .z-as-mask{overflow:hidden;display:block}.z-as .z-as-pin{position:sticky;top:0;height:min(var(--section-height,640px),100svh);min-height:420px;overflow:hidden}.z-as .z-as-links a{text-decoration:none;position:relative;width:fit-content;display:block;padding:5px 0}.z-as .z-as-links a:after{content:"";position:absolute;bottom:3px;left:0;right:0;height:1px;background:currentColor;transform:scaleX(0);transform-origin:right;transition:transform .35s}.z-as .z-as-links a:hover:after,.z-as .z-as-links a:focus-visible:after{transform:scaleX(1);transform-origin:left}@media(prefers-reduced-motion:reduce){.z-as *,.z-as *:before,.z-as *:after{animation-duration:0s!important;transition-duration:0s!important;scroll-behavior:auto!important}}`;
+1f:Tacd,"use client";
+
+import { FlipFilter } from "@/components/application/animations/expanded/sections/flip-filter";
+
+export default function Example() {
+  return (
+    <FlipFilter
+      items={[
+        {
+          "id": "pace",
+          "src": "/assets/annnimate/product_shoe_01.jpg",
+          "alt": "Pace trainer",
+          "title": "Pace trainer",
+          "description": "Light equipment for long days.",
+          "category": "footwear"
+        },
+        {
+          "id": "court",
+          "src": "/assets/annnimate/product_tennis-racket_02.jpg",
+          "alt": "Court frame",
+          "title": "Court frame",
+          "description": "A considered grip and a clean strike.",
+          "category": "rackets"
+        },
+        {
+          "id": "bounce",
+          "src": "/assets/annnimate/product_ball_05.jpg",
+          "alt": "Club ball",
+          "title": "Club ball",
+          "description": "Ready for the next match.",
+          "category": "balls"
+        },
+        {
+          "id": "shade",
+          "src": "/assets/annnimate/silhouette_eyewear-silhouette_01.jpg",
+          "alt": "Ridge eyewear",
+          "title": "Ridge eyewear",
+          "description": "A clear view of the route ahead.",
+          "category": "kit"
+        },
+        {
+          "id": "match",
+          "src": "/assets/annnimate/product_football-boot_06.jpg",
+          "alt": "Match boot",
+          "title": "Match boot",
+          "description": "Built around your next step.",
+          "category": "footwear"
+        },
+        {
+          "id": "serve",
+          "src": "/assets/annnimate/product_tennis-racket_05.jpg",
+          "alt": "Serve frame",
+          "title": "Serve frame",
+          "description": "Make room for a better return.",
+          "category": "rackets"
+        },
+        {
+          "id": "play",
+          "src": "/assets/annnimate/product_ball_02.jpg",
+          "alt": "Play ball",
+          "title": "Play ball",
+          "description": "Practice begins with one pass.",
+          "category": "balls"
+        },
+        {
+          "id": "road",
+          "src": "/assets/annnimate/product_shoe_06.jpg",
+          "alt": "Road runner",
+          "title": "Road runner",
+          "description": "Follow the road a little further.",
+          "category": "footwear"
+        }
+      ]}
+      categories={[
+        {
+          "id": "footwear",
+          "label": "Footwear"
+        },
+        {
+          "id": "rackets",
+          "label": "Rackets"
+        },
+        {
+          "id": "balls",
+          "label": "Balls"
+        },
+        {
+          "id": "kit",
+          "label": "Kit"
+        }
+      ]}
+      height={720}
+      duration={0.7}
+      columns={4}
+      gap={20}
+      defaultLayout={"grid"}
+    />
+  );
+}3:["$","$L1b",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"flip-filter","title":"Flip Filter","description":"Category and grid/list changes preserve product cards through measured, interruptible FLIP layout transitions","category":"animations","family":"layout","kind":"animation","designSystem":null,"foundationDependencies":[],"iconLibraries":[],"tags":["animation","annnimate","click"],"status":"beta","tier":"free","isNew":true,"dependencies":["motion"],"registryDependencies":[],"files":[{"path":"application/animations/expanded/sections/flip-filter.tsx","target":"components/application/animations/expanded/sections/flip-filter.tsx","type":"component","content":"$1c"},{"path":"application/animations/expanded/sections/section-math.ts","target":"components/application/animations/expanded/sections/section-math.ts","type":"component","content":"$1d"},{"path":"application/animations/expanded/sections/section-shared.tsx","target":"components/application/animations/expanded/sections/section-shared.tsx","type":"component","content":"$1e"},{"path":"public/assets/annnimate/product_ball_02.jpg","target":"public/assets/annnimate/product_ball_02.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/product_ball_05.jpg","target":"public/assets/annnimate/product_ball_05.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/product_football-boot_06.jpg","target":"public/assets/annnimate/product_football-boot_06.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/product_shoe_01.jpg","target":"public/assets/annnimate/product_shoe_01.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/product_shoe_06.jpg","target":"public/assets/annnimate/product_shoe_06.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/product_tennis-racket_02.jpg","target":"public/assets/annnimate/product_tennis-racket_02.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/product_tennis-racket_05.jpg","target":"public/assets/annnimate/product_tennis-racket_05.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/silhouette_eyewear-silhouette_01.jpg","target":"public/assets/annnimate/silhouette_eyewear-silhouette_01.jpg","type":"asset","encoding":"base64"}],"hash":"ffd63eeb9ec5"},"demoSource":"$1f","previous":{"name":"dock-footer","title":"Dock Footer"},"next":{"name":"capsule-hero","title":"Capsule Hero"}}]
+4:["$","script","script-0",{"src":"/_next/static/chunks/0lh826sok5gy8.js","async":true}]
+5:["$","script","script-1",{"src":"/_next/static/chunks/3_1pfg1675we5.js","async":true}]
+6:["$","script","script-2",{"src":"/_next/static/chunks/3b-j35phbz363.js","async":true}]
+7:["$","script","script-3",{"src":"/_next/static/chunks/2v6dx3y3pgbg2.js","async":true}]
+8:["$","script","script-4",{"src":"/_next/static/chunks/3znghnjm2oz_l.js","async":true}]
+9:["$","script","script-5",{"src":"/_next/static/chunks/3458ylrm-tu9f.js","async":true}]
+a:["$","script","script-6",{"src":"/_next/static/chunks/1h9znjrekhrnu.js","async":true}]
+b:["$","script","script-7",{"src":"/_next/static/chunks/052khci2jbxel.js","async":true}]
+c:["$","script","script-8",{"src":"/_next/static/chunks/3fuakxesa5sfw.js","async":true}]
+d:["$","script","script-9",{"src":"/_next/static/chunks/34kutq8p1wnfe.js","async":true}]
+e:["$","script","script-10",{"src":"/_next/static/chunks/0y5abjvkezh1o.js","async":true}]
+f:["$","$L20",null,{"children":["$","$21",null,{"name":"Next.MetadataOutlet","children":"$@22"}]}]
+12:["$","$1","h",{"children":[null,["$","$L23",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L24",null,{"children":["$","$21",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Flip Filter — Zeus UI"}],["$","meta","1",{"name":"description","content":"Category and grid/list changes preserve product cards through measured, interruptible FLIP layout transitions"}],["$","meta","2",{"name":"keywords","content":"animation,annnimate,click"}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+14:["$","$1","c",{"children":[null,["$","$L25",null,{"parallelRouterKey":"children","template":["$","$L26",null,{}]}]]}]
+17:["$","$1","c",{"children":[null,["$","$L25",null,{"parallelRouterKey":"children","template":["$","$L26",null,{}]}]]}]
+1a:true
+22:null
+11:300
+11:C
+19:0
+13:"$undefined"
+15:"$undefined"
+18:"$undefined"
+10:"$undefined"

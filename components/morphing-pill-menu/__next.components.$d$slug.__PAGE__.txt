@@ -1,0 +1,334 @@
+1:"$Sreact.fragment"
+2:I[392511,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js","/_next/static/chunks/0lh826sok5gy8.js","/_next/static/chunks/3_1pfg1675we5.js","/_next/static/chunks/3b-j35phbz363.js","/_next/static/chunks/2v6dx3y3pgbg2.js","/_next/static/chunks/3znghnjm2oz_l.js","/_next/static/chunks/3458ylrm-tu9f.js","/_next/static/chunks/1h9znjrekhrnu.js","/_next/static/chunks/052khci2jbxel.js","/_next/static/chunks/3fuakxesa5sfw.js","/_next/static/chunks/34kutq8p1wnfe.js","/_next/static/chunks/0y5abjvkezh1o.js"],"DocsLayout"]
+11:X
+16:X
+16:C
+0:{"buildId":"UfJyyO88iN0C3HvvrH7WP","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"Morphing Pill Menu","heading":"Morphing Pill Menu","icon":"components","groups":[{"id":"buttons","title":"Buttons","items":[{"name":"background-fill-button","title":"Background Fill Button","isNew":true},{"name":"circle-fill-button","title":"Circle Fill Button","isNew":true},{"name":"curve-fill-button","title":"Curve Fill Button","isNew":true},{"name":"animated-icon-button","title":"Animated Icon Button","isNew":true},{"name":"magnetic-button","title":"Magnetic Button","isNew":true},{"name":"rainbow-button","title":"Rainbow Button","isNew":true},{"name":"text-underline","title":"Text Underline","isNew":true},{"name":"button","title":"Button"},{"name":"icon-button","title":"Icon Button"},{"name":"link-button","title":"Link Button"},{"name":"button-group","title":"Button Group"},{"name":"close-button","title":"Close Button"},{"name":"social-button","title":"Social Button"}]},{"id":"forms","title":"Forms & inputs","items":[{"name":"gooey-filter-chips","title":"Gooey Filter Chips","isNew":true},{"name":"multi-step-form","title":"Multi-Step Form","isNew":true},{"name":"morphing-select","title":"Morphing Select","isNew":true},{"name":"input","title":"Input"},{"name":"input-otp","title":"Input OTP"},{"name":"checkbox","title":"Checkbox"},{"name":"radio","title":"Radio"},{"name":"switch","title":"Switch"},{"name":"select","title":"Select"},{"name":"slider","title":"Slider"},{"name":"file-upload","title":"File Upload"},{"name":"auth-card","title":"Auth Card"}]},{"id":"navigation","title":"Navigation","items":[{"name":"morphing-pill-menu","title":"Morphing Pill Menu","isNew":true},{"name":"gooey-menu","title":"Gooey Menu","isNew":true},{"name":"mega-menu","title":"Mega Menu","isNew":true},{"name":"fullscreen-slide-menu","title":"Fullscreen Slide Menu","isNew":true},{"name":"hide-header","title":"Hide Header","isNew":true},{"name":"custom-cursor","title":"Custom Cursor","isNew":true},{"name":"morphing-island","title":"Morphing Island","isNew":true},{"name":"morphing-tabs","title":"Morphing Tabs","isNew":true},{"name":"multi-level-drawer-menu","title":"Multi-Level Drawer Menu","isNew":true},{"name":"dropdown","title":"Dropdown"},{"name":"tabs","title":"Tabs"},{"name":"segmented-control","title":"Segmented Control"},{"name":"breadcrumb","title":"Breadcrumb"},{"name":"pagination","title":"Pagination"},{"name":"sidebar","title":"Sidebar"}]},{"id":"feedback","title":"Feedback & status","items":[{"name":"badge","title":"Badge"},{"name":"chip","title":"Chip"},{"name":"status-dot","title":"Status Dot"},{"name":"announcement","title":"Announcement"},{"name":"notification","title":"Notification"},{"name":"theme-toggle","title":"Theme Toggle"},{"name":"notification-center","title":"Notification Center"}]},{"id":"overlays","title":"Overlays & disclosures","items":[{"name":"morphing-accordion","title":"Morphing Accordion","isNew":true},{"name":"detail-drawer","title":"Detail Drawer","isNew":true},{"name":"animated-tooltip","title":"Animated Tooltip","isNew":true},{"name":"morphing-dialog","title":"Morphing Dialog","isNew":true},{"name":"morphing-tooltip","title":"Morphing Tooltip","isNew":true},{"name":"animated-accordion","title":"Animated Accordion","isNew":true},{"name":"feature-dialog","title":"Feature Dialog","isNew":true},{"name":"tooltip","title":"Tooltip"},{"name":"settings-modal","title":"Settings Modal"}]},{"id":"typography","title":"Text & typography","items":[{"name":"text-on-path","title":"Text On Path","isNew":true},{"name":"text-fill-wave","title":"Text Fill Wave","isNew":true},{"name":"velocity-type","title":"Velocity Type","isNew":true},{"name":"typewriter","title":"Typewriter","isNew":true},{"name":"character-appear","title":"Character Appear","isNew":true},{"name":"text-morph","title":"Text Morph","isNew":true},{"name":"text-split-zoom","title":"Text Split Zoom","isNew":true},{"name":"text-scramble","title":"Text Scramble","isNew":true},{"name":"rectangle-text-reveal","title":"Rectangle Text Reveal","isNew":true},{"name":"popping-text","title":"Popping Text","isNew":true},{"name":"folding-text","title":"Folding Text","isNew":true},{"name":"cinematic-text","title":"Cinematic Text","isNew":true},{"name":"text-shimmer-wave","title":"Text Shimmer Wave","isNew":true},{"name":"text-reveal","title":"Text Reveal","isNew":true},{"name":"dual-scramble","title":"Dual Scramble","isNew":true},{"name":"typography","title":"Typography"},{"name":"kbd","title":"Kbd"}]},{"id":"icons","title":"Icons & identity","items":[{"name":"chevrons","title":"Chevrons"},{"name":"logo","title":"Logo"},{"name":"avatar","title":"Avatar"}]},{"id":"layout","title":"Layout & structure","items":[{"name":"grid-chapters","title":"Grid Chapters","isNew":true},{"name":"network-globe","title":"Network Globe","isNew":true},{"name":"dock-footer","title":"Dock Footer","isNew":true},{"name":"flip-filter","title":"Flip Filter","isNew":true},{"name":"capsule-hero","title":"Capsule Hero","isNew":true},{"name":"wipe-slider","title":"Wipe Slider","isNew":true},{"name":"step-wipe","title":"Step Wipe","isNew":true},{"name":"gradient-footer","title":"Gradient Footer","isNew":true},{"name":"testimonial-globe","title":"Testimonial Globe","isNew":true},{"name":"drift-gallery","title":"Drift Gallery","isNew":true},{"name":"divider","title":"Divider"},{"name":"app-shell","title":"App Shell"}]},{"id":"data","title":"Data & charts","items":[{"name":"progress","title":"Progress","isNew":true},{"name":"counter","title":"Counter","isNew":true},{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"table","title":"Table"},{"name":"stat-cards","title":"Stat Cards"},{"name":"data-table","title":"Data Table"},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart"},{"name":"orders-chart-card","title":"Orders Chart"},{"name":"important-alerts-card","title":"Important Alerts"},{"name":"patient-info-card","title":"Patient Info"}]},{"id":"media","title":"Images & media","items":[{"name":"mesh-gradient","title":"Mesh Gradient","isNew":true},{"name":"dithering","title":"Dithering","isNew":true},{"name":"image-glitch","title":"Image Glitch","isNew":true},{"name":"gooey-hover-reveal","title":"Gooey Hover Reveal","isNew":true},{"name":"dither-cursor-trail","title":"Dither Cursor Trail","isNew":true},{"name":"image-dissolve-scroll","title":"Image Dissolve Scroll","isNew":true},{"name":"scatter-cluster","title":"Scatter Cluster","isNew":true},{"name":"multi-flip","title":"Multi Flip","isNew":true},{"name":"velocity-clip","title":"Velocity Clip","isNew":true},{"name":"svg-draw-path","title":"SVG Draw Path","isNew":true},{"name":"parallax","title":"Parallax","isNew":true},{"name":"mask-reveal","title":"Mask Reveal","isNew":true},{"name":"flip-zone","title":"Flip Zone","isNew":true},{"name":"element-reveal","title":"Element Reveal","isNew":true},{"name":"background-color","title":"Background Color","isNew":true},{"name":"animated-grid","title":"Animated Grid","isNew":true},{"name":"random-rotate","title":"Random Rotate","isNew":true},{"name":"photo-stack-gallery","title":"Photo Stack Gallery","isNew":true},{"name":"spiral-gallery","title":"Spiral Gallery","isNew":true},{"name":"lens-rail","title":"Lens Rail","isNew":true},{"name":"expanding-strip","title":"Expanding Strip","isNew":true},{"name":"index-wipe","title":"Index Wipe","isNew":true},{"name":"card-fan","title":"Card Fan","isNew":true},{"name":"radial-gallery","title":"Radial Gallery","isNew":true},{"name":"circular-slider","title":"Circular Slider","isNew":true},{"name":"infinite-parallax-slider","title":"Infinite Parallax Slider","isNew":true},{"name":"image-follow-list","title":"Image Follow List","isNew":true},{"name":"hoverable-list","title":"Hoverable List","isNew":true},{"name":"infinite-draggable-grid","title":"Infinite Draggable Grid","isNew":true},{"name":"infinite-marquee","title":"Infinite Marquee","isNew":true},{"name":"image-trail","title":"Image Trail","isNew":true},{"name":"3d-card-flip","title":"3D Card Flip","isNew":true},{"name":"image-fly-in","title":"Image Fly-In","isNew":true},{"name":"scale-slider","title":"Scale Slider","isNew":true},{"name":"curtain-slider","title":"Curtain Slider","isNew":true},{"name":"ascii-overlay","title":"ASCII Overlay","isNew":true},{"name":"carousel","title":"Carousel"}]},{"id":"scheduling","title":"Dates & scheduling","items":[{"name":"calendar","title":"Calendar","isNew":true},{"name":"date-picker","title":"Date Picker"},{"name":"date-range-picker","title":"Date Range Picker"},{"name":"meeting-scheduler","title":"Meeting Scheduler"}]},{"id":"ai","title":"AI & agents","items":[{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true},{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking"},{"name":"composer-loader","title":"Composer Loader"},{"name":"agent-log","title":"Agent Log"},{"name":"agent-chat","title":"Agent Chat"}]},{"id":"pricing","title":"Pricing & billing","items":[{"name":"animated-pricing","title":"Animated Pricing","isNew":true}]},{"id":"screens","title":"Complete screens","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true}]},{"id":"foundations","title":"Design foundations","items":[{"name":"tokens","title":"Design tokens"}]},{"id":"utilities","title":"Hooks & utilities","items":[{"name":"cx","title":"cx"},{"name":"use-count-up","title":"useCountUp"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress"}]}],"description":"A compact pill expands into navigation with staggered and rolling links","detail":true,"children":"$L3"}],["$L4","$L5","$L6","$L7","$L8","$L9","$La","$Lb","$Lc","$Ld","$Le"],"$Lf"]}],"isPartial":"$@10","staleTime":"$11","varyParams":null},{"rsc":"$L12","isPartial":"$@13","staleTime":"$11","varyParams":null},{"rsc":"$L14","isPartial":"$@15","staleTime":"$11","varyParams":"$16"},{"rsc":"$L17","isPartial":"$@18","staleTime":"$11","varyParams":"$16"}],"isUpgradeableISRFallback":false,"a":"$@19","rootVaryParams":null,"needsRuntimeRequest":"$@1a"}
+1b:I[125016,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js","/_next/static/chunks/0lh826sok5gy8.js","/_next/static/chunks/3_1pfg1675we5.js","/_next/static/chunks/3b-j35phbz363.js","/_next/static/chunks/2v6dx3y3pgbg2.js","/_next/static/chunks/3znghnjm2oz_l.js","/_next/static/chunks/3458ylrm-tu9f.js","/_next/static/chunks/1h9znjrekhrnu.js","/_next/static/chunks/052khci2jbxel.js","/_next/static/chunks/3fuakxesa5sfw.js","/_next/static/chunks/34kutq8p1wnfe.js","/_next/static/chunks/0y5abjvkezh1o.js"],"ComponentPage"]
+1e:I[579014,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js"],"OutletBoundary"]
+1f:"$Sreact.suspense"
+21:I[579014,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js"],"ViewportBoundary"]
+22:I[579014,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js"],"MetadataBoundary"]
+23:I[337280,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js"],"default"]
+24:I[475701,["/_next/static/chunks/0ekqw6yi_zy68.js","/_next/static/chunks/1l1ztpmvvr6un.js"],"default"]
+1c:Tfe4,// @zeus-internal
+"use client";
+import { type RefObject, useEffect, useRef, useState } from "react";
+export function useMenuState(
+  value: boolean | undefined,
+  initial: boolean,
+  onChange?: (open: boolean) => void,
+) {
+  const [local, setLocal] = useState(initial);
+  return [
+    value ?? local,
+    (next: boolean) => {
+      if (value === undefined) setLocal(next);
+      onChange?.(next);
+    },
+  ] as const;
+}
+export function useMenuDismiss(
+  open: boolean,
+  onChange: (open: boolean) => void,
+  host: RefObject<HTMLElement | null>,
+  trigger?: RefObject<HTMLElement | null>,
+) {
+  const latest = useRef(onChange);
+  latest.current = onChange;
+  useEffect(() => {
+    if (!open) return;
+    const pointer = (event: PointerEvent) => {
+      if (!host.current?.contains(event.target as Node)) latest.current(false);
+    };
+    const key = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        event.preventDefault();
+        latest.current(false);
+        trigger?.current?.focus();
+      }
+    };
+    document.addEventListener("pointerdown", pointer);
+    document.addEventListener("keydown", key);
+    return () => {
+      document.removeEventListener("pointerdown", pointer);
+      document.removeEventListener("keydown", key);
+    };
+  }, [open, host, trigger]);
+}
+export function MenuInternalStyles() {
+  return (
+    <style>{`
+    .z-am-reset{font:inherit;color:inherit;border:0;background:none;text-decoration:none;cursor:pointer}
+    .z-am-reset:focus-visible{outline:2px solid currentColor;outline-offset:5px}
+    .z-am-roll{display:inline-flex;overflow:hidden;line-height:1.2}
+    .z-am-roll>span{display:inline-block;position:relative;transition:transform .4s cubic-bezier(.2,.8,.2,1)}
+    .z-am-roll>span:after{content:attr(data-letter);position:absolute;top:100%;left:0}
+    a:hover .z-am-roll>span,a:focus-visible .z-am-roll>span{transform:translateY(-100%)}
+    @keyframes z-am-character{from{transform:translateY(105%);opacity:0}to{transform:translateY(0);opacity:1}}
+    [data-pill-open=true] .z-am-letter-entry{display:inline-block;animation:z-am-character var(--z-am-duration,.6s) cubic-bezier(.2,.8,.2,1) both}
+    .z-am-pill-grid{display:grid;grid-template-columns:minmax(0,.75fr) minmax(0,1.25fr);gap:32px;padding:4px 32px 28px}
+    .z-am-pill-image{width:100%;height:200px;object-fit:cover;border-radius:16px}
+    .z-am-fs-layout{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:8vw;padding:100px 5vw 60px;min-height:100%;box-sizing:border-box}
+    .z-am-fs-picture{width:100%;height:min(62vh,620px);object-fit:cover}
+    .z-am-mega-mobile{display:none}
+    .z-am-mega-groups{display:flex;gap:12px;align-items:center}
+    .z-am-mega-columns{display:grid;grid-template-columns:repeat(var(--z-am-columns,3),minmax(0,1fr));gap:40px;padding:36px}
+    @media(max-width:640px){.z-am-pill-grid{gap:20px;padding:0 20px 24px;grid-template-columns:minmax(0,.6fr) minmax(0,1fr)}.z-am-pill-image{height:180px}.z-am-fs-layout{grid-template-columns:1fr;gap:24px;padding-top:100px}.z-am-fs-picture{height:24vh}.z-am-mega-groups{display:none}.z-am-mega-mobile{display:block}.z-am-mega-columns{display:block;padding:20px}.z-am-mega-columns>div{margin-bottom:24px}}
+    @media(prefers-reduced-motion:reduce){.z-am-animated,.z-am-animated *{animation-duration:.001ms!important;animation-delay:0s!important;transition-duration:.001ms!important;transition-delay:0s!important}}
+  `}</style>
+  );
+}
+export function MenuRollingLabel({
+  text,
+  stagger = 0.018,
+  delay = 0,
+}: {
+  text: string;
+  stagger?: number;
+  delay?: number;
+}) {
+  return (
+    <span className="z-am-roll" aria-hidden>
+      {Array.from(text).map((letter, i) => (
+        <span
+          key={`${i}-${letter}`}
+          data-letter={letter === " " ? "\u00a0" : letter}
+          style={{ transitionDelay: `${i * 0.012}s` }}
+        >
+          <span className="z-am-letter-entry" style={{ animationDelay: `${delay + i * stagger}s` }}>
+            {letter === " " ? "\u00a0" : letter}
+          </span>
+        </span>
+      ))}
+    </span>
+  );
+}
+1d:T1888,"use client";
+import { type CSSProperties, useId, useLayoutEffect, useRef, useState } from "react";
+import { MenuInternalStyles, MenuRollingLabel, useMenuDismiss, useMenuState } from "./menu-shared";
+export interface MorphingPillLink {
+  id: string;
+  label: string;
+  href: string;
+  badge?: string;
+}
+export interface MorphingPillMenuProps {
+  links: readonly MorphingPillLink[];
+  image?: string;
+  imageAlt?: string;
+  imageHref?: string;
+  open?: boolean;
+  defaultOpen?: boolean;
+  onOpenChange?: (open: boolean) => void;
+  onNavigate?: (link: MorphingPillLink) => void;
+  duration?: number;
+  stagger?: number;
+  background?: string;
+  color?: string;
+  maxWidth?: number;
+  className?: string;
+  style?: CSSProperties;
+}
+export function MorphingPillMenu({
+  links,
+  image,
+  imageAlt = "",
+  imageHref,
+  open,
+  defaultOpen = false,
+  onOpenChange,
+  onNavigate,
+  duration = 0.65,
+  stagger = 0.018,
+  background = "#292929",
+  color = "#f4f2ec",
+  maxWidth = 600,
+  className,
+  style,
+}: MorphingPillMenuProps) {
+  const [expanded, setExpanded] = useMenuState(open, defaultOpen, onOpenChange);
+  const root = useRef<HTMLElement>(null),
+    content = useRef<HTMLDivElement>(null),
+    trigger = useRef<HTMLButtonElement>(null);
+  const [height, setHeight] = useState(252);
+  const id = useId();
+  useMenuDismiss(expanded, setExpanded, root, trigger);
+  useLayoutEffect(() => {
+    const node = content.current;
+    if (!node) return;
+    const measure = () => setHeight(node.scrollHeight);
+    measure();
+    const observer = new ResizeObserver(measure);
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, []);
+  return (
+    <div
+      className={className}
+      style={{ width: "100%", display: "flex", justifyContent: "center", ...style }}
+    >
+      <MenuInternalStyles />
+      <nav
+        ref={root}
+        aria-label="Main navigation"
+        data-pill-open={expanded}
+        className="z-am-animated"
+        style={
+          {
+            position: "relative",
+            background,
+            color,
+            width: expanded ? `min(${maxWidth}px,100%)` : 120,
+            height: expanded ? Math.min(height + 48, 10000) : 48,
+            maxHeight: "calc(100dvh - 40px)",
+            borderRadius: expanded ? 26 : 999,
+            overflow: "hidden",
+            transition: `width ${duration}s cubic-bezier(.2,.8,.2,1),height ${duration}s cubic-bezier(.2,.8,.2,1),border-radius ${duration}s`,
+            "--z-am-duration": `${duration}s`,
+          } as CSSProperties
+        }
+      >
+        <div
+          style={{ height: 48, display: "flex", justifyContent: "center", alignItems: "center" }}
+        >
+          <button
+            ref={trigger}
+            type="button"
+            className="z-am-reset"
+            aria-expanded={expanded}
+            aria-controls={id}
+            aria-label={expanded ? "Close navigation menu" : "Open navigation menu"}
+            onClick={() => setExpanded(!expanded)}
+            style={{
+              minHeight: 44,
+              padding: "0 18px",
+              display: "flex",
+              alignItems: "center",
+              gap: 12,
+              fontSize: 15,
+            }}
+          >
+            {expanded ? "Close" : "Menu"}
+            <span
+              aria-hidden
+              style={{
+                width: 26,
+                height: 26,
+                borderRadius: 999,
+                background: "#fff2",
+                display: "grid",
+                placeItems: "center",
+                fontSize: 20,
+                transform: expanded ? "rotate(45deg)" : "rotate(0deg)",
+                transition: `transform ${duration}s`,
+              }}
+            >
+              +
+            </span>
+          </button>
+        </div>
+        <div
+          id={id}
+          inert={!expanded}
+          aria-hidden={!expanded}
+          style={{
+            overflow: "auto",
+            height: "calc(100% - 48px)",
+            opacity: expanded ? 1 : 0,
+            transition: `opacity ${duration * 0.5}s`,
+          }}
+        >
+          <div
+            ref={content}
+            className="z-am-pill-grid"
+            style={!image ? { gridTemplateColumns: "1fr" } : undefined}
+          >
+            {image &&
+              (imageHref ? (
+                <a
+                  href={imageHref}
+                  aria-label={imageAlt || "View collection"}
+                  onClick={() => setExpanded(false)}
+                >
+                  <img className="z-am-pill-image" src={image} alt={imageAlt} />
+                </a>
+              ) : (
+                <img className="z-am-pill-image" src={image} alt={imageAlt} />
+              ))}
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "flex-start",
+                minWidth: 0,
+              }}
+            >
+              {links.map((link, index) => (
+                <a
+                  key={link.id}
+                  className="z-am-reset"
+                  href={link.href}
+                  aria-label={link.label}
+                  onClick={() => {
+                    setExpanded(false);
+                    onNavigate?.(link);
+                  }}
+                  style={{
+                    fontSize: "clamp(20px,3vw,34px)",
+                    letterSpacing: "-.045em",
+                    lineHeight: 1.3,
+                    minHeight: 44,
+                    display: "flex",
+                    alignItems: "center",
+                    maxWidth: "100%",
+                    gap: 10,
+                  }}
+                >
+                  <span style={{ overflow: "hidden" }}>
+                    <MenuRollingLabel
+                      text={link.label}
+                      stagger={stagger}
+                      delay={index * stagger * 4}
+                    />
+                  </span>
+                  {link.badge && (
+                    <small style={{ color: "#ff653b", fontSize: 12, letterSpacing: 0 }}>
+                      {link.badge}
+                    </small>
+                  )}
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  );
+}
+3:["$","$L1b",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"morphing-pill-menu","title":"Morphing Pill Menu","description":"A compact pill expands into navigation with staggered and rolling links","category":"animations","family":"navigation","kind":"animation","designSystem":null,"foundationDependencies":[],"iconLibraries":[],"tags":["animation","annnimate","menu","click","morphing"],"status":"beta","tier":"free","isNew":true,"dependencies":[],"registryDependencies":[],"files":[{"path":"application/animations/expanded/menus/menu-shared.tsx","target":"components/application/animations/expanded/menus/menu-shared.tsx","type":"component","content":"$1c"},{"path":"application/animations/expanded/menus/morphing-pill-menu.tsx","target":"components/application/animations/expanded/menus/morphing-pill-menu.tsx","type":"component","content":"$1d"},{"path":"public/assets/annnimate/action_cyclist-climb_02.jpg","target":"public/assets/annnimate/action_cyclist-climb_02.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/product_shoe_01.jpg","target":"public/assets/annnimate/product_shoe_01.jpg","type":"asset","encoding":"base64"}],"hash":"fdde761801eb"},"demoSource":"\"use client\";\nimport { MorphingPillMenu } from \"@/components/application/animations/expanded/menus/morphing-pill-menu\";\n\nexport default function Example() {\n  return (\n    <MorphingPillMenu\n      links={[\n        {\n          \"id\": \"home\",\n          \"label\": \"Home\",\n          \"href\": \"#home\"\n        },\n        {\n          \"id\": \"our-studio\",\n          \"label\": \"Our studio\",\n          \"href\": \"#our-studio\"\n        },\n        {\n          \"id\": \"field-notes\",\n          \"label\": \"Field notes\",\n          \"href\": \"#field-notes\",\n          \"badge\": \"New\"\n        },\n        {\n          \"id\": \"contact\",\n          \"label\": \"Contact\",\n          \"href\": \"#contact\"\n        }\n      ]}\n      image={\"/assets/annnimate/product_shoe_01.jpg\"}\n      imageAlt={\"Trail shoe\"}\n      imageHref={\"#collection\"}\n      duration={0.65}\n      stagger={0.018}\n      background={\"#292929\"}\n      color={\"#f4f2ec\"}\n    />\n  );\n}","previous":{"name":"drift-gallery","title":"Drift Gallery"},"next":{"name":"gooey-menu","title":"Gooey Menu"}}]
+4:["$","script","script-0",{"src":"/_next/static/chunks/0lh826sok5gy8.js","async":true}]
+5:["$","script","script-1",{"src":"/_next/static/chunks/3_1pfg1675we5.js","async":true}]
+6:["$","script","script-2",{"src":"/_next/static/chunks/3b-j35phbz363.js","async":true}]
+7:["$","script","script-3",{"src":"/_next/static/chunks/2v6dx3y3pgbg2.js","async":true}]
+8:["$","script","script-4",{"src":"/_next/static/chunks/3znghnjm2oz_l.js","async":true}]
+9:["$","script","script-5",{"src":"/_next/static/chunks/3458ylrm-tu9f.js","async":true}]
+a:["$","script","script-6",{"src":"/_next/static/chunks/1h9znjrekhrnu.js","async":true}]
+b:["$","script","script-7",{"src":"/_next/static/chunks/052khci2jbxel.js","async":true}]
+c:["$","script","script-8",{"src":"/_next/static/chunks/3fuakxesa5sfw.js","async":true}]
+d:["$","script","script-9",{"src":"/_next/static/chunks/34kutq8p1wnfe.js","async":true}]
+e:["$","script","script-10",{"src":"/_next/static/chunks/0y5abjvkezh1o.js","async":true}]
+f:["$","$L1e",null,{"children":["$","$1f",null,{"name":"Next.MetadataOutlet","children":"$@20"}]}]
+12:["$","$1","h",{"children":[null,["$","$L21",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L22",null,{"children":["$","$1f",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Morphing Pill Menu — Zeus UI"}],["$","meta","1",{"name":"description","content":"A compact pill expands into navigation with staggered and rolling links"}],["$","meta","2",{"name":"keywords","content":"animation,annnimate,menu,click,morphing"}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+14:["$","$1","c",{"children":[null,["$","$L23",null,{"parallelRouterKey":"children","template":["$","$L24",null,{}]}]]}]
+17:["$","$1","c",{"children":[null,["$","$L23",null,{"parallelRouterKey":"children","template":["$","$L24",null,{}]}]]}]
+1a:true
+20:null
+11:300
+11:C
+19:0
+13:"$undefined"
+15:"$undefined"
+18:"$undefined"
+10:"$undefined"
