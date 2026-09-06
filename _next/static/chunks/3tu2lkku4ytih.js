@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,126696,t=>{"use strict";var i=t.i(538935),s=t.i(16698);t.s(["default",0,function(){return(0,i.jsx)("div",{className:"w-full max-w-3xl",children:(0,i.jsx)(s.MostActiveDaysCard,{})})}])},336168,function(t){t.n(t.i(126696))}]);

@@ -8,7 +8,7 @@ The best components for your agent. Curated React components for websites, dashb
 
 ## Install source
 
-Run `npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.3.0.tgz zeus-ui add agent-limits-card` in your React project. Source, dependencies and token styles are installed together. Import the copied styles once; see the getting started guide.
+Run `npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.3.1.tgz zeus-ui add agent-limits-card` in your React project. Source, dependencies and token styles are installed together. Import the copied styles once; see the getting started guide.
 
 ## Curated collections
 

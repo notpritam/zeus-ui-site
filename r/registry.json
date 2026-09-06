@@ -3,7 +3,7 @@
   "name": "zeus-ui",
   "homepage": "https://myzeusui.com",
   "license": "MIT",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "organizationVersion": 1,
   "families": [
     {
@@ -4121,7 +4121,7 @@
       "isNew": true,
       "dependencies": [],
       "registryDependencies": [],
-      "hash": "9df7a343be38",
+      "hash": "1c56ea4fb067",
       "files": [
         {
           "path": "application/animations/expanded/galleries/gallery-shared.tsx",
