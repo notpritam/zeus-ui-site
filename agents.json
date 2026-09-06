@@ -158,9 +158,9 @@
       "components": [
         "morphing-tooltip",
         "composer",
+        "network-globe",
+        "lens-rail",
         "feature-dialog",
-        "activity-rings-card",
-        "curtain-slider",
         "revenue-chart-card"
       ],
       "href": "https://myzeusui.com/components/?collection=featured"
@@ -172,11 +172,11 @@
       "curation": "editorial",
       "components": [
         "morphing-tooltip",
-        "text-reveal",
-        "dual-scramble",
-        "composer",
-        "agent-progress",
-        "ascii-overlay"
+        "text-morph",
+        "lens-rail",
+        "morphing-island",
+        "curve-fill-button",
+        "network-globe"
       ],
       "href": "https://myzeusui.com/components/?collection=trending"
     },
@@ -198,20 +198,20 @@
     {
       "id": "new",
       "title": "New additions",
-      "description": "Eleven new ways to bring considered motion into your next build.",
+      "description": "New ways to shape, move and explore a complete interface.",
       "curation": "editorial",
       "components": [
-        "morphing-tooltip",
-        "text-reveal",
-        "animated-accordion",
-        "dual-scramble",
-        "multi-level-drawer-menu",
-        "image-fly-in",
-        "scale-slider",
-        "curtain-slider",
-        "feature-dialog",
-        "ascii-overlay",
-        "animated-pricing"
+        "network-globe",
+        "lens-rail",
+        "morphing-island",
+        "curve-fill-button",
+        "text-morph",
+        "drift-gallery",
+        "wipe-slider",
+        "morphing-tabs",
+        "flip-filter",
+        "mesh-gradient",
+        "capsule-hero"
       ],
       "href": "https://myzeusui.com/components/?collection=new"
     }
