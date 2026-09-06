@@ -1,6 +1,6 @@
 # Zeus UI
 
-Reusable React components, charts and application templates for coding agents.
+The best components for your agent. Curated React components for websites, dashboards, AI products and everyday interfaces.
 
 - [Agent manifest](https://myzeusui.com/agents.json): 99 components with examples, install commands and source URLs.
 - [Registry](https://myzeusui.com/r/registry.json)
@@ -10,6 +10,13 @@ Reusable React components, charts and application templates for coding agents.
 ## Install source
 
 Run `npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.1.tgz zeus-ui init`, then `npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.1.tgz zeus-ui add agent-limits-card`.
+
+## Curated collections
+
+- [Featured](https://myzeusui.com/components/?collection=featured): Standout details. Useful foundations. Editorial selection.
+- [Trending picks](https://myzeusui.com/components/?collection=trending): Our curated edit of expressive motion and thoughtful AI interfaces. Editorial selection.
+- [Everyday essentials](https://myzeusui.com/components/?collection=essentials): Useful components for the work every interface needs to do. Editorial selection.
+- [New additions](https://myzeusui.com/components/?collection=new): Eleven new ways to bring considered motion into your next build. Editorial selection.
 
 ## Components
 

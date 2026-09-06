@@ -1,8 +1,76 @@
 {
   "name": "Zeus UI",
+  "description": "The best components for your agent. A curated React library for websites, dashboards, AI products and everyday interfaces.",
   "version": "0.2.1",
   "homepage": "https://myzeusui.com",
   "registry": "https://myzeusui.com/r/registry.json",
+  "collections": [
+    {
+      "id": "featured",
+      "title": "Featured",
+      "description": "Standout details. Useful foundations.",
+      "curation": "editorial",
+      "components": [
+        "morphing-tooltip",
+        "composer",
+        "feature-dialog",
+        "activity-rings-card",
+        "curtain-slider",
+        "revenue-chart-card"
+      ],
+      "href": "https://myzeusui.com/components/?collection=featured"
+    },
+    {
+      "id": "trending",
+      "title": "Trending picks",
+      "description": "Our curated edit of expressive motion and thoughtful AI interfaces.",
+      "curation": "editorial",
+      "components": [
+        "morphing-tooltip",
+        "text-reveal",
+        "dual-scramble",
+        "composer",
+        "agent-progress",
+        "ascii-overlay"
+      ],
+      "href": "https://myzeusui.com/components/?collection=trending"
+    },
+    {
+      "id": "essentials",
+      "title": "Everyday essentials",
+      "description": "Useful components for the work every interface needs to do.",
+      "curation": "editorial",
+      "components": [
+        "data-table",
+        "date-picker",
+        "notification-center",
+        "sidebar",
+        "button",
+        "file-upload"
+      ],
+      "href": "https://myzeusui.com/components/?collection=essentials"
+    },
+    {
+      "id": "new",
+      "title": "New additions",
+      "description": "Eleven new ways to bring considered motion into your next build.",
+      "curation": "editorial",
+      "components": [
+        "morphing-tooltip",
+        "text-reveal",
+        "animated-accordion",
+        "dual-scramble",
+        "multi-level-drawer-menu",
+        "image-fly-in",
+        "scale-slider",
+        "curtain-slider",
+        "feature-dialog",
+        "ascii-overlay",
+        "animated-pricing"
+      ],
+      "href": "https://myzeusui.com/components/?collection=new"
+    }
+  ],
   "mcp": {
     "command": "npx",
     "args": [

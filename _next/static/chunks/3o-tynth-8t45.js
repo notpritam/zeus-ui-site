@@ -1,1 +1,0 @@
-(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,55771,t=>{"use strict";var e=t.i(38935),n=t.i(49398);t.s(["default",0,function(){return(0,e.jsx)("div",{className:"h-[900px] w-[1440px] max-w-none",children:(0,e.jsx)(n.AIChatTemplate,{contained:!0})})}])},846,function(t){t.n(t.i(55771))}]);
