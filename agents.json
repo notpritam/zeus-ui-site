@@ -4,6 +4,11 @@
   "version": "0.2.2",
   "homepage": "https://myzeusui.com",
   "registry": "https://myzeusui.com/r/registry.json",
+  "media": {
+    "library": "https://myzeusui.com/media/",
+    "manifest": "https://myzeusui.com/media/manifest.json",
+    "recordedComponents": 21
+  },
   "organization": {
     "version": 1,
     "families": [
@@ -257,6 +262,12 @@
       "docs": "https://myzeusui.com/components/morphing-tooltip/",
       "source": "https://myzeusui.com/r/morphing-tooltip.json",
       "playground": "https://myzeusui.com/playground/morphing-tooltip/",
+      "media": {
+        "preview": "https://myzeusui.com/media/morphing-tooltip/preview-ce825cbe0482.mp4",
+        "social": "https://myzeusui.com/media/morphing-tooltip/social-56df3216bd64.mp4",
+        "gif": "https://myzeusui.com/media/morphing-tooltip/gif-e12ed1c3af97.gif",
+        "poster": "https://myzeusui.com/media/morphing-tooltip/poster-eb5e23532bc1.webp"
+      },
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.2.tgz zeus-ui add morphing-tooltip",
       "dependencies": [
         "@gsap/react",
@@ -288,6 +299,12 @@
       "docs": "https://myzeusui.com/components/text-reveal/",
       "source": "https://myzeusui.com/r/text-reveal.json",
       "playground": "https://myzeusui.com/playground/text-reveal/",
+      "media": {
+        "preview": "https://myzeusui.com/media/text-reveal/preview-b4733f87ee1f.mp4",
+        "social": "https://myzeusui.com/media/text-reveal/social-03ff9c00f63f.mp4",
+        "gif": "https://myzeusui.com/media/text-reveal/gif-d15cd3c17942.gif",
+        "poster": "https://myzeusui.com/media/text-reveal/poster-9f2147f9bda6.webp"
+      },
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.2.tgz zeus-ui add text-reveal",
       "dependencies": [
         "@gsap/react",
@@ -319,6 +336,12 @@
       "docs": "https://myzeusui.com/components/animated-accordion/",
       "source": "https://myzeusui.com/r/animated-accordion.json",
       "playground": "https://myzeusui.com/playground/animated-accordion/",
+      "media": {
+        "preview": "https://myzeusui.com/media/animated-accordion/preview-39484f62d39f.mp4",
+        "social": "https://myzeusui.com/media/animated-accordion/social-c1992f174d13.mp4",
+        "gif": "https://myzeusui.com/media/animated-accordion/gif-f8f6f86723fa.gif",
+        "poster": "https://myzeusui.com/media/animated-accordion/poster-aca059143f45.webp"
+      },
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.2.tgz zeus-ui add animated-accordion",
       "dependencies": [
         "@gsap/react",
@@ -350,6 +373,12 @@
       "docs": "https://myzeusui.com/components/dual-scramble/",
       "source": "https://myzeusui.com/r/dual-scramble.json",
       "playground": "https://myzeusui.com/playground/dual-scramble/",
+      "media": {
+        "preview": "https://myzeusui.com/media/dual-scramble/preview-48902c3aa1f5.mp4",
+        "social": "https://myzeusui.com/media/dual-scramble/social-b3177574a60a.mp4",
+        "gif": "https://myzeusui.com/media/dual-scramble/gif-7d61c4a3a273.gif",
+        "poster": "https://myzeusui.com/media/dual-scramble/poster-072a198aad38.webp"
+      },
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.2.tgz zeus-ui add dual-scramble",
       "dependencies": [
         "@gsap/react",
@@ -381,6 +410,12 @@
       "docs": "https://myzeusui.com/components/multi-level-drawer-menu/",
       "source": "https://myzeusui.com/r/multi-level-drawer-menu.json",
       "playground": "https://myzeusui.com/playground/multi-level-drawer-menu/",
+      "media": {
+        "preview": "https://myzeusui.com/media/multi-level-drawer-menu/preview-bb18de6435c8.mp4",
+        "social": "https://myzeusui.com/media/multi-level-drawer-menu/social-5500aef6bfab.mp4",
+        "gif": "https://myzeusui.com/media/multi-level-drawer-menu/gif-1cdb81ec107c.gif",
+        "poster": "https://myzeusui.com/media/multi-level-drawer-menu/poster-30b7dbf14552.webp"
+      },
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.2.tgz zeus-ui add multi-level-drawer-menu",
       "dependencies": [
         "@gsap/react",
@@ -412,6 +447,12 @@
       "docs": "https://myzeusui.com/components/image-fly-in/",
       "source": "https://myzeusui.com/r/image-fly-in.json",
       "playground": "https://myzeusui.com/playground/image-fly-in/",
+      "media": {
+        "preview": "https://myzeusui.com/media/image-fly-in/preview-ce5c9dd92928.mp4",
+        "social": "https://myzeusui.com/media/image-fly-in/social-d53420467ecb.mp4",
+        "gif": "https://myzeusui.com/media/image-fly-in/gif-86d29987222e.gif",
+        "poster": "https://myzeusui.com/media/image-fly-in/poster-98ace9b37bf0.webp"
+      },
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.2.tgz zeus-ui add image-fly-in",
       "dependencies": [
         "@gsap/react",
@@ -443,6 +484,12 @@
       "docs": "https://myzeusui.com/components/scale-slider/",
       "source": "https://myzeusui.com/r/scale-slider.json",
       "playground": "https://myzeusui.com/playground/scale-slider/",
+      "media": {
+        "preview": "https://myzeusui.com/media/scale-slider/preview-2e41f5a67291.mp4",
+        "social": "https://myzeusui.com/media/scale-slider/social-98f71baf64ec.mp4",
+        "gif": "https://myzeusui.com/media/scale-slider/gif-13a1f84be820.gif",
+        "poster": "https://myzeusui.com/media/scale-slider/poster-1c41ec734d9c.webp"
+      },
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.2.tgz zeus-ui add scale-slider",
       "dependencies": [
         "@gsap/react",
@@ -474,6 +521,12 @@
       "docs": "https://myzeusui.com/components/curtain-slider/",
       "source": "https://myzeusui.com/r/curtain-slider.json",
       "playground": "https://myzeusui.com/playground/curtain-slider/",
+      "media": {
+        "preview": "https://myzeusui.com/media/curtain-slider/preview-7d38d57ac0cc.mp4",
+        "social": "https://myzeusui.com/media/curtain-slider/social-5b45e9a998ee.mp4",
+        "gif": "https://myzeusui.com/media/curtain-slider/gif-68c9626e485c.gif",
+        "poster": "https://myzeusui.com/media/curtain-slider/poster-aaf198b39867.webp"
+      },
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.2.tgz zeus-ui add curtain-slider",
       "dependencies": [
         "@gsap/react",
@@ -505,6 +558,12 @@
       "docs": "https://myzeusui.com/components/feature-dialog/",
       "source": "https://myzeusui.com/r/feature-dialog.json",
       "playground": "https://myzeusui.com/playground/feature-dialog/",
+      "media": {
+        "preview": "https://myzeusui.com/media/feature-dialog/preview-a938aaaf2e6e.mp4",
+        "social": "https://myzeusui.com/media/feature-dialog/social-7ae15614252b.mp4",
+        "gif": "https://myzeusui.com/media/feature-dialog/gif-99010288a52a.gif",
+        "poster": "https://myzeusui.com/media/feature-dialog/poster-855163d43a8e.webp"
+      },
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.2.tgz zeus-ui add feature-dialog",
       "dependencies": [
         "@gsap/react",
@@ -536,6 +595,12 @@
       "docs": "https://myzeusui.com/components/ascii-overlay/",
       "source": "https://myzeusui.com/r/ascii-overlay.json",
       "playground": "https://myzeusui.com/playground/ascii-overlay/",
+      "media": {
+        "preview": "https://myzeusui.com/media/ascii-overlay/preview-9177f874a4f2.mp4",
+        "social": "https://myzeusui.com/media/ascii-overlay/social-c3a0bf7433f0.mp4",
+        "gif": "https://myzeusui.com/media/ascii-overlay/gif-7bd67e26caa7.gif",
+        "poster": "https://myzeusui.com/media/ascii-overlay/poster-94de4acecbac.webp"
+      },
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.2.tgz zeus-ui add ascii-overlay",
       "dependencies": [
         "gsap",
@@ -567,6 +632,12 @@
       "docs": "https://myzeusui.com/components/animated-pricing/",
       "source": "https://myzeusui.com/r/animated-pricing.json",
       "playground": "https://myzeusui.com/playground/animated-pricing/",
+      "media": {
+        "preview": "https://myzeusui.com/media/animated-pricing/preview-eae4bea6a488.mp4",
+        "social": "https://myzeusui.com/media/animated-pricing/social-6f55135fc2ad.mp4",
+        "gif": "https://myzeusui.com/media/animated-pricing/gif-3b850075a8d2.gif",
+        "poster": "https://myzeusui.com/media/animated-pricing/poster-f742790ca359.webp"
+      },
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.2.tgz zeus-ui add animated-pricing",
       "dependencies": [
         "@gsap/react",
@@ -1137,6 +1208,12 @@
       ],
       "docs": "https://myzeusui.com/components/agent-progress/",
       "source": "https://myzeusui.com/r/agent-progress.json",
+      "media": {
+        "preview": "https://myzeusui.com/media/agent-progress/preview-06658265dc16.mp4",
+        "social": "https://myzeusui.com/media/agent-progress/social-8071e7124258.mp4",
+        "gif": "https://myzeusui.com/media/agent-progress/gif-2393d6cff564.gif",
+        "poster": "https://myzeusui.com/media/agent-progress/poster-b9bb2140d7c6.webp"
+      },
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.2.tgz zeus-ui add agent-progress",
       "dependencies": [
         "motion",
@@ -1215,6 +1292,12 @@
       ],
       "docs": "https://myzeusui.com/components/composer/",
       "source": "https://myzeusui.com/r/composer.json",
+      "media": {
+        "preview": "https://myzeusui.com/media/composer/preview-d4baa4e3a46e.mp4",
+        "social": "https://myzeusui.com/media/composer/social-d974d31e1d35.mp4",
+        "gif": "https://myzeusui.com/media/composer/gif-5d080a54b24d.gif",
+        "poster": "https://myzeusui.com/media/composer/poster-cadbb9b16c6e.webp"
+      },
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.2.tgz zeus-ui add composer",
       "dependencies": [
         "@remixicon/react",
@@ -2058,6 +2141,12 @@
       ],
       "docs": "https://myzeusui.com/components/button/",
       "source": "https://myzeusui.com/r/button.json",
+      "media": {
+        "preview": "https://myzeusui.com/media/button/preview-82d4c8e1cbaf.mp4",
+        "social": "https://myzeusui.com/media/button/social-6fbead69a1be.mp4",
+        "gif": "https://myzeusui.com/media/button/gif-ed7dd2d3266c.gif",
+        "poster": "https://myzeusui.com/media/button/poster-18ef3c685da2.webp"
+      },
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.2.tgz zeus-ui add button",
       "dependencies": [
         "tailwind-merge"
@@ -2527,6 +2616,12 @@
       ],
       "docs": "https://myzeusui.com/components/file-upload/",
       "source": "https://myzeusui.com/r/file-upload.json",
+      "media": {
+        "preview": "https://myzeusui.com/media/file-upload/preview-fd97330d5c0a.mp4",
+        "social": "https://myzeusui.com/media/file-upload/social-8fe3d518139d.mp4",
+        "gif": "https://myzeusui.com/media/file-upload/gif-149f4f480eb7.gif",
+        "poster": "https://myzeusui.com/media/file-upload/poster-6cc97ec1b76a.webp"
+      },
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.2.tgz zeus-ui add file-upload",
       "dependencies": [
         "@remixicon/react",
@@ -3007,6 +3102,12 @@
       ],
       "docs": "https://myzeusui.com/components/date-picker/",
       "source": "https://myzeusui.com/r/date-picker.json",
+      "media": {
+        "preview": "https://myzeusui.com/media/date-picker/preview-bab839aea08d.mp4",
+        "social": "https://myzeusui.com/media/date-picker/social-b90694697552.mp4",
+        "gif": "https://myzeusui.com/media/date-picker/gif-1c86770a8c58.gif",
+        "poster": "https://myzeusui.com/media/date-picker/poster-eb9d2388724b.webp"
+      },
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.2.tgz zeus-ui add date-picker",
       "dependencies": [
         "@internationalized/date",
@@ -3199,6 +3300,12 @@
       ],
       "docs": "https://myzeusui.com/components/data-table/",
       "source": "https://myzeusui.com/r/data-table.json",
+      "media": {
+        "preview": "https://myzeusui.com/media/data-table/preview-fc17d4e04bb9.mp4",
+        "social": "https://myzeusui.com/media/data-table/social-c2fa7d7dd7fa.mp4",
+        "gif": "https://myzeusui.com/media/data-table/gif-ecaa01cba72c.gif",
+        "poster": "https://myzeusui.com/media/data-table/poster-20683da938ff.webp"
+      },
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.2.tgz zeus-ui add data-table",
       "dependencies": [
         "@remixicon/react",
@@ -3249,6 +3356,12 @@
       ],
       "docs": "https://myzeusui.com/components/sidebar/",
       "source": "https://myzeusui.com/r/sidebar.json",
+      "media": {
+        "preview": "https://myzeusui.com/media/sidebar/preview-63c2ad3c8d26.mp4",
+        "social": "https://myzeusui.com/media/sidebar/social-0b59131b0334.mp4",
+        "gif": "https://myzeusui.com/media/sidebar/gif-a16e85ecb066.gif",
+        "poster": "https://myzeusui.com/media/sidebar/poster-97e29bc2b12c.webp"
+      },
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.2.tgz zeus-ui add sidebar",
       "dependencies": [
         "@internationalized/date",
@@ -3367,6 +3480,12 @@
       ],
       "docs": "https://myzeusui.com/components/notification-center/",
       "source": "https://myzeusui.com/r/notification-center.json",
+      "media": {
+        "preview": "https://myzeusui.com/media/notification-center/preview-fefa070d35a9.mp4",
+        "social": "https://myzeusui.com/media/notification-center/social-14d8c3a6065b.mp4",
+        "gif": "https://myzeusui.com/media/notification-center/gif-d160e1736f31.gif",
+        "poster": "https://myzeusui.com/media/notification-center/poster-2e91715e0998.webp"
+      },
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.2.tgz zeus-ui add notification-center",
       "dependencies": [
         "@remixicon/react",
@@ -3832,6 +3951,12 @@
       ],
       "docs": "https://myzeusui.com/components/activity-rings-card/",
       "source": "https://myzeusui.com/r/activity-rings-card.json",
+      "media": {
+        "preview": "https://myzeusui.com/media/activity-rings-card/preview-0ac0a5c27aaa.mp4",
+        "social": "https://myzeusui.com/media/activity-rings-card/social-2382f1995414.mp4",
+        "gif": "https://myzeusui.com/media/activity-rings-card/gif-a259ac848b90.gif",
+        "poster": "https://myzeusui.com/media/activity-rings-card/poster-1f94e7f9319a.webp"
+      },
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.2.tgz zeus-ui add activity-rings-card",
       "dependencies": [
         "@remixicon/react",
@@ -3906,6 +4031,12 @@
       ],
       "docs": "https://myzeusui.com/components/revenue-chart-card/",
       "source": "https://myzeusui.com/r/revenue-chart-card.json",
+      "media": {
+        "preview": "https://myzeusui.com/media/revenue-chart-card/preview-ee889233d297.mp4",
+        "social": "https://myzeusui.com/media/revenue-chart-card/social-9eced1d51f46.mp4",
+        "gif": "https://myzeusui.com/media/revenue-chart-card/gif-853d016663c8.gif",
+        "poster": "https://myzeusui.com/media/revenue-chart-card/poster-73ec3ee57f8b.webp"
+      },
       "install": "npx --yes --package=https://myzeusui.com/install/zeus-ui-0.2.2.tgz zeus-ui add revenue-chart-card",
       "dependencies": [
         "motion",
