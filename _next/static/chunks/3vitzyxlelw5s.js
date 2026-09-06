@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,88441,i=>{"use strict";var e=i.i(38935),n=i.i(64153);i.s(["default",0,function(){return(0,e.jsx)("div",{className:"h-[900px] w-[1440px] max-w-none",children:(0,e.jsx)(n.MedicalProfile,{contained:!0})})}])},92599,function(i){i.n(i.i(88441))}]);
