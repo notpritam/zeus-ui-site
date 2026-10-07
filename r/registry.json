@@ -3,7 +3,7 @@
   "name": "zeus-ui",
   "homepage": "https://myzeusui.com",
   "license": "MIT",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "organizationVersion": 1,
   "families": [
     {
@@ -10154,7 +10154,7 @@
         "tooltip",
         "use-dismiss-on-outside-press"
       ],
-      "hash": "316f8fe2266d",
+      "hash": "481a5b33378d",
       "files": [
         {
           "path": "application/dashboard/dashboard-sidebar.tsx",
@@ -10712,7 +10712,7 @@
         "tooltip",
         "use-dismiss-on-outside-press"
       ],
-      "hash": "9b47c0340744",
+      "hash": "18a3fa3ff201",
       "files": [
         {
           "path": "application/agent-chat/agent-chat-actions.tsx",

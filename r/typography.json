@@ -1,8 +1,14 @@
 {
-  "$schema": "https://myzeusui.com/schema/registry-item.json",
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "typography",
+  "type": "registry:item",
   "title": "Typography",
   "description": "The type scale: display, title, headline, body and caption, each in four weights.",
+  "dependencies": [],
+  "registryDependencies": [
+    "https://myzeusui.com/r/tokens.json"
+  ],
+  "files": [],
   "category": "foundations",
   "family": "typography",
   "kind": "typography",
@@ -19,10 +25,5 @@
   ],
   "status": "stable",
   "tier": "free",
-  "dependencies": [],
-  "registryDependencies": [
-    "tokens"
-  ],
-  "files": [],
   "hash": "e3b0c44298fc"
 }
