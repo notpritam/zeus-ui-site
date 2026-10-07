@@ -3,7 +3,7 @@
   "name": "zeus-ui",
   "homepage": "https://myzeusui.com",
   "license": "MIT",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "organizationVersion": 1,
   "families": [
     {
@@ -1755,7 +1755,7 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "motion"
+        "motion@^12.42.2"
       ],
       "registryDependencies": [],
       "hash": "f5a28d486709",
@@ -1803,7 +1803,7 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "motion"
+        "motion@^12.42.2"
       ],
       "registryDependencies": [],
       "hash": "173e8816afe7",
@@ -1851,7 +1851,7 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "motion"
+        "motion@^12.42.2"
       ],
       "registryDependencies": [],
       "hash": "ffd63eeb9ec5",
@@ -1941,7 +1941,7 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "motion"
+        "motion@^12.42.2"
       ],
       "registryDependencies": [],
       "hash": "d1e15aae9582",
@@ -1989,7 +1989,7 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "motion"
+        "motion@^12.42.2"
       ],
       "registryDependencies": [],
       "hash": "b9a0b2ff5b93",
@@ -2174,7 +2174,7 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "motion"
+        "motion@^12.42.2"
       ],
       "registryDependencies": [],
       "hash": "2b9c377be7c2",
@@ -2495,7 +2495,7 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "motion"
+        "motion@^12.42.2"
       ],
       "registryDependencies": [],
       "hash": "c434e68eff7d",
@@ -3282,7 +3282,7 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "motion"
+        "motion@^12.42.2"
       ],
       "registryDependencies": [],
       "hash": "038412ec6c56",
@@ -3576,7 +3576,7 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "motion"
+        "motion@^12.42.2"
       ],
       "registryDependencies": [],
       "hash": "2da8e08b114d",
@@ -3649,7 +3649,7 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "motion"
+        "motion@^12.42.2"
       ],
       "registryDependencies": [],
       "hash": "a650c1b4eb0f",
@@ -3926,7 +3926,7 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "motion"
+        "motion@^12.42.2"
       ],
       "registryDependencies": [],
       "hash": "d2718248e8ba",
@@ -3999,7 +3999,7 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "motion"
+        "motion@^12.42.2"
       ],
       "registryDependencies": [],
       "hash": "1f9b34e3ce29",
@@ -4330,7 +4330,7 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "motion"
+        "motion@^12.42.2"
       ],
       "registryDependencies": [],
       "hash": "6540fa780091",
@@ -4373,7 +4373,7 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "motion"
+        "motion@^12.42.2"
       ],
       "registryDependencies": [],
       "hash": "48a019f2e369",
@@ -4434,7 +4434,7 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "motion"
+        "motion@^12.42.2"
       ],
       "registryDependencies": [],
       "hash": "792104d753e2",
@@ -4477,7 +4477,7 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "motion"
+        "motion@^12.42.2"
       ],
       "registryDependencies": [],
       "hash": "1ca75a73b58a",
@@ -4532,7 +4532,7 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "motion"
+        "motion@^12.42.2"
       ],
       "registryDependencies": [],
       "hash": "6009a8cd462f",
@@ -4575,8 +4575,8 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "motion",
-        "react-aria-components"
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0"
       ],
       "registryDependencies": [],
       "hash": "8f1225fabcfe",
@@ -4619,7 +4619,7 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "motion"
+        "motion@^12.42.2"
       ],
       "registryDependencies": [],
       "hash": "fc79381cf853",
@@ -4668,7 +4668,7 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "motion"
+        "motion@^12.42.2"
       ],
       "registryDependencies": [],
       "hash": "3381b7c22e25",
@@ -4711,7 +4711,7 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "motion"
+        "motion@^12.42.2"
       ],
       "registryDependencies": [],
       "hash": "c9ec9a8dd435",
@@ -5286,9 +5286,9 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@gsap/react",
-        "@remixicon/react",
-        "gsap"
+        "@gsap/react@^2.1.2",
+        "@remixicon/react@^4.9.0",
+        "gsap@^3.15.0"
       ],
       "registryDependencies": [
         "tokens"
@@ -5325,8 +5325,8 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@gsap/react",
-        "gsap"
+        "@gsap/react@^2.1.2",
+        "gsap@^3.15.0"
       ],
       "registryDependencies": [
         "tokens"
@@ -5363,8 +5363,8 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@gsap/react",
-        "gsap"
+        "@gsap/react@^2.1.2",
+        "gsap@^3.15.0"
       ],
       "registryDependencies": [
         "tokens"
@@ -5401,8 +5401,8 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@gsap/react",
-        "gsap"
+        "@gsap/react@^2.1.2",
+        "gsap@^3.15.0"
       ],
       "registryDependencies": [
         "tokens"
@@ -5439,8 +5439,8 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@gsap/react",
-        "gsap"
+        "@gsap/react@^2.1.2",
+        "gsap@^3.15.0"
       ],
       "registryDependencies": [
         "tokens"
@@ -5510,8 +5510,8 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@gsap/react",
-        "gsap"
+        "@gsap/react@^2.1.2",
+        "gsap@^3.15.0"
       ],
       "registryDependencies": [
         "tokens"
@@ -5635,8 +5635,8 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@gsap/react",
-        "gsap"
+        "@gsap/react@^2.1.2",
+        "gsap@^3.15.0"
       ],
       "registryDependencies": [
         "tokens"
@@ -5760,8 +5760,8 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@gsap/react",
-        "gsap"
+        "@gsap/react@^2.1.2",
+        "gsap@^3.15.0"
       ],
       "registryDependencies": [
         "tokens"
@@ -5831,8 +5831,8 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@gsap/react",
-        "gsap"
+        "@gsap/react@^2.1.2",
+        "gsap@^3.15.0"
       ],
       "registryDependencies": [
         "tokens"
@@ -5908,8 +5908,8 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "gsap",
-        "three"
+        "gsap@^3.15.0",
+        "three@^0.185.1"
       ],
       "registryDependencies": [
         "tokens"
@@ -5967,8 +5967,8 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@gsap/react",
-        "gsap"
+        "@gsap/react@^2.1.2",
+        "gsap@^3.15.0"
       ],
       "registryDependencies": [
         "tokens"
@@ -6027,13 +6027,13 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@internationalized/date",
-        "@remixicon/react",
-        "@tanstack/react-table",
-        "motion",
-        "react-aria-components",
-        "recharts",
-        "tailwind-merge"
+        "@internationalized/date@^3.12.1",
+        "@remixicon/react@^4.9.0",
+        "@tanstack/react-table@^8.21.3",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "recharts@^3.9.2",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "app-shell",
@@ -6180,12 +6180,12 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@internationalized/date",
-        "@remixicon/react",
-        "motion",
-        "react-aria-components",
-        "recharts",
-        "tailwind-merge"
+        "@internationalized/date@^3.12.1",
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "recharts@^3.9.2",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "app-shell",
@@ -6346,12 +6346,12 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@internationalized/date",
-        "@remixicon/react",
-        "motion",
-        "react-aria-components",
-        "recharts",
-        "tailwind-merge"
+        "@internationalized/date@^3.12.1",
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "recharts@^3.9.2",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "app-shell",
@@ -6508,12 +6508,12 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@internationalized/date",
-        "@remixicon/react",
-        "motion",
-        "react-aria-components",
-        "recharts",
-        "tailwind-merge"
+        "@internationalized/date@^3.12.1",
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "recharts@^3.9.2",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "app-shell",
@@ -6675,11 +6675,11 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@internationalized/date",
-        "@remixicon/react",
-        "motion",
-        "react-aria-components",
-        "tailwind-merge"
+        "@internationalized/date@^3.12.1",
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "activity-rings-card",
@@ -6831,11 +6831,11 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@internationalized/date",
-        "@remixicon/react",
-        "motion",
-        "react-aria-components",
-        "tailwind-merge"
+        "@internationalized/date@^3.12.1",
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "app-shell",
@@ -6924,11 +6924,11 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@internationalized/date",
-        "@remixicon/react",
-        "motion",
-        "react-aria-components",
-        "tailwind-merge"
+        "@internationalized/date@^3.12.1",
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "agent-log",
@@ -7003,11 +7003,11 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@internationalized/date",
-        "@remixicon/react",
-        "motion",
-        "react-aria-components",
-        "tailwind-merge"
+        "@internationalized/date@^3.12.1",
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "agent-log",
@@ -7212,8 +7212,8 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "motion",
-        "tailwind-merge"
+        "motion@^12.42.2",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -7257,11 +7257,11 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@internationalized/date",
-        "@remixicon/react",
-        "motion",
-        "react-aria-components",
-        "tailwind-merge"
+        "@internationalized/date@^3.12.1",
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "app-shell",
@@ -7329,10 +7329,10 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@remixicon/react",
-        "motion",
-        "react-aria-components",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "agent-thinking",
@@ -7408,9 +7408,9 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@remixicon/react",
-        "motion",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "agent-log",
@@ -7456,9 +7456,9 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@remixicon/react",
-        "motion",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "agent-log",
@@ -7505,11 +7505,11 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@remixicon/react",
-        "motion",
-        "react-aria-components",
-        "recharts",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "recharts@^3.9.2",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "chart-card",
@@ -7570,10 +7570,10 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@remixicon/react",
-        "motion",
-        "react-aria-components",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "chart-card",
@@ -7629,10 +7629,10 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@remixicon/react",
-        "motion",
-        "react-aria-components",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "chart-card",
@@ -7693,10 +7693,10 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@remixicon/react",
-        "motion",
-        "react-aria-components",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "chart-card",
@@ -7752,10 +7752,10 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@remixicon/react",
-        "motion",
-        "react-aria-components",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "chart-card",
@@ -7816,10 +7816,10 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@remixicon/react",
-        "motion",
-        "react-aria-components",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "activity-rings-card",
@@ -7876,11 +7876,11 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@remixicon/react",
-        "motion",
-        "react-aria-components",
-        "recharts",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "recharts@^3.9.2",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "chart-card",
@@ -7941,10 +7941,10 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@remixicon/react",
-        "motion",
-        "react-aria-components",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "chart-card",
@@ -8005,11 +8005,11 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@remixicon/react",
-        "motion",
-        "react-aria-components",
-        "recharts",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "recharts@^3.9.2",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "chart-card",
@@ -8070,11 +8070,11 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@remixicon/react",
-        "motion",
-        "react-aria-components",
-        "recharts",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "recharts@^3.9.2",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "chart-card",
@@ -8135,10 +8135,10 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@remixicon/react",
-        "motion",
-        "react-aria-components",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "chart-card",
@@ -8194,10 +8194,10 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@remixicon/react",
-        "motion",
-        "react-aria-components",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "chart-card",
@@ -8254,10 +8254,10 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@remixicon/react",
-        "motion",
-        "react-aria-components",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "chart-card",
@@ -8310,7 +8310,7 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "tailwindcss"
+        "tailwindcss@^4.1.0"
       ],
       "registryDependencies": [],
       "hash": "e62aeae6ecca",
@@ -8391,7 +8391,7 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "tailwind-merge"
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "tokens"
@@ -8459,7 +8459,7 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "tailwind-merge"
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -8496,7 +8496,7 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "motion"
+        "motion@^12.42.2"
       ],
       "registryDependencies": [
         "tokens"
@@ -8571,7 +8571,7 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "tailwind-merge"
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -8608,7 +8608,7 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "tailwind-merge"
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -8645,7 +8645,7 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "tailwind-merge"
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -8682,7 +8682,7 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "tailwind-merge"
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -8719,7 +8719,7 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "tailwind-merge"
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -8757,7 +8757,7 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "tailwind-merge"
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -8806,9 +8806,9 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "@remixicon/react",
-        "react-aria-components",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -8856,7 +8856,7 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "tailwind-merge"
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -8893,8 +8893,8 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "react-aria-components",
-        "tailwind-merge"
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -8941,8 +8941,8 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "react-aria-components",
-        "tailwind-merge"
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -8984,8 +8984,8 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "react-aria-components",
-        "tailwind-merge"
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -9027,8 +9027,8 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "react-aria-components",
-        "tailwind-merge"
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "chevrons",
@@ -9072,8 +9072,8 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "react-aria-components",
-        "tailwind-merge"
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -9110,8 +9110,8 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "react-aria-components",
-        "tailwind-merge"
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -9150,7 +9150,7 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "tailwind-merge"
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -9190,8 +9190,8 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "@remixicon/react",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -9228,8 +9228,8 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "react-aria-components",
-        "tailwind-merge"
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -9271,8 +9271,8 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "react-aria-components",
-        "tailwind-merge"
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -9309,8 +9309,8 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "react-aria-components",
-        "tailwind-merge"
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -9347,8 +9347,8 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "react-aria-components",
-        "tailwind-merge"
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -9385,7 +9385,7 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "tailwind-merge"
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -9423,7 +9423,7 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "tailwind-merge"
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -9460,7 +9460,7 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "tailwind-merge"
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -9497,7 +9497,7 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "tailwind-merge"
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -9534,7 +9534,7 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "tailwind-merge"
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -9571,7 +9571,7 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "tailwind-merge"
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "chevrons",
@@ -9611,8 +9611,8 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "@remixicon/react",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "button",
@@ -9652,8 +9652,8 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "@remixicon/react",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -9693,9 +9693,9 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "@remixicon/react",
-        "motion",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "button",
@@ -9736,9 +9736,9 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "@remixicon/react",
-        "motion",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "avatar",
@@ -9780,11 +9780,11 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "@internationalized/date",
-        "@remixicon/react",
-        "motion",
-        "react-aria-components",
-        "tailwind-merge"
+        "@internationalized/date@^3.12.1",
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "button",
@@ -9831,11 +9831,11 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "@internationalized/date",
-        "@remixicon/react",
-        "motion",
-        "react-aria-components",
-        "tailwind-merge"
+        "@internationalized/date@^3.12.1",
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "button",
@@ -9878,10 +9878,10 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "@internationalized/date",
-        "@remixicon/react",
-        "react-aria-components",
-        "tailwind-merge"
+        "@internationalized/date@^3.12.1",
+        "@remixicon/react@^4.9.0",
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "avatar",
@@ -9931,9 +9931,9 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "@remixicon/react",
-        "react-aria-components",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -9973,9 +9973,9 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "@remixicon/react",
-        "react-aria-components",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "chip",
@@ -10018,10 +10018,10 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "@remixicon/react",
-        "@tanstack/react-table",
-        "react-aria-components",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "@tanstack/react-table@^8.21.3",
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "avatar",
@@ -10123,11 +10123,11 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "@internationalized/date",
-        "@remixicon/react",
-        "motion",
-        "react-aria-components",
-        "tailwind-merge"
+        "@internationalized/date@^3.12.1",
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "avatar",
@@ -10209,11 +10209,11 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "@internationalized/date",
-        "@remixicon/react",
-        "motion",
-        "react-aria-components",
-        "tailwind-merge"
+        "@internationalized/date@^3.12.1",
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "avatar",
@@ -10292,9 +10292,9 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "@remixicon/react",
-        "react-aria-components",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "avatar",
@@ -10337,11 +10337,11 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "@internationalized/date",
-        "@remixicon/react",
-        "motion",
-        "react-aria-components",
-        "tailwind-merge"
+        "@internationalized/date@^3.12.1",
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "button",
@@ -10451,9 +10451,9 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "@remixicon/react",
-        "react-aria-components",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "button",
@@ -10508,9 +10508,9 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@remixicon/react",
-        "motion",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -10548,7 +10548,7 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "tailwind-merge"
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -10586,7 +10586,7 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "tailwind-merge"
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -10624,8 +10624,8 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "motion",
-        "tailwind-merge"
+        "motion@^12.42.2",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "agent-thinking",
@@ -10672,13 +10672,13 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "@ai-sdk/react",
-        "@internationalized/date",
-        "@remixicon/react",
-        "ai",
-        "motion",
-        "react-aria-components",
-        "tailwind-merge"
+        "@ai-sdk/react@^4.0.90",
+        "@internationalized/date@^3.12.1",
+        "@remixicon/react@^4.9.0",
+        "ai@^7.0.87",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "agent-thinking",
@@ -10782,11 +10782,11 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@remixicon/react",
-        "motion",
-        "react-aria-components",
-        "recharts",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "recharts@^3.9.2",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "chart-card",
@@ -10849,11 +10849,11 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@remixicon/react",
-        "motion",
-        "react-aria-components",
-        "recharts",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "recharts@^3.9.2",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "chart-card",
@@ -10916,10 +10916,10 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@remixicon/react",
-        "motion",
-        "react-aria-components",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "chart-card",
@@ -10983,10 +10983,10 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "@remixicon/react",
-        "motion",
-        "react-aria-components",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "motion@^12.42.2",
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "chart-card",
@@ -11041,8 +11041,8 @@
       "tier": "free",
       "isNew": true,
       "dependencies": [
-        "motion",
-        "tailwind-merge"
+        "motion@^12.42.2",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "chip",
@@ -11087,9 +11087,9 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "motion",
-        "recharts",
-        "tailwind-merge"
+        "motion@^12.42.2",
+        "recharts@^3.9.2",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "chip",
@@ -11134,9 +11134,9 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "motion",
-        "recharts",
-        "tailwind-merge"
+        "motion@^12.42.2",
+        "recharts@^3.9.2",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "chip",
@@ -11182,10 +11182,10 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "@internationalized/date",
-        "@remixicon/react",
-        "react-aria-components",
-        "tailwind-merge"
+        "@internationalized/date@^3.12.1",
+        "@remixicon/react@^4.9.0",
+        "react-aria-components@^1.17.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "cx",
@@ -11230,8 +11230,8 @@
       "status": "stable",
       "tier": "free",
       "dependencies": [
-        "@remixicon/react",
-        "tailwind-merge"
+        "@remixicon/react@^4.9.0",
+        "tailwind-merge@^3.6.0"
       ],
       "registryDependencies": [
         "avatar",
