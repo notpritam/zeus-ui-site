@@ -1,0 +1,300 @@
+1:"$Sreact.fragment"
+2:I[172844,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],""]
+3:I[722035,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"CommandSearchProvider"]
+4:I[337280,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"default"]
+5:I[475701,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"default"]
+7:I[579014,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+b:I[579014,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"ViewportBoundary"]
+d:I[579014,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"MetadataBoundary"]
+10:I[684167,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"default",1]
+:HL["/_next/static/chunks/16tqri1r-3qox.css","style"]
+:HL["/_next/static/chunks/1pfs1k4fn3vox.css","style"]
+:HL["/_next/static/chunks/04uno_r_5_x4n.css","style"]
+:HL["/_next/static/media/234d9015b631dab9-s.p.33gca1im1ku45.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+a:X
+0:{"P":null,"c":["","components","agent-thinking",""],"q":"","i":false,"f":[[["",{"children":["components",{"children":[["slug","agent-thinking","d",[]],{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16tqri1r-3qox.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1pfs1k4fn3vox.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/04uno_r_5_x4n.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/37yss_vchit64.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/2votv6uvyrruo.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L2",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",[["$","script","script-0",{"src":"/_next/static/chunks/3azp_iy_fx0ej.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/3_1pfg1675we5.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/3b-j35phbz363.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/2v6dx3y3pgbg2.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/3znghnjm2oz_l.js","async":true,"nonce":"$undefined"}],["$","script","script-5",{"src":"/_next/static/chunks/3458ylrm-tu9f.js","async":true,"nonce":"$undefined"}],["$","script","script-6",{"src":"/_next/static/chunks/1h9znjrekhrnu.js","async":true,"nonce":"$undefined"}],["$","script","script-7",{"src":"/_next/static/chunks/052khci2jbxel.js","async":true,"nonce":"$undefined"}],["$","script","script-8",{"src":"/_next/static/chunks/3fuakxesa5sfw.js","async":true,"nonce":"$undefined"}],["$","script","script-9",{"src":"/_next/static/chunks/34kutq8p1wnfe.js","async":true,"nonce":"$undefined"}],["$","script","script-10",{"src":"/_next/static/chunks/13e0htpydajrc.js","async":true,"nonce":"$undefined"}]],["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]]}],{},null,false,null]},null,false,"$a"]},null,false,"$a"]},null,false,null],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$8",null,{"name":"Next.Metadata","children":"$Le"}]}]}],"$Lf"]}],false]],"m":"$undefined","G":["$10",["$L11","$L12","$L13"]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"MshCBksLdfoZmpOcb96Z-"}
+a:C
+f:["$","meta",null,{"name":"next-size-adjust","content":""}]
+11:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16tqri1r-3qox.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+12:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1pfs1k4fn3vox.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+13:["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/04uno_r_5_x4n.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+14:I[768456,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js","/_next/static/chunks/3azp_iy_fx0ej.js","/_next/static/chunks/3_1pfg1675we5.js","/_next/static/chunks/3b-j35phbz363.js","/_next/static/chunks/2v6dx3y3pgbg2.js","/_next/static/chunks/3znghnjm2oz_l.js","/_next/static/chunks/3458ylrm-tu9f.js","/_next/static/chunks/1h9znjrekhrnu.js","/_next/static/chunks/052khci2jbxel.js","/_next/static/chunks/3fuakxesa5sfw.js","/_next/static/chunks/34kutq8p1wnfe.js","/_next/static/chunks/13e0htpydajrc.js"],"DocsLayout"]
+6:["$","$L14",null,{"title":"Agent Thinking","heading":"Agent Thinking","icon":"components","groups":[{"id":"buttons","title":"Buttons","items":[{"name":"background-fill-button","title":"Background Fill Button","isNew":true},{"name":"circle-fill-button","title":"Circle Fill Button","isNew":true},{"name":"curve-fill-button","title":"Curve Fill Button","isNew":true},{"name":"animated-icon-button","title":"Animated Icon Button","isNew":true},{"name":"magnetic-button","title":"Magnetic Button","isNew":true},{"name":"rainbow-button","title":"Rainbow Button","isNew":true},{"name":"text-underline","title":"Text Underline","isNew":true},{"name":"button","title":"Button","isNew":"$undefined"},{"name":"icon-button","title":"Icon Button","isNew":"$undefined"},{"name":"link-button","title":"Link Button","isNew":"$undefined"},{"name":"button-group","title":"Button Group","isNew":"$undefined"},{"name":"close-button","title":"Close Button","isNew":"$undefined"},{"name":"social-button","title":"Social Button","isNew":"$undefined"}]},{"id":"forms","title":"Forms & inputs","items":[{"name":"gooey-filter-chips","title":"Gooey Filter Chips","isNew":true},{"name":"multi-step-form","title":"Multi-Step Form","isNew":true},{"name":"morphing-select","title":"Morphing Select","isNew":true},{"name":"input","title":"Input","isNew":"$undefined"},{"name":"input-otp","title":"Input OTP","isNew":"$undefined"},{"name":"checkbox","title":"Checkbox","isNew":"$undefined"},{"name":"radio","title":"Radio","isNew":"$undefined"},{"name":"switch","title":"Switch","isNew":"$undefined"},{"name":"select","title":"Select","isNew":"$undefined"},{"name":"slider","title":"Slider","isNew":"$undefined"},{"name":"file-upload","title":"File Upload","isNew":"$undefined"},{"name":"auth-card","title":"Auth Card","isNew":"$undefined"}]},{"id":"navigation","title":"Navigation","items":[{"name":"morphing-pill-menu","title":"Morphing Pill Menu","isNew":true},{"name":"gooey-menu","title":"Gooey Menu","isNew":true},{"name":"mega-menu","title":"Mega Menu","isNew":true},{"name":"fullscreen-slide-menu","title":"Fullscreen Slide Menu","isNew":true},{"name":"hide-header","title":"Hide Header","isNew":true},{"name":"custom-cursor","title":"Custom Cursor","isNew":true},{"name":"morphing-island","title":"Morphing Island","isNew":true},{"name":"morphing-tabs","title":"Morphing Tabs","isNew":true},{"name":"multi-level-drawer-menu","title":"Multi-Level Drawer Menu","isNew":true},{"name":"dropdown","title":"Dropdown","isNew":"$undefined"},{"name":"tabs","title":"Tabs","isNew":"$undefined"},{"name":"segmented-control","title":"Segmented Control","isNew":"$undefined"},{"name":"breadcrumb","title":"Breadcrumb","isNew":"$undefined"},{"name":"pagination","title":"Pagination","isNew":"$undefined"},{"name":"sidebar","title":"Sidebar","isNew":"$undefined"}]},{"id":"feedback","title":"Feedback & status","items":[{"name":"badge","title":"Badge","isNew":"$undefined"},{"name":"chip","title":"Chip","isNew":"$undefined"},{"name":"status-dot","title":"Status Dot","isNew":"$undefined"},{"name":"announcement","title":"Announcement","isNew":"$undefined"},{"name":"notification","title":"Notification","isNew":"$undefined"},{"name":"theme-toggle","title":"Theme Toggle","isNew":"$undefined"},{"name":"notification-center","title":"Notification Center","isNew":"$undefined"}]},{"id":"overlays","title":"Overlays & disclosures","items":[{"name":"morphing-accordion","title":"Morphing Accordion","isNew":true},{"name":"detail-drawer","title":"Detail Drawer","isNew":true},{"name":"animated-tooltip","title":"Animated Tooltip","isNew":true},{"name":"morphing-dialog","title":"Morphing Dialog","isNew":true},{"name":"morphing-tooltip","title":"Morphing Tooltip","isNew":true},{"name":"animated-accordion","title":"Animated Accordion","isNew":true},{"name":"feature-dialog","title":"Feature Dialog","isNew":true},{"name":"tooltip","title":"Tooltip","isNew":"$undefined"},{"name":"settings-modal","title":"Settings Modal","isNew":"$undefined"}]},{"id":"typography","title":"Text & typography","items":[{"name":"text-on-path","title":"Text On Path","isNew":true},{"name":"text-fill-wave","title":"Text Fill Wave","isNew":true},{"name":"velocity-type","title":"Velocity Type","isNew":true},{"name":"typewriter","title":"Typewriter","isNew":true},{"name":"character-appear","title":"Character Appear","isNew":true},{"name":"text-morph","title":"Text Morph","isNew":true},{"name":"text-split-zoom","title":"Text Split Zoom","isNew":true},{"name":"text-scramble","title":"Text Scramble","isNew":true},{"name":"rectangle-text-reveal","title":"Rectangle Text Reveal","isNew":true},{"name":"popping-text","title":"Popping Text","isNew":true},{"name":"folding-text","title":"Folding Text","isNew":true},{"name":"cinematic-text","title":"Cinematic Text","isNew":true},{"name":"text-shimmer-wave","title":"Text Shimmer Wave","isNew":true},{"name":"text-reveal","title":"Text Reveal","isNew":true},{"name":"dual-scramble","title":"Dual Scramble","isNew":true},{"name":"typography","title":"Typography","isNew":"$undefined"},{"name":"kbd","title":"Kbd","isNew":"$undefined"}]},{"id":"icons","title":"Icons & identity","items":[{"name":"chevrons","title":"Chevrons","isNew":"$undefined"},{"name":"logo","title":"Logo","isNew":"$undefined"},{"name":"avatar","title":"Avatar","isNew":"$undefined"}]},{"id":"layout","title":"Layout & structure","items":[{"name":"grid-chapters","title":"Grid Chapters","isNew":true},{"name":"network-globe","title":"Network Globe","isNew":true},{"name":"dock-footer","title":"Dock Footer","isNew":true},{"name":"flip-filter","title":"Flip Filter","isNew":true},{"name":"capsule-hero","title":"Capsule Hero","isNew":true},{"name":"wipe-slider","title":"Wipe Slider","isNew":true},{"name":"step-wipe","title":"Step Wipe","isNew":true},{"name":"gradient-footer","title":"Gradient Footer","isNew":true},{"name":"testimonial-globe","title":"Testimonial Globe","isNew":true},{"name":"drift-gallery","title":"Drift Gallery","isNew":true},{"name":"divider","title":"Divider","isNew":"$undefined"},{"name":"app-shell","title":"App Shell","isNew":"$undefined"}]},{"id":"data","title":"Data & charts","items":[{"name":"progress","title":"Progress","isNew":true},{"name":"counter","title":"Counter","isNew":true},{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"table","title":"Table","isNew":"$undefined"},{"name":"stat-cards","title":"Stat Cards","isNew":"$undefined"},{"name":"data-table","title":"Data Table","isNew":"$undefined"},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart","isNew":"$undefined"},{"name":"orders-chart-card","title":"Orders Chart","isNew":"$undefined"},{"name":"important-alerts-card","title":"Important Alerts","isNew":"$undefined"},{"name":"patient-info-card","title":"Patient Info","isNew":"$undefined"}]},{"id":"media","title":"Images & media","items":[{"name":"mesh-gradient","title":"Mesh Gradient","isNew":true},{"name":"dithering","title":"Dithering","isNew":true},{"name":"image-glitch","title":"Image Glitch","isNew":true},{"name":"gooey-hover-reveal","title":"Gooey Hover Reveal","isNew":true},{"name":"dither-cursor-trail","title":"Dither Cursor Trail","isNew":true},{"name":"image-dissolve-scroll","title":"Image Dissolve Scroll","isNew":true},{"name":"scatter-cluster","title":"Scatter Cluster","isNew":true},{"name":"multi-flip","title":"Multi Flip","isNew":true},{"name":"velocity-clip","title":"Velocity Clip","isNew":true},{"name":"svg-draw-path","title":"SVG Draw Path","isNew":true},{"name":"parallax","title":"Parallax","isNew":true},{"name":"mask-reveal","title":"Mask Reveal","isNew":true},{"name":"flip-zone","title":"Flip Zone","isNew":true},{"name":"element-reveal","title":"Element Reveal","isNew":true},{"name":"background-color","title":"Background Color","isNew":true},{"name":"animated-grid","title":"Animated Grid","isNew":true},{"name":"random-rotate","title":"Random Rotate","isNew":true},{"name":"photo-stack-gallery","title":"Photo Stack Gallery","isNew":true},{"name":"spiral-gallery","title":"Spiral Gallery","isNew":true},{"name":"lens-rail","title":"Lens Rail","isNew":true},{"name":"expanding-strip","title":"Expanding Strip","isNew":true},{"name":"index-wipe","title":"Index Wipe","isNew":true},{"name":"card-fan","title":"Card Fan","isNew":true},{"name":"radial-gallery","title":"Radial Gallery","isNew":true},{"name":"circular-slider","title":"Circular Slider","isNew":true},{"name":"infinite-parallax-slider","title":"Infinite Parallax Slider","isNew":true},{"name":"image-follow-list","title":"Image Follow List","isNew":true},{"name":"hoverable-list","title":"Hoverable List","isNew":true},{"name":"infinite-draggable-grid","title":"Infinite Draggable Grid","isNew":true},{"name":"infinite-marquee","title":"Infinite Marquee","isNew":true},{"name":"image-trail","title":"Image Trail","isNew":true},{"name":"3d-card-flip","title":"3D Card Flip","isNew":true},{"name":"image-fly-in","title":"Image Fly-In","isNew":true},{"name":"scale-slider","title":"Scale Slider","isNew":true},{"name":"curtain-slider","title":"Curtain Slider","isNew":true},{"name":"ascii-overlay","title":"ASCII Overlay","isNew":true},{"name":"carousel","title":"Carousel","isNew":"$undefined"}]},{"id":"scheduling","title":"Dates & scheduling","items":[{"name":"calendar","title":"Calendar","isNew":true},{"name":"date-picker","title":"Date Picker","isNew":"$undefined"},{"name":"date-range-picker","title":"Date Range Picker","isNew":"$undefined"},{"name":"meeting-scheduler","title":"Meeting Scheduler","isNew":"$undefined"}]},{"id":"ai","title":"AI & agents","items":[{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true},{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking","isNew":"$undefined"},{"name":"composer-loader","title":"Composer Loader","isNew":"$undefined"},{"name":"agent-log","title":"Agent Log","isNew":"$undefined"},{"name":"agent-chat","title":"Agent Chat","isNew":"$undefined"}]},{"id":"pricing","title":"Pricing & billing","items":[{"name":"animated-pricing","title":"Animated Pricing","isNew":true}]},{"id":"screens","title":"Complete screens","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true}]},{"id":"foundations","title":"Design foundations","items":[{"name":"tokens","title":"Design tokens","isNew":"$undefined"}]},{"id":"utilities","title":"Hooks & utilities","items":[{"name":"cx","title":"cx","isNew":"$undefined"},{"name":"use-count-up","title":"useCountUp","isNew":"$undefined"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress","isNew":"$undefined"}]}],"description":"Four loading personalities — wave, spin, stars and infinity — with an elapsed timer.","columnClassName":"$undefined","detail":true,"children":"$L15"}]
+16:I[107183,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js","/_next/static/chunks/3azp_iy_fx0ej.js","/_next/static/chunks/3_1pfg1675we5.js","/_next/static/chunks/3b-j35phbz363.js","/_next/static/chunks/2v6dx3y3pgbg2.js","/_next/static/chunks/3znghnjm2oz_l.js","/_next/static/chunks/3458ylrm-tu9f.js","/_next/static/chunks/1h9znjrekhrnu.js","/_next/static/chunks/052khci2jbxel.js","/_next/static/chunks/3fuakxesa5sfw.js","/_next/static/chunks/34kutq8p1wnfe.js","/_next/static/chunks/13e0htpydajrc.js"],"ComponentPage"]
+17:T2063,"use client";
+
+import { useEffect, useState } from "react";
+import type { CSSProperties } from "react";
+import { cx } from "../../utils/cx";
+
+/**
+ * Agent Thinking — the agent "thinking" state that sits above a chat composer
+ * while a response is being worked on.
+ *
+ * Four curated variants:
+ * - `wave`     dot grid with a diagonal wavefront gliding top-left → bottom-right
+ * - `spin`     dot grid with a bright head orbiting the grid clockwise
+ * - `stars`    sparkles twinkling in and out with a stagger
+ * - `infinity` a comet trail sweeping a figure-eight
+ *
+ * Every variant pairs the indicator with a shimmering label and an elapsed
+ * timer that starts when the loader mounts. Shimmer and CSS animations fall
+ * back to static rendering under `prefers-reduced-motion` (see globals.css).
+ */
+
+export type AgentThinkingVariant = "wave" | "spin" | "stars" | "infinity";
+export type AgentThinkingTone = "subtle" | "default" | "primary" | "accent";
+
+export interface AgentThinkingProps {
+  variant?: AgentThinkingVariant;
+  /** Status label, e.g. "Thinking" or "Searching the docs". */
+  label?: string;
+  /** Tone of the indicator + label. Defaults per variant (`stars` is subtle). */
+  tone?: AgentThinkingTone;
+  /** Animated highlight traveling across the label. */
+  shimmer?: boolean;
+  /** Elapsed seconds since mount, rendered after the label. */
+  showTimer?: boolean;
+  className?: string;
+}
+
+const TONE_COLORS: Record<AgentThinkingTone, string> = {
+  subtle: "var(--color-text-tertiary)",
+  default: "var(--color-text-secondary)",
+  primary: "var(--color-text-primary)",
+  accent: "var(--color-blue-500)",
+};
+
+const VARIANT_TONE: Record<AgentThinkingVariant, AgentThinkingTone> = {
+  wave: "default",
+  spin: "default",
+  stars: "subtle",
+  infinity: "default",
+};
+
+/* ------------------------------------------------------------------- dots */
+
+const DOTS_GRID = 3;
+const DOTS_SIZE = 4;
+const DOTS_GAP = 2;
+const DOTS_TICK_MS = 80;
+const DOTS_FADE_MS = 220;
+const DOTS_TRAIL = 0.3;
+const DOTS_MIN_OPACITY = 0.12;
+const DOTS_PHASE_STEP = 1 / 8;
+
+// Static first frame: identical on server and client, and the resting state
+// under prefers-reduced-motion.
+const DOTS_SEED = [0.55, 0.3, 0.15, 0.85, 0.55, 0.3, 1, 0.85, 0.55];
+
+/**
+ * How far along the pattern's travel direction each cell sits, in [0, 1).
+ * The wave scalar is compressed below 1 so the phase wrap reads as the front
+ * leaving the grid and re-entering; the spin angle is naturally cyclic.
+ */
+function dotScalar(variant: "wave" | "spin", col: number, row: number) {
+  const m = DOTS_GRID - 1;
+  if (variant === "wave") {
+    return ((col + row) / (2 * m)) * (DOTS_GRID / (DOTS_GRID + 1));
+  }
+  const center = m / 2;
+  return (Math.atan2(row - center, col - center) / (2 * Math.PI) + 1) % 1;
+}
+
+function dotOpacities(variant: "wave" | "spin", phase: number) {
+  return Array.from({ length: DOTS_GRID * DOTS_GRID }, (_, i) => {
+    const s = dotScalar(variant, i % DOTS_GRID, Math.floor(i / DOTS_GRID));
+    // Comet: bright head at the phase front, tail fading behind it.
+    const behind = (phase - s + 1) % 1;
+    const lit = Math.max(0, 1 - behind / DOTS_TRAIL) ** 1.5;
+    return DOTS_MIN_OPACITY + (1 - DOTS_MIN_OPACITY) * lit;
+  });
+}
+
+function DotsIndicator({ variant }: { variant: "wave" | "spin" }) {
+  const [opacities, setOpacities] = useState<number[]>(DOTS_SEED);
+
+  useEffect(() => {
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    let phase = 0;
+    const id = window.setInterval(() => {
+      phase = (phase + DOTS_PHASE_STEP) % 1;
+      setOpacities(dotOpacities(variant, phase));
+    }, DOTS_TICK_MS);
+    return () => window.clearInterval(id);
+  }, [variant]);
+
+  return (
+    <span
+      aria-hidden
+      className="grid shrink-0"
+      style={{
+        gridTemplateColumns: `repeat(${DOTS_GRID}, ${DOTS_SIZE}px)`,
+        gap: DOTS_GAP,
+      }}
+    >
+      {opacities.map((opacity, i) => (
+        <span
+          key={i}
+          className="rounded-[1px] bg-current"
+          style={{
+            width: DOTS_SIZE,
+            height: DOTS_SIZE,
+            opacity,
+            transition: `opacity ${DOTS_FADE_MS}ms ease`,
+          }}
+        />
+      ))}
+    </span>
+  );
+}
+
+/* ------------------------------------------------------------------ stars */
+
+const STAR_PERIOD_S = 1.4;
+const STAR_SIZE = 14;
+const STAR_COUNT = 5;
+const STAR_LAYOUT = [
+  { x: 50, y: 46, scale: 1 },
+  { x: 18, y: 22, scale: 0.55 },
+  { x: 82, y: 26, scale: 0.45 },
+  { x: 78, y: 76, scale: 0.55 },
+  { x: 22, y: 78, scale: 0.4 },
+];
+const STAR_PATH = "M12 0C13 7 17 11 24 12C17 13 13 17 12 24C11 17 7 13 0 12C7 11 11 7 12 0Z";
+
+function StarsIndicator() {
+  const box = STAR_SIZE * 1.5;
+  return (
+    <span
+      aria-hidden
+      className="bui-agent-thinking-stars relative block shrink-0"
+      style={{ width: box, height: box }}
+    >
+      {STAR_LAYOUT.slice(0, STAR_COUNT).map((star, i) => {
+        const size = STAR_SIZE * star.scale;
+        return (
+          <svg
+            key={i}
+            viewBox="0 0 24 24"
+            className="bui-agent-thinking-star absolute"
+            style={{
+              width: size,
+              height: size,
+              left: `${star.x}%`,
+              top: `${star.y}%`,
+              marginLeft: -size / 2,
+              marginTop: -size / 2,
+              animationDuration: `${STAR_PERIOD_S}s`,
+              animationDelay: `${(i * STAR_PERIOD_S * 0.7) / STAR_COUNT}s`,
+            }}
+          >
+            <path d={STAR_PATH} fill="currentColor" />
+          </svg>
+        );
+      })}
+    </span>
+  );
+}
+
+/* --------------------------------------------------------------- infinity */
+
+const INFINITY_WIDTH = 32;
+const INFINITY_TRAIL = 11;
+const INFINITY_STROKE = 2.75;
+const INFINITY_DURATION_S = 1.2;
+const INFINITY_PATH =
+  "M28 14C33 5 47 5 47 14C47 23 33 23 28 14C23 5 9 5 9 14C9 23 23 23 28 14Z";
+
+function InfinityIndicator() {
+  return (
+    <svg
+      aria-hidden
+      viewBox="0 0 56 28"
+      className="shrink-0"
+      // The figure-eight spans x 9-47 of the 56-wide viewBox, so the svg box
+      // carries ~4px of dead space per side at this width; pull it back in so
+      // the label sits at the loader's real gap.
+      style={{ width: INFINITY_WIDTH, height: INFINITY_WIDTH / 2, margin: "0 -4px" }}
+    >
+      <path
+        d={INFINITY_PATH}
+        fill="none"
+        stroke="currentColor"
+        strokeWidth={INFINITY_STROKE}
+        opacity={0.15}
+      />
+      <path
+        d={INFINITY_PATH}
+        pathLength={100}
+        fill="none"
+        stroke="currentColor"
+        strokeWidth={INFINITY_STROKE}
+        strokeLinecap="round"
+        strokeDasharray={`${INFINITY_TRAIL} ${100 - INFINITY_TRAIL}`}
+        className="bui-agent-thinking-comet"
+        style={{ animationDuration: `${INFINITY_DURATION_S}s` }}
+      />
+    </svg>
+  );
+}
+
+/* ------------------------------------------------------------------ timer */
+
+function ElapsedTimer() {
+  const [elapsed, setElapsed] = useState(0);
+
+  useEffect(() => {
+    const started = performance.now();
+    const id = window.setInterval(
+      () => setElapsed((performance.now() - started) / 1000),
+      100,
+    );
+    return () => window.clearInterval(id);
+  }, []);
+
+  return (
+    <span className="font-mono text-caption-1-regular text-text-tertiary tabular-nums">
+      {elapsed.toFixed(1)}s
+    </span>
+  );
+}
+
+/* ----------------------------------------------------------------- loader */
+
+export function AgentThinking({
+  variant = "wave",
+  label = "Thinking",
+  tone,
+  shimmer = true,
+  showTimer = true,
+  className,
+}: AgentThinkingProps) {
+  const color = TONE_COLORS[tone ?? VARIANT_TONE[variant]];
+
+  return (
+    <div
+      role="status"
+      className={cx("flex items-center gap-2.5", className)}
+      style={{ color, "--bui-agent-thinking-tone": color } as CSSProperties}
+    >
+      {(variant === "wave" || variant === "spin") && <DotsIndicator variant={variant} />}
+      {variant === "stars" && <StarsIndicator />}
+      {variant === "infinity" && <InfinityIndicator />}
+      <span
+        aria-label={label}
+        className={cx("text-body-medium", shimmer && "bui-agent-thinking-label")}
+      >
+        {label}
+      </span>
+      {showTimer && <ElapsedTimer />}
+    </div>
+  );
+}
+15:["$","$L16",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"agent-thinking","title":"Agent Thinking","description":"Four loading personalities — wave, spin, stars and infinity — with an elapsed timer.","category":"blocks","family":"ai","kind":"block","designSystem":"zeus","foundationDependencies":["tokens"],"iconLibraries":[],"tags":["ai","agent","loading","streaming","chat"],"status":"stable","tier":"free","dependencies":["tailwind-merge@^3.6.0"],"registryDependencies":["cx","tokens"],"files":[{"path":"application/agent-thinking/agent-thinking.tsx","target":"components/application/agent-thinking/agent-thinking.tsx","type":"component","content":"$17"}],"hash":"640522148c41"},"demoSource":"\"use client\";\n\nimport { AgentThinking } from \"@/components/application/agent-thinking/agent-thinking\";\n\nexport default function AgentThinkingDemo() {\n  return (\n    <div className=\"flex flex-col gap-6\">\n      <AgentThinking variant=\"wave\" label=\"Thinking\" />\n      <AgentThinking variant=\"spin\" label=\"Searching the docs\" />\n      <AgentThinking variant=\"stars\" label=\"Reading files\" />\n      <AgentThinking variant=\"infinity\" label=\"Planning\" tone=\"accent\" />\n      <AgentThinking variant=\"wave\" label=\"Working\" showTimer={false} shimmer={false} />\n    </div>\n  );\n}","previous":{"name":"agent-limits-card","title":"Agent Limits"},"next":{"name":"composer-loader","title":"Composer Loader"},"origin":{"name":"agent-thinking","library":"boardui","tier":"free","reference":"https://www.boardui.com/components/agent-thinking","libraryName":"BoardUI"}}]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+e:[["$","title","0",{"children":"Agent Thinking — Zeus UI"}],["$","meta","1",{"name":"description","content":"Four loading personalities — wave, spin, stars and infinity — with an elapsed timer."}],["$","meta","2",{"name":"keywords","content":"ai,agent,loading,streaming,chat"}]]

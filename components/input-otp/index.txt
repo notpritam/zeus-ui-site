@@ -1,0 +1,219 @@
+1:"$Sreact.fragment"
+2:I[172844,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],""]
+3:I[722035,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"CommandSearchProvider"]
+4:I[337280,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"default"]
+5:I[475701,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"default"]
+7:I[579014,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+b:I[579014,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"ViewportBoundary"]
+d:I[579014,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"MetadataBoundary"]
+10:I[684167,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"default",1]
+:HL["/_next/static/chunks/16tqri1r-3qox.css","style"]
+:HL["/_next/static/chunks/1pfs1k4fn3vox.css","style"]
+:HL["/_next/static/chunks/04uno_r_5_x4n.css","style"]
+:HL["/_next/static/media/234d9015b631dab9-s.p.33gca1im1ku45.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+a:X
+0:{"P":null,"c":["","components","input-otp",""],"q":"","i":false,"f":[[["",{"children":["components",{"children":[["slug","input-otp","d",[]],{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16tqri1r-3qox.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1pfs1k4fn3vox.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/04uno_r_5_x4n.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/37yss_vchit64.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/2votv6uvyrruo.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L2",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",[["$","script","script-0",{"src":"/_next/static/chunks/3azp_iy_fx0ej.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/3_1pfg1675we5.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/3b-j35phbz363.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/2v6dx3y3pgbg2.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/3znghnjm2oz_l.js","async":true,"nonce":"$undefined"}],["$","script","script-5",{"src":"/_next/static/chunks/3458ylrm-tu9f.js","async":true,"nonce":"$undefined"}],["$","script","script-6",{"src":"/_next/static/chunks/1h9znjrekhrnu.js","async":true,"nonce":"$undefined"}],["$","script","script-7",{"src":"/_next/static/chunks/052khci2jbxel.js","async":true,"nonce":"$undefined"}],["$","script","script-8",{"src":"/_next/static/chunks/3fuakxesa5sfw.js","async":true,"nonce":"$undefined"}],["$","script","script-9",{"src":"/_next/static/chunks/34kutq8p1wnfe.js","async":true,"nonce":"$undefined"}],["$","script","script-10",{"src":"/_next/static/chunks/13e0htpydajrc.js","async":true,"nonce":"$undefined"}]],["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]]}],{},null,false,null]},null,false,"$a"]},null,false,"$a"]},null,false,null],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$8",null,{"name":"Next.Metadata","children":"$Le"}]}]}],"$Lf"]}],false]],"m":"$undefined","G":["$10",["$L11","$L12","$L13"]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"MshCBksLdfoZmpOcb96Z-"}
+a:C
+f:["$","meta",null,{"name":"next-size-adjust","content":""}]
+11:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16tqri1r-3qox.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+12:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1pfs1k4fn3vox.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+13:["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/04uno_r_5_x4n.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+14:I[768456,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js","/_next/static/chunks/3azp_iy_fx0ej.js","/_next/static/chunks/3_1pfg1675we5.js","/_next/static/chunks/3b-j35phbz363.js","/_next/static/chunks/2v6dx3y3pgbg2.js","/_next/static/chunks/3znghnjm2oz_l.js","/_next/static/chunks/3458ylrm-tu9f.js","/_next/static/chunks/1h9znjrekhrnu.js","/_next/static/chunks/052khci2jbxel.js","/_next/static/chunks/3fuakxesa5sfw.js","/_next/static/chunks/34kutq8p1wnfe.js","/_next/static/chunks/13e0htpydajrc.js"],"DocsLayout"]
+6:["$","$L14",null,{"title":"Input OTP","heading":"Input OTP","icon":"components","groups":[{"id":"buttons","title":"Buttons","items":[{"name":"background-fill-button","title":"Background Fill Button","isNew":true},{"name":"circle-fill-button","title":"Circle Fill Button","isNew":true},{"name":"curve-fill-button","title":"Curve Fill Button","isNew":true},{"name":"animated-icon-button","title":"Animated Icon Button","isNew":true},{"name":"magnetic-button","title":"Magnetic Button","isNew":true},{"name":"rainbow-button","title":"Rainbow Button","isNew":true},{"name":"text-underline","title":"Text Underline","isNew":true},{"name":"button","title":"Button","isNew":"$undefined"},{"name":"icon-button","title":"Icon Button","isNew":"$undefined"},{"name":"link-button","title":"Link Button","isNew":"$undefined"},{"name":"button-group","title":"Button Group","isNew":"$undefined"},{"name":"close-button","title":"Close Button","isNew":"$undefined"},{"name":"social-button","title":"Social Button","isNew":"$undefined"}]},{"id":"forms","title":"Forms & inputs","items":[{"name":"gooey-filter-chips","title":"Gooey Filter Chips","isNew":true},{"name":"multi-step-form","title":"Multi-Step Form","isNew":true},{"name":"morphing-select","title":"Morphing Select","isNew":true},{"name":"input","title":"Input","isNew":"$undefined"},{"name":"input-otp","title":"Input OTP","isNew":"$undefined"},{"name":"checkbox","title":"Checkbox","isNew":"$undefined"},{"name":"radio","title":"Radio","isNew":"$undefined"},{"name":"switch","title":"Switch","isNew":"$undefined"},{"name":"select","title":"Select","isNew":"$undefined"},{"name":"slider","title":"Slider","isNew":"$undefined"},{"name":"file-upload","title":"File Upload","isNew":"$undefined"},{"name":"auth-card","title":"Auth Card","isNew":"$undefined"}]},{"id":"navigation","title":"Navigation","items":[{"name":"morphing-pill-menu","title":"Morphing Pill Menu","isNew":true},{"name":"gooey-menu","title":"Gooey Menu","isNew":true},{"name":"mega-menu","title":"Mega Menu","isNew":true},{"name":"fullscreen-slide-menu","title":"Fullscreen Slide Menu","isNew":true},{"name":"hide-header","title":"Hide Header","isNew":true},{"name":"custom-cursor","title":"Custom Cursor","isNew":true},{"name":"morphing-island","title":"Morphing Island","isNew":true},{"name":"morphing-tabs","title":"Morphing Tabs","isNew":true},{"name":"multi-level-drawer-menu","title":"Multi-Level Drawer Menu","isNew":true},{"name":"dropdown","title":"Dropdown","isNew":"$undefined"},{"name":"tabs","title":"Tabs","isNew":"$undefined"},{"name":"segmented-control","title":"Segmented Control","isNew":"$undefined"},{"name":"breadcrumb","title":"Breadcrumb","isNew":"$undefined"},{"name":"pagination","title":"Pagination","isNew":"$undefined"},{"name":"sidebar","title":"Sidebar","isNew":"$undefined"}]},{"id":"feedback","title":"Feedback & status","items":[{"name":"badge","title":"Badge","isNew":"$undefined"},{"name":"chip","title":"Chip","isNew":"$undefined"},{"name":"status-dot","title":"Status Dot","isNew":"$undefined"},{"name":"announcement","title":"Announcement","isNew":"$undefined"},{"name":"notification","title":"Notification","isNew":"$undefined"},{"name":"theme-toggle","title":"Theme Toggle","isNew":"$undefined"},{"name":"notification-center","title":"Notification Center","isNew":"$undefined"}]},{"id":"overlays","title":"Overlays & disclosures","items":[{"name":"morphing-accordion","title":"Morphing Accordion","isNew":true},{"name":"detail-drawer","title":"Detail Drawer","isNew":true},{"name":"animated-tooltip","title":"Animated Tooltip","isNew":true},{"name":"morphing-dialog","title":"Morphing Dialog","isNew":true},{"name":"morphing-tooltip","title":"Morphing Tooltip","isNew":true},{"name":"animated-accordion","title":"Animated Accordion","isNew":true},{"name":"feature-dialog","title":"Feature Dialog","isNew":true},{"name":"tooltip","title":"Tooltip","isNew":"$undefined"},{"name":"settings-modal","title":"Settings Modal","isNew":"$undefined"}]},{"id":"typography","title":"Text & typography","items":[{"name":"text-on-path","title":"Text On Path","isNew":true},{"name":"text-fill-wave","title":"Text Fill Wave","isNew":true},{"name":"velocity-type","title":"Velocity Type","isNew":true},{"name":"typewriter","title":"Typewriter","isNew":true},{"name":"character-appear","title":"Character Appear","isNew":true},{"name":"text-morph","title":"Text Morph","isNew":true},{"name":"text-split-zoom","title":"Text Split Zoom","isNew":true},{"name":"text-scramble","title":"Text Scramble","isNew":true},{"name":"rectangle-text-reveal","title":"Rectangle Text Reveal","isNew":true},{"name":"popping-text","title":"Popping Text","isNew":true},{"name":"folding-text","title":"Folding Text","isNew":true},{"name":"cinematic-text","title":"Cinematic Text","isNew":true},{"name":"text-shimmer-wave","title":"Text Shimmer Wave","isNew":true},{"name":"text-reveal","title":"Text Reveal","isNew":true},{"name":"dual-scramble","title":"Dual Scramble","isNew":true},{"name":"typography","title":"Typography","isNew":"$undefined"},{"name":"kbd","title":"Kbd","isNew":"$undefined"}]},{"id":"icons","title":"Icons & identity","items":[{"name":"chevrons","title":"Chevrons","isNew":"$undefined"},{"name":"logo","title":"Logo","isNew":"$undefined"},{"name":"avatar","title":"Avatar","isNew":"$undefined"}]},{"id":"layout","title":"Layout & structure","items":[{"name":"grid-chapters","title":"Grid Chapters","isNew":true},{"name":"network-globe","title":"Network Globe","isNew":true},{"name":"dock-footer","title":"Dock Footer","isNew":true},{"name":"flip-filter","title":"Flip Filter","isNew":true},{"name":"capsule-hero","title":"Capsule Hero","isNew":true},{"name":"wipe-slider","title":"Wipe Slider","isNew":true},{"name":"step-wipe","title":"Step Wipe","isNew":true},{"name":"gradient-footer","title":"Gradient Footer","isNew":true},{"name":"testimonial-globe","title":"Testimonial Globe","isNew":true},{"name":"drift-gallery","title":"Drift Gallery","isNew":true},{"name":"divider","title":"Divider","isNew":"$undefined"},{"name":"app-shell","title":"App Shell","isNew":"$undefined"}]},{"id":"data","title":"Data & charts","items":[{"name":"progress","title":"Progress","isNew":true},{"name":"counter","title":"Counter","isNew":true},{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"table","title":"Table","isNew":"$undefined"},{"name":"stat-cards","title":"Stat Cards","isNew":"$undefined"},{"name":"data-table","title":"Data Table","isNew":"$undefined"},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart","isNew":"$undefined"},{"name":"orders-chart-card","title":"Orders Chart","isNew":"$undefined"},{"name":"important-alerts-card","title":"Important Alerts","isNew":"$undefined"},{"name":"patient-info-card","title":"Patient Info","isNew":"$undefined"}]},{"id":"media","title":"Images & media","items":[{"name":"mesh-gradient","title":"Mesh Gradient","isNew":true},{"name":"dithering","title":"Dithering","isNew":true},{"name":"image-glitch","title":"Image Glitch","isNew":true},{"name":"gooey-hover-reveal","title":"Gooey Hover Reveal","isNew":true},{"name":"dither-cursor-trail","title":"Dither Cursor Trail","isNew":true},{"name":"image-dissolve-scroll","title":"Image Dissolve Scroll","isNew":true},{"name":"scatter-cluster","title":"Scatter Cluster","isNew":true},{"name":"multi-flip","title":"Multi Flip","isNew":true},{"name":"velocity-clip","title":"Velocity Clip","isNew":true},{"name":"svg-draw-path","title":"SVG Draw Path","isNew":true},{"name":"parallax","title":"Parallax","isNew":true},{"name":"mask-reveal","title":"Mask Reveal","isNew":true},{"name":"flip-zone","title":"Flip Zone","isNew":true},{"name":"element-reveal","title":"Element Reveal","isNew":true},{"name":"background-color","title":"Background Color","isNew":true},{"name":"animated-grid","title":"Animated Grid","isNew":true},{"name":"random-rotate","title":"Random Rotate","isNew":true},{"name":"photo-stack-gallery","title":"Photo Stack Gallery","isNew":true},{"name":"spiral-gallery","title":"Spiral Gallery","isNew":true},{"name":"lens-rail","title":"Lens Rail","isNew":true},{"name":"expanding-strip","title":"Expanding Strip","isNew":true},{"name":"index-wipe","title":"Index Wipe","isNew":true},{"name":"card-fan","title":"Card Fan","isNew":true},{"name":"radial-gallery","title":"Radial Gallery","isNew":true},{"name":"circular-slider","title":"Circular Slider","isNew":true},{"name":"infinite-parallax-slider","title":"Infinite Parallax Slider","isNew":true},{"name":"image-follow-list","title":"Image Follow List","isNew":true},{"name":"hoverable-list","title":"Hoverable List","isNew":true},{"name":"infinite-draggable-grid","title":"Infinite Draggable Grid","isNew":true},{"name":"infinite-marquee","title":"Infinite Marquee","isNew":true},{"name":"image-trail","title":"Image Trail","isNew":true},{"name":"3d-card-flip","title":"3D Card Flip","isNew":true},{"name":"image-fly-in","title":"Image Fly-In","isNew":true},{"name":"scale-slider","title":"Scale Slider","isNew":true},{"name":"curtain-slider","title":"Curtain Slider","isNew":true},{"name":"ascii-overlay","title":"ASCII Overlay","isNew":true},{"name":"carousel","title":"Carousel","isNew":"$undefined"}]},{"id":"scheduling","title":"Dates & scheduling","items":[{"name":"calendar","title":"Calendar","isNew":true},{"name":"date-picker","title":"Date Picker","isNew":"$undefined"},{"name":"date-range-picker","title":"Date Range Picker","isNew":"$undefined"},{"name":"meeting-scheduler","title":"Meeting Scheduler","isNew":"$undefined"}]},{"id":"ai","title":"AI & agents","items":[{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true},{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking","isNew":"$undefined"},{"name":"composer-loader","title":"Composer Loader","isNew":"$undefined"},{"name":"agent-log","title":"Agent Log","isNew":"$undefined"},{"name":"agent-chat","title":"Agent Chat","isNew":"$undefined"}]},{"id":"pricing","title":"Pricing & billing","items":[{"name":"animated-pricing","title":"Animated Pricing","isNew":true}]},{"id":"screens","title":"Complete screens","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true}]},{"id":"foundations","title":"Design foundations","items":[{"name":"tokens","title":"Design tokens","isNew":"$undefined"}]},{"id":"utilities","title":"Hooks & utilities","items":[{"name":"cx","title":"cx","isNew":"$undefined"},{"name":"use-count-up","title":"useCountUp","isNew":"$undefined"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress","isNew":"$undefined"}]}],"description":"One-time-code boxes with paste, autofill and grouping.","columnClassName":"$undefined","detail":true,"children":"$L15"}]
+16:I[107183,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js","/_next/static/chunks/3azp_iy_fx0ej.js","/_next/static/chunks/3_1pfg1675we5.js","/_next/static/chunks/3b-j35phbz363.js","/_next/static/chunks/2v6dx3y3pgbg2.js","/_next/static/chunks/3znghnjm2oz_l.js","/_next/static/chunks/3458ylrm-tu9f.js","/_next/static/chunks/1h9znjrekhrnu.js","/_next/static/chunks/052khci2jbxel.js","/_next/static/chunks/3fuakxesa5sfw.js","/_next/static/chunks/34kutq8p1wnfe.js","/_next/static/chunks/13e0htpydajrc.js"],"ComponentPage"]
+17:T1b2e,"use client";
+
+import {
+  useId,
+  useRef,
+  useState,
+  type ClipboardEvent,
+  type KeyboardEvent,
+  type Ref,
+} from "react";
+import { cx } from "../../utils/cx";
+
+/**
+ * One-time-code input: one box per digit, side by side.
+ *
+ * The awkward part of an OTP field is that it looks like N inputs but behaves
+ * like one value, and the two views have to stay in step in every direction:
+ *
+ *   type      fills a box and advances
+ *   Backspace clears the box, or steps back when the box is already empty
+ *   arrows    move between boxes without changing anything
+ *   paste     distributes across the boxes from wherever the caret is
+ *   autofill  the OS hands the whole code to the first box at once
+ *
+ * That last one is why every box carries `autoComplete="one-time-code"` and
+ * why the change handler accepts more than a single character: iOS and Chrome
+ * both deliver the full code into whichever box has focus, and a field that
+ * only accepts one character silently drops five digits of it.
+ *
+ * Digits are monospace so the boxes stay optically even — in a proportional
+ * face a `1` is visibly narrower than a `8`, which makes a row of fixed boxes
+ * look mis-set even when it is perfectly aligned.
+ */
+
+export interface InputOtpProps {
+  /** Number of digit boxes. */
+  length?: number;
+  /** Controlled value. Longer strings are truncated to `length`. */
+  value?: string;
+  defaultValue?: string;
+  onChange?: (value: string) => void;
+  /** Fires once the last box is filled. */
+  onComplete?: (value: string) => void;
+  isDisabled?: boolean;
+  isInvalid?: boolean;
+  /** Renders a gap between groups, e.g. `3` gives 000 000. */
+  groupEvery?: number;
+  "aria-label"?: string;
+  className?: string;
+  ref?: Ref<HTMLDivElement>;
+}
+
+const DIGITS_ONLY = /\D/g;
+
+export function InputOtp({
+  length = 6,
+  value,
+  defaultValue = "",
+  onChange,
+  onComplete,
+  isDisabled = false,
+  isInvalid = false,
+  groupEvery,
+  "aria-label": ariaLabel = "One-time code",
+  className,
+  ref,
+}: InputOtpProps) {
+  const groupId = useId();
+  const inputsRef = useRef<Array<HTMLInputElement | null>>([]);
+  const [internal, setInternal] = useState(defaultValue.replace(DIGITS_ONLY, "").slice(0, length));
+
+  const controlled = value !== undefined;
+  const code = (controlled ? value : internal).replace(DIGITS_ONLY, "").slice(0, length);
+
+  const commit = (next: string) => {
+    const clean = next.replace(DIGITS_ONLY, "").slice(0, length);
+    if (!controlled) setInternal(clean);
+    onChange?.(clean);
+    if (clean.length === length) onComplete?.(clean);
+  };
+
+  const focusBox = (index: number) => {
+    const target = inputsRef.current[Math.max(0, Math.min(index, length - 1))];
+    target?.focus();
+    target?.select();
+  };
+
+  /** Writes `digits` starting at `index`, which covers typing and autofill. */
+  const writeFrom = (index: number, digits: string) => {
+    const clean = digits.replace(DIGITS_ONLY, "");
+    if (clean === "") return;
+
+    const chars = code.padEnd(length, " ").split("");
+    for (let offset = 0; offset < clean.length && index + offset < length; offset += 1) {
+      chars[index + offset] = clean[offset];
+    }
+    commit(chars.join("").trimEnd());
+    focusBox(index + clean.length);
+  };
+
+  const onKeyDown = (event: KeyboardEvent<HTMLInputElement>, index: number) => {
+    if (event.key === "Backspace") {
+      event.preventDefault();
+      if (code[index]) {
+        // Clear in place; the caret only steps back on an already-empty box,
+        // which is what makes holding Backspace feel right.
+        const chars = code.padEnd(length, " ").split("");
+        chars[index] = " ";
+        commit(chars.join("").trimEnd());
+        return;
+      }
+      const chars = code.padEnd(length, " ").split("");
+      chars[Math.max(0, index - 1)] = " ";
+      commit(chars.join("").trimEnd());
+      focusBox(index - 1);
+      return;
+    }
+
+    if (event.key === "ArrowLeft") {
+      event.preventDefault();
+      focusBox(index - 1);
+    } else if (event.key === "ArrowRight") {
+      event.preventDefault();
+      focusBox(index + 1);
+    }
+  };
+
+  const onPaste = (event: ClipboardEvent<HTMLInputElement>, index: number) => {
+    event.preventDefault();
+    writeFrom(index, event.clipboardData.getData("text"));
+  };
+
+  return (
+    <div
+      ref={ref}
+      role="group"
+      aria-label={ariaLabel}
+      // No `aria-invalid` here: `group` does not support it. Each box carries
+      // its own, which is where a screen reader looks anyway.
+      className={cx("flex w-fit max-w-full items-center gap-2", className)}
+    >
+      {Array.from({ length }, (_, index) => {
+        const filled = code[index] ?? "";
+        const gapBefore = groupEvery !== undefined && index > 0 && index % groupEvery === 0;
+
+        return (
+          <div key={index} className={cx("flex min-w-0 items-center", gapBefore && "ml-3")}>
+            <input
+              ref={(node) => {
+                inputsRef.current[index] = node;
+              }}
+              id={`${groupId}-${index}`}
+              // `text` with a numeric mode rather than `number`: a number input
+              // brings spinners, accepts `e` and `-`, and its value is empty
+              // for anything it considers malformed.
+              type="text"
+              inputMode="numeric"
+              autoComplete="one-time-code"
+              // Long enough to accept a full autofilled code in one box.
+              maxLength={length}
+              disabled={isDisabled}
+              aria-label={`Digit ${index + 1} of ${length}`}
+              aria-invalid={isInvalid || undefined}
+              value={filled}
+              onChange={(event) => writeFrom(index, event.target.value)}
+              onKeyDown={(event) => onKeyDown(event, index)}
+              onPaste={(event) => onPaste(event, index)}
+              onFocus={(event) => event.target.select()}
+              className={cx(
+                "h-12 w-12 min-w-0 max-w-full rounded-2lg text-center font-mono text-title-3-medium tabular-nums",
+                "bg-background-primary-default text-text-primary",
+                "border border-border-button-default shadow-xs",
+                "transition-[background-color,border-color,box-shadow] duration-150 ease outline-none",
+                "hover:border-border-button-hover",
+                "focus-visible:border-border-focus-ring focus-visible:ring-2 focus-visible:ring-border-focus-ring",
+                // Red edge as well as the tint. `border-error-default` was
+                // added to theme.css for this: the system had greys only.
+                isInvalid &&
+                  "border-border-error-default bg-background-tertiary-error text-foreground-icon-error hover:border-border-error-default",
+                isDisabled &&
+                  "cursor-not-allowed bg-background-primary-disabled text-text-tertiary shadow-none",
+              )}
+            />
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+15:["$","$L16",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"input-otp","title":"Input OTP","description":"One-time-code boxes with paste, autofill and grouping.","category":"base","family":"forms","kind":"component","designSystem":"zeus","foundationDependencies":["tokens"],"iconLibraries":[],"tags":["form","otp","verification","2fa","code"],"status":"stable","tier":"free","dependencies":["tailwind-merge@^3.6.0"],"registryDependencies":["cx","tokens"],"files":[{"path":"base/input-otp/input-otp.tsx","target":"components/base/input-otp/input-otp.tsx","type":"component","content":"$17"}],"hash":"91131c9daf04"},"demoSource":"\"use client\";\n\nimport { useState } from \"react\";\nimport { InputOtp } from \"@/components/base/input-otp/input-otp\";\n\nexport default function InputOtpDemo() {\n  const [code, setCode] = useState(\"\");\n\n  return (\n    <div className=\"flex flex-col gap-6\">\n      <InputOtp value={code} onChange={setCode} aria-label=\"Verification code\" />\n      <div className=\"flex flex-wrap items-center gap-6\">\n        <InputOtp groupEvery={3} aria-label=\"Grouped code\" />\n        <InputOtp length={4} aria-label=\"PIN\" />\n      </div>\n      <div className=\"flex flex-wrap items-center gap-6\">\n        <InputOtp isInvalid aria-label=\"Invalid code\" />\n        <InputOtp isDisabled defaultValue=\"1234\" aria-label=\"Disabled code\" />\n      </div>\n    </div>\n  );\n}","previous":{"name":"input","title":"Input"},"next":{"name":"checkbox","title":"Checkbox"},"origin":{"name":"input-otp","library":"boardui","tier":"free","reference":"https://www.boardui.com/components/input-otp","libraryName":"BoardUI"}}]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+e:[["$","title","0",{"children":"Input OTP — Zeus UI"}],["$","meta","1",{"name":"description","content":"One-time-code boxes with paste, autofill and grouping."}],["$","meta","2",{"name":"keywords","content":"form,otp,verification,2fa,code"}]]

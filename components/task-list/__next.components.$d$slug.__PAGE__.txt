@@ -1,0 +1,308 @@
+1:"$Sreact.fragment"
+2:I[768456,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js","/_next/static/chunks/3azp_iy_fx0ej.js","/_next/static/chunks/3_1pfg1675we5.js","/_next/static/chunks/3b-j35phbz363.js","/_next/static/chunks/2v6dx3y3pgbg2.js","/_next/static/chunks/3znghnjm2oz_l.js","/_next/static/chunks/3458ylrm-tu9f.js","/_next/static/chunks/1h9znjrekhrnu.js","/_next/static/chunks/052khci2jbxel.js","/_next/static/chunks/3fuakxesa5sfw.js","/_next/static/chunks/34kutq8p1wnfe.js","/_next/static/chunks/13e0htpydajrc.js"],"DocsLayout"]
+11:X
+16:X
+16:C
+0:{"buildId":"MshCBksLdfoZmpOcb96Z-","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"Task List","heading":"Task List","icon":"components","groups":[{"id":"buttons","title":"Buttons","items":[{"name":"background-fill-button","title":"Background Fill Button","isNew":true},{"name":"circle-fill-button","title":"Circle Fill Button","isNew":true},{"name":"curve-fill-button","title":"Curve Fill Button","isNew":true},{"name":"animated-icon-button","title":"Animated Icon Button","isNew":true},{"name":"magnetic-button","title":"Magnetic Button","isNew":true},{"name":"rainbow-button","title":"Rainbow Button","isNew":true},{"name":"text-underline","title":"Text Underline","isNew":true},{"name":"button","title":"Button"},{"name":"icon-button","title":"Icon Button"},{"name":"link-button","title":"Link Button"},{"name":"button-group","title":"Button Group"},{"name":"close-button","title":"Close Button"},{"name":"social-button","title":"Social Button"}]},{"id":"forms","title":"Forms & inputs","items":[{"name":"gooey-filter-chips","title":"Gooey Filter Chips","isNew":true},{"name":"multi-step-form","title":"Multi-Step Form","isNew":true},{"name":"morphing-select","title":"Morphing Select","isNew":true},{"name":"input","title":"Input"},{"name":"input-otp","title":"Input OTP"},{"name":"checkbox","title":"Checkbox"},{"name":"radio","title":"Radio"},{"name":"switch","title":"Switch"},{"name":"select","title":"Select"},{"name":"slider","title":"Slider"},{"name":"file-upload","title":"File Upload"},{"name":"auth-card","title":"Auth Card"}]},{"id":"navigation","title":"Navigation","items":[{"name":"morphing-pill-menu","title":"Morphing Pill Menu","isNew":true},{"name":"gooey-menu","title":"Gooey Menu","isNew":true},{"name":"mega-menu","title":"Mega Menu","isNew":true},{"name":"fullscreen-slide-menu","title":"Fullscreen Slide Menu","isNew":true},{"name":"hide-header","title":"Hide Header","isNew":true},{"name":"custom-cursor","title":"Custom Cursor","isNew":true},{"name":"morphing-island","title":"Morphing Island","isNew":true},{"name":"morphing-tabs","title":"Morphing Tabs","isNew":true},{"name":"multi-level-drawer-menu","title":"Multi-Level Drawer Menu","isNew":true},{"name":"dropdown","title":"Dropdown"},{"name":"tabs","title":"Tabs"},{"name":"segmented-control","title":"Segmented Control"},{"name":"breadcrumb","title":"Breadcrumb"},{"name":"pagination","title":"Pagination"},{"name":"sidebar","title":"Sidebar"}]},{"id":"feedback","title":"Feedback & status","items":[{"name":"badge","title":"Badge"},{"name":"chip","title":"Chip"},{"name":"status-dot","title":"Status Dot"},{"name":"announcement","title":"Announcement"},{"name":"notification","title":"Notification"},{"name":"theme-toggle","title":"Theme Toggle"},{"name":"notification-center","title":"Notification Center"}]},{"id":"overlays","title":"Overlays & disclosures","items":[{"name":"morphing-accordion","title":"Morphing Accordion","isNew":true},{"name":"detail-drawer","title":"Detail Drawer","isNew":true},{"name":"animated-tooltip","title":"Animated Tooltip","isNew":true},{"name":"morphing-dialog","title":"Morphing Dialog","isNew":true},{"name":"morphing-tooltip","title":"Morphing Tooltip","isNew":true},{"name":"animated-accordion","title":"Animated Accordion","isNew":true},{"name":"feature-dialog","title":"Feature Dialog","isNew":true},{"name":"tooltip","title":"Tooltip"},{"name":"settings-modal","title":"Settings Modal"}]},{"id":"typography","title":"Text & typography","items":[{"name":"text-on-path","title":"Text On Path","isNew":true},{"name":"text-fill-wave","title":"Text Fill Wave","isNew":true},{"name":"velocity-type","title":"Velocity Type","isNew":true},{"name":"typewriter","title":"Typewriter","isNew":true},{"name":"character-appear","title":"Character Appear","isNew":true},{"name":"text-morph","title":"Text Morph","isNew":true},{"name":"text-split-zoom","title":"Text Split Zoom","isNew":true},{"name":"text-scramble","title":"Text Scramble","isNew":true},{"name":"rectangle-text-reveal","title":"Rectangle Text Reveal","isNew":true},{"name":"popping-text","title":"Popping Text","isNew":true},{"name":"folding-text","title":"Folding Text","isNew":true},{"name":"cinematic-text","title":"Cinematic Text","isNew":true},{"name":"text-shimmer-wave","title":"Text Shimmer Wave","isNew":true},{"name":"text-reveal","title":"Text Reveal","isNew":true},{"name":"dual-scramble","title":"Dual Scramble","isNew":true},{"name":"typography","title":"Typography"},{"name":"kbd","title":"Kbd"}]},{"id":"icons","title":"Icons & identity","items":[{"name":"chevrons","title":"Chevrons"},{"name":"logo","title":"Logo"},{"name":"avatar","title":"Avatar"}]},{"id":"layout","title":"Layout & structure","items":[{"name":"grid-chapters","title":"Grid Chapters","isNew":true},{"name":"network-globe","title":"Network Globe","isNew":true},{"name":"dock-footer","title":"Dock Footer","isNew":true},{"name":"flip-filter","title":"Flip Filter","isNew":true},{"name":"capsule-hero","title":"Capsule Hero","isNew":true},{"name":"wipe-slider","title":"Wipe Slider","isNew":true},{"name":"step-wipe","title":"Step Wipe","isNew":true},{"name":"gradient-footer","title":"Gradient Footer","isNew":true},{"name":"testimonial-globe","title":"Testimonial Globe","isNew":true},{"name":"drift-gallery","title":"Drift Gallery","isNew":true},{"name":"divider","title":"Divider"},{"name":"app-shell","title":"App Shell"}]},{"id":"data","title":"Data & charts","items":[{"name":"progress","title":"Progress","isNew":true},{"name":"counter","title":"Counter","isNew":true},{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"table","title":"Table"},{"name":"stat-cards","title":"Stat Cards"},{"name":"data-table","title":"Data Table"},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart"},{"name":"orders-chart-card","title":"Orders Chart"},{"name":"important-alerts-card","title":"Important Alerts"},{"name":"patient-info-card","title":"Patient Info"}]},{"id":"media","title":"Images & media","items":[{"name":"mesh-gradient","title":"Mesh Gradient","isNew":true},{"name":"dithering","title":"Dithering","isNew":true},{"name":"image-glitch","title":"Image Glitch","isNew":true},{"name":"gooey-hover-reveal","title":"Gooey Hover Reveal","isNew":true},{"name":"dither-cursor-trail","title":"Dither Cursor Trail","isNew":true},{"name":"image-dissolve-scroll","title":"Image Dissolve Scroll","isNew":true},{"name":"scatter-cluster","title":"Scatter Cluster","isNew":true},{"name":"multi-flip","title":"Multi Flip","isNew":true},{"name":"velocity-clip","title":"Velocity Clip","isNew":true},{"name":"svg-draw-path","title":"SVG Draw Path","isNew":true},{"name":"parallax","title":"Parallax","isNew":true},{"name":"mask-reveal","title":"Mask Reveal","isNew":true},{"name":"flip-zone","title":"Flip Zone","isNew":true},{"name":"element-reveal","title":"Element Reveal","isNew":true},{"name":"background-color","title":"Background Color","isNew":true},{"name":"animated-grid","title":"Animated Grid","isNew":true},{"name":"random-rotate","title":"Random Rotate","isNew":true},{"name":"photo-stack-gallery","title":"Photo Stack Gallery","isNew":true},{"name":"spiral-gallery","title":"Spiral Gallery","isNew":true},{"name":"lens-rail","title":"Lens Rail","isNew":true},{"name":"expanding-strip","title":"Expanding Strip","isNew":true},{"name":"index-wipe","title":"Index Wipe","isNew":true},{"name":"card-fan","title":"Card Fan","isNew":true},{"name":"radial-gallery","title":"Radial Gallery","isNew":true},{"name":"circular-slider","title":"Circular Slider","isNew":true},{"name":"infinite-parallax-slider","title":"Infinite Parallax Slider","isNew":true},{"name":"image-follow-list","title":"Image Follow List","isNew":true},{"name":"hoverable-list","title":"Hoverable List","isNew":true},{"name":"infinite-draggable-grid","title":"Infinite Draggable Grid","isNew":true},{"name":"infinite-marquee","title":"Infinite Marquee","isNew":true},{"name":"image-trail","title":"Image Trail","isNew":true},{"name":"3d-card-flip","title":"3D Card Flip","isNew":true},{"name":"image-fly-in","title":"Image Fly-In","isNew":true},{"name":"scale-slider","title":"Scale Slider","isNew":true},{"name":"curtain-slider","title":"Curtain Slider","isNew":true},{"name":"ascii-overlay","title":"ASCII Overlay","isNew":true},{"name":"carousel","title":"Carousel"}]},{"id":"scheduling","title":"Dates & scheduling","items":[{"name":"calendar","title":"Calendar","isNew":true},{"name":"date-picker","title":"Date Picker"},{"name":"date-range-picker","title":"Date Range Picker"},{"name":"meeting-scheduler","title":"Meeting Scheduler"}]},{"id":"ai","title":"AI & agents","items":[{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true},{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking"},{"name":"composer-loader","title":"Composer Loader"},{"name":"agent-log","title":"Agent Log"},{"name":"agent-chat","title":"Agent Chat"}]},{"id":"pricing","title":"Pricing & billing","items":[{"name":"animated-pricing","title":"Animated Pricing","isNew":true}]},{"id":"screens","title":"Complete screens","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true}]},{"id":"foundations","title":"Design foundations","items":[{"name":"tokens","title":"Design tokens"}]},{"id":"utilities","title":"Hooks & utilities","items":[{"name":"cx","title":"cx"},{"name":"use-count-up","title":"useCountUp"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress"}]}],"description":"Streaming agent task log for React and Tailwind CSS. Tasks reveal step by step with soft height, blur, and shimmer, and drop straight into a chat thread.","detail":true,"children":"$L3"}],["$L4","$L5","$L6","$L7","$L8","$L9","$La","$Lb","$Lc","$Ld","$Le"],"$Lf"]}],"isPartial":"$@10","staleTime":"$11","varyParams":null},{"rsc":"$L12","isPartial":"$@13","staleTime":"$11","varyParams":null},{"rsc":"$L14","isPartial":"$@15","staleTime":"$11","varyParams":"$16"},{"rsc":"$L17","isPartial":"$@18","staleTime":"$11","varyParams":"$16"},{"rsc":"$L19","isPartial":"$@1a","staleTime":"$11","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@1b","rootVaryParams":null,"needsRuntimeRequest":"$@1c"}
+1d:I[107183,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js","/_next/static/chunks/3azp_iy_fx0ej.js","/_next/static/chunks/3_1pfg1675we5.js","/_next/static/chunks/3b-j35phbz363.js","/_next/static/chunks/2v6dx3y3pgbg2.js","/_next/static/chunks/3znghnjm2oz_l.js","/_next/static/chunks/3458ylrm-tu9f.js","/_next/static/chunks/1h9znjrekhrnu.js","/_next/static/chunks/052khci2jbxel.js","/_next/static/chunks/3fuakxesa5sfw.js","/_next/static/chunks/34kutq8p1wnfe.js","/_next/static/chunks/13e0htpydajrc.js"],"ComponentPage"]
+20:I[579014,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"OutletBoundary"]
+21:"$Sreact.suspense"
+23:I[579014,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"ViewportBoundary"]
+24:I[579014,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"MetadataBoundary"]
+25:I[337280,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"default"]
+26:I[475701,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"default"]
+27:I[172844,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],""]
+28:I[722035,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"CommandSearchProvider"]
+:HL["/_next/static/chunks/16tqri1r-3qox.css","style"]
+:HL["/_next/static/chunks/1pfs1k4fn3vox.css","style"]
+:HL["/_next/static/chunks/04uno_r_5_x4n.css","style"]
+1e:T1d96,"use client";
+
+import { RiArrowDownSLine, RiFileCodeLine, RiReactjsLine, RiSearchLine } from "@remixicon/react";
+import { AnimatePresence, motion } from "motion/react";
+import { type ComponentType, type ReactNode, useId, useState } from "react";
+import { cx } from "../../utils/cx";
+import {
+  LogRow,
+  ShimmerText,
+  SOFT_EASE,
+  UNIT_ANIMATE,
+  UNIT_INITIAL,
+  UNIT_TRANSITION,
+  useLogMotion,
+  useRevealMask,
+  useRevealTicker,
+  WorkingRow,
+} from "../agent-log/agent-log";
+
+export interface TaskResourceChip {
+  label: string;
+  icon?: ReactNode;
+  href?: string;
+}
+export interface AgentTaskStep {
+  label: string;
+  chips?: TaskResourceChip[];
+}
+export interface AgentTask {
+  id?: string;
+  label: string;
+  completedLabel?: string;
+  icon?: ComponentType<{ className?: string; "aria-hidden"?: boolean | "true" | "false" }>;
+  steps?: AgentTaskStep[];
+}
+export interface TaskListProps {
+  tasks?: AgentTask[];
+  revealed?: number;
+  run?: boolean;
+  startDelay?: number;
+  stepInterval?: number;
+  collapseOnComplete?: boolean | "all";
+  onComplete?: () => void;
+  className?: string;
+}
+const reactIcon = <RiReactjsLine className="size-3.5 text-[#61dafb]" />;
+export const DEFAULT_AGENT_TASKS: AgentTask[] = [
+  {
+    id: "search",
+    label: "Searching project files",
+    completedLabel: "Found project files",
+    icon: RiSearchLine,
+    steps: [
+      { label: 'Searching "app/page.tsx, components structure"' },
+      { label: "Read", chips: [{ label: "page.tsx", icon: reactIcon }] },
+      { label: "Scanning 52 files" },
+      { label: "Reading files", chips: [{ label: "layout.tsx", icon: reactIcon }] },
+    ],
+  },
+  {
+    id: "edit",
+    label: "Editing files",
+    completedLabel: "Registered the theme toggle",
+    icon: RiFileCodeLine,
+    steps: [
+      { label: "Created", chips: [{ label: "theme-toggle.tsx", icon: reactIcon }] },
+      { label: "Wired it into", chips: [{ label: "layout.tsx", icon: reactIcon }] },
+      { label: "Ran lint and type-check, 0 errors" },
+    ],
+  },
+];
+
+export function TaskChip({ label, icon, href }: TaskResourceChip) {
+  const classes =
+    "mr-0.5 ml-[3px] inline-flex max-w-full -translate-y-px items-center gap-1 rounded-md border border-border-button-default/50 bg-background-secondary-default py-0.5 pr-1.5 pl-1 align-middle transition-colors duration-150 hover:border-border-button-hover hover:bg-background-tertiary-default";
+  const content = (
+    <>
+      {icon}
+      <span className="truncate text-caption-2-medium text-text-primary">{label}</span>
+    </>
+  );
+  return href ? (
+    <a
+      href={href}
+      className={cx(
+        classes,
+        "outline-none hover:bg-background-secondary-hover focus-visible:ring-2 focus-visible:ring-border-focus-ring",
+      )}
+    >
+      {content}
+    </a>
+  ) : (
+    <span className={classes}>{content}</span>
+  );
+}
+function TaskGroup({
+  task,
+  shown,
+  done,
+  collapse,
+  reduce,
+}: {
+  task: AgentTask;
+  shown: number;
+  done: boolean;
+  collapse: boolean;
+  reduce: boolean;
+}) {
+  const [manualOpen, setManualOpen] = useState<boolean | null>(null);
+  const open = manualOpen ?? !collapse;
+  const id = useId();
+  const mask = useRevealMask(reduce);
+  const steps = task.steps ?? [];
+  const Icon = task.icon ?? RiSearchLine;
+  const label = done ? (task.completedLabel ?? task.label) : task.label;
+  return (
+    <motion.section
+      initial={reduce ? false : UNIT_INITIAL}
+      animate={UNIT_ANIMATE}
+      transition={UNIT_TRANSITION}
+      {...mask}
+      className="overflow-hidden"
+    >
+      <button
+        type="button"
+        aria-label={label}
+        aria-expanded={open}
+        aria-controls={id}
+        onClick={() => setManualOpen(!open)}
+        className="group flex w-full cursor-pointer items-center gap-2 rounded-md py-0.5 text-left outline-none focus-visible:ring-2 focus-visible:ring-border-focus-ring"
+      >
+        <Icon aria-hidden className="size-4 shrink-0 text-foreground-icon-secondary" />
+        <span className="min-w-0 flex-1 text-body-medium text-text-secondary">
+          <AnimatePresence mode="popLayout" initial={false}>
+            <motion.span
+              key={label}
+              initial={reduce ? false : { opacity: 0, y: 3, filter: "blur(3px)" }}
+              animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+              exit={{ opacity: 0, y: -3, filter: "blur(3px)" }}
+              transition={{ duration: reduce ? 0 : 0.3, ease: SOFT_EASE }}
+              className="block truncate"
+            >
+              {done ? label : <ShimmerText>{label}</ShimmerText>}
+            </motion.span>
+          </AnimatePresence>
+        </span>
+        <RiArrowDownSLine
+          aria-hidden
+          className={cx(
+            "size-4 shrink-0 text-foreground-icon-tertiary transition-transform duration-300 group-hover:text-foreground-icon-secondary motion-reduce:transition-none",
+            open && "rotate-180",
+          )}
+        />
+      </button>
+      <motion.div
+        id={id}
+        aria-hidden={!open}
+        inert={!open}
+        initial={false}
+        animate={{ height: open ? "auto" : 0, opacity: open ? 1 : 0 }}
+        transition={{
+          height: { duration: reduce ? 0 : 0.3, ease: SOFT_EASE },
+          opacity: { duration: reduce ? 0 : 0.22, ease: "easeOut" },
+        }}
+        className="overflow-hidden"
+      >
+        <ul className="mt-0.5 ml-2 flex flex-col">
+          {steps.slice(0, shown).map((step, index) => (
+            <LogRow
+              key={`${index}-${step.label}`}
+              first={index === 0}
+              last={index === Math.min(steps.length, shown) - 1}
+              reduce={reduce}
+            >
+              <span className="block py-1 text-body-regular text-text-secondary">
+                {step.label}
+                {step.chips?.map((chip, index) => (
+                  <TaskChip key={`${index}-${chip.label}`} {...chip} />
+                ))}
+              </span>
+            </LogRow>
+          ))}
+        </ul>
+      </motion.div>
+    </motion.section>
+  );
+}
+
+/** `revealed` counts one unit for each task header and each child step. */
+export function TaskList({
+  tasks = DEFAULT_AGENT_TASKS,
+  revealed: controlled,
+  run = true,
+  startDelay = 320,
+  stepInterval = 850,
+  collapseOnComplete = false,
+  onComplete,
+  className,
+}: TaskListProps = {}) {
+  const reduce = useLogMotion();
+  const total = tasks.reduce((sum, task) => sum + 1 + (task.steps?.length ?? 0), 0);
+  const timedTotal = total + (controlled === undefined && total > 0 ? 1 : 0);
+  const revealed = useRevealTicker({
+    total: timedTotal,
+    run,
+    startDelay,
+    stepInterval,
+    revealed: controlled,
+    onComplete,
+  });
+  const complete = revealed >= timedTotal;
+  let offset = 0;
+  return (
+    <div className={cx("flex w-full flex-col gap-[5px]", className)} aria-label="Agent task log">
+      {tasks.map((task, index) => {
+        const start = offset;
+        const units = 1 + (task.steps?.length ?? 0);
+        offset += units;
+        if (revealed <= start) return null;
+        const done =
+          controlled === undefined ? revealed > start + units : revealed >= start + units;
+        return (
+          <TaskGroup
+            key={task.id ?? `${index}-${task.label}`}
+            task={task}
+            shown={Math.max(0, revealed - start - 1)}
+            done={done}
+            reduce={reduce}
+            collapse={collapseOnComplete === "all" ? complete : collapseOnComplete && done}
+          />
+        );
+      })}
+      {!complete && <WorkingRow label="Working" reduce={reduce} />}
+    </div>
+  );
+}
+1f:T4ed,"use client";
+import { TaskList } from "@/components/application/task-list/task-list";
+import { RiRefreshLine } from "@remixicon/react";
+import { useState } from "react";
+export default function TaskListDemo() {
+  const [turn, setTurn] = useState(0);
+  const [complete, setComplete] = useState(false);
+  return (
+    <div className="flex min-h-[320px] w-full items-center justify-center p-2">
+      <div className="flex w-full max-w-[420px] flex-col gap-4">
+        <TaskList key={turn} onComplete={() => setComplete(true)} />
+        {complete && (
+          <button
+            type="button"
+            className="flex cursor-pointer items-center gap-1.5 self-start rounded-lg border border-border-button-default bg-background-primary-default px-2.5 py-1.5 text-body-medium text-text-secondary shadow-xs transition-colors duration-150 hover:bg-background-primary-hover hover:text-text-primary focus-visible:ring-2 focus-visible:ring-border-focus-ring focus-visible:outline-none"
+            onClick={() => {
+              setComplete(false);
+              setTurn((value) => value + 1);
+            }}
+          >
+            <RiRefreshLine className="size-4" aria-hidden />
+            Run again
+          </button>
+        )}
+      </div>
+    </div>
+  );
+}3:["$","$L1d",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"task-list","title":"Task List","description":"Streaming agent task log for React and Tailwind CSS. Tasks reveal step by step with soft height, blur, and shimmer, and drop straight into a chat thread.","category":"blocks","family":"ai","kind":"block","designSystem":"zeus","foundationDependencies":["tokens"],"iconLibraries":["remix"],"tags":["interaction","ai","task-list"],"status":"stable","tier":"free","isNew":true,"dependencies":["@remixicon/react@^4.9.0","motion@^12.42.2","tailwind-merge@^3.6.0"],"registryDependencies":["agent-log","agent-thinking","cx","tokens"],"files":[{"path":"application/task-list/task-list.tsx","target":"components/application/task-list/task-list.tsx","type":"component","content":"$1e"},{"path":"hooks/use-hydrated-reduced-motion.ts","target":"hooks/use-hydrated-reduced-motion.ts","type":"hook","content":"\"use client\";\n\nimport { useReducedMotion } from \"motion/react\";\nimport { useSyncExternalStore } from \"react\";\n\nconst subscribe = () => () => {};\nconst clientSnapshot = () => true;\nconst serverSnapshot = () => false;\n\n/** Keep the first server/client render identical, then apply the user's motion preference. */\nexport function useHydratedReducedMotion(): boolean {\n  const reduced = useReducedMotion();\n  const hydrated = useSyncExternalStore(subscribe, clientSnapshot, serverSnapshot);\n  return hydrated && reduced === true;\n}\n"}],"hash":"b235c3a3bcfc"},"demoSource":"$1f","previous":{"name":"composer","title":"Composer"},"next":{"name":"web-search","title":"Web Search"},"origin":{"name":"task-list","library":"boardui","tier":"pro","reference":"https://www.boardui.com/components/task-list","libraryName":"BoardUI"}}]
+4:["$","script","script-0",{"src":"/_next/static/chunks/3azp_iy_fx0ej.js","async":true}]
+5:["$","script","script-1",{"src":"/_next/static/chunks/3_1pfg1675we5.js","async":true}]
+6:["$","script","script-2",{"src":"/_next/static/chunks/3b-j35phbz363.js","async":true}]
+7:["$","script","script-3",{"src":"/_next/static/chunks/2v6dx3y3pgbg2.js","async":true}]
+8:["$","script","script-4",{"src":"/_next/static/chunks/3znghnjm2oz_l.js","async":true}]
+9:["$","script","script-5",{"src":"/_next/static/chunks/3458ylrm-tu9f.js","async":true}]
+a:["$","script","script-6",{"src":"/_next/static/chunks/1h9znjrekhrnu.js","async":true}]
+b:["$","script","script-7",{"src":"/_next/static/chunks/052khci2jbxel.js","async":true}]
+c:["$","script","script-8",{"src":"/_next/static/chunks/3fuakxesa5sfw.js","async":true}]
+d:["$","script","script-9",{"src":"/_next/static/chunks/34kutq8p1wnfe.js","async":true}]
+e:["$","script","script-10",{"src":"/_next/static/chunks/13e0htpydajrc.js","async":true}]
+f:["$","$L20",null,{"children":["$","$21",null,{"name":"Next.MetadataOutlet","children":"$@22"}]}]
+12:["$","$1","h",{"children":[null,["$","$L23",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L24",null,{"children":["$","$21",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Task List — Zeus UI"}],["$","meta","1",{"name":"description","content":"Streaming agent task log for React and Tailwind CSS. Tasks reveal step by step with soft height, blur, and shimmer, and drop straight into a chat thread."}],["$","meta","2",{"name":"keywords","content":"interaction,ai,task-list"}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+14:["$","$1","c",{"children":[null,["$","$L25",null,{"parallelRouterKey":"children","template":["$","$L26",null,{}]}]]}]
+17:["$","$1","c",{"children":[null,["$","$L25",null,{"parallelRouterKey":"children","template":["$","$L26",null,{}]}]]}]
+19:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16tqri1r-3qox.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1pfs1k4fn3vox.css","precedence":"next"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/04uno_r_5_x4n.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/37yss_vchit64.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/2votv6uvyrruo.js","async":true}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L27",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L28",null,{"children":["$","$L25",null,{"parallelRouterKey":"children","template":["$","$L26",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]]}]}]]}]
+22:null
+1c:true
+11:300
+11:C
+1b:0
+13:"$undefined"
+15:"$undefined"
+18:"$undefined"
+1a:"$undefined"
+10:"$undefined"

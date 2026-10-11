@@ -5,6 +5,7 @@ The best components for your agent. Curated React components for websites, dashb
 - [Agent manifest](https://myzeusui.com/agents.json): 178 components with examples, install commands and source URLs.
 - [Registry](https://myzeusui.com/r/registry.json)
 - [Documentation](https://myzeusui.com/foundations/)
+- [Library directory](https://myzeusui.com/): 123 UI libraries with their pricing and Zeus's free versions of their components (`libraries` in agents.json).
 
 ## Install source
 

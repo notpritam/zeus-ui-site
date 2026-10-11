@@ -1,0 +1,636 @@
+1:"$Sreact.fragment"
+2:I[172844,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],""]
+3:I[722035,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"CommandSearchProvider"]
+4:I[337280,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"default"]
+5:I[475701,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"default"]
+7:I[579014,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+b:I[579014,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"ViewportBoundary"]
+d:I[579014,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"MetadataBoundary"]
+10:I[684167,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"default",1]
+:HL["/_next/static/chunks/16tqri1r-3qox.css","style"]
+:HL["/_next/static/chunks/1pfs1k4fn3vox.css","style"]
+:HL["/_next/static/chunks/04uno_r_5_x4n.css","style"]
+:HL["/_next/static/media/234d9015b631dab9-s.p.33gca1im1ku45.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+a:X
+0:{"P":null,"c":["","components","scale-slider",""],"q":"","i":false,"f":[[["",{"children":["components",{"children":[["slug","scale-slider","d",[]],{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16tqri1r-3qox.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1pfs1k4fn3vox.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/04uno_r_5_x4n.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/37yss_vchit64.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/2votv6uvyrruo.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L2",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",[["$","script","script-0",{"src":"/_next/static/chunks/3azp_iy_fx0ej.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/3_1pfg1675we5.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/3b-j35phbz363.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/2v6dx3y3pgbg2.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/3znghnjm2oz_l.js","async":true,"nonce":"$undefined"}],["$","script","script-5",{"src":"/_next/static/chunks/3458ylrm-tu9f.js","async":true,"nonce":"$undefined"}],["$","script","script-6",{"src":"/_next/static/chunks/1h9znjrekhrnu.js","async":true,"nonce":"$undefined"}],["$","script","script-7",{"src":"/_next/static/chunks/052khci2jbxel.js","async":true,"nonce":"$undefined"}],["$","script","script-8",{"src":"/_next/static/chunks/3fuakxesa5sfw.js","async":true,"nonce":"$undefined"}],["$","script","script-9",{"src":"/_next/static/chunks/34kutq8p1wnfe.js","async":true,"nonce":"$undefined"}],["$","script","script-10",{"src":"/_next/static/chunks/13e0htpydajrc.js","async":true,"nonce":"$undefined"}]],["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]]}],{},null,false,null]},null,false,"$a"]},null,false,"$a"]},null,false,null],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$8",null,{"name":"Next.Metadata","children":"$Le"}]}]}],"$Lf"]}],false]],"m":"$undefined","G":["$10",["$L11","$L12","$L13"]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"MshCBksLdfoZmpOcb96Z-"}
+a:C
+f:["$","meta",null,{"name":"next-size-adjust","content":""}]
+11:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16tqri1r-3qox.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+12:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1pfs1k4fn3vox.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+13:["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/04uno_r_5_x4n.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+14:I[768456,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js","/_next/static/chunks/3azp_iy_fx0ej.js","/_next/static/chunks/3_1pfg1675we5.js","/_next/static/chunks/3b-j35phbz363.js","/_next/static/chunks/2v6dx3y3pgbg2.js","/_next/static/chunks/3znghnjm2oz_l.js","/_next/static/chunks/3458ylrm-tu9f.js","/_next/static/chunks/1h9znjrekhrnu.js","/_next/static/chunks/052khci2jbxel.js","/_next/static/chunks/3fuakxesa5sfw.js","/_next/static/chunks/34kutq8p1wnfe.js","/_next/static/chunks/13e0htpydajrc.js"],"DocsLayout"]
+6:["$","$L14",null,{"title":"Scale Slider","heading":"Scale Slider","icon":"components","groups":[{"id":"buttons","title":"Buttons","items":[{"name":"background-fill-button","title":"Background Fill Button","isNew":true},{"name":"circle-fill-button","title":"Circle Fill Button","isNew":true},{"name":"curve-fill-button","title":"Curve Fill Button","isNew":true},{"name":"animated-icon-button","title":"Animated Icon Button","isNew":true},{"name":"magnetic-button","title":"Magnetic Button","isNew":true},{"name":"rainbow-button","title":"Rainbow Button","isNew":true},{"name":"text-underline","title":"Text Underline","isNew":true},{"name":"button","title":"Button","isNew":"$undefined"},{"name":"icon-button","title":"Icon Button","isNew":"$undefined"},{"name":"link-button","title":"Link Button","isNew":"$undefined"},{"name":"button-group","title":"Button Group","isNew":"$undefined"},{"name":"close-button","title":"Close Button","isNew":"$undefined"},{"name":"social-button","title":"Social Button","isNew":"$undefined"}]},{"id":"forms","title":"Forms & inputs","items":[{"name":"gooey-filter-chips","title":"Gooey Filter Chips","isNew":true},{"name":"multi-step-form","title":"Multi-Step Form","isNew":true},{"name":"morphing-select","title":"Morphing Select","isNew":true},{"name":"input","title":"Input","isNew":"$undefined"},{"name":"input-otp","title":"Input OTP","isNew":"$undefined"},{"name":"checkbox","title":"Checkbox","isNew":"$undefined"},{"name":"radio","title":"Radio","isNew":"$undefined"},{"name":"switch","title":"Switch","isNew":"$undefined"},{"name":"select","title":"Select","isNew":"$undefined"},{"name":"slider","title":"Slider","isNew":"$undefined"},{"name":"file-upload","title":"File Upload","isNew":"$undefined"},{"name":"auth-card","title":"Auth Card","isNew":"$undefined"}]},{"id":"navigation","title":"Navigation","items":[{"name":"morphing-pill-menu","title":"Morphing Pill Menu","isNew":true},{"name":"gooey-menu","title":"Gooey Menu","isNew":true},{"name":"mega-menu","title":"Mega Menu","isNew":true},{"name":"fullscreen-slide-menu","title":"Fullscreen Slide Menu","isNew":true},{"name":"hide-header","title":"Hide Header","isNew":true},{"name":"custom-cursor","title":"Custom Cursor","isNew":true},{"name":"morphing-island","title":"Morphing Island","isNew":true},{"name":"morphing-tabs","title":"Morphing Tabs","isNew":true},{"name":"multi-level-drawer-menu","title":"Multi-Level Drawer Menu","isNew":true},{"name":"dropdown","title":"Dropdown","isNew":"$undefined"},{"name":"tabs","title":"Tabs","isNew":"$undefined"},{"name":"segmented-control","title":"Segmented Control","isNew":"$undefined"},{"name":"breadcrumb","title":"Breadcrumb","isNew":"$undefined"},{"name":"pagination","title":"Pagination","isNew":"$undefined"},{"name":"sidebar","title":"Sidebar","isNew":"$undefined"}]},{"id":"feedback","title":"Feedback & status","items":[{"name":"badge","title":"Badge","isNew":"$undefined"},{"name":"chip","title":"Chip","isNew":"$undefined"},{"name":"status-dot","title":"Status Dot","isNew":"$undefined"},{"name":"announcement","title":"Announcement","isNew":"$undefined"},{"name":"notification","title":"Notification","isNew":"$undefined"},{"name":"theme-toggle","title":"Theme Toggle","isNew":"$undefined"},{"name":"notification-center","title":"Notification Center","isNew":"$undefined"}]},{"id":"overlays","title":"Overlays & disclosures","items":[{"name":"morphing-accordion","title":"Morphing Accordion","isNew":true},{"name":"detail-drawer","title":"Detail Drawer","isNew":true},{"name":"animated-tooltip","title":"Animated Tooltip","isNew":true},{"name":"morphing-dialog","title":"Morphing Dialog","isNew":true},{"name":"morphing-tooltip","title":"Morphing Tooltip","isNew":true},{"name":"animated-accordion","title":"Animated Accordion","isNew":true},{"name":"feature-dialog","title":"Feature Dialog","isNew":true},{"name":"tooltip","title":"Tooltip","isNew":"$undefined"},{"name":"settings-modal","title":"Settings Modal","isNew":"$undefined"}]},{"id":"typography","title":"Text & typography","items":[{"name":"text-on-path","title":"Text On Path","isNew":true},{"name":"text-fill-wave","title":"Text Fill Wave","isNew":true},{"name":"velocity-type","title":"Velocity Type","isNew":true},{"name":"typewriter","title":"Typewriter","isNew":true},{"name":"character-appear","title":"Character Appear","isNew":true},{"name":"text-morph","title":"Text Morph","isNew":true},{"name":"text-split-zoom","title":"Text Split Zoom","isNew":true},{"name":"text-scramble","title":"Text Scramble","isNew":true},{"name":"rectangle-text-reveal","title":"Rectangle Text Reveal","isNew":true},{"name":"popping-text","title":"Popping Text","isNew":true},{"name":"folding-text","title":"Folding Text","isNew":true},{"name":"cinematic-text","title":"Cinematic Text","isNew":true},{"name":"text-shimmer-wave","title":"Text Shimmer Wave","isNew":true},{"name":"text-reveal","title":"Text Reveal","isNew":true},{"name":"dual-scramble","title":"Dual Scramble","isNew":true},{"name":"typography","title":"Typography","isNew":"$undefined"},{"name":"kbd","title":"Kbd","isNew":"$undefined"}]},{"id":"icons","title":"Icons & identity","items":[{"name":"chevrons","title":"Chevrons","isNew":"$undefined"},{"name":"logo","title":"Logo","isNew":"$undefined"},{"name":"avatar","title":"Avatar","isNew":"$undefined"}]},{"id":"layout","title":"Layout & structure","items":[{"name":"grid-chapters","title":"Grid Chapters","isNew":true},{"name":"network-globe","title":"Network Globe","isNew":true},{"name":"dock-footer","title":"Dock Footer","isNew":true},{"name":"flip-filter","title":"Flip Filter","isNew":true},{"name":"capsule-hero","title":"Capsule Hero","isNew":true},{"name":"wipe-slider","title":"Wipe Slider","isNew":true},{"name":"step-wipe","title":"Step Wipe","isNew":true},{"name":"gradient-footer","title":"Gradient Footer","isNew":true},{"name":"testimonial-globe","title":"Testimonial Globe","isNew":true},{"name":"drift-gallery","title":"Drift Gallery","isNew":true},{"name":"divider","title":"Divider","isNew":"$undefined"},{"name":"app-shell","title":"App Shell","isNew":"$undefined"}]},{"id":"data","title":"Data & charts","items":[{"name":"progress","title":"Progress","isNew":true},{"name":"counter","title":"Counter","isNew":true},{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"table","title":"Table","isNew":"$undefined"},{"name":"stat-cards","title":"Stat Cards","isNew":"$undefined"},{"name":"data-table","title":"Data Table","isNew":"$undefined"},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart","isNew":"$undefined"},{"name":"orders-chart-card","title":"Orders Chart","isNew":"$undefined"},{"name":"important-alerts-card","title":"Important Alerts","isNew":"$undefined"},{"name":"patient-info-card","title":"Patient Info","isNew":"$undefined"}]},{"id":"media","title":"Images & media","items":[{"name":"mesh-gradient","title":"Mesh Gradient","isNew":true},{"name":"dithering","title":"Dithering","isNew":true},{"name":"image-glitch","title":"Image Glitch","isNew":true},{"name":"gooey-hover-reveal","title":"Gooey Hover Reveal","isNew":true},{"name":"dither-cursor-trail","title":"Dither Cursor Trail","isNew":true},{"name":"image-dissolve-scroll","title":"Image Dissolve Scroll","isNew":true},{"name":"scatter-cluster","title":"Scatter Cluster","isNew":true},{"name":"multi-flip","title":"Multi Flip","isNew":true},{"name":"velocity-clip","title":"Velocity Clip","isNew":true},{"name":"svg-draw-path","title":"SVG Draw Path","isNew":true},{"name":"parallax","title":"Parallax","isNew":true},{"name":"mask-reveal","title":"Mask Reveal","isNew":true},{"name":"flip-zone","title":"Flip Zone","isNew":true},{"name":"element-reveal","title":"Element Reveal","isNew":true},{"name":"background-color","title":"Background Color","isNew":true},{"name":"animated-grid","title":"Animated Grid","isNew":true},{"name":"random-rotate","title":"Random Rotate","isNew":true},{"name":"photo-stack-gallery","title":"Photo Stack Gallery","isNew":true},{"name":"spiral-gallery","title":"Spiral Gallery","isNew":true},{"name":"lens-rail","title":"Lens Rail","isNew":true},{"name":"expanding-strip","title":"Expanding Strip","isNew":true},{"name":"index-wipe","title":"Index Wipe","isNew":true},{"name":"card-fan","title":"Card Fan","isNew":true},{"name":"radial-gallery","title":"Radial Gallery","isNew":true},{"name":"circular-slider","title":"Circular Slider","isNew":true},{"name":"infinite-parallax-slider","title":"Infinite Parallax Slider","isNew":true},{"name":"image-follow-list","title":"Image Follow List","isNew":true},{"name":"hoverable-list","title":"Hoverable List","isNew":true},{"name":"infinite-draggable-grid","title":"Infinite Draggable Grid","isNew":true},{"name":"infinite-marquee","title":"Infinite Marquee","isNew":true},{"name":"image-trail","title":"Image Trail","isNew":true},{"name":"3d-card-flip","title":"3D Card Flip","isNew":true},{"name":"image-fly-in","title":"Image Fly-In","isNew":true},{"name":"scale-slider","title":"Scale Slider","isNew":true},{"name":"curtain-slider","title":"Curtain Slider","isNew":true},{"name":"ascii-overlay","title":"ASCII Overlay","isNew":true},{"name":"carousel","title":"Carousel","isNew":"$undefined"}]},{"id":"scheduling","title":"Dates & scheduling","items":[{"name":"calendar","title":"Calendar","isNew":true},{"name":"date-picker","title":"Date Picker","isNew":"$undefined"},{"name":"date-range-picker","title":"Date Range Picker","isNew":"$undefined"},{"name":"meeting-scheduler","title":"Meeting Scheduler","isNew":"$undefined"}]},{"id":"ai","title":"AI & agents","items":[{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true},{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking","isNew":"$undefined"},{"name":"composer-loader","title":"Composer Loader","isNew":"$undefined"},{"name":"agent-log","title":"Agent Log","isNew":"$undefined"},{"name":"agent-chat","title":"Agent Chat","isNew":"$undefined"}]},{"id":"pricing","title":"Pricing & billing","items":[{"name":"animated-pricing","title":"Animated Pricing","isNew":true}]},{"id":"screens","title":"Complete screens","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true}]},{"id":"foundations","title":"Design foundations","items":[{"name":"tokens","title":"Design tokens","isNew":"$undefined"}]},{"id":"utilities","title":"Hooks & utilities","items":[{"name":"cx","title":"cx","isNew":"$undefined"},{"name":"use-count-up","title":"useCountUp","isNew":"$undefined"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress","isNew":"$undefined"}]}],"description":"An exponential image conveyor with drag inertia, keyboard navigation and optional drift","columnClassName":"$undefined","detail":true,"children":"$L15"}]
+16:I[107183,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js","/_next/static/chunks/3azp_iy_fx0ej.js","/_next/static/chunks/3_1pfg1675we5.js","/_next/static/chunks/3b-j35phbz363.js","/_next/static/chunks/2v6dx3y3pgbg2.js","/_next/static/chunks/3znghnjm2oz_l.js","/_next/static/chunks/3458ylrm-tu9f.js","/_next/static/chunks/1h9znjrekhrnu.js","/_next/static/chunks/052khci2jbxel.js","/_next/static/chunks/3fuakxesa5sfw.js","/_next/static/chunks/34kutq8p1wnfe.js","/_next/static/chunks/13e0htpydajrc.js"],"ComponentPage"]
+17:T46e0,"use client";
+
+// Adapted from the user-supplied Annnimate Starter Pack by Good Fella.
+// Zeus integration repairs documented in docs/ANNNIMATE.md.
+
+import React, { forwardRef, useImperativeHandle, useRef } from "react";
+import { gsap } from "gsap";
+import { useGSAP } from "@gsap/react";
+import { Draggable } from "gsap/dist/Draggable";
+import { InertiaPlugin } from "gsap/dist/InertiaPlugin";
+import { CustomEase } from "gsap/dist/CustomEase";
+
+if (typeof window !== "undefined") {
+  gsap.registerPlugin(useGSAP, Draggable, InertiaPlugin, CustomEase);
+  CustomEase.create("zeusAnnimate", "M0,0 C0.3,0.9 0.1,1 1,1");
+  CustomEase.create("zeusAnnimateInOut", "M0,0 C0.7,0 0.16,1 1,1");
+}
+
+const DEFAULT_IMAGES = [
+  "/assets/annnimate/roster_profile_06.jpg",
+  "/assets/annnimate/roster_profile_01.jpg",
+  "/assets/annnimate/roster_cap-profile_02.jpg",
+  "/assets/annnimate/roster_cap-profile_01.jpg",
+  "/assets/annnimate/roster_profile_09.jpg",
+  "/assets/annnimate/roster_profile_07.jpg",
+  "/assets/annnimate/silhouette_eyewear-silhouette_01.jpg",
+  "/assets/annnimate/roster_profile_02.jpg",
+  "/assets/annnimate/roster_profile_10.jpg",
+  "/assets/annnimate/roster_eyewear-profile_01.jpg",
+  "/assets/annnimate/roster_silhouette_01.jpg",
+  "/assets/annnimate/roster_cap-silhouette_01.jpg",
+];
+
+const EASE_KEY = "zeusAnnimateInOut";
+const OVERLAP = 1.5; // px - cards overlap their tail neighbour to hide sub-pixel seams
+const SCROLL_DAMP = 0.9; // per-frame decay of the scroll boost - higher = longer glide
+
+/**
+ * ScaleSlider Component
+ * Square image cards on one bottom baseline, sized as a pure function of
+ * x-position. Card boundaries sit on an exponential map whose vanishing
+ * point is off-screen past the tail edge, so cards scale down continuously
+ * and proportionally as they travel tailward and exit the edge cropped at
+ * minScale * heroSize (never collapsing to zero). ALL cards are always
+ * rendered - off-stage ones park off-screen via transform and are clipped,
+ * never display-toggled, so the recycle jump is invisible in both travel
+ * directions. Driven by drag + inertia, autoplay drift, page-scroll,
+ * keyboard, and optional prev/next arrows.
+ *
+ * @param {string} [className=''] - Additional CSS classes for the wrapper
+ * @param {Array<string>} [images] - Image URLs, one per card (min 3)
+ * @param {'rtl'|'ltr'} [direction='rtl'] - Which edge the hero card is anchored to
+ * @param {'auto'|number} [count='auto'] - How many cards tile the viewport
+ * @param {number} [minScale=0.3] - Smallest card size as a fraction of the biggest
+ * @param {number} [autoplay=0.0016] - Continuous ramp drift speed. 0 = off
+ * @param {number} [drag=0.0012] - Drag-to-travel sensitivity
+ * @param {number} [scroll=0.0002] - How strongly page scroll accelerates the slider
+ * @param {number} [focusY=0.22] - Vertical cover-crop anchor bias
+ * @param {number} [radius=0] - Card corner radius in pixels
+ * @param {number} [parallax=0] - Scale parallax depth (0 = off)
+ */
+const ScaleSlider = forwardRef(function ScaleSlider(
+  {
+    className = "",
+    images = DEFAULT_IMAGES,
+    direction = "rtl",
+    count = "auto",
+    minScale = 0.3,
+    autoplay = 0.0016,
+    drag = 0.0012,
+    scroll = 0.0002,
+    focusY = 0.22,
+    radius = 0,
+    parallax = 0,
+  },
+  ref,
+) {
+  const wrapRef = useRef(null);
+  const sceneRef = useRef(null);
+  const cardRefs = useRef([]);
+  const prevBtnRef = useRef(null);
+  const nextBtnRef = useRef(null);
+  const apiRef = useRef({});
+  cardRefs.current = [];
+
+  function setCardRef(el) {
+    if (el && !cardRefs.current.includes(el)) cardRefs.current.push(el);
+  }
+
+  useImperativeHandle(
+    ref,
+    () => ({
+      next: () => apiRef.current.next?.(),
+      prev: () => apiRef.current.prev?.(),
+      goTo: (j) => apiRef.current.goTo?.(j),
+    }),
+    [],
+  );
+
+  useGSAP(
+    () => {
+      const scene = sceneRef.current;
+      const wrap = wrapRef.current;
+      if (!scene || !wrap) return;
+
+      const cards = cardRefs.current
+        .map(function (el) {
+          return { el: el, img: el.querySelector("img") };
+        })
+        .filter(function (c) {
+          return c.img;
+        });
+      const M = cards.length;
+      if (M < 3) return;
+      const prevBtn = prevBtnRef.current;
+      const nextBtn = nextBtnRef.current;
+
+      // --- Config ---
+      const DIRECTION = direction === "ltr" ? "ltr" : "rtl";
+      const COUNT_ATTR = count || "auto";
+      const MIN_SCALE = Math.min(0.8, Math.max(0.05, parseFloat(minScale)));
+      const AUTOPLAY = parseFloat(autoplay);
+      const DRAG = parseFloat(drag);
+      const SCROLL = parseFloat(scroll);
+      const FOCUS_Y = parseFloat(focusY);
+      const RADIUS = parseFloat(radius);
+      const PARALLAX = Math.max(0, parseFloat(parallax));
+
+      // --- Constants ---
+      // drag: content follows the finger. rtl head is on the right, so a
+      // rightward drag (+dx) advances travel toward the head; ltr mirrors.
+      const DRAG_SIGN = DIRECTION === "ltr" ? -1 : 1;
+      const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+      // --- State ---
+      let viewW = 1,
+        viewH = 1;
+      let base = 100; // fixed px size of every card frame; size is driven by transform scale
+      let visCount = 5;
+      let rampR = 1.35,
+        rampK = 1,
+        rampXv = 0; // derived in computeRamp()
+      let travel = 0;
+      let dragX = 0;
+      let scrollY = window.scrollY || 0;
+      let scrollBoost = 0; // decaying extra drift speed from page scroll
+      let running = true;
+      let dragInstance = null;
+      let navTween = null; // active tween when an arrow is animating to a card
+      let resizeTimer = null;
+
+      // --- Helpers ---
+      function phaseNow() {
+        return travel - Math.floor(travel);
+      }
+
+      // How many cards tile the stage. "auto" scales with viewport shape - more
+      // cards on wider screens keeps the head card from exceeding the stage
+      // height (a card taller than the stage would be clipped at the top and
+      // read as non-square).
+      function computeCount() {
+        if (COUNT_ATTR !== "auto") {
+          return Math.max(3, Math.min(M - 1, parseInt(COUNT_ATTR, 10) || 5));
+        }
+        const aspect = viewW / viewH;
+        return aspect >= 2.2 ? 6 : aspect >= 1.5 ? 5 : aspect >= 1.0 ? 4 : 3;
+      }
+
+      // Solve the ramp from the two knobs so exactly visCount cards tile
+      // [0, viewW] edge-to-edge at EVERY phase - head cropped past the right
+      // edge (boundary(0) >= viewW), tail cropped past the left edge at
+      // MIN_SCALE (boundary(visCount) <= 0). rampR is the neighbour size ratio
+      // (each card R x its tail neighbour) set so the head:tail span == MIN_SCALE
+      // across visCount cards. Anchoring the vanishing point at -MIN_SCALE * K
+      // (not -MIN_SCALE * K / R) is what keeps the tail pinned to the left edge
+      // through the whole cycle instead of drifting inward and leaving a gap.
+      function computeRamp() {
+        rampR = Math.pow(1 / MIN_SCALE, 1 / (visCount - 1));
+        rampK = viewW / (1 - MIN_SCALE);
+        rampXv = -MIN_SCALE * rampK;
+      }
+
+      // Distance of boundary k from the tail edge. Boundary 0 is the head card's
+      // outer edge - always at or past the head viewport edge.
+      function boundary(k) {
+        return rampXv + rampK * Math.pow(rampR, phaseNow() - k);
+      }
+
+      // The nearest travel value where image j lands on the head at phase 0
+      // (a "landed" state is any whole integer; image = integer mod M).
+      function landedForImage(j) {
+        const n = ((j % M) + M) % M;
+        return n + M * Math.round((travel - n) / M);
+      }
+
+      // --- Animation routines ---
+      // Every card is ALWAYS rendered. Card i is at slot k = (i - floor(travel))
+      // mod M; slots >= visCount sit off-screen (boundary <= 0) and are clipped.
+      // Never display-toggled, so the recycle - a card jumping from off one edge
+      // to off the other - is an invisible off-screen transform jump either way.
+      function positionCards() {
+        const shift = Math.floor(travel);
+        for (let i = 0; i < M; i++) {
+          const card = cards[i];
+          const el = card.el;
+          const k = (((i - shift) % M) + M) % M;
+          const outer = boundary(k);
+          const inner = boundary(k + 1);
+          const size = Math.max(outer - inner, 1);
+          const w = size + OVERLAP;
+          // rtl: left edge at inner (distance from the left/tail edge), overlap
+          // extends tailward (left). ltr mirrors: left edge at viewW - outer,
+          // overlap extends tailward (right, via the width).
+          const left = DIRECTION === "ltr" ? viewW - outer : inner - OVERLAP;
+          // Size is driven by transform SCALE off a fixed base frame (never by
+          // width/height), so nothing re-rasterizes per frame - the image is
+          // rasterized once at `base` px and only composited. transform-origin
+          // is the frame's bottom-left, so scale keeps the card on the baseline
+          // and grows it rightward from `left`.
+          const fscale = w / base;
+          el.style.zIndex = String(visCount - k); // head (small k) on top
+          el.style.transform =
+            "translate3d(" + left.toFixed(1) + "px,0,0) scale(" + fscale.toFixed(5) + ")";
+
+          // Scale parallax (scale-OUT): the image is largest at the head and
+          // eases back to 1x toward the tail. Skip it for off-stage cards.
+          if (PARALLAX > 0 && k < visCount) {
+            const cx = left + w / 2;
+            let tailDist = DIRECTION === "ltr" ? (viewW - cx) / viewW : cx / viewW;
+            tailDist = tailDist < 0 ? 0 : tailDist > 1 ? 1 : tailDist;
+            const zoom = 1 + PARALLAX * tailDist;
+            card.img.style.transform = "scale(" + zoom.toFixed(4) + ")";
+          }
+        }
+      }
+
+      // Animate travel to a target (an arrow step or a goTo target). While it
+      // runs, frame() hands travel over to this tween so autoplay/drag/scroll
+      // don't fight it, and it lands exactly on a whole card.
+      function animateTo(target) {
+        if (navTween) navTween.kill();
+        const proxy = { t: travel };
+        const dur = Math.min(1.1, 0.45 + 0.12 * Math.abs(target - travel));
+        navTween = gsap.to(proxy, {
+          t: target,
+          duration: dur,
+          ease: typeof CustomEase !== "undefined" ? EASE_KEY : "power3.inOut",
+          onUpdate: function () {
+            travel = proxy.t;
+            positionCards();
+          },
+          onComplete: function () {
+            navTween = null;
+          },
+        });
+      }
+      function goForward() {
+        animateTo(Math.round(travel) - 1);
+      } // autoplay direction
+      function goBackward() {
+        animateTo(Math.round(travel) + 1);
+      }
+      function goToImage(j) {
+        animateTo(landedForImage(j));
+      }
+
+      function frame() {
+        if (!running) return;
+        const sy = window.scrollY || 0;
+        const scrollDelta = sy - scrollY;
+        scrollY = sy;
+        if (navTween) {
+          dragX = 0;
+          return;
+        } // nav owns travel; its tween renders
+        // Scroll feeds a decaying velocity BOOST rather than moving travel 1:1,
+        // so the conveyor accelerates on scroll and glides to a stop instead of
+        // freezing the instant scrolling stops. Scrolling either direction adds
+        // speed the same way (magnitude only), matching autoplay - never reverses.
+        scrollBoost = scrollBoost * SCROLL_DAMP + Math.abs(scrollDelta) * SCROLL;
+        travel += dragX * DRAG * DRAG_SIGN - (reducedMotion ? 0 : AUTOPLAY) - scrollBoost;
+        dragX = 0;
+        positionCards();
+      }
+
+      function resize() {
+        const w = scene.clientWidth,
+          h = scene.clientHeight;
+        if (!w || !h) return;
+        viewW = w;
+        viewH = h;
+        visCount = computeCount();
+        computeRamp();
+        // Fixed base frame size = the largest a card ever gets, plus parallax
+        // headroom so the zoomed image stays sampled from enough pixels. Set on
+        // the frames once here (not per frame) so per-frame updates are pure
+        // GPU transforms - this is the fix for the autoplay stutter (animating
+        // width/height re-rasterized the cover image every frame).
+        const maxHero = rampK * (rampR - 1);
+        base = (maxHero + OVERLAP) * (1 + PARALLAX);
+        const px = base.toFixed(1) + "px";
+        for (let i = 0; i < M; i++) {
+          cards[i].el.style.width = px;
+          cards[i].el.style.height = px;
+        }
+        positionCards();
+      }
+
+      function initDrag() {
+        if (typeof Draggable === "undefined") return;
+        const proxy = document.createElement("div");
+        dragInstance = Draggable.create(proxy, {
+          type: "x",
+          trigger: scene,
+          inertia: typeof InertiaPlugin !== "undefined",
+          allowContextMenu: true,
+          dragClickables: true,
+          onDragStart: function () {
+            if (navTween) {
+              navTween.kill();
+              navTween = null;
+            }
+          },
+          onDrag: function () {
+            dragX += this.deltaX;
+          },
+          onThrowUpdate: function () {
+            dragX += this.deltaX;
+          },
+        })[0];
+      }
+
+      // --- Event listeners ---
+      function onKeydown(e) {
+        if (e.key === "ArrowLeft") {
+          e.preventDefault();
+          (DIRECTION === "ltr" ? goBackward : goForward)();
+        } else if (e.key === "ArrowRight") {
+          e.preventDefault();
+          (DIRECTION === "ltr" ? goForward : goBackward)();
+        }
+      }
+      wrap.addEventListener("keydown", onKeydown);
+
+      function onPrev() {
+        goBackward();
+      }
+      function onNext() {
+        goForward();
+      }
+      if (prevBtn) prevBtn.addEventListener("click", onPrev);
+      if (nextBtn) nextBtn.addEventListener("click", onNext);
+
+      const ro = new ResizeObserver(function () {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(resize, 150);
+      });
+      ro.observe(scene);
+
+      let inView = true;
+      function onVis() {
+        running = inView && !document.hidden;
+      }
+      const visibilityObserver = new IntersectionObserver(([entry]) => {
+        inView = entry.isIntersecting;
+        onVis();
+      });
+      visibilityObserver.observe(wrap);
+      document.addEventListener("visibilitychange", onVis);
+
+      // --- Initial DOM state ---
+      const objPos = "50% " + (FOCUS_Y * 100).toFixed(1) + "%";
+      for (let i = 0; i < M; i++) {
+        cards[i].img.style.objectPosition = objPos;
+        if (RADIUS > 0) cards[i].el.style.borderRadius = RADIUS + "px";
+      }
+      resize(); // positions every card (transforms) while still display:none
+      for (let i = 0; i < M; i++) cards[i].el.style.display = "block"; // reveal, already placed
+      initDrag();
+
+      // --- Reduced motion ---
+      // The ticker still runs so drag + scroll + nav respond; only autoplay is
+      // gated above (reducedMotion -> AUTOPLAY contributes 0).
+      gsap.ticker.add(frame);
+
+      // --- Public API ---
+      // next/prev advance the conveyor one card (next = the autoplay direction);
+      // goTo animates a specific image index to the featured head.
+      apiRef.current = {
+        next: function () {
+          goForward();
+        },
+        prev: function () {
+          goBackward();
+        },
+        goTo: function (j) {
+          goToImage(j);
+        },
+      };
+
+      return function cleanup() {
+        running = false;
+        gsap.ticker.remove(frame);
+        clearTimeout(resizeTimer);
+        if (navTween) navTween.kill();
+        if (dragInstance) dragInstance.kill();
+        ro.disconnect();
+        visibilityObserver.disconnect();
+        document.removeEventListener("visibilitychange", onVis);
+        wrap.removeEventListener("keydown", onKeydown);
+        if (prevBtn) prevBtn.removeEventListener("click", onPrev);
+        if (nextBtn) nextBtn.removeEventListener("click", onNext);
+      };
+    },
+    {
+      scope: wrapRef,
+      revertOnUpdate: true,
+      dependencies: [
+        images,
+        direction,
+        count,
+        minScale,
+        autoplay,
+        drag,
+        scroll,
+        focusY,
+        radius,
+        parallax,
+      ],
+    },
+  );
+
+  return (
+    <div
+      ref={wrapRef}
+      className={"scs_wrap" + (className ? " " + className : "")}
+      data-anm-scale-slider
+      role="group"
+      aria-label="Image slider"
+      aria-roledescription="carousel"
+      tabIndex={0}
+    >
+      <div className="scs_scene" ref={sceneRef} data-anm-scale-slider-scene>
+        {images.map(function (src, i) {
+          return (
+            <div className="scs_card" key={i} ref={setCardRef} data-anm-scale-slider-card>
+              <img className="scs_img" src={src} alt="" draggable="false" />
+            </div>
+          );
+        })}
+      </div>
+
+      <div className="scs_pill" role="group" aria-label="Slide controls">
+        <button
+          className="scs_arrow"
+          ref={prevBtnRef}
+          data-anm-scale-slider-prev
+          type="button"
+          aria-label="Previous"
+        >
+          <svg className="scs_arrow_icon" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path
+              d="M10 3L5 8L10 13"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+        <button
+          className="scs_arrow"
+          ref={nextBtnRef}
+          data-anm-scale-slider-next
+          type="button"
+          aria-label="Next"
+        >
+          <svg className="scs_arrow_icon" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path
+              d="M6 3L11 8L6 13"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  );
+});
+
+export default ScaleSlider;
+18:T830,// Styles adapted from the supplied Annnimate Starter Pack.
+const css = `.scs_wrap {
+  position: relative;
+  width: 100%;
+  height: var(--zeus-animation-height, 640px);
+  background-color: #ebebe9;
+  overflow: hidden;
+  touch-action: pan-y;
+  outline: none;
+  cursor: grab;
+}
+
+.scs_wrap:active {
+  cursor: grabbing;
+}
+
+.scs_wrap:focus-visible {
+  outline: 2px solid #fd551d;
+  outline-offset: -2px;
+}
+
+.scs_scene {
+  position: absolute;
+  inset: 0;
+}
+
+.scs_card {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: none;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  transform-origin: 0 100%;
+  will-change: transform;
+  backface-visibility: hidden;
+}
+
+.scs_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 22%;
+  transform: scale(1);
+  transform-origin: center;
+  will-change: transform;
+  backface-visibility: hidden;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+}
+
+/* Optional navigation - a horizontally-centered control pill at the bottom,
+   matching the wipe-slider control (translucent + blur, circular prev/next
+   arrows). */
+.scs_pill {
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 6px;
+  border-radius: 999px;
+  background: rgba(18, 16, 14, 0.35);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+  transform: translateX(-50%);
+}
+
+.scs_arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  flex: 0 0 auto;
+  padding: 0;
+  border: none;
+  border-radius: 999px;
+  background: rgba(18, 16, 14, 0.5);
+  color: rgba(255, 250, 242, 0.92);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.scs_arrow:hover {
+  background: rgba(18, 16, 14, 0.68);
+}
+
+.scs_arrow:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.8);
+  outline-offset: 2px;
+}
+
+.scs_arrow_icon {
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+@media (max-width: 767px) {
+  .scs_wrap {
+    height: 100svh;
+  }
+
+  .scs_pill {
+    bottom: 24px;
+  }
+}
+`;
+export default css;
+15:["$","$L16",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"scale-slider","title":"Scale Slider","description":"An exponential image conveyor with drag inertia, keyboard navigation and optional drift","category":"animations","family":"media","kind":"animation","designSystem":null,"foundationDependencies":["tokens"],"iconLibraries":[],"tags":["animation","gsap","annnimate","scale-slider"],"status":"beta","tier":"free","isNew":true,"dependencies":["@gsap/react@^2.1.2","gsap@^3.15.0"],"registryDependencies":["tokens"],"files":[{"path":"application/animations/scale-slider-engine.d.ts","target":"components/application/animations/scale-slider-engine.d.ts","type":"component","content":"import type { ScaleSliderProps, ScaleSliderHandle } from \"./scale-slider\";\nimport type { ForwardRefExoticComponent, RefAttributes } from \"react\";\ndeclare const Engine: ForwardRefExoticComponent<\n  ScaleSliderProps & RefAttributes<ScaleSliderHandle>\n>;\nexport default Engine;\n"},{"path":"application/animations/scale-slider-engine.jsx","target":"components/application/animations/scale-slider-engine.jsx","type":"component","content":"$17"},{"path":"application/animations/scale-slider-styles.ts","target":"components/application/animations/scale-slider-styles.ts","type":"component","content":"$18"},{"path":"application/animations/scale-slider.tsx","target":"components/application/animations/scale-slider.tsx","type":"component","content":"\"use client\";\n\n// Annnimate Starter Pack adaptation. See docs/ANNNIMATE.md for provenance.\nimport { forwardRef } from \"react\";\nimport Engine from \"./scale-slider-engine.jsx\";\nimport css from \"./scale-slider-styles\";\n\nexport interface ScaleSliderHandle {\n  next: () => void;\n  prev: () => void;\n  goTo: (index: number) => void;\n}\nexport interface ScaleSliderProps {\n  className?: string;\n  images?: string[];\n  direction?: \"rtl\" | \"ltr\";\n  count?: \"auto\" | number;\n  minScale?: number;\n  autoplay?: number;\n  drag?: number;\n  scroll?: number;\n  focusY?: number;\n  radius?: number;\n  parallax?: number;\n}\n\nexport const ScaleSlider = forwardRef<ScaleSliderHandle, ScaleSliderProps>(\n  function ScaleSlider(props, ref) {\n    return (\n      <>\n        <style>{css}</style>\n        <Engine {...props} ref={ref} />\n      </>\n    );\n  },\n);\n"},{"path":"public/assets/annnimate/roster_cap-profile_01.jpg","target":"public/assets/annnimate/roster_cap-profile_01.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/roster_cap-profile_02.jpg","target":"public/assets/annnimate/roster_cap-profile_02.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/roster_cap-silhouette_01.jpg","target":"public/assets/annnimate/roster_cap-silhouette_01.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/roster_eyewear-profile_01.jpg","target":"public/assets/annnimate/roster_eyewear-profile_01.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/roster_profile_01.jpg","target":"public/assets/annnimate/roster_profile_01.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/roster_profile_02.jpg","target":"public/assets/annnimate/roster_profile_02.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/roster_profile_06.jpg","target":"public/assets/annnimate/roster_profile_06.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/roster_profile_07.jpg","target":"public/assets/annnimate/roster_profile_07.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/roster_profile_09.jpg","target":"public/assets/annnimate/roster_profile_09.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/roster_profile_10.jpg","target":"public/assets/annnimate/roster_profile_10.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/roster_silhouette_01.jpg","target":"public/assets/annnimate/roster_silhouette_01.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/silhouette_eyewear-silhouette_01.jpg","target":"public/assets/annnimate/silhouette_eyewear-silhouette_01.jpg","type":"asset","encoding":"base64"}],"hash":"beb8b37e5688"},"demoSource":"\"use client\";\n\nimport { ScaleSlider } from \"@/components/application/animations/scale-slider\";\n\n// This example uses Zeus demo images. Install the component's assets\n// or pass your own image URLs. Setup: https://myzeusui.com/components/scale-slider/#installation\n\nexport default function Example() {\n  return (\n    <ScaleSlider\n      direction={\"rtl\"}\n      autoplay={0.0016}\n      minScale={0.3}\n      radius={0}\n      parallax={0}\n      focusY={0.22}\n    />\n  );\n}","previous":{"name":"image-fly-in","title":"Image Fly-In"},"next":{"name":"curtain-slider","title":"Curtain Slider"},"origin":{"name":"scale-slider","library":"annnimate","tier":"free","reference":"https://annnimate.com/animations/scale-slider","libraryName":"Annnimate"}}]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+e:[["$","title","0",{"children":"Scale Slider — Zeus UI"}],["$","meta","1",{"name":"description","content":"An exponential image conveyor with drag inertia, keyboard navigation and optional drift"}],["$","meta","2",{"name":"keywords","content":"animation,gsap,annnimate,scale-slider"}]]

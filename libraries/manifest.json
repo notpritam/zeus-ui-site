@@ -1,0 +1,2927 @@
+{
+  "version": 1,
+  "items": {
+    "21st-dev": {
+      "sourceUrl": "https://21st.dev/community/components",
+      "recordedAt": "2026-10-11T15:29:16.865Z",
+      "width": 960,
+      "height": 600,
+      "duration": 12.13,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/21st-dev/tour.6fe0b43684.mp4",
+          "bytes": 322607
+        },
+        "poster": {
+          "url": "/libraries/21st-dev/poster.0f4c53016e.webp",
+          "bytes": 30688
+        },
+        "icon": {
+          "url": "/libraries/21st-dev/icon.63e7617b1d.png",
+          "bytes": 819
+        }
+      },
+      "color": "#0034ff",
+      "onColor": "#ffffff"
+    },
+    "8bitcn": {
+      "sourceUrl": "https://www.8bitcn.com/",
+      "recordedAt": "2026-10-11T15:32:44.916Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.09,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/8bitcn/tour.e5672d7e07.mp4",
+          "bytes": 549581
+        },
+        "poster": {
+          "url": "/libraries/8bitcn/poster.29eb3f9398.webp",
+          "bytes": 46146
+        },
+        "icon": {
+          "url": "/libraries/8bitcn/icon.d092d47d22.png",
+          "bytes": 939
+        }
+      },
+      "color": "#010101",
+      "onColor": "#ffffff"
+    },
+    "aceternity-ui": {
+      "sourceUrl": "https://ui.aceternity.com/components",
+      "recordedAt": "2026-10-11T15:24:56.526Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.21,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/aceternity-ui/tour.008103d6cf.mp4",
+          "bytes": 474930
+        },
+        "poster": {
+          "url": "/libraries/aceternity-ui/poster.6969247d33.webp",
+          "bytes": 43812
+        },
+        "icon": {
+          "url": "/libraries/aceternity-ui/icon.ce9c5ffb64.png",
+          "bytes": 1953
+        }
+      },
+      "color": "#000000",
+      "onColor": "#ffffff"
+    },
+    "adminlte": {
+      "sourceUrl": "https://adminlte.io/themes/v4/",
+      "recordedAt": "2026-10-11T15:32:38.617Z",
+      "width": 960,
+      "height": 600,
+      "duration": 11.09,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/adminlte/tour.7cfbef8358.mp4",
+          "bytes": 242714
+        },
+        "poster": {
+          "url": "/libraries/adminlte/poster.27fd99e481.webp",
+          "bytes": 36646
+        }
+      }
+    },
+    "ag-charts": {
+      "sourceUrl": "https://www.ag-grid.com/charts/gallery/",
+      "recordedAt": "2026-10-11T15:31:29.167Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.07,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/ag-charts/tour.5b4e4fbcb4.mp4",
+          "bytes": 471336
+        },
+        "poster": {
+          "url": "/libraries/ag-charts/poster.da26b8f3e9.webp",
+          "bytes": 42042
+        },
+        "icon": {
+          "url": "/libraries/ag-charts/icon.a156c7fd41.png",
+          "bytes": 847
+        }
+      },
+      "color": "#ff8c02",
+      "onColor": "#ffffff"
+    },
+    "ai-elements": {
+      "sourceUrl": "https://elements.ai-sdk.dev/",
+      "recordedAt": "2026-10-11T15:25:35.227Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.02,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/ai-elements/tour.e3b7a38bea.mp4",
+          "bytes": 500521
+        },
+        "poster": {
+          "url": "/libraries/ai-elements/poster.a0f52c7d6a.webp",
+          "bytes": 22430
+        },
+        "icon": {
+          "url": "/libraries/ai-elements/icon.d18ba7ea1f.png",
+          "bytes": 1517
+        }
+      },
+      "color": "#000000",
+      "onColor": "#ffffff"
+    },
+    "amcharts": {
+      "sourceUrl": "https://www.amcharts.com/demos/",
+      "recordedAt": "2026-10-11T15:38:45.700Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.13,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/amcharts/tour.fd5651f673.mp4",
+          "bytes": 488519
+        },
+        "poster": {
+          "url": "/libraries/amcharts/poster.18eb9a22b7.webp",
+          "bytes": 32230
+        },
+        "icon": {
+          "url": "/libraries/amcharts/icon.f14f882907.png",
+          "bytes": 2934
+        }
+      },
+      "color": "#59596c",
+      "onColor": "#ffffff"
+    },
+    "animata": {
+      "sourceUrl": "https://animata.design/docs/text",
+      "recordedAt": "2026-10-11T15:26:37.423Z",
+      "width": 960,
+      "height": 600,
+      "duration": 12.07,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/animata/tour.a27b4c1c66.mp4",
+          "bytes": 291292
+        },
+        "poster": {
+          "url": "/libraries/animata/poster.b8c89c356a.webp",
+          "bytes": 23746
+        },
+        "icon": {
+          "url": "/libraries/animata/icon.657322ea92.png",
+          "bytes": 1889
+        }
+      },
+      "color": "#fecd00",
+      "onColor": "#0b0d12"
+    },
+    "animate-ui": {
+      "sourceUrl": "https://animate-ui.com/",
+      "recordedAt": "2026-10-11T15:36:40.938Z",
+      "width": 960,
+      "height": 600,
+      "duration": 10.14,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/animate-ui/tour.d218cbccc3.mp4",
+          "bytes": 143443
+        },
+        "poster": {
+          "url": "/libraries/animate-ui/poster.f0d469ef20.webp",
+          "bytes": 17530
+        },
+        "icon": {
+          "url": "/libraries/animate-ui/icon.3c937e6f84.png",
+          "bytes": 2189
+        }
+      },
+      "color": "#010101",
+      "onColor": "#ffffff"
+    },
+    "anime-js": {
+      "sourceUrl": "https://animejs.com/",
+      "recordedAt": "2026-10-11T15:39:26.297Z",
+      "width": 960,
+      "height": 600,
+      "duration": 14,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/anime-js/tour.affe3f3a8d.mp4",
+          "bytes": 176887
+        },
+        "poster": {
+          "url": "/libraries/anime-js/poster.f9917c155e.webp",
+          "bytes": 20294
+        },
+        "icon": {
+          "url": "/libraries/anime-js/icon.3729aaadf7.png",
+          "bytes": 2066
+        }
+      },
+      "color": "#000000",
+      "onColor": "#ffffff"
+    },
+    "annnimate": {
+      "sourceUrl": "https://annnimate.com/animations",
+      "recordedAt": "2026-10-11T15:24:56.894Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.06,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/annnimate/tour.aef483b4a2.mp4",
+          "bytes": 430695
+        },
+        "poster": {
+          "url": "/libraries/annnimate/poster.65a216e6f6.webp",
+          "bytes": 24270
+        },
+        "icon": {
+          "url": "/libraries/annnimate/icon.d6884d8d14.png",
+          "bytes": 1518
+        }
+      },
+      "color": "#141314",
+      "onColor": "#ffffff"
+    },
+    "ant-design": {
+      "sourceUrl": "https://ant.design/components/overview/",
+      "recordedAt": "2026-10-11T15:30:09.156Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.13,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/ant-design/tour.ec090bb36a.mp4",
+          "bytes": 281204
+        },
+        "poster": {
+          "url": "/libraries/ant-design/poster.4300523613.webp",
+          "bytes": 21274
+        },
+        "icon": {
+          "url": "/libraries/ant-design/icon.978084b47f.png",
+          "bytes": 3758
+        }
+      },
+      "color": "#0e74ff",
+      "onColor": "#ffffff"
+    },
+    "apexcharts": {
+      "sourceUrl": "https://apexcharts.com/javascript-chart-demos/",
+      "recordedAt": "2026-10-11T15:37:29.876Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.16,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/apexcharts/tour.1dad168d86.mp4",
+          "bytes": 580251
+        },
+        "poster": {
+          "url": "/libraries/apexcharts/poster.de26af08ac.webp",
+          "bytes": 38914
+        },
+        "icon": {
+          "url": "/libraries/apexcharts/icon.a2760479eb.png",
+          "bytes": 3927
+        }
+      },
+      "color": "#2c97f3",
+      "onColor": "#ffffff"
+    },
+    "ariakit": {
+      "sourceUrl": "https://ariakit.com/examples",
+      "recordedAt": "2026-10-11T15:38:56.701Z",
+      "width": 960,
+      "height": 600,
+      "duration": 9.65,
+      "highlights": 0,
+      "files": {
+        "tour": {
+          "url": "/libraries/ariakit/tour.5be07debc6.mp4",
+          "bytes": 622103
+        },
+        "poster": {
+          "url": "/libraries/ariakit/poster.2604f81432.webp",
+          "bytes": 29256
+        },
+        "icon": {
+          "url": "/libraries/ariakit/icon.7b97906b7f.png",
+          "bytes": 1585
+        }
+      },
+      "color": "#007acc",
+      "onColor": "#ffffff"
+    },
+    "ark-ui": {
+      "sourceUrl": "https://ark-ui.com/docs/components/accordion",
+      "recordedAt": "2026-10-11T15:27:21.354Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.04,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/ark-ui/tour.8c43ae9ecb.mp4",
+          "bytes": 370499
+        },
+        "poster": {
+          "url": "/libraries/ark-ui/poster.fdf83e5bd4.webp",
+          "bytes": 24270
+        },
+        "icon": {
+          "url": "/libraries/ark-ui/icon.c16b996d35.png",
+          "bytes": 4554
+        }
+      },
+      "color": "#eb5e41",
+      "onColor": "#ffffff"
+    },
+    "assistant-ui": {
+      "sourceUrl": "https://www.assistant-ui.com/examples",
+      "recordedAt": "2026-10-11T15:25:57.011Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.02,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/assistant-ui/tour.2112d09e1e.mp4",
+          "bytes": 384666
+        },
+        "poster": {
+          "url": "/libraries/assistant-ui/poster.592835a3aa.webp",
+          "bytes": 18042
+        },
+        "icon": {
+          "url": "/libraries/assistant-ui/icon.cf8bcf13d5.png",
+          "bytes": 1484
+        }
+      },
+      "color": "#000000",
+      "onColor": "#ffffff"
+    },
+    "auto-animate": {
+      "sourceUrl": "https://auto-animate.formkit.com/",
+      "recordedAt": "2026-10-11T15:29:05.651Z",
+      "width": 960,
+      "height": 600,
+      "duration": 8.91,
+      "highlights": 3,
+      "files": {
+        "tour": {
+          "url": "/libraries/auto-animate/tour.803e45f7ac.mp4",
+          "bytes": 353186
+        },
+        "poster": {
+          "url": "/libraries/auto-animate/poster.809f2f8589.webp",
+          "bytes": 37064
+        },
+        "icon": {
+          "url": "/libraries/auto-animate/icon.41edc64976.png",
+          "bytes": 855
+        }
+      },
+      "color": "#4811d5",
+      "onColor": "#ffffff"
+    },
+    "base-ui": {
+      "sourceUrl": "https://base-ui.com/react/components",
+      "recordedAt": "2026-10-11T15:38:17.124Z",
+      "width": 960,
+      "height": 600,
+      "duration": 9.68,
+      "highlights": 0,
+      "files": {
+        "tour": {
+          "url": "/libraries/base-ui/tour.800d65edb1.mp4",
+          "bytes": 263353
+        },
+        "poster": {
+          "url": "/libraries/base-ui/poster.a24a744529.webp",
+          "bytes": 41142
+        },
+        "icon": {
+          "url": "/libraries/base-ui/icon.cade0d71a9.png",
+          "bytes": 897
+        }
+      },
+      "color": "#000000",
+      "onColor": "#ffffff"
+    },
+    "blocks-so": {
+      "sourceUrl": "https://blocks.so/",
+      "recordedAt": "2026-10-11T15:33:20.056Z",
+      "width": 960,
+      "height": 600,
+      "duration": 14.02,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/blocks-so/tour.a314d0174c.mp4",
+          "bytes": 296261
+        },
+        "poster": {
+          "url": "/libraries/blocks-so/poster.67594e7310.webp",
+          "bytes": 14806
+        },
+        "icon": {
+          "url": "/libraries/blocks-so/icon.cb496b9aae.png",
+          "bytes": 1006
+        }
+      },
+      "color": "#000000",
+      "onColor": "#ffffff"
+    },
+    "blueprint": {
+      "sourceUrl": "https://blueprintjs.com/docs/",
+      "recordedAt": "2026-10-11T15:40:03.909Z",
+      "width": 960,
+      "height": 600,
+      "duration": 7.52,
+      "highlights": 0,
+      "files": {
+        "tour": {
+          "url": "/libraries/blueprint/tour.fe7e5ef943.mp4",
+          "bytes": 195164
+        },
+        "poster": {
+          "url": "/libraries/blueprint/poster.56007b107e.webp",
+          "bytes": 29418
+        },
+        "icon": {
+          "url": "/libraries/blueprint/icon.90a631a9b4.png",
+          "bytes": 4327
+        }
+      },
+      "color": "#007133",
+      "onColor": "#ffffff"
+    },
+    "boardui": {
+      "sourceUrl": "https://www.boardui.com/components",
+      "recordedAt": "2026-10-11T15:24:56.269Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.1,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/boardui/tour.72b564347c.mp4",
+          "bytes": 436841
+        },
+        "poster": {
+          "url": "/libraries/boardui/poster.79cc7f7e67.webp",
+          "bytes": 26898
+        },
+        "icon": {
+          "url": "/libraries/boardui/icon.b6540f0659.png",
+          "bytes": 3649
+        }
+      },
+      "color": "#2c79fd",
+      "onColor": "#ffffff"
+    },
+    "carbon-design-system": {
+      "sourceUrl": "https://www.carbondesignsystem.com/building-blocks/core/components/overview/components",
+      "recordedAt": "2026-10-11T15:39:23.981Z",
+      "width": 960,
+      "height": 600,
+      "duration": 9.63,
+      "highlights": 0,
+      "files": {
+        "tour": {
+          "url": "/libraries/carbon-design-system/tour.cbb4152d7e.mp4",
+          "bytes": 279980
+        },
+        "poster": {
+          "url": "/libraries/carbon-design-system/poster.7fd98c334a.webp",
+          "bytes": 24562
+        },
+        "icon": {
+          "url": "/libraries/carbon-design-system/icon.d3a3970336.png",
+          "bytes": 2025
+        }
+      },
+      "color": "#878d96",
+      "onColor": "#ffffff"
+    },
+    "chakra-ui": {
+      "sourceUrl": "https://chakra-ui.com/playground",
+      "recordedAt": "2026-10-11T15:37:36.033Z",
+      "width": 960,
+      "height": 600,
+      "duration": 9.12,
+      "highlights": 1,
+      "files": {
+        "tour": {
+          "url": "/libraries/chakra-ui/tour.70288b04c1.mp4",
+          "bytes": 262773
+        },
+        "poster": {
+          "url": "/libraries/chakra-ui/poster.415fc691be.webp",
+          "bytes": 21818
+        },
+        "icon": {
+          "url": "/libraries/chakra-ui/icon.1894a977d6.png",
+          "bytes": 4320
+        }
+      },
+      "color": "#0accac",
+      "onColor": "#0b0d12"
+    },
+    "chartjs": {
+      "sourceUrl": "https://www.chartjs.org/",
+      "recordedAt": "2026-10-11T15:29:36.311Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.04,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/chartjs/tour.137918490f.mp4",
+          "bytes": 358491
+        },
+        "poster": {
+          "url": "/libraries/chartjs/poster.b095ed9e8c.webp",
+          "bytes": 17526
+        },
+        "icon": {
+          "url": "/libraries/chartjs/icon.6ead6b8727.png",
+          "bytes": 2137
+        }
+      },
+      "color": "#fe777b",
+      "onColor": "#ffffff"
+    },
+    "copilotkit": {
+      "sourceUrl": "https://www.copilotkit.ai/examples",
+      "recordedAt": "2026-10-11T15:27:41.421Z",
+      "width": 960,
+      "height": 600,
+      "duration": 12.09,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/copilotkit/tour.7a5a19b126.mp4",
+          "bytes": 385691
+        },
+        "poster": {
+          "url": "/libraries/copilotkit/poster.49c31b3a26.webp",
+          "bytes": 33158
+        },
+        "icon": {
+          "url": "/libraries/copilotkit/icon.273f363a8e.png",
+          "bytes": 5296
+        }
+      },
+      "color": "#146cc7",
+      "onColor": "#ffffff"
+    },
+    "coreui": {
+      "sourceUrl": "https://coreui.io/demos/bootstrap/latest/default/",
+      "recordedAt": "2026-10-11T15:32:46.947Z",
+      "width": 960,
+      "height": 600,
+      "duration": 12.1,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/coreui/tour.03293881ba.mp4",
+          "bytes": 256766
+        },
+        "poster": {
+          "url": "/libraries/coreui/poster.f1bec30476.webp",
+          "bytes": 31376
+        },
+        "icon": {
+          "url": "/libraries/coreui/icon.8b7dbca07a.png",
+          "bytes": 4140
+        }
+      },
+      "color": "#3c4b64",
+      "onColor": "#ffffff"
+    },
+    "coss-ui": {
+      "sourceUrl": "https://coss.com/ui",
+      "recordedAt": "2026-10-11T15:25:16.593Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.05,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/coss-ui/tour.6bf347f554.mp4",
+          "bytes": 408100
+        },
+        "poster": {
+          "url": "/libraries/coss-ui/poster.a680113c18.webp",
+          "bytes": 22946
+        },
+        "icon": {
+          "url": "/libraries/coss-ui/icon.dbe45c9e0b.png",
+          "bytes": 1562
+        }
+      },
+      "color": "#09090b",
+      "onColor": "#ffffff"
+    },
+    "creative-tim": {
+      "sourceUrl": "https://www.creative-tim.com/templates",
+      "recordedAt": "2026-10-11T15:27:08.488Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.05,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/creative-tim/tour.cee18dbb05.mp4",
+          "bytes": 716527
+        },
+        "poster": {
+          "url": "/libraries/creative-tim/poster.8223e36ec4.webp",
+          "bytes": 43862
+        },
+        "icon": {
+          "url": "/libraries/creative-tim/icon.fc23306de9.png",
+          "bytes": 1749
+        }
+      },
+      "color": "#1c1c1c",
+      "onColor": "#ffffff"
+    },
+    "cruip": {
+      "sourceUrl": "https://cruip.com/",
+      "recordedAt": "2026-10-11T15:36:57.867Z",
+      "width": 960,
+      "height": 600,
+      "duration": 10.89,
+      "highlights": 3,
+      "files": {
+        "tour": {
+          "url": "/libraries/cruip/tour.2ca2eefcb6.mp4",
+          "bytes": 498046
+        },
+        "poster": {
+          "url": "/libraries/cruip/poster.4d630049f9.webp",
+          "bytes": 41522
+        },
+        "icon": {
+          "url": "/libraries/cruip/icon.650a259f6d.png",
+          "bytes": 2079
+        }
+      },
+      "color": "#7e5ffb",
+      "onColor": "#ffffff"
+    },
+    "cuicui": {
+      "sourceUrl": "https://cuicui.day/application-ui",
+      "recordedAt": "2026-10-11T15:27:01.159Z",
+      "width": 960,
+      "height": 600,
+      "duration": 11.09,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/cuicui/tour.7d91967e10.mp4",
+          "bytes": 282078
+        },
+        "poster": {
+          "url": "/libraries/cuicui/poster.cff56ecd75.webp",
+          "bytes": 22846
+        },
+        "icon": {
+          "url": "/libraries/cuicui/icon.a415173200.png",
+          "bytes": 4055
+        }
+      },
+      "color": "#ac6ccd",
+      "onColor": "#ffffff"
+    },
+    "cult-ui": {
+      "sourceUrl": "https://www.cult-ui.com/",
+      "recordedAt": "2026-10-11T15:25:32.982Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.13,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/cult-ui/tour.b86046ee55.mp4",
+          "bytes": 458793
+        },
+        "poster": {
+          "url": "/libraries/cult-ui/poster.c99fd2fe4f.webp",
+          "bytes": 26194
+        },
+        "icon": {
+          "url": "/libraries/cult-ui/icon.04f2a17f06.png",
+          "bytes": 1268
+        }
+      },
+      "color": "#303030",
+      "onColor": "#ffffff"
+    },
+    "daisyui": {
+      "sourceUrl": "https://daisyui.com/components/",
+      "recordedAt": "2026-10-11T15:26:46.091Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.02,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/daisyui/tour.e98c89ffa1.mp4",
+          "bytes": 314906
+        },
+        "poster": {
+          "url": "/libraries/daisyui/poster.ff31646e24.webp",
+          "bytes": 21356
+        },
+        "icon": {
+          "url": "/libraries/daisyui/icon.1640cd2f47.png",
+          "bytes": 4147
+        }
+      },
+      "color": "#ffca31",
+      "onColor": "#0b0d12"
+    },
+    "deep-chat": {
+      "sourceUrl": "https://deepchat.dev/examples/design/",
+      "recordedAt": "2026-10-11T15:30:31.247Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.17,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/deep-chat/tour.92bb71aa17.mp4",
+          "bytes": 326276
+        },
+        "poster": {
+          "url": "/libraries/deep-chat/poster.1073a738c3.webp",
+          "bytes": 23428
+        },
+        "icon": {
+          "url": "/libraries/deep-chat/icon.f482b35d45.png",
+          "bytes": 2513
+        }
+      },
+      "color": "#013165",
+      "onColor": "#ffffff"
+    },
+    "dice-ui": {
+      "sourceUrl": "https://diceui.com/docs/components",
+      "recordedAt": "2026-10-11T15:39:51.116Z",
+      "width": 960,
+      "height": 600,
+      "duration": 6.98,
+      "highlights": 0,
+      "files": {
+        "tour": {
+          "url": "/libraries/dice-ui/tour.cb77bade3f.mp4",
+          "bytes": 44084
+        },
+        "poster": {
+          "url": "/libraries/dice-ui/poster.9df78a7351.webp",
+          "bytes": 22066
+        },
+        "icon": {
+          "url": "/libraries/dice-ui/icon.2598ee26a6.png",
+          "bytes": 1361
+        }
+      },
+      "color": "#000000",
+      "onColor": "#ffffff"
+    },
+    "echarts": {
+      "sourceUrl": "https://echarts.apache.org/examples/en/index.html",
+      "recordedAt": "2026-10-11T15:37:33.857Z",
+      "width": 960,
+      "height": 600,
+      "duration": 12.2,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/echarts/tour.0ccecddf9c.mp4",
+          "bytes": 237706
+        },
+        "poster": {
+          "url": "/libraries/echarts/poster.d3b000f64c.webp",
+          "bytes": 38858
+        },
+        "icon": {
+          "url": "/libraries/echarts/icon.c5cf6d396a.png",
+          "bytes": 3100
+        }
+      },
+      "color": "#aa314d",
+      "onColor": "#ffffff"
+    },
+    "edil-ozi": {
+      "sourceUrl": "https://edil-ozi.vercel.app/docs/components/accordion",
+      "recordedAt": "2026-10-11T15:27:36.971Z",
+      "width": 960,
+      "height": 600,
+      "duration": 9.87,
+      "highlights": 3,
+      "files": {
+        "tour": {
+          "url": "/libraries/edil-ozi/tour.a80cfc9566.mp4",
+          "bytes": 227394
+        },
+        "poster": {
+          "url": "/libraries/edil-ozi/poster.5dbcab199b.webp",
+          "bytes": 21294
+        },
+        "icon": {
+          "url": "/libraries/edil-ozi/icon.af9bba62a4.png",
+          "bytes": 1553
+        }
+      },
+      "color": "#1d1d1d",
+      "onColor": "#ffffff"
+    },
+    "eldora-ui": {
+      "sourceUrl": "https://www.eldoraui.site/",
+      "recordedAt": "2026-10-11T15:28:41.035Z",
+      "width": 960,
+      "height": 600,
+      "duration": 14.11,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/eldora-ui/tour.6650233cb0.mp4",
+          "bytes": 275809
+        },
+        "poster": {
+          "url": "/libraries/eldora-ui/poster.cddc7bc8f0.webp",
+          "bytes": 22276
+        },
+        "icon": {
+          "url": "/libraries/eldora-ui/icon.ab6098b95e.png",
+          "bytes": 7562
+        }
+      },
+      "color": "#22d0ee",
+      "onColor": "#0b0d12"
+    },
+    "elevenlabs-ui": {
+      "sourceUrl": "https://ui.elevenlabs.io/",
+      "recordedAt": "2026-10-11T15:30:22.199Z",
+      "width": 960,
+      "height": 600,
+      "duration": 18.68,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/elevenlabs-ui/tour.906fbbcd21.mp4",
+          "bytes": 417077
+        },
+        "poster": {
+          "url": "/libraries/elevenlabs-ui/poster.d19339e868.webp",
+          "bytes": 19116
+        }
+      }
+    },
+    "evil-charts": {
+      "sourceUrl": "https://evilcharts.com/",
+      "recordedAt": "2026-10-11T15:26:12.225Z",
+      "width": 960,
+      "height": 600,
+      "duration": 12.07,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/evil-charts/tour.ada7cb2548.mp4",
+          "bytes": 217291
+        },
+        "poster": {
+          "url": "/libraries/evil-charts/poster.1f4928f579.webp",
+          "bytes": 20888
+        },
+        "icon": {
+          "url": "/libraries/evil-charts/icon.15f8ca5b0c.png",
+          "bytes": 2027
+        }
+      },
+      "color": "#0d0d0d",
+      "onColor": "#ffffff"
+    },
+    "fancy-components": {
+      "sourceUrl": "https://www.fancycomponents.dev/components",
+      "recordedAt": "2026-10-11T15:26:30.307Z",
+      "width": 960,
+      "height": 600,
+      "duration": 12.07,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/fancy-components/tour.14feb3eefc.mp4",
+          "bytes": 430035
+        },
+        "poster": {
+          "url": "/libraries/fancy-components/poster.830e3c69d0.webp",
+          "bytes": 36770
+        },
+        "icon": {
+          "url": "/libraries/fancy-components/icon.dec694595a.png",
+          "bytes": 1552
+        }
+      },
+      "color": "#000000",
+      "onColor": "#ffffff"
+    },
+    "flowbite": {
+      "sourceUrl": "https://flowbite.com/blocks/",
+      "recordedAt": "2026-10-11T15:26:39.923Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.06,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/flowbite/tour.81b41a0456.mp4",
+          "bytes": 413447
+        },
+        "poster": {
+          "url": "/libraries/flowbite/poster.8a18528daf.webp",
+          "bytes": 29480
+        },
+        "icon": {
+          "url": "/libraries/flowbite/icon.0f54672373.png",
+          "bytes": 4575
+        }
+      },
+      "color": "#176cf4",
+      "onColor": "#ffffff"
+    },
+    "fluent-ui-react": {
+      "sourceUrl": "https://storybooks.fluentui.dev/react/",
+      "recordedAt": "2026-10-11T15:39:51.557Z",
+      "width": 960,
+      "height": 600,
+      "duration": 7.33,
+      "highlights": 1,
+      "files": {
+        "tour": {
+          "url": "/libraries/fluent-ui-react/tour.424a048544.mp4",
+          "bytes": 69775
+        },
+        "poster": {
+          "url": "/libraries/fluent-ui-react/poster.3ba61fe1ea.webp",
+          "bytes": 20752
+        },
+        "icon": {
+          "url": "/libraries/fluent-ui-react/icon.d100f89da6.png",
+          "bytes": 280
+        }
+      },
+      "color": "#7fba00",
+      "onColor": "#ffffff"
+    },
+    "gsap": {
+      "sourceUrl": "https://demos.gsap.com/",
+      "recordedAt": "2026-10-11T15:27:56.872Z",
+      "width": 960,
+      "height": 600,
+      "duration": 12.07,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/gsap/tour.0755090156.mp4",
+          "bytes": 242045
+        },
+        "poster": {
+          "url": "/libraries/gsap/poster.87cf395346.webp",
+          "bytes": 13136
+        },
+        "icon": {
+          "url": "/libraries/gsap/icon.aa9f35d9a0.png",
+          "bytes": 3453
+        }
+      },
+      "color": "#00ac8f",
+      "onColor": "#ffffff"
+    },
+    "headless-ui": {
+      "sourceUrl": "https://headlessui.com/",
+      "recordedAt": "2026-10-11T15:30:43.004Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.07,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/headless-ui/tour.6e92247308.mp4",
+          "bytes": 312327
+        },
+        "poster": {
+          "url": "/libraries/headless-ui/poster.c7b5cf5601.webp",
+          "bytes": 25396
+        },
+        "icon": {
+          "url": "/libraries/headless-ui/icon.a79f8e80fd.png",
+          "bytes": 5229
+        }
+      },
+      "color": "#69b1fd",
+      "onColor": "#ffffff"
+    },
+    "heroui": {
+      "sourceUrl": "https://heroui.com/en/docs/react/components",
+      "recordedAt": "2026-10-11T15:26:09.941Z",
+      "width": 960,
+      "height": 600,
+      "duration": 12.06,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/heroui/tour.12202603b3.mp4",
+          "bytes": 247655
+        },
+        "poster": {
+          "url": "/libraries/heroui/poster.47149bd0cc.webp",
+          "bytes": 22134
+        },
+        "icon": {
+          "url": "/libraries/heroui/icon.a70395d0a3.png",
+          "bytes": 1263
+        }
+      },
+      "color": "#000000",
+      "onColor": "#ffffff"
+    },
+    "highcharts": {
+      "sourceUrl": "https://www.highcharts.com/demo",
+      "recordedAt": "2026-10-11T15:29:57.321Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.06,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/highcharts/tour.dab9947200.mp4",
+          "bytes": 574668
+        },
+        "poster": {
+          "url": "/libraries/highcharts/poster.9f0017ab0b.webp",
+          "bytes": 42608
+        },
+        "icon": {
+          "url": "/libraries/highcharts/icon.23fbe37a1c.png",
+          "bytes": 4659
+        }
+      },
+      "color": "#a3ecb9",
+      "onColor": "#0b0d12"
+    },
+    "hover-dev": {
+      "sourceUrl": "https://www.hover.dev/components/buttons",
+      "recordedAt": "2026-10-11T15:25:29.091Z",
+      "width": 960,
+      "height": 600,
+      "duration": 12.54,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/hover-dev/tour.28b87b963b.mp4",
+          "bytes": 183356
+        },
+        "poster": {
+          "url": "/libraries/hover-dev/poster.42b062ca73.webp",
+          "bytes": 18664
+        },
+        "icon": {
+          "url": "/libraries/hover-dev/icon.c73c6b0fee.png",
+          "bytes": 3098
+        }
+      },
+      "color": "#5148e5",
+      "onColor": "#ffffff"
+    },
+    "hyperui": {
+      "sourceUrl": "https://www.hyperui.dev/components/marketing/cards/",
+      "recordedAt": "2026-10-11T15:31:29.131Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.06,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/hyperui/tour.4cbf34ef42.mp4",
+          "bytes": 464792
+        },
+        "poster": {
+          "url": "/libraries/hyperui/poster.7ead415e65.webp",
+          "bytes": 23606
+        },
+        "icon": {
+          "url": "/libraries/hyperui/icon.27af8c2022.png",
+          "bytes": 607
+        }
+      },
+      "color": "#000000",
+      "onColor": "#ffffff"
+    },
+    "indie-ui": {
+      "sourceUrl": "https://ui.indie-starter.dev/",
+      "recordedAt": "2026-10-11T15:27:57.570Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.03,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/indie-ui/tour.3b42422517.mp4",
+          "bytes": 302475
+        },
+        "poster": {
+          "url": "/libraries/indie-ui/poster.dc01db21ca.webp",
+          "bytes": 12952
+        },
+        "icon": {
+          "url": "/libraries/indie-ui/icon.ad56582465.png",
+          "bytes": 3532
+        }
+      },
+      "color": "#0d0d11",
+      "onColor": "#ffffff"
+    },
+    "inspira-ui": {
+      "sourceUrl": "https://inspira-ui.com/docs/en/components",
+      "recordedAt": "2026-10-11T15:39:59.282Z",
+      "width": 960,
+      "height": 600,
+      "duration": 7.85,
+      "highlights": 1,
+      "files": {
+        "tour": {
+          "url": "/libraries/inspira-ui/tour.760d7aec31.mp4",
+          "bytes": 160018
+        },
+        "poster": {
+          "url": "/libraries/inspira-ui/poster.f65f3bd2a1.webp",
+          "bytes": 25694
+        },
+        "icon": {
+          "url": "/libraries/inspira-ui/icon.647af9e23c.png",
+          "bytes": 2063
+        }
+      },
+      "color": "#000000",
+      "onColor": "#ffffff"
+    },
+    "its-hover": {
+      "sourceUrl": "https://www.itshover.com/icons",
+      "recordedAt": "2026-10-11T15:41:38.310Z",
+      "width": 960,
+      "height": 600,
+      "duration": 9.06,
+      "highlights": 1,
+      "files": {
+        "tour": {
+          "url": "/libraries/its-hover/tour.03de759934.mp4",
+          "bytes": 250930
+        },
+        "poster": {
+          "url": "/libraries/its-hover/poster.3a6653e240.webp",
+          "bytes": 18390
+        },
+        "icon": {
+          "url": "/libraries/its-hover/icon.a3b7c5d846.png",
+          "bytes": 1729
+        }
+      },
+      "color": "#010101",
+      "onColor": "#ffffff"
+    },
+    "kibo-ui": {
+      "sourceUrl": "https://www.kibo-ui.com/",
+      "recordedAt": "2026-10-11T15:41:44.562Z",
+      "width": 960,
+      "height": 600,
+      "duration": 14,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/kibo-ui/tour.11160d6378.mp4",
+          "bytes": 490054
+        },
+        "poster": {
+          "url": "/libraries/kibo-ui/poster.89da7519d6.webp",
+          "bytes": 32568
+        },
+        "icon": {
+          "url": "/libraries/kibo-ui/icon.91da1ba94d.png",
+          "bytes": 598
+        }
+      },
+      "color": "#1d4ed8",
+      "onColor": "#ffffff"
+    },
+    "kokonut-ui": {
+      "sourceUrl": "https://kokonutui.com/",
+      "recordedAt": "2026-10-11T15:37:21.531Z",
+      "width": 960,
+      "height": 600,
+      "duration": 12.14,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/kokonut-ui/tour.82fc8ad560.mp4",
+          "bytes": 339485
+        },
+        "poster": {
+          "url": "/libraries/kokonut-ui/poster.0c34f0c1c3.webp",
+          "bytes": 24862
+        },
+        "icon": {
+          "url": "/libraries/kokonut-ui/icon.457fd80cfc.png",
+          "bytes": 3248
+        }
+      },
+      "color": "#3bb34b",
+      "onColor": "#ffffff"
+    },
+    "launch-ui": {
+      "sourceUrl": "https://www.launchuicomponents.com/blocks",
+      "recordedAt": "2026-10-11T15:27:52.293Z",
+      "width": 960,
+      "height": 600,
+      "duration": 14.04,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/launch-ui/tour.98f721ba3f.mp4",
+          "bytes": 448377
+        },
+        "poster": {
+          "url": "/libraries/launch-ui/poster.22d9173150.webp",
+          "bytes": 20350
+        },
+        "icon": {
+          "url": "/libraries/launch-ui/icon.7d4ee62835.png",
+          "bytes": 698
+        }
+      },
+      "color": "#09090b",
+      "onColor": "#ffffff"
+    },
+    "lenis": {
+      "sourceUrl": "https://lenis.dev/showcase",
+      "recordedAt": "2026-10-11T15:38:10.631Z",
+      "width": 960,
+      "height": 600,
+      "duration": 14,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/lenis/tour.8f16657a60.mp4",
+          "bytes": 685406
+        },
+        "poster": {
+          "url": "/libraries/lenis/poster.4a66a6164f.webp",
+          "bytes": 34350
+        },
+        "icon": {
+          "url": "/libraries/lenis/icon.8d8b17e691.png",
+          "bytes": 2123
+        }
+      },
+      "color": "#ff99a3",
+      "onColor": "#0b0d12"
+    },
+    "lightswind-ui": {
+      "sourceUrl": "https://lightswind.com/",
+      "recordedAt": "2026-10-11T15:39:18.823Z",
+      "width": 960,
+      "height": 600,
+      "duration": 14,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/lightswind-ui/tour.4465a58b89.mp4",
+          "bytes": 503571
+        },
+        "poster": {
+          "url": "/libraries/lightswind-ui/poster.33e103e34e.webp",
+          "bytes": 33352
+        },
+        "icon": {
+          "url": "/libraries/lightswind-ui/icon.4c96231261.png",
+          "bytes": 3400
+        }
+      },
+      "color": "#ff4f12",
+      "onColor": "#ffffff"
+    },
+    "lightweight-charts": {
+      "sourceUrl": "https://www.tradingview.com/lightweight-charts/",
+      "recordedAt": "2026-10-11T15:38:33.227Z",
+      "width": 960,
+      "height": 600,
+      "duration": 7.73,
+      "highlights": 2,
+      "files": {
+        "tour": {
+          "url": "/libraries/lightweight-charts/tour.1e3ed0a343.mp4",
+          "bytes": 162701
+        },
+        "poster": {
+          "url": "/libraries/lightweight-charts/poster.776d3edcb1.webp",
+          "bytes": 20512
+        },
+        "icon": {
+          "url": "/libraries/lightweight-charts/icon.4fc709d737.png",
+          "bytes": 1608
+        }
+      },
+      "color": "#131722",
+      "onColor": "#ffffff"
+    },
+    "llamaindex-chat-ui": {
+      "sourceUrl": "https://ui.llamaindex.ai/",
+      "recordedAt": "2026-10-11T15:39:51.129Z",
+      "width": 960,
+      "height": 600,
+      "duration": 7.52,
+      "highlights": 0,
+      "files": {
+        "tour": {
+          "url": "/libraries/llamaindex-chat-ui/tour.651118c054.mp4",
+          "bytes": 136533
+        },
+        "poster": {
+          "url": "/libraries/llamaindex-chat-ui/poster.56c5cd73bc.webp",
+          "bytes": 24312
+        },
+        "icon": {
+          "url": "/libraries/llamaindex-chat-ui/icon.938114191b.png",
+          "bytes": 4085
+        }
+      },
+      "color": "#4fd9f7",
+      "onColor": "#0b0d12"
+    },
+    "llm-ui": {
+      "sourceUrl": "https://llm-ui.com/",
+      "recordedAt": "2026-10-11T15:27:56.677Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.07,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/llm-ui/tour.fda6c505a5.mp4",
+          "bytes": 191330
+        },
+        "poster": {
+          "url": "/libraries/llm-ui/poster.308fd8216a.webp",
+          "bytes": 15250
+        },
+        "icon": {
+          "url": "/libraries/llm-ui/icon.9a2dd9ac49.png",
+          "bytes": 1782
+        }
+      },
+      "color": "#6366f1",
+      "onColor": "#ffffff"
+    },
+    "lottiefiles": {
+      "sourceUrl": "https://lottiefiles.com/featured-free-animations",
+      "recordedAt": "2026-10-11T15:37:31.022Z",
+      "width": 960,
+      "height": 600,
+      "duration": 12.11,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/lottiefiles/tour.217f0fdc6d.mp4",
+          "bytes": 734241
+        },
+        "poster": {
+          "url": "/libraries/lottiefiles/poster.88d7c14e19.webp",
+          "bytes": 34874
+        },
+        "icon": {
+          "url": "/libraries/lottiefiles/icon.9f49107b18.png",
+          "bytes": 1089
+        }
+      },
+      "color": "#00ddb3",
+      "onColor": "#0b0d12"
+    },
+    "lucide-animated": {
+      "sourceUrl": "https://lucide-animated.com/",
+      "recordedAt": "2026-10-11T15:31:25.783Z",
+      "width": 960,
+      "height": 600,
+      "duration": 14.03,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/lucide-animated/tour.2c3e40d0bb.mp4",
+          "bytes": 318614
+        },
+        "poster": {
+          "url": "/libraries/lucide-animated/poster.229e305fc5.webp",
+          "bytes": 20860
+        },
+        "icon": {
+          "url": "/libraries/lucide-animated/icon.8f613077ea.png",
+          "bytes": 4135
+        }
+      },
+      "color": "#ee4822",
+      "onColor": "#ffffff"
+    },
+    "lukacho-ui": {
+      "sourceUrl": "https://ui.lukacho.com/components",
+      "recordedAt": "2026-10-11T15:28:21.752Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.06,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/lukacho-ui/tour.a485a8e097.mp4",
+          "bytes": 286615
+        },
+        "poster": {
+          "url": "/libraries/lukacho-ui/poster.e75e8af4ac.webp",
+          "bytes": 28742
+        },
+        "icon": {
+          "url": "/libraries/lukacho-ui/icon.022ad190c7.png",
+          "bytes": 346
+        }
+      },
+      "color": "#000000",
+      "onColor": "#ffffff"
+    },
+    "magic-ui": {
+      "sourceUrl": "https://magicui.design/docs/components/animated-beam",
+      "recordedAt": "2026-10-11T15:36:45.733Z",
+      "width": 960,
+      "height": 600,
+      "duration": 14,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/magic-ui/tour.be61ab4963.mp4",
+          "bytes": 398659
+        },
+        "poster": {
+          "url": "/libraries/magic-ui/poster.b447b4433c.webp",
+          "bytes": 30396
+        },
+        "icon": {
+          "url": "/libraries/magic-ui/icon.a8b6e6a92b.png",
+          "bytes": 4249
+        }
+      },
+      "color": "#ffac8f",
+      "onColor": "#0b0d12"
+    },
+    "mantine": {
+      "sourceUrl": "https://ui.mantine.dev/",
+      "recordedAt": "2026-10-11T15:29:26.734Z",
+      "width": 960,
+      "height": 600,
+      "duration": 14.02,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/mantine/tour.8c2145d10c.mp4",
+          "bytes": 453751
+        },
+        "poster": {
+          "url": "/libraries/mantine/poster.4f5c33290f.webp",
+          "bytes": 36692
+        },
+        "icon": {
+          "url": "/libraries/mantine/icon.804e677d11.png",
+          "bytes": 2049
+        }
+      },
+      "color": "#22b8cf",
+      "onColor": "#ffffff"
+    },
+    "material-tailwind": {
+      "sourceUrl": "https://www.material-tailwind.com/blocks",
+      "recordedAt": "2026-10-11T15:32:04.928Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.03,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/material-tailwind/tour.8f5d72655a.mp4",
+          "bytes": 364191
+        },
+        "poster": {
+          "url": "/libraries/material-tailwind/poster.0dfc0921e8.webp",
+          "bytes": 22246
+        },
+        "icon": {
+          "url": "/libraries/material-tailwind/icon.aaaabd64e2.png",
+          "bytes": 1629
+        }
+      },
+      "color": "#010101",
+      "onColor": "#ffffff"
+    },
+    "meraki-ui": {
+      "sourceUrl": "https://merakiui.com/components",
+      "recordedAt": "2026-10-11T15:31:51.229Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.08,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/meraki-ui/tour.8c4a1a4c8b.mp4",
+          "bytes": 274295
+        },
+        "poster": {
+          "url": "/libraries/meraki-ui/poster.8d6301ca30.webp",
+          "bytes": 19996
+        },
+        "icon": {
+          "url": "/libraries/meraki-ui/icon.3776828a35.png",
+          "bytes": 1460
+        }
+      },
+      "color": "#2563eb",
+      "onColor": "#ffffff"
+    },
+    "motion": {
+      "sourceUrl": "https://motion.dev/examples",
+      "recordedAt": "2026-10-11T15:26:16.523Z",
+      "width": 960,
+      "height": 600,
+      "duration": 14.05,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/motion/tour.495a2bf2f5.mp4",
+          "bytes": 434576
+        },
+        "poster": {
+          "url": "/libraries/motion/poster.d1bcdc534a.webp",
+          "bytes": 28604
+        },
+        "icon": {
+          "url": "/libraries/motion/icon.7582b71d30.png",
+          "bytes": 1593
+        }
+      },
+      "color": "#0b0b0c",
+      "onColor": "#ffffff"
+    },
+    "motion-primitives": {
+      "sourceUrl": "https://motion-primitives.com/docs/text-effect",
+      "recordedAt": "2026-10-11T15:36:44.535Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.02,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/motion-primitives/tour.229191f001.mp4",
+          "bytes": 338057
+        },
+        "poster": {
+          "url": "/libraries/motion-primitives/poster.fed5d7287f.webp",
+          "bytes": 22096
+        },
+        "icon": {
+          "url": "/libraries/motion-primitives/icon.794356d6c2.png",
+          "bytes": 1263
+        }
+      },
+      "color": "#000000",
+      "onColor": "#ffffff"
+    },
+    "mui": {
+      "sourceUrl": "https://mui.com/material-ui/all-components/",
+      "recordedAt": "2026-10-11T15:29:52.782Z",
+      "width": 960,
+      "height": 600,
+      "duration": 12.09,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/mui/tour.b8fb736ea6.mp4",
+          "bytes": 340240
+        },
+        "poster": {
+          "url": "/libraries/mui/poster.0fc38d4427.webp",
+          "bytes": 41268
+        },
+        "icon": {
+          "url": "/libraries/mui/icon.4005a17cd3.png",
+          "bytes": 1880
+        }
+      },
+      "color": "#0079f5",
+      "onColor": "#ffffff"
+    },
+    "neobrutalism-components": {
+      "sourceUrl": "https://www.neobrutalism.dev/styling",
+      "recordedAt": "2026-10-11T15:32:47.324Z",
+      "width": 960,
+      "height": 600,
+      "duration": 11.15,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/neobrutalism-components/tour.81d7a1b653.mp4",
+          "bytes": 375661
+        },
+        "poster": {
+          "url": "/libraries/neobrutalism-components/poster.20b7128a94.webp",
+          "bytes": 40514
+        },
+        "icon": {
+          "url": "/libraries/neobrutalism-components/icon.a6a8f0f8e7.png",
+          "bytes": 1932
+        }
+      },
+      "color": "#dfe5f2",
+      "onColor": "#0b0d12"
+    },
+    "nivo": {
+      "sourceUrl": "https://nivo.rocks/",
+      "recordedAt": "2026-10-11T15:37:05.677Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.6,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/nivo/tour.0e097cffd9.mp4",
+          "bytes": 203403
+        },
+        "poster": {
+          "url": "/libraries/nivo/poster.8557d10cd8.webp",
+          "bytes": 27186
+        },
+        "icon": {
+          "url": "/libraries/nivo/icon.575f9aeff4.png",
+          "bytes": 4048
+        }
+      },
+      "color": "#f0cd3a",
+      "onColor": "#0b0d12"
+    },
+    "number-flow": {
+      "sourceUrl": "https://number-flow.barvian.me/examples",
+      "recordedAt": "2026-10-11T15:30:29.349Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.19,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/number-flow/tour.553170f033.mp4",
+          "bytes": 201807
+        },
+        "poster": {
+          "url": "/libraries/number-flow/poster.a175190461.webp",
+          "bytes": 7998
+        },
+        "icon": {
+          "url": "/libraries/number-flow/icon.6d39e1b664.png",
+          "bytes": 3518
+        }
+      },
+      "color": "#5092ed",
+      "onColor": "#ffffff"
+    },
+    "once-ui": {
+      "sourceUrl": "https://once-ui.com/",
+      "recordedAt": "2026-10-11T15:31:33.650Z",
+      "width": 960,
+      "height": 600,
+      "duration": 23.65,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/once-ui/tour.dc173088c7.mp4",
+          "bytes": 606599
+        },
+        "poster": {
+          "url": "/libraries/once-ui/poster.e28d4f9bf8.webp",
+          "bytes": 19188
+        },
+        "icon": {
+          "url": "/libraries/once-ui/icon.e95ef4d640.png",
+          "bytes": 3506
+        }
+      },
+      "color": "#0b0b0b",
+      "onColor": "#ffffff"
+    },
+    "openui": {
+      "sourceUrl": "https://www.openui.com/",
+      "recordedAt": "2026-10-11T15:37:57.354Z",
+      "width": 960,
+      "height": 600,
+      "duration": 10.16,
+      "highlights": 1,
+      "files": {
+        "tour": {
+          "url": "/libraries/openui/tour.f2a0654a7f.mp4",
+          "bytes": 530826
+        },
+        "poster": {
+          "url": "/libraries/openui/poster.f27472a463.webp",
+          "bytes": 34728
+        },
+        "icon": {
+          "url": "/libraries/openui/icon.9b4ec68d0c.png",
+          "bytes": 3564
+        }
+      },
+      "color": "#060606",
+      "onColor": "#ffffff"
+    },
+    "page-ui": {
+      "sourceUrl": "https://shipixen.com/demo/landing-page-component-examples",
+      "recordedAt": "2026-10-11T15:33:08.660Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.19,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/page-ui/tour.878da6ed3c.mp4",
+          "bytes": 512617
+        },
+        "poster": {
+          "url": "/libraries/page-ui/poster.de95eb7950.webp",
+          "bytes": 42386
+        },
+        "icon": {
+          "url": "/libraries/page-ui/icon.312fd26c29.png",
+          "bytes": 4820
+        }
+      },
+      "color": "#eb2ef1",
+      "onColor": "#ffffff"
+    },
+    "paper-shaders": {
+      "sourceUrl": "https://shaders.paper.design/",
+      "recordedAt": "2026-10-11T15:28:19.042Z",
+      "width": 960,
+      "height": 600,
+      "duration": 14.85,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/paper-shaders/tour.db7e1ecf35.mp4",
+          "bytes": 474944
+        },
+        "poster": {
+          "url": "/libraries/paper-shaders/poster.c7da7c2d46.webp",
+          "bytes": 50198
+        },
+        "icon": {
+          "url": "/libraries/paper-shaders/icon.dfc0d3d370.png",
+          "bytes": 341
+        }
+      },
+      "color": "#82acec",
+      "onColor": "#ffffff"
+    },
+    "park-ui": {
+      "sourceUrl": "https://park-ui.com/",
+      "recordedAt": "2026-10-11T15:27:11.305Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.99,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/park-ui/tour.9a21993090.mp4",
+          "bytes": 190473
+        },
+        "poster": {
+          "url": "/libraries/park-ui/poster.e627f9e16a.webp",
+          "bytes": 36452
+        },
+        "icon": {
+          "url": "/libraries/park-ui/icon.60b54ce1ac.png",
+          "bytes": 3547
+        }
+      },
+      "color": "#0b0b0b",
+      "onColor": "#ffffff"
+    },
+    "plotly-js": {
+      "sourceUrl": "https://plotly.com/javascript/",
+      "recordedAt": "2026-10-11T15:38:30.997Z",
+      "width": 960,
+      "height": 600,
+      "duration": 9.63,
+      "highlights": 0,
+      "files": {
+        "tour": {
+          "url": "/libraries/plotly-js/tour.7d4c93690a.mp4",
+          "bytes": 546529
+        },
+        "poster": {
+          "url": "/libraries/plotly-js/poster.7f9e680e93.webp",
+          "bytes": 42612
+        },
+        "icon": {
+          "url": "/libraries/plotly-js/icon.0b5eadb125.png",
+          "bytes": 4665
+        }
+      },
+      "color": "#101113",
+      "onColor": "#ffffff"
+    },
+    "preline-ui": {
+      "sourceUrl": "https://preline.co/blocks/",
+      "recordedAt": "2026-10-11T15:27:01.972Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.03,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/preline-ui/tour.c13610fedb.mp4",
+          "bytes": 565934
+        },
+        "poster": {
+          "url": "/libraries/preline-ui/poster.245ca7332a.webp",
+          "bytes": 34782
+        },
+        "icon": {
+          "url": "/libraries/preline-ui/icon.eb430eff08.png",
+          "bytes": 6614
+        }
+      },
+      "color": "#2563eb",
+      "onColor": "#ffffff"
+    },
+    "primereact": {
+      "sourceUrl": "https://primereact.dev/",
+      "recordedAt": "2026-10-11T15:33:09.109Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.08,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/primereact/tour.6de980c82a.mp4",
+          "bytes": 382425
+        },
+        "poster": {
+          "url": "/libraries/primereact/poster.f67c793ee1.webp",
+          "bytes": 20794
+        },
+        "icon": {
+          "url": "/libraries/primereact/icon.5283d1d44f.png",
+          "bytes": 2651
+        }
+      },
+      "color": "#000000",
+      "onColor": "#ffffff"
+    },
+    "prompt-kit": {
+      "sourceUrl": "https://www.prompt-kit.com/blocks",
+      "recordedAt": "2026-10-11T15:25:49.725Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.99,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/prompt-kit/tour.44c526dd23.mp4",
+          "bytes": 217104
+        },
+        "poster": {
+          "url": "/libraries/prompt-kit/poster.54e2ad216f.webp",
+          "bytes": 11532
+        },
+        "icon": {
+          "url": "/libraries/prompt-kit/icon.92a7659b25.png",
+          "bytes": 3825
+        }
+      },
+      "color": "#020202",
+      "onColor": "#ffffff"
+    },
+    "radix-ui": {
+      "sourceUrl": "https://www.radix-ui.com/themes/playground",
+      "recordedAt": "2026-10-11T15:37:50.008Z",
+      "width": 960,
+      "height": 600,
+      "duration": 10.07,
+      "highlights": 1,
+      "files": {
+        "tour": {
+          "url": "/libraries/radix-ui/tour.0a8ea1c73d.mp4",
+          "bytes": 294004
+        },
+        "poster": {
+          "url": "/libraries/radix-ui/poster.1b05c069a9.webp",
+          "bytes": 28892
+        },
+        "icon": {
+          "url": "/libraries/radix-ui/icon.5dd419fcc0.png",
+          "bytes": 1234
+        }
+      },
+      "color": "#1c2024",
+      "onColor": "#ffffff"
+    },
+    "react-aria": {
+      "sourceUrl": "https://react-aria.adobe.com/",
+      "recordedAt": "2026-10-11T15:38:10.352Z",
+      "width": 960,
+      "height": 600,
+      "duration": 10.34,
+      "highlights": 1,
+      "files": {
+        "tour": {
+          "url": "/libraries/react-aria/tour.85f4051f96.mp4",
+          "bytes": 541534
+        },
+        "poster": {
+          "url": "/libraries/react-aria/poster.b31bdf7ebd.webp",
+          "bytes": 24676
+        },
+        "icon": {
+          "url": "/libraries/react-aria/icon.f1c5c74b7c.png",
+          "bytes": 1810
+        }
+      },
+      "color": "#6733ff",
+      "onColor": "#ffffff"
+    },
+    "react-bits": {
+      "sourceUrl": "https://reactbits.dev/get-started/index",
+      "recordedAt": "2026-10-11T15:36:44.432Z",
+      "width": 960,
+      "height": 600,
+      "duration": 12.21,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/react-bits/tour.cddcf2ff73.mp4",
+          "bytes": 415105
+        },
+        "poster": {
+          "url": "/libraries/react-bits/poster.f3801f025a.webp",
+          "bytes": 47596
+        },
+        "icon": {
+          "url": "/libraries/react-bits/icon.f6b13c33fa.png",
+          "bytes": 3660
+        }
+      },
+      "color": "#010101",
+      "onColor": "#ffffff"
+    },
+    "react-spring": {
+      "sourceUrl": "https://www.react-spring.dev/examples",
+      "recordedAt": "2026-10-11T15:29:19.784Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.02,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/react-spring/tour.cf83dd7f8c.mp4",
+          "bytes": 554576
+        },
+        "poster": {
+          "url": "/libraries/react-spring/poster.444fb1a831.webp",
+          "bytes": 25294
+        },
+        "icon": {
+          "url": "/libraries/react-spring/icon.8557a14661.png",
+          "bytes": 8249
+        }
+      },
+      "color": "#160631",
+      "onColor": "#ffffff"
+    },
+    "recharts": {
+      "sourceUrl": "https://recharts.github.io/en-US/examples/",
+      "recordedAt": "2026-10-11T15:28:40.337Z",
+      "width": 960,
+      "height": 600,
+      "duration": 11.12,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/recharts/tour.dc7327c349.mp4",
+          "bytes": 371500
+        },
+        "poster": {
+          "url": "/libraries/recharts/poster.b015c1e144.webp",
+          "bytes": 49034
+        }
+      }
+    },
+    "relume": {
+      "sourceUrl": "https://www.relume.ai/components",
+      "recordedAt": "2026-10-11T15:26:41.922Z",
+      "width": 960,
+      "height": 600,
+      "duration": 14.08,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/relume/tour.90a158bc24.mp4",
+          "bytes": 429170
+        },
+        "poster": {
+          "url": "/libraries/relume/poster.ace896abdc.webp",
+          "bytes": 36778
+        },
+        "icon": {
+          "url": "/libraries/relume/icon.9877f00891.png",
+          "bytes": 1691
+        }
+      },
+      "color": "#ff79ff",
+      "onColor": "#0b0d12"
+    },
+    "reui": {
+      "sourceUrl": "https://reui.io/components",
+      "recordedAt": "2026-10-11T15:32:26.275Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.11,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/reui/tour.3d8f23d659.mp4",
+          "bytes": 426120
+        },
+        "poster": {
+          "url": "/libraries/reui/poster.7034b48a00.webp",
+          "bytes": 32524
+        },
+        "icon": {
+          "url": "/libraries/reui/icon.6072210ea0.png",
+          "bytes": 1211
+        }
+      },
+      "color": "#000001",
+      "onColor": "#ffffff"
+    },
+    "rive": {
+      "sourceUrl": "https://rive.app/marketplace/",
+      "recordedAt": "2026-10-11T15:28:56.950Z",
+      "width": 960,
+      "height": 600,
+      "duration": 8.91,
+      "highlights": 3,
+      "files": {
+        "tour": {
+          "url": "/libraries/rive/tour.894a5338ea.mp4",
+          "bytes": 420445
+        },
+        "poster": {
+          "url": "/libraries/rive/poster.0bd693b5c8.webp",
+          "bytes": 45426
+        },
+        "icon": {
+          "url": "/libraries/rive/icon.5813cfcabf.png",
+          "bytes": 2563
+        }
+      },
+      "color": "#666666",
+      "onColor": "#ffffff"
+    },
+    "sera-ui": {
+      "sourceUrl": "https://seraui.com/",
+      "recordedAt": "2026-10-11T15:41:40.703Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.03,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/sera-ui/tour.84fc292a3d.mp4",
+          "bytes": 492147
+        },
+        "poster": {
+          "url": "/libraries/sera-ui/poster.c264da94c8.webp",
+          "bytes": 23104
+        },
+        "icon": {
+          "url": "/libraries/sera-ui/icon.d9b2a36873.png",
+          "bytes": 2127
+        }
+      },
+      "color": "#8c52ff",
+      "onColor": "#ffffff"
+    },
+    "shadcn-admin": {
+      "sourceUrl": "https://shadcn-admin.netlify.app/",
+      "recordedAt": "2026-10-11T15:27:17.272Z",
+      "width": 960,
+      "height": 600,
+      "duration": 10.14,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/shadcn-admin/tour.308a86a1e4.mp4",
+          "bytes": 110729
+        },
+        "poster": {
+          "url": "/libraries/shadcn-admin/poster.ca93234289.webp",
+          "bytes": 25622
+        },
+        "icon": {
+          "url": "/libraries/shadcn-admin/icon.ab6f39b8c5.png",
+          "bytes": 1043
+        }
+      },
+      "color": "#000000",
+      "onColor": "#ffffff"
+    },
+    "shadcn-charts": {
+      "sourceUrl": "https://ui.shadcn.com/charts/area",
+      "recordedAt": "2026-10-11T15:28:19.752Z",
+      "width": 960,
+      "height": 600,
+      "duration": 14,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/shadcn-charts/tour.87fc8d9b9b.mp4",
+          "bytes": 559956
+        },
+        "poster": {
+          "url": "/libraries/shadcn-charts/poster.66b7be2d95.webp",
+          "bytes": 29144
+        },
+        "icon": {
+          "url": "/libraries/shadcn-charts/icon.18f25c392e.png",
+          "bytes": 1170
+        }
+      },
+      "color": "#000000",
+      "onColor": "#ffffff"
+    },
+    "shadcn-chatbot-kit": {
+      "sourceUrl": "https://shadcn-chatbot-kit.vercel.app/",
+      "recordedAt": "2026-10-11T15:39:50.160Z",
+      "width": 960,
+      "height": 600,
+      "duration": 6.98,
+      "highlights": 0,
+      "files": {
+        "tour": {
+          "url": "/libraries/shadcn-chatbot-kit/tour.d8a1cc2ec6.mp4",
+          "bytes": 29591
+        },
+        "poster": {
+          "url": "/libraries/shadcn-chatbot-kit/poster.ea369045ca.webp",
+          "bytes": 17680
+        },
+        "icon": {
+          "url": "/libraries/shadcn-chatbot-kit/icon.2e7485d3f3.png",
+          "bytes": 3495
+        }
+      },
+      "color": "#ed5600",
+      "onColor": "#ffffff"
+    },
+    "shadcn-studio": {
+      "sourceUrl": "https://shadcnstudio.com/components",
+      "recordedAt": "2026-10-11T15:27:36.990Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.04,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/shadcn-studio/tour.a891e384ac.mp4",
+          "bytes": 351517
+        },
+        "poster": {
+          "url": "/libraries/shadcn-studio/poster.17007fda0e.webp",
+          "bytes": 29640
+        },
+        "icon": {
+          "url": "/libraries/shadcn-studio/icon.65585f82b4.png",
+          "bytes": 3950
+        }
+      },
+      "color": "#171717",
+      "onColor": "#ffffff"
+    },
+    "shadcn-ui": {
+      "sourceUrl": "https://ui.shadcn.com/blocks",
+      "recordedAt": "2026-10-11T15:24:52.535Z",
+      "width": 960,
+      "height": 600,
+      "duration": 10.85,
+      "highlights": 3,
+      "files": {
+        "tour": {
+          "url": "/libraries/shadcn-ui/tour.1bde96eff7.mp4",
+          "bytes": 372577
+        },
+        "poster": {
+          "url": "/libraries/shadcn-ui/poster.8c36127099.webp",
+          "bytes": 24948
+        },
+        "icon": {
+          "url": "/libraries/shadcn-ui/icon.18f25c392e.png",
+          "bytes": 1170
+        }
+      },
+      "color": "#000000",
+      "onColor": "#ffffff"
+    },
+    "shadcn-ui-kit": {
+      "sourceUrl": "https://shadcnuikit.com/blocks",
+      "recordedAt": "2026-10-11T15:27:31.556Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.04,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/shadcn-ui-kit/tour.69a170c55b.mp4",
+          "bytes": 424906
+        },
+        "poster": {
+          "url": "/libraries/shadcn-ui-kit/poster.2660b41d4d.webp",
+          "bytes": 39452
+        },
+        "icon": {
+          "url": "/libraries/shadcn-ui-kit/icon.9d1061b168.png",
+          "bytes": 2849
+        }
+      },
+      "color": "#030303",
+      "onColor": "#ffffff"
+    },
+    "shadcnblocks": {
+      "sourceUrl": "https://www.shadcnblocks.com/blocks",
+      "recordedAt": "2026-10-11T15:25:53.490Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.03,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/shadcnblocks/tour.358d174a82.mp4",
+          "bytes": 472674
+        },
+        "poster": {
+          "url": "/libraries/shadcnblocks/poster.69fbebb2b0.webp",
+          "bytes": 30570
+        },
+        "icon": {
+          "url": "/libraries/shadcnblocks/icon.8af2e8793f.png",
+          "bytes": 1450
+        }
+      },
+      "color": "#000000",
+      "onColor": "#ffffff"
+    },
+    "shadergradient": {
+      "sourceUrl": "https://shadergradient.co/customize",
+      "recordedAt": "2026-10-11T15:37:16.440Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.26,
+      "highlights": 0,
+      "files": {
+        "tour": {
+          "url": "/libraries/shadergradient/tour.a8c55d5d44.mp4",
+          "bytes": 741373
+        },
+        "poster": {
+          "url": "/libraries/shadergradient/poster.010f79e662.webp",
+          "bytes": 212916
+        },
+        "icon": {
+          "url": "/libraries/shadergradient/icon.8990be7950.png",
+          "bytes": 1329
+        }
+      },
+      "color": "#ff490b",
+      "onColor": "#ffffff"
+    },
+    "shaders": {
+      "sourceUrl": "https://shaders.com/presets",
+      "recordedAt": "2026-10-11T15:32:29.413Z",
+      "width": 960,
+      "height": 600,
+      "duration": 11.18,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/shaders/tour.f7cfea2d63.mp4",
+          "bytes": 291756
+        },
+        "poster": {
+          "url": "/libraries/shaders/poster.f2bd723849.webp",
+          "bytes": 31356
+        },
+        "icon": {
+          "url": "/libraries/shaders/icon.380795cd4d.png",
+          "bytes": 771
+        }
+      },
+      "color": "#0f0f10",
+      "onColor": "#ffffff"
+    },
+    "skiper-ui": {
+      "sourceUrl": "https://skiper-ui.com/components",
+      "recordedAt": "2026-10-11T15:25:36.777Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.27,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/skiper-ui/tour.f7fb94a61e.mp4",
+          "bytes": 349277
+        },
+        "poster": {
+          "url": "/libraries/skiper-ui/poster.cb47a3a502.webp",
+          "bytes": 14208
+        },
+        "icon": {
+          "url": "/libraries/skiper-ui/icon.e97fb5a34b.png",
+          "bytes": 5263
+        }
+      },
+      "color": "#1a90ef",
+      "onColor": "#ffffff"
+    },
+    "smoothui": {
+      "sourceUrl": "https://smoothui.dev/",
+      "recordedAt": "2026-10-11T15:26:50.605Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.04,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/smoothui/tour.a27c02fa62.mp4",
+          "bytes": 384554
+        },
+        "poster": {
+          "url": "/libraries/smoothui/poster.9022e48997.webp",
+          "bytes": 22510
+        },
+        "icon": {
+          "url": "/libraries/smoothui/icon.93b62efded.png",
+          "bytes": 1843
+        }
+      },
+      "color": "#ffffff",
+      "onColor": "#0b0d12"
+    },
+    "spectrum-ui": {
+      "sourceUrl": "https://ui.spectrumhq.in/",
+      "recordedAt": "2026-10-11T15:37:14.384Z",
+      "width": 960,
+      "height": 600,
+      "duration": 9.14,
+      "highlights": 1,
+      "files": {
+        "tour": {
+          "url": "/libraries/spectrum-ui/tour.7571703b9f.mp4",
+          "bytes": 322615
+        },
+        "poster": {
+          "url": "/libraries/spectrum-ui/poster.986b71cf11.webp",
+          "bytes": 34668
+        },
+        "icon": {
+          "url": "/libraries/spectrum-ui/icon.c45a493232.png",
+          "bytes": 829
+        }
+      },
+      "color": "#000000",
+      "onColor": "#ffffff"
+    },
+    "syntaxui": {
+      "sourceUrl": "https://syntaxui.com/",
+      "recordedAt": "2026-10-11T15:28:17.567Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.02,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/syntaxui/tour.61e1ddac7c.mp4",
+          "bytes": 263058
+        },
+        "poster": {
+          "url": "/libraries/syntaxui/poster.2a7dfe695b.webp",
+          "bytes": 18626
+        },
+        "icon": {
+          "url": "/libraries/syntaxui/icon.7933867787.png",
+          "bytes": 1379
+        }
+      },
+      "color": "#fb3a5d",
+      "onColor": "#ffffff"
+    },
+    "tailadmin": {
+      "sourceUrl": "https://tailadmin.com/components",
+      "recordedAt": "2026-10-11T15:26:58.923Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.99,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/tailadmin/tour.f863393cd9.mp4",
+          "bytes": 721206
+        },
+        "poster": {
+          "url": "/libraries/tailadmin/poster.2760f5beaa.webp",
+          "bytes": 33176
+        },
+        "icon": {
+          "url": "/libraries/tailadmin/icon.cb17a8725f.png",
+          "bytes": 3452
+        }
+      },
+      "color": "#3c50e0",
+      "onColor": "#ffffff"
+    },
+    "tailark": {
+      "sourceUrl": "https://tailark.com/blocks",
+      "recordedAt": "2026-10-11T15:25:53.407Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.05,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/tailark/tour.1ce3f043b6.mp4",
+          "bytes": 414476
+        },
+        "poster": {
+          "url": "/libraries/tailark/poster.c583619a55.webp",
+          "bytes": 32402
+        },
+        "icon": {
+          "url": "/libraries/tailark/icon.bd61b77211.png",
+          "bytes": 1221
+        }
+      },
+      "color": "#9fa87f",
+      "onColor": "#ffffff"
+    },
+    "tailgrids": {
+      "sourceUrl": "https://tailgrids.com/blocks",
+      "recordedAt": "2026-10-11T15:33:01.792Z",
+      "width": 960,
+      "height": 600,
+      "duration": 14.02,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/tailgrids/tour.62163458dc.mp4",
+          "bytes": 379202
+        },
+        "poster": {
+          "url": "/libraries/tailgrids/poster.c7711d0e49.webp",
+          "bytes": 28086
+        },
+        "icon": {
+          "url": "/libraries/tailgrids/icon.c922df7fde.png",
+          "bytes": 3432
+        }
+      },
+      "color": "#708efd",
+      "onColor": "#ffffff"
+    },
+    "tailwind-plus": {
+      "sourceUrl": "https://catalyst.tailwindui.com/",
+      "recordedAt": "2026-10-11T15:25:12.009Z",
+      "width": 960,
+      "height": 600,
+      "duration": 11.09,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/tailwind-plus/tour.a4e7e08c79.mp4",
+          "bytes": 242483
+        },
+        "poster": {
+          "url": "/libraries/tailwind-plus/poster.1e987b07d5.webp",
+          "bytes": 18772
+        },
+        "icon": {
+          "url": "/libraries/tailwind-plus/icon.91da84209b.png",
+          "bytes": 3109
+        }
+      },
+      "color": "#010101",
+      "onColor": "#ffffff"
+    },
+    "torph": {
+      "sourceUrl": "https://torph.lochie.me/examples",
+      "recordedAt": "2026-10-11T15:32:05.980Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.17,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/torph/tour.60da27ef63.mp4",
+          "bytes": 224270
+        },
+        "poster": {
+          "url": "/libraries/torph/poster.5afc66b7e7.webp",
+          "bytes": 10904
+        },
+        "icon": {
+          "url": "/libraries/torph/icon.21acfb5c21.png",
+          "bytes": 1203
+        }
+      },
+      "color": "#ffcc00",
+      "onColor": "#0b0d12"
+    },
+    "tremor": {
+      "sourceUrl": "https://blocks.tremor.so/blocks",
+      "recordedAt": "2026-10-11T15:26:17.010Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.04,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/tremor/tour.c5802ca0ae.mp4",
+          "bytes": 287196
+        },
+        "poster": {
+          "url": "/libraries/tremor/poster.a17a78eae5.webp",
+          "bytes": 23336
+        },
+        "icon": {
+          "url": "/libraries/tremor/icon.ac43fac992.png",
+          "bytes": 752
+        }
+      },
+      "color": "#3b82f6",
+      "onColor": "#ffffff"
+    },
+    "tsparticles": {
+      "sourceUrl": "https://particles.js.org/",
+      "recordedAt": "2026-10-11T15:38:39.821Z",
+      "width": 960,
+      "height": 600,
+      "duration": 12.17,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/tsparticles/tour.6b8e63ec04.mp4",
+          "bytes": 535765
+        },
+        "poster": {
+          "url": "/libraries/tsparticles/poster.a0c4204093.webp",
+          "bytes": 33556
+        }
+      }
+    },
+    "typed-js": {
+      "sourceUrl": "https://mattboldt.github.io/typed.js/",
+      "recordedAt": "2026-10-11T15:29:33.548Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.99,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/typed-js/tour.2e9bed7abb.mp4",
+          "bytes": 369800
+        },
+        "poster": {
+          "url": "/libraries/typed-js/poster.7970b909ca.webp",
+          "bytes": 23252
+        }
+      }
+    },
+    "typeit": {
+      "sourceUrl": "https://www.typeitjs.com/demos/",
+      "recordedAt": "2026-10-11T15:29:44.674Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.06,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/typeit/tour.2e5a5ece62.mp4",
+          "bytes": 463079
+        },
+        "poster": {
+          "url": "/libraries/typeit/poster.e7efd9dace.webp",
+          "bytes": 29758
+        },
+        "icon": {
+          "url": "/libraries/typeit/icon.ef4a8aa1cf.png",
+          "bytes": 639
+        }
+      },
+      "color": "#181818",
+      "onColor": "#ffffff"
+    },
+    "ui-layouts": {
+      "sourceUrl": "https://www.ui-layouts.com/components",
+      "recordedAt": "2026-10-11T15:31:06.527Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.72,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/ui-layouts/tour.1bfd488b49.mp4",
+          "bytes": 365444
+        },
+        "poster": {
+          "url": "/libraries/ui-layouts/poster.ba4d018438.webp",
+          "bytes": 35172
+        },
+        "icon": {
+          "url": "/libraries/ui-layouts/icon.6a9d14c757.png",
+          "bytes": 3505
+        }
+      },
+      "color": "#1967ff",
+      "onColor": "#ffffff"
+    },
+    "uiverse": {
+      "sourceUrl": "https://uiverse.io/elements",
+      "recordedAt": "2026-10-11T15:29:04.797Z",
+      "width": 960,
+      "height": 600,
+      "duration": 12.09,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/uiverse/tour.4148ec9402.mp4",
+          "bytes": 310671
+        },
+        "poster": {
+          "url": "/libraries/uiverse/poster.18c7f675be.webp",
+          "bytes": 27274
+        },
+        "icon": {
+          "url": "/libraries/uiverse/icon.e3091afacd.png",
+          "bytes": 2954
+        }
+      },
+      "color": "#0f0f0f",
+      "onColor": "#ffffff"
+    },
+    "unicorn-studio": {
+      "sourceUrl": "https://www.unicorn.studio/inspiration",
+      "recordedAt": "2026-10-11T15:31:59.362Z",
+      "width": 960,
+      "height": 600,
+      "duration": 12.15,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/unicorn-studio/tour.70d72cb017.mp4",
+          "bytes": 704285
+        },
+        "poster": {
+          "url": "/libraries/unicorn-studio/poster.66690e5a27.webp",
+          "bytes": 43190
+        },
+        "icon": {
+          "url": "/libraries/unicorn-studio/icon.01a9a7adf1.png",
+          "bytes": 1505
+        }
+      },
+      "color": "#ffffff",
+      "onColor": "#0b0d12"
+    },
+    "unlumen-ui": {
+      "sourceUrl": "https://ui.unlumen.com/components",
+      "recordedAt": "2026-10-11T15:28:02.369Z",
+      "width": 960,
+      "height": 600,
+      "duration": 14.11,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/unlumen-ui/tour.cb74b2dd5c.mp4",
+          "bytes": 347636
+        },
+        "poster": {
+          "url": "/libraries/unlumen-ui/poster.e0c4f5a42d.webp",
+          "bytes": 15656
+        },
+        "icon": {
+          "url": "/libraries/unlumen-ui/icon.64485c3ccd.png",
+          "bytes": 1869
+        }
+      },
+      "color": "#121212",
+      "onColor": "#ffffff"
+    },
+    "unovis": {
+      "sourceUrl": "https://unovis.dev/gallery/",
+      "recordedAt": "2026-10-11T15:29:47.619Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.06,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/unovis/tour.45a03ca46d.mp4",
+          "bytes": 448625
+        },
+        "poster": {
+          "url": "/libraries/unovis/poster.fe82a7dac7.webp",
+          "bytes": 27654
+        },
+        "icon": {
+          "url": "/libraries/unovis/icon.69ada28636.png",
+          "bytes": 281
+        }
+      },
+      "color": "#ffd651",
+      "onColor": "#0b0d12"
+    },
+    "untitled-ui-react": {
+      "sourceUrl": "https://www.untitledui.com/react/components",
+      "recordedAt": "2026-10-11T15:25:54.841Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.02,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/untitled-ui-react/tour.d77835b191.mp4",
+          "bytes": 486604
+        },
+        "poster": {
+          "url": "/libraries/untitled-ui-react/poster.859c20f146.webp",
+          "bytes": 31616
+        },
+        "icon": {
+          "url": "/libraries/untitled-ui-react/icon.ccd1a98ab1.png",
+          "bytes": 5396
+        }
+      },
+      "color": "#d7d6da",
+      "onColor": "#0b0d12"
+    },
+    "uselayouts": {
+      "sourceUrl": "https://uselayouts.com/browse",
+      "recordedAt": "2026-10-11T15:32:24.033Z",
+      "width": 960,
+      "height": 600,
+      "duration": 12.15,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/uselayouts/tour.048335d17a.mp4",
+          "bytes": 361691
+        },
+        "poster": {
+          "url": "/libraries/uselayouts/poster.f697fbb493.webp",
+          "bytes": 24678
+        },
+        "icon": {
+          "url": "/libraries/uselayouts/icon.a2eb3a21a3.png",
+          "bytes": 1353
+        }
+      },
+      "color": "#14141a",
+      "onColor": "#ffffff"
+    },
+    "v0": {
+      "sourceUrl": "https://v0.app/templates",
+      "recordedAt": "2026-10-11T15:28:13.455Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.06,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/v0/tour.7382c3abed.mp4",
+          "bytes": 161584
+        },
+        "poster": {
+          "url": "/libraries/v0/poster.5f6bc1f109.webp",
+          "bytes": 31938
+        },
+        "icon": {
+          "url": "/libraries/v0/icon.a4a94b6c75.png",
+          "bytes": 1561
+        }
+      },
+      "color": "#000000",
+      "onColor": "#ffffff"
+    },
+    "victory": {
+      "sourceUrl": "https://nearform.com/open-source/victory/themes",
+      "recordedAt": "2026-10-11T15:32:10.527Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.02,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/victory/tour.9247bc89ed.mp4",
+          "bytes": 275054
+        },
+        "poster": {
+          "url": "/libraries/victory/poster.d1f17272f8.webp",
+          "bytes": 19938
+        },
+        "icon": {
+          "url": "/libraries/victory/icon.f369e5ee74.png",
+          "bytes": 4873
+        }
+      },
+      "color": "#ff694e",
+      "onColor": "#ffffff"
+    },
+    "visx": {
+      "sourceUrl": "https://visx.airbnb.tech/gallery",
+      "recordedAt": "2026-10-11T15:29:00.718Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.03,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/visx/tour.4811428bb1.mp4",
+          "bytes": 552920
+        },
+        "poster": {
+          "url": "/libraries/visx/poster.fb593a49b2.webp",
+          "bytes": 54658
+        },
+        "icon": {
+          "url": "/libraries/visx/icon.d6eebec80a.png",
+          "bytes": 4067
+        }
+      },
+      "color": "#ff1231",
+      "onColor": "#ffffff"
+    },
+    "vue-bits": {
+      "sourceUrl": "https://vue-bits.dev/get-started/index",
+      "recordedAt": "2026-10-11T15:31:03.488Z",
+      "width": 960,
+      "height": 600,
+      "duration": 13.14,
+      "highlights": 4,
+      "files": {
+        "tour": {
+          "url": "/libraries/vue-bits/tour.8044e4b682.mp4",
+          "bytes": 306121
+        },
+        "poster": {
+          "url": "/libraries/vue-bits/poster.afea0dc7c7.webp",
+          "bytes": 27966
+        },
+        "icon": {
+          "url": "/libraries/vue-bits/icon.084646a004.png",
+          "bytes": 3028
+        }
+      },
+      "color": "#000000",
+      "onColor": "#ffffff"
+    }
+  }
+}

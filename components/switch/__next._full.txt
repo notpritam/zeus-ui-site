@@ -1,0 +1,314 @@
+1:"$Sreact.fragment"
+2:I[172844,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],""]
+3:I[722035,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"CommandSearchProvider"]
+4:I[337280,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"default"]
+5:I[475701,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"default"]
+7:I[579014,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+b:I[579014,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"ViewportBoundary"]
+d:I[579014,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"MetadataBoundary"]
+10:I[684167,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"default",1]
+:HL["/_next/static/chunks/16tqri1r-3qox.css","style"]
+:HL["/_next/static/chunks/1pfs1k4fn3vox.css","style"]
+:HL["/_next/static/chunks/04uno_r_5_x4n.css","style"]
+:HL["/_next/static/media/234d9015b631dab9-s.p.33gca1im1ku45.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+a:X
+0:{"P":null,"c":["","components","switch",""],"q":"","i":false,"f":[[["",{"children":["components",{"children":[["slug","switch","d",[]],{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16tqri1r-3qox.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1pfs1k4fn3vox.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/04uno_r_5_x4n.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/37yss_vchit64.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/2votv6uvyrruo.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L2",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",[["$","script","script-0",{"src":"/_next/static/chunks/3azp_iy_fx0ej.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/3_1pfg1675we5.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/3b-j35phbz363.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/2v6dx3y3pgbg2.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/3znghnjm2oz_l.js","async":true,"nonce":"$undefined"}],["$","script","script-5",{"src":"/_next/static/chunks/3458ylrm-tu9f.js","async":true,"nonce":"$undefined"}],["$","script","script-6",{"src":"/_next/static/chunks/1h9znjrekhrnu.js","async":true,"nonce":"$undefined"}],["$","script","script-7",{"src":"/_next/static/chunks/052khci2jbxel.js","async":true,"nonce":"$undefined"}],["$","script","script-8",{"src":"/_next/static/chunks/3fuakxesa5sfw.js","async":true,"nonce":"$undefined"}],["$","script","script-9",{"src":"/_next/static/chunks/34kutq8p1wnfe.js","async":true,"nonce":"$undefined"}],["$","script","script-10",{"src":"/_next/static/chunks/13e0htpydajrc.js","async":true,"nonce":"$undefined"}]],["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]]}],{},null,false,null]},null,false,"$a"]},null,false,"$a"]},null,false,null],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$8",null,{"name":"Next.Metadata","children":"$Le"}]}]}],"$Lf"]}],false]],"m":"$undefined","G":["$10",["$L11","$L12","$L13"]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"MshCBksLdfoZmpOcb96Z-"}
+a:C
+f:["$","meta",null,{"name":"next-size-adjust","content":""}]
+11:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16tqri1r-3qox.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+12:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1pfs1k4fn3vox.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+13:["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/04uno_r_5_x4n.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+14:I[768456,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js","/_next/static/chunks/3azp_iy_fx0ej.js","/_next/static/chunks/3_1pfg1675we5.js","/_next/static/chunks/3b-j35phbz363.js","/_next/static/chunks/2v6dx3y3pgbg2.js","/_next/static/chunks/3znghnjm2oz_l.js","/_next/static/chunks/3458ylrm-tu9f.js","/_next/static/chunks/1h9znjrekhrnu.js","/_next/static/chunks/052khci2jbxel.js","/_next/static/chunks/3fuakxesa5sfw.js","/_next/static/chunks/34kutq8p1wnfe.js","/_next/static/chunks/13e0htpydajrc.js"],"DocsLayout"]
+6:["$","$L14",null,{"title":"Switch","heading":"Switch","icon":"components","groups":[{"id":"buttons","title":"Buttons","items":[{"name":"background-fill-button","title":"Background Fill Button","isNew":true},{"name":"circle-fill-button","title":"Circle Fill Button","isNew":true},{"name":"curve-fill-button","title":"Curve Fill Button","isNew":true},{"name":"animated-icon-button","title":"Animated Icon Button","isNew":true},{"name":"magnetic-button","title":"Magnetic Button","isNew":true},{"name":"rainbow-button","title":"Rainbow Button","isNew":true},{"name":"text-underline","title":"Text Underline","isNew":true},{"name":"button","title":"Button","isNew":"$undefined"},{"name":"icon-button","title":"Icon Button","isNew":"$undefined"},{"name":"link-button","title":"Link Button","isNew":"$undefined"},{"name":"button-group","title":"Button Group","isNew":"$undefined"},{"name":"close-button","title":"Close Button","isNew":"$undefined"},{"name":"social-button","title":"Social Button","isNew":"$undefined"}]},{"id":"forms","title":"Forms & inputs","items":[{"name":"gooey-filter-chips","title":"Gooey Filter Chips","isNew":true},{"name":"multi-step-form","title":"Multi-Step Form","isNew":true},{"name":"morphing-select","title":"Morphing Select","isNew":true},{"name":"input","title":"Input","isNew":"$undefined"},{"name":"input-otp","title":"Input OTP","isNew":"$undefined"},{"name":"checkbox","title":"Checkbox","isNew":"$undefined"},{"name":"radio","title":"Radio","isNew":"$undefined"},{"name":"switch","title":"Switch","isNew":"$undefined"},{"name":"select","title":"Select","isNew":"$undefined"},{"name":"slider","title":"Slider","isNew":"$undefined"},{"name":"file-upload","title":"File Upload","isNew":"$undefined"},{"name":"auth-card","title":"Auth Card","isNew":"$undefined"}]},{"id":"navigation","title":"Navigation","items":[{"name":"morphing-pill-menu","title":"Morphing Pill Menu","isNew":true},{"name":"gooey-menu","title":"Gooey Menu","isNew":true},{"name":"mega-menu","title":"Mega Menu","isNew":true},{"name":"fullscreen-slide-menu","title":"Fullscreen Slide Menu","isNew":true},{"name":"hide-header","title":"Hide Header","isNew":true},{"name":"custom-cursor","title":"Custom Cursor","isNew":true},{"name":"morphing-island","title":"Morphing Island","isNew":true},{"name":"morphing-tabs","title":"Morphing Tabs","isNew":true},{"name":"multi-level-drawer-menu","title":"Multi-Level Drawer Menu","isNew":true},{"name":"dropdown","title":"Dropdown","isNew":"$undefined"},{"name":"tabs","title":"Tabs","isNew":"$undefined"},{"name":"segmented-control","title":"Segmented Control","isNew":"$undefined"},{"name":"breadcrumb","title":"Breadcrumb","isNew":"$undefined"},{"name":"pagination","title":"Pagination","isNew":"$undefined"},{"name":"sidebar","title":"Sidebar","isNew":"$undefined"}]},{"id":"feedback","title":"Feedback & status","items":[{"name":"badge","title":"Badge","isNew":"$undefined"},{"name":"chip","title":"Chip","isNew":"$undefined"},{"name":"status-dot","title":"Status Dot","isNew":"$undefined"},{"name":"announcement","title":"Announcement","isNew":"$undefined"},{"name":"notification","title":"Notification","isNew":"$undefined"},{"name":"theme-toggle","title":"Theme Toggle","isNew":"$undefined"},{"name":"notification-center","title":"Notification Center","isNew":"$undefined"}]},{"id":"overlays","title":"Overlays & disclosures","items":[{"name":"morphing-accordion","title":"Morphing Accordion","isNew":true},{"name":"detail-drawer","title":"Detail Drawer","isNew":true},{"name":"animated-tooltip","title":"Animated Tooltip","isNew":true},{"name":"morphing-dialog","title":"Morphing Dialog","isNew":true},{"name":"morphing-tooltip","title":"Morphing Tooltip","isNew":true},{"name":"animated-accordion","title":"Animated Accordion","isNew":true},{"name":"feature-dialog","title":"Feature Dialog","isNew":true},{"name":"tooltip","title":"Tooltip","isNew":"$undefined"},{"name":"settings-modal","title":"Settings Modal","isNew":"$undefined"}]},{"id":"typography","title":"Text & typography","items":[{"name":"text-on-path","title":"Text On Path","isNew":true},{"name":"text-fill-wave","title":"Text Fill Wave","isNew":true},{"name":"velocity-type","title":"Velocity Type","isNew":true},{"name":"typewriter","title":"Typewriter","isNew":true},{"name":"character-appear","title":"Character Appear","isNew":true},{"name":"text-morph","title":"Text Morph","isNew":true},{"name":"text-split-zoom","title":"Text Split Zoom","isNew":true},{"name":"text-scramble","title":"Text Scramble","isNew":true},{"name":"rectangle-text-reveal","title":"Rectangle Text Reveal","isNew":true},{"name":"popping-text","title":"Popping Text","isNew":true},{"name":"folding-text","title":"Folding Text","isNew":true},{"name":"cinematic-text","title":"Cinematic Text","isNew":true},{"name":"text-shimmer-wave","title":"Text Shimmer Wave","isNew":true},{"name":"text-reveal","title":"Text Reveal","isNew":true},{"name":"dual-scramble","title":"Dual Scramble","isNew":true},{"name":"typography","title":"Typography","isNew":"$undefined"},{"name":"kbd","title":"Kbd","isNew":"$undefined"}]},{"id":"icons","title":"Icons & identity","items":[{"name":"chevrons","title":"Chevrons","isNew":"$undefined"},{"name":"logo","title":"Logo","isNew":"$undefined"},{"name":"avatar","title":"Avatar","isNew":"$undefined"}]},{"id":"layout","title":"Layout & structure","items":[{"name":"grid-chapters","title":"Grid Chapters","isNew":true},{"name":"network-globe","title":"Network Globe","isNew":true},{"name":"dock-footer","title":"Dock Footer","isNew":true},{"name":"flip-filter","title":"Flip Filter","isNew":true},{"name":"capsule-hero","title":"Capsule Hero","isNew":true},{"name":"wipe-slider","title":"Wipe Slider","isNew":true},{"name":"step-wipe","title":"Step Wipe","isNew":true},{"name":"gradient-footer","title":"Gradient Footer","isNew":true},{"name":"testimonial-globe","title":"Testimonial Globe","isNew":true},{"name":"drift-gallery","title":"Drift Gallery","isNew":true},{"name":"divider","title":"Divider","isNew":"$undefined"},{"name":"app-shell","title":"App Shell","isNew":"$undefined"}]},{"id":"data","title":"Data & charts","items":[{"name":"progress","title":"Progress","isNew":true},{"name":"counter","title":"Counter","isNew":true},{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"table","title":"Table","isNew":"$undefined"},{"name":"stat-cards","title":"Stat Cards","isNew":"$undefined"},{"name":"data-table","title":"Data Table","isNew":"$undefined"},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart","isNew":"$undefined"},{"name":"orders-chart-card","title":"Orders Chart","isNew":"$undefined"},{"name":"important-alerts-card","title":"Important Alerts","isNew":"$undefined"},{"name":"patient-info-card","title":"Patient Info","isNew":"$undefined"}]},{"id":"media","title":"Images & media","items":[{"name":"mesh-gradient","title":"Mesh Gradient","isNew":true},{"name":"dithering","title":"Dithering","isNew":true},{"name":"image-glitch","title":"Image Glitch","isNew":true},{"name":"gooey-hover-reveal","title":"Gooey Hover Reveal","isNew":true},{"name":"dither-cursor-trail","title":"Dither Cursor Trail","isNew":true},{"name":"image-dissolve-scroll","title":"Image Dissolve Scroll","isNew":true},{"name":"scatter-cluster","title":"Scatter Cluster","isNew":true},{"name":"multi-flip","title":"Multi Flip","isNew":true},{"name":"velocity-clip","title":"Velocity Clip","isNew":true},{"name":"svg-draw-path","title":"SVG Draw Path","isNew":true},{"name":"parallax","title":"Parallax","isNew":true},{"name":"mask-reveal","title":"Mask Reveal","isNew":true},{"name":"flip-zone","title":"Flip Zone","isNew":true},{"name":"element-reveal","title":"Element Reveal","isNew":true},{"name":"background-color","title":"Background Color","isNew":true},{"name":"animated-grid","title":"Animated Grid","isNew":true},{"name":"random-rotate","title":"Random Rotate","isNew":true},{"name":"photo-stack-gallery","title":"Photo Stack Gallery","isNew":true},{"name":"spiral-gallery","title":"Spiral Gallery","isNew":true},{"name":"lens-rail","title":"Lens Rail","isNew":true},{"name":"expanding-strip","title":"Expanding Strip","isNew":true},{"name":"index-wipe","title":"Index Wipe","isNew":true},{"name":"card-fan","title":"Card Fan","isNew":true},{"name":"radial-gallery","title":"Radial Gallery","isNew":true},{"name":"circular-slider","title":"Circular Slider","isNew":true},{"name":"infinite-parallax-slider","title":"Infinite Parallax Slider","isNew":true},{"name":"image-follow-list","title":"Image Follow List","isNew":true},{"name":"hoverable-list","title":"Hoverable List","isNew":true},{"name":"infinite-draggable-grid","title":"Infinite Draggable Grid","isNew":true},{"name":"infinite-marquee","title":"Infinite Marquee","isNew":true},{"name":"image-trail","title":"Image Trail","isNew":true},{"name":"3d-card-flip","title":"3D Card Flip","isNew":true},{"name":"image-fly-in","title":"Image Fly-In","isNew":true},{"name":"scale-slider","title":"Scale Slider","isNew":true},{"name":"curtain-slider","title":"Curtain Slider","isNew":true},{"name":"ascii-overlay","title":"ASCII Overlay","isNew":true},{"name":"carousel","title":"Carousel","isNew":"$undefined"}]},{"id":"scheduling","title":"Dates & scheduling","items":[{"name":"calendar","title":"Calendar","isNew":true},{"name":"date-picker","title":"Date Picker","isNew":"$undefined"},{"name":"date-range-picker","title":"Date Range Picker","isNew":"$undefined"},{"name":"meeting-scheduler","title":"Meeting Scheduler","isNew":"$undefined"}]},{"id":"ai","title":"AI & agents","items":[{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true},{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking","isNew":"$undefined"},{"name":"composer-loader","title":"Composer Loader","isNew":"$undefined"},{"name":"agent-log","title":"Agent Log","isNew":"$undefined"},{"name":"agent-chat","title":"Agent Chat","isNew":"$undefined"}]},{"id":"pricing","title":"Pricing & billing","items":[{"name":"animated-pricing","title":"Animated Pricing","isNew":true}]},{"id":"screens","title":"Complete screens","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true}]},{"id":"foundations","title":"Design foundations","items":[{"name":"tokens","title":"Design tokens","isNew":"$undefined"}]},{"id":"utilities","title":"Hooks & utilities","items":[{"name":"cx","title":"cx","isNew":"$undefined"},{"name":"use-count-up","title":"useCountUp","isNew":"$undefined"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress","isNew":"$undefined"}]}],"description":"Pill and rectangle shapes, two sizes, plus a card variant with icon and description.","columnClassName":"$undefined","detail":true,"children":"$L15"}]
+16:I[107183,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js","/_next/static/chunks/3azp_iy_fx0ej.js","/_next/static/chunks/3_1pfg1675we5.js","/_next/static/chunks/3b-j35phbz363.js","/_next/static/chunks/2v6dx3y3pgbg2.js","/_next/static/chunks/3znghnjm2oz_l.js","/_next/static/chunks/3458ylrm-tu9f.js","/_next/static/chunks/1h9znjrekhrnu.js","/_next/static/chunks/052khci2jbxel.js","/_next/static/chunks/3fuakxesa5sfw.js","/_next/static/chunks/34kutq8p1wnfe.js","/_next/static/chunks/13e0htpydajrc.js"],"ComponentPage"]
+17:Tb16,"use client";
+
+import type { ComponentType, ReactNode, Ref } from "react";
+import { Switch as AriaSwitch } from "react-aria-components";
+import type { SwitchProps as AriaSwitchProps } from "react-aria-components";
+import { cx } from "../../utils/cx";
+import { SwitchTrack } from "./switch";
+import type { SwitchShape, SwitchSize } from "./switch";
+
+type IconComponent = ComponentType<{
+  className?: string;
+  "aria-hidden"?: boolean | "true" | "false";
+}>;
+
+/**
+ * Selectable settings card: title + description on the left, Switch on the
+ * right. The whole card toggles (react-aria Switch renders the label), so a
+ * click anywhere flips the state — the switch counterpart to CheckboxCard.
+ *
+ * Card chrome mirrors CheckboxCard, but with rounded-xl (12px) corners:
+ *   card   rounded-xl (12px), 1px border/button/default, pl 16 pr 20 py 12
+ *   hover  bg background/primary/hover (#f7f7f7)
+ *   title  Body 1/Medium, text/primary
+ *   desc   Body 1/Regular, text/secondary
+ */
+
+export interface SwitchCardProps extends Omit<AriaSwitchProps, "children"> {
+  title: ReactNode;
+  description?: ReactNode;
+  /** Optional 24×24 leading icon — pass a Remix Icon component (`RiMailLine`, not `<RiMailLine />`). */
+  icon?: IconComponent;
+  size?: SwitchSize;
+  shape?: SwitchShape;
+  ref?: Ref<HTMLLabelElement>;
+}
+
+export function SwitchCard({
+  className,
+  title,
+  description,
+  icon: Icon,
+  size = "md",
+  shape = "pill",
+  ref,
+  ...props
+}: SwitchCardProps) {
+  return (
+    <AriaSwitch
+      ref={ref}
+      {...props}
+      className={(state) =>
+        cx(
+          "group flex w-full items-center justify-between gap-3 rounded-xl border border-border-button-default py-3 pr-5 pl-4 select-none",
+          "transition-colors duration-150 ease",
+          state.isHovered && !state.isDisabled
+            ? "bg-background-primary-hover"
+            : "bg-background-primary-default",
+          state.isDisabled ? "cursor-not-allowed opacity-50" : "cursor-pointer",
+          typeof className === "function" ? className(state) : className,
+        )
+      }
+    >
+      {(state) => (
+        <>
+          <span className="flex min-w-0 items-center gap-3">
+            {Icon && <Icon className="size-6 shrink-0 text-foreground-icon-secondary" aria-hidden />}
+            <span className="flex min-w-0 flex-col gap-0.5">
+              <span className="truncate text-body-medium text-text-primary">{title}</span>
+              {description !== undefined && description !== null && (
+                <span className="truncate text-body-regular text-text-secondary">{description}</span>
+              )}
+            </span>
+          </span>
+          <span className="flex shrink-0 items-center">
+            <SwitchTrack state={state} size={size} shape={shape} />
+          </span>
+        </>
+      )}
+    </AriaSwitch>
+  );
+}
+18:T195f,"use client";
+
+import type { ReactNode, Ref } from "react";
+import { Switch as AriaSwitch } from "react-aria-components";
+import type { SwitchProps as AriaSwitchProps } from "react-aria-components";
+import { cx, sortCx } from "../../utils/cx";
+
+/**
+ * Figma source: Board UI → "Toogles" (node 3856:3807).
+ *
+ * Two shapes × three sizes, plus off / on:
+ *   shape   pill        (Figma "fully rounded") — track & thumb rounded-full
+ *           rectangle   (Figma "rectangle")     — track radius/md-scale, thumb radius/xs-scale
+ *   size    sm 28×16 · md 42×24 · lg 56×32   (track w×h; thumb = h − 2·pad)
+ *
+ * Anatomy (all values 1:1 with Figma):
+ *   track   off → bg background/tertiary/default (#ebebeb, no border)
+ *           on  → Button/Primary gradient (blue/500 → blue/600) + an inset
+ *                 ring + top highlight that scales with size. lg is exactly
+ *                 the shared `--shadow-checkbox-selected` token; md/sm scale
+ *                 the ring (0.75px / 0.5px) and highlight (1.5px / 1px).
+ *   thumb   theme-stable white gradient + contact shadow,
+ *           slides by (w − thumb − 2·pad) between states.
+ *   chip    small embossed inset in the thumb centre:
+ *           off → white→neutral-100 in light mode; in dark mode it matches
+ *                 the track so the mark reads like a hole through the thumb;
+ *           on  → switch-on-chip-start→end (accent mixes matching Figma's
+ *                 raw #2473fe→#0450e2 for blue), accent/600 border.
+ *
+ * The track visual lives in `SwitchTrack` so `Switch` and `SwitchCard` share it
+ * (mirrors how Checkbox / CheckboxCard share `CheckboxGlyph`). Built on
+ * react-aria Switch: native toggle semantics, keyboard support, focus-visible
+ * ring, optional label via `children`.
+ */
+
+export type SwitchSize = "sm" | "md" | "lg";
+export type SwitchShape = "pill" | "rectangle";
+
+export const switchSizes = sortCx({
+  sm: {
+    track: "h-4 w-7",
+    trackRadius: { pill: "rounded-full", rectangle: "rounded-[3px]" },
+    onShadow: "shadow-[inset_0_1px_0_0_rgb(255_255_255/0.25),inset_0_0_0_0.5px_var(--color-accent-500)]",
+    thumb: "size-3",
+    thumbRadius: { pill: "rounded-full", rectangle: "rounded-[1px]" },
+    offset: "left-0.5 top-0.5",
+    travel: "translate-x-3",
+    chip: "size-[5px] border-[0.25px] shadow-[0_2px_2px_0_rgb(0_0_0/0.03)]",
+    chipRadius: { pill: "rounded-full", rectangle: "rounded-[0.5px]" },
+  },
+  md: {
+    track: "h-6 w-[42px]",
+    trackRadius: { pill: "rounded-full", rectangle: "rounded-[4.5px]" },
+    onShadow: "shadow-[inset_0_1.5px_0_0_rgb(255_255_255/0.25),inset_0_0_0_0.75px_var(--color-accent-500)]",
+    thumb: "size-[18px]",
+    thumbRadius: { pill: "rounded-full", rectangle: "rounded-[1.5px]" },
+    offset: "left-[3px] top-[3px]",
+    travel: "translate-x-[18px]",
+    chip: "size-[7.5px] border-[0.375px] shadow-[0_3px_3px_0_rgb(0_0_0/0.03)]",
+    chipRadius: { pill: "rounded-full", rectangle: "rounded-[0.75px]" },
+  },
+  lg: {
+    track: "h-8 w-14",
+    trackRadius: { pill: "rounded-full", rectangle: "rounded-md" },
+    onShadow: "shadow-checkbox-selected",
+    thumb: "size-6",
+    thumbRadius: { pill: "rounded-full", rectangle: "rounded-xs" },
+    offset: "left-1 top-1",
+    travel: "translate-x-6",
+    chip: "size-[10px] border-[0.5px] shadow-[0_4px_4px_0_rgb(0_0_0/0.03)]",
+    chipRadius: { pill: "rounded-full", rectangle: "rounded-[1px]" },
+  },
+});
+
+export interface SwitchVisualState {
+  isSelected: boolean;
+  isDisabled: boolean;
+  isFocusVisible: boolean;
+}
+
+/**
+ * The track + thumb + chip visual. Pure presentation — the react-aria Switch
+ * (in `Switch` or `SwitchCard`) owns the input and passes its render state in.
+ */
+export function SwitchTrack({
+  state,
+  size = "md",
+  shape = "pill",
+}: {
+  state: SwitchVisualState;
+  size?: SwitchSize;
+  shape?: SwitchShape;
+}) {
+  const s = switchSizes[size];
+
+  return (
+    <span
+      aria-hidden
+      className={cx(
+        "relative shrink-0 transition-colors duration-200 ease",
+        s.track,
+        s.trackRadius[shape],
+        state.isSelected
+          ? cx("bg-linear-to-b from-accent-500 to-accent-600", s.onShadow)
+          : "bg-background-tertiary-default",
+        state.isDisabled && "opacity-50",
+        state.isFocusVisible && "ring-2 ring-border-focus-ring ring-offset-2",
+      )}
+    >
+      {/* Thumb */}
+      <span
+        className={cx(
+          "absolute flex items-center justify-center",
+          "bg-linear-to-b from-control-indicator-background from-[43.837%] to-control-indicator-background-subtle",
+          "shadow-[0_3px_3px_0_rgb(0_0_0/0.03),0_0.75px_0_0_rgb(0_0_0/0.05)]",
+          "transition-transform duration-200 ease",
+          s.thumb,
+          s.thumbRadius[shape],
+          s.offset,
+          state.isSelected && s.travel,
+        )}
+      >
+        {/* Embossed inner chip. Gradient runs bottom→top (`to-t`) — equivalent
+            to the Figma layer's vertical flip — but WITHOUT a transform, so the
+            chip stays pixel-snapped/centred (no blurry 1px shift at sub-pixel
+            sizes) and its drop shadow points down instead of up. */}
+        <span
+          className={cx(
+            "border-solid bg-linear-to-t from-[43.837%]",
+            s.chip,
+            s.chipRadius[shape],
+            state.isSelected
+              ? "border-accent-600 from-switch-on-chip-start to-switch-on-chip-end"
+              : "border-border-button-default/50 from-switch-off-chip-start to-switch-off-chip-end",
+          )}
+        />
+      </span>
+    </span>
+  );
+}
+
+export interface SwitchProps extends Omit<AriaSwitchProps, "children"> {
+  children?: ReactNode;
+  size?: SwitchSize;
+  shape?: SwitchShape;
+  ref?: Ref<HTMLLabelElement>;
+}
+
+export function Switch({ className, children, size = "md", shape = "pill", ref, ...props }: SwitchProps) {
+  return (
+    <AriaSwitch
+      ref={ref}
+      {...props}
+      className={(state) =>
+        cx(
+          "group inline-flex items-center gap-2 select-none",
+          state.isDisabled ? "cursor-not-allowed" : "cursor-pointer",
+          typeof className === "function" ? className(state) : className,
+        )
+      }
+    >
+      {(state) => (
+        <>
+          <SwitchTrack state={state} size={size} shape={shape} />
+          {children != null && children !== false && (
+            <span className="text-body-medium text-text-primary">{children}</span>
+          )}
+        </>
+      )}
+    </AriaSwitch>
+  );
+}
+19:T41f,"use client";
+
+import { useState } from "react";
+import { RiMoonLine, RiNotification4Line } from "@remixicon/react";
+import { Switch } from "@/components/base/switch/switch";
+import { SwitchCard } from "@/components/base/switch/switch-card";
+
+export default function SwitchDemo() {
+  const [enabled, setEnabled] = useState(true);
+
+  return (
+    <div className="flex flex-col gap-6">
+      <div className="flex flex-wrap items-center gap-6">
+        <Switch isSelected={enabled} onChange={setEnabled}>
+          Enable notifications
+        </Switch>
+        <Switch shape="rectangle" size="sm" aria-label="Compact" />
+        <Switch isDisabled defaultSelected aria-label="Disabled" />
+      </div>
+
+      <div className="flex w-full max-w-sm flex-col gap-4">
+        <SwitchCard
+          icon={RiNotification4Line}
+          title="Push notifications"
+          description="Get notified when something needs your attention."
+          defaultSelected
+        />
+        <SwitchCard icon={RiMoonLine} title="Dark mode" />
+      </div>
+    </div>
+  );
+}15:["$","$L16",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"switch","title":"Switch","description":"Pill and rectangle shapes, two sizes, plus a card variant with icon and description.","category":"base","family":"forms","kind":"component","designSystem":"zeus","foundationDependencies":["tokens"],"iconLibraries":[],"tags":["form","toggle","settings","boolean"],"status":"stable","tier":"free","dependencies":["react-aria-components@^1.17.0","tailwind-merge@^3.6.0"],"registryDependencies":["cx","tokens"],"files":[{"path":"base/switch/switch-card.tsx","target":"components/base/switch/switch-card.tsx","type":"component","content":"$17"},{"path":"base/switch/switch.tsx","target":"components/base/switch/switch.tsx","type":"component","content":"$18"}],"hash":"0fdb6ece6b9d"},"demoSource":"$19","previous":{"name":"radio","title":"Radio"},"next":{"name":"select","title":"Select"},"origin":{"name":"switch","library":"boardui","tier":"free","reference":"https://www.boardui.com/components/switch","libraryName":"BoardUI"}}]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+e:[["$","title","0",{"children":"Switch — Zeus UI"}],["$","meta","1",{"name":"description","content":"Pill and rectangle shapes, two sizes, plus a card variant with icon and description."}],["$","meta","2",{"name":"keywords","content":"form,toggle,settings,boolean"}]]

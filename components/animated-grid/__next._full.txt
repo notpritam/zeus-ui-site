@@ -1,0 +1,508 @@
+1:"$Sreact.fragment"
+2:I[172844,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],""]
+3:I[722035,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"CommandSearchProvider"]
+4:I[337280,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"default"]
+5:I[475701,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"default"]
+7:I[579014,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+b:I[579014,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"ViewportBoundary"]
+d:I[579014,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"MetadataBoundary"]
+10:I[684167,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js"],"default",1]
+:HL["/_next/static/chunks/16tqri1r-3qox.css","style"]
+:HL["/_next/static/chunks/1pfs1k4fn3vox.css","style"]
+:HL["/_next/static/chunks/04uno_r_5_x4n.css","style"]
+:HL["/_next/static/media/234d9015b631dab9-s.p.33gca1im1ku45.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+a:X
+0:{"P":null,"c":["","components","animated-grid",""],"q":"","i":false,"f":[[["",{"children":["components",{"children":[["slug","animated-grid","d",[]],{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16tqri1r-3qox.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1pfs1k4fn3vox.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/04uno_r_5_x4n.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/37yss_vchit64.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/2votv6uvyrruo.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inter_9cfd2fd2-module__mkxXHa__variable jetbrains_mono_32f24d5e-module__zeawOW__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col bg-background-full","children":[["$","$L2",null,{"id":"zeus-theme","strategy":"beforeInteractive","children":"(function(){try{var dark=localStorage.getItem(\"zeus:theme\")===\"dark\";document.documentElement.classList.toggle(\"dark\",dark)}catch(e){document.documentElement.classList.remove(\"dark\")}})();"}],["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",[["$","script","script-0",{"src":"/_next/static/chunks/3azp_iy_fx0ej.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/3_1pfg1675we5.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/3b-j35phbz363.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/2v6dx3y3pgbg2.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/3znghnjm2oz_l.js","async":true,"nonce":"$undefined"}],["$","script","script-5",{"src":"/_next/static/chunks/3458ylrm-tu9f.js","async":true,"nonce":"$undefined"}],["$","script","script-6",{"src":"/_next/static/chunks/1h9znjrekhrnu.js","async":true,"nonce":"$undefined"}],["$","script","script-7",{"src":"/_next/static/chunks/052khci2jbxel.js","async":true,"nonce":"$undefined"}],["$","script","script-8",{"src":"/_next/static/chunks/3fuakxesa5sfw.js","async":true,"nonce":"$undefined"}],["$","script","script-9",{"src":"/_next/static/chunks/34kutq8p1wnfe.js","async":true,"nonce":"$undefined"}],["$","script","script-10",{"src":"/_next/static/chunks/13e0htpydajrc.js","async":true,"nonce":"$undefined"}]],["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]]}],{},null,false,null]},null,false,"$a"]},null,false,"$a"]},null,false,null],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$8",null,{"name":"Next.Metadata","children":"$Le"}]}]}],"$Lf"]}],false]],"m":"$undefined","G":["$10",["$L11","$L12","$L13"]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"MshCBksLdfoZmpOcb96Z-"}
+a:C
+f:["$","meta",null,{"name":"next-size-adjust","content":""}]
+11:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/16tqri1r-3qox.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+12:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1pfs1k4fn3vox.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+13:["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/04uno_r_5_x4n.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+14:I[768456,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js","/_next/static/chunks/3azp_iy_fx0ej.js","/_next/static/chunks/3_1pfg1675we5.js","/_next/static/chunks/3b-j35phbz363.js","/_next/static/chunks/2v6dx3y3pgbg2.js","/_next/static/chunks/3znghnjm2oz_l.js","/_next/static/chunks/3458ylrm-tu9f.js","/_next/static/chunks/1h9znjrekhrnu.js","/_next/static/chunks/052khci2jbxel.js","/_next/static/chunks/3fuakxesa5sfw.js","/_next/static/chunks/34kutq8p1wnfe.js","/_next/static/chunks/13e0htpydajrc.js"],"DocsLayout"]
+6:["$","$L14",null,{"title":"Animated Grid","heading":"Animated Grid","icon":"components","groups":[{"id":"buttons","title":"Buttons","items":[{"name":"background-fill-button","title":"Background Fill Button","isNew":true},{"name":"circle-fill-button","title":"Circle Fill Button","isNew":true},{"name":"curve-fill-button","title":"Curve Fill Button","isNew":true},{"name":"animated-icon-button","title":"Animated Icon Button","isNew":true},{"name":"magnetic-button","title":"Magnetic Button","isNew":true},{"name":"rainbow-button","title":"Rainbow Button","isNew":true},{"name":"text-underline","title":"Text Underline","isNew":true},{"name":"button","title":"Button","isNew":"$undefined"},{"name":"icon-button","title":"Icon Button","isNew":"$undefined"},{"name":"link-button","title":"Link Button","isNew":"$undefined"},{"name":"button-group","title":"Button Group","isNew":"$undefined"},{"name":"close-button","title":"Close Button","isNew":"$undefined"},{"name":"social-button","title":"Social Button","isNew":"$undefined"}]},{"id":"forms","title":"Forms & inputs","items":[{"name":"gooey-filter-chips","title":"Gooey Filter Chips","isNew":true},{"name":"multi-step-form","title":"Multi-Step Form","isNew":true},{"name":"morphing-select","title":"Morphing Select","isNew":true},{"name":"input","title":"Input","isNew":"$undefined"},{"name":"input-otp","title":"Input OTP","isNew":"$undefined"},{"name":"checkbox","title":"Checkbox","isNew":"$undefined"},{"name":"radio","title":"Radio","isNew":"$undefined"},{"name":"switch","title":"Switch","isNew":"$undefined"},{"name":"select","title":"Select","isNew":"$undefined"},{"name":"slider","title":"Slider","isNew":"$undefined"},{"name":"file-upload","title":"File Upload","isNew":"$undefined"},{"name":"auth-card","title":"Auth Card","isNew":"$undefined"}]},{"id":"navigation","title":"Navigation","items":[{"name":"morphing-pill-menu","title":"Morphing Pill Menu","isNew":true},{"name":"gooey-menu","title":"Gooey Menu","isNew":true},{"name":"mega-menu","title":"Mega Menu","isNew":true},{"name":"fullscreen-slide-menu","title":"Fullscreen Slide Menu","isNew":true},{"name":"hide-header","title":"Hide Header","isNew":true},{"name":"custom-cursor","title":"Custom Cursor","isNew":true},{"name":"morphing-island","title":"Morphing Island","isNew":true},{"name":"morphing-tabs","title":"Morphing Tabs","isNew":true},{"name":"multi-level-drawer-menu","title":"Multi-Level Drawer Menu","isNew":true},{"name":"dropdown","title":"Dropdown","isNew":"$undefined"},{"name":"tabs","title":"Tabs","isNew":"$undefined"},{"name":"segmented-control","title":"Segmented Control","isNew":"$undefined"},{"name":"breadcrumb","title":"Breadcrumb","isNew":"$undefined"},{"name":"pagination","title":"Pagination","isNew":"$undefined"},{"name":"sidebar","title":"Sidebar","isNew":"$undefined"}]},{"id":"feedback","title":"Feedback & status","items":[{"name":"badge","title":"Badge","isNew":"$undefined"},{"name":"chip","title":"Chip","isNew":"$undefined"},{"name":"status-dot","title":"Status Dot","isNew":"$undefined"},{"name":"announcement","title":"Announcement","isNew":"$undefined"},{"name":"notification","title":"Notification","isNew":"$undefined"},{"name":"theme-toggle","title":"Theme Toggle","isNew":"$undefined"},{"name":"notification-center","title":"Notification Center","isNew":"$undefined"}]},{"id":"overlays","title":"Overlays & disclosures","items":[{"name":"morphing-accordion","title":"Morphing Accordion","isNew":true},{"name":"detail-drawer","title":"Detail Drawer","isNew":true},{"name":"animated-tooltip","title":"Animated Tooltip","isNew":true},{"name":"morphing-dialog","title":"Morphing Dialog","isNew":true},{"name":"morphing-tooltip","title":"Morphing Tooltip","isNew":true},{"name":"animated-accordion","title":"Animated Accordion","isNew":true},{"name":"feature-dialog","title":"Feature Dialog","isNew":true},{"name":"tooltip","title":"Tooltip","isNew":"$undefined"},{"name":"settings-modal","title":"Settings Modal","isNew":"$undefined"}]},{"id":"typography","title":"Text & typography","items":[{"name":"text-on-path","title":"Text On Path","isNew":true},{"name":"text-fill-wave","title":"Text Fill Wave","isNew":true},{"name":"velocity-type","title":"Velocity Type","isNew":true},{"name":"typewriter","title":"Typewriter","isNew":true},{"name":"character-appear","title":"Character Appear","isNew":true},{"name":"text-morph","title":"Text Morph","isNew":true},{"name":"text-split-zoom","title":"Text Split Zoom","isNew":true},{"name":"text-scramble","title":"Text Scramble","isNew":true},{"name":"rectangle-text-reveal","title":"Rectangle Text Reveal","isNew":true},{"name":"popping-text","title":"Popping Text","isNew":true},{"name":"folding-text","title":"Folding Text","isNew":true},{"name":"cinematic-text","title":"Cinematic Text","isNew":true},{"name":"text-shimmer-wave","title":"Text Shimmer Wave","isNew":true},{"name":"text-reveal","title":"Text Reveal","isNew":true},{"name":"dual-scramble","title":"Dual Scramble","isNew":true},{"name":"typography","title":"Typography","isNew":"$undefined"},{"name":"kbd","title":"Kbd","isNew":"$undefined"}]},{"id":"icons","title":"Icons & identity","items":[{"name":"chevrons","title":"Chevrons","isNew":"$undefined"},{"name":"logo","title":"Logo","isNew":"$undefined"},{"name":"avatar","title":"Avatar","isNew":"$undefined"}]},{"id":"layout","title":"Layout & structure","items":[{"name":"grid-chapters","title":"Grid Chapters","isNew":true},{"name":"network-globe","title":"Network Globe","isNew":true},{"name":"dock-footer","title":"Dock Footer","isNew":true},{"name":"flip-filter","title":"Flip Filter","isNew":true},{"name":"capsule-hero","title":"Capsule Hero","isNew":true},{"name":"wipe-slider","title":"Wipe Slider","isNew":true},{"name":"step-wipe","title":"Step Wipe","isNew":true},{"name":"gradient-footer","title":"Gradient Footer","isNew":true},{"name":"testimonial-globe","title":"Testimonial Globe","isNew":true},{"name":"drift-gallery","title":"Drift Gallery","isNew":true},{"name":"divider","title":"Divider","isNew":"$undefined"},{"name":"app-shell","title":"App Shell","isNew":"$undefined"}]},{"id":"data","title":"Data & charts","items":[{"name":"progress","title":"Progress","isNew":true},{"name":"counter","title":"Counter","isNew":true},{"name":"combo-chart-card","title":"Combo Chart","isNew":true},{"name":"contributions-card","title":"Contributions","isNew":true},{"name":"earnings-chart-card","title":"Earnings Chart","isNew":true},{"name":"funnel-chart-card","title":"Funnel Chart","isNew":true},{"name":"heatmap-chart-card","title":"Heatmap Chart","isNew":true},{"name":"most-active-days-card","title":"Most Active Days","isNew":true},{"name":"radar-chart-card","title":"Radar Chart","isNew":true},{"name":"radial-chart-card","title":"Radial Chart","isNew":true},{"name":"sankey-chart-card","title":"Sankey Chart","isNew":true},{"name":"scatter-chart-card","title":"Scatter Chart","isNew":true},{"name":"sleep-score-card","title":"Sleep Score","isNew":true},{"name":"stage-bars-card","title":"Stage Bars","isNew":true},{"name":"steps-card","title":"Steps Chart","isNew":true},{"name":"table","title":"Table","isNew":"$undefined"},{"name":"stat-cards","title":"Stat Cards","isNew":"$undefined"},{"name":"data-table","title":"Data Table","isNew":"$undefined"},{"name":"area-chart-card","title":"Area Chart","isNew":true},{"name":"line-chart-card","title":"Line Chart","isNew":true},{"name":"bar-list-card","title":"Bar List","isNew":true},{"name":"activity-rings-card","title":"Activity Rings","isNew":true},{"name":"chart-card","title":"Chart Card","isNew":true},{"name":"revenue-chart-card","title":"Revenue Chart","isNew":"$undefined"},{"name":"orders-chart-card","title":"Orders Chart","isNew":"$undefined"},{"name":"important-alerts-card","title":"Important Alerts","isNew":"$undefined"},{"name":"patient-info-card","title":"Patient Info","isNew":"$undefined"}]},{"id":"media","title":"Images & media","items":[{"name":"mesh-gradient","title":"Mesh Gradient","isNew":true},{"name":"dithering","title":"Dithering","isNew":true},{"name":"image-glitch","title":"Image Glitch","isNew":true},{"name":"gooey-hover-reveal","title":"Gooey Hover Reveal","isNew":true},{"name":"dither-cursor-trail","title":"Dither Cursor Trail","isNew":true},{"name":"image-dissolve-scroll","title":"Image Dissolve Scroll","isNew":true},{"name":"scatter-cluster","title":"Scatter Cluster","isNew":true},{"name":"multi-flip","title":"Multi Flip","isNew":true},{"name":"velocity-clip","title":"Velocity Clip","isNew":true},{"name":"svg-draw-path","title":"SVG Draw Path","isNew":true},{"name":"parallax","title":"Parallax","isNew":true},{"name":"mask-reveal","title":"Mask Reveal","isNew":true},{"name":"flip-zone","title":"Flip Zone","isNew":true},{"name":"element-reveal","title":"Element Reveal","isNew":true},{"name":"background-color","title":"Background Color","isNew":true},{"name":"animated-grid","title":"Animated Grid","isNew":true},{"name":"random-rotate","title":"Random Rotate","isNew":true},{"name":"photo-stack-gallery","title":"Photo Stack Gallery","isNew":true},{"name":"spiral-gallery","title":"Spiral Gallery","isNew":true},{"name":"lens-rail","title":"Lens Rail","isNew":true},{"name":"expanding-strip","title":"Expanding Strip","isNew":true},{"name":"index-wipe","title":"Index Wipe","isNew":true},{"name":"card-fan","title":"Card Fan","isNew":true},{"name":"radial-gallery","title":"Radial Gallery","isNew":true},{"name":"circular-slider","title":"Circular Slider","isNew":true},{"name":"infinite-parallax-slider","title":"Infinite Parallax Slider","isNew":true},{"name":"image-follow-list","title":"Image Follow List","isNew":true},{"name":"hoverable-list","title":"Hoverable List","isNew":true},{"name":"infinite-draggable-grid","title":"Infinite Draggable Grid","isNew":true},{"name":"infinite-marquee","title":"Infinite Marquee","isNew":true},{"name":"image-trail","title":"Image Trail","isNew":true},{"name":"3d-card-flip","title":"3D Card Flip","isNew":true},{"name":"image-fly-in","title":"Image Fly-In","isNew":true},{"name":"scale-slider","title":"Scale Slider","isNew":true},{"name":"curtain-slider","title":"Curtain Slider","isNew":true},{"name":"ascii-overlay","title":"ASCII Overlay","isNew":true},{"name":"carousel","title":"Carousel","isNew":"$undefined"}]},{"id":"scheduling","title":"Dates & scheduling","items":[{"name":"calendar","title":"Calendar","isNew":true},{"name":"date-picker","title":"Date Picker","isNew":"$undefined"},{"name":"date-range-picker","title":"Date Range Picker","isNew":"$undefined"},{"name":"meeting-scheduler","title":"Meeting Scheduler","isNew":"$undefined"}]},{"id":"ai","title":"AI & agents","items":[{"name":"ai-profile","title":"AI Profile","isNew":true},{"name":"ai-chat","title":"AI Chat","isNew":true},{"name":"ai-image-generation","title":"AI Image Generation","isNew":true},{"name":"agent-progress","title":"Agent Progress","isNew":true},{"name":"composer","title":"Composer","isNew":true},{"name":"task-list","title":"Task List","isNew":true},{"name":"web-search","title":"Web Search","isNew":true},{"name":"agent-limits-card","title":"Agent Limits","isNew":true},{"name":"agent-thinking","title":"Agent Thinking","isNew":"$undefined"},{"name":"composer-loader","title":"Composer Loader","isNew":"$undefined"},{"name":"agent-log","title":"Agent Log","isNew":"$undefined"},{"name":"agent-chat","title":"Agent Chat","isNew":"$undefined"}]},{"id":"pricing","title":"Pricing & billing","items":[{"name":"animated-pricing","title":"Animated Pricing","isNew":true}]},{"id":"screens","title":"Complete screens","items":[{"name":"home-dashboard","title":"Home Dashboard","isNew":true},{"name":"finance-dashboard","title":"Finance Dashboard","isNew":true},{"name":"marketing-dashboard","title":"Marketing Dashboard","isNew":true},{"name":"hr-management","title":"HR Management","isNew":true},{"name":"medical-profile","title":"Medical Profile","isNew":true}]},{"id":"foundations","title":"Design foundations","items":[{"name":"tokens","title":"Design tokens","isNew":"$undefined"}]},{"id":"utilities","title":"Hooks & utilities","items":[{"name":"cx","title":"cx","isNew":"$undefined"},{"name":"use-count-up","title":"useCountUp","isNew":"$undefined"},{"name":"use-dismiss-on-outside-press","title":"useDismissOnOutsidePress","isNew":"$undefined"}]}],"description":"Image columns advance at different rates during scrolling, producing a multi-column parallax composition with selectable motion variations","columnClassName":"$undefined","detail":true,"children":"$L15"}]
+16:I[107183,["/_next/static/chunks/37yss_vchit64.js","/_next/static/chunks/2votv6uvyrruo.js","/_next/static/chunks/3azp_iy_fx0ej.js","/_next/static/chunks/3_1pfg1675we5.js","/_next/static/chunks/3b-j35phbz363.js","/_next/static/chunks/2v6dx3y3pgbg2.js","/_next/static/chunks/3znghnjm2oz_l.js","/_next/static/chunks/3458ylrm-tu9f.js","/_next/static/chunks/1h9znjrekhrnu.js","/_next/static/chunks/052khci2jbxel.js","/_next/static/chunks/3fuakxesa5sfw.js","/_next/static/chunks/34kutq8p1wnfe.js","/_next/static/chunks/13e0htpydajrc.js"],"ComponentPage"]
+17:Ta01,"use client";
+import { useRef } from "react";
+import {
+  useScrollMotion,
+  scrollStage,
+  type ScrollMotionProps,
+  type ScrollItem,
+} from "./scroll-shared";
+export interface AnimatedGridProps extends ScrollMotionProps {
+  items: readonly ScrollItem[];
+  columns?: number;
+  gap?: number;
+  distance?: number;
+  variant?: "alternating" | "wave" | "fan";
+  aspectRatio?: number;
+}
+export function AnimatedGrid({
+  items,
+  columns = 5,
+  gap = 14,
+  distance = 160,
+  variant = "alternating",
+  aspectRatio = 0.75,
+  ...props
+}: AnimatedGridProps) {
+  const root = useRef<HTMLDivElement>(null),
+    count = Math.max(1, Math.min(12, Math.floor(columns))),
+    groups = Array.from({ length: count }, (_, i) => items.filter((_, j) => j % count === i));
+  useScrollMotion(
+    root,
+    props,
+    ({ progress: p, reduced, width }) => {
+      const cols = root.current!.querySelectorAll<HTMLElement>(":scope > [data-scroll-column]");
+      root.current!.style.setProperty("--scroll-grid-gap", `${Math.min(gap, width * 0.04)}px`);
+      cols.forEach((el, i) => {
+        const speed =
+            variant === "wave" ? Math.cos((i / (count - 1 || 1)) * Math.PI * 2) : i % 2 ? 1 : -1,
+          y = reduced ? 0 : (p - 0.5) * distance * speed,
+          angle = reduced || variant !== "fan" ? 0 : (i - (count - 1) / 2) * (1 - p) * 8;
+        el.style.transform = `translateY(${y}px) rotate(${angle}deg)`;
+      });
+    },
+    `${count}:${gap}:${distance}:${variant}:${items.map((x) => x.id).join(",")}`,
+  );
+  return (
+    <div
+      ref={root}
+      data-scroll-animation="animated-grid"
+      className={props.className}
+      style={{
+        ...scrollStage,
+        display: "grid",
+        gridTemplateColumns: `repeat(${count},minmax(0,1fr))`,
+        alignItems: "center",
+        gap,
+        ...props.style,
+      }}
+    >
+      {groups.map((group, i) => (
+        <div
+          key={i}
+          data-scroll-column={i}
+          style={{
+            display: "grid",
+            gap: "var(--scroll-grid-gap,14px)",
+            transformOrigin: "50% 100%",
+          }}
+        >
+          {group.map((item) => (
+            <div
+              data-scroll-unit={item.id}
+              key={item.id}
+              className={item.className}
+              style={{
+                aspectRatio,
+                minWidth: 0,
+                borderRadius: 7,
+                overflow: "hidden",
+                ...item.style,
+              }}
+            >
+              {item.content}
+            </div>
+          ))}
+        </div>
+      ))}
+    </div>
+  );
+}
+18:Ta16,// @zeus-internal
+export const scrollClamp = (n: number) => (Number.isFinite(n) ? Math.max(0, Math.min(1, n)) : 0);
+export const scrollLerp = (a: number, b: number, p: number) => a + (b - a) * scrollClamp(p);
+export const scrollRange = (value: number, start: number, end: number) =>
+  start === end ? Number(value >= end) : scrollClamp((value - start) / (end - start));
+export const scrollEase = (p: number) => {
+  const q = scrollClamp(p);
+  return q * q * (3 - 2 * q);
+};
+export const scrollStagger = (p: number, index: number, count: number, spread = 0.4) => {
+  const s = Math.min(0.95, Math.max(0, spread));
+  return scrollClamp((p - (index / Math.max(1, count - 1)) * s) / (1 - s));
+};
+export const scrollRandom = (index: number, seed = 1) => {
+  const x = Math.sin((index + 1) * 127.1 + seed * 311.7) * 43758.5453;
+  return x - Math.floor(x);
+};
+export interface ScrollFrame {
+  x: number;
+  y: number;
+  width: number;
+  height: number;
+  rotation?: number;
+  radius?: number;
+}
+export function scrollFrame(
+  frames: readonly ScrollFrame[],
+  progress: number,
+): Required<ScrollFrame> {
+  const p = scrollClamp(progress) * Math.max(0, frames.length - 1),
+    index = Math.floor(p);
+  const a = frames[index] ?? { x: 0, y: 0, width: 100, height: 100 },
+    b = frames[Math.min(index + 1, frames.length - 1)] ?? a;
+  return {
+    x: scrollLerp(a.x, b.x, p - index),
+    y: scrollLerp(a.y, b.y, p - index),
+    width: scrollLerp(a.width, b.width, p - index),
+    height: scrollLerp(a.height, b.height, p - index),
+    rotation: scrollLerp(a.rotation ?? 0, b.rotation ?? 0, p - index),
+    radius: scrollLerp(a.radius ?? 0, b.radius ?? 0, p - index),
+  };
+}
+/** Color stops accept CSS hex (3/6 digits) or rgb/rgba. Unknown formats hold until the next stop. */
+export function scrollMixColor(a: string, b: string, p: number) {
+  const parse = (s: string): number[] | null => {
+    const hex = s.replace(/^#/, "");
+    if (/^[0-9a-f]{3}$/i.test(hex)) return [...hex].map((x) => parseInt(x + x, 16));
+    if (/^[0-9a-f]{6}$/i.test(hex)) return [0, 2, 4].map((i) => parseInt(hex.slice(i, i + 2), 16));
+    const parts = s
+      .match(/^rgba?\(([^)]+)\)$/)?.[1]
+      ?.match(/[\d.]+/g)
+      ?.map(Number);
+    return parts && parts.length >= 3 ? parts : null;
+  };
+  const ca = parse(a),
+    cb = parse(b);
+  if (!ca || !cb) return p < 1 ? a : b;
+  const channels = [0, 1, 2].map((i) => Math.round(scrollLerp(ca[i]!, cb[i]!, p))).join(", ");
+  return ca.length > 3 || cb.length > 3
+    ? `rgba(${channels}, ${scrollLerp(ca[3] ?? 1, cb[3] ?? 1, p)})`
+    : `rgb(${channels})`;
+}
+19:T236e,// @zeus-internal
+"use client";
+import { useEffect, useRef, type CSSProperties, type ReactNode, type RefObject } from "react";
+import { scrollClamp, scrollRange } from "./scroll-math";
+export interface ScrollMotionProps {
+  className?: string;
+  style?: CSSProperties;
+  /** Override native scroll with normalized 0–1 progress. */
+  progress?: number;
+  /** Omit to discover the nearest scrolling ancestor, then the document. */
+  scrollContainer?: RefObject<HTMLElement | null>;
+  /** Track this element's passage through the viewport instead of the animated element. */
+  scrollTarget?: RefObject<HTMLElement | null>;
+  /** Optional absolute scroll offset range in pixels. */
+  range?: readonly [number, number];
+  /** Viewport fraction at which the target's top starts / bottom ends its passage. */
+  start?: number;
+  end?: number;
+  /** Response time in seconds; zero follows scroll immediately. */
+  scrub?: number;
+  onProgress?: (progress: number) => void;
+}
+export interface ScrollItem {
+  id: string;
+  content: ReactNode;
+  className?: string;
+  style?: CSSProperties;
+}
+export interface ScrollMetrics {
+  progress: number;
+  raw: number;
+  velocity: number;
+  offset: number;
+  reduced: boolean;
+  width: number;
+  height: number;
+}
+export interface ScrollEntranceOptions {
+  trigger?: "scroll" | "enter";
+  duration?: number;
+  delay?: number;
+  once?: boolean;
+  replayKey?: string | number;
+}
+export function scrollParent(element: HTMLElement): HTMLElement | null {
+  let p = element.parentElement;
+  while (p) {
+    if (/(auto|scroll)/.test(getComputedStyle(p).overflowY) && p.scrollHeight > p.clientHeight)
+      return p;
+    p = p.parentElement;
+  }
+  return null;
+}
+/** Only the owning instance is scheduled, and frames stop once progress and velocity settle. */
+export function useScrollMotion<T extends HTMLElement>(
+  root: RefObject<T | null>,
+  options: ScrollMotionProps & ScrollEntranceOptions,
+  draw: (metrics: ScrollMetrics) => void,
+  key = "",
+  preserveProgress = false,
+  pageProgress = false,
+) {
+  const latest = useRef({ options, draw });
+  latest.current = { options, draw };
+  const refresh = useRef<(() => void) | null>(null);
+  const {
+    scrollContainer,
+    scrollTarget,
+    range,
+    start = 0.9,
+    end = 0.1,
+    scrub = 0.12,
+    trigger = "scroll",
+    duration = 1.2,
+    delay = 0,
+    once = true,
+    replayKey,
+  } = options;
+  useEffect(() => {
+    const el = root.current;
+    if (!el) return;
+    const container = scrollContainer?.current ?? scrollParent(el),
+      target = scrollTarget?.current ?? el;
+    const media = matchMedia("(prefers-reduced-motion: reduce)");
+    let frame = 0,
+      disposed = false,
+      visible = true,
+      previousTime = 0,
+      changed = performance.now(),
+      velocity = 0,
+      p = 0,
+      raw = 0,
+      offset = container?.scrollTop ?? window.scrollY,
+      width = el.clientWidth,
+      height = el.clientHeight,
+      entered = false,
+      entryTime = 0,
+      entryDone = false;
+    // A replay detaches refs before passive effect cleanup; queued observers can also outlive cleanup.
+    const ownsRoot = () => !disposed && root.current === el;
+    const readOffset = () => container?.scrollTop ?? window.scrollY;
+    const render = () => {
+      if (!ownsRoot()) return;
+      const reduced = media.matches,
+        value = reduced && !preserveProgress ? 1 : scrollClamp(p);
+      latest.current.draw({
+        progress: value,
+        raw,
+        velocity: reduced ? 0 : velocity,
+        offset,
+        reduced,
+        width,
+        height,
+      });
+      el.dataset.progress = String(value);
+      el.dataset.velocity = String(reduced ? 0 : velocity);
+      el.dataset.reduced = String(reduced);
+      latest.current.options.onProgress?.(value);
+    };
+    const tick = (now: number) => {
+      frame = 0;
+      if (!ownsRoot() || document.hidden || !visible) return;
+      const dt = previousTime ? Math.min(64, now - previousTime) : 16;
+      previousTime = now;
+      if (trigger === "enter" && latest.current.options.progress === undefined && entered) {
+        raw = scrollClamp((now - entryTime - delay * 1000) / Math.max(1, duration * 1000));
+        entryDone = raw === 1;
+      }
+      const response =
+        media.matches || scrub <= 0 ? 1 : 1 - Math.exp(-dt / Math.max(1, scrub * 1000));
+      p += (raw - p) * response;
+      if (Math.abs(raw - p) < 0.0001) p = raw;
+      if (now - changed > 50) velocity *= Math.exp(-dt / 95);
+      if (Math.abs(velocity) < 0.1) velocity = 0;
+      render();
+      if (!ownsRoot() || media.matches) return;
+      if (
+        Math.abs(raw - p) > 0.0001 ||
+        velocity !== 0 ||
+        (trigger === "enter" && entered && !entryDone)
+      )
+        frame = requestAnimationFrame(tick);
+    };
+    const schedule = () => {
+      if (!frame && ownsRoot() && !document.hidden && visible && !media.matches) {
+        previousTime = 0;
+        frame = requestAnimationFrame(tick);
+      }
+    };
+    const measure = () => {
+      if (!ownsRoot()) return;
+      width = el.clientWidth;
+      height = el.clientHeight;
+      const next = readOffset(),
+        now = performance.now(),
+        delta = next - offset;
+      if (delta !== 0) {
+        velocity = Math.max(-12000, Math.min(12000, (delta / Math.max(16, now - changed)) * 1000));
+        changed = now;
+        offset = next;
+      }
+      const controlled = latest.current.options.progress;
+      if (controlled !== undefined) raw = scrollClamp(controlled);
+      else if (trigger === "scroll") {
+        if (range) raw = scrollRange(offset, range[0], range[1]);
+        else if ((scrollContainer?.current && !scrollTarget?.current) || pageProgress) {
+          const max = container
+            ? container.scrollHeight - container.clientHeight
+            : document.documentElement.scrollHeight - window.innerHeight;
+          raw = scrollRange(offset, 0, Math.max(1, max));
+        } else {
+          const rect = target.getBoundingClientRect(),
+            bounds = container?.getBoundingClientRect(),
+            vh = container?.clientHeight ?? innerHeight;
+          raw = scrollRange(
+            vh * start - (rect.top - (bounds?.top ?? 0)),
+            0,
+            rect.height + vh * (start - end),
+          );
+        }
+      }
+      if (media.matches || scrub <= 0 || controlled !== undefined) p = raw;
+      render();
+      schedule();
+    };
+    refresh.current = measure;
+    const observer =
+      typeof IntersectionObserver !== "undefined"
+        ? new IntersectionObserver(
+            (entries) => {
+              if (!ownsRoot()) return;
+              visible = entries[0]?.isIntersecting ?? true;
+              if (trigger === "enter" && visible && (!entered || (!once && !entryDone))) {
+                entered = true;
+                entryTime = performance.now();
+              }
+              if (!visible) {
+                cancelAnimationFrame(frame);
+                frame = 0;
+                if (!once) {
+                  entered = false;
+                  entryDone = false;
+                  raw = 0;
+                  p = 0;
+                }
+              } else measure();
+            },
+            { root: container, threshold: 0 },
+          )
+        : null;
+    observer?.observe(el);
+    if (!observer && trigger === "enter") {
+      entered = true;
+      entryTime = performance.now();
+    }
+    const resize = typeof ResizeObserver !== "undefined" ? new ResizeObserver(measure) : null;
+    resize?.observe(el);
+    if (container) resize?.observe(container);
+    if (target !== el) resize?.observe(target);
+    const visibility = () => {
+      if (document.hidden) {
+        cancelAnimationFrame(frame);
+        frame = 0;
+        velocity = 0;
+      } else measure();
+    };
+    (container ?? window).addEventListener("scroll", measure, { passive: true });
+    window.addEventListener("resize", measure);
+    media.addEventListener("change", measure);
+    document.addEventListener("visibilitychange", visibility);
+    measure();
+    return () => {
+      disposed = true;
+      refresh.current = null;
+      cancelAnimationFrame(frame);
+      observer?.disconnect();
+      resize?.disconnect();
+      (container ?? window).removeEventListener("scroll", measure);
+      window.removeEventListener("resize", measure);
+      media.removeEventListener("change", measure);
+      document.removeEventListener("visibilitychange", visibility);
+    };
+  }, [
+    root,
+    scrollContainer,
+    scrollTarget,
+    range?.[0],
+    range?.[1],
+    start,
+    end,
+    scrub,
+    trigger,
+    duration,
+    delay,
+    once,
+    replayKey,
+    key,
+    preserveProgress,
+    pageProgress,
+  ]);
+  useEffect(() => {
+    refresh.current?.();
+  }, [options.progress]);
+}
+export const scrollUnits = (el: HTMLElement) =>
+  Array.from(el.querySelectorAll<HTMLElement>("[data-scroll-unit]")).filter(
+    (unit) => unit.closest("[data-scroll-animation]") === el,
+  );
+export const scrollStage: CSSProperties = {
+  position: "relative",
+  width: "100%",
+  height: "100%",
+  minHeight: 240,
+  overflow: "hidden",
+};
+1a:T6bf,"use client";
+import {useRef} from "react";
+import { AnimatedGrid } from "@/components/application/animations/expanded/scroll/animated-grid";
+
+// Install the component assets or replace these image URLs with your own.
+const imageStyle = { width: "100%", height: "100%", objectFit: "cover", display: "block" } as const;
+const photos = [
+  [
+    "/assets/annnimate/hero_run_02.jpg",
+    "Runner in motion"
+  ],
+  [
+    "/assets/annnimate/action_cyclist-climb_02.jpg",
+    "Cyclist climbing a hill"
+  ],
+  [
+    "/assets/annnimate/action_leap_01.jpg",
+    "Athlete in midair"
+  ],
+  [
+    "/assets/annnimate/hero_profile_02.jpg",
+    "Athlete portrait"
+  ],
+  [
+    "/assets/annnimate/hero_profile_03.jpg",
+    "Training portrait"
+  ],
+  [
+    "/assets/annnimate/running-hero-female-1.avif",
+    "Runner on the track"
+  ]
+];
+const items = photos.map(([src, alt], index) => ({ id: String(index), content: <img src={src} alt={alt} style={imageStyle} /> }));
+
+export default function Example(){
+ const scrollContainer=useRef<HTMLDivElement>(null);
+ return <div ref={scrollContainer} tabIndex={0} role="region" aria-label="Scroll demonstration" style={{height:600,overflowY:"auto",overscrollBehavior:"contain",background:"#efefed",color:"#151515"}}>
+  <div style={{height:"320%",position:"relative"}}>
+   <div style={{position:"sticky",top:0,height:600,overflow:"hidden"}}>
+        <AnimatedGrid
+          scrollContainer={scrollContainer}
+          scrub={0.12}
+          columns={5}
+          gap={14}
+          distance={160}
+          variant={"alternating"}
+          aspectRatio={0.75}
+          items={Array.from({length: 15}, (_, i) => ({...items[i % items.length], id: `grid-${i}`}))}
+        />
+   </div>
+  </div>
+ </div>;
+}15:["$","$L16",null,{"item":{"$schema":"https://myzeusui.com/schema/registry-item.json","name":"animated-grid","title":"Animated Grid","description":"Image columns advance at different rates during scrolling, producing a multi-column parallax composition with selectable motion variations","category":"animations","family":"media","kind":"animation","designSystem":null,"foundationDependencies":[],"iconLibraries":[],"tags":["animation","annnimate","scroll"],"status":"beta","tier":"free","isNew":true,"dependencies":[],"registryDependencies":[],"files":[{"path":"application/animations/expanded/scroll/animated-grid.tsx","target":"components/application/animations/expanded/scroll/animated-grid.tsx","type":"component","content":"$17"},{"path":"application/animations/expanded/scroll/scroll-math.ts","target":"components/application/animations/expanded/scroll/scroll-math.ts","type":"component","content":"$18"},{"path":"application/animations/expanded/scroll/scroll-shared.tsx","target":"components/application/animations/expanded/scroll/scroll-shared.tsx","type":"component","content":"$19"},{"path":"public/assets/annnimate/action_cyclist-climb_02.jpg","target":"public/assets/annnimate/action_cyclist-climb_02.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/action_leap_01.jpg","target":"public/assets/annnimate/action_leap_01.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/hero_profile_02.jpg","target":"public/assets/annnimate/hero_profile_02.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/hero_profile_03.jpg","target":"public/assets/annnimate/hero_profile_03.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/hero_run_02.jpg","target":"public/assets/annnimate/hero_run_02.jpg","type":"asset","encoding":"base64"},{"path":"public/assets/annnimate/running-hero-female-1.avif","target":"public/assets/annnimate/running-hero-female-1.avif","type":"asset","encoding":"base64"}],"hash":"28021b0fcec7"},"demoSource":"$1a","previous":{"name":"background-color","title":"Background Color"},"next":{"name":"random-rotate","title":"Random Rotate"},"origin":{"name":"animated-grid","library":"annnimate","tier":"pro","reference":"https://annnimate.com/animations/animated-grid","libraryName":"Annnimate"}}]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+e:[["$","title","0",{"children":"Animated Grid — Zeus UI"}],["$","meta","1",{"name":"description","content":"Image columns advance at different rates during scrolling, producing a multi-column parallax composition with selectable motion variations"}],["$","meta","2",{"name":"keywords","content":"animation,annnimate,scroll"}]]
