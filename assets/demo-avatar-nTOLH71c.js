@@ -1,0 +1,1 @@
+const a=["/assets/artemis/a5badc559b706aa529b9.svg","/assets/artemis/327d06eee6b741023403.svg","/assets/artemis/83b960a1aaa67c851088.svg"];function c(s){const e=Array.from(s).reduce((t,r)=>t+r.charCodeAt(0),0);return a[e%a.length]}export{c as a};

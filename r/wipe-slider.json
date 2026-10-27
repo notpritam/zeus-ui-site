@@ -32,20 +32,20 @@
   "meta": {
     "assets": [
       {
-        "url": "https://myzeusui.com/assets/annnimate/action_cyclist-climb_02.jpg",
-        "target": "public/assets/annnimate/action_cyclist-climb_02.jpg"
+        "url": "https://myzeusui.com/assets/zeus/action_cyclist-climb_02.jpg",
+        "target": "public/assets/zeus/action_cyclist-climb_02.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/action_leap_01.jpg",
-        "target": "public/assets/annnimate/action_leap_01.jpg"
+        "url": "https://myzeusui.com/assets/zeus/action_leap_01.jpg",
+        "target": "public/assets/zeus/action_leap_01.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/hero_profile_03.jpg",
-        "target": "public/assets/annnimate/hero_profile_03.jpg"
+        "url": "https://myzeusui.com/assets/zeus/hero_profile_03.jpg",
+        "target": "public/assets/zeus/hero_profile_03.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/hero_run_02.jpg",
-        "target": "public/assets/annnimate/hero_run_02.jpg"
+        "url": "https://myzeusui.com/assets/zeus/hero_run_02.jpg",
+        "target": "public/assets/zeus/hero_run_02.jpg"
       }
     ]
   },
@@ -57,11 +57,11 @@
   "iconLibraries": [],
   "tags": [
     "animation",
-    "annnimate",
+    "zeus",
     "click"
   ],
   "status": "beta",
   "tier": "free",
   "isNew": true,
-  "hash": "b9a0b2ff5b93"
+  "hash": "6becfb88761f"
 }

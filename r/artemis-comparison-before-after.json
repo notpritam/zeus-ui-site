@@ -1,0 +1,50 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "artemis-comparison-before-after",
+  "type": "registry:block",
+  "title": "Comparison before after",
+  "variants": [
+    {
+      "name": "before-after",
+      "title": "Workflow comparison"
+    }
+  ],
+  "description": "A paired before-and-after workflow with staggered step reveals and a clear outcome for each approach.",
+  "dependencies": [
+    "motion@^12.42.2"
+  ],
+  "registryDependencies": [
+    "https://myzeusui.com/r/artemis-controls.json",
+    "https://myzeusui.com/r/artemis-tokens.json"
+  ],
+  "files": [
+    {
+      "path": "application/artemis/artemis-comparison-before-after.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/artemis-comparison-before-after.tsx",
+      "content": "\"use client\";\nimport { ArtemisScope } from \"./artemis-scope\";\nimport View0 from \"./components/comparison/variants/04-before-after\";\nexport interface ArtemisComparisonBeforeAfterProps { className?: string;  }\nexport function ArtemisComparisonBeforeAfter({ className }: ArtemisComparisonBeforeAfterProps) {return <ArtemisScope className={className}><div className=\"art:flex art:w-full art:min-w-0 art:flex-col art:items-center\"><View0/></div></ArtemisScope>;}\n"
+    },
+    {
+      "path": "application/artemis/components/comparison/variants/04-before-after.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/comparison/variants/04-before-after.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { motion, useReducedMotion, type Transition } from \"motion/react\";\nimport type { ReactNode } from \"react\";\nimport { ARTEMIS_EASE_OUT } from \"../../../lib/ease\";\ntype Step = {\n    title: string;\n    description: string;\n};\ntype Side = {\n    key: \"before\" | \"after\";\n    label: string;\n    title: string;\n    footer: string;\n    icon: ReactNode;\n    marker: ReactNode;\n    steps: readonly Step[];\n};\nconst SVG_PROPS = {\n    xmlns: \"http://www.w3.org/2000/svg\",\n    width: \"24\",\n    height: \"24\",\n    viewBox: \"0 0 24 24\",\n    fill: \"none\",\n    stroke: \"currentColor\",\n    strokeWidth: \"2\",\n    strokeLinecap: \"round\",\n    strokeLinejoin: \"round\",\n    \"aria-hidden\": \"true\",\n} as const;\nconst SIDES: readonly Side[] = [\n    {\n        key: \"before\",\n        label: \"Before\",\n        title: \"The scattered approach\",\n        footer: \"Your team holds everything together.\",\n        icon: (<svg {...SVG_PROPS} className=\"art:lucide art:lucide-layers art:size-5\">\n        <path d=\"M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z\"/>\n        <path d=\"M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12\"/>\n        <path d=\"M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17\"/>\n      </svg>),\n        marker: (<svg {...SVG_PROPS} className=\"art:lucide art:lucide-minus art:size-3\">\n        <path d=\"M5 12h14\"/>\n      </svg>),\n        steps: [\n            { title: \"Requests everywhere\", description: \"Check your inbox, chat, and spreadsheets for the full picture.\" },\n            { title: \"Another handoff\", description: \"Ask around to find out who has time to take it on.\" },\n            { title: \"Chasing an update\", description: \"Send a follow-up just to learn where things stand.\" },\n            { title: \"Rebuild the context\", description: \"Dig through old threads when the same question comes up.\" },\n        ],\n    },\n    {\n        key: \"after\",\n        label: \"After\",\n        title: \"A connected workspace\",\n        footer: \"Your workspace keeps everyone together.\",\n        icon: (<svg {...SVG_PROPS} className=\"art:lucide art:lucide-route art:size-5\">\n        <circle cx=\"6\" cy=\"19\" r=\"3\"/>\n        <path d=\"M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15\"/>\n        <circle cx=\"18\" cy=\"5\" r=\"3\"/>\n      </svg>),\n        marker: (<svg {...SVG_PROPS} className=\"art:lucide art:lucide-check art:size-3\">\n        <path d=\"M20 6 9 17l-5-5\"/>\n      </svg>),\n        steps: [\n            { title: \"One place to start\", description: \"Every request arrives in a shared, organized queue.\" },\n            { title: \"A clear next step\", description: \"Assign an owner and keep the context with the work.\" },\n            { title: \"Progress you can see\", description: \"Follow each task from its first step to the finish.\" },\n            { title: \"Keep what you learn\", description: \"Turn completed work into a useful reference for next time.\" },\n        ],\n    },\n];\nconst CARD_DURATION = 0.4;\nconst CARD_STAGGER = 0.1;\nconst ROW_DURATION = 0.3;\nconst ROW_STAGGER = 0.05;\nconst INSTANT: Transition = { duration: 0 };\nexport default function ComparisonBeforeAfter() {\n    const reduce = useReducedMotion() === true;\n    return (<>\n      <section className=\"art:w-full art:bg-background art:px-4 art:py-20 art:text-foreground art:@min-[640px]/artemis:px-8 art:@min-[640px]/artemis:py-24\">\n        <div className=\"art:mx-auto art:max-w-5xl\">\n          <div className=\"art:max-w-2xl\">\n            <p className=\"art:text-sm art:font-medium art:text-muted-foreground\">\n              {\"A better everyday workflow\"}\n            </p>\n            <h2 className=\"art:mt-4 art:text-balance art:text-4xl art:font-medium art:tracking-tight\">\n              {\"Less chasing. More doing.\"}\n            </h2>\n            <p className=\"art:mt-5 art:max-w-xl art:text-pretty art:text-sm art:leading-6 art:text-muted-foreground art:@min-[640px]/artemis:text-base\">\n              {\"See what changes when your team's work has a place to come together.\"}\n            </p>\n          </div>\n          <div className=\"art:relative art:mt-10 art:grid art:gap-4 art:@min-[768px]/artemis:grid-cols-2 art:@min-[768px]/artemis:gap-8\">\n            {SIDES.map((side, sideIndex) => (<motion.article key={side.key} className=\"art:flex art:flex-col art:rounded-3xl art:border art:border-border art:bg-background art:p-6 art:@min-[640px]/artemis:p-8\" initial={{ opacity: 0, y: 12 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.15 }} transition={reduce ? INSTANT : { duration: CARD_DURATION, ease: ARTEMIS_EASE_OUT, delay: sideIndex * CARD_STAGGER }}>\n                <div className=\"art:mb-7 art:flex art:items-center art:justify-between art:gap-4\">\n                  <span className=\"art:flex art:size-10 art:items-center art:justify-center art:rounded-full art:bg-muted\">\n                    {side.icon}\n                  </span>\n                  <span className=\"art:text-xs art:font-medium art:text-muted-foreground\">\n                    {side.label}\n                  </span>\n                </div>\n                <h3 className=\"art:text-xl art:font-medium\">\n                  {side.title}\n                </h3>\n                <ol className=\"art:my-8 art:flex-1 art:space-y-7\">\n                  {side.steps.map((step, stepIndex) => (<motion.li key={step.title} className=\"art:flex art:gap-3\" initial={{ opacity: 0, x: side.key === \"after\" ? -6 : 0 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true, amount: 0.5 }} transition={reduce ? INSTANT : { duration: ROW_DURATION, ease: ARTEMIS_EASE_OUT, delay: stepIndex * ROW_STAGGER }}>\n                      <span className=\"art:mt-0.5 art:flex art:size-5 art:shrink-0 art:items-center art:justify-center art:rounded-full art:bg-muted art:text-muted-foreground\">\n                        {side.marker}\n                      </span>\n                      <div>\n                        <p className=\"art:text-sm art:font-medium\">\n                          {step.title}\n                        </p>\n                        <p className=\"art:mt-1.5 art:text-sm art:leading-6 art:text-muted-foreground\">\n                          {step.description}\n                        </p>\n                      </div>\n                    </motion.li>))}\n                </ol>\n                <p className=\"art:border-t art:border-border art:pt-5 art:text-sm art:font-medium art:leading-6\">\n                  {side.footer}\n                </p>\n              </motion.article>))}\n            <span aria-hidden=\"true\" className=\"art:pointer-events-none art:absolute art:left-1/2 art:top-16 art:hidden art:size-10 art:-translate-x-1/2 art:items-center art:justify-center art:rounded-full art:border art:border-border art:bg-background art:@min-[768px]/artemis:flex\">\n              <svg {...SVG_PROPS} className=\"art:lucide art:lucide-arrow-right art:size-4\">\n                <path d=\"M5 12h14\"/>\n                <path d=\"m12 5 7 7-7 7\"/>\n              </svg>\n            </span>\n          </div>\n        </div>\n      </section>\n    </>);\n}\n"
+    }
+  ],
+  "category": "blocks",
+  "family": "layout",
+  "kind": "block",
+  "designSystem": "artemis",
+  "foundationDependencies": [
+    "artemis-tokens"
+  ],
+  "iconLibraries": [],
+  "tags": [
+    "artemis",
+    "comparison",
+    "motion"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "526151e44064"
+}

@@ -32,8 +32,8 @@
   "meta": {
     "assets": [
       {
-        "url": "https://myzeusui.com/assets/annnimate/hero_run_02.jpg",
-        "target": "public/assets/annnimate/hero_run_02.jpg"
+        "url": "https://myzeusui.com/assets/zeus/hero_run_02.jpg",
+        "target": "public/assets/zeus/hero_run_02.jpg"
       }
     ]
   },
@@ -45,11 +45,11 @@
   "iconLibraries": [],
   "tags": [
     "animation",
-    "annnimate",
+    "zeus",
     "click"
   ],
   "status": "beta",
   "tier": "free",
   "isNew": true,
-  "hash": "d1e15aae9582"
+  "hash": "2130b9890ed6"
 }

@@ -24,20 +24,20 @@
   "meta": {
     "assets": [
       {
-        "url": "https://myzeusui.com/assets/annnimate/action_cyclist-climb_02.jpg",
-        "target": "public/assets/annnimate/action_cyclist-climb_02.jpg"
+        "url": "https://myzeusui.com/assets/zeus/action_cyclist-climb_02.jpg",
+        "target": "public/assets/zeus/action_cyclist-climb_02.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/product_half-zip_01.jpg",
-        "target": "public/assets/annnimate/product_half-zip_01.jpg"
+        "url": "https://myzeusui.com/assets/zeus/product_half-zip_01.jpg",
+        "target": "public/assets/zeus/product_half-zip_01.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/product_shoe_06.jpg",
-        "target": "public/assets/annnimate/product_shoe_06.jpg"
+        "url": "https://myzeusui.com/assets/zeus/product_shoe_06.jpg",
+        "target": "public/assets/zeus/product_shoe_06.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/silhouette_eyewear-silhouette_01.jpg",
-        "target": "public/assets/annnimate/silhouette_eyewear-silhouette_01.jpg"
+        "url": "https://myzeusui.com/assets/zeus/silhouette_eyewear-silhouette_01.jpg",
+        "target": "public/assets/zeus/silhouette_eyewear-silhouette_01.jpg"
       }
     ]
   },
@@ -49,12 +49,12 @@
   "iconLibraries": [],
   "tags": [
     "animation",
-    "annnimate",
+    "zeus",
     "drag",
     "ambient"
   ],
   "status": "beta",
   "tier": "free",
   "isNew": true,
-  "hash": "1c56ea4fb067"
+  "hash": "f24c67f32f6b"
 }

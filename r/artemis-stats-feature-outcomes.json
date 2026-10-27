@@ -1,0 +1,62 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "artemis-stats-feature-outcomes",
+  "type": "registry:block",
+  "title": "Feature outcome stats",
+  "variants": [
+    {
+      "name": "feature-outcomes",
+      "title": "Feature outcomes"
+    }
+  ],
+  "description": "An atmospheric feature introduction with a restrained theme gradient, animated headline outcomes, and an airy two-column editorial layout.",
+  "dependencies": [
+    "motion@^12.42.2"
+  ],
+  "registryDependencies": [
+    "https://myzeusui.com/r/artemis-controls.json",
+    "https://myzeusui.com/r/artemis-tokens.json"
+  ],
+  "files": [
+    {
+      "path": "application/artemis/artemis-stats-feature-outcomes.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/artemis-stats-feature-outcomes.tsx",
+      "content": "\"use client\";\nimport { ArtemisScope } from \"./artemis-scope\";\nimport View0 from \"./components/stats/variants/02-feature-outcomes\";\nexport interface ArtemisStatsFeatureOutcomesProps { className?: string;  }\nexport function ArtemisStatsFeatureOutcomes({className}:ArtemisStatsFeatureOutcomesProps) {return <ArtemisScope className={className}><div className=\"art:flex art:w-full art:min-w-0 art:flex-col art:items-center\"><View0/></div></ArtemisScope>;}\n"
+    },
+    {
+      "path": "application/artemis/components/stats/variants/02-feature-outcomes.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/stats/variants/02-feature-outcomes.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { motion, useReducedMotion } from \"motion/react\";\nimport { ARTEMIS_EASE_OUT } from \"../../../lib/ease\";\nimport { NumberTicker } from \"./02-feature-outcomes/number-ticker\";\nconst HEADING_VIEWPORT = { once: true, amount: 0.3 } as const;\nconst CARD_VIEWPORT = { once: true, amount: 0.38 } as const;\nconst HEADING_HIDDEN = { opacity: 0, filter: \"blur(8px)\", y: 18 };\nconst CARD_HIDDEN = { opacity: 0, filter: \"blur(8px)\", y: 22 };\nconst SHOWN = { opacity: 1, filter: \"blur(0px)\", y: 0 };\nconst STATS = [\n    {\n        value: \"1.8k\",\n        suffix: \"+\",\n        title: \"Teams launched sooner\",\n        body: \"Reusable workflows turn repeat setup into a focused first-day launch.\",\n    },\n    {\n        value: \"62\",\n        suffix: \" hrs\",\n        title: \"Saved every month\",\n        body: \"Approvals, handoffs, and routine follow-ups keep moving without busywork.\",\n    },\n];\nexport default function StatsFeatureOutcomes() {\n    const reduce = useReducedMotion();\n    return (<>\n      <section className=\"art:relative art:isolate art:w-full art:overflow-hidden art:text-foreground\">\n        <div aria-hidden=\"true\" className=\"art:pointer-events-none art:absolute art:inset-0 art:-z-10\">\n          <div className=\"art:absolute art:-top-32 art:left-[8%] art:size-80 art:rounded-full art:bg-primary/10 art:blur-3xl\"/>\n          <div className=\"art:absolute art:right-[4%] art:-bottom-40 art:size-96 art:rounded-full art:bg-primary/8 art:blur-3xl\"/>\n          <div className=\"art:absolute art:inset-0 art:bg-linear-to-br art:from-muted/45 art:via-background/35 art:to-muted/20\"/>\n        </div>\n        <div className=\"art:mx-auto art:w-full art:max-w-5xl\">\n          <motion.div className=\"art:mx-auto art:max-w-3xl art:text-center\" initial={HEADING_HIDDEN} whileInView={reduce ? undefined : SHOWN} viewport={HEADING_VIEWPORT} transition={{ duration: 0.65, ease: ARTEMIS_EASE_OUT }}>\n            <span className=\"art:mx-auto art:flex art:size-14 art:items-center art:justify-center art:rounded-full art:border art:border-border art:bg-muted art:text-foreground\">\n              <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" className=\"art:lucide art:lucide-wand-sparkles art:size-6\" aria-hidden=\"true\">\n                <path d=\"m21.64 3.64-1.28-1.28a1.21 1.21 0 0 0-1.72 0L2.36 18.64a1.21 1.21 0 0 0 0 1.72l1.28 1.28a1.2 1.2 0 0 0 1.72 0L21.64 5.36a1.2 1.2 0 0 0 0-1.72\"/>\n                <path d=\"m14 7 3 3\"/>\n                <path d=\"M5 6v4\"/>\n                <path d=\"M19 14v4\"/>\n                <path d=\"M10 2v2\"/>\n                <path d=\"M7 8H3\"/>\n                <path d=\"M21 16h-4\"/>\n                <path d=\"M11 3H9\"/>\n              </svg>\n            </span>\n            <p className=\"art:mt-6 art:font-medium art:text-muted-foreground art:text-xs art:uppercase art:tracking-[0.18em]\">\n              {\"Workflow outcomes\"}\n            </p>\n            <h2 className=\"art:mt-4 art:text-balance art:font-medium art:text-4xl art:leading-tight art:tracking-tight\">\n              {\"Everything your team needs to keep work moving.\"}\n            </h2>\n            <p className=\"art:mx-auto art:mt-5 art:max-w-2xl art:text-pretty art:text-muted-foreground art:leading-7\">\n              {\"Build a dependable operating rhythm once, then let every project inherit it.\"}\n            </p>\n          </motion.div>\n          <div className=\"art:mx-auto art:mt-14 art:grid art:max-w-4xl art:gap-10 art:@min-[768px]/artemis:grid-cols-2 art:@min-[768px]/artemis:gap-0\">\n            {STATS.map((stat, i) => (<motion.article key={stat.title} className=\"art:px-4 art:text-center art:@min-[768px]/artemis:px-10 art:@min-[768px]/artemis:[&:not(:first-child)]:border-border art:@min-[768px]/artemis:[&:not(:first-child)]:border-l\" initial={CARD_HIDDEN} whileInView={reduce ? undefined : SHOWN} viewport={CARD_VIEWPORT} transition={{ duration: 0.6, delay: i * 0.1, ease: ARTEMIS_EASE_OUT }}>\n                <p className=\"art:font-medium art:text-5xl art:tabular-nums art:tracking-tight\">\n                  <NumberTicker text={stat.value} suffix={stat.suffix}/>\n                </p>\n                <h3 className=\"art:mt-5 art:font-medium art:text-xl\">{stat.title}</h3>\n                <p className=\"art:mx-auto art:mt-3 art:max-w-sm art:text-pretty art:text-muted-foreground art:text-sm art:leading-6\">{stat.body}</p>\n              </motion.article>))}\n          </div>\n        </div>\n      </section>\n    </>);\n}\n"
+    },
+    {
+      "path": "application/artemis/components/stats/variants/02-feature-outcomes/number-ticker.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/stats/variants/02-feature-outcomes/number-ticker.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { ArtemisRollingNumber } from \"../../../../lib/rolling-number\";\nexport interface NumberTickerProps { text: string; className?: string; duration?: number; stagger?: number; prefix?: string; suffix?: string; label?: string; entrance?: boolean; }\nexport function NumberTicker({ text, className, duration = 0.9, stagger = 0.04, prefix, suffix, label }: NumberTickerProps) { return <ArtemisRollingNumber text={text} className={className} duration={duration} stagger={stagger} prefix={prefix} suffix={suffix} label={label} activation={\"in-view\"} amount={0.6}/>; }\n"
+    },
+    {
+      "path": "application/artemis/lib/rolling-number.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/lib/rolling-number.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { animate, motion, useInView, useReducedMotion } from \"motion/react\";\nimport { useEffect, useRef, useState } from \"react\";\nimport { ARTEMIS_EASE_OUT } from \"./ease\";\nexport interface ArtemisRollingNumberProps {\n  text: string;\n  duration?: number;\n  stagger?: number;\n  className?: string;\n  reducedMotion?: boolean;\n  blur?: boolean;\n  activation?: \"in-view\" | \"immediate\" | \"mount\";\n  amount?: number;\n  prefix?: string;\n  suffix?: string;\n  label?: string;\n  blurUpdatesOnly?: boolean;\n  staggerDigitsOnly?: boolean;\n}\nfunction Wheel({ value, delay, duration, reduced, blur, fromZero, blurUpdatesOnly }: { value: string; delay: number; duration: number; reduced: boolean; blur: boolean; fromZero: boolean; blurUpdatesOnly: boolean }) {\n  const rail = useRef<HTMLSpanElement>(null);\n  const firstPaint = useRef(true);\n  useEffect(() => {\n    const initial = firstPaint.current;\n    firstPaint.current = false;\n    if (!rail.current) return;\n    if (!blur || reduced || value === \"0\" && !blurUpdatesOnly) { rail.current.style.filter = \"none\"; return; }\n    if (blurUpdatesOnly && initial) return;\n    const playback = animate(rail.current, { filter: [\"blur(10px)\", \"blur(0px)\"] }, { duration: 0.32, delay, ease: ARTEMIS_EASE_OUT });\n    return () => playback.stop();\n  }, [value, blur, reduced, blurUpdatesOnly]);\n  return <span className=\"art:relative art:inline-block\" style={{ clipPath: \"inset(0)\", lineHeight: \"1.1em\", height: \"1.1em\", width: \"1ch\", textAlign: \"center\" }}>\n    <span className=\"art:invisible\">{value}</span>\n    <motion.span ref={rail} className=\"art:absolute art:inset-x-0 art:top-0 art:flex art:flex-col art:items-center art:will-change-[transform,filter]\" initial={fromZero && !reduced ? { y: 0 } : false} animate={{ y: `${-Number(value) * 11 / 10}em` }} transition={reduced ? { duration: 0 } : { duration, delay, ease: ARTEMIS_EASE_OUT }}>\n      {Array.from({ length: 10 }, (_, digit) => <span key={digit} className=\"art:flex art:items-center art:justify-center art:leading-none\" style={{ height: \"1.1em\" }}>{digit}</span>)}\n    </motion.span>\n  </span>;\n}\nexport function ArtemisRollingNumber({ text, duration = 0.6, stagger = 0.02, className = \"\", reducedMotion, blur = false, activation = \"in-view\", amount = 0.6, prefix = \"\", suffix = \"\", label, blurUpdatesOnly = false, staggerDigitsOnly = false }: ArtemisRollingNumberProps) {\n  const anchor = useRef<HTMLSpanElement>(null);\n  const observed = useInView(anchor, { once: true, amount });\n  const visible = activation !== \"in-view\" || observed;\n  const preference = useReducedMotion() === true;\n  const reduced = reducedMotion ?? preference;\n  const [settled, setSettled] = useState(false);\n  const firstText = useRef(text), changedSinceMount = useRef(false);\n  if (text !== firstText.current) changedSinceMount.current = true;\n  useEffect(() => {\n    if (!visible || settled) return;\n    const timer = setTimeout(() => setSettled(true), (duration + text.length * stagger) * 1000);\n    return () => clearTimeout(timer);\n  }, [visible, settled, duration, stagger, text.length]);\n  return <span ref={anchor} className={`art:inline-flex art:items-baseline art:tabular-nums ${className}`}>\n    <span className=\"art:sr-only\">{label ?? prefix + text + suffix}</span>\n    <span aria-hidden=\"true\" className=\"art:inline-flex art:items-baseline\">{prefix && <span>{prefix}</span>}{Array.from(text, (char, index) => /[0-9]/.test(char)\n      ? <Wheel key={text.length - index} value={visible || reduced ? char : \"0\"} delay={settled || reduced || activation === \"mount\" && changedSinceMount.current ? 0 : (staggerDigitsOnly ? text.slice(0, index).replace(/\\D/g, \"\").length : index) * stagger} duration={duration} reduced={reduced} blur={blur} fromZero={activation === \"mount\"} blurUpdatesOnly={blurUpdatesOnly}/>\n      : <span key={text.length - index}>{char}</span>)}{suffix && <span>{suffix}</span>}</span>\n  </span>;\n}\n"
+    }
+  ],
+  "category": "blocks",
+  "family": "data",
+  "kind": "block",
+  "designSystem": "artemis",
+  "foundationDependencies": [
+    "artemis-tokens"
+  ],
+  "iconLibraries": [],
+  "tags": [
+    "artemis",
+    "stats",
+    "motion"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "c2f913ba523b"
+}

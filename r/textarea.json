@@ -1,0 +1,51 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "textarea",
+  "type": "registry:ui",
+  "title": "Textarea",
+  "description": "A reusable multiline field with matching labels, hints, count, bounded auto growth and native event/ref support",
+  "dependencies": [
+    "@remixicon/react@^4.9.0",
+    "react-aria-components@^1.17.0",
+    "tailwind-merge@^3.6.0"
+  ],
+  "registryDependencies": [
+    "https://myzeusui.com/r/cx.json",
+    "https://myzeusui.com/r/input.json",
+    "https://myzeusui.com/r/tokens.json"
+  ],
+  "files": [
+    {
+      "path": "base/input/field-surface.ts",
+      "type": "registry:ui",
+      "target": "@components/base/input/field-surface.ts",
+      "content": "// @zeus-internal\nimport { cx } from \"@/lib/cx\";\nexport const INPUT_FIELD_SURFACE = \"relative flex w-full items-center rounded-2lg bg-background-tertiary-default text-foreground-icon-tertiary ring-2 ring-inset ring-transparent transition-[background-color,box-shadow,color] duration-[var(--input-transition-ms)] ease\";\nexport function inputFieldStateClasses({ isFocusWithin, isHovered, isDisabled, isInvalid }: {\n  isFocusWithin: boolean;\n  isHovered: boolean;\n  isDisabled: boolean;\n  isInvalid: boolean;\n}) {\n  return cx(\n    isHovered && !isFocusWithin && !isDisabled && !isInvalid && \"ring-border-button-hover\",\n    isFocusWithin && !isDisabled && !isInvalid && \"ring-border-button-active\",\n    isDisabled && \"bg-input-disabled-background text-input-disabled-foreground\",\n    isInvalid && \"bg-background-tertiary-error text-foreground-icon-error\",\n  );\n}\n"
+    },
+    {
+      "path": "base/textarea/textarea.tsx",
+      "type": "registry:ui",
+      "target": "@components/base/textarea/textarea.tsx",
+      "content": "\"use client\";\nimport {\n  forwardRef,\n  useLayoutEffect,\n  useImperativeHandle,\n  useRef,\n  useState,\n  type TextareaHTMLAttributes,\n  type ReactNode,\n  type Ref,\n} from \"react\";\nimport { cx } from \"@/lib/cx\";\nimport { Group, TextArea as AriaTextArea } from \"react-aria-components\";\nimport { TextField } from \"../input/input\";\nimport { Label } from \"../input/label\";\nimport { HintText } from \"../input/hint-text\";\nimport { INPUT_FIELD_SURFACE, inputFieldStateClasses } from \"../input/field-surface\";\nexport interface TextareaProps extends TextareaHTMLAttributes<HTMLTextAreaElement> {\n  ref?: Ref<HTMLTextAreaElement>;\n  autoResize?: boolean;\n  maxRows?: number;\n  resize?: \"none\" | \"vertical\" | \"horizontal\" | \"both\";\n}\n/** Multiline field using the same semantic paint, typography and focus ring as InputBase. */\nexport const Textarea = forwardRef<HTMLTextAreaElement, Omit<TextareaProps, \"ref\">>(function Textarea({ className, autoResize = false, maxRows, resize: resizeMode = \"vertical\", onInput, ...props }, ref) {\n  const element = useRef<HTMLTextAreaElement | null>(null), ownedMax = useRef<string | undefined>(undefined), wasAuto = useRef(false);\n  useImperativeHandle(ref, () => element.current!, []);\n  const measure = useRef(() => {});\n  measure.current = () => {\n    const field = element.current;\n    if (!field) return;\n    const requestedMax = typeof props.style?.maxHeight === \"number\" ? `${props.style.maxHeight}px` : props.style?.maxHeight ?? \"\";\n    if (ownedMax.current && field.style.maxHeight === ownedMax.current) field.style.maxHeight = requestedMax;\n    ownedMax.current = undefined;\n    if (!autoResize) {\n      ownedMax.current = undefined;\n      if (wasAuto.current) { field.style.height = typeof props.style?.height === \"number\" ? `${props.style.height}px` : props.style?.height ?? \"\"; field.style.overflowY = props.style?.overflowY ?? \"\"; wasAuto.current = false; }\n      return;\n    }\n    wasAuto.current = true;\n    const computed = getComputedStyle(field), line = parseFloat(computed.lineHeight) || 20;\n    const padding = (parseFloat(computed.paddingTop) || 0) + (parseFloat(computed.paddingBottom) || 0);\n    const border = (parseFloat(computed.borderTopWidth) || 0) + (parseFloat(computed.borderBottomWidth) || 0);\n    const rows = Math.max(1, props.rows ?? 2), minimum = rows * line + padding + border;\n    const rowMaximum = !Number.isFinite(maxRows) ? Infinity : Math.max(rows, maxRows!) * line + padding + border;\n    const cssMaximum = computed.maxHeight.endsWith(\"px\") ? parseFloat(computed.maxHeight) : Infinity;\n    const maximum = Math.min(rowMaximum, cssMaximum);\n    field.style.height = \"0px\";\n    const content = field.scrollHeight + border;\n    field.style.height = `${Math.min(maximum, Math.max(minimum, content))}px`;\n    field.style.overflowY = content > maximum ? \"auto\" : \"hidden\";\n    if (Number.isFinite(rowMaximum)) { ownedMax.current = `${maximum}px`; field.style.maxHeight = ownedMax.current; }\n  };\n  useLayoutEffect(() => measure.current(), [props.value, props.defaultValue, props.rows, autoResize, maxRows]);\n  useLayoutEffect(() => {\n    if (!autoResize || !element.current || typeof ResizeObserver === \"undefined\") return;\n    const field = element.current; let width = field.clientWidth;\n    const observer = new ResizeObserver(() => { if (width !== field.clientWidth) { width = field.clientWidth; measure.current(); } });\n    observer.observe(field); return () => observer.disconnect();\n  }, [autoResize]);\n  return (\n    <AriaTextArea\n      {...props}\n      ref={element}\n      onInput={(event) => { measure.current(); onInput?.(event); }}\n      className={cx(\n        \"block w-full rounded-2lg bg-background-tertiary-default px-2.5 py-1.5 text-body-regular text-text-primary outline-none placeholder:text-text-tertiary disabled:cursor-not-allowed disabled:text-input-disabled-text focus-visible:ring-2 focus-visible:ring-border-focus-ring\",\n        autoResize || resizeMode === \"none\" ? \"resize-none\" : resizeMode === \"both\" ? \"resize\" : resizeMode === \"horizontal\" ? \"resize-x\" : \"resize-y\",\n        className,\n      )}\n    />\n  );\n});\n\nexport interface TextareaFieldProps extends TextareaProps {\n  fieldClassName?: string;\n  rootClassName?: string;\n  isInvalid?: boolean;\n  isDisabled?: boolean;\n  isRequired?: boolean;\n  label?: ReactNode;\n  hint?: ReactNode;\n  tooltip?: boolean | string;\n  size?: \"medium\" | \"small\";\n  showCount?: boolean;\n  /** String callback in addition to the existing native change event. */\n  onValueChange?: (value: string) => void;\n}\n/** Shared field composition; native callbacks remain compatible with compact editors. */\nexport const TextareaField = forwardRef<HTMLTextAreaElement, Omit<TextareaFieldProps, \"ref\">>(function TextareaField({ fieldClassName, rootClassName, isInvalid: invalid, isDisabled, isRequired, label, hint, tooltip, size = \"medium\", showCount = false, onValueChange, value, defaultValue, rows, className, disabled, required, ...props }, ref) {\n  const [draft, setDraft] = useState(() => String(value ?? defaultValue ?? \"\"));\n  const text = value === undefined ? draft : String(value);\n  const isInvalid = invalid ?? (props[\"aria-invalid\"] === true || props[\"aria-invalid\"] === \"true\");\n  const disabledState = isDisabled ?? disabled, requiredState = isRequired ?? required;\n  const rowCount = rows ?? (label !== undefined || hint !== undefined || showCount ? 3 : undefined);\n  return (\n    <TextField id={props.id} data-input-size={size} aria-label={props[\"aria-label\"]} aria-labelledby={props[\"aria-labelledby\"]}\n      isDisabled={disabledState} isRequired={requiredState} isInvalid={isInvalid}\n      value={text} onChange={next => { setDraft(next); onValueChange?.(next); }}\n      className={cx(\"group flex h-max w-full flex-col items-start gap-1\", rootClassName)}>\n      {label !== undefined && label !== null && <Label isRequired={requiredState} tooltip={tooltip}>{label}</Label>}\n      <Group role=\"presentation\" isDisabled={disabledState} isInvalid={isInvalid}\n        className={(state) => cx(INPUT_FIELD_SURFACE, inputFieldStateClasses(state), \"flex-col items-stretch\", size === \"small\" ? \"px-1.5 py-2\" : \"p-2\", fieldClassName)}>\n        <Textarea ref={ref} {...props} rows={rowCount} value={text} disabled={disabledState} required={requiredState} aria-invalid={isInvalid || props[\"aria-invalid\"]}\n          className={cx(\"m-0 min-w-0 rounded-none border-0 bg-transparent p-0 px-1 font-sans focus:placeholder:text-text-primary focus-visible:ring-0 disabled:placeholder:text-input-disabled-text aria-invalid:placeholder:text-text-error-placeholder\", className)} />\n      </Group>\n      {(hint !== undefined && hint !== null || showCount) && <div className=\"flex w-full items-start justify-between gap-3\">\n        {hint !== undefined && hint !== null && <HintText isInvalid={isInvalid}>{hint}</HintText>}\n        {showCount && <span className=\"ms-auto shrink-0 pt-px text-caption-1-medium tabular-nums text-text-tertiary\">{text.length}{props.maxLength === undefined ? \"\" : `/${props.maxLength}`}</span>}\n      </div>}\n    </TextField>\n  );\n});\n"
+    }
+  ],
+  "category": "base",
+  "family": "forms",
+  "kind": "component",
+  "designSystem": "zeus",
+  "foundationDependencies": [
+    "tokens"
+  ],
+  "iconLibraries": [
+    "remix"
+  ],
+  "tags": [
+    "form",
+    "text",
+    "input",
+    "multiline"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "isNew": true,
+  "hash": "d03cd7a9a7a0"
+}

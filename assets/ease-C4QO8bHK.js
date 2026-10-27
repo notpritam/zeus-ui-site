@@ -1,0 +1,1 @@
+const s=[.16,1,.3,1],S=[.77,0,.175,1],n=[.32,.72,0,1],E="cubic-bezier(0.16, 1, 0.3, 1)",_={type:"spring",stiffness:500,damping:30,mass:.6},a={type:"spring",stiffness:460,damping:30,mass:.55},t={type:"spring",stiffness:420,damping:40,mass:.5},A={type:"spring",stiffness:360,damping:32,mass:.6};export{s as A,_ as a,A as b,a as c,t as d,S as e,E as f,n as g};

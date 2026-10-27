@@ -30,24 +30,24 @@
   "meta": {
     "assets": [
       {
-        "url": "https://myzeusui.com/assets/annnimate/hero_profile_02.jpg",
-        "target": "public/assets/annnimate/hero_profile_02.jpg"
+        "url": "https://myzeusui.com/assets/zeus/hero_profile_02.jpg",
+        "target": "public/assets/zeus/hero_profile_02.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/hero_run_02.jpg",
-        "target": "public/assets/annnimate/hero_run_02.jpg"
+        "url": "https://myzeusui.com/assets/zeus/hero_run_02.jpg",
+        "target": "public/assets/zeus/hero_run_02.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/product_ball_05.jpg",
-        "target": "public/assets/annnimate/product_ball_05.jpg"
+        "url": "https://myzeusui.com/assets/zeus/product_ball_05.jpg",
+        "target": "public/assets/zeus/product_ball_05.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/product_tennis-net_01.jpg",
-        "target": "public/assets/annnimate/product_tennis-net_01.jpg"
+        "url": "https://myzeusui.com/assets/zeus/product_tennis-net_01.jpg",
+        "target": "public/assets/zeus/product_tennis-net_01.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/scatter_ball-rackets_01.jpg",
-        "target": "public/assets/annnimate/scatter_ball-rackets_01.jpg"
+        "url": "https://myzeusui.com/assets/zeus/scatter_ball-rackets_01.jpg",
+        "target": "public/assets/zeus/scatter_ball-rackets_01.jpg"
       }
     ]
   },
@@ -59,11 +59,11 @@
   "iconLibraries": [],
   "tags": [
     "animation",
-    "annnimate",
+    "zeus",
     "scroll"
   ],
   "status": "beta",
   "tier": "free",
   "isNew": true,
-  "hash": "79f64705d311"
+  "hash": "26379d733082"
 }

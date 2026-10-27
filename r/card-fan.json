@@ -26,24 +26,24 @@
   "meta": {
     "assets": [
       {
-        "url": "https://myzeusui.com/assets/annnimate/action_cyclist-climb_02.jpg",
-        "target": "public/assets/annnimate/action_cyclist-climb_02.jpg"
+        "url": "https://myzeusui.com/assets/zeus/action_cyclist-climb_02.jpg",
+        "target": "public/assets/zeus/action_cyclist-climb_02.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/product_ball_02.jpg",
-        "target": "public/assets/annnimate/product_ball_02.jpg"
+        "url": "https://myzeusui.com/assets/zeus/product_ball_02.jpg",
+        "target": "public/assets/zeus/product_ball_02.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/product_tennis-net_01.jpg",
-        "target": "public/assets/annnimate/product_tennis-net_01.jpg"
+        "url": "https://myzeusui.com/assets/zeus/product_tennis-net_01.jpg",
+        "target": "public/assets/zeus/product_tennis-net_01.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/roster_profile_09.jpg",
-        "target": "public/assets/annnimate/roster_profile_09.jpg"
+        "url": "https://myzeusui.com/assets/zeus/roster_profile_09.jpg",
+        "target": "public/assets/zeus/roster_profile_09.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/silhouette_eyewear-silhouette_01.jpg",
-        "target": "public/assets/annnimate/silhouette_eyewear-silhouette_01.jpg"
+        "url": "https://myzeusui.com/assets/zeus/silhouette_eyewear-silhouette_01.jpg",
+        "target": "public/assets/zeus/silhouette_eyewear-silhouette_01.jpg"
       }
     ]
   },
@@ -55,11 +55,11 @@
   "iconLibraries": [],
   "tags": [
     "animation",
-    "annnimate",
+    "zeus",
     "hover"
   ],
   "status": "beta",
   "tier": "free",
   "isNew": true,
-  "hash": "a650c1b4eb0f"
+  "hash": "6848ff091731"
 }

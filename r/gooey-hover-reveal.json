@@ -30,8 +30,8 @@
   "meta": {
     "assets": [
       {
-        "url": "https://myzeusui.com/assets/annnimate/hero_run_02.jpg",
-        "target": "public/assets/annnimate/hero_run_02.jpg"
+        "url": "https://myzeusui.com/assets/zeus/hero_run_02.jpg",
+        "target": "public/assets/zeus/hero_run_02.jpg"
       }
     ]
   },
@@ -43,7 +43,7 @@
   "iconLibraries": [],
   "tags": [
     "animation",
-    "annnimate",
+    "zeus",
     "shader",
     "gooey-hover-reveal",
     "hover"
@@ -51,5 +51,5 @@
   "status": "beta",
   "tier": "free",
   "isNew": true,
-  "hash": "0d88af41a853"
+  "hash": "3087dd14c6a1"
 }

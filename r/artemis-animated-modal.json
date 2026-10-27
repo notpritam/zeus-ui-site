@@ -1,0 +1,72 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "artemis-animated-modal",
+  "type": "registry:component",
+  "title": "Animated modal",
+  "variants": [
+    {
+      "name": "dialog",
+      "title": "Dialog"
+    }
+  ],
+  "description": "Compose a focused dialog with the shared inputs and buttons, keyboard dismissal, and automatic focus restoration",
+  "dependencies": [
+    "@headlessui/react@^2.2.10",
+    "clsx@^2.1.1",
+    "lucide-react@^1.60.0",
+    "motion@^12.42.2",
+    "tailwind-merge@^3.6.0"
+  ],
+  "registryDependencies": [
+    "https://myzeusui.com/r/artemis-controls.json",
+    "https://myzeusui.com/r/artemis-tokens.json"
+  ],
+  "files": [
+    {
+      "path": "application/artemis/artemis-animated-modal.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/artemis-animated-modal.tsx",
+      "content": "\"use client\";\nimport { ArtemisScope } from \"./artemis-scope\";\nimport Variant0 from \"./components/animated-modal/variants/01-dialog\";\nexport interface ArtemisModalShowcaseProps { className?: string;  }\nexport function ArtemisModalShowcase({ className }: ArtemisModalShowcaseProps) { return <ArtemisScope className={`art:[&>*]:mx-auto ${className ?? \"\"}`}><div className=\"art:flex art:w-full art:justify-center\"><Variant0/></div></ArtemisScope>; }\n"
+    },
+    {
+      "path": "application/artemis/components/animated-modal/variants/01-dialog.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/animated-modal/variants/01-dialog.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { Description, DialogTitle } from \"../../../lib/headless\";\nimport { X } from \"lucide-react\";\nimport { useState } from \"react\";\nimport { ArtemisButton } from \"../../../foundations/button\";\nimport { ArtemisTextField } from \"../../../foundations/text-field\";\nimport { InviteModal } from \"./01-dialog/modal\";\nexport default function AnimatedModalDialog() {\n    const [open, setOpen] = useState(false);\n    const [email, setEmail] = useState(\"\");\n    return (<>\n      <ArtemisButton className=\"art:h-9\" onClick={() => setOpen(true)}>\n        Open modal\n      </ArtemisButton>\n      <InviteModal open={open} onClose={() => setOpen(false)}>\n        <header className=\"art:flex art:items-start art:gap-4 art:border-b art:border-border art:px-5 art:py-4\">\n          <div className=\"art:min-w-0 art:flex-1\">\n            <DialogTitle as=\"h2\" className=\"art:text-xl art:font-medium\">\n              Invite a teammate\n            </DialogTitle>\n            <Description className=\"art:mt-1 art:text-sm art:text-muted-foreground\">Give someone access to your workspace.</Description>\n          </div>\n          <ArtemisButton size=\"icon\" variant=\"ghost\" className=\"art:size-9\" aria-label=\"Close invitation\" onClick={() => setOpen(false)}>\n            <X aria-hidden=\"true\" className=\"art:size-4\"/>\n          </ArtemisButton>\n        </header>\n        <form onSubmit={(event) => {\n            event.preventDefault();\n            setOpen(false);\n        }}>\n          <div className=\"art:p-5\">\n            <ArtemisTextField label=\"Email address\" type=\"email\" name=\"email\" placeholder=\"teammate@example.com\" required data-autofocus=\"true\" value={email} onChange={(event) => setEmail(event.target.value)}/>\n          </div>\n          <footer className=\"art:flex art:justify-end art:gap-2 art:border-t art:border-border art:px-5 art:py-4\">\n            <ArtemisButton variant=\"tertiary\" className=\"art:h-9\" onClick={() => setOpen(false)}>\n              Cancel\n            </ArtemisButton>\n            <ArtemisButton type=\"submit\" className=\"art:h-9\">\n              Invite teammate\n            </ArtemisButton>\n          </footer>\n        </form>\n      </InviteModal>\n    </>);\n}\n"
+    },
+    {
+      "path": "application/artemis/components/animated-modal/variants/01-dialog/modal.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/animated-modal/variants/01-dialog/modal.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { Dialog, DialogBackdrop, DialogPanel } from \"../../../../lib/headless\";\nimport { AnimatePresence, MotionConfig, motion, useReducedMotion } from \"motion/react\";\nimport type { ReactNode } from \"react\";\nimport { ARTEMIS_EASE_OUT, ARTEMIS_SPRING_PANEL } from \"../../../../lib/ease\";\nconst PANEL_IN = ARTEMIS_SPRING_PANEL;\nconst BACKDROP_IN = { duration: 0.2, ease: ARTEMIS_EASE_OUT } as const;\nconst OUT = { duration: 0.15, ease: ARTEMIS_EASE_OUT } as const;\nconst INSTANT = { duration: 0 } as const;\nexport function InviteModal({ open, onClose, children, }: {\n    open: boolean;\n    onClose: () => void;\n    children: ReactNode;\n}) {\n    const reduce = useReducedMotion();\n    return (<AnimatePresence>\n      {open ? (<Dialog static open={open} onClose={onClose} className=\"art:relative art:z-[100]\">\n          <MotionConfig transition={reduce ? INSTANT : OUT}>\n            <DialogBackdrop as={motion.div} className=\"art:fixed art:inset-0 art:bg-foreground/10 art:backdrop-blur-xl\" aria-hidden=\"true\" initial={{ opacity: 0 }} animate={{ opacity: 1, transition: reduce ? INSTANT : BACKDROP_IN }} exit={{ opacity: 0, transition: reduce ? INSTANT : OUT }}/>\n            <div className=\"art:fixed art:inset-4 art:z-[101] art:overflow-x-hidden art:overflow-y-auto\">\n              <div className=\"art:flex art:min-h-full art:items-center art:justify-center\">\n                <DialogPanel as={motion.div} className=\"art:max-h-[calc(100dvh-2rem)] art:w-full art:max-w-lg art:overflow-y-auto art:rounded-2xl art:border art:border-border art:bg-background art:text-foreground art:will-change-transform\" initial={{ opacity: 0, y: 8, scale: 0.96 }} animate={{ opacity: 1, y: 0, scale: 1, transition: reduce ? INSTANT : PANEL_IN }} exit={{ opacity: 0, y: 6, scale: 0.96, transition: reduce ? INSTANT : OUT }}>\n                  {children}\n                </DialogPanel>\n              </div>\n            </div>\n          </MotionConfig>\n        </Dialog>) : null}\n    </AnimatePresence>);\n}\n"
+    },
+    {
+      "path": "application/artemis/lib/form-field.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/lib/form-field.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { AnimatePresence, motion, useReducedMotion } from \"motion/react\";\nimport { useId, useState, type InputHTMLAttributes, type ReactNode, type Ref } from \"react\";\nimport { ArtemisValidationFrame } from \"./validation-frame\";\nimport { artemisCx } from \"./utils\";\nexport interface ArtemisFormFieldProps extends Omit<InputHTMLAttributes<HTMLInputElement>, \"className\"> {\n    label?: string;\n    className?: string;\n    inputClassName?: string;\n    error?: string | boolean;\n    icon?: ReactNode;\n    trailing?: ReactNode;\n    focusBorder?: string;\n    fullWidth?: boolean;\n    fieldClassName?: string;\n    labelClassName?: string;\n    inputRef?: Ref<HTMLInputElement>;\n    leadingContent?: ReactNode;\n    trailingContent?: ReactNode;\n}\nexport function ArtemisFormField({ label, className, inputClassName, error, icon, trailing, focusBorder = \"art:border-muted-foreground/40\", fullWidth = true, fieldClassName, labelClassName, inputRef, leadingContent, trailingContent, id: givenId, disabled, onFocus, onBlur, ...input }: ArtemisFormFieldProps) {\n    const unique = useId(), id = givenId ?? unique, reduce = useReducedMotion(), invalid = !!error, message = typeof error === \"string\" ? error : undefined;\n    const [focused, setFocused] = useState(false);\n    return <div className={artemisCx(\"art:flex art:flex-col art:gap-1.5\", fullWidth && \"art:w-full\", className)}>\n  {label && <label htmlFor={id} className={artemisCx(\"art:px-1 art:text-sm art:font-medium art:text-foreground\", labelClassName)}>{label}</label>}\n  <ArtemisValidationFrame error={invalid} focused={focused} focusBorder={focusBorder} className={artemisCx(disabled && \"art:opacity-60\",fieldClassName)}>\n   {leadingContent}\n   {icon && <span className=\"art:pointer-events-none art:absolute art:left-3 art:top-1/2 art:flex art:-translate-y-1/2 art:items-center art:text-muted-foreground art:[&_svg]:h-4 art:[&_svg]:w-4\">{icon}</span>}\n   <input ref={inputRef} {...input} id={id} disabled={disabled} onFocus={event => { setFocused(true); onFocus?.(event); }} onBlur={event => { setFocused(false); onBlur?.(event); }} aria-invalid={invalid || input[\"aria-invalid\"] || undefined} aria-describedby={[input['aria-describedby'], message ? `${id}-error` : undefined].filter(Boolean).join(' ') || undefined} className={artemisCx(\"art:peer art:h-full art:w-full art:bg-transparent art:text-sm art:leading-6 art:text-foreground art:caret-foreground art:outline-none art:placeholder:text-muted-foreground/60 art:pl-3.5 art:pr-3.5\", icon && \"art:pl-10\", disabled && \"art:cursor-not-allowed\", inputClassName)}/>\n   {trailingContent}\n   {trailing && <span className=\"art:absolute art:right-0 art:top-0 art:flex art:h-full art:items-center art:text-muted-foreground art:[&_button]:grid art:[&_button]:size-10 art:[&_button]:place-items-center art:[&_svg]:h-4 art:[&_svg]:w-4\">{trailing}</span>}\n  </ArtemisValidationFrame>\n  <div className=\"art:contents\"><AnimatePresence initial={false}>{message && <motion.p key=\"error\" id={`${id}-error`} role=\"alert\" className=\"art:px-1 art:text-xs art:text-destructive\" initial={reduce ? { opacity: 0 } : { opacity: 0, y: -4, filter: \"blur(4px)\" }} animate={{ opacity: 1, y: 0, filter: \"blur(0px)\" }} exit={reduce ? { opacity: 0 } : { opacity: 0, y: -4, filter: \"blur(4px)\" }} transition={{ duration: .2 }}>{message}</motion.p>}</AnimatePresence></div>\n </div>;\n}\n"
+    },
+    {
+      "path": "application/artemis/lib/validation-frame.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/lib/validation-frame.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { animate, useReducedMotion } from \"motion/react\";\nimport { useEffect, useRef, useState, type HTMLAttributes } from \"react\";\nexport interface ArtemisValidationFrameProps extends HTMLAttributes<HTMLDivElement> {\n    error?: boolean;\n    focused?: boolean;\n    focusBorder?: string;\n    finishShakeOnClear?: boolean;\n}\nexport function ArtemisValidationFrame({ error = false, focused: controlled, focusBorder = \"art:border-foreground/60\", finishShakeOnClear = true, className = \"\", children, onFocus, onBlur, ...props }: ArtemisValidationFrameProps) {\n    const [focus, setFocus] = useState(false);\n    const ref = useRef<HTMLDivElement>(null);\n    const reduce = useReducedMotion();\n    const playbackRef = useRef<{\n        stop: () => void;\n    } | null>(null);\n    useEffect(() => () => playbackRef.current?.stop(), []);\n    const focused = controlled ?? focus;\n    useEffect(() => {\n        const element = ref.current;\n        if (!element || !error || reduce) {\n            if (element && (reduce || !finishShakeOnClear)) {\n                playbackRef.current?.stop();\n                playbackRef.current = null;\n                element.style.transform = \"none\";\n                element.style.translate = \"none\";\n            }\n            return;\n        }\n        playbackRef.current?.stop();\n        const playback = animate(element, { x: [0, -6, 6, -4, 4, -2, 0] }, { duration: 0.45 });\n        playbackRef.current = playback;\n        return () => { if (!finishShakeOnClear) {\n            playback.stop();\n            if (playbackRef.current === playback)\n                playbackRef.current = null;\n        } };\n    }, [error, reduce, finishShakeOnClear]);\n    const border = error ? \"art:border-destructive\" : focused ? focusBorder : \"art:border-border\";\n    return <div {...props} ref={ref} data-state={error ? \"error\" : focused ? \"focused\" : \"idle\"} className={`art:relative art:h-10 art:overflow-hidden art:rounded-full art:border art:bg-background art:transition-colors art:duration-200 ${border} ${className}`} onFocus={event => { setFocus(true); onFocus?.(event); }} onBlur={event => { if (!event.currentTarget.contains(event.relatedTarget))\n        setFocus(false); onBlur?.(event); }}>{children}</div>;\n}\n"
+    }
+  ],
+  "category": "blocks",
+  "family": "overlays",
+  "kind": "component",
+  "designSystem": "artemis",
+  "foundationDependencies": [
+    "artemis-tokens"
+  ],
+  "iconLibraries": [],
+  "tags": [
+    "artemis",
+    "animated-modal",
+    "motion"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "ac4086a56e34"
+}

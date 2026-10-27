@@ -32,20 +32,20 @@
   "meta": {
     "assets": [
       {
-        "url": "https://myzeusui.com/assets/annnimate/roster_profile_01.jpg",
-        "target": "public/assets/annnimate/roster_profile_01.jpg"
+        "url": "https://myzeusui.com/assets/zeus/roster_profile_01.jpg",
+        "target": "public/assets/zeus/roster_profile_01.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/roster_profile_06.jpg",
-        "target": "public/assets/annnimate/roster_profile_06.jpg"
+        "url": "https://myzeusui.com/assets/zeus/roster_profile_06.jpg",
+        "target": "public/assets/zeus/roster_profile_06.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/roster_profile_07.jpg",
-        "target": "public/assets/annnimate/roster_profile_07.jpg"
+        "url": "https://myzeusui.com/assets/zeus/roster_profile_07.jpg",
+        "target": "public/assets/zeus/roster_profile_07.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/roster_profile_09.jpg",
-        "target": "public/assets/annnimate/roster_profile_09.jpg"
+        "url": "https://myzeusui.com/assets/zeus/roster_profile_09.jpg",
+        "target": "public/assets/zeus/roster_profile_09.jpg"
       }
     ]
   },
@@ -57,7 +57,7 @@
   "iconLibraries": [],
   "tags": [
     "animation",
-    "annnimate",
+    "zeus",
     "drag",
     "ambient",
     "click"
@@ -65,5 +65,5 @@
   "status": "beta",
   "tier": "free",
   "isNew": true,
-  "hash": "2b9c377be7c2"
+  "hash": "b1be90209d73"
 }

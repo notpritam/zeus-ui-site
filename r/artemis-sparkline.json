@@ -1,0 +1,50 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "artemis-sparkline",
+  "type": "registry:component",
+  "title": "Sparkline",
+  "variants": [
+    {
+      "name": "sparkline",
+      "title": "Sparkline"
+    }
+  ],
+  "description": "A compact trend line that draws in from the left and renders correctly before hydration",
+  "dependencies": [
+    "motion@^12.42.2"
+  ],
+  "registryDependencies": [
+    "https://myzeusui.com/r/artemis-controls.json",
+    "https://myzeusui.com/r/artemis-tokens.json"
+  ],
+  "files": [
+    {
+      "path": "application/artemis/artemis-sparkline.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/artemis-sparkline.tsx",
+      "content": "\"use client\";\nimport { ArtemisScope } from \"./artemis-scope\";\nimport Variant0 from \"./components/charts/variants/03-sparkline\";\nexport interface ArtemisSparklineProps {\n  className?: string;\n}\nexport function ArtemisSparkline({ className }: ArtemisSparklineProps) {\n  return (\n    <ArtemisScope className={`art:[&>*]:mx-auto ${className ?? \"\"}`}>\n      <Variant0 />\n    </ArtemisScope>\n  );\n}\n"
+    },
+    {
+      "path": "application/artemis/components/charts/variants/03-sparkline.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/charts/variants/03-sparkline.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { motion, useReducedMotion } from \"motion/react\";\nimport { ARTEMIS_EASE_OUT } from \"../../../lib/ease\";\nconst draw = (i: number, reduce: boolean | null) => reduce ? { duration: 0 } : { duration: 0.9, ease: ARTEMIS_EASE_OUT, delay: 0.2 + i * 0.1 };\nexport default function ChartsSparkline() {\n    const reduce = useReducedMotion();\n    return (<>\n      <ul className=\"art:mx-auto art:w-full art:max-w-md art:divide-y art:divide-border\">\n        <li className=\"art:flex art:items-center art:gap-4 art:py-4\">\n          <div className=\"art:min-w-0 art:flex-1\">\n            <p className=\"art:text-muted-foreground art:text-sm\">\n              {\"Signups\"}\n            </p>\n            <p className=\"art:mt-0.5 art:font-medium art:text-xl art:tabular-nums\">\n              {\"2,418\"}\n            </p>\n          </div>\n          <svg viewBox=\"0 0 96 32\" className=\"art:shrink-0 art:overflow-visible art:h-8 art:w-24\" role=\"img\" aria-label=\"Signups trend, +12%\">\n            <motion.polyline points=\"0.0,30.3 8.7,27.1 17.5,28.7 26.2,22.3 34.9,23.9 43.6,19.2 52.4,14.4 61.1,16.0 69.8,11.3 78.5,6.5 87.3,8.1 96.0,1.8\" pathLength=\"1\" fill=\"none\" strokeWidth=\"1.75\" strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeDasharray=\"1 1\" className=\"art:stroke-blue-500\" initial={{ strokeDashoffset: 1 }} animate={{ strokeDashoffset: 0 }} transition={draw(0, reduce)}/>\n          </svg>\n          <span className=\"art:w-12 art:text-right art:font-mono art:text-muted-foreground art:text-xs\">\n            {\"+12%\"}\n          </span>\n        </li>\n        <li className=\"art:flex art:items-center art:gap-4 art:py-4\">\n          <div className=\"art:min-w-0 art:flex-1\">\n            <p className=\"art:text-muted-foreground art:text-sm\">\n              {\"Active teams\"}\n            </p>\n            <p className=\"art:mt-0.5 art:font-medium art:text-xl art:tabular-nums\">\n              {\"864\"}\n            </p>\n          </div>\n          <svg viewBox=\"0 0 96 32\" className=\"art:shrink-0 art:overflow-visible art:h-8 art:w-24\" role=\"img\" aria-label=\"Active teams trend, +4%\">\n            <motion.polyline points=\"0.0,30.3 8.7,27.1 17.5,20.8 26.2,23.9 34.9,17.6 43.6,14.4 52.4,17.6 61.1,11.3 69.8,8.1 78.5,8.1 87.3,4.9 96.0,1.8\" pathLength=\"1\" fill=\"none\" strokeWidth=\"1.75\" strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeDasharray=\"1 1\" className=\"art:stroke-teal-500\" initial={{ strokeDashoffset: 1 }} animate={{ strokeDashoffset: 0 }} transition={draw(1, reduce)}/>\n          </svg>\n          <span className=\"art:w-12 art:text-right art:font-mono art:text-muted-foreground art:text-xs\">\n            {\"+4%\"}\n          </span>\n        </li>\n        <li className=\"art:flex art:items-center art:gap-4 art:py-4\">\n          <div className=\"art:min-w-0 art:flex-1\">\n            <p className=\"art:text-muted-foreground art:text-sm\">\n              {\"Churned\"}\n            </p>\n            <p className=\"art:mt-0.5 art:font-medium art:text-xl art:tabular-nums\">\n              {\"37\"}\n            </p>\n          </div>\n          <svg viewBox=\"0 0 96 32\" className=\"art:shrink-0 art:overflow-visible art:h-8 art:w-24\" role=\"img\" aria-label=\"Churned trend, −9%\">\n            <motion.polyline points=\"0.0,1.8 8.7,7.4 17.5,1.8 26.2,13.2 34.9,7.4 43.6,18.9 52.4,13.2 61.1,18.9 69.8,24.6 78.5,18.9 87.3,24.6 96.0,30.3\" pathLength=\"1\" fill=\"none\" strokeWidth=\"1.75\" strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeDasharray=\"1 1\" className=\"art:stroke-orange-500\" initial={{ strokeDashoffset: 1 }} animate={{ strokeDashoffset: 0 }} transition={draw(2, reduce)}/>\n          </svg>\n          <span className=\"art:w-12 art:text-right art:font-mono art:text-muted-foreground art:text-xs\">\n            {\"\\u22129%\"}\n          </span>\n        </li>\n        <li className=\"art:flex art:items-center art:gap-4 art:py-4\">\n          <div className=\"art:min-w-0 art:flex-1\">\n            <p className=\"art:text-muted-foreground art:text-sm\">\n              {\"Avg. response\"}\n            </p>\n            <p className=\"art:mt-0.5 art:font-medium art:text-xl art:tabular-nums\">\n              {\"212 ms\"}\n            </p>\n          </div>\n          <svg viewBox=\"0 0 96 32\" className=\"art:shrink-0 art:overflow-visible art:h-8 art:w-24\" role=\"img\" aria-label=\"Avg. response trend, +3%\">\n            <motion.polyline points=\"0.0,26.2 8.7,18.0 17.5,30.3 26.2,14.0 34.9,22.1 43.6,9.9 52.4,18.0 61.1,5.8 69.8,14.0 78.5,9.9 87.3,1.8 96.0,5.8\" pathLength=\"1\" fill=\"none\" strokeWidth=\"1.75\" strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeDasharray=\"1 1\" className=\"art:stroke-lime-500\" initial={{ strokeDashoffset: 1 }} animate={{ strokeDashoffset: 0 }} transition={draw(3, reduce)}/>\n          </svg>\n          <span className=\"art:w-12 art:text-right art:font-mono art:text-muted-foreground art:text-xs\">\n            {\"+3%\"}\n          </span>\n        </li>\n      </ul>\n    </>);\n}\n"
+    }
+  ],
+  "category": "charts",
+  "family": "data",
+  "kind": "chart",
+  "designSystem": "artemis",
+  "foundationDependencies": [
+    "artemis-tokens"
+  ],
+  "iconLibraries": [],
+  "tags": [
+    "artemis",
+    "sparkline",
+    "motion"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "7c6f50926be8"
+}

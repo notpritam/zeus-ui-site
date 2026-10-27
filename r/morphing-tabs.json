@@ -32,12 +32,12 @@
   "meta": {
     "assets": [
       {
-        "url": "https://myzeusui.com/assets/annnimate/product_football-boot_01.jpg",
-        "target": "public/assets/annnimate/product_football-boot_01.jpg"
+        "url": "https://myzeusui.com/assets/zeus/product_football-boot_01.jpg",
+        "target": "public/assets/zeus/product_football-boot_01.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/product_shoe_06.jpg",
-        "target": "public/assets/annnimate/product_shoe_06.jpg"
+        "url": "https://myzeusui.com/assets/zeus/product_shoe_06.jpg",
+        "target": "public/assets/zeus/product_shoe_06.jpg"
       }
     ]
   },
@@ -49,12 +49,12 @@
   "iconLibraries": [],
   "tags": [
     "animation",
-    "annnimate",
+    "zeus",
     "morphing-tabs",
     "click"
   ],
   "status": "beta",
   "tier": "free",
   "isNew": true,
-  "hash": "1ca75a73b58a"
+  "hash": "329485d61456"
 }

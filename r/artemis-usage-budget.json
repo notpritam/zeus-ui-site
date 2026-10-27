@@ -1,0 +1,52 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "artemis-usage-budget",
+  "type": "registry:block",
+  "title": "Usage budget",
+  "variants": [
+    {
+      "name": "overview",
+      "title": "Overview"
+    }
+  ],
+  "description": "A segmented usage meter with resource costs, animated totals, and an adjustable monthly budget",
+  "dependencies": [
+    "clsx@^2.1.1",
+    "motion@^12.42.2",
+    "tailwind-merge@^3.6.0"
+  ],
+  "registryDependencies": [
+    "https://myzeusui.com/r/artemis-controls.json",
+    "https://myzeusui.com/r/artemis-tokens.json"
+  ],
+  "files": [
+    {
+      "path": "application/artemis/artemis-usage-budget.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/artemis-usage-budget.tsx",
+      "content": "\"use client\";\nimport { ArtemisScope } from \"./artemis-scope\";\nimport Variant0 from \"./components/usage-budget/variants/01-overview\";\nexport interface ArtemisUsageBudgetProps { className?: string;  }\nexport function ArtemisUsageBudget({ className }: ArtemisUsageBudgetProps) { return <ArtemisScope className={`art:[&>*]:mx-auto ${className ?? \"\"}`}><Variant0/></ArtemisScope>; }\n"
+    },
+    {
+      "path": "application/artemis/components/usage-budget/variants/01-overview.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/usage-budget/variants/01-overview.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { motion, useReducedMotion } from \"motion/react\";\nimport { useState } from \"react\";\nimport { ArtemisButton } from \"../../../foundations/button\";\nimport { ArtemisDigitSwap } from \"../../../foundations/digit-swap\";\nimport { ARTEMIS_EASE_OUT } from \"../../../lib/ease\";\nexport default function UsageBudgetOverview() {\n    const used = 55.8;\n    const reduce = useReducedMotion();\n    const [budget, setBudget] = useState(100);\n    const [previousFilled, setPreviousFilled] = useState(22);\n    const [direction, setDirection] = useState<\"up\" | \"down\">(\"up\");\n    const percent = Math.round(used / budget * 100);\n    const filled = Math.min(40, Math.round(percent * 40 / 100));\n    const adjust = (amount: number) => {\n        setPreviousFilled(filled);\n        setDirection(amount > 0 ? \"up\" : \"down\");\n        setBudget(current => Math.max(25, current + amount));\n    };\n    return (<>\n      <section aria-label=\"Usage budget\" className=\"art:w-full art:max-w-lg art:rounded-3xl art:border art:border-border art:bg-background art:p-5 art:@min-[640px]/artemis:p-6\">\n        <header className=\"art:flex art:items-center art:justify-between\">\n          <h2 className=\"art:text-4xl art:font-medium\">\n            {\"Usage budget\"}\n          </h2>\n          <span className=\"art:text-xs art:text-muted-foreground\">\n            {\"September\"}\n          </span>\n        </header>\n        <div className=\"art:my-7 art:flex art:items-end art:justify-between art:gap-4\">\n          <div>\n            <p className=\"art:mb-2 art:text-sm art:text-muted-foreground\">\n              {\"Total used\"}\n            </p>\n            <div className=\"art:flex art:items-center art:gap-2\">\n              <ArtemisDigitSwap value=\"$55.80\" className=\"art:text-4xl art:font-medium art:tracking-tight\"/>\n              <span className=\"art:flex art:items-center art:gap-1 art:text-sm art:text-muted-foreground\">\n                {\"/ \"}\n                <ArtemisDigitSwap value={`$${budget}`} direction={direction}/>\n              </span>\n            </div>\n          </div>\n          <span className=\"art:flex art:size-11 art:items-center art:justify-center art:rounded-full art:bg-muted\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" className=\"art:lucide art:lucide-gauge art:size-5\" aria-hidden=\"true\">\n              <path d=\"m12 14 4-4\"/>\n              <path d=\"M3.34 19a10 10 0 1 1 17.32 0\"/>\n            </svg>\n          </span>\n        </div>\n        <div className=\"art:flex art:h-9 art:items-center art:gap-1\" aria-hidden=\"true\">\n          {Array.from({ length: 40 }, (_, index) => (<span key={index} className=\"art:relative art:h-full art:min-w-0 art:flex-1 art:overflow-hidden art:rounded-full art:bg-primary/10\">\n              <motion.span className=\"art:absolute art:inset-0 art:origin-bottom art:rounded-full art:bg-primary\" initial={{ opacity: 0, scaleY: 0 }} animate={{ opacity: index < filled ? 1 : 0, scaleY: index < filled ? 1 : 0 }} transition={reduce ? { duration: 0 } : { duration: 0.24, delay: index >= Math.min(previousFilled, filled) && index < Math.max(previousFilled, filled) ? (filled > previousFilled ? index - previousFilled : previousFilled - 1 - index) * 0.025 : 0, ease: ARTEMIS_EASE_OUT }}/>\n            </span>))}\n        </div>\n        <p className=\"art:mt-3 art:text-xs art:text-muted-foreground\">\n          {budget < used ? `$${(used - budget).toFixed(2)} over budget` : `$${(budget - used).toFixed(2)} remaining this month \\u00B7 ${percent}% used`}\n        </p>\n        <dl className=\"art:my-6 art:divide-y art:divide-border\">\n          <div className=\"art:flex art:items-center art:justify-between art:gap-4 art:py-3\">\n            <dt>\n              <span className=\"art:block art:text-sm art:font-medium\">\n                {\"Model inference\"}\n              </span>\n              <span className=\"art:text-xs art:text-muted-foreground\">\n                {\"1.8M tokens across 3 models\"}\n              </span>\n            </dt>\n            <dd className=\"art:text-sm art:tabular-nums\">\n              {\"$\"}\n              {\"38.40\"}\n            </dd>\n          </div>\n          <div className=\"art:flex art:items-center art:justify-between art:gap-4 art:py-3\">\n            <dt>\n              <span className=\"art:block art:text-sm art:font-medium\">\n                {\"Tool calls\"}\n              </span>\n              <span className=\"art:text-xs art:text-muted-foreground\">\n                {\"420 searches and browser actions\"}\n              </span>\n            </dt>\n            <dd className=\"art:text-sm art:tabular-nums\">\n              {\"$\"}\n              {\"12.60\"}\n            </dd>\n          </div>\n          <div className=\"art:flex art:items-center art:justify-between art:gap-4 art:py-3\">\n            <dt>\n              <span className=\"art:block art:text-sm art:font-medium\">\n                {\"Knowledge storage\"}\n              </span>\n              <span className=\"art:text-xs art:text-muted-foreground\">\n                {\"2.4 GB indexed\"}\n              </span>\n            </dt>\n            <dd className=\"art:text-sm art:tabular-nums\">\n              {\"$\"}\n              {\"4.80\"}\n            </dd>\n          </div>\n        </dl>\n        <div className=\"art:flex art:items-center art:justify-between art:gap-4 art:border-t art:border-border art:pt-4\">\n          <div>\n            <p className=\"art:text-sm art:font-medium\">\n              {\"Monthly limit\"}\n            </p>\n            <p className=\"art:text-xs art:text-muted-foreground\">\n              {\"Adjust in $25 increments\"}\n            </p>\n          </div>\n          <div className=\"art:flex art:items-center art:gap-3\">\n            <ArtemisButton variant=\"ghost\" size=\"icon\" className=\"art:size-9 art:border art:border-border art:h-9\" aria-label=\"Decrease budget\" onClick={() => adjust(-25)} disabled={budget <= 25}>\n              <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" className=\"art:lucide art:lucide-minus art:size-4\" aria-hidden=\"true\">\n                <path d=\"M5 12h14\"/>\n              </svg>\n            </ArtemisButton>\n            <output className=\"art:flex art:h-9 art:min-w-12 art:items-center art:justify-center art:text-sm art:leading-none art:tabular-nums\">\n              <ArtemisDigitSwap value={`$${budget}`} direction={direction}/>\n            </output>\n            <ArtemisButton variant=\"ghost\" size=\"icon\" className=\"art:size-9 art:border art:border-border art:h-9\" aria-label=\"Increase budget\" onClick={() => adjust(25)}>\n              <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" className=\"art:lucide art:lucide-plus art:size-4\" aria-hidden=\"true\">\n                <path d=\"M5 12h14\"/>\n                <path d=\"M12 5v14\"/>\n              </svg>\n            </ArtemisButton>\n          </div>\n        </div>\n      </section>\n    </>);\n}\n"
+    }
+  ],
+  "category": "blocks",
+  "family": "pricing",
+  "kind": "block",
+  "designSystem": "artemis",
+  "foundationDependencies": [
+    "artemis-tokens"
+  ],
+  "iconLibraries": [],
+  "tags": [
+    "artemis",
+    "usage-budget",
+    "motion"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "35f581d188f3"
+}

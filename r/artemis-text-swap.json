@@ -1,0 +1,50 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "artemis-text-swap",
+  "type": "registry:component",
+  "title": "Text swap",
+  "variants": [
+    {
+      "name": "alternating-swap",
+      "title": "Alternating swap"
+    }
+  ],
+  "description": "A fixed-footprint hover label where alternating letters roll in opposite directions through a short motion blur",
+  "dependencies": [
+    "motion@^12.42.2"
+  ],
+  "registryDependencies": [
+    "https://myzeusui.com/r/artemis-controls.json",
+    "https://myzeusui.com/r/artemis-tokens.json"
+  ],
+  "files": [
+    {
+      "path": "application/artemis/artemis-text-swap.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/artemis-text-swap.tsx",
+      "content": "\"use client\";\nimport { ArtemisScope } from \"./artemis-scope\";\nimport Variant0 from \"./components/animated-text/variants/01-alternating-swap\";\nexport interface ArtemisTextSwapProps {\n  className?: string;\n}\nexport function ArtemisTextSwap({ className }: ArtemisTextSwapProps) {\n  return (\n    <ArtemisScope className={`art:[&>*]:mx-auto ${className ?? \"\"}`}>\n      <div className=\"art:flex art:w-full art:justify-center\"><Variant0 /></div>\n    </ArtemisScope>\n  );\n}\n"
+    },
+    {
+      "path": "application/artemis/components/animated-text/variants/01-alternating-swap.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/animated-text/variants/01-alternating-swap.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { useState } from \"react\";\nimport { motion } from \"motion/react\";\nimport { ARTEMIS_EASE_OUT, ARTEMIS_SPRING_SWAP } from \"../../../lib/ease\";\nconst labels = [\"Explore\\u00A0work\", \"View\\u00A0projects\"] as const;\nfunction LetterRow({ text, row, active }: {\n    text: string;\n    row: number;\n    active: boolean;\n}) {\n    return (<span className=\"art:col-start-1 art:row-start-1 art:inline-flex art:whitespace-pre\">\n      {Array.from(text).map((letter, index) => {\n            const offset = (index % 2 === 0 ? -115 : 115) * (row === 0 ? 1 : -1);\n            const visible = row === 0 ? !active : active;\n            const initialY = row === 0 ? \"0%\" : `${offset}%`;\n            return (<span className=\"art:inline-grid art:overflow-hidden art:align-bottom\" key={`${row}-${index}`}>\n            <motion.span className=\"art:col-start-1 art:row-start-1 art:inline-block art:will-change-[transform,filter,opacity]\" initial={false} style={{ transform: `translateY(${initialY})`, opacity: row === 0 ? 1 : 0, filter: row === 0 ? \"blur(0px)\" : \"blur(7px)\" }} animate={{ transform: `translateY(${visible ? 0 : offset}%)`, opacity: visible ? 1 : 0, filter: visible ? \"blur(0px)\" : \"blur(7px)\" }} transition={{\n                    transform: { ...ARTEMIS_SPRING_SWAP, delay: index * 0.012 },\n                    opacity: { duration: 0.18, ease: ARTEMIS_EASE_OUT, delay: index * 0.012 },\n                    filter: { duration: 0.18, ease: ARTEMIS_EASE_OUT, delay: index * 0.012 },\n                }}>\n              {letter}\n            </motion.span>\n          </span>);\n        })}\n    </span>);\n}\nexport default function AnimatedTextAlternatingSwap() {\n    const [active, setActive] = useState(false);\n    return (<>\n      <a href=\"#alternating-text-swap\" className=\"art:group art:inline-flex art:min-h-12 art:items-center art:gap-3 art:border-border art:border-b art:pb-2 art:font-medium art:text-3xl art:text-foreground art:tracking-[-0.04em] art:outline-none art:@min-[640px]/artemis:text-5xl art:focus-visible:ring-2 art:focus-visible:ring-ring\" onMouseEnter={() => setActive(true)} onMouseLeave={() => setActive(false)}>\n        <span className=\"art:inline-grid\">\n          <span className=\"art:sr-only\">Explore work</span>\n          <span aria-hidden=\"true\" className=\"art:inline-grid art:whitespace-pre\">\n            <LetterRow text={labels[0]} row={0} active={active}/>\n            <LetterRow text={labels[1]} row={1} active={active}/>\n          </span>\n        </span>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" className=\"art:lucide art:lucide-arrow-up-right art:size-6 art:text-muted-foreground art:transition-transform art:duration-200 art:group-hover:translate-x-0.5 art:group-hover:-translate-y-0.5 art:@min-[640px]/artemis:size-8\" aria-hidden=\"true\">\n          <path d=\"M7 7h10v10\"/>\n          <path d=\"M7 17 17 7\"/>\n        </svg>\n      </a>\n    </>);\n}\n"
+    }
+  ],
+  "category": "animations",
+  "family": "typography",
+  "kind": "animation",
+  "designSystem": "artemis",
+  "foundationDependencies": [
+    "artemis-tokens"
+  ],
+  "iconLibraries": [],
+  "tags": [
+    "artemis",
+    "text-swap",
+    "motion"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "6296b313f52d"
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "artemis-morphic-card-modal",
+  "type": "registry:component",
+  "title": "Morphic card modal",
+  "variants": [
+    {
+      "name": "morphic-card-modal",
+      "title": "Morphic card modal"
+    }
+  ],
+  "description": "Apple-style card expansion modal. A card morphs into a full overlay using shared layout animation — no position hacks, just framer layoutId",
+  "dependencies": [
+    "@headlessui/react@^2.2.10",
+    "motion@^12.42.2"
+  ],
+  "registryDependencies": [
+    "https://myzeusui.com/r/artemis-controls.json",
+    "https://myzeusui.com/r/artemis-tokens.json"
+  ],
+  "files": [
+    {
+      "path": "application/artemis/artemis-morphic-card-modal.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/artemis-morphic-card-modal.tsx",
+      "content": "\"use client\";\nimport { ArtemisScope } from \"./artemis-scope\";\nimport Variant0 from \"./components/morphic-card-modal/variants/01-morphic-card-modal\";\nexport interface ArtemisMorphicCardModalProps { className?: string;  }\nexport function ArtemisMorphicCardModal({ className }: ArtemisMorphicCardModalProps) { return <ArtemisScope className={`art:[&>*]:mx-auto ${className ?? \"\"}`}><Variant0/></ArtemisScope>; }\n"
+    },
+    {
+      "path": "application/artemis/components/morphic-card-modal/variants/01-morphic-card-modal.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/morphic-card-modal/variants/01-morphic-card-modal.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { AnimatePresence, motion } from \"motion/react\";\nimport { type ReactNode, useId, useState } from \"react\";\nimport { Dialog, DialogTitle } from \"../../../lib/headless\";\nimport { ARTEMIS_EASE_OUT } from \"../../../lib/ease\";\ntype Item = {\n    id: string;\n    name: string;\n    description: string;\n    files: string[];\n};\nconst ITEMS: Item[] = [\n    {\n        id: \"chat-input\",\n        name: \"Agent Composer\",\n        description: \"Vercel AI SDK-compatible composer with model selection, reasoning, agents, skills, and attachments.\",\n        files: [\"agent-chat-input.tsx\", \"hooks.ts\", \"types.ts\"],\n    },\n    {\n        id: \"morphic-tooltip\",\n        name: \"Fluid Tooltip\",\n        description: \"Shared-layout tooltip that morphs between triggers with one animated surface.\",\n        files: [\"morphic-tooltip.tsx\"],\n    },\n];\nconst MODAL_SPRING = { type: \"spring\", visualDuration: 0.26, bounce: 0.08 } as const;\nfunction MorphicCard({ layoutId, onClick, children, }: {\n    layoutId: string;\n    onClick: () => void;\n    children: ReactNode;\n}) {\n    return (<motion.div layoutId={layoutId} role=\"button\" tabIndex={0} onKeyDown={event => { if (event.key === \"Enter\" || event.key === \" \") { event.preventDefault(); onClick(); } }} onClick={onClick} className=\"art:cursor-pointer art:rounded-3xl art:group art:border art:border-border art:bg-card art:p-4 art:transition-colors art:hover:border-border-strong\" style={{ opacity: 1 }}>\n      {children}\n    </motion.div>);\n}\nfunction MorphicCardModal({ layoutId, open, onClose, children, }: {\n    layoutId: string;\n    open: boolean;\n    onClose: () => void;\n    children: ReactNode;\n}) {\n    return (<AnimatePresence>\n      {open ? <Dialog static open={open} onClose={onClose} className=\"art:relative art:z-40\">\n      <motion.div key=\"backdrop\" className=\"art:fixed art:inset-0 art:z-40 art:bg-black/50 art:backdrop-blur-md\" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0, transition: { duration: 0.18, ease: ARTEMIS_EASE_OUT } }} transition={{ duration: 0.32, ease: ARTEMIS_EASE_OUT }} onClick={onClose}/>\n      <motion.div key=\"modal\" style={{ maxWidth: \"min(24rem, calc(100vw - 2rem))\" }} layoutId={layoutId} transition={MODAL_SPRING} className=\"art:rounded-3xl art:pointer-events-auto art:fixed art:inset-x-4 art:inset-y-0 art:z-50 art:m-auto art:h-fit art:max-h-[calc(100svh-2rem)] art:w-full art:max-w-sm art:overflow-x-hidden art:overflow-y-auto art:overscroll-contain art:border art:border-border art:bg-card art:shadow-2xl\">\n          <motion.div layout initial={{ opacity: 0, filter: \"blur(8px)\" }} animate={{ opacity: 1, filter: \"blur(0px)\" }} exit={{ opacity: 0, filter: \"blur(6px)\", transition: { duration: 0.12, ease: ARTEMIS_EASE_OUT } }} transition={{ duration: 0.3, ease: ARTEMIS_EASE_OUT, delay: 0.12 }}>\n            {children}\n          </motion.div>\n        </motion.div>\n      </Dialog> : null}\n    </AnimatePresence>);\n}\nfunction FileCodeIcon() {\n    return (<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" className=\"art:lucide art:lucide-file-code art:size-3.5 art:shrink-0 art:text-muted-foreground\" aria-hidden=\"true\">\n      <path d=\"M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z\"/>\n      <path d=\"M14 2v5a1 1 0 0 0 1 1h5\"/>\n      <path d=\"M10 12.5 8 15l2 2.5\"/>\n      <path d=\"m14 12.5 2 2.5-2 2.5\"/>\n    </svg>);\n}\nexport default function MorphicCardModalMorphicCardModal() {\n    const [open, setOpen] = useState<string | null>(null);\n    const active = ITEMS.find((i) => i.id === open) ?? null;\n    const uid = useId();\n    const close = () => setOpen(null);\n    return (<>\n      <div className=\"art:flex art:w-full art:max-w-xl art:flex-col art:gap-3\">\n        <div className=\"art:grid art:grid-cols-2 art:gap-3\">\n          {ITEMS.map((item) => (<MorphicCard key={item.id} layoutId={`${uid}-${item.id}`} onClick={() => setOpen(item.id)}>\n              <p className=\"art:font-semibold art:text-sm art:text-foreground\">\n                {item.name}\n              </p>\n              <p className=\"art:mt-1 art:line-clamp-2 art:text-muted-foreground art:text-xs\">\n                {item.description}\n              </p>\n              <span className=\"art:mt-3 art:inline-flex art:items-center art:gap-1 art:font-medium art:text-accent art:text-xs art:opacity-70 art:transition-opacity art:group-hover:opacity-100\">\n                {\"Click to expand\"}\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" className=\"art:lucide art:lucide-arrow-up-right art:size-3 art:transition-transform art:duration-200 art:ease-out art:group-hover:translate-x-0.5 art:group-hover:-translate-y-0.5\" aria-hidden=\"true\">\n                  <path d=\"M7 7h10v10\"/>\n                  <path d=\"M7 17 17 7\"/>\n                </svg>\n              </span>\n            </MorphicCard>))}\n        </div>\n        <MorphicCardModal layoutId={`${uid}-${active?.id ?? \"\"}`} open={Boolean(active)} onClose={close}>\n          {active ? (<div className=\"art:p-5\">\n              <div className=\"art:flex art:items-start art:justify-between art:gap-3\">\n                <div>\n                  <DialogTitle as=\"p\" className=\"art:font-semibold art:text-foreground\">{active.name}</DialogTitle>\n                  <p className=\"art:mt-1 art:text-muted-foreground art:text-sm\">{active.description}</p>\n                </div>\n                <button type=\"button\" aria-label=\"Close\" onClick={close} className=\"art:grid art:size-7 art:shrink-0 art:place-items-center art:rounded-lg art:text-muted-foreground art:transition-colors art:hover:text-foreground\">\n                  <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" className=\"art:lucide art:lucide-x art:size-4\" aria-hidden=\"true\">\n                    <path d=\"M18 6 6 18\"/>\n                    <path d=\"m6 6 12 12\"/>\n                  </svg>\n                </button>\n              </div>\n              <ul className=\"art:mt-4 art:space-y-1.5 art:rounded-xl art:bg-background art:px-3 art:py-2.5\">\n                {active.files.map((f) => (<li key={f} className=\"art:flex art:items-center art:gap-2\">\n                    <FileCodeIcon />\n                    <span className=\"art:font-mono art:text-xs\">{f}</span>\n                  </li>))}\n              </ul>\n            </div>) : null}\n        </MorphicCardModal>\n      </div>\n    </>);\n}\n"
+    }
+  ],
+  "category": "blocks",
+  "family": "overlays",
+  "kind": "component",
+  "designSystem": "artemis",
+  "foundationDependencies": [
+    "artemis-tokens"
+  ],
+  "iconLibraries": [],
+  "tags": [
+    "artemis",
+    "morphic-card-modal",
+    "motion"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "ee0a0fee6988"
+}

@@ -1,0 +1,86 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "artemis-balance-card",
+  "type": "registry:block",
+  "title": "Balance card",
+  "variants": [
+    {
+      "name": "balance",
+      "title": "Balance"
+    }
+  ],
+  "description": "A compact balance card with a framed account panel, overlapping account marks, large numeric hierarchy, and a shared two-action footer",
+  "dependencies": [
+    "motion@^12.42.2"
+  ],
+  "registryDependencies": [
+    "https://myzeusui.com/r/artemis-controls.json",
+    "https://myzeusui.com/r/artemis-tokens.json"
+  ],
+  "files": [
+    {
+      "path": "application/artemis/artemis-balance-card.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/artemis-balance-card.tsx",
+      "content": "\"use client\";\nimport { ArtemisScope } from \"./artemis-scope\";\nimport Variant0 from \"./components/cards/variants/01-balance\";\nexport interface ArtemisBalanceCardProps {\n  className?: string;\n}\nexport function ArtemisBalanceCard({ className }: ArtemisBalanceCardProps) {\n  return (\n    <ArtemisScope className={`art:[&>*]:mx-auto ${className ?? \"\"}`}>\n      <Variant0 />\n    </ArtemisScope>\n  );\n}\n"
+    },
+    {
+      "path": "application/artemis/components/cards/variants/01-balance.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/cards/variants/01-balance.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { motion, useReducedMotion } from \"motion/react\";\nimport { ARTEMIS_SPRING_PANEL, ARTEMIS_SPRING_PRESS } from \"../../../lib/ease\";\nimport { NumberTicker } from \"./01-balance/number-ticker\";\nexport default function CardsBalance() {\n    const reduce = useReducedMotion();\n    return (<>\n      <>\n        <article className=\"art:w-full art:max-w-[20.5rem] art:overflow-hidden art:rounded-3xl art:bg-background art:p-1.5 art:text-foreground\">\n          <div className=\"art:relative art:flex art:min-h-52 art:flex-col art:items-center art:justify-center art:overflow-hidden art:rounded-3xl art:border art:border-border art:bg-background art:px-6 art:py-7 art:text-center art:text-foreground\">\n            <ul className=\"art:flex art:-space-x-2\" aria-label=\"Included accounts\">\n              <motion.li whileHover={reduce ? undefined : { y: -5, zIndex: 10 }} transition={ARTEMIS_SPRING_PANEL} title=\"Bitcoin\" className=\"art:grid art:size-10 art:place-items-center art:rounded-full art:border-2 art:border-background art:[&_img]:size-[1.125rem] art:[&_img]:object-contain art:[&_svg]:size-[1.125rem] art:bg-[oklch(0.96_0.04_75)]\">\n                <span className=\"art:sr-only\">\n                  {\"Bitcoin\"}\n                </span>\n                <img src=\"/assets/artemis/b780e4ec4728e5918f23.svg\" alt=\"\" aria-hidden=\"true\"/>\n              </motion.li>\n              <motion.li whileHover={reduce ? undefined : { y: -5, zIndex: 10 }} transition={ARTEMIS_SPRING_PANEL} title=\"Ethereum\" className=\"art:grid art:size-10 art:place-items-center art:rounded-full art:border-2 art:border-background art:[&_img]:size-[1.125rem] art:[&_img]:object-contain art:[&_svg]:size-[1.125rem] art:bg-[oklch(0.95_0.035_265)]\">\n                <span className=\"art:sr-only\">\n                  {\"Ethereum\"}\n                </span>\n                <img src=\"/assets/artemis/c32814a6e84a552e1bb0.svg\" alt=\"\" aria-hidden=\"true\"/>\n              </motion.li>\n              <motion.li whileHover={reduce ? undefined : { y: -5, zIndex: 10 }} transition={ARTEMIS_SPRING_PANEL} title=\"Solana\" className=\"art:grid art:size-10 art:place-items-center art:rounded-full art:border-2 art:border-background art:[&_img]:size-[1.125rem] art:[&_img]:object-contain art:[&_svg]:size-[1.125rem] art:bg-[oklch(0.95_0.04_155)]\">\n                <span className=\"art:sr-only\">\n                  {\"Solana\"}\n                </span>\n                <img src=\"/assets/artemis/c2f85fa9d787b9bacfd6.svg\" alt=\"\" aria-hidden=\"true\"/>\n              </motion.li>\n              <motion.li whileHover={reduce ? undefined : { y: -5, zIndex: 10 }} transition={ARTEMIS_SPRING_PANEL} title=\"Tether\" className=\"art:grid art:size-10 art:place-items-center art:rounded-full art:border-2 art:border-background art:[&_img]:size-[1.125rem] art:[&_img]:object-contain art:[&_svg]:size-[1.125rem] art:bg-[oklch(0.95_0.04_165)]\">\n                <span className=\"art:sr-only\">\n                  {\"Tether\"}\n                </span>\n                <img src=\"/assets/artemis/a791e1e3def51d015c00.svg\" alt=\"\" aria-hidden=\"true\"/>\n              </motion.li>\n            </ul>\n            <p className=\"art:mt-4 art:font-medium art:text-xs art:uppercase art:tracking-[0.18em] art:opacity-70\">\n              {\"Total balance\"}\n            </p>\n            <NumberTicker text=\"$12,000.00\" className=\"art:mt-1 art:whitespace-nowrap art:font-semibold art:text-4xl art:leading-none art:tracking-[-0.05em]\"/>\n            <p className=\"art:mt-3 art:font-medium art:text-success art:text-xs art:tabular-nums\">\n              {\"+ $45.32 today\"}\n            </p>\n          </div>\n          <div className=\"art:grid art:grid-cols-[1fr_auto_1fr] art:items-center art:px-1.5 art:py-2.5\">\n            <motion.button whileHover={reduce ? undefined : { scale: 1.01 }} whileTap={reduce ? undefined : { scale: 0.99 }} transition={ARTEMIS_SPRING_PRESS} type=\"button\" className=\"art:inline-flex art:items-center art:justify-center art:font-medium art:select-none art:transition-colors art:disabled:pointer-events-none art:disabled:opacity-50 art:gap-2 art:px-3 art:text-sm art:text-foreground art:hover:bg-background/80 art:hover:text-foreground art:focus-visible:outline-none art:focus-visible:ring-2 art:focus-visible:ring-ring art:rounded-full art:h-9\" tabIndex={0}>\n              <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" className=\"art:lucide art:lucide-repeat2 art:lucide-repeat-2 art:size-[1.125rem]\" aria-hidden=\"true\">\n                <path d=\"m2 9 3-3 3 3\"/>\n                <path d=\"M13 18H7a2 2 0 0 1-2-2V6\"/>\n                <path d=\"m22 15-3 3-3-3\"/>\n                <path d=\"M11 6h6a2 2 0 0 1 2 2v10\"/>\n              </svg>\n              {\"Move\"}\n            </motion.button>\n            <span aria-hidden=\"true\" className=\"art:h-8 art:w-px art:bg-border\"/>\n            <motion.button whileHover={reduce ? undefined : { scale: 1.01 }} whileTap={reduce ? undefined : { scale: 0.99 }} transition={ARTEMIS_SPRING_PRESS} type=\"button\" className=\"art:inline-flex art:items-center art:justify-center art:font-medium art:select-none art:transition-colors art:disabled:pointer-events-none art:disabled:opacity-50 art:gap-2 art:px-3 art:text-sm art:text-foreground art:hover:bg-background/80 art:hover:text-foreground art:focus-visible:outline-none art:focus-visible:ring-2 art:focus-visible:ring-ring art:rounded-full art:h-9\" tabIndex={0}>\n              <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" className=\"art:lucide art:lucide-arrow-up-from-line art:size-[1.125rem]\" aria-hidden=\"true\">\n                <path d=\"m18 9-6-6-6 6\"/>\n                <path d=\"M12 3v14\"/>\n                <path d=\"M5 21h14\"/>\n              </svg>\n              {\"Send\"}\n            </motion.button>\n          </div>\n        </article>\n      </>\n    </>);\n}\n"
+    },
+    {
+      "path": "application/artemis/components/cards/variants/01-balance/number-ticker.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/cards/variants/01-balance/number-ticker.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { ArtemisRollingNumber } from \"../../../../lib/rolling-number\";\nexport function NumberTicker({ duration = 0.8, stagger = 0.035, ...props }: {\n  text: string; duration?: number; stagger?: number; className?: string;\n}) {\n  return <ArtemisRollingNumber {...props} duration={duration} stagger={stagger} blur blurUpdatesOnly/>;\n}\n"
+    },
+    {
+      "path": "application/artemis/lib/rolling-number.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/lib/rolling-number.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { animate, motion, useInView, useReducedMotion } from \"motion/react\";\nimport { useEffect, useRef, useState } from \"react\";\nimport { ARTEMIS_EASE_OUT } from \"./ease\";\nexport interface ArtemisRollingNumberProps {\n  text: string;\n  duration?: number;\n  stagger?: number;\n  className?: string;\n  reducedMotion?: boolean;\n  blur?: boolean;\n  activation?: \"in-view\" | \"immediate\" | \"mount\";\n  amount?: number;\n  prefix?: string;\n  suffix?: string;\n  label?: string;\n  blurUpdatesOnly?: boolean;\n  staggerDigitsOnly?: boolean;\n}\nfunction Wheel({ value, delay, duration, reduced, blur, fromZero, blurUpdatesOnly }: { value: string; delay: number; duration: number; reduced: boolean; blur: boolean; fromZero: boolean; blurUpdatesOnly: boolean }) {\n  const rail = useRef<HTMLSpanElement>(null);\n  const firstPaint = useRef(true);\n  useEffect(() => {\n    const initial = firstPaint.current;\n    firstPaint.current = false;\n    if (!rail.current) return;\n    if (!blur || reduced || value === \"0\" && !blurUpdatesOnly) { rail.current.style.filter = \"none\"; return; }\n    if (blurUpdatesOnly && initial) return;\n    const playback = animate(rail.current, { filter: [\"blur(10px)\", \"blur(0px)\"] }, { duration: 0.32, delay, ease: ARTEMIS_EASE_OUT });\n    return () => playback.stop();\n  }, [value, blur, reduced, blurUpdatesOnly]);\n  return <span className=\"art:relative art:inline-block\" style={{ clipPath: \"inset(0)\", lineHeight: \"1.1em\", height: \"1.1em\", width: \"1ch\", textAlign: \"center\" }}>\n    <span className=\"art:invisible\">{value}</span>\n    <motion.span ref={rail} className=\"art:absolute art:inset-x-0 art:top-0 art:flex art:flex-col art:items-center art:will-change-[transform,filter]\" initial={fromZero && !reduced ? { y: 0 } : false} animate={{ y: `${-Number(value) * 11 / 10}em` }} transition={reduced ? { duration: 0 } : { duration, delay, ease: ARTEMIS_EASE_OUT }}>\n      {Array.from({ length: 10 }, (_, digit) => <span key={digit} className=\"art:flex art:items-center art:justify-center art:leading-none\" style={{ height: \"1.1em\" }}>{digit}</span>)}\n    </motion.span>\n  </span>;\n}\nexport function ArtemisRollingNumber({ text, duration = 0.6, stagger = 0.02, className = \"\", reducedMotion, blur = false, activation = \"in-view\", amount = 0.6, prefix = \"\", suffix = \"\", label, blurUpdatesOnly = false, staggerDigitsOnly = false }: ArtemisRollingNumberProps) {\n  const anchor = useRef<HTMLSpanElement>(null);\n  const observed = useInView(anchor, { once: true, amount });\n  const visible = activation !== \"in-view\" || observed;\n  const preference = useReducedMotion() === true;\n  const reduced = reducedMotion ?? preference;\n  const [settled, setSettled] = useState(false);\n  const firstText = useRef(text), changedSinceMount = useRef(false);\n  if (text !== firstText.current) changedSinceMount.current = true;\n  useEffect(() => {\n    if (!visible || settled) return;\n    const timer = setTimeout(() => setSettled(true), (duration + text.length * stagger) * 1000);\n    return () => clearTimeout(timer);\n  }, [visible, settled, duration, stagger, text.length]);\n  return <span ref={anchor} className={`art:inline-flex art:items-baseline art:tabular-nums ${className}`}>\n    <span className=\"art:sr-only\">{label ?? prefix + text + suffix}</span>\n    <span aria-hidden=\"true\" className=\"art:inline-flex art:items-baseline\">{prefix && <span>{prefix}</span>}{Array.from(text, (char, index) => /[0-9]/.test(char)\n      ? <Wheel key={text.length - index} value={visible || reduced ? char : \"0\"} delay={settled || reduced || activation === \"mount\" && changedSinceMount.current ? 0 : (staggerDigitsOnly ? text.slice(0, index).replace(/\\D/g, \"\").length : index) * stagger} duration={duration} reduced={reduced} blur={blur} fromZero={activation === \"mount\"} blurUpdatesOnly={blurUpdatesOnly}/>\n      : <span key={text.length - index}>{char}</span>)}{suffix && <span>{suffix}</span>}</span>\n  </span>;\n}\n"
+    },
+    {
+      "path": "public/assets/artemis/a791e1e3def51d015c00.svg",
+      "type": "registry:file",
+      "target": "~/public/assets/artemis/a791e1e3def51d015c00.svg",
+      "content": "<svg fill=\"#26A17B\" role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><title>Tether</title><path d=\"M18.7538 10.5176c0 .6251-2.2379 1.1483-5.2381 1.2812l.0028.0007c-.0848.0064-.5233.0325-1.5012.0325-.7778 0-1.33-.0233-1.5237-.0325-3.0059-.1322-5.2495-.6555-5.2495-1.2819s2.2436-1.149 5.2495-1.2834v2.0442c.1965.0142.7594.0474 1.5372.0474.9334 0 1.4008-.0389 1.4849-.0466V9.2356c2.9994.1337 5.2381.657 5.2381 1.282zm5.19.5466L12.1248 22.389a.1803.1803 0 0 1-.2496 0L.0562 11.0635a.1781.1781 0 0 1-.0382-.2079l4.3762-9.1921a.1767.1767 0 0 1 .1626-.1026h14.8878a.1768.1768 0 0 1 .1612.1032l4.3762 9.1922a.1782.1782 0 0 1-.0382.2079zm-4.478-.4038c0-.8068-2.5515-1.4799-5.9473-1.6369V7.195h4.186V4.4055H6.3076V7.195h4.1852v1.8286c-3.4018.1562-5.9601.83-5.9601 1.6376 0 .8075 2.5583 1.4806 5.9601 1.6376v5.8618h3.025v-5.8639c3.394-.1563 5.948-.8295 5.948-1.6363z\"/></svg>"
+    },
+    {
+      "path": "public/assets/artemis/b780e4ec4728e5918f23.svg",
+      "type": "registry:file",
+      "target": "~/public/assets/artemis/b780e4ec4728e5918f23.svg",
+      "content": "<svg fill=\"#F7931A\" role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><title>Bitcoin</title><path d=\"M23.638 14.904c-1.602 6.43-8.113 10.34-14.542 8.736C2.67 22.05-1.244 15.525.362 9.105 1.962 2.67 8.475-1.243 14.9.358c6.43 1.605 10.342 8.115 8.738 14.548v-.002zm-6.35-4.613c.24-1.59-.974-2.45-2.64-3.03l.54-2.153-1.315-.33-.525 2.107c-.345-.087-.705-.167-1.064-.25l.526-2.127-1.32-.33-.54 2.165c-.285-.067-.565-.132-.84-.2l-1.815-.45-.35 1.407s.975.225.955.236c.535.136.63.486.615.766l-1.477 5.92c-.075.166-.24.406-.614.314.015.02-.96-.24-.96-.24l-.66 1.51 1.71.426.93.242-.54 2.19 1.32.327.54-2.17c.36.1.705.19 1.05.273l-.51 2.154 1.32.33.545-2.19c2.24.427 3.93.257 4.64-1.774.57-1.637-.03-2.58-1.217-3.196.854-.193 1.5-.76 1.68-1.93h.01zm-3.01 4.22c-.404 1.64-3.157.75-4.05.53l.72-2.9c.896.23 3.757.67 3.33 2.37zm.41-4.24c-.37 1.49-2.662.735-3.405.55l.654-2.64c.744.18 3.137.524 2.75 2.084v.006z\"/></svg>"
+    },
+    {
+      "path": "public/assets/artemis/c2f85fa9d787b9bacfd6.svg",
+      "type": "registry:file",
+      "target": "~/public/assets/artemis/c2f85fa9d787b9bacfd6.svg",
+      "content": "<svg fill=\"#14F195\" role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><title>Solana</title><path d=\"m23.8764 18.0313-3.962 4.1393a.9201.9201 0 0 1-.306.2106.9407.9407 0 0 1-.367.0742H.4599a.4689.4689 0 0 1-.2522-.0733.4513.4513 0 0 1-.1696-.1962.4375.4375 0 0 1-.0314-.2545.4438.4438 0 0 1 .117-.2298l3.9649-4.1393a.92.92 0 0 1 .3052-.2102.9407.9407 0 0 1 .3658-.0746H23.54a.4692.4692 0 0 1 .2523.0734.4531.4531 0 0 1 .1697.196.438.438 0 0 1 .0313.2547.4442.4442 0 0 1-.1169.2297zm-3.962-8.3355a.9202.9202 0 0 0-.306-.2106.941.941 0 0 0-.367-.0742H.4599a.4687.4687 0 0 0-.2522.0734.4513.4513 0 0 0-.1696.1961.4376.4376 0 0 0-.0314.2546.444.444 0 0 0 .117.2297l3.9649 4.1394a.9204.9204 0 0 0 .3052.2102c.1154.049.24.0744.3658.0746H23.54a.469.469 0 0 0 .2523-.0734.453.453 0 0 0 .1697-.1961.4382.4382 0 0 0 .0313-.2546.4444.4444 0 0 0-.1169-.2297zM.46 6.7225h18.7815a.9411.9411 0 0 0 .367-.0742.9202.9202 0 0 0 .306-.2106l3.962-4.1394a.4442.4442 0 0 0 .117-.2297.4378.4378 0 0 0-.0314-.2546.453.453 0 0 0-.1697-.196.469.469 0 0 0-.2523-.0734H4.7596a.941.941 0 0 0-.3658.0745.9203.9203 0 0 0-.3052.2102L.1246 5.9687a.4438.4438 0 0 0-.1169.2295.4375.4375 0 0 0 .0312.2544.4512.4512 0 0 0 .1692.196.4689.4689 0 0 0 .2518.0739z\"/></svg>"
+    },
+    {
+      "path": "public/assets/artemis/c32814a6e84a552e1bb0.svg",
+      "type": "registry:file",
+      "target": "~/public/assets/artemis/c32814a6e84a552e1bb0.svg",
+      "content": "<svg fill=\"#627EEA\" role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><title>Ethereum</title><path d=\"M11.944 17.97L4.58 13.62 11.943 24l7.37-10.38-7.372 4.35h.003zM12.056 0L4.69 12.223l7.365 4.354 7.365-4.35L12.056 0z\"/></svg>"
+    }
+  ],
+  "category": "blocks",
+  "family": "layout",
+  "kind": "block",
+  "designSystem": "artemis",
+  "foundationDependencies": [
+    "artemis-tokens"
+  ],
+  "iconLibraries": [],
+  "tags": [
+    "artemis",
+    "balance-card",
+    "motion"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "96a54967f8eb"
+}

@@ -24,20 +24,20 @@
   "meta": {
     "assets": [
       {
-        "url": "https://myzeusui.com/assets/annnimate/hero_run_02.jpg",
-        "target": "public/assets/annnimate/hero_run_02.jpg"
+        "url": "https://myzeusui.com/assets/zeus/hero_run_02.jpg",
+        "target": "public/assets/zeus/hero_run_02.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/product_half-zip_01.jpg",
-        "target": "public/assets/annnimate/product_half-zip_01.jpg"
+        "url": "https://myzeusui.com/assets/zeus/product_half-zip_01.jpg",
+        "target": "public/assets/zeus/product_half-zip_01.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/product_shoe_01.jpg",
-        "target": "public/assets/annnimate/product_shoe_01.jpg"
+        "url": "https://myzeusui.com/assets/zeus/product_shoe_01.jpg",
+        "target": "public/assets/zeus/product_shoe_01.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/product_tennis-racket_02.jpg",
-        "target": "public/assets/annnimate/product_tennis-racket_02.jpg"
+        "url": "https://myzeusui.com/assets/zeus/product_tennis-racket_02.jpg",
+        "target": "public/assets/zeus/product_tennis-racket_02.jpg"
       }
     ]
   },
@@ -49,7 +49,7 @@
   "iconLibraries": [],
   "tags": [
     "animation",
-    "annnimate",
+    "zeus",
     "menu",
     "hover",
     "dropdown"
@@ -57,5 +57,5 @@
   "status": "beta",
   "tier": "free",
   "isNew": true,
-  "hash": "582401528d44"
+  "hash": "cbebd0c2fc87"
 }

@@ -24,16 +24,16 @@
   "meta": {
     "assets": [
       {
-        "url": "https://myzeusui.com/assets/annnimate/action_leap_01.jpg",
-        "target": "public/assets/annnimate/action_leap_01.jpg"
+        "url": "https://myzeusui.com/assets/zeus/action_leap_01.jpg",
+        "target": "public/assets/zeus/action_leap_01.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/hero_profile_02.jpg",
-        "target": "public/assets/annnimate/hero_profile_02.jpg"
+        "url": "https://myzeusui.com/assets/zeus/hero_profile_02.jpg",
+        "target": "public/assets/zeus/hero_profile_02.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/hero_run_02.jpg",
-        "target": "public/assets/annnimate/hero_run_02.jpg"
+        "url": "https://myzeusui.com/assets/zeus/hero_run_02.jpg",
+        "target": "public/assets/zeus/hero_run_02.jpg"
       }
     ]
   },
@@ -45,7 +45,7 @@
   "iconLibraries": [],
   "tags": [
     "animation",
-    "annnimate",
+    "zeus",
     "menu",
     "click",
     "gooey"
@@ -53,5 +53,5 @@
   "status": "beta",
   "tier": "free",
   "isNew": true,
-  "hash": "e4eaa25087f2"
+  "hash": "8cacf2878009"
 }

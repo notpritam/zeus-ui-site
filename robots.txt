@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /frame/
+
+Sitemap: https://myzeusui.com/sitemap.xml

@@ -32,8 +32,8 @@
   "meta": {
     "assets": [
       {
-        "url": "https://myzeusui.com/assets/annnimate/hero_run_02.jpg",
-        "target": "public/assets/annnimate/hero_run_02.jpg"
+        "url": "https://myzeusui.com/assets/zeus/hero_run_02.jpg",
+        "target": "public/assets/zeus/hero_run_02.jpg"
       }
     ]
   },
@@ -45,12 +45,12 @@
   "iconLibraries": [],
   "tags": [
     "animation",
-    "annnimate",
+    "zeus",
     "morphing-dialog",
     "click"
   ],
   "status": "beta",
   "tier": "free",
   "isNew": true,
-  "hash": "c9ec9a8dd435"
+  "hash": "1d937d745009"
 }

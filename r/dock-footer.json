@@ -32,8 +32,8 @@
   "meta": {
     "assets": [
       {
-        "url": "https://myzeusui.com/assets/annnimate/texture_fabric-macro_01.jpg",
-        "target": "public/assets/annnimate/texture_fabric-macro_01.jpg"
+        "url": "https://myzeusui.com/assets/zeus/texture_fabric-macro_01.jpg",
+        "target": "public/assets/zeus/texture_fabric-macro_01.jpg"
       }
     ]
   },
@@ -45,12 +45,12 @@
   "iconLibraries": [],
   "tags": [
     "animation",
-    "annnimate",
+    "zeus",
     "scroll",
     "click"
   ],
   "status": "beta",
   "tier": "free",
   "isNew": true,
-  "hash": "173e8816afe7"
+  "hash": "d1cf745216ac"
 }

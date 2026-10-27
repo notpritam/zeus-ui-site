@@ -1,0 +1,50 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "artemis-segmented-meter",
+  "type": "registry:component",
+  "title": "Segmented meter",
+  "variants": [
+    {
+      "name": "segmented-meter",
+      "title": "Segmented meter"
+    }
+  ],
+  "description": "A capacity meter split into colored segments, with a gliding tooltip, a linked legend, selection, and hover state you can share with tables or lists",
+  "dependencies": [
+    "motion@^12.42.2"
+  ],
+  "registryDependencies": [
+    "https://myzeusui.com/r/artemis-controls.json",
+    "https://myzeusui.com/r/artemis-tokens.json"
+  ],
+  "files": [
+    {
+      "path": "application/artemis/artemis-segmented-meter.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/artemis-segmented-meter.tsx",
+      "content": "\"use client\";\nimport { ArtemisScope } from \"./artemis-scope\";\nimport Variant0 from \"./components/charts/variants/02-segmented-meter\";\nexport interface ArtemisSegmentedMeterProps {\n  className?: string;\n}\nexport function ArtemisSegmentedMeter({ className }: ArtemisSegmentedMeterProps) {\n  return (\n    <ArtemisScope className={`art:[&>*]:mx-auto ${className ?? \"\"}`}>\n      <Variant0 />\n    </ArtemisScope>\n  );\n}\n"
+    },
+    {
+      "path": "application/artemis/components/charts/variants/02-segmented-meter.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/charts/variants/02-segmented-meter.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { AnimatePresence, motion, useReducedMotion } from \"motion/react\";\nimport { Fragment, useState } from \"react\";\nimport { ARTEMIS_EASE_OUT, ARTEMIS_SPRING_SWAP } from \"../../../lib/ease\";\nconst TYPES = [\n    { label: \"Photos\", gb: 612, color: \"art:bg-sky-500\" },\n    { label: \"Video\", gb: 438, color: \"art:bg-orange-500\" },\n    { label: \"Documents\", gb: 214, color: \"art:bg-emerald-500\" },\n    { label: \"Backups\", gb: 161, color: \"art:bg-amber-500\" },\n] as const;\nconst CAPACITY = 2000;\nconst USED = TYPES.reduce((sum, t) => sum + t.gb, 0);\nconst FREE = CAPACITY - USED;\nconst share = (gb: number) => Number(((gb / CAPACITY) * 100).toFixed(4));\nconst pct = (v: number) => `${Number(v.toFixed(4))}%`;\nconst centreOf = (i: number) => TYPES.slice(0, i).reduce((sum, t) => sum + share(t.gb), 0) + share(TYPES[i].gb) / 2;\nconst SEGMENT = \"art:items-center art:justify-center art:select-none art:transition-colors art:disabled:pointer-events-none art:disabled:opacity-50 art:gap-2 art:text-sm art:focus-visible:outline-none art:focus-visible:ring-2 art:focus-visible:ring-ring art:focus-visible:ring-offset-2 art:focus-visible:ring-offset-background art:inline-block art:p-0 art:font-normal art:text-inherit art:hover:bg-transparent art:hover:text-inherit art:relative art:h-full art:min-w-0 art:after:absolute art:after:-inset-y-3 art:after:inset-x-0 art:after:content-[''] art:rounded-full\";\nconst LEGEND = \"art:justify-center art:select-none art:disabled:pointer-events-none art:disabled:opacity-50 art:text-sm art:focus-visible:outline-none art:focus-visible:ring-2 art:focus-visible:ring-ring art:focus-visible:ring-offset-2 art:focus-visible:ring-offset-background art:h-auto art:p-0 art:font-normal art:text-inherit art:hover:bg-transparent art:hover:text-inherit art:flex art:min-h-8 art:items-center art:gap-2 art:px-1 art:transition-opacity art:duration-200 art:rounded-full\";\nconst GROW = { duration: 0.7, ease: ARTEMIS_EASE_OUT } as const;\nconst DIM = { duration: 0.2, ease: \"easeOut\" } as const;\nconst TIP_EXIT = { duration: 0.14, ease: [0.4, 0, 1, 1] } as const;\nconst SWAP = { duration: 0.16, ease: ARTEMIS_EASE_OUT } as const;\nconst INSTANT = { duration: 0 } as const;\nfunction LegendValue({ text }: {\n    text: string;\n}) {\n    return (<span data-slot=\"digit-swap\" data-direction=\"up\" className=\"art:inline-flex art:items-baseline art:whitespace-nowrap art:font-mono art:text-foreground art:text-xs art:tabular-nums\">\n      <span className=\"art:sr-only\">{text}</span>\n      <span aria-hidden=\"true\" className=\"art:inline-flex art:items-baseline\">\n        {Array.from(text, (ch, i) => (<Fragment key={i}>\n            {ch === \" \" ? (<span className=\"art:inline-block art:w-[0.7ch]\"/>) : (<span data-slot=\"digit-swap-glyph\" className={`art:relative art:inline-block art:h-[1.1em] art:shrink-0 art:leading-[1.1em] art:[clip-path:inset(0)]${/\\d/.test(ch) ? \" art:w-[1ch] art:text-center\" : \"\"}`}>\n                <span className=\"art:invisible\">{ch}</span>\n                <span className=\"art:absolute art:inset-0 art:flex art:items-center art:justify-center art:leading-none\" style={{ opacity: 1, transform: \"translateY(0%)\" }}>\n                  {ch}\n                </span>\n              </span>)}\n          </Fragment>))}\n      </span>\n    </span>);\n}\nexport default function ChartsSegmentedMeter() {\n    const reduce = useReducedMotion() ?? false;\n    const [hovered, setHovered] = useState<number | null>(null);\n    const [selected, setSelected] = useState<number | null>(null);\n    const active = hovered ?? selected;\n    const toggle = (i: number) => setSelected((prev) => (prev === i ? null : i));\n    const handlers = (i: number) => ({\n        onMouseEnter: () => setHovered(i),\n        onMouseLeave: () => setHovered((prev) => (prev === i ? null : prev)),\n        onFocus: () => setHovered(i),\n        onBlur: () => setHovered((prev) => (prev === i ? null : prev)),\n        onClick: () => toggle(i),\n    });\n    return (<>\n      <div className=\"art:mx-auto art:w-full art:max-w-xl\">\n        <div className=\"art:flex art:items-baseline art:justify-between art:gap-3 art:text-sm\">\n          <p className=\"art:font-medium\">{\"Storage\"}</p>\n          <p className=\"art:text-muted-foreground art:tabular-nums\">{`${USED.toLocaleString(\"en-US\")} of ${CAPACITY.toLocaleString(\"en-US\")} GB`}</p>\n        </div>\n        <figure aria-label=\"Storage by file type\" className=\"art:m-0 art:w-full\">\n          <div className=\"art:relative art:mt-16\">\n            <AnimatePresence>\n              {hovered !== null && (<motion.div key=\"tip\" aria-hidden=\"true\" className=\"art:pointer-events-none art:absolute art:bottom-full art:z-10 art:mb-3 art:-translate-x-1/2 art:whitespace-nowrap art:rounded-2xl art:border art:border-border art:bg-background art:px-3.5 art:py-2.5\" initial={{ opacity: 0, left: pct(centreOf(hovered)), y: 6, scale: 0.96 }} animate={{ opacity: 1, left: pct(centreOf(hovered)), y: 0, scale: 1 }} exit={{ opacity: 0, y: 4, scale: 0.97, transition: reduce ? INSTANT : TIP_EXIT }} transition={reduce ? INSTANT : ARTEMIS_SPRING_SWAP}>\n                  <AnimatePresence mode=\"popLayout\" initial={false}>\n                    <motion.div key={hovered} initial={{ opacity: 0, y: 4 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -4 }} transition={reduce ? INSTANT : SWAP}>\n                      <p className=\"art:font-medium art:text-sm\">{TYPES[hovered].label}</p>\n                      <p className=\"art:mt-0.5 art:text-muted-foreground art:text-xs art:tabular-nums\">{`${TYPES[hovered].gb} GB \\u00B7 ${((TYPES[hovered].gb / USED) * 100).toFixed(1)}% of use`}</p>\n                    </motion.div>\n                  </AnimatePresence>\n                </motion.div>)}\n            </AnimatePresence>\n            <div className=\"art:flex art:h-2.5 art:w-full art:gap-1\">\n              {TYPES.map((t, i) => (<motion.button key={t.label} type=\"button\" className={SEGMENT} aria-label={`${t.label}: ${t.gb} GB`} aria-pressed={selected === i} style={{ flexBasis: \"0px\", originX: 0, flexGrow: share(t.gb) }} initial={{ scaleX: 0, opacity: 1 }} animate={{ scaleX: 1, opacity: active !== null && active !== i ? 0.35 : 1 }} transition={{ scaleX: reduce ? INSTANT : { ...GROW, delay: 0.35 + i * 0.08 }, opacity: reduce ? INSTANT : DIM }} {...handlers(i)}>\n                  <span className={`art:absolute art:inset-0 art:rounded-full ${t.color}`}/>\n                </motion.button>))}\n              <span aria-hidden=\"true\" className=\"art:h-full art:rounded-full art:bg-muted\" style={{ flexBasis: \"0px\", flexGrow: share(FREE) }}/>\n            </div>\n          </div>\n          <div className=\"art:mt-4 art:flex art:flex-wrap art:items-center art:gap-x-5 art:gap-y-2 art:text-sm\">\n            {TYPES.map((t, i) => (<button key={t.label} type=\"button\" className={`${LEGEND}${active !== null && active !== i ? \" art:opacity-40\" : \"\"}`} aria-pressed={selected === i} {...handlers(i)}>\n                <span className={`art:size-2 art:rounded-full ${t.color}`}/>\n                <span className=\"art:text-muted-foreground\">{t.label}</span>\n                <LegendValue text={`${t.gb} GB`}/>\n              </button>))}\n            <span className=\"art:ml-auto art:text-muted-foreground art:text-xs\">{`${FREE} GB free`}</span>\n          </div>\n        </figure>\n        <p className=\"art:mt-6 art:text-muted-foreground art:text-sm\" aria-live=\"polite\">\n          {selected === null ? \"Select a segment to filter\" : `Showing ${TYPES[selected].label.toLowerCase()} only`}\n        </p>\n      </div>\n    </>);\n}\n"
+    }
+  ],
+  "category": "charts",
+  "family": "data",
+  "kind": "chart",
+  "designSystem": "artemis",
+  "foundationDependencies": [
+    "artemis-tokens"
+  ],
+  "iconLibraries": [],
+  "tags": [
+    "artemis",
+    "segmented-meter",
+    "motion"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "48591ed7bbcb"
+}

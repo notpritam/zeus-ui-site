@@ -1,0 +1,1 @@
+function s(y,a){if(a.length<3)return!1;let t=0;for(let r=0;r<a.length;r++){const e=a[r],x=a[(r+1)%a.length],h=(x.x-e.x)*(y.y-e.y)-(y.x-e.x)*(x.y-e.y);if(Math.abs(h)<1e-8&&y.x>=Math.min(e.x,x.x)&&y.x<=Math.max(e.x,x.x)&&y.y>=Math.min(e.y,x.y)&&y.y<=Math.max(e.y,x.y))return!0;e.y<=y.y&&x.y>y.y&&h>0&&t++,e.y>y.y&&x.y<=y.y&&h<0&&t--}return t!==0}export{s as i};

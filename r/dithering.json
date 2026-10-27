@@ -30,8 +30,8 @@
   "meta": {
     "assets": [
       {
-        "url": "https://myzeusui.com/assets/annnimate/hero_profile_02.jpg",
-        "target": "public/assets/annnimate/hero_profile_02.jpg"
+        "url": "https://myzeusui.com/assets/zeus/hero_profile_02.jpg",
+        "target": "public/assets/zeus/hero_profile_02.jpg"
       }
     ]
   },
@@ -43,7 +43,7 @@
   "iconLibraries": [],
   "tags": [
     "animation",
-    "annnimate",
+    "zeus",
     "shader",
     "dithering",
     "hover"
@@ -51,5 +51,5 @@
   "status": "beta",
   "tier": "free",
   "isNew": true,
-  "hash": "fb915977e33c"
+  "hash": "d68c56c8f8e0"
 }

@@ -1,0 +1,59 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "artemis-story-card",
+  "type": "registry:block",
+  "title": "Story card",
+  "variants": [
+    {
+      "name": "story",
+      "title": "Story"
+    }
+  ],
+  "description": "A tall editorial story card with category and date markers, concise narrative copy, and a location-aware image treatment",
+  "dependencies": [
+    "motion@^12.42.2"
+  ],
+  "registryDependencies": [
+    "https://myzeusui.com/r/artemis-controls.json",
+    "https://myzeusui.com/r/artemis-tokens.json"
+  ],
+  "files": [
+    {
+      "path": "application/artemis/artemis-story-card.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/artemis-story-card.tsx",
+      "content": "\"use client\";\nimport { ArtemisScope } from \"./artemis-scope\";\nimport Variant0 from \"./components/cards/variants/05-story\";\nexport interface ArtemisStoryCardProps {\n  className?: string;\n}\nexport function ArtemisStoryCard({ className }: ArtemisStoryCardProps) {\n  return (\n    <ArtemisScope className={`art:[&>*]:mx-auto ${className ?? \"\"}`}>\n      <Variant0 />\n    </ArtemisScope>\n  );\n}\n"
+    },
+    {
+      "path": "application/artemis/components/cards/variants/05-story.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/cards/variants/05-story.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { motion, useInView, useReducedMotion } from \"motion/react\";\nimport { useRef, useState } from \"react\";\nimport { ARTEMIS_EASE_OUT, ARTEMIS_SPRING_PANEL } from \"../../../lib/ease\";\nexport default function CardsStory() {\n    const root = useRef<HTMLElement>(null);\n    const inView = useInView(root, { once: true, amount: 0.2 });\n    const reduce = useReducedMotion();\n    const [hovered, setHovered] = useState(false);\n    return (<>\n      <>\n        <motion.article ref={root} initial={{ opacity: 0, y: 14 }} animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 14 }} transition={reduce ? { duration: 0 } : { duration: 0.5, ease: ARTEMIS_EASE_OUT }} onHoverStart={() => setHovered(true)} onHoverEnd={() => setHovered(false)} className=\"art:relative art:w-full art:max-w-md art:rounded-3xl art:border art:border-border art:bg-background art:p-4 art:@min-[640px]/artemis:rounded-3xl art:@min-[640px]/artemis:p-6\">\n          <div className=\"art:flex art:items-center art:justify-between art:gap-4 art:px-1 art:@min-[640px]/artemis:px-2\">\n            <span className=\"art:inline-flex art:h-8 art:items-center art:rounded-lg art:bg-primary art:px-3 art:font-medium art:text-xs art:text-primary-foreground\">\n              {\"Field notes\"}\n            </span>\n            <div className=\"art:flex art:h-8 art:overflow-hidden art:rounded-lg art:border art:border-border art:bg-primary art:font-medium art:text-xs\">\n              <span className=\"art:grid art:min-w-11 art:place-items-center art:px-2.5 art:text-primary-foreground\">\n                {\"SEP\"}\n              </span>\n              <span className=\"art:grid art:min-w-10 art:place-items-center art:rounded-lg art:bg-background art:px-2.5 art:text-foreground\">\n                {\"04\"}\n              </span>\n            </div>\n          </div>\n          <div className=\"art:px-1 art:pt-8 art:pb-7 art:@min-[640px]/artemis:px-2 art:@min-[640px]/artemis:pt-10 art:@min-[640px]/artemis:pb-8\">\n            <h2 className=\"art:text-balance art:text-foreground art:leading-[1.05] art:tracking-[-0.04em] art:text-4xl art:font-medium\">\n              {\"Discovering quiet\"}\n            </h2>\n            <p className=\"art:mt-4 art:max-w-[36ch] art:text-pretty art:text-muted-foreground art:text-sm art:leading-6 art:@min-[640px]/artemis:text-base art:@min-[640px]/artemis:leading-7\">\n              {\"Beyond the city, green ridgelines stretch into the horizon under a veil of morning mist.\"}\n            </p>\n          </div>\n          <div className=\"art:relative art:aspect-[4/3] art:overflow-hidden art:rounded-3xl art:border art:border-border art:@min-[640px]/artemis:rounded-3xl\">\n            <motion.div animate={{ scale: hovered && !reduce ? 1.035 : 1 }} transition={ARTEMIS_SPRING_PANEL} className=\"art:absolute art:-inset-1\">\n              <img src=\"/assets/artemis/48ec124ce0933be4634d.avif\" alt=\"Green mountain ridges beneath a cloudy sky\" className=\"art:size-full art:object-cover\"/>\n            </motion.div>\n            <div aria-hidden=\"true\" className=\"art:absolute art:inset-x-0 art:bottom-0 art:h-2/5 art:bg-gradient-to-t art:from-background/50 art:to-transparent\"/>\n            <div className=\"art:absolute art:bottom-4 art:left-4 art:flex art:max-w-[75%] art:items-start art:gap-2 art:rounded-2xl art:border art:border-border art:bg-background/80 art:px-3 art:py-2.5 art:text-foreground art:backdrop-blur-md art:@min-[640px]/artemis:bottom-5 art:@min-[640px]/artemis:left-5\">\n              <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" className=\"art:lucide art:lucide-map-pin art:mt-0.5 art:size-4 art:shrink-0\" aria-hidden=\"true\">\n                <path d=\"M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0\"/>\n                <circle cx=\"12\" cy=\"10\" r=\"3\"/>\n              </svg>\n              <div className=\"art:min-w-0\">\n                <p className=\"art:truncate art:font-medium art:text-sm\">\n                  {\"Pine Ridge\"}\n                </p>\n                <p className=\"art:mt-0.5 art:truncate art:text-muted-foreground art:text-xs\">\n                  {\"Virginia, USA\"}\n                </p>\n              </div>\n            </div>\n          </div>\n        </motion.article>\n      </>\n    </>);\n}\n"
+    }
+  ],
+  "docs": "artemis-story-card: 1 demo image is not part of the shadcn install. Download from the URLs in meta.assets into the same public/ paths, or install with the zeus-ui CLI, which copies them.",
+  "meta": {
+    "assets": [
+      {
+        "url": "https://myzeusui.com/assets/artemis/48ec124ce0933be4634d.avif",
+        "target": "public/assets/artemis/48ec124ce0933be4634d.avif"
+      }
+    ]
+  },
+  "category": "blocks",
+  "family": "layout",
+  "kind": "block",
+  "designSystem": "artemis",
+  "foundationDependencies": [
+    "artemis-tokens"
+  ],
+  "iconLibraries": [],
+  "tags": [
+    "artemis",
+    "story-card",
+    "motion"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "755df96c0e4e"
+}

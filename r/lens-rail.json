@@ -24,28 +24,28 @@
   "meta": {
     "assets": [
       {
-        "url": "https://myzeusui.com/assets/annnimate/product_ball_05.jpg",
-        "target": "public/assets/annnimate/product_ball_05.jpg"
+        "url": "https://myzeusui.com/assets/zeus/product_ball_05.jpg",
+        "target": "public/assets/zeus/product_ball_05.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/product_football-boot_06.jpg",
-        "target": "public/assets/annnimate/product_football-boot_06.jpg"
+        "url": "https://myzeusui.com/assets/zeus/product_football-boot_06.jpg",
+        "target": "public/assets/zeus/product_football-boot_06.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/product_shoe_06.jpg",
-        "target": "public/assets/annnimate/product_shoe_06.jpg"
+        "url": "https://myzeusui.com/assets/zeus/product_shoe_06.jpg",
+        "target": "public/assets/zeus/product_shoe_06.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/product_tennis-racket_02.jpg",
-        "target": "public/assets/annnimate/product_tennis-racket_02.jpg"
+        "url": "https://myzeusui.com/assets/zeus/product_tennis-racket_02.jpg",
+        "target": "public/assets/zeus/product_tennis-racket_02.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/scatter_ball-rackets_01.jpg",
-        "target": "public/assets/annnimate/scatter_ball-rackets_01.jpg"
+        "url": "https://myzeusui.com/assets/zeus/scatter_ball-rackets_01.jpg",
+        "target": "public/assets/zeus/scatter_ball-rackets_01.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/silhouette_eyewear-silhouette_01.jpg",
-        "target": "public/assets/annnimate/silhouette_eyewear-silhouette_01.jpg"
+        "url": "https://myzeusui.com/assets/zeus/silhouette_eyewear-silhouette_01.jpg",
+        "target": "public/assets/zeus/silhouette_eyewear-silhouette_01.jpg"
       }
     ]
   },
@@ -57,12 +57,12 @@
   "iconLibraries": [],
   "tags": [
     "animation",
-    "annnimate",
+    "zeus",
     "drag",
     "click"
   ],
   "status": "beta",
   "tier": "free",
   "isNew": true,
-  "hash": "4286707e2f0e"
+  "hash": "9ef63048e079"
 }

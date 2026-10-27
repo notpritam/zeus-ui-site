@@ -1,199 +1,329 @@
 # Zeus UI
 
-The best components for your agent. Curated React components for websites, dashboards, AI products and everyday interfaces.
+Pick every element. See it live. Your agent builds exactly that. Free, live UI components and a Studio for people who build with coding agents.
 
-- [Agent manifest](https://myzeusui.com/agents.json): 178 components with examples, install commands and source URLs.
+- [Agent manifest](https://myzeusui.com/agents.json): 312 components and templates with examples and install commands.
 - [Registry](https://myzeusui.com/r/registry.json)
-- [Documentation](https://myzeusui.com/foundations/)
+- [Styles](https://myzeusui.com/styles/)
+- [Setup for agents](https://myzeusui.com/agents/)
 
-## Install source
+## Install
 
-Run `npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.3.3.tgz zeus-ui add agent-limits-card` in your React project. Source, dependencies and token styles are installed together. Import the copied styles once; see the getting started guide.
-
-## Curated collections
-
-- [Featured](https://myzeusui.com/components/?collection=featured): Standout details. Useful foundations. Editorial selection.
-- [Trending picks](https://myzeusui.com/components/?collection=trending): Our curated edit of expressive motion and thoughtful AI interfaces. Editorial selection.
-- [Everyday essentials](https://myzeusui.com/components/?collection=essentials): Useful components for the work every interface needs to do. Editorial selection.
-- [New additions](https://myzeusui.com/components/?collection=new): New ways to shape, move and explore a complete interface. Editorial selection.
+- Source: `npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add <name>` copies the source, its dependencies and styles into your React project.
+- shadcn: `npx shadcn@latest add https://myzeusui.com/r/<name>.json`
+- MCP: `claude mcp add zeus -- npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-mcp-0.4.0.tgz zeus-mcp`
 
 ## Components
 
-- [Background Fill Button](https://myzeusui.com/components/background-fill-button/): A rounded background rises from below as the button gently compresses
-- [Circle Fill Button](https://myzeusui.com/components/circle-fill-button/): A circle grows from the cursor entry point to fill every corner in the same duration
-- [Curve Fill Button](https://myzeusui.com/components/curve-fill-button/): A curved wave enters from the nearest pointer edge and rolls back out
-- [Animated Icon Button](https://myzeusui.com/components/animated-icon-button/): A circular icon background fills the button while icons cycle diagonally
-- [Magnetic Button](https://myzeusui.com/components/magnetic-button/): The button and its label follow the pointer independently before springing home
-- [Rainbow Button](https://myzeusui.com/components/rainbow-button/): A dark button with a flowing rainbow border and a glow that expands on hover
-- [Text Underline](https://myzeusui.com/components/text-underline/): An underline draws from the left and erases toward the right on hover or focus
-- [Mesh Gradient](https://myzeusui.com/components/mesh-gradient/): Moving blended color fields with pointer displacement and a static fallback
-- [Dithering](https://myzeusui.com/components/dithering/): Ordered dot rendering with a smooth lens that restores original image colors
-- [Image Glitch](https://myzeusui.com/components/image-glitch/): Analog scan lines, separated color channels and digital block tearing on hover
-- [Gooey Hover Reveal](https://myzeusui.com/components/gooey-hover-reveal/): A decaying liquid mask reveals content under the moving pointer
-- [Dither Cursor Trail](https://myzeusui.com/components/dither-cursor-trail/): Pointer marks break into ordered dots as their trail fades away
-- [Image Dissolve Scroll](https://myzeusui.com/components/image-dissolve-scroll/): Scroll dissolves an image through irregular noise boundaries and a glowing edge
-- [Grid Chapters](https://myzeusui.com/components/grid-chapters/): Pinned chapter headings exchange masked lines while image columns pass independently through a visible grid
-- [Network Globe](https://myzeusui.com/components/network-globe/): A draggable dotted sphere rotates toward selected locations and draws raised routes between them
-- [Dock Footer](https://myzeusui.com/components/dock-footer/): Scroll uncovers a staggered footer and a translucent navigation dock that expands at the page bottom
-- [Flip Filter](https://myzeusui.com/components/flip-filter/): Category and grid/list changes preserve product cards through measured, interruptible FLIP layout transitions
-- [Capsule Hero](https://myzeusui.com/components/capsule-hero/): Large letterforms part around a rounded media aperture that expands on activation and reverses on close
-- [Wipe Slider](https://myzeusui.com/components/wipe-slider/): Directional background wipes coordinate masked slide text and a rolling percentage index
-- [Step Wipe](https://myzeusui.com/components/step-wipe/): A pinned product sequence synchronizes separate background, foreground, caption and numbering wipes with scroll
-- [Gradient Footer](https://myzeusui.com/components/gradient-footer/): A scroll-revealed footer combines a bottom glow, width-filling brand typography and animated link underlines
-- [Testimonial Globe](https://myzeusui.com/components/testimonial-globe/): Portraits rotate on a draggable sphere beneath translucent quotation cards with a lighter mobile presentation
-- [Drift Gallery](https://myzeusui.com/components/drift-gallery/): Product cards separate on grab and travel with release inertia that controls grain and color intensity
-- [Morphing Pill Menu](https://myzeusui.com/components/morphing-pill-menu/): A compact pill expands into navigation with staggered and rolling links
-- [Gooey Menu](https://myzeusui.com/components/gooey-menu/): Floating actions separate through liquid connections in arc, radial, row or grid arrangements
-- [Mega Menu](https://myzeusui.com/components/mega-menu/): A shared dropdown resizes between navigation groups with mobile accordion navigation
-- [Fullscreen Slide Menu](https://myzeusui.com/components/fullscreen-slide-menu/): Navigation turns the page away and reveals a full-screen menu with changing imagery
-- [Scatter Cluster](https://myzeusui.com/components/scatter-cluster/): A central overlapping pile of image and statistic cards separates into a surrounding arrangement with scroll progress, revealing the headline beneath
-- [Multi Flip](https://myzeusui.com/components/multi-flip/): An overlapping irregular card pile transitions into an ordered grid with scroll, preserving each card while changing its position and rotation
-- [Velocity Clip](https://myzeusui.com/components/velocity-clip/): The visible media region contracts and releases according to scrolling speed, with stronger clipping during faster movement
-- [SVG Draw Path](https://myzeusui.com/components/svg-draw-path/): Scroll progress reveals an SVG stroke from its beginning to its end, following the supplied path geometry
-- [Progress](https://myzeusui.com/components/progress/): Page progress is represented by a ring, linear fill, or numeric percentage that follows the document's scroll position
-- [Parallax](https://myzeusui.com/components/parallax/): Multiple elements respond to scroll with different displacement rates, creating relative depth between foreground and background layers
-- [Mask Reveal](https://myzeusui.com/components/mask-reveal/): Scroll opens or closes a configurable shape mask over content, including circular, rectangular, organic, or supplied outlines
-- [Hide Header](https://myzeusui.com/components/hide-header/): The navigation hides during downward movement and returns when direction reverses, with thresholds and zones that keep it visible
-- [Flip Zone](https://myzeusui.com/components/flip-zone/): One media element moves and resizes between successive layout frames as scroll advances, maintaining a continuous visual identity
-- [Element Reveal](https://myzeusui.com/components/element-reveal/): Elements enter using selectable fade, translation, scale, clipping, blur, or rotation treatments, with optional group staggering
-- [Counter](https://myzeusui.com/components/counter/): Numbers animate to target values on entry, using either smooth counting or independently rolling digit columns with optional units
-- [Background Color](https://myzeusui.com/components/background-color/): Foreground and background colors interpolate between authored scroll zones instead of switching abruptly at section boundaries
-- [Animated Grid](https://myzeusui.com/components/animated-grid/): Image columns advance at different rates during scrolling, producing a multi-column parallax composition with selectable motion variations
-- [Random Rotate](https://myzeusui.com/components/random-rotate/): Items appear with independently varied rotational offsets, giving their final arrangement an irregular placed-by-hand character
-- [Photo Stack Gallery](https://myzeusui.com/components/photo-stack-gallery/): Clicking a compact image stack opens a thumbnail strip and large feature image; choosing another thumbnail exchanges their positions.
-- [Spiral Gallery](https://myzeusui.com/components/spiral-gallery/): Image planes orbit through a vertical helix; dragging changes rotation velocity, release preserves momentum, and the composition continues drifting.
-- [Lens Rail](https://myzeusui.com/components/lens-rail/): A draggable horizontal image rail enlarges cards near its center and compresses distant cards; arrow controls move the focal position.
-- [Expanding Strip](https://myzeusui.com/components/expanding-strip/): Hovering a narrow image column widens that column, compresses its siblings, and reveals its caption inside the expanded area.
-- [Index Wipe](https://myzeusui.com/components/index-wipe/): Hovering indexed chapter names changes the full background through a directional wipe and rolls the numeric index to the active item.
-- [Card Fan](https://myzeusui.com/components/card-fan/): Hovering a stacked group spreads images into an arc; targeting one card raises it and widens neighboring spacing before the stack closes again.
-- [Radial Gallery](https://myzeusui.com/components/radial-gallery/): Image cards occupy a slowly rotating circular arrangement sized to the viewport; the ring can appear whole or partially outside the frame.
-- [Circular Slider](https://myzeusui.com/components/circular-slider/): Cards travel along the visible upper arc of a large circle; dragging or arrows advances the sequence and the nearest card snaps into position.
-- [Infinite Parallax Slider](https://myzeusui.com/components/infinite-parallax-slider/): A looping horizontal carousel offsets internal layers at different rates, supports autonomous playback, and pauses when hovered.
-- [Image Follow List](https://myzeusui.com/components/image-follow-list/): Hovering a project row displays its image near the pointer; the preview tracks movement and switches content across rows.
-- [Hoverable List](https://myzeusui.com/components/hoverable-list/): Pointer entry fills each list row with a curved moving surface whose bend depends on whether the pointer approached from above or below.
-- [Infinite Draggable Grid](https://myzeusui.com/components/infinite-draggable-grid/): A repeating horizontal set of visual items supports pointer dragging and inertial continuation with no visible end boundary.
-- [Infinite Marquee](https://myzeusui.com/components/infinite-marquee/): Repeated content travels horizontally or vertically in a seamless loop and can be dragged to scrub before automatic movement resumes.
-- [Image Trail](https://myzeusui.com/components/image-trail/): Pointer movement emits overlapping images that lag, rotate, shrink and fade
-- [Custom Cursor](https://myzeusui.com/components/custom-cursor/): A smoothly following cursor with contextual labels and native touch input
-- [3D Card Flip](https://myzeusui.com/components/3d-card-flip/): A perspective card with pointer tilt, moving glare and a shifting shadow
-- [Gooey Filter Chips](https://myzeusui.com/components/gooey-filter-chips/): Filter chips move into a shared liquid result tray with rolling counts
-- [Morphing Island](https://myzeusui.com/components/morphing-island/): A section capsule expands through navigation and summaries before scrolling to a destination
-- [Multi-Step Form](https://myzeusui.com/components/multi-step-form/): Directional form steps, floating labels, validation and cancellable asynchronous submission
-- [Morphing Tabs](https://myzeusui.com/components/morphing-tabs/): A measured curved bridge follows the selected tab while its content changes
-- [Morphing Accordion](https://myzeusui.com/components/morphing-accordion/): Question pills and expanding answers briefly merge through a decorative liquid layer
-- [Morphing Select](https://myzeusui.com/components/morphing-select/): A liquid option panel separates from a select trigger with a clipped rolling label
-- [Detail Drawer](https://myzeusui.com/components/detail-drawer/): A hero image shifts and darkens as a side detail panel reveals staggered text
-- [Animated Tooltip](https://myzeusui.com/components/animated-tooltip/): Delayed anchored or pointer-following captions flip at viewport edges
-- [Morphing Dialog](https://myzeusui.com/components/morphing-dialog/): A product card expands into a native dialog with shared image and text transitions
-- [Text On Path](https://myzeusui.com/components/text-on-path/): Scrolling progressively places words along an undulating invisible path, allowing the sentence itself to reveal the curve
-- [Text Fill Wave](https://myzeusui.com/components/text-fill-wave/): A headline gains its foreground color progressively while a brighter accent band travels along the advancing edge across successive lines
-- [Velocity Type](https://myzeusui.com/components/velocity-type/): Scroll speed and direction alter headline weight, width, slant, and lean; the type settles back when scrolling slows
-- [Typewriter](https://myzeusui.com/components/typewriter/): Phrases type character by character, pause, erase, and cycle with separately configurable typing and deletion speeds
-- [Character Appear](https://myzeusui.com/components/character-appear/): Scroll reveals individual glyphs by opacity, either sequentially or in a randomized order, without translating their positions
-- [Text Morph](https://myzeusui.com/components/text-morph/): Editing an input repositions matching characters and transitions changed text; rapid input favors responsiveness over completing every animation
-- [Text Split Zoom](https://myzeusui.com/components/text-split-zoom/): A growing image separates two portions of a headline, expanding from their shared center as the entrance or scroll animation progresses
-- [Text Scramble](https://myzeusui.com/components/text-scramble/): A text trigger temporarily displays changing random glyphs before resolving to the intended words, with configurable character pool and pacing
-- [Rectangle Text Reveal](https://myzeusui.com/components/rectangle-text-reveal/): Rounded masks withdraw from successive text lines while each line moves into its readable resting position
-- [Popping Text](https://myzeusui.com/components/popping-text/): Individual letters scale into view with overshoot and varied rotation, producing a staggered bouncing headline entrance
-- [Folding Text](https://myzeusui.com/components/folding-text/): Individual glyphs rotate through perspective as though hinged, unfolding into legible text with scroll progress
-- [Cinematic Text](https://myzeusui.com/components/cinematic-text/): Headlines move into view from opposing horizontal directions, split into lines, words, or characters for staggered timing
-- [Text Shimmer Wave](https://myzeusui.com/components/text-shimmer-wave/): A light-like highlight travels over successive glyphs, either as a continuous loop or a scroll-triggered pass
-- [Morphing Tooltip](https://myzeusui.com/components/morphing-tooltip/): A shared liquid tooltip that rises from toolbar buttons, travels between them and resizes to each caption
-- [Text Reveal](https://myzeusui.com/components/text-reveal/): Scroll-triggered line, word and character reveals with masks and readable static content
-- [Animated Accordion](https://myzeusui.com/components/animated-accordion/): Coordinated expandable panels with rotating icons and optional line-by-line text reveals
-- [Dual Scramble](https://myzeusui.com/components/dual-scramble/): Two-stage colored text scrambling on scroll, hover, focus, click or load
-- [Multi-Level Drawer Menu](https://myzeusui.com/components/multi-level-drawer-menu/): Two-panel navigation with animated category previews and a mobile drill-down
-- [Image Fly-In](https://myzeusui.com/components/image-fly-in/): A continuous image depth field with cursor parallax and a clear central content zone
-- [Scale Slider](https://myzeusui.com/components/scale-slider/): An exponential image conveyor with drag inertia, keyboard navigation and optional drift
-- [Curtain Slider](https://myzeusui.com/components/curtain-slider/): A full-bleed image carousel with staggered column wipes and rolling titles
-- [Feature Dialog](https://myzeusui.com/components/feature-dialog/): An expandable preview tile with a rising modal, gradient band and managed keyboard focus
-- [ASCII Overlay](https://myzeusui.com/components/ascii-overlay/): Image-aware WebGL character overlays with scroll-driven density and a static media fallback
-- [Animated Pricing](https://myzeusui.com/components/animated-pricing/): Pricing cards with digit-by-digit billing transitions, a savings chip and shimmering names
-- [Home Dashboard](https://myzeusui.com/components/home-dashboard/): An overview workspace with revenue, earnings, recent hires and searchable records
-- [Finance Dashboard](https://myzeusui.com/components/finance-dashboard/): Personal finance workspace with cash flow, investments, spending and transaction records
-- [Marketing Dashboard](https://myzeusui.com/components/marketing-dashboard/): Campaign analytics with conversion funnels, channel attribution and campaign management
-- [HR Management](https://myzeusui.com/components/hr-management/): Hiring, engagement and employee management with editable records
-- [Medical Profile](https://myzeusui.com/components/medical-profile/): A patient workspace with health activity, sleep, alerts and patient records
-- [AI Profile](https://myzeusui.com/components/ai-profile/): An editable agent profile with contribution history, agent activity and token usage
-- [AI Chat](https://myzeusui.com/components/ai-chat/): A coding agent workspace with progress, task playback, a code panel and a cancellable backend adapter
-- [AI Image Generation](https://myzeusui.com/components/ai-image-generation/): An image workspace with animated generation, a gallery, styles and a cancellable generation adapter
-- [Agent Progress](https://myzeusui.com/components/agent-progress/): Collapsible AI agent progress block for React and Tailwind CSS with animated task states and completion timing
-- [Calendar](https://myzeusui.com/components/calendar/): event chips, details popover, month switcher, and inbox feed
-- [Composer](https://myzeusui.com/components/composer/): The AI chat composer for React + Tailwind CSS: attachment and model menus, voice and send controls, status bar, and a liquid-glass working state
-- [Task List](https://myzeusui.com/components/task-list/): Streaming agent task log for React and Tailwind CSS. Tasks reveal step by step with soft height, blur, and shimmer, and drop straight into a chat thread.
-- [Web Search](https://myzeusui.com/components/web-search/): Streaming research trail for React and Tailwind CSS: the queries an agent ran and the sources it opened, with real site marks, drawn in as it works.
-- [Combo Chart](https://myzeusui.com/components/combo-chart-card/): independent left and right axes, hover dimming, a pulsing active dot and stat tiles
-- [Contributions](https://myzeusui.com/components/contributions-card/): GitHub-style contributions heat grid for React + Tailwind CSS with a swappable accent family
-- [Earnings Chart](https://myzeusui.com/components/earnings-chart-card/): Bar chart card for React + Tailwind CSS with a period switcher, count-up headline, and hover outline
-- [Funnel Chart](https://myzeusui.com/components/funnel-chart-card/): curved or sharp tapers between stages, centred conversion pills, mono option, and a value/name footer
-- [Heatmap Chart](https://myzeusui.com/components/heatmap-chart-card/): rows × columns of tinted cells with a theme-following ramp, hover-linked headline, and Less → More legend
-- [Most Active Days](https://myzeusui.com/components/most-active-days-card/): Continuous vertical month calendar for React + Tailwind CSS with per-day mini activity rings
-- [Radar Chart](https://myzeusui.com/components/radar-chart-card/): filled, dotted, lines-only, and centre-score variants with a hover-linked headline
-- [Radial Chart](https://myzeusui.com/components/radial-chart-card/): concentric rings, labelled rings, grid, single-value gauges, and a stacked half gauge
-- [Sankey Chart](https://myzeusui.com/components/sankey-chart-card/): pill nodes, target-tinted links, source and share labels, and hover isolation
-- [Scatter Chart](https://myzeusui.com/components/scatter-chart-card/): grouped series, optional size measure, hover isolation and stat tiles
-- [Sleep Score](https://myzeusui.com/components/sleep-score-card/): Segmented sleep score ring for React + Tailwind CSS with hover-focused sub-scores and metric rows
-- [Stage Bars](https://myzeusui.com/components/stage-bars-card/): name, value and share per stage, animated widths, mono option
-- [Steps Chart](https://myzeusui.com/components/steps-card/): Weekly steps bar chart for React + Tailwind CSS with a week switcher, count-up headline, and hover outline
-- [Design tokens](https://myzeusui.com/components/tokens/): Color primitives, semantic light/dark tokens, radii, shadows and the button gradients everything else is built on.
-- [Typography](https://myzeusui.com/components/typography/): The type scale: display, title, headline, body and caption, each in four weights.
-- [cx](https://myzeusui.com/components/cx/): Class merging built on tailwind-merge, plus the sortCx helper for style maps.
-- [Chevrons](https://myzeusui.com/components/chevrons/): The small chevron set used by menus, selects and sortable table headers.
-- [Logo](https://myzeusui.com/components/logo/): The wordmark and its compact circular variant, both theme-aware.
-- [useCountUp](https://myzeusui.com/components/use-count-up/): Animates a number toward a target, respecting prefers-reduced-motion.
-- [useDismissOnOutsidePress](https://myzeusui.com/components/use-dismiss-on-outside-press/): Closes a popover or panel on an outside pointer press, without trapping focus.
-- [Button](https://myzeusui.com/components/button/): Primary, secondary, ghost and danger actions in three sizes, with icon slots.
-- [Icon Button](https://myzeusui.com/components/icon-button/): Square action button, icon only, in two sizes.
-- [Link Button](https://myzeusui.com/components/link-button/): Inline text action styled like a link, rendering an anchor when given an href.
-- [Button Group](https://myzeusui.com/components/button-group/): Fused row of selectable buttons for view switches and toolbars.
-- [Close Button](https://myzeusui.com/components/close-button/): The dismiss ×, in four sizes with matching stroke weights.
-- [Social Button](https://myzeusui.com/components/social-button/): Twenty-four OAuth brands in colourful, black and outlined appearances.
-- [Input](https://myzeusui.com/components/input/): Text field with label, hint, addons, icons and validation states.
-- [Input OTP](https://myzeusui.com/components/input-otp/): One-time-code boxes with paste, autofill and grouping.
-- [Checkbox](https://myzeusui.com/components/checkbox/): Hand-drawn tick animation, indeterminate state, two sizes and a card variant.
-- [Radio](https://myzeusui.com/components/radio/): Gradient dot, two sizes, and a card variant for plan pickers.
-- [Switch](https://myzeusui.com/components/switch/): Pill and rectangle shapes, two sizes, plus a card variant with icon and description.
-- [Select](https://myzeusui.com/components/select/): Single-choice listbox whose items take free-form content — dots, avatars, icons.
-- [Slider](https://myzeusui.com/components/slider/): Single value and range, with a value bubble and custom formatting.
-- [Dropdown](https://myzeusui.com/components/dropdown/): Composable menu primitives — trigger, popover, groups, items and dividers.
-- [Divider](https://myzeusui.com/components/divider/): Single, double and filled separators that can carry any content in the middle.
-- [File Upload](https://myzeusui.com/components/file-upload/): Drag and drop with extension and size validation, and per-file progress.
-- [Tabs](https://myzeusui.com/components/tabs/): Underlined tabs with optional icons and counts, plus a pill variant.
-- [Segmented Control](https://myzeusui.com/components/segmented-control/): Sliding pill option switcher for two to four short choices.
-- [Table](https://myzeusui.com/components/table/): The semantic table primitive: sortable columns, row selection, two densities.
-- [Tooltip](https://myzeusui.com/components/tooltip/): Hover and focus tooltip with the arrow and placement handled for you.
-- [Badge](https://myzeusui.com/components/badge/): Count pills for nav rows and menus, in neutral and primary.
-- [Chip](https://myzeusui.com/components/chip/): Bold, subtle and caption tones across nine colours, for deltas, values and tags.
-- [Status Dot](https://myzeusui.com/components/status-dot/): The small coloured dot that prefixes a status label.
-- [Kbd](https://myzeusui.com/components/kbd/): Keyboard key caps for shortcut hints.
-- [Avatar](https://myzeusui.com/components/avatar/): Photo with initials fallback, four sizes, colour tints and presence.
-- [Breadcrumb](https://myzeusui.com/components/breadcrumb/): Path trail whose items take arbitrary leading content — avatars, icons, dots.
-- [Pagination](https://myzeusui.com/components/pagination/): Page numbers with truncation and prev/next controls.
-- [Carousel](https://myzeusui.com/components/carousel/): Snap track with arrows, dots, configurable gap and alignment.
-- [Announcement](https://myzeusui.com/components/announcement/): Dismissible banner for product news, with an optional action.
-- [Notification](https://myzeusui.com/components/notification/): Toast with status, icon or avatar, timestamp, actions and auto-dismiss.
-- [Date Picker](https://myzeusui.com/components/date-picker/): Popover calendar for a single date, built on @internationalized/date.
-- [Date Range Picker](https://myzeusui.com/components/date-range-picker/): Two-month range picker with quick presets and an apply step.
-- [Meeting Scheduler](https://myzeusui.com/components/meeting-scheduler/): A booking panel: host, duration, timezone, date and time slots.
-- [Theme Toggle](https://myzeusui.com/components/theme-toggle/): Light/dark switch that reveals the next theme from the exact click point.
-- [Stat Cards](https://myzeusui.com/components/stat-cards/): KPI row with gradient icon tiles, info tooltips and delta pills, in two variants.
-- [Data Table](https://myzeusui.com/components/data-table/): TanStack Table with sorting, selection, filters, search, density and pagination.
-- [Sidebar](https://myzeusui.com/components/sidebar/): The 260px dashboard sidebar with collapsing nav, team switcher and user menu.
-- [App Shell](https://myzeusui.com/components/app-shell/): The page frame: sidebar, mobile drawer, breadcrumb header and content column.
-- [Notification Center](https://myzeusui.com/components/notification-center/): Grouped, filterable inbox with unread state and per-item actions.
-- [Settings Modal](https://myzeusui.com/components/settings-modal/): Five-page settings dialog: profile, general, tools, storage and plan.
-- [Auth Card](https://myzeusui.com/components/auth-card/): Sign in, sign up and verify, with stacked, inline and grid provider layouts.
-- [Agent Limits](https://myzeusui.com/components/agent-limits-card/): Context window usage as a segmented bar with an expandable token breakdown, plus plan quotas and their reset times.
-- [Agent Thinking](https://myzeusui.com/components/agent-thinking/): Four loading personalities — wave, spin, stars and infinity — with an elapsed timer.
-- [Composer Loader](https://myzeusui.com/components/composer-loader/): A travelling light that rims the composer while an agent is answering.
-- [Agent Log](https://myzeusui.com/components/agent-log/): The primitives behind a streaming tool log: reveal masks, guides and shimmer text.
-- [Agent Chat](https://myzeusui.com/components/agent-chat/): A working chat app: thread history, streaming messages, composer and suggestions.
-- [Area Chart](https://myzeusui.com/components/area-chart-card/): One or more series as soft filled bands, stacked into a total by default.
-- [Line Chart](https://myzeusui.com/components/line-chart-card/): Several series compared over one axis, smooth or sharp, with a dashed comparison.
-- [Bar List](https://myzeusui.com/components/bar-list-card/): A ranked list where each row's bar is its share of the top — no axis, no library.
-- [Activity Rings](https://myzeusui.com/components/activity-rings-card/): Concentric progress arcs, one per goal, drawn as plain SVG.
-- [Chart Card](https://myzeusui.com/components/chart-card/): The shared frame every chart card is built on: header, count-up headline, delta chip and legend.
-- [Revenue Chart](https://myzeusui.com/components/revenue-chart-card/): Year-over-year area chart with a computed headline and delta.
-- [Orders Chart](https://myzeusui.com/components/orders-chart-card/): Year-over-year bars with the same headline and delta treatment.
-- [Important Alerts](https://myzeusui.com/components/important-alerts-card/): A dated alert feed with severity icons and a week range pill.
-- [Patient Info](https://myzeusui.com/components/patient-info-card/): A profile card with identity fields and vitals.
+- [Controls](https://myzeusui.com/elements/artemis-controls/): Shared controls, scoped overlays and motion primitives
+- [Balance card](https://myzeusui.com/elements/artemis-balance-card/): A compact balance card with a framed account panel, overlapping account marks, large numeric hierarchy, and a shared two-action footer
+- [Compact card](https://myzeusui.com/elements/artemis-compact-card/): A compact generic card with a layered textured backdrop, status, overlapping people, flexible details, supporting context, and a focused action
+- [Invite card](https://myzeusui.com/elements/artemis-invite-card/): A referral invite card with reward artwork, a concise three-step explainer, dismiss behavior, and a copyable personal link
+- [Folder card](https://myzeusui.com/elements/artemis-folder-card/): A near-square collection card with a full-bleed media layer, a continuous folder-shaped content surface, and anchored metadata
+- [Story card](https://myzeusui.com/elements/artemis-story-card/): A tall editorial story card with category and date markers, concise narrative copy, and a location-aware image treatment
+- [Profile card](https://myzeusui.com/elements/artemis-profile-card/): A compact professional profile card with live availability, avatar-led identity, focused contact actions, and a layered status tray
+- [Text swap](https://myzeusui.com/elements/artemis-text-swap/): A fixed-footprint hover label where alternating letters roll in opposite directions through a short motion blur
+- [Text highlight](https://myzeusui.com/elements/artemis-text-highlight/): Animated text highlights in looping and progressive layouts, with coordinated colour, blur and position transitions
+- [Morphic tooltip](https://myzeusui.com/elements/artemis-morphic-tooltip/): A shared-layout tooltip primitive with one animated surface that morphs between triggers for polished hover and focus hints
+- [Morphic command palette](https://myzeusui.com/elements/artemis-morphic-command-palette/): A simple search field and grouped command list, with smooth resizing as results change and one animated selection highlight
+- [Agent chat input](https://myzeusui.com/elements/artemis-agent-chat-input/): A prompt box for agents in four layouts, from a spacious creative composer to a compact pill, with attachments, model selection and submit states
+- [Voice agent](https://myzeusui.com/elements/artemis-voice-agent/): A voice assistant in session and dock layouts, with an animated orb, connection states and microphone controls
+- [Data table](https://myzeusui.com/elements/artemis-data-table/): A searchable data table in responsive, compact and paginated layouts, with sorting, filters and row actions
+- [Stacked bar chart](https://myzeusui.com/elements/artemis-stacked-bar-chart/): Stacked bars over time that grow from the baseline, with a tooltip that glides beside the active bar, reference lines, projected bars, series toggles, and arrow-key navigation
+- [Segmented meter](https://myzeusui.com/elements/artemis-segmented-meter/): A capacity meter split into colored segments, with a gliding tooltip, a linked legend, selection, and hover state you can share with tables or lists
+- [Sparkline](https://myzeusui.com/elements/artemis-sparkline/): A compact trend line that draws in from the left and renders correctly before hydration
+- [Flip card](https://myzeusui.com/elements/artemis-flip-card/): An image card that flips inline or opens a detail dialog, with keyboard focus and motion states
+- [Animated dropdown](https://myzeusui.com/elements/artemis-animated-dropdown/): Four dropdown compositions demonstrating the shared animated focus surface across pointer and keyboard navigation, controlled selection, text triggers, and nested states
+- [Animated modal](https://myzeusui.com/elements/artemis-animated-modal/): Compose a focused dialog with the shared inputs and buttons, keyboard dismissal, and automatic focus restoration
+- [Audit trail](https://myzeusui.com/elements/artemis-audit-trail/): See who changed what, narrow the history by category or actor, and inspect recorded values in an animated modal
+- [Approval queue](https://myzeusui.com/elements/artemis-approval-queue/): Review pending requests, approve or decline with a note, request changes, and keep completed reviews available for reference
+- [Log explorer](https://myzeusui.com/elements/artemis-log-explorer/): Inspect a live log stream with counted severity tabs, searchable entries, frozen pause snapshots, and copyable inline payloads
+- [Notification center](https://myzeusui.com/elements/artemis-notification-center/): Notifications in dropdown and panel layouts, with filtering, read status, item actions and detail views
+- [Voice conversation](https://myzeusui.com/elements/artemis-voice-conversation/): Controlled listening, thinking, speaking, and connection states. Connect the audio level, transcript, and callbacks to your voice service
+- [File upload](https://myzeusui.com/elements/artemis-file-upload/): A dropzone that reacts to dragged files, accepts paste and browsing, validates type and size, and tracks each upload with progress, speed, pause, retry, image previews, and a rolling summary
+- [What's new](https://myzeusui.com/elements/artemis-whats-new/): A corner teaser with stacked thumbnails opens a release dialog with one feature per slide: drifting media or custom animated media, highlights, a try-it action, step dots, swipe and arrow-key navigation, and a finish step that links to the full changelog
+- [Usage budget](https://myzeusui.com/elements/artemis-usage-budget/): A segmented usage meter with resource costs, animated totals, and an adjustable monthly budget
+- [Research sources](https://myzeusui.com/elements/artemis-research-sources/): A searchable reference library with source filters, readable excerpts, and context selection
+- [Conversion funnel](https://myzeusui.com/elements/artemis-conversion-funnel/): Explore conversion stages with an interactive Recharts chart, period controls, and drop-off details
+- [Model picker](https://myzeusui.com/elements/artemis-model-picker/): A searchable model selector in grouped and provider-rail layouts, with keyboard navigation and animated selection
+- [Code artifact](https://myzeusui.com/elements/artemis-code-artifact/): A compact code artifact using the public Artemis agent code renderer, with syntax highlighting, line numbers, copy, and download
+- [Document artifact](https://myzeusui.com/elements/artemis-document-artifact/): Preview and edit a document, revisit saved versions, copy content, and download Markdown
+- [AI thinking loader](https://myzeusui.com/elements/artemis-ai-thinking-loader/): Six animated status indicators for an assistant that is processing a request, with reduced-motion support
+- [What we offer](https://myzeusui.com/elements/artemis-what-we-offer/): Three feature sections combining service descriptions, illustrated panels and calls to action in different layouts
+- [Empty states](https://myzeusui.com/elements/artemis-empty-states/): Four illustrated empty states for archives, search, inboxes and project boards, with contextual actions
+- [Morphic card modal](https://myzeusui.com/elements/artemis-morphic-card-modal/): Apple-style card expansion modal. A card morphs into a full overlay using shared layout animation — no position hacks, just framer layoutId
+- [Blog sections](https://myzeusui.com/elements/artemis-blog-sections/): Article collections in image-card, featured-story, list and compact-card layouts, with category filters where applicable
+- [Announcement banners](https://myzeusui.com/elements/artemis-announcement-banners/): Announcements in gradient, shader, rotating-ribbon and stacked-card layouts, with dismissal and navigation controls
+- [App showcase](https://myzeusui.com/elements/artemis-app-showcase/): A phone floating on a mesh-gradient shader stage, flanked by four features. Photo-rich screens slide in from the direction of travel and play their own detail motion, teammate activity pops beside the device, and the phone tilts toward the pointer. Auto-advance pauses on hover, focus, and when off screen
+- [Product tour](https://myzeusui.com/elements/artemis-product-tour/): A scroll-driven product tour with pinned artwork and chapter navigation.
+- [How it works](https://myzeusui.com/elements/artemis-how-it-works/): Process sections in five layouts with steps, demonstrations and animated transitions.
+- [Company marks](https://myzeusui.com/elements/artemis-logo-cloud/): Company marks in marquee, grid, column and carousel layouts.
+- [Image galleries](https://myzeusui.com/elements/artemis-image-galleries/): Responsive image galleries with vertical, mosaic and focus-rail layouts.
+- [Navigation](https://myzeusui.com/elements/artemis-navbar/): Responsive navigation in six layouts with menus, mobile controls and animated transitions.
+- [Ecommerce product grid](https://myzeusui.com/elements/artemis-ecommerce-product-grid/): A curated product collection with category tabs, price sorting, image reveals, and quick-add actions.
+- [Ecommerce product detail](https://myzeusui.com/elements/artemis-ecommerce-product-detail/): An image-led product panel with bundle selection, live pricing, and an add-to-bag callback.
+- [Ecommerce shopping cart](https://myzeusui.com/elements/artemis-ecommerce-shopping-cart/): An editable shopping bag with quantity controls, item removal, calculated totals, and a checkout callback.
+- [Comparison photo comparison](https://myzeusui.com/elements/artemis-comparison-photo-comparison/): A draggable before and after photo comparison with scene tabs, keyboard control, a one-time invitation sweep, live metrics and a histogram that follow the divider, and hold to compare.
+- [Comparison bars](https://myzeusui.com/elements/artemis-comparison-bars/): Grouped vertical benchmark bars with score labels, dotted comparison markers, and a shared percentage scale.
+- [Comparison before after](https://myzeusui.com/elements/artemis-comparison-before-after/): A paired before-and-after workflow with staggered step reveals and a clear outcome for each approach.
+- [Comparison head to head](https://myzeusui.com/elements/artemis-comparison-head-to-head/): An interactive two-product comparison with a shared dropdown and a filter that shows only the differences.
+- [Comparison tiled](https://myzeusui.com/elements/artemis-comparison-tiled/): A spaced feature matrix with rounded cells, product marks, and staggered row reveals.
+- [Comparison spotlight](https://myzeusui.com/elements/artemis-comparison-spotlight/): A clean multi-product table with a continuous rounded frame around the featured product.
+- [Settings](https://myzeusui.com/elements/artemis-settings/): Profile and workspace settings pages with editable fields, uploads and save states.
+- [Documentation](https://myzeusui.com/elements/artemis-documentation/): A documentation page with navigation, article content, code examples and search.
+- [Changelog](https://myzeusui.com/elements/artemis-changelog/): Release notes in three page layouts with navigation and release details.
+- [Journal index](https://myzeusui.com/elements/artemis-blog-index/): A journal index in two layouts with featured stories and article cards.
+- [Wallet site](https://myzeusui.com/elements/artemis-wallet-site/): A four-page marketing site for a mobile crypto wallet: home, networks, security and download, with live payment, routing and review demos.
+- [Journal article](https://myzeusui.com/elements/artemis-blog-article/): An article page with author details, body content and related stories.
+- [Team](https://myzeusui.com/elements/artemis-team/): Team sections in four layouts with member panels, spotlights, grids and a marquee.
+- [Crypto markets](https://myzeusui.com/elements/artemis-crypto-markets/): A sortable market table where prices roll and flash as they tick, with category tabs, a watchlist, seven-day sparklines, and market totals.
+- [Order book](https://myzeusui.com/elements/artemis-order-book/): A live order book with springing depth bars, price grouping, a cumulative hover that shows the average fill price, and a trade tape that slides in new fills.
+- [Tokenomics](https://myzeusui.com/elements/artemis-tokenomics/): Supply stats that count up, an allocation donut with vesting terms, and a cumulative unlock chart that highlights whichever allocation you hover.
+- [Footers](https://myzeusui.com/elements/artemis-footer-sections/): Page footers in nine layouts with navigation, contact details and subscription controls.
+- [Feature sections](https://myzeusui.com/elements/artemis-feature-sections/): Feature sections in thirteen layouts, combining product demonstrations, benefits, tabs and interactive details.
+- [Trust and security](https://myzeusui.com/elements/artemis-trust-security/): Trust and security sections with readiness checks, compliance marks, safeguards and reliability metrics.
+- [Customer evidence](https://myzeusui.com/elements/artemis-social-proof/): Customer stories and evidence in brief, gallery and reel layouts.
+- [Content sections](https://myzeusui.com/elements/artemis-content-sections/): Content sections in five layouts with platform details, metrics, capabilities and animated copy.
+- [Questions and answers](https://myzeusui.com/elements/artemis-faq-blocks/): Questions and answers in five layouts with expandable answers, categories and search.
+- [KPI trends](https://myzeusui.com/elements/artemis-kpi-trends/): A wide metric card with an animated area chart, paired with supporting cards, rolling values, and subtle decimal styling.
+- [KPI overview](https://myzeusui.com/elements/artemis-kpi-overview/): A compact metric row with uppercase labels, rolling values, tiny bar charts, and a dedicated comparison footer.
+- [KPI gauges](https://myzeusui.com/elements/artemis-kpi-gauges/): Large metric values, supporting notes, animated circular gauges, and individual action menus in a compact card row.
+- [KPI support](https://myzeusui.com/elements/artemis-kpi-support/): Four connected cards with icon labels, animated metric values, inline monthly comparisons, and individual action menus.
+- [KPI summary](https://myzeusui.com/elements/artemis-kpi-summary/): A compact overview with a shared title, review date, divided metrics, animated values, optional limits, and contextual help.
+- [KPI headers](https://myzeusui.com/elements/artemis-kpi-headers/): Compact cards with icons beside muted headings and inset panels for animated values and period comparisons.
+- [API keys](https://myzeusui.com/elements/artemis-api-keys/): An API key manager with creation, copy, rotation, revocation and environment filters.
+- [Team invitations](https://myzeusui.com/elements/artemis-team-invite/): Workspace invitations with role selection, member management and pending invitation states.
+- [Credit usage](https://myzeusui.com/elements/artemis-credit-usage/): Credit usage in a trend chart or a detailed breakdown, with category controls and plan states.
+- [Segmented progress stats](https://myzeusui.com/elements/artemis-stats-segmented-progress/): Spacious metric cards with animated segmented gauges, rolling percentages, and a tracking marker.
+- [Feature outcome stats](https://myzeusui.com/elements/artemis-stats-feature-outcomes/): An atmospheric feature introduction with a restrained theme gradient, animated headline outcomes, and an airy two-column editorial layout.
+- [Impact dashboard](https://myzeusui.com/elements/artemis-stats-impact-dashboard/): A data-forward impact overview with a dominant reach metric, animated target progress, and supporting KPI panels.
+- [Telemetry stats](https://myzeusui.com/elements/artemis-stats-telemetry/): A live operations overview with a rotating regional feed, rolling totals, a responsive KPI stack, and transform-driven activity bars.
+- [Stat band](https://myzeusui.com/elements/artemis-stats-band/): A sharp editorial metric band with oversized rolling figures, indexed columns, and a coordinated line-and-content reveal.
+- [Stat cards](https://myzeusui.com/elements/artemis-stats-cards/): Three metric cards with muted surfaces, inset figures, supporting context and staggered entrances.
+- [Outcome index](https://myzeusui.com/elements/artemis-stats-outcome-index/): A metric-first editorial index with three oversized rolling figures, concise result statements, and coordinated rule reveals.
+- [Customer quotes](https://myzeusui.com/elements/artemis-testimonials/): Customer quotes in five layouts, from moving columns to a featured story and an editorial archive.
+- [Contact form](https://myzeusui.com/elements/artemis-contact-form/): Contact forms in routing and split layouts with validation, channel choices and submit feedback.
+- [Contact cards](https://myzeusui.com/elements/artemis-contact-cards/): Contact options presented as cards with team details and email copying.
+- [Questionnaire](https://myzeusui.com/elements/artemis-questionnaire/): A three-question prompt in guided and selection-list layouts, with keyboard shortcuts, validation and skip states.
+- [Step form](https://myzeusui.com/elements/artemis-step-form/): Multi-step forms in four layouts with choices, text fields, validation and completion states.
+- [Agent workspace](https://myzeusui.com/elements/artemis-agent-builder/): An agent workspace with instructions, knowledge sources, tools, model selection and saved configurations.
+- [Booking calendar](https://myzeusui.com/elements/artemis-booking-calendar/): A meeting calendar with duration and time-zone choices, available time slots and a booking form.
+- [Calendar planner](https://myzeusui.com/elements/artemis-calendar-planner/): A monthly planner with event editing, date navigation and responsive event details.
+- [Operations table](https://myzeusui.com/elements/artemis-operations-table/): An order table with search, sorting, row selection and virtualized data.
+- [Team directory](https://myzeusui.com/elements/artemis-team-directory/): A searchable team directory with team filters, presence and sortable columns.
+- [Portfolio table](https://myzeusui.com/elements/artemis-portfolio-table/): A portfolio table with filters, sorting and allocation details.
+- [Service table](https://myzeusui.com/elements/artemis-service-table/): A service ticket table with priority, status, search, selection and row actions.
+- [File workspace](https://myzeusui.com/elements/artemis-file-manager/): A file workspace with folders, search, grid and list views, upload, preview and undo.
+- [Knowledge workspace](https://myzeusui.com/elements/artemis-knowledge-workspace/): An assistant knowledge workspace with editable sources, inclusion controls and a context preview.
+- [Help centre](https://myzeusui.com/elements/artemis-help-center/): A help centre with searchable articles, categories and expandable answers.
+- [Service status](https://myzeusui.com/elements/artemis-status-pages/): Service status in overview and incident layouts, with uptime histories, incident details and email updates.
+- [Kanban board](https://myzeusui.com/elements/artemis-kanban-board/): A task board with filters, column editing, drag-and-drop and detailed task dialogs.
+- [Finance dashboard](https://myzeusui.com/elements/artemis-finance-dashboard/): A finance workspace with account balances, income and spending charts, and searchable transactions.
+- [Support dashboard](https://myzeusui.com/elements/artemis-support-dashboard/): A service dashboard with queue metrics, date filters, ticket activity and searchable team updates.
+- [Team capacity](https://myzeusui.com/elements/artemis-team-capacity-dashboard/): A planning dashboard with crew filters, daily activity, focus allocation and capacity details.
+- [Goals dashboard](https://myzeusui.com/elements/artemis-goals-dashboard/): A goals workspace with progress metrics, filters, milestones and expandable goal details.
+- [Performance report](https://myzeusui.com/elements/artemis-performance-report/): Team reports in three layouts, with period filters, comparisons, charts and CSV exports.
+- [Sidebar](https://myzeusui.com/elements/artemis-sidebar/): Responsive navigation in rail, workspace and offcanvas layouts, with search, groups and account controls.
+- [Hero sections](https://myzeusui.com/elements/artemis-hero-sections/): Responsive product heroes in eight layouts, with navigation, animated backgrounds and interactive product previews.
+- [Pricing](https://myzeusui.com/elements/artemis-pricing/): Pricing sections in seven layouts, with plan selection, billing controls and animated prices.
+- [Team calculator](https://myzeusui.com/elements/artemis-team-calculator/): A seat calculator with volume discounts, billing options and a live price breakdown.
+- [Upgrade panel](https://myzeusui.com/elements/artemis-upgrade-panel/): A plan upgrade panel with tier selection, billing options and animated prices.
+- [Usage pricing](https://myzeusui.com/elements/artemis-usage-pricing/): A usage-based pricing calculator with a seat slider and annual billing.
+- [Use cases](https://myzeusui.com/elements/artemis-use-cases/): Use case sections in five layouts, with interactive stories, role selection and animated headings.
+- [Roadmap](https://myzeusui.com/elements/artemis-roadmap/): A product roadmap with status filters, voting and detailed release dialogs.
+- [Not found pages](https://myzeusui.com/elements/artemis-not-found-pages/): Nine responsive error pages with interactive numbers, pointer effects and animated return links.
+- [CTA sections](https://myzeusui.com/elements/artemis-cta-sections/): Call-to-action sections in ten layouts, with animated illustrations, product previews, FAQs and copyable install commands.
+- [Background Fill Button](https://myzeusui.com/elements/background-fill-button/): A rounded background rises from below as the button gently compresses
+- [Circle Fill Button](https://myzeusui.com/elements/circle-fill-button/): A circle grows from the cursor entry point to fill every corner in the same duration
+- [Curve Fill Button](https://myzeusui.com/elements/curve-fill-button/): A curved wave enters from the nearest pointer edge and rolls back out
+- [Animated Icon Button](https://myzeusui.com/elements/animated-icon-button/): A circular icon background fills the button while icons cycle diagonally
+- [Magnetic Button](https://myzeusui.com/elements/magnetic-button/): The button and its label follow the pointer independently before springing home
+- [Rainbow Button](https://myzeusui.com/elements/rainbow-button/): A dark button with a flowing rainbow border and a glow that expands on hover
+- [Text Underline](https://myzeusui.com/elements/text-underline/): An underline draws from the left and erases toward the right on hover or focus
+- [Mesh Gradient](https://myzeusui.com/elements/mesh-gradient/): Moving blended color fields with pointer displacement and a static fallback
+- [Dithering](https://myzeusui.com/elements/dithering/): Ordered dot rendering with a smooth lens that restores original image colors
+- [Image Glitch](https://myzeusui.com/elements/image-glitch/): Analog scan lines, separated color channels and digital block tearing on hover
+- [Gooey Hover Reveal](https://myzeusui.com/elements/gooey-hover-reveal/): A decaying liquid mask reveals content under the moving pointer
+- [Dither Cursor Trail](https://myzeusui.com/elements/dither-cursor-trail/): Pointer marks break into ordered dots as their trail fades away
+- [Image Dissolve Scroll](https://myzeusui.com/elements/image-dissolve-scroll/): Scroll dissolves an image through irregular noise boundaries and a glowing edge
+- [Grid Chapters](https://myzeusui.com/elements/grid-chapters/): Pinned chapter headings exchange masked lines while image columns pass independently through a visible grid
+- [Network Globe](https://myzeusui.com/elements/network-globe/): A draggable dotted sphere rotates toward selected locations and draws raised routes between them
+- [Dock Footer](https://myzeusui.com/elements/dock-footer/): Scroll uncovers a staggered footer and a translucent navigation dock that expands at the page bottom
+- [Flip Filter](https://myzeusui.com/elements/flip-filter/): Category and grid/list changes preserve product cards through measured, interruptible FLIP layout transitions
+- [Capsule Hero](https://myzeusui.com/elements/capsule-hero/): Large letterforms part around a rounded media aperture that expands on activation and reverses on close
+- [Wipe Slider](https://myzeusui.com/elements/wipe-slider/): Directional background wipes coordinate masked slide text and a rolling percentage index
+- [Step Wipe](https://myzeusui.com/elements/step-wipe/): A pinned product sequence synchronizes separate background, foreground, caption and numbering wipes with scroll
+- [Gradient Footer](https://myzeusui.com/elements/gradient-footer/): A scroll-revealed footer combines a bottom glow, width-filling brand typography and animated link underlines
+- [Testimonial Globe](https://myzeusui.com/elements/testimonial-globe/): Portraits rotate on a draggable sphere beneath translucent quotation cards with a lighter mobile presentation
+- [Drift Gallery](https://myzeusui.com/elements/drift-gallery/): Product cards separate on grab and travel with release inertia that controls grain and color intensity
+- [Morphing Pill Menu](https://myzeusui.com/elements/morphing-pill-menu/): A compact pill expands into navigation with staggered and rolling links
+- [Gooey Menu](https://myzeusui.com/elements/gooey-menu/): Floating actions separate through liquid connections in arc, radial, row or grid arrangements
+- [Mega Menu](https://myzeusui.com/elements/mega-menu/): A shared dropdown resizes between navigation groups with mobile accordion navigation
+- [Fullscreen Slide Menu](https://myzeusui.com/elements/fullscreen-slide-menu/): Navigation turns the page away and reveals a full-screen menu with changing imagery
+- [Scatter Cluster](https://myzeusui.com/elements/scatter-cluster/): A central overlapping pile of image and statistic cards separates into a surrounding arrangement with scroll progress, revealing the headline beneath
+- [Multi Flip](https://myzeusui.com/elements/multi-flip/): An overlapping irregular card pile transitions into an ordered grid with scroll, preserving each card while changing its position and rotation
+- [Velocity Clip](https://myzeusui.com/elements/velocity-clip/): The visible media region contracts and releases according to scrolling speed, with stronger clipping during faster movement
+- [SVG Draw Path](https://myzeusui.com/elements/svg-draw-path/): Scroll progress reveals an SVG stroke from its beginning to its end, following the supplied path geometry
+- [Progress](https://myzeusui.com/elements/progress/): Page progress is represented by a ring, linear fill, or numeric percentage that follows the document's scroll position
+- [Parallax](https://myzeusui.com/elements/parallax/): Multiple elements respond to scroll with different displacement rates, creating relative depth between foreground and background layers
+- [Mask Reveal](https://myzeusui.com/elements/mask-reveal/): Scroll opens or closes a configurable shape mask over content, including circular, rectangular, organic, or supplied outlines
+- [Hide Header](https://myzeusui.com/elements/hide-header/): The navigation hides during downward movement and returns when direction reverses, with thresholds and zones that keep it visible
+- [Flip Zone](https://myzeusui.com/elements/flip-zone/): One media element moves and resizes between successive layout frames as scroll advances, maintaining a continuous visual identity
+- [Element Reveal](https://myzeusui.com/elements/element-reveal/): Elements enter using selectable fade, translation, scale, clipping, blur, or rotation treatments, with optional group staggering
+- [Counter](https://myzeusui.com/elements/counter/): Numbers animate to target values on entry, using either smooth counting or independently rolling digit columns with optional units
+- [Background Color](https://myzeusui.com/elements/background-color/): Foreground and background colors interpolate between authored scroll zones instead of switching abruptly at section boundaries
+- [Animated Grid](https://myzeusui.com/elements/animated-grid/): Image columns advance at different rates during scrolling, producing a multi-column parallax composition with selectable motion variations
+- [Random Rotate](https://myzeusui.com/elements/random-rotate/): Items appear with independently varied rotational offsets, giving their final arrangement an irregular placed-by-hand character
+- [Photo Stack Gallery](https://myzeusui.com/elements/photo-stack-gallery/): Clicking a compact image stack opens a thumbnail strip and large feature image; choosing another thumbnail exchanges their positions.
+- [Spiral Gallery](https://myzeusui.com/elements/spiral-gallery/): Image planes orbit through a vertical helix; dragging changes rotation velocity, release preserves momentum, and the composition continues drifting.
+- [Lens Rail](https://myzeusui.com/elements/lens-rail/): A draggable horizontal image rail enlarges cards near its center and compresses distant cards; arrow controls move the focal position.
+- [Expanding Strip](https://myzeusui.com/elements/expanding-strip/): Hovering a narrow image column widens that column, compresses its siblings, and reveals its caption inside the expanded area.
+- [Index Wipe](https://myzeusui.com/elements/index-wipe/): Hovering indexed chapter names changes the full background through a directional wipe and rolls the numeric index to the active item.
+- [Card Fan](https://myzeusui.com/elements/card-fan/): Hovering a stacked group spreads images into an arc; targeting one card raises it and widens neighboring spacing before the stack closes again.
+- [Radial Gallery](https://myzeusui.com/elements/radial-gallery/): Image cards occupy a slowly rotating circular arrangement sized to the viewport; the ring can appear whole or partially outside the frame.
+- [Circular Slider](https://myzeusui.com/elements/circular-slider/): Cards travel along the visible upper arc of a large circle; dragging or arrows advances the sequence and the nearest card snaps into position.
+- [Infinite Parallax Slider](https://myzeusui.com/elements/infinite-parallax-slider/): A looping horizontal carousel offsets internal layers at different rates, supports autonomous playback, and pauses when hovered.
+- [Image Follow List](https://myzeusui.com/elements/image-follow-list/): Hovering a project row displays its image near the pointer; the preview tracks movement and switches content across rows.
+- [Hoverable List](https://myzeusui.com/elements/hoverable-list/): Pointer entry fills each list row with a curved moving surface whose bend depends on whether the pointer approached from above or below.
+- [Infinite Draggable Grid](https://myzeusui.com/elements/infinite-draggable-grid/): A repeating horizontal set of visual items supports pointer dragging and inertial continuation with no visible end boundary.
+- [Infinite Marquee](https://myzeusui.com/elements/infinite-marquee/): Repeated content travels horizontally or vertically in a seamless loop and can be dragged to scrub before automatic movement resumes.
+- [Image Trail](https://myzeusui.com/elements/image-trail/): Pointer movement emits overlapping images that lag, rotate, shrink and fade
+- [Custom Cursor](https://myzeusui.com/elements/custom-cursor/): A smoothly following cursor with contextual labels and native touch input
+- [3D Card Flip](https://myzeusui.com/elements/3d-card-flip/): A perspective card with pointer tilt, moving glare and a shifting shadow
+- [Gooey Filter Chips](https://myzeusui.com/elements/gooey-filter-chips/): Filter chips move into a shared liquid result tray with rolling counts
+- [Morphing Island](https://myzeusui.com/elements/morphing-island/): A section capsule expands through navigation and summaries before scrolling to a destination
+- [Multi-Step Form](https://myzeusui.com/elements/multi-step-form/): Directional form steps, floating labels, validation and cancellable asynchronous submission
+- [Morphing Tabs](https://myzeusui.com/elements/morphing-tabs/): A measured curved bridge follows the selected tab while its content changes
+- [Morphing Accordion](https://myzeusui.com/elements/morphing-accordion/): Question pills and expanding answers briefly merge through a decorative liquid layer
+- [Morphing Select](https://myzeusui.com/elements/morphing-select/): A liquid option panel separates from a select trigger with a clipped rolling label
+- [Detail Drawer](https://myzeusui.com/elements/detail-drawer/): A hero image shifts and darkens as a side detail panel reveals staggered text
+- [Animated Tooltip](https://myzeusui.com/elements/animated-tooltip/): Delayed anchored or pointer-following captions flip at viewport edges
+- [Morphing Dialog](https://myzeusui.com/elements/morphing-dialog/): A product card expands into a native dialog with shared image and text transitions
+- [Text On Path](https://myzeusui.com/elements/text-on-path/): Scrolling progressively places words along an undulating invisible path, allowing the sentence itself to reveal the curve
+- [Text Fill Wave](https://myzeusui.com/elements/text-fill-wave/): A headline gains its foreground color progressively while a brighter accent band travels along the advancing edge across successive lines
+- [Velocity Type](https://myzeusui.com/elements/velocity-type/): Scroll speed and direction alter headline weight, width, slant, and lean; the type settles back when scrolling slows
+- [Typewriter](https://myzeusui.com/elements/typewriter/): Phrases type character by character, pause, erase, and cycle with separately configurable typing and deletion speeds
+- [Character Appear](https://myzeusui.com/elements/character-appear/): Scroll reveals individual glyphs by opacity, either sequentially or in a randomized order, without translating their positions
+- [Text Morph](https://myzeusui.com/elements/text-morph/): Editing an input repositions matching characters and transitions changed text; rapid input favors responsiveness over completing every animation
+- [Text Split Zoom](https://myzeusui.com/elements/text-split-zoom/): A growing image separates two portions of a headline, expanding from their shared center as the entrance or scroll animation progresses
+- [Text Scramble](https://myzeusui.com/elements/text-scramble/): A text trigger temporarily displays changing random glyphs before resolving to the intended words, with configurable character pool and pacing
+- [Rectangle Text Reveal](https://myzeusui.com/elements/rectangle-text-reveal/): Rounded masks withdraw from successive text lines while each line moves into its readable resting position
+- [Popping Text](https://myzeusui.com/elements/popping-text/): Individual letters scale into view with overshoot and varied rotation, producing a staggered bouncing headline entrance
+- [Folding Text](https://myzeusui.com/elements/folding-text/): Individual glyphs rotate through perspective as though hinged, unfolding into legible text with scroll progress
+- [Cinematic Text](https://myzeusui.com/elements/cinematic-text/): Headlines move into view from opposing horizontal directions, split into lines, words, or characters for staggered timing
+- [Text Shimmer Wave](https://myzeusui.com/elements/text-shimmer-wave/): A light-like highlight travels over successive glyphs, either as a continuous loop or a scroll-triggered pass
+- [Timeline Scrubber](https://myzeusui.com/elements/timeline-scrubber/): A timeline scrollbar of month and date ticks that swell under the pointer, with click to jump, drag to scrub, a hold-open focus ring and ratchet clicks
+- [Morphing Tooltip](https://myzeusui.com/elements/morphing-tooltip/): A shared liquid tooltip that rises from toolbar buttons, travels between them and resizes to each caption
+- [Text Reveal](https://myzeusui.com/elements/text-reveal/): Scroll-triggered line, word and character reveals with masks and readable static content
+- [Animated Accordion](https://myzeusui.com/elements/animated-accordion/): Coordinated expandable panels with rotating icons and optional line-by-line text reveals
+- [Dual Scramble](https://myzeusui.com/elements/dual-scramble/): Two-stage colored text scrambling on scroll, hover, focus, click or load
+- [Multi-Level Drawer Menu](https://myzeusui.com/elements/multi-level-drawer-menu/): Two-panel navigation with animated category previews and a mobile drill-down
+- [Image Fly-In](https://myzeusui.com/elements/image-fly-in/): A continuous image depth field with cursor parallax and a clear central content zone
+- [Scale Slider](https://myzeusui.com/elements/scale-slider/): An exponential image conveyor with drag inertia, keyboard navigation and optional drift
+- [Curtain Slider](https://myzeusui.com/elements/curtain-slider/): A full-bleed image carousel with staggered column wipes and rolling titles
+- [Feature Dialog](https://myzeusui.com/elements/feature-dialog/): An expandable preview tile with a rising modal, gradient band and managed keyboard focus
+- [ASCII Overlay](https://myzeusui.com/elements/ascii-overlay/): Image-aware WebGL character overlays with scroll-driven density and a static media fallback
+- [Animated Pricing](https://myzeusui.com/elements/animated-pricing/): Pricing cards with digit-by-digit billing transitions, a savings chip and shimmering names
+- [Home Dashboard](https://myzeusui.com/elements/home-dashboard/): An overview workspace with revenue, earnings, recent hires and searchable records
+- [Finance Dashboard](https://myzeusui.com/elements/finance-dashboard/): Personal finance workspace with cash flow, investments, spending and transaction records
+- [Marketing Dashboard](https://myzeusui.com/elements/marketing-dashboard/): Campaign analytics with conversion funnels, channel attribution and campaign management
+- [HR Management](https://myzeusui.com/elements/hr-management/): Hiring, engagement and employee management with editable records
+- [Medical Profile](https://myzeusui.com/elements/medical-profile/): A patient workspace with health activity, sleep, alerts and patient records
+- [AI Profile](https://myzeusui.com/elements/ai-profile/): An editable agent profile with contribution history, agent activity and token usage
+- [AI Chat](https://myzeusui.com/elements/ai-chat/): A coding agent workspace with progress, task playback, a code panel and a cancellable backend adapter
+- [AI Image Generation](https://myzeusui.com/elements/ai-image-generation/): An image workspace with animated generation, a gallery, styles and a cancellable generation adapter
+- [Project Board](https://myzeusui.com/elements/project-board/): A reusable task board with columns, ticket cards and editable ticket properties
+- [Multi-agent Chat](https://myzeusui.com/elements/multi-agent-chat/): A multi-agent conversation workspace with reusable agent navigation, editor and panel composer
+- [Chat Starter](https://myzeusui.com/elements/chat-starter/): A local chat demo and reusable conversation shell with a cancellable assistant adapter
+- [Agent Creator](https://myzeusui.com/elements/agent-creator/): A reusable agent inspector with appearance, profile fields, language, notifications and local device voice preferences
+- [Agent Progress](https://myzeusui.com/elements/agent-progress/): Collapsible AI agent progress block for React and Tailwind CSS with animated task states and completion timing
+- [Calendar](https://myzeusui.com/elements/calendar/): A month calendar with event chips, a details popover, a month switcher and an inbox feed.
+- [Composer](https://myzeusui.com/elements/composer/): The AI chat composer for React + Tailwind CSS: attachment and model menus, voice and send controls, status bar, and a liquid-glass working state
+- [Composer Attachments](https://myzeusui.com/elements/composer-attachments/): Reusable attachment tiles and a wrapping strip, with a sequential upload queue composed into the multiline composer
+- [Composer Panel](https://myzeusui.com/elements/composer-panel/): A reusable multiline composer with provider search, nested model effort, permissions and a branch/project status tab
+- [Questionnaire](https://myzeusui.com/elements/questionnaire/): A reusable stepped question card with multiple or single selections, custom answers, keyboard shortcuts and animated navigation
+- [Task List](https://myzeusui.com/elements/task-list/): Streaming agent task log for React and Tailwind CSS. Tasks reveal step by step with soft height, blur, and shimmer, and drop straight into a chat thread.
+- [Web Search](https://myzeusui.com/elements/web-search/): Streaming research trail for React and Tailwind CSS: the queries an agent ran and the sources it opened, with real site marks, drawn in as it works.
+- [Combo Chart](https://myzeusui.com/elements/combo-chart-card/): Bars and a line on independent left and right axes, with hover dimming, a pulsing active dot and stat tiles.
+- [Contributions](https://myzeusui.com/elements/contributions-card/): GitHub-style contributions heat grid for React + Tailwind CSS with a swappable accent family
+- [Earnings Chart](https://myzeusui.com/elements/earnings-chart-card/): Bar chart card for React + Tailwind CSS with a period switcher, count-up headline, and hover outline
+- [Funnel Chart](https://myzeusui.com/elements/funnel-chart-card/): Stages tapering into each other, curved or sharp, with centred conversion pills and a value and name footer.
+- [Heatmap Chart](https://myzeusui.com/elements/heatmap-chart-card/): Rows and columns of tinted cells on a theme-following ramp, with a hover-linked headline and a Less to More legend.
+- [Most Active Days](https://myzeusui.com/elements/most-active-days-card/): Continuous vertical month calendar for React + Tailwind CSS with per-day mini activity rings
+- [Radar Chart](https://myzeusui.com/elements/radar-chart-card/): A radar in filled, dotted, lines-only and centre-score variants, with a hover-linked headline.
+- [Radial Chart](https://myzeusui.com/elements/radial-chart-card/): Concentric and labelled rings, single-value gauges and a stacked half gauge.
+- [Sankey Chart](https://myzeusui.com/elements/sankey-chart-card/): Flows between pill nodes along target-tinted links, with source and share labels and hover isolation.
+- [Scatter Chart](https://myzeusui.com/elements/scatter-chart-card/): Grouped series with an optional size measure, hover isolation and stat tiles.
+- [Sleep Score](https://myzeusui.com/elements/sleep-score-card/): Segmented sleep score ring for React + Tailwind CSS with hover-focused sub-scores and metric rows
+- [Stage Bars](https://myzeusui.com/elements/stage-bars-card/): Horizontal bars per stage with name, value and share, and widths that animate in.
+- [Steps Chart](https://myzeusui.com/elements/steps-card/): Weekly steps bar chart for React + Tailwind CSS with a week switcher, count-up headline, and hover outline
+- [Button](https://myzeusui.com/elements/button/): Primary, secondary, ghost and danger actions in three sizes, with icon slots.
+- [Icon Button](https://myzeusui.com/elements/icon-button/): Icon-only action button in three sizes, with secondary and circular tertiary variants.
+- [Link Button](https://myzeusui.com/elements/link-button/): Inline text action styled like a link, rendering an anchor when given an href.
+- [Button Group](https://myzeusui.com/elements/button-group/): Fused row of selectable buttons for view switches and toolbars.
+- [Close Button](https://myzeusui.com/elements/close-button/): The dismiss ×, in four sizes with matching stroke weights.
+- [Social Button](https://myzeusui.com/elements/social-button/): Twenty-four OAuth brands in colourful, black and outlined appearances.
+- [Input](https://myzeusui.com/elements/input/): Text and phone fields with labels, hints, validation and a country-code selector.
+- [Input OTP](https://myzeusui.com/elements/input-otp/): One-time-code boxes with paste, autofill and grouping.
+- [Checkbox](https://myzeusui.com/elements/checkbox/): Hand-drawn tick animation, indeterminate state, two sizes and a card variant.
+- [Radio](https://myzeusui.com/elements/radio/): Gradient dot, two sizes, and a card variant for plan pickers.
+- [Switch](https://myzeusui.com/elements/switch/): Pill and rectangle shapes, two sizes, plus a card variant with icon and description.
+- [Select](https://myzeusui.com/elements/select/): Single-choice listbox whose items take free-form content — dots, avatars, icons.
+- [Slider](https://myzeusui.com/elements/slider/): Single value and range, with a value bubble and custom formatting.
+- [Dropdown](https://myzeusui.com/elements/dropdown/): Composable menu primitives — trigger, popover, groups, items and dividers.
+- [Divider](https://myzeusui.com/elements/divider/): Single, double and filled separators that can carry any content in the middle.
+- [File Upload](https://myzeusui.com/elements/file-upload/): Drag and drop with extension and size validation, and per-file progress.
+- [Tabs](https://myzeusui.com/elements/tabs/): Underlined tabs with optional icons and counts, plus a pill variant.
+- [Segmented Control](https://myzeusui.com/elements/segmented-control/): Sliding pill option switcher for two to four short choices.
+- [Table](https://myzeusui.com/elements/table/): The semantic table primitive: sortable columns, row selection, two densities.
+- [Textarea](https://myzeusui.com/elements/textarea/): A reusable multiline field with matching labels, hints, count, bounded auto growth and native event/ref support
+- [Tree View](https://myzeusui.com/elements/tree-view/): An accessible file tree with controlled collections, selection, keyboard navigation, logical guides and animated expansion
+- [Tooltip](https://myzeusui.com/elements/tooltip/): Hover and focus tooltip with the arrow and placement handled for you.
+- [Badge](https://myzeusui.com/elements/badge/): Count pills for nav rows and menus, in neutral and primary.
+- [Chip](https://myzeusui.com/elements/chip/): Bold, subtle and caption tones across nine colours, for deltas, values and tags.
+- [Status Dot](https://myzeusui.com/elements/status-dot/): The small coloured dot that prefixes a status label.
+- [Kbd](https://myzeusui.com/elements/kbd/): Keyboard key caps for shortcut hints.
+- [Avatar](https://myzeusui.com/elements/avatar/): Photo or initials avatar, four sizes and semantic colour tints.
+- [Breadcrumb](https://myzeusui.com/elements/breadcrumb/): Path trail whose items take arbitrary leading content — avatars, icons, dots.
+- [Pagination](https://myzeusui.com/elements/pagination/): Page numbers with truncation and prev/next controls.
+- [Carousel](https://myzeusui.com/elements/carousel/): Snap track with arrows, dots, configurable gap and alignment.
+- [Announcement](https://myzeusui.com/elements/announcement/): Dismissible banner for product news, with an optional action.
+- [Notification](https://myzeusui.com/elements/notification/): Toast with status, icon or avatar, timestamp, actions and auto-dismiss.
+- [Date Picker](https://myzeusui.com/elements/date-picker/): Popover calendar for a single date, built on @internationalized/date.
+- [Date Range Picker](https://myzeusui.com/elements/date-range-picker/): Two-month range picker with quick presets and an apply step.
+- [Meeting Scheduler](https://myzeusui.com/elements/meeting-scheduler/): A booking panel: host, duration, timezone, date and time slots.
+- [Theme Toggle](https://myzeusui.com/elements/theme-toggle/): Light/dark switch that reveals the next theme from the exact click point.
+- [Stat Cards](https://myzeusui.com/elements/stat-cards/): KPI row with gradient icon tiles, info tooltips and delta pills, in two variants.
+- [Data Grid](https://myzeusui.com/elements/data-grid/): A virtual spreadsheet with typed editors, cell ranges, search, filters, resizing, summaries, clipboard transactions and undo
+- [Data Table](https://myzeusui.com/elements/data-table/): TanStack Table with sorting, selection, filters, search, density and pagination.
+- [Sidebar](https://myzeusui.com/elements/sidebar/): The 260px dashboard sidebar with collapsing nav, team switcher and user menu.
+- [App Shell](https://myzeusui.com/elements/app-shell/): The page frame: sidebar, mobile drawer, breadcrumb header and content column.
+- [Notification Center](https://myzeusui.com/elements/notification-center/): Grouped, filterable inbox with unread state and per-item actions.
+- [Settings Modal](https://myzeusui.com/elements/settings-modal/): Five-page settings dialog: profile, general, tools, storage and plan.
+- [Auth Card](https://myzeusui.com/elements/auth-card/): Sign in, sign up and verify, with stacked, inline and grid provider layouts.
+- [Agent Limits](https://myzeusui.com/elements/agent-limits-card/): Context window usage as a segmented bar with an expandable token breakdown, plus plan quotas and their reset times.
+- [Agent Thinking](https://myzeusui.com/elements/agent-thinking/): Four loading personalities — wave, spin, stars and infinity — with an elapsed timer.
+- [Composer Loader](https://myzeusui.com/elements/composer-loader/): A travelling light that rims the composer while an agent is answering.
+- [Agent Log](https://myzeusui.com/elements/agent-log/): The primitives behind a streaming tool log: reveal masks, guides and shimmer text.
+- [Agent Chat](https://myzeusui.com/elements/agent-chat/): A working chat app: thread history, streaming messages, composer and suggestions.
+- [Area Chart](https://myzeusui.com/elements/area-chart-card/): One or more series as soft filled bands, stacked into a total by default.
+- [Line Chart](https://myzeusui.com/elements/line-chart-card/): Several series compared over one axis, smooth or sharp, with a dashed comparison.
+- [Bar List](https://myzeusui.com/elements/bar-list-card/): A ranked list where each row's bar is its share of the top — no axis, no library.
+- [Activity Rings](https://myzeusui.com/elements/activity-rings-card/): Concentric progress arcs, one per goal, drawn as plain SVG.
+- [Chart Card](https://myzeusui.com/elements/chart-card/): The shared frame every chart card is built on: header, count-up headline, delta chip and legend.
+- [Revenue Chart](https://myzeusui.com/elements/revenue-chart-card/): Year-over-year area chart with a computed headline and delta.
+- [Orders Chart](https://myzeusui.com/elements/orders-chart-card/): Year-over-year bars with the same headline and delta treatment.
+- [Important Alerts](https://myzeusui.com/elements/important-alerts-card/): A dated alert feed with severity icons and a week range pill.
+- [Patient Info](https://myzeusui.com/elements/patient-info-card/): A profile card with identity fields and vitals.
+- [Glass Button](https://myzeusui.com/elements/glass-button/): A frosted button with a light rim and an accent glow on the primary tone. Reads best over colour.
+- [Forge Button](https://myzeusui.com/elements/forge-button/): A hard-edged button with an offset shadow that collapses when pressed.
+- [Glass Input](https://myzeusui.com/elements/glass-input/): A translucent text field with inner light and a soft accent focus ring.
+- [Boxed Input](https://myzeusui.com/elements/boxed-input/): A square field with a heavy outline and bold label, built for dense tools.
+- [Glass Sidebar](https://myzeusui.com/elements/glass-sidebar/): Navigation on a frosted panel that floats over the app canvas.
+- [Rail Sidebar](https://myzeusui.com/elements/rail-sidebar/): A narrow icon rail with a solid active block. Labels appear as tooltips.
+- [Floating Sidebar](https://myzeusui.com/elements/floating-sidebar/): An inset navigation panel with layered depth and tinted active rows.
+- [Flush Sidebar](https://myzeusui.com/elements/flush-sidebar/): Full-height navigation with a hairline edge and an accent bar on the active row.
+- [Glass Modal](https://myzeusui.com/elements/glass-modal/): A frosted floating dialog that keeps the page visible behind it.
+- [Side Sheet](https://myzeusui.com/elements/side-sheet/): A full-height panel that slides in from the edge for longer forms.
+- [Glass Card](https://myzeusui.com/elements/glass-card/): A frosted surface with a specular rim for content over colour or imagery.
+- [Forge Card](https://myzeusui.com/elements/forge-card/): A heavy slab with a hard offset shadow for bold, industrial layouts.

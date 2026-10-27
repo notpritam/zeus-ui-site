@@ -1,0 +1,1 @@
+function c(s,a){let t="",n=!1,o=0;const r=()=>{if(n)return;const e=s.getBoundingClientRect(),i=[e.left,e.top,e.width,e.height].join("/");i!==t&&(t=i,a()),o=requestAnimationFrame(r)};return r(),()=>{n=!0,cancelAnimationFrame(o)}}export{c as o};

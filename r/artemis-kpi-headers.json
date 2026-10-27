@@ -1,0 +1,75 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "artemis-kpi-headers",
+  "type": "registry:block",
+  "title": "KPI headers",
+  "variants": [
+    {
+      "name": "headers",
+      "title": "Header KPI cards"
+    }
+  ],
+  "description": "Compact cards with icons beside muted headings and inset panels for animated values and period comparisons.",
+  "dependencies": [
+    "lucide-react@^1.60.0",
+    "motion@^12.42.2"
+  ],
+  "registryDependencies": [
+    "https://myzeusui.com/r/artemis-controls.json",
+    "https://myzeusui.com/r/artemis-tokens.json"
+  ],
+  "files": [
+    {
+      "path": "application/artemis/artemis-kpi-headers.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/artemis-kpi-headers.tsx",
+      "content": "\"use client\";\nimport { ArtemisScope } from \"./artemis-scope\";\nimport View0 from \"./components/kpi-overview/variants/06-headers\";\nexport interface ArtemisKpiHeadersProps { className?: string;  }\nexport function ArtemisKpiHeaders({className}:ArtemisKpiHeadersProps) {return <ArtemisScope className={className}><div className=\"art:flex art:w-full art:min-w-0 art:flex-col art:items-center\"><View0/></div></ArtemisScope>;}\n"
+    },
+    {
+      "path": "application/artemis/components/kpi-overview/variants/06-headers.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/kpi-overview/variants/06-headers.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { changeParts, COMPARISON_LABEL, formatValue, type HeaderMetric, METRICS } from \"./06-headers/data\";\nimport { NumberTicker } from \"./06-headers/number-ticker\";\nexport default function KpiOverviewHeaders() {\n    return (<div className=\"art:w-full art:max-w-7xl\">\n      <section aria-label=\"Key performance indicators\" className=\"art:@container art:w-full art:min-w-0\">\n        <dl className=\"art:grid art:grid-cols-1 art:gap-3 art:@2xl:grid-cols-2 art:@4xl:grid-cols-4\">\n          {METRICS.map((metric) => (<MetricCard key={metric.id} metric={metric}/>))}\n        </dl>\n      </section>\n    </div>);\n}\nfunction MetricCard({ metric }: {\n    metric: HeaderMetric;\n}) {\n    const change = changeParts(metric);\n    return (<div className=\"art:flex art:min-w-0 art:flex-col art:rounded-3xl art:border art:border-border art:p-1.5 art:bg-muted\">\n      <dt className=\"art:flex art:items-center art:gap-3 art:px-4 art:py-3 art:text-muted-foreground\">\n        <span aria-hidden=\"true\" className=\"art:grid art:size-9 art:shrink-0 art:place-items-center art:rounded-full art:border art:border-border art:[&>svg]:size-4\">\n          {metric.icon}\n        </span>\n        <span className=\"art:font-mono art:font-medium art:uppercase art:tracking-tight art:whitespace-nowrap art:text-xl\">{metric.label}</span>\n      </dt>\n      <dd className=\"art:flex art:flex-1 art:flex-col art:justify-between art:gap-4 art:rounded-2xl art:bg-background art:p-4\">\n        <div className=\"art:flex art:min-h-9 art:items-center\">\n          <div className=\"art:flex art:min-w-0 art:flex-wrap art:items-center art:gap-x-2 art:gap-y-1\">\n            <NumberTicker text={formatValue(metric)} className=\"art:inline-flex art:items-baseline art:whitespace-nowrap art:text-2xl art:font-medium art:tabular-nums art:tracking-tight art:text-foreground art:@5xl:text-3xl\"/>\n          </div>\n        </div>\n        <p className=\"art:flex art:flex-wrap art:items-center art:gap-x-1.5 art:gap-y-1 art:text-xs art:text-muted-foreground\">\n          <NumberTicker text={change.text} prefix={change.prefix} suffix={change.suffix} className={`art:inline-flex art:items-baseline art:whitespace-nowrap art:font-medium art:tabular-nums ${change.positive ? \"art:text-success-foreground\" : \"art:text-destructive\"}`}/>\n          <span>{COMPARISON_LABEL}</span>\n        </p>\n      </dd>\n    </div>);\n}\n"
+    },
+    {
+      "path": "application/artemis/components/kpi-overview/variants/06-headers/data.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/kpi-overview/variants/06-headers/data.tsx",
+      "content": "// @zeus-internal\nimport type { ReactNode } from \"react\";\nimport { CalendarCheckIcon, Repeat2Icon, RotateCcwIcon, UserRoundCheckIcon } from \"./icons\";\nexport interface HeaderMetric {\n    id: string;\n    label: string;\n    icon: ReactNode;\n    value: number;\n    previous: number;\n    format?: {\n        style?: \"currency\" | \"percent\";\n        decimals?: number;\n    };\n    increaseIsPositive?: boolean;\n}\nexport const COMPARISON_LABEL = \"over last month\";\nexport const METRICS: readonly HeaderMetric[] = [\n    {\n        id: \"bookings\",\n        label: \"Bookings\",\n        icon: <CalendarCheckIcon />,\n        value: 38460,\n        previous: 34100,\n        format: { style: \"currency\" },\n    },\n    {\n        id: \"renewals\",\n        label: \"Renewals\",\n        icon: <Repeat2Icon />,\n        value: 128,\n        previous: 116,\n    },\n    {\n        id: \"refunds\",\n        label: \"Refunds\",\n        icon: <RotateCcwIcon />,\n        value: 840,\n        previous: 1020,\n        format: { style: \"currency\" },\n        increaseIsPositive: false,\n    },\n    {\n        id: \"retention\",\n        label: \"Retention\",\n        icon: <UserRoundCheckIcon />,\n        value: 94.2,\n        previous: 92.8,\n        format: { style: \"percent\", decimals: 1 },\n    },\n];\nexport function formatValue(metric: HeaderMetric): string {\n    const decimals = metric.format?.decimals ?? 0;\n    const digits: Intl.NumberFormatOptions = { minimumFractionDigits: decimals, maximumFractionDigits: decimals };\n    if (metric.format?.style === \"currency\") {\n        return new Intl.NumberFormat(\"en-US\", { ...digits, style: \"currency\", currency: \"USD\" }).format(metric.value);\n    }\n    if (metric.format?.style === \"percent\") {\n        return `${new Intl.NumberFormat(\"en-US\", digits).format(metric.value)}%`;\n    }\n    return new Intl.NumberFormat(\"en-US\", digits).format(metric.value);\n}\nexport interface ChangeParts {\n    text: string;\n    prefix?: string;\n    suffix: string;\n    positive: boolean;\n}\nexport function changeParts(metric: HeaderMetric): ChangeParts {\n    const percentPoints = metric.format?.style === \"percent\";\n    const delta = percentPoints\n        ? metric.value - metric.previous\n        : ((metric.value - metric.previous) / Math.abs(metric.previous)) * 100;\n    const text = new Intl.NumberFormat(\"en-US\", { minimumFractionDigits: 1, maximumFractionDigits: 1 }).format(delta);\n    const increaseIsPositive = metric.increaseIsPositive ?? true;\n    return {\n        text,\n        prefix: delta > 0 ? \"+\" : undefined,\n        suffix: percentPoints ? \" pp\" : \"%\",\n        positive: increaseIsPositive ? delta >= 0 : delta <= 0,\n    };\n}\n"
+    },
+    {
+      "path": "application/artemis/components/kpi-overview/variants/06-headers/icons.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/kpi-overview/variants/06-headers/icons.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nexport { CalendarCheckIcon, Repeat2Icon, RotateCcwIcon, UserRoundCheckIcon } from \"lucide-react\";\n"
+    },
+    {
+      "path": "application/artemis/components/kpi-overview/variants/06-headers/number-ticker.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/kpi-overview/variants/06-headers/number-ticker.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { ArtemisRollingNumber } from \"../../../../lib/rolling-number\";\nexport interface NumberTickerProps { text: string; className?: string; duration?: number; stagger?: number; prefix?: string; suffix?: string; label?: string; entrance?: boolean; }\nexport function NumberTicker({ text, className, duration = 0.6, stagger = 0.02, prefix, suffix, label }: NumberTickerProps) { return <ArtemisRollingNumber text={text} className={className} duration={duration} stagger={stagger} prefix={prefix} suffix={suffix} label={label} activation={\"in-view\"} amount={0.6}/>; }\n"
+    },
+    {
+      "path": "application/artemis/lib/rolling-number.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/lib/rolling-number.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { animate, motion, useInView, useReducedMotion } from \"motion/react\";\nimport { useEffect, useRef, useState } from \"react\";\nimport { ARTEMIS_EASE_OUT } from \"./ease\";\nexport interface ArtemisRollingNumberProps {\n  text: string;\n  duration?: number;\n  stagger?: number;\n  className?: string;\n  reducedMotion?: boolean;\n  blur?: boolean;\n  activation?: \"in-view\" | \"immediate\" | \"mount\";\n  amount?: number;\n  prefix?: string;\n  suffix?: string;\n  label?: string;\n  blurUpdatesOnly?: boolean;\n  staggerDigitsOnly?: boolean;\n}\nfunction Wheel({ value, delay, duration, reduced, blur, fromZero, blurUpdatesOnly }: { value: string; delay: number; duration: number; reduced: boolean; blur: boolean; fromZero: boolean; blurUpdatesOnly: boolean }) {\n  const rail = useRef<HTMLSpanElement>(null);\n  const firstPaint = useRef(true);\n  useEffect(() => {\n    const initial = firstPaint.current;\n    firstPaint.current = false;\n    if (!rail.current) return;\n    if (!blur || reduced || value === \"0\" && !blurUpdatesOnly) { rail.current.style.filter = \"none\"; return; }\n    if (blurUpdatesOnly && initial) return;\n    const playback = animate(rail.current, { filter: [\"blur(10px)\", \"blur(0px)\"] }, { duration: 0.32, delay, ease: ARTEMIS_EASE_OUT });\n    return () => playback.stop();\n  }, [value, blur, reduced, blurUpdatesOnly]);\n  return <span className=\"art:relative art:inline-block\" style={{ clipPath: \"inset(0)\", lineHeight: \"1.1em\", height: \"1.1em\", width: \"1ch\", textAlign: \"center\" }}>\n    <span className=\"art:invisible\">{value}</span>\n    <motion.span ref={rail} className=\"art:absolute art:inset-x-0 art:top-0 art:flex art:flex-col art:items-center art:will-change-[transform,filter]\" initial={fromZero && !reduced ? { y: 0 } : false} animate={{ y: `${-Number(value) * 11 / 10}em` }} transition={reduced ? { duration: 0 } : { duration, delay, ease: ARTEMIS_EASE_OUT }}>\n      {Array.from({ length: 10 }, (_, digit) => <span key={digit} className=\"art:flex art:items-center art:justify-center art:leading-none\" style={{ height: \"1.1em\" }}>{digit}</span>)}\n    </motion.span>\n  </span>;\n}\nexport function ArtemisRollingNumber({ text, duration = 0.6, stagger = 0.02, className = \"\", reducedMotion, blur = false, activation = \"in-view\", amount = 0.6, prefix = \"\", suffix = \"\", label, blurUpdatesOnly = false, staggerDigitsOnly = false }: ArtemisRollingNumberProps) {\n  const anchor = useRef<HTMLSpanElement>(null);\n  const observed = useInView(anchor, { once: true, amount });\n  const visible = activation !== \"in-view\" || observed;\n  const preference = useReducedMotion() === true;\n  const reduced = reducedMotion ?? preference;\n  const [settled, setSettled] = useState(false);\n  const firstText = useRef(text), changedSinceMount = useRef(false);\n  if (text !== firstText.current) changedSinceMount.current = true;\n  useEffect(() => {\n    if (!visible || settled) return;\n    const timer = setTimeout(() => setSettled(true), (duration + text.length * stagger) * 1000);\n    return () => clearTimeout(timer);\n  }, [visible, settled, duration, stagger, text.length]);\n  return <span ref={anchor} className={`art:inline-flex art:items-baseline art:tabular-nums ${className}`}>\n    <span className=\"art:sr-only\">{label ?? prefix + text + suffix}</span>\n    <span aria-hidden=\"true\" className=\"art:inline-flex art:items-baseline\">{prefix && <span>{prefix}</span>}{Array.from(text, (char, index) => /[0-9]/.test(char)\n      ? <Wheel key={text.length - index} value={visible || reduced ? char : \"0\"} delay={settled || reduced || activation === \"mount\" && changedSinceMount.current ? 0 : (staggerDigitsOnly ? text.slice(0, index).replace(/\\D/g, \"\").length : index) * stagger} duration={duration} reduced={reduced} blur={blur} fromZero={activation === \"mount\"} blurUpdatesOnly={blurUpdatesOnly}/>\n      : <span key={text.length - index}>{char}</span>)}{suffix && <span>{suffix}</span>}</span>\n  </span>;\n}\n"
+    }
+  ],
+  "category": "blocks",
+  "family": "data",
+  "kind": "block",
+  "designSystem": "artemis",
+  "foundationDependencies": [
+    "artemis-tokens"
+  ],
+  "iconLibraries": [],
+  "tags": [
+    "artemis",
+    "kpi-overview",
+    "motion"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "3bc96ebde717"
+}

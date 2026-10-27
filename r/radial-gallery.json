@@ -24,24 +24,24 @@
   "meta": {
     "assets": [
       {
-        "url": "https://myzeusui.com/assets/annnimate/action_cyclist-climb_02.jpg",
-        "target": "public/assets/annnimate/action_cyclist-climb_02.jpg"
+        "url": "https://myzeusui.com/assets/zeus/action_cyclist-climb_02.jpg",
+        "target": "public/assets/zeus/action_cyclist-climb_02.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/action_leap_01.jpg",
-        "target": "public/assets/annnimate/action_leap_01.jpg"
+        "url": "https://myzeusui.com/assets/zeus/action_leap_01.jpg",
+        "target": "public/assets/zeus/action_leap_01.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/hero_run_02.jpg",
-        "target": "public/assets/annnimate/hero_run_02.jpg"
+        "url": "https://myzeusui.com/assets/zeus/hero_run_02.jpg",
+        "target": "public/assets/zeus/hero_run_02.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/product_football-boot_01.jpg",
-        "target": "public/assets/annnimate/product_football-boot_01.jpg"
+        "url": "https://myzeusui.com/assets/zeus/product_football-boot_01.jpg",
+        "target": "public/assets/zeus/product_football-boot_01.jpg"
       },
       {
-        "url": "https://myzeusui.com/assets/annnimate/product_tennis-net_01.jpg",
-        "target": "public/assets/annnimate/product_tennis-net_01.jpg"
+        "url": "https://myzeusui.com/assets/zeus/product_tennis-net_01.jpg",
+        "target": "public/assets/zeus/product_tennis-net_01.jpg"
       }
     ]
   },
@@ -53,12 +53,12 @@
   "iconLibraries": [],
   "tags": [
     "animation",
-    "annnimate",
+    "zeus",
     "hover",
     "ambient"
   ],
   "status": "beta",
   "tier": "free",
   "isNew": true,
-  "hash": "f0658b7bad26"
+  "hash": "93964d8ae097"
 }

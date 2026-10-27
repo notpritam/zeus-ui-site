@@ -1,0 +1,50 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "artemis-folder-card",
+  "type": "registry:block",
+  "title": "Folder card",
+  "variants": [
+    {
+      "name": "folder",
+      "title": "Folder"
+    }
+  ],
+  "description": "A near-square collection card with a full-bleed media layer, a continuous folder-shaped content surface, and anchored metadata",
+  "dependencies": [
+    "motion@^12.42.2"
+  ],
+  "registryDependencies": [
+    "https://myzeusui.com/r/artemis-controls.json",
+    "https://myzeusui.com/r/artemis-tokens.json"
+  ],
+  "files": [
+    {
+      "path": "application/artemis/artemis-folder-card.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/artemis-folder-card.tsx",
+      "content": "\"use client\";\nimport { ArtemisScope } from \"./artemis-scope\";\nimport Variant0 from \"./components/cards/variants/04-folder\";\nexport interface ArtemisFolderCardProps {\n  className?: string;\n}\nexport function ArtemisFolderCard({ className }: ArtemisFolderCardProps) {\n  return (\n    <ArtemisScope className={`art:[&>*]:mx-auto ${className ?? \"\"}`}>\n      <Variant0 />\n    </ArtemisScope>\n  );\n}\n"
+    },
+    {
+      "path": "application/artemis/components/cards/variants/04-folder.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/cards/variants/04-folder.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { motion, useInView, useReducedMotion } from \"motion/react\";\nimport { useRef, useState } from \"react\";\nimport { ARTEMIS_EASE_OUT, ARTEMIS_SPRING_PANEL } from \"../../../lib/ease\";\nexport default function CardsFolder() {\n    const root = useRef<HTMLElement>(null);\n    const inView = useInView(root, { once: true, amount: 0.2 });\n    const reduce = useReducedMotion();\n    const [hovered, setHovered] = useState(false);\n    const active = hovered && !reduce;\n    return (<>\n      <>\n        <motion.article ref={root} initial={{ opacity: 0, y: 14 }} animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 14 }} transition={reduce ? { duration: 0 } : { duration: 0.5, ease: ARTEMIS_EASE_OUT }} onHoverStart={() => setHovered(true)} onHoverEnd={() => setHovered(false)} className=\"art:relative art:aspect-[1.06/1] art:w-full art:max-w-md art:isolate art:overflow-hidden art:rounded-3xl art:border art:border-border art:bg-background\">\n          <div aria-hidden=\"true\" className=\"art:absolute art:inset-px art:overflow-hidden art:rounded-sm\">\n            <motion.div animate={{ scale: active ? 1.035 : 1 }} transition={ARTEMIS_SPRING_PANEL} aria-hidden=\"true\" className=\"art:absolute art:-inset-2 art:overflow-hidden art:bg-[linear-gradient(128deg,#e9b071_0%,#d96b4e_42%,#347d78_100%)]\">\n              <div className=\"art:absolute art:-top-12 art:left-[8%] art:h-48 art:w-20 art:rotate-[24deg] art:rounded-full art:bg-white/25 art:blur-xl\"/>\n              <div className=\"art:absolute art:top-4 art:left-[38%] art:h-40 art:w-16 art:-rotate-[18deg] art:rounded-full art:bg-white/20 art:blur-lg\"/>\n              <div className=\"art:absolute art:-right-12 art:-bottom-10 art:size-52 art:rounded-full art:border-[30px] art:border-white/15\"/>\n            </motion.div>\n          </div>\n          <div className=\"art:absolute art:top-[9%] art:right-[6%] art:z-10 art:max-w-[42%] art:rounded-full art:border art:border-border art:bg-background/85 art:px-3 art:py-2 art:text-right art:font-medium art:text-foreground art:text-xs art:leading-4 art:backdrop-blur-sm\">\n            {\"Workspace collection\"}\n          </div>\n          <motion.div animate={{ y: active ? -2 : 0 }} transition={ARTEMIS_SPRING_PANEL} aria-hidden=\"true\" className=\"art:pointer-events-none art:absolute art:inset-x-0 art:top-0 art:bottom-[-2px] art:z-10\">\n            <svg aria-hidden=\"true\" viewBox=\"0 0 100 100\" preserveAspectRatio=\"none\" className=\"art:size-full\">\n              <path d=\"M 0 100 V 35 C 0 30.5 2.8 28 7 28 H 38 C 41.5 28 43.5 29.2 46 31.8 L 52.5 38.2 C 54.6 40.2 57 41 61 41 H 94 C 98 41 100 43.4 100 47.5 V 100 Z\" className=\"art:fill-background\"/>\n            </svg>\n          </motion.div>\n          <motion.div animate={{ y: active ? -2 : 0 }} transition={ARTEMIS_SPRING_PANEL} className=\"art:pointer-events-none art:absolute art:inset-0 art:z-20\">\n            <div className=\"art:absolute art:top-[32.5%] art:left-[5%] art:max-w-[48%]\">\n              <h2 className=\"art:truncate art:text-foreground art:leading-tight art:tracking-[-0.025em] art:text-4xl art:font-medium\">\n                {\"Daily memo\"}\n              </h2>\n              <p className=\"art:mt-1 art:truncate art:text-muted-foreground art:text-sm art:@min-[640px]/artemis:text-base\">\n                {\"Notes & journaling\"}\n              </p>\n            </div>\n            <div className=\"art:absolute art:right-[6%] art:bottom-[6%] art:left-[5%] art:flex art:items-end art:justify-between art:gap-6\">\n              <div className=\"art:flex art:min-w-0 art:items-baseline art:gap-2\">\n                <span className=\"art:font-medium art:text-4xl art:text-foreground art:leading-none art:tracking-[-0.05em] art:tabular-nums art:@min-[640px]/artemis:text-5xl\">\n                  {\"05\"}\n                </span>\n                <span className=\"art:text-foreground art:text-sm art:@min-[640px]/artemis:text-base\">\n                  {\"Docs\"}\n                </span>\n              </div>\n              <span className=\"art:truncate art:text-right art:font-medium art:text-foreground art:text-sm art:tabular-nums art:@min-[640px]/artemis:text-base\">\n                {\"1,270 notes\"}\n              </span>\n            </div>\n          </motion.div>\n        </motion.article>\n      </>\n    </>);\n}\n"
+    }
+  ],
+  "category": "blocks",
+  "family": "layout",
+  "kind": "block",
+  "designSystem": "artemis",
+  "foundationDependencies": [
+    "artemis-tokens"
+  ],
+  "iconLibraries": [],
+  "tags": [
+    "artemis",
+    "folder-card",
+    "motion"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "844e586d8a05"
+}
