@@ -1,1 +1,0 @@
-import{cJ as m,bG as s}from"./pro-chart-NXZOSqZg.js";function u(t){return Array.isArray(t)?t:Array.from(t)}function y(t,l=m){if(t==null)return;const e=u(t);if(e.length===0)return;const f=s(l);let a,o;for(let n=0;n<e.length;n++){const i=e[n],r=f(i,n,e);r==null||Number.isNaN(r)||typeof r=="symbol"||(o===void 0||r>o)&&(o=r,a=i)}return a}export{y as m,u as t};

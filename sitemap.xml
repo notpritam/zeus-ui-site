@@ -2,7 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://myzeusui.com/</loc></url>
   <url><loc>https://myzeusui.com/agents/</loc></url>
-  <url><loc>https://myzeusui.com/elements/3d-card-flip/</loc></url>
   <url><loc>https://myzeusui.com/elements/activity-rings-card/</loc></url>
   <url><loc>https://myzeusui.com/elements/agent-chat/</loc></url>
   <url><loc>https://myzeusui.com/elements/agent-creator/</loc></url>
@@ -13,11 +12,6 @@
   <url><loc>https://myzeusui.com/elements/ai-chat/</loc></url>
   <url><loc>https://myzeusui.com/elements/ai-image-generation/</loc></url>
   <url><loc>https://myzeusui.com/elements/ai-profile/</loc></url>
-  <url><loc>https://myzeusui.com/elements/animated-accordion/</loc></url>
-  <url><loc>https://myzeusui.com/elements/animated-grid/</loc></url>
-  <url><loc>https://myzeusui.com/elements/animated-icon-button/</loc></url>
-  <url><loc>https://myzeusui.com/elements/animated-pricing/</loc></url>
-  <url><loc>https://myzeusui.com/elements/animated-tooltip/</loc></url>
   <url><loc>https://myzeusui.com/elements/announcement/</loc></url>
   <url><loc>https://myzeusui.com/elements/app-shell/</loc></url>
   <url><loc>https://myzeusui.com/elements/area-chart-card/</loc></url>
@@ -139,29 +133,19 @@
   <url><loc>https://myzeusui.com/elements/artemis-wallet-site/</loc></url>
   <url><loc>https://myzeusui.com/elements/artemis-what-we-offer/</loc></url>
   <url><loc>https://myzeusui.com/elements/artemis-whats-new/</loc></url>
-  <url><loc>https://myzeusui.com/elements/ascii-overlay/</loc></url>
   <url><loc>https://myzeusui.com/elements/auth-card/</loc></url>
   <url><loc>https://myzeusui.com/elements/avatar/</loc></url>
-  <url><loc>https://myzeusui.com/elements/background-color/</loc></url>
-  <url><loc>https://myzeusui.com/elements/background-fill-button/</loc></url>
   <url><loc>https://myzeusui.com/elements/badge/</loc></url>
   <url><loc>https://myzeusui.com/elements/bar-list-card/</loc></url>
-  <url><loc>https://myzeusui.com/elements/boxed-input/</loc></url>
   <url><loc>https://myzeusui.com/elements/breadcrumb/</loc></url>
   <url><loc>https://myzeusui.com/elements/button-group/</loc></url>
   <url><loc>https://myzeusui.com/elements/button/</loc></url>
   <url><loc>https://myzeusui.com/elements/calendar/</loc></url>
-  <url><loc>https://myzeusui.com/elements/capsule-hero/</loc></url>
-  <url><loc>https://myzeusui.com/elements/card-fan/</loc></url>
   <url><loc>https://myzeusui.com/elements/carousel/</loc></url>
-  <url><loc>https://myzeusui.com/elements/character-appear/</loc></url>
   <url><loc>https://myzeusui.com/elements/chart-card/</loc></url>
   <url><loc>https://myzeusui.com/elements/chat-starter/</loc></url>
   <url><loc>https://myzeusui.com/elements/checkbox/</loc></url>
   <url><loc>https://myzeusui.com/elements/chip/</loc></url>
-  <url><loc>https://myzeusui.com/elements/cinematic-text/</loc></url>
-  <url><loc>https://myzeusui.com/elements/circle-fill-button/</loc></url>
-  <url><loc>https://myzeusui.com/elements/circular-slider/</loc></url>
   <url><loc>https://myzeusui.com/elements/close-button/</loc></url>
   <url><loc>https://myzeusui.com/elements/combo-chart-card/</loc></url>
   <url><loc>https://myzeusui.com/elements/composer-attachments/</loc></url>
@@ -169,151 +153,65 @@
   <url><loc>https://myzeusui.com/elements/composer-panel/</loc></url>
   <url><loc>https://myzeusui.com/elements/composer/</loc></url>
   <url><loc>https://myzeusui.com/elements/contributions-card/</loc></url>
-  <url><loc>https://myzeusui.com/elements/counter/</loc></url>
-  <url><loc>https://myzeusui.com/elements/curtain-slider/</loc></url>
-  <url><loc>https://myzeusui.com/elements/curve-fill-button/</loc></url>
-  <url><loc>https://myzeusui.com/elements/custom-cursor/</loc></url>
   <url><loc>https://myzeusui.com/elements/data-grid/</loc></url>
   <url><loc>https://myzeusui.com/elements/data-table/</loc></url>
   <url><loc>https://myzeusui.com/elements/date-picker/</loc></url>
   <url><loc>https://myzeusui.com/elements/date-range-picker/</loc></url>
-  <url><loc>https://myzeusui.com/elements/detail-drawer/</loc></url>
-  <url><loc>https://myzeusui.com/elements/dither-cursor-trail/</loc></url>
-  <url><loc>https://myzeusui.com/elements/dithering/</loc></url>
   <url><loc>https://myzeusui.com/elements/divider/</loc></url>
-  <url><loc>https://myzeusui.com/elements/dock-footer/</loc></url>
-  <url><loc>https://myzeusui.com/elements/drift-gallery/</loc></url>
   <url><loc>https://myzeusui.com/elements/dropdown/</loc></url>
-  <url><loc>https://myzeusui.com/elements/dual-scramble/</loc></url>
   <url><loc>https://myzeusui.com/elements/earnings-chart-card/</loc></url>
-  <url><loc>https://myzeusui.com/elements/element-reveal/</loc></url>
-  <url><loc>https://myzeusui.com/elements/expanding-strip/</loc></url>
-  <url><loc>https://myzeusui.com/elements/feature-dialog/</loc></url>
   <url><loc>https://myzeusui.com/elements/file-upload/</loc></url>
   <url><loc>https://myzeusui.com/elements/finance-dashboard/</loc></url>
-  <url><loc>https://myzeusui.com/elements/flip-filter/</loc></url>
-  <url><loc>https://myzeusui.com/elements/flip-zone/</loc></url>
   <url><loc>https://myzeusui.com/elements/floating-sidebar/</loc></url>
-  <url><loc>https://myzeusui.com/elements/flush-sidebar/</loc></url>
-  <url><loc>https://myzeusui.com/elements/folding-text/</loc></url>
-  <url><loc>https://myzeusui.com/elements/forge-button/</loc></url>
-  <url><loc>https://myzeusui.com/elements/forge-card/</loc></url>
-  <url><loc>https://myzeusui.com/elements/fullscreen-slide-menu/</loc></url>
   <url><loc>https://myzeusui.com/elements/funnel-chart-card/</loc></url>
-  <url><loc>https://myzeusui.com/elements/glass-button/</loc></url>
-  <url><loc>https://myzeusui.com/elements/glass-card/</loc></url>
-  <url><loc>https://myzeusui.com/elements/glass-input/</loc></url>
-  <url><loc>https://myzeusui.com/elements/glass-modal/</loc></url>
-  <url><loc>https://myzeusui.com/elements/glass-sidebar/</loc></url>
-  <url><loc>https://myzeusui.com/elements/gooey-filter-chips/</loc></url>
-  <url><loc>https://myzeusui.com/elements/gooey-hover-reveal/</loc></url>
-  <url><loc>https://myzeusui.com/elements/gooey-menu/</loc></url>
-  <url><loc>https://myzeusui.com/elements/gradient-footer/</loc></url>
-  <url><loc>https://myzeusui.com/elements/grid-chapters/</loc></url>
   <url><loc>https://myzeusui.com/elements/heatmap-chart-card/</loc></url>
-  <url><loc>https://myzeusui.com/elements/hide-header/</loc></url>
   <url><loc>https://myzeusui.com/elements/home-dashboard/</loc></url>
-  <url><loc>https://myzeusui.com/elements/hoverable-list/</loc></url>
   <url><loc>https://myzeusui.com/elements/hr-management/</loc></url>
   <url><loc>https://myzeusui.com/elements/icon-button/</loc></url>
-  <url><loc>https://myzeusui.com/elements/image-dissolve-scroll/</loc></url>
-  <url><loc>https://myzeusui.com/elements/image-fly-in/</loc></url>
-  <url><loc>https://myzeusui.com/elements/image-follow-list/</loc></url>
-  <url><loc>https://myzeusui.com/elements/image-glitch/</loc></url>
-  <url><loc>https://myzeusui.com/elements/image-trail/</loc></url>
   <url><loc>https://myzeusui.com/elements/important-alerts-card/</loc></url>
-  <url><loc>https://myzeusui.com/elements/index-wipe/</loc></url>
-  <url><loc>https://myzeusui.com/elements/infinite-draggable-grid/</loc></url>
-  <url><loc>https://myzeusui.com/elements/infinite-marquee/</loc></url>
-  <url><loc>https://myzeusui.com/elements/infinite-parallax-slider/</loc></url>
   <url><loc>https://myzeusui.com/elements/input-otp/</loc></url>
   <url><loc>https://myzeusui.com/elements/input/</loc></url>
   <url><loc>https://myzeusui.com/elements/kbd/</loc></url>
-  <url><loc>https://myzeusui.com/elements/lens-rail/</loc></url>
   <url><loc>https://myzeusui.com/elements/line-chart-card/</loc></url>
   <url><loc>https://myzeusui.com/elements/link-button/</loc></url>
-  <url><loc>https://myzeusui.com/elements/magnetic-button/</loc></url>
   <url><loc>https://myzeusui.com/elements/marketing-dashboard/</loc></url>
-  <url><loc>https://myzeusui.com/elements/mask-reveal/</loc></url>
   <url><loc>https://myzeusui.com/elements/medical-profile/</loc></url>
   <url><loc>https://myzeusui.com/elements/meeting-scheduler/</loc></url>
-  <url><loc>https://myzeusui.com/elements/mega-menu/</loc></url>
-  <url><loc>https://myzeusui.com/elements/mesh-gradient/</loc></url>
-  <url><loc>https://myzeusui.com/elements/morphing-accordion/</loc></url>
-  <url><loc>https://myzeusui.com/elements/morphing-dialog/</loc></url>
-  <url><loc>https://myzeusui.com/elements/morphing-island/</loc></url>
-  <url><loc>https://myzeusui.com/elements/morphing-pill-menu/</loc></url>
-  <url><loc>https://myzeusui.com/elements/morphing-select/</loc></url>
-  <url><loc>https://myzeusui.com/elements/morphing-tabs/</loc></url>
-  <url><loc>https://myzeusui.com/elements/morphing-tooltip/</loc></url>
   <url><loc>https://myzeusui.com/elements/most-active-days-card/</loc></url>
   <url><loc>https://myzeusui.com/elements/multi-agent-chat/</loc></url>
-  <url><loc>https://myzeusui.com/elements/multi-flip/</loc></url>
-  <url><loc>https://myzeusui.com/elements/multi-level-drawer-menu/</loc></url>
-  <url><loc>https://myzeusui.com/elements/multi-step-form/</loc></url>
-  <url><loc>https://myzeusui.com/elements/network-globe/</loc></url>
   <url><loc>https://myzeusui.com/elements/notification-center/</loc></url>
   <url><loc>https://myzeusui.com/elements/notification/</loc></url>
   <url><loc>https://myzeusui.com/elements/orders-chart-card/</loc></url>
   <url><loc>https://myzeusui.com/elements/pagination/</loc></url>
-  <url><loc>https://myzeusui.com/elements/parallax/</loc></url>
   <url><loc>https://myzeusui.com/elements/patient-info-card/</loc></url>
-  <url><loc>https://myzeusui.com/elements/photo-stack-gallery/</loc></url>
-  <url><loc>https://myzeusui.com/elements/popping-text/</loc></url>
-  <url><loc>https://myzeusui.com/elements/progress/</loc></url>
   <url><loc>https://myzeusui.com/elements/project-board/</loc></url>
   <url><loc>https://myzeusui.com/elements/questionnaire/</loc></url>
   <url><loc>https://myzeusui.com/elements/radar-chart-card/</loc></url>
   <url><loc>https://myzeusui.com/elements/radial-chart-card/</loc></url>
-  <url><loc>https://myzeusui.com/elements/radial-gallery/</loc></url>
   <url><loc>https://myzeusui.com/elements/radio/</loc></url>
-  <url><loc>https://myzeusui.com/elements/rail-sidebar/</loc></url>
-  <url><loc>https://myzeusui.com/elements/rainbow-button/</loc></url>
-  <url><loc>https://myzeusui.com/elements/random-rotate/</loc></url>
-  <url><loc>https://myzeusui.com/elements/rectangle-text-reveal/</loc></url>
   <url><loc>https://myzeusui.com/elements/revenue-chart-card/</loc></url>
   <url><loc>https://myzeusui.com/elements/sankey-chart-card/</loc></url>
-  <url><loc>https://myzeusui.com/elements/scale-slider/</loc></url>
   <url><loc>https://myzeusui.com/elements/scatter-chart-card/</loc></url>
-  <url><loc>https://myzeusui.com/elements/scatter-cluster/</loc></url>
   <url><loc>https://myzeusui.com/elements/segmented-control/</loc></url>
   <url><loc>https://myzeusui.com/elements/select/</loc></url>
   <url><loc>https://myzeusui.com/elements/settings-modal/</loc></url>
-  <url><loc>https://myzeusui.com/elements/side-sheet/</loc></url>
   <url><loc>https://myzeusui.com/elements/sidebar/</loc></url>
   <url><loc>https://myzeusui.com/elements/sleep-score-card/</loc></url>
   <url><loc>https://myzeusui.com/elements/slider/</loc></url>
   <url><loc>https://myzeusui.com/elements/social-button/</loc></url>
-  <url><loc>https://myzeusui.com/elements/spiral-gallery/</loc></url>
   <url><loc>https://myzeusui.com/elements/stage-bars-card/</loc></url>
   <url><loc>https://myzeusui.com/elements/stat-cards/</loc></url>
   <url><loc>https://myzeusui.com/elements/status-dot/</loc></url>
-  <url><loc>https://myzeusui.com/elements/step-wipe/</loc></url>
   <url><loc>https://myzeusui.com/elements/steps-card/</loc></url>
-  <url><loc>https://myzeusui.com/elements/svg-draw-path/</loc></url>
   <url><loc>https://myzeusui.com/elements/switch/</loc></url>
   <url><loc>https://myzeusui.com/elements/table/</loc></url>
   <url><loc>https://myzeusui.com/elements/tabs/</loc></url>
   <url><loc>https://myzeusui.com/elements/task-list/</loc></url>
-  <url><loc>https://myzeusui.com/elements/testimonial-globe/</loc></url>
-  <url><loc>https://myzeusui.com/elements/text-fill-wave/</loc></url>
-  <url><loc>https://myzeusui.com/elements/text-morph/</loc></url>
-  <url><loc>https://myzeusui.com/elements/text-on-path/</loc></url>
-  <url><loc>https://myzeusui.com/elements/text-reveal/</loc></url>
-  <url><loc>https://myzeusui.com/elements/text-scramble/</loc></url>
-  <url><loc>https://myzeusui.com/elements/text-shimmer-wave/</loc></url>
-  <url><loc>https://myzeusui.com/elements/text-split-zoom/</loc></url>
-  <url><loc>https://myzeusui.com/elements/text-underline/</loc></url>
   <url><loc>https://myzeusui.com/elements/textarea/</loc></url>
   <url><loc>https://myzeusui.com/elements/theme-toggle/</loc></url>
-  <url><loc>https://myzeusui.com/elements/timeline-scrubber/</loc></url>
   <url><loc>https://myzeusui.com/elements/tooltip/</loc></url>
   <url><loc>https://myzeusui.com/elements/tree-view/</loc></url>
-  <url><loc>https://myzeusui.com/elements/typewriter/</loc></url>
-  <url><loc>https://myzeusui.com/elements/velocity-clip/</loc></url>
-  <url><loc>https://myzeusui.com/elements/velocity-type/</loc></url>
   <url><loc>https://myzeusui.com/elements/web-search/</loc></url>
-  <url><loc>https://myzeusui.com/elements/wipe-slider/</loc></url>
   <url><loc>https://myzeusui.com/icons/</loc></url>
   <url><loc>https://myzeusui.com/releases/liquid-glass-recorder/</loc></url>
   <url><loc>https://myzeusui.com/studio/</loc></url>

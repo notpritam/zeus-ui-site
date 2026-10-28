@@ -1,0 +1,1 @@
+import{j as i}from"./index-71TEZrX3.js";import{S as s}from"./shader-surface-BXDUzXRL.js";function u({color:r="#161616",dotSize:o=5,...a}){return i.jsx(s,{kind:"trail",radius:65,duration:2,scale:o,colors:[r],...a})}export{u as D};

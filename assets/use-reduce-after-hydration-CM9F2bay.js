@@ -1,0 +1,1 @@
+import{r as n}from"./recipe-27bqSAJH.js";const t="(prefers-reduced-motion: reduce)";function c(e){const r=window.matchMedia(t);return r.addEventListener("change",e),()=>r.removeEventListener("change",e)}function a(){return n.useSyncExternalStore(c,()=>window.matchMedia(t).matches,()=>!1)}export{a as u};
