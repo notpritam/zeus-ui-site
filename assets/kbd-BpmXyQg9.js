@@ -1,1 +1,0 @@
-import{j as r}from"./index-DrKwywIQ.js";import{K as e}from"./kbd-Bj95wiGB.js";import"./Specimen-BW3MJy4Y.js";import"./recipe-BQt8iA4T.js";import"./index-DvW0fMpf.js";function n(){return r.jsxs("div",{className:"flex items-center gap-3",children:[r.jsx(e,{children:"⌘K"}),r.jsx(e,{children:"⌘L"}),r.jsx(e,{children:"esc"}),r.jsx(e,{children:"⇧⌘P"})]})}export{n as default};

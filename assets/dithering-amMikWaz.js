@@ -1,0 +1,1 @@
+import{j as t}from"./index-BzVEzr_h.js";import{S as a}from"./shader-surface-DjQfFeF8.js";function m({dotSize:r=3,darkColor:e="#101010",lightColor:i="#f2f1eb",lensRadius:o=130,...s}){return t.jsx(a,{kind:"dither",scale:r,radius:o,colors:[e,i],...s})}export{m as D};

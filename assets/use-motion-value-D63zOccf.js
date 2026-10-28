@@ -1,0 +1,1 @@
+import{r as t}from"./recipe-XmTC6iRi.js";import{cP as a,cQ as c,cM as u}from"./Specimen-Dwv1_deW.js";function i(o){const e=a(()=>u(o)),{isStatic:s}=t.useContext(c);if(s){const[,n]=t.useState(o);t.useEffect(()=>e.on("change",n),[])}return e}export{i as u};
