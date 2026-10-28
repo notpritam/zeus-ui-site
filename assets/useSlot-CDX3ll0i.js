@@ -1,1 +1,0 @@
-import{aw as s,bV as u}from"./Specimen-Dwv1_deW.js";import{r as f}from"./recipe-XmTC6iRi.js";function $(r=!0){let[a,e]=f.useState(r),t=f.useRef(!1),c=f.useCallback(o=>{t.current=!0,e(!!o)},[]);return u(()=>{t.current||e(!1)},[]),[c,a]}function d(r=!0){let a=s(),[e,t]=$(r);return{id:t?a:void 0,ref:e}}export{d as $};

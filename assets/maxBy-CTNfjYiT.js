@@ -1,0 +1,1 @@
+import{fn as m,e9 as s}from"./Specimen-Bg2CkhJF.js";function u(t){return Array.isArray(t)?t:Array.from(t)}function c(t,f=m){if(t==null)return;const e=u(t);if(e.length===0)return;const l=s(f);let a,o;for(let n=0;n<e.length;n++){const i=e[n],r=l(i,n,e);r==null||Number.isNaN(r)||typeof r=="symbol"||(o===void 0||r>o)&&(o=r,a=i)}return a}export{c as m,u as t};

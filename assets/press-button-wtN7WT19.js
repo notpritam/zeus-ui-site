@@ -1,1 +1,0 @@
-import{j as n}from"./index-BzVEzr_h.js";import{u as e,m as r}from"./Specimen-Dwv1_deW.js";import{a as u}from"./ease-C4QO8bHK.js";function d({pressScale:i=.99,hoverScale:o=1.01,...t}){const s=e()===!0;return n.jsx(r.button,{...t,whileHover:s||o===null||t.disabled?void 0:{scale:o},whileTap:s||i===null||t.disabled?void 0:{scale:i},transition:u})}export{d as A};

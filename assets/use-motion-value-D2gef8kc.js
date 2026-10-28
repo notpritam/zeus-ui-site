@@ -1,0 +1,1 @@
+import{r as t}from"./recipe-Begt-rGp.js";import{x as a,M as u,q as r}from"./react-Z9-7Ek2x.js";function i(o){const e=a(()=>r(o)),{isStatic:s}=t.useContext(u);if(s){const[,n]=t.useState(o);t.useEffect(()=>e.on("change",n),[])}return e}export{i as u};
