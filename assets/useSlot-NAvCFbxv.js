@@ -1,1 +1,0 @@
-import{bu as s,cP as u}from"./Specimen-Bg2CkhJF.js";import{r as a}from"./recipe-Begt-rGp.js";function $(r=!0){let[f,e]=a.useState(r),t=a.useRef(!1),c=a.useCallback(o=>{t.current=!0,e(!!o)},[]);return u(()=>{t.current||e(!1)},[]),[c,f]}function d(r=!0){let f=s(),[e,t]=$(r);return{id:t?f:void 0,ref:e}}export{d as $};

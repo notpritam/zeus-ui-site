@@ -1,1 +1,0 @@
-import{cM as n}from"./Specimen-Bg2CkhJF.js";import{r}from"./recipe-Begt-rGp.js";function p(c,e){const t=r.useRef(!0),f=r.useRef(null);let u=n(c);r.useEffect(()=>(t.current=!0,()=>{t.current=!1}),[]),r.useEffect(()=>{let s=f.current;t.current?t.current=!1:(!s||e.some((o,a)=>!Object.is(o,s[a])))&&u(),f.current=e},e)}export{p as $};

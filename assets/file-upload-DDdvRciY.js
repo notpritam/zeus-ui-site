@@ -1,0 +1,1 @@
+import{j as o}from"./index-BsFhL6Lx.js";import{F as e}from"./file-upload-CrHEf7vx.js";import"./recipe-DcPI5VbQ.js";import"./index-Ly7Fj3vP.js";import"./Specimen-CW_7GZoF.js";function r(){return o.jsx("div",{className:"w-full max-w-lg",children:o.jsx(e,{allowedExtensions:["pdf","png","webp"],maxBytes:4*1024*1024,onUploadComplete:l=>{}})})}export{r as default};

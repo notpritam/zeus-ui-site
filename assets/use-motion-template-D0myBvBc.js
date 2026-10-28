@@ -1,0 +1,1 @@
+import{a}from"./use-transform-hfnFVcaS.js";import{d as i}from"./react-DEM7o9kY.js";function f(n,...u){const r=n.length;function l(){let e="";for(let t=0;t<r;t++){e+=n[t];const o=u[t];o&&(e+=i(o)?o.get():o)}return e}return a(u.filter(i),l)}export{f as u};
