@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "selene-smooth-shadows",
+  "type": "registry:lib",
+  "title": "Smooth shadows",
+  "description": "A stack of soft shadow layers from two numbers, size and intensity, with an optional hairline ring and a theme token writer.",
+  "dependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "application/selene/smooth-shadows.ts",
+      "type": "registry:component",
+      "target": "@components/application/selene/smooth-shadows.ts",
+      "content": "/**\n * Smooth Shadows: a stack of soft shadow layers from two numbers. `size` sets\n * how far the shadow reaches and `intensity` how dark it gets; the layers are\n * spaced so light seems to fall from above. Use the string as `box-shadow`,\n * or write it into a theme as a token.\n */\n\nexport interface SmoothShadowOptions {\n  /** How far the shadow reaches, in pixels. */\n  size?: number;\n  /** Peak opacity of the stack, in percent. */\n  intensity?: number;\n  /** Space-separated RGB, or a CSS variable holding one. */\n  color?: string;\n  /** Add a faint outline that keeps the edge crisp on light backgrounds. */\n  ring?: boolean;\n  /** Draw that outline at half a pixel, which reads as a hairline on dense screens. */\n  hairline?: boolean;\n}\n\nconst round = (n: number, step = 10) => Math.round(n * step) / step;\n\n/** The shadow layers, nearest first. */\nexport function smoothShadowLayers({ size = 8, intensity = 4, color = \"0 0 0\" }: SmoothShadowOptions = {}) {\n  const count = Math.min(8, Math.max(2, Math.round(size / 2)));\n  return Array.from({ length: count }, (_, k) => {\n    const f = (k + 1) / count;\n    const y = round(size * 1.25 * f * f);\n    const blur = round(size * 0.5 * f + y * 0.4);\n    const alpha = round((intensity / 100) * (1 - k / count), 1000);\n    return { y, blur, alpha, css: `0px ${y}px ${blur}px rgb(${color} / ${alpha})` };\n  });\n}\n\n/** A `box-shadow` value. */\nexport function smoothShadow(options: SmoothShadowOptions = {}): string {\n  const { intensity = 4, color = \"0 0 0\", ring = false, hairline = false } = options;\n  const layers = smoothShadowLayers(options).map((l) => l.css);\n  if (ring) layers.unshift(`0 0 0 ${hairline ? 0.5 : 1}px rgb(${color} / ${round(Math.min(1, (intensity * 1.5) / 100), 1000)})`);\n  return layers.join(\", \");\n}\n\n/** A theme token: `--shadow-<name>` holding the stack, tinted by `--shadow-color`. */\nexport function smoothShadowToken(name: string, options: Omit<SmoothShadowOptions, \"color\"> = {}): string {\n  const value = smoothShadow({ ...options, color: \"var(--shadow-color, 0 0 0)\" });\n  return `--shadow-${name}: ${value.split(\", \").join(\",\\n  \")};`;\n}\n"
+    }
+  ],
+  "category": "foundations",
+  "family": "utilities",
+  "kind": "utility",
+  "designSystem": null,
+  "foundationDependencies": [],
+  "iconLibraries": [],
+  "tags": [
+    "selene",
+    "shadow",
+    "elevation",
+    "tokens",
+    "box-shadow"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "9e22cfdd5191"
+}

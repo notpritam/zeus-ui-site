@@ -1,0 +1,43 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "selene-refractive-glass",
+  "type": "registry:ui",
+  "title": "Refractive glass",
+  "variants": [
+    {
+      "name": "tab-bar",
+      "title": "Tab bar"
+    },
+    {
+      "name": "lens",
+      "title": "Draggable lens"
+    }
+  ],
+  "description": "Glass that bends what's behind it, with rim, bend, blur, colour split and tint as props, and a draggable lens that springs back home.",
+  "dependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "application/selene/refractive-glass.tsx",
+      "type": "registry:component",
+      "target": "@components/application/selene/refractive-glass.tsx",
+      "content": "\"use client\";\n/**\n * Refractive Glass: a lens that bends what's behind it. A canvas draws a\n * displacement map for the shape (flat in the middle, curving toward the rim);\n * an SVG filter uses it as the element's backdrop filter, with a little blur\n * and a colour split at the edge. Chromium bends the backdrop; Safari and\n * Firefox fall back to blur and tint. A draggable lens springs back home.\n */\nimport { useEffect, useId, useRef, useState, type CSSProperties, type PointerEvent, type ReactNode } from \"react\";\n\nexport interface RefractiveGlassProps {\n  width?: number;\n  height?: number;\n  /** Corner radius in pixels; half the height makes a capsule. */\n  radius?: number;\n  /** Depth of the curved rim in pixels; the centre inside it stays flat. */\n  rim?: number;\n  /** How far the rim bends the backdrop, in pixels. */\n  bend?: number;\n  /** Blur of the backdrop seen through the glass. */\n  blur?: number;\n  /** Colour split at the rim, in pixels. */\n  aberration?: number;\n  /** White tint over the glass, 0–100. */\n  tint?: number;\n  /** Let people drag the glass; it springs back on release. */\n  draggable?: boolean;\n  className?: string;\n  style?: CSSProperties;\n  children?: ReactNode;\n}\n\n/** The displacement map: red and green carry x and y, 128 means no shift. */\nfunction drawMap(w: number, h: number, radius: number, rim: number): string {\n  const canvas = document.createElement(\"canvas\");\n  canvas.width = w;\n  canvas.height = h;\n  const ctx = canvas.getContext(\"2d\");\n  if (!ctx) return \"\";\n  const img = ctx.createImageData(w, h);\n  const r = Math.min(radius, w / 2, h / 2);\n  const depth = Math.max(1, Math.min(rim, w / 2, h / 2));\n  for (let y = 0; y < h; y++) {\n    for (let x = 0; x < w; x++) {\n      // Signed distance to the rounded rectangle, and the outward normal.\n      const px = x + 0.5 - w / 2;\n      const py = y + 0.5 - h / 2;\n      const qx = Math.abs(px) - (w / 2 - r);\n      const qy = Math.abs(py) - (h / 2 - r);\n      const ox = Math.max(qx, 0);\n      const oy = Math.max(qy, 0);\n      const outside = Math.hypot(ox, oy);\n      const dist = outside + Math.min(Math.max(qx, qy), 0) - r;\n      let nx = 0;\n      let ny = 0;\n      if (outside > 0) {\n        nx = (ox / outside) * Math.sign(px);\n        ny = (oy / outside) * Math.sign(py);\n      } else if (qx > qy) nx = Math.sign(px);\n      else ny = Math.sign(py);\n      // Inside the rim the surface curves away like the edge of a lens.\n      const t = Math.min(1, Math.max(0, 1 + dist / depth));\n      const amount = t * t * (3 - 2 * t);\n      const i = (y * w + x) * 4;\n      img.data[i] = 128 - nx * amount * 127;\n      img.data[i + 1] = 128 - ny * amount * 127;\n      img.data[i + 2] = 128;\n      img.data[i + 3] = 255;\n    }\n  }\n  ctx.putImageData(img, 0, 0);\n  return canvas.toDataURL();\n}\n\nconst chromium = () => typeof navigator !== \"undefined\" && /Chrome\\/|Chromium\\//.test(navigator.userAgent) && !/CriOS|FxiOS/.test(navigator.userAgent);\n\nexport function RefractiveGlass({\n  width = 50,\n  height = 50,\n  radius = 25,\n  rim = 18,\n  bend = 60,\n  blur = 2,\n  aberration = 12,\n  tint = 10,\n  draggable = false,\n  className,\n  style,\n  children,\n}: RefractiveGlassProps) {\n  const filterId = `glass-${useId().replace(/[^a-zA-Z0-9_-]/g, \"\")}`;\n  const [map, setMap] = useState(\"\");\n  const [bends, setBends] = useState(false);\n  const [offset, setOffset] = useState<{ x: number; y: number } | null>(null);\n  const ref = useRef<HTMLDivElement>(null);\n  const drag = useRef<{ x: number; y: number; id: number } | null>(null);\n\n  useEffect(() => {\n    setBends(chromium());\n  }, []);\n  useEffect(() => {\n    if (bends) setMap(drawMap(Math.round(width), Math.round(height), radius, rim));\n  }, [bends, width, height, radius, rim]);\n\n  const release = () => {\n    const el = ref.current;\n    const from = offset;\n    drag.current = null;\n    setOffset(null);\n    if (!el || !from || !el.animate || window.matchMedia?.(\"(prefers-reduced-motion: reduce)\").matches) return;\n    el.animate([{ translate: `${from.x}px ${from.y}px` }, { translate: \"0px 0px\" }], { duration: 520, easing: \"cubic-bezier(0.34, 1.56, 0.64, 1)\" });\n  };\n  const handlers = draggable\n    ? {\n        onPointerDown: (e: PointerEvent<HTMLDivElement>) => {\n          e.currentTarget.setPointerCapture(e.pointerId);\n          drag.current = { x: e.clientX, y: e.clientY, id: e.pointerId };\n          setOffset({ x: 0, y: 0 });\n        },\n        onPointerMove: (e: PointerEvent<HTMLDivElement>) => {\n          const start = drag.current;\n          if (start && start.id === e.pointerId) setOffset({ x: e.clientX - start.x, y: e.clientY - start.y });\n        },\n        onPointerUp: release,\n        onPointerCancel: release,\n      }\n    : {};\n\n  const r = Math.min(radius, width / 2, height / 2);\n  const backdrop = bends && map ? `url(#${filterId})` : `blur(${Math.max(blur, 6)}px) saturate(1.5)`;\n  const split = Math.max(0, aberration) / 2;\n\n  return (\n    <>\n      {bends && map ? (\n        <svg width=\"0\" height=\"0\" aria-hidden=\"true\" style={{ position: \"absolute\", width: 0, height: 0 }} colorInterpolationFilters=\"sRGB\">\n          <filter id={filterId} x=\"0\" y=\"0\" width={width} height={height} filterUnits=\"userSpaceOnUse\" primitiveUnits=\"userSpaceOnUse\">\n            <feGaussianBlur in=\"SourceGraphic\" stdDeviation={blur} result=\"soft\" />\n            <feImage href={map} x=\"0\" y=\"0\" width={width} height={height} preserveAspectRatio=\"none\" result=\"map\" />\n            <feDisplacementMap in=\"soft\" in2=\"map\" scale={bend + split} xChannelSelector=\"R\" yChannelSelector=\"G\" result=\"shiftR\" />\n            <feColorMatrix in=\"shiftR\" type=\"matrix\" values=\"1 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0\" result=\"red\" />\n            <feDisplacementMap in=\"soft\" in2=\"map\" scale={bend} xChannelSelector=\"R\" yChannelSelector=\"G\" result=\"shiftG\" />\n            <feColorMatrix in=\"shiftG\" type=\"matrix\" values=\"0 0 0 0 0  0 1 0 0 0  0 0 0 0 0  0 0 0 1 0\" result=\"green\" />\n            <feDisplacementMap in=\"soft\" in2=\"map\" scale={Math.max(0, bend - split)} xChannelSelector=\"R\" yChannelSelector=\"G\" result=\"shiftB\" />\n            <feColorMatrix in=\"shiftB\" type=\"matrix\" values=\"0 0 0 0 0  0 0 0 0 0  0 0 1 0 0  0 0 0 1 0\" result=\"blue\" />\n            <feBlend in=\"red\" in2=\"green\" mode=\"screen\" result=\"rg\" />\n            <feBlend in=\"rg\" in2=\"blue\" mode=\"screen\" />\n          </filter>\n        </svg>\n      ) : null}\n      <div\n        ref={ref}\n        {...handlers}\n        className={className}\n        style={{\n          position: \"relative\",\n          width,\n          height,\n          borderRadius: r,\n          backdropFilter: backdrop,\n          WebkitBackdropFilter: backdrop,\n          background: `rgb(255 255 255 / ${tint / 100})`,\n          boxShadow:\n            \"inset 0 0 0 0.5px rgb(255 255 255 / 0.55), inset 1.5px 1.5px 1px -1px rgb(255 255 255 / 0.9), inset -1px -1px 1px -0.5px rgb(255 255 255 / 0.5), 0 6px 18px -6px rgb(0 0 0 / 0.18), 0 1px 3px rgb(0 0 0 / 0.08)\",\n          translate: offset ? `${offset.x}px ${offset.y}px` : undefined,\n          cursor: draggable ? (offset ? \"grabbing\" : \"grab\") : undefined,\n          touchAction: draggable ? \"none\" : undefined,\n          userSelect: draggable ? \"none\" : undefined,\n          ...style,\n        }}\n      >\n        {children}\n      </div>\n    </>\n  );\n}\n"
+    }
+  ],
+  "category": "base",
+  "family": "layout",
+  "kind": "component",
+  "designSystem": null,
+  "foundationDependencies": [],
+  "iconLibraries": [],
+  "tags": [
+    "selene",
+    "glass",
+    "refraction",
+    "backdrop-filter",
+    "svg-filter"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "342e3269b2ca"
+}

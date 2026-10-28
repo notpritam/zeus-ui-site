@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "selene-concentric-radius",
+  "type": "registry:lib",
+  "title": "Concentric radius",
+  "description": "Nested corners that share one centre: set the outer radius and the gap, and the inner radius follows.",
+  "dependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "application/selene/concentric-radius.tsx",
+      "type": "registry:component",
+      "target": "@components/application/selene/concentric-radius.tsx",
+      "content": "\"use client\";\n/**\n * Concentric Radius: set the outer radius and the gap, and the inner radius\n * follows so nested corners share one centre (inner = outer − gap). The\n * wrapper publishes all three as CSS variables for anything nested inside.\n */\nimport type { CSSProperties, ElementType, ReactNode } from \"react\";\n\n/** The radius that keeps a nested corner concentric with its parent. */\nexport const innerRadius = (outer: number, gap: number) => Math.max(0, outer - gap);\n\n/** CSS variables for a nested pair: `--radius-outer`, `--radius-gap`, `--radius-inner`. */\nexport function concentricVars(outer: number, gap: number): CSSProperties {\n  return { \"--radius-outer\": `${outer}px`, \"--radius-gap\": `${gap}px`, \"--radius-inner\": `${innerRadius(outer, gap)}px` } as CSSProperties;\n}\n\nexport interface ConcentricProps {\n  /** Outer corner radius in pixels. */\n  radius: number;\n  /** Space between the outer edge and what it holds, in pixels. */\n  gap: number;\n  as?: ElementType;\n  className?: string;\n  style?: CSSProperties;\n  children?: ReactNode;\n}\n\n/**\n * A surface that pads its content by `gap` and rounds its corners by `radius`.\n * Give nested surfaces `border-radius: var(--radius-inner)`, or use `Concentric.Inner`.\n */\nexport function Concentric({ radius, gap, as: Tag = \"div\", className, style, children }: ConcentricProps) {\n  return (\n    <Tag className={className} style={{ ...concentricVars(radius, gap), borderRadius: radius, padding: gap, ...style }}>\n      {children}\n    </Tag>\n  );\n}\n\nfunction Inner({ as: Tag = \"div\", className, style, children }: Omit<ConcentricProps, \"radius\" | \"gap\">) {\n  return (\n    <Tag className={className} style={{ borderRadius: \"var(--radius-inner)\", ...style }}>\n      {children}\n    </Tag>\n  );\n}\n\nConcentric.Inner = Inner;\n"
+    }
+  ],
+  "category": "foundations",
+  "family": "utilities",
+  "kind": "utility",
+  "designSystem": null,
+  "foundationDependencies": [],
+  "iconLibraries": [],
+  "tags": [
+    "selene",
+    "radius",
+    "corners",
+    "nesting",
+    "tokens"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "7a483a216bd6"
+}

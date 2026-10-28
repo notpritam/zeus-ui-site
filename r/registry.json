@@ -3,7 +3,7 @@
   "name": "zeus-ui",
   "homepage": "https://myzeusui.com",
   "license": "MIT",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "organizationVersion": 1,
   "families": [
     {
@@ -214,12 +214,12 @@
       "count": 25
     },
     {
-      "tag": "click",
+      "tag": "chart",
       "count": 21
     },
     {
-      "tag": "chart",
-      "count": 20
+      "tag": "click",
+      "count": 21
     },
     {
       "tag": "ai",
@@ -263,6 +263,10 @@
     },
     {
       "tag": "navigation",
+      "count": 7
+    },
+    {
+      "tag": "selene",
       "count": 7
     },
     {
@@ -318,7 +322,15 @@
       "count": 4
     },
     {
+      "tag": "loading",
+      "count": 4
+    },
+    {
       "tag": "pricing",
+      "count": 4
+    },
+    {
+      "tag": "progress",
       "count": 4
     },
     {
@@ -326,7 +338,15 @@
       "count": 4
     },
     {
+      "tag": "svg",
+      "count": 4
+    },
+    {
       "tag": "toggle",
+      "count": 4
+    },
+    {
+      "tag": "tokens",
       "count": 4
     },
     {
@@ -358,10 +378,6 @@
       "count": 3
     },
     {
-      "tag": "progress",
-      "count": 3
-    },
-    {
       "tag": "settings",
       "count": 3
     },
@@ -375,10 +391,6 @@
     },
     {
       "tag": "streaming",
-      "count": 3
-    },
-    {
-      "tag": "svg",
       "count": 3
     },
     {
@@ -486,10 +498,6 @@
       "count": 2
     },
     {
-      "tag": "loading",
-      "count": 2
-    },
-    {
       "tag": "modal",
       "count": 2
     },
@@ -538,6 +546,10 @@
       "count": 2
     },
     {
+      "tag": "sparkline",
+      "count": 2
+    },
+    {
       "tag": "theme",
       "count": 2
     },
@@ -546,11 +558,11 @@
       "count": 2
     },
     {
-      "tag": "tokens",
+      "tag": "toolbar",
       "count": 2
     },
     {
-      "tag": "toolbar",
+      "tag": "trend",
       "count": 2
     },
     {
@@ -658,6 +670,10 @@
       "count": 1
     },
     {
+      "tag": "backdrop-filter",
+      "count": 1
+    },
+    {
       "tag": "background-fill-button",
       "count": 1
     },
@@ -683,6 +699,14 @@
     },
     {
       "tag": "boolean",
+      "count": 1
+    },
+    {
+      "tag": "box-shadow",
+      "count": 1
+    },
+    {
+      "tag": "button",
       "count": 1
     },
     {
@@ -755,6 +779,10 @@
     },
     {
       "tag": "conversion-funnel",
+      "count": 1
+    },
+    {
+      "tag": "corners",
       "count": 1
     },
     {
@@ -834,6 +862,10 @@
       "count": 1
     },
     {
+      "tag": "dots",
+      "count": 1
+    },
+    {
       "tag": "drag-drop",
       "count": 1
     },
@@ -847,6 +879,10 @@
     },
     {
       "tag": "editor",
+      "count": 1
+    },
+    {
+      "tag": "elevation",
       "count": 1
     },
     {
@@ -923,6 +959,14 @@
     },
     {
       "tag": "generation",
+      "count": 1
+    },
+    {
+      "tag": "glass",
+      "count": 1
+    },
+    {
+      "tag": "glow",
       "count": 1
     },
     {
@@ -1031,6 +1075,10 @@
     },
     {
       "tag": "listbox",
+      "count": 1
+    },
+    {
+      "tag": "loader",
       "count": 1
     },
     {
@@ -1146,6 +1194,10 @@
       "count": 1
     },
     {
+      "tag": "nesting",
+      "count": 1
+    },
+    {
       "tag": "news",
       "count": 1
     },
@@ -1210,6 +1262,10 @@
       "count": 1
     },
     {
+      "tag": "placeholder",
+      "count": 1
+    },
+    {
       "tag": "preferences",
       "count": 1
     },
@@ -1234,6 +1290,10 @@
       "count": 1
     },
     {
+      "tag": "prompt",
+      "count": 1
+    },
+    {
       "tag": "questionnaire",
       "count": 1
     },
@@ -1250,11 +1310,19 @@
       "count": 1
     },
     {
+      "tag": "radius",
+      "count": 1
+    },
+    {
       "tag": "rainbow-button",
       "count": 1
     },
     {
       "tag": "ranking",
+      "count": 1
+    },
+    {
+      "tag": "refraction",
       "count": 1
     },
     {
@@ -1334,6 +1402,14 @@
       "count": 1
     },
     {
+      "tag": "shadow",
+      "count": 1
+    },
+    {
+      "tag": "shimmer",
+      "count": 1
+    },
+    {
       "tag": "shortcut",
       "count": 1
     },
@@ -1346,6 +1422,10 @@
       "count": 1
     },
     {
+      "tag": "skeleton",
+      "count": 1
+    },
+    {
       "tag": "social-proof",
       "count": 1
     },
@@ -1355,10 +1435,6 @@
     },
     {
       "tag": "sound",
-      "count": 1
-    },
-    {
-      "tag": "sparkline",
       "count": 1
     },
     {
@@ -1387,6 +1463,10 @@
     },
     {
       "tag": "story-card",
+      "count": 1
+    },
+    {
+      "tag": "svg-filter",
       "count": 1
     },
     {
@@ -1474,15 +1554,15 @@
       "count": 1
     },
     {
-      "tag": "trend",
-      "count": 1
-    },
-    {
       "tag": "trust-security",
       "count": 1
     },
     {
       "tag": "type-scale",
+      "count": 1
+    },
+    {
+      "tag": "typing",
       "count": 1
     },
     {
@@ -1539,6 +1619,10 @@
     },
     {
       "tag": "web-search",
+      "count": 1
+    },
+    {
+      "tag": "webgl",
       "count": 1
     },
     {
@@ -12227,6 +12311,302 @@
           "target": "public/assets/artemis/f7fb3ffbaf01b72799b6.jpg",
           "type": "asset",
           "encoding": "base64"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "selene-glow-pill",
+      "title": "Glow pill",
+      "variants": [
+        {
+          "name": "prompt",
+          "title": "Assistant prompt"
+        },
+        {
+          "name": "badge",
+          "title": "Launch badge"
+        },
+        {
+          "name": "button",
+          "title": "Button"
+        }
+      ],
+      "description": "A black glass pill with light pooled along its bottom edge that types through phrases, sending a surge of colour up the glass on each swap; also a glowing button.",
+      "category": "blocks",
+      "family": "ai",
+      "kind": "component",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "selene",
+        "webgl",
+        "glow",
+        "typing",
+        "prompt",
+        "button"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "4ee6a67ce0a5",
+      "files": [
+        {
+          "path": "application/selene/glow-pill.tsx",
+          "target": "components/application/selene/glow-pill.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "selene-refractive-glass",
+      "title": "Refractive glass",
+      "variants": [
+        {
+          "name": "tab-bar",
+          "title": "Tab bar"
+        },
+        {
+          "name": "lens",
+          "title": "Draggable lens"
+        }
+      ],
+      "description": "Glass that bends what's behind it, with rim, bend, blur, colour split and tint as props, and a draggable lens that springs back home.",
+      "category": "base",
+      "family": "layout",
+      "kind": "component",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "selene",
+        "glass",
+        "refraction",
+        "backdrop-filter",
+        "svg-filter"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "342e3269b2ca",
+      "files": [
+        {
+          "path": "application/selene/refractive-glass.tsx",
+          "target": "components/application/selene/refractive-glass.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "selene-dot-loader",
+      "title": "Dot loader",
+      "variants": [
+        {
+          "name": "in-use",
+          "title": "In use"
+        },
+        {
+          "name": "spinner",
+          "title": "Spinner"
+        },
+        {
+          "name": "sweep",
+          "title": "Sweep"
+        },
+        {
+          "name": "ripple",
+          "title": "Ripple"
+        }
+      ],
+      "description": "A dot grid that plays a painted timeline, with spinner, sweep and ripple presets, frame timing and three kinds of transition.",
+      "category": "base",
+      "family": "feedback",
+      "kind": "component",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "selene",
+        "loader",
+        "loading",
+        "dots",
+        "progress"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "13372e46ab74",
+      "files": [
+        {
+          "path": "application/selene/dot-loader.tsx",
+          "target": "components/application/selene/dot-loader.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "selene-tiny-line-chart",
+      "title": "Tiny line chart",
+      "variants": [
+        {
+          "name": "overview",
+          "title": "Tile and list"
+        },
+        {
+          "name": "stat-tile",
+          "title": "Stat tile"
+        },
+        {
+          "name": "list",
+          "title": "List rows"
+        },
+        {
+          "name": "inline",
+          "title": "Inline with a label"
+        }
+      ],
+      "description": "An SVG sparkline small enough for any row, with eased curves, an optional gradient fill and ends that fade out.",
+      "category": "charts",
+      "family": "data",
+      "kind": "chart",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "selene",
+        "sparkline",
+        "chart",
+        "svg",
+        "trend"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "7a9884b0df9e",
+      "files": [
+        {
+          "path": "application/selene/tiny-line-chart.tsx",
+          "target": "components/application/selene/tiny-line-chart.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "selene-smooth-shadows",
+      "title": "Smooth shadows",
+      "description": "A stack of soft shadow layers from two numbers, size and intensity, with an optional hairline ring and a theme token writer.",
+      "category": "foundations",
+      "family": "utilities",
+      "kind": "utility",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "selene",
+        "shadow",
+        "elevation",
+        "tokens",
+        "box-shadow"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "9e22cfdd5191",
+      "files": [
+        {
+          "path": "application/selene/smooth-shadows.ts",
+          "target": "components/application/selene/smooth-shadows.ts",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "selene-concentric-radius",
+      "title": "Concentric radius",
+      "description": "Nested corners that share one centre: set the outer radius and the gap, and the inner radius follows.",
+      "category": "foundations",
+      "family": "utilities",
+      "kind": "utility",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "selene",
+        "radius",
+        "corners",
+        "nesting",
+        "tokens"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "7a483a216bd6",
+      "files": [
+        {
+          "path": "application/selene/concentric-radius.tsx",
+          "target": "components/application/selene/concentric-radius.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "selene-shimmer",
+      "title": "Loading shimmer",
+      "variants": [
+        {
+          "name": "paper",
+          "title": "Paper"
+        },
+        {
+          "name": "opal",
+          "title": "Opal"
+        },
+        {
+          "name": "clay",
+          "title": "Clay"
+        },
+        {
+          "name": "frost",
+          "title": "Frost"
+        }
+      ],
+      "description": "A slanted beam of light that travels across a loading surface, in paper, opal, clay and frost, with grain and a dark pair.",
+      "category": "base",
+      "family": "feedback",
+      "kind": "component",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "selene",
+        "shimmer",
+        "skeleton",
+        "loading",
+        "placeholder"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "2f43b8f492c7",
+      "files": [
+        {
+          "path": "application/selene/shimmer.tsx",
+          "target": "components/application/selene/shimmer.tsx",
+          "type": "component"
         }
       ]
     },

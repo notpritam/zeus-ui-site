@@ -1,19 +1,24 @@
 {
   "name": "Zeus UI",
   "description": "Pick every element. See it live. Your agent builds exactly that. Free, live UI components and a Studio for people who build with coding agents.",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "homepage": "https://myzeusui.com",
   "registry": "https://myzeusui.com/r/registry.json",
   "install": {
-    "cli": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add <name>",
+    "cli": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add <name>",
     "shadcn": "npx shadcn@latest add https://myzeusui.com/r/<name>.json",
-    "mcp": "claude mcp add zeus -- npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-mcp-0.4.0.tgz zeus-mcp"
+    "mcp": "claude mcp add zeus -- npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-mcp-0.4.1.tgz zeus-mcp"
   },
   "styles": [
     {
       "id": "artemis",
       "url": "https://myzeusui.com/styles/artemis/",
       "count": 118
+    },
+    {
+      "id": "selene",
+      "url": "https://myzeusui.com/styles/selene/",
+      "count": 7
     },
     {
       "id": "apollo",
@@ -30,7 +35,7 @@
       "style": "artemis",
       "kind": "component",
       "url": "https://myzeusui.com/elements/artemis-controls/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-controls",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-controls",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-controls.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -52,7 +57,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-balance-card/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-balance-card",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-balance-card",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-balance-card.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -71,7 +76,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-compact-card/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-compact-card",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-compact-card",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-compact-card.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -90,7 +95,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-invite-card/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-invite-card",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-invite-card",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-invite-card.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -112,7 +117,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-folder-card/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-folder-card",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-folder-card",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-folder-card.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -131,7 +136,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-story-card/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-story-card",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-story-card",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-story-card.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -150,7 +155,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-profile-card/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-profile-card",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-profile-card",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-profile-card.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -172,7 +177,7 @@
       "style": "artemis",
       "kind": "animation",
       "url": "https://myzeusui.com/elements/artemis-text-swap/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-text-swap",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-text-swap",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-text-swap.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -195,7 +200,7 @@
         "Progressive blur highlight"
       ],
       "url": "https://myzeusui.com/elements/artemis-text-highlight/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-text-highlight",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-text-highlight",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-text-highlight.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -214,7 +219,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-morphic-tooltip/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-morphic-tooltip",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-morphic-tooltip",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-morphic-tooltip.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -233,7 +238,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-morphic-command-palette/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-morphic-command-palette",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-morphic-command-palette",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-morphic-command-palette.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -259,7 +264,7 @@
         "Credits composer"
       ],
       "url": "https://myzeusui.com/elements/artemis-agent-chat-input/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-agent-chat-input",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-agent-chat-input",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-agent-chat-input.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -286,7 +291,7 @@
         "Dock"
       ],
       "url": "https://myzeusui.com/elements/artemis-voice-agent/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-voice-agent",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-voice-agent",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-voice-agent.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -313,7 +318,7 @@
         "Pagination"
       ],
       "url": "https://myzeusui.com/elements/artemis-data-table/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-data-table",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-data-table",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-data-table.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -335,7 +340,7 @@
       "style": "artemis",
       "kind": "chart",
       "url": "https://myzeusui.com/elements/artemis-stacked-bar-chart/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-stacked-bar-chart",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-stacked-bar-chart",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-stacked-bar-chart.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -354,7 +359,7 @@
       "style": "artemis",
       "kind": "chart",
       "url": "https://myzeusui.com/elements/artemis-segmented-meter/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-segmented-meter",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-segmented-meter",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-segmented-meter.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -373,7 +378,7 @@
       "style": "artemis",
       "kind": "chart",
       "url": "https://myzeusui.com/elements/artemis-sparkline/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-sparkline",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-sparkline",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-sparkline.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -396,7 +401,7 @@
         "Modal"
       ],
       "url": "https://myzeusui.com/elements/artemis-flip-card/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-flip-card",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-flip-card",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-flip-card.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -417,7 +422,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-animated-dropdown/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-animated-dropdown",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-animated-dropdown",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-animated-dropdown.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -436,7 +441,7 @@
       "style": "artemis",
       "kind": "component",
       "url": "https://myzeusui.com/elements/artemis-animated-modal/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-animated-modal",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-animated-modal",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-animated-modal.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -459,7 +464,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-audit-trail/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-audit-trail",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-audit-trail",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-audit-trail.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -482,7 +487,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-approval-queue/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-approval-queue",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-approval-queue",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-approval-queue.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -505,7 +510,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-log-explorer/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-log-explorer",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-log-explorer",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-log-explorer.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -531,7 +536,7 @@
         "Panel"
       ],
       "url": "https://myzeusui.com/elements/artemis-notification-center/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-notification-center",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-notification-center",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-notification-center.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -553,7 +558,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-voice-conversation/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-voice-conversation",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-voice-conversation",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-voice-conversation.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -575,7 +580,7 @@
       "style": "artemis",
       "kind": "component",
       "url": "https://myzeusui.com/elements/artemis-file-upload/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-file-upload",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-file-upload",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-file-upload.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -596,7 +601,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-whats-new/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-whats-new",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-whats-new",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-whats-new.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -619,7 +624,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-usage-budget/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-usage-budget",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-usage-budget",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-usage-budget.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -640,7 +645,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-research-sources/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-research-sources",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-research-sources",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-research-sources.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -661,7 +666,7 @@
       "style": "artemis",
       "kind": "chart",
       "url": "https://myzeusui.com/elements/artemis-conversion-funnel/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-conversion-funnel",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-conversion-funnel",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-conversion-funnel.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -687,7 +692,7 @@
         "Provider rail"
       ],
       "url": "https://myzeusui.com/elements/artemis-model-picker/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-model-picker",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-model-picker",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-model-picker.json",
       "dependencies": [
         "lucide-react@^1.60.0",
@@ -707,7 +712,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-code-artifact/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-code-artifact",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-code-artifact",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-code-artifact.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -728,7 +733,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-document-artifact/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-document-artifact",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-document-artifact",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-document-artifact.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -757,7 +762,7 @@
         "Nodes"
       ],
       "url": "https://myzeusui.com/elements/artemis-ai-thinking-loader/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-ai-thinking-loader",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-ai-thinking-loader",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-ai-thinking-loader.json",
       "dependencies": [],
       "registryDependencies": [
@@ -779,7 +784,7 @@
         "Connected workflow"
       ],
       "url": "https://myzeusui.com/elements/artemis-what-we-offer/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-what-we-offer",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-what-we-offer",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-what-we-offer.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -804,7 +809,7 @@
         "Board"
       ],
       "url": "https://myzeusui.com/elements/artemis-empty-states/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-empty-states",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-empty-states",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-empty-states.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -825,7 +830,7 @@
       "style": "artemis",
       "kind": "component",
       "url": "https://myzeusui.com/elements/artemis-morphic-card-modal/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-morphic-card-modal",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-morphic-card-modal",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-morphic-card-modal.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -851,7 +856,7 @@
         "Article cards"
       ],
       "url": "https://myzeusui.com/elements/artemis-blog-sections/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-blog-sections",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-blog-sections",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-blog-sections.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -878,7 +883,7 @@
         "Stacked cards"
       ],
       "url": "https://myzeusui.com/elements/artemis-announcement-banners/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-announcement-banners",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-announcement-banners",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-announcement-banners.json",
       "dependencies": [
         "@paper-design/shaders-react@^0.0.81",
@@ -898,7 +903,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-app-showcase/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-app-showcase",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-app-showcase",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-app-showcase.json",
       "dependencies": [
         "@paper-design/shaders-react@^0.0.81",
@@ -921,7 +926,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-product-tour/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-product-tour",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-product-tour",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-product-tour.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -950,7 +955,7 @@
         "Progressive card deck"
       ],
       "url": "https://myzeusui.com/elements/artemis-how-it-works/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-how-it-works",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-how-it-works",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-how-it-works.json",
       "dependencies": [
         "@paper-design/shaders-react@^0.0.81",
@@ -979,7 +984,7 @@
         "Rolling logo carousel"
       ],
       "url": "https://myzeusui.com/elements/artemis-logo-cloud/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-logo-cloud",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-logo-cloud",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-logo-cloud.json",
       "dependencies": [
         "lucide-react@^1.60.0",
@@ -1004,7 +1009,7 @@
         "Expanding focus rail"
       ],
       "url": "https://myzeusui.com/elements/artemis-image-galleries/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-image-galleries",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-image-galleries",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-image-galleries.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -1033,7 +1038,7 @@
         "Simple header"
       ],
       "url": "https://myzeusui.com/elements/artemis-navbar/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-navbar",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-navbar",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-navbar.json",
       "dependencies": [
         "lucide-react@^1.60.0",
@@ -1053,7 +1058,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-ecommerce-product-grid/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-ecommerce-product-grid",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-ecommerce-product-grid",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-ecommerce-product-grid.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -1075,7 +1080,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-ecommerce-product-detail/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-ecommerce-product-detail",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-ecommerce-product-detail",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-ecommerce-product-detail.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -1095,7 +1100,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-ecommerce-shopping-cart/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-ecommerce-shopping-cart",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-ecommerce-shopping-cart",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-ecommerce-shopping-cart.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -1114,7 +1119,7 @@
       "style": "artemis",
       "kind": "component",
       "url": "https://myzeusui.com/elements/artemis-comparison-photo-comparison/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-comparison-photo-comparison",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-comparison-photo-comparison",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-comparison-photo-comparison.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -1135,7 +1140,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-comparison-bars/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-comparison-bars",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-comparison-bars",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-comparison-bars.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -1155,7 +1160,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-comparison-before-after/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-comparison-before-after",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-comparison-before-after",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-comparison-before-after.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -1174,7 +1179,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-comparison-head-to-head/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-comparison-head-to-head",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-comparison-head-to-head",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-comparison-head-to-head.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -1196,7 +1201,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-comparison-tiled/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-comparison-tiled",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-comparison-tiled",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-comparison-tiled.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -1215,7 +1220,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-comparison-spotlight/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-comparison-spotlight",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-comparison-spotlight",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-comparison-spotlight.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -1238,7 +1243,7 @@
         "Workspace settings"
       ],
       "url": "https://myzeusui.com/elements/artemis-settings/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-settings",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-settings",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-settings.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -1259,7 +1264,7 @@
       "style": "artemis",
       "kind": "template",
       "url": "https://myzeusui.com/elements/artemis-documentation/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-documentation",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-documentation",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-documentation.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -1286,7 +1291,7 @@
         "Simple updates"
       ],
       "url": "https://myzeusui.com/elements/artemis-changelog/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-changelog",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-changelog",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-changelog.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -1311,7 +1316,7 @@
         "Rounded blog index"
       ],
       "url": "https://myzeusui.com/elements/artemis-blog-index/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-blog-index",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-blog-index",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-blog-index.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -1338,7 +1343,7 @@
         "Download"
       ],
       "url": "https://myzeusui.com/elements/artemis-wallet-site/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-wallet-site",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-wallet-site",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-wallet-site.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -1356,7 +1361,7 @@
       "style": "artemis",
       "kind": "template",
       "url": "https://myzeusui.com/elements/artemis-blog-article/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-blog-article",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-blog-article",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-blog-article.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -1383,7 +1388,7 @@
         "Team marquee"
       ],
       "url": "https://myzeusui.com/elements/artemis-team/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-team",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-team",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-team.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -1402,7 +1407,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-crypto-markets/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-crypto-markets",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-crypto-markets",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-crypto-markets.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -1423,7 +1428,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-order-book/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-order-book",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-order-book",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-order-book.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -1444,7 +1449,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-tokenomics/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-tokenomics",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-tokenomics",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-tokenomics.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -1477,7 +1482,7 @@
         "Directory footer"
       ],
       "url": "https://myzeusui.com/elements/artemis-footer-sections/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-footer-sections",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-footer-sections",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-footer-sections.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -1514,7 +1519,7 @@
         "Feature stage tabs"
       ],
       "url": "https://myzeusui.com/elements/artemis-feature-sections/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-feature-sections",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-feature-sections",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-feature-sections.json",
       "dependencies": [
         "@paper-design/shaders-react@^0.0.81",
@@ -1540,7 +1545,7 @@
         "Reliability and support"
       ],
       "url": "https://myzeusui.com/elements/artemis-trust-security/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-trust-security",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-trust-security",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-trust-security.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -1564,7 +1569,7 @@
         "Customer story reel"
       ],
       "url": "https://myzeusui.com/elements/artemis-social-proof/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-social-proof",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-social-proof",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-social-proof.json",
       "dependencies": [
         "@paper-design/shaders-react@^0.0.81",
@@ -1591,7 +1596,7 @@
         "Engagement sequence"
       ],
       "url": "https://myzeusui.com/elements/artemis-content-sections/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-content-sections",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-content-sections",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-content-sections.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -1617,7 +1622,7 @@
         "Searchable FAQ"
       ],
       "url": "https://myzeusui.com/elements/artemis-faq-blocks/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-faq-blocks",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-faq-blocks",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-faq-blocks.json",
       "dependencies": [
         "@paper-design/shaders-react@^0.0.81",
@@ -1640,7 +1645,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-kpi-trends/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-kpi-trends",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-kpi-trends",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-kpi-trends.json",
       "dependencies": [
         "lucide-react@^1.60.0",
@@ -1661,7 +1666,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-kpi-overview/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-kpi-overview",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-kpi-overview",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-kpi-overview.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -1682,7 +1687,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-kpi-gauges/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-kpi-gauges",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-kpi-gauges",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-kpi-gauges.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -1701,7 +1706,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-kpi-support/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-kpi-support",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-kpi-support",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-kpi-support.json",
       "dependencies": [
         "lucide-react@^1.60.0",
@@ -1721,7 +1726,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-kpi-summary/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-kpi-summary",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-kpi-summary",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-kpi-summary.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -1743,7 +1748,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-kpi-headers/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-kpi-headers",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-kpi-headers",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-kpi-headers.json",
       "dependencies": [
         "lucide-react@^1.60.0",
@@ -1763,7 +1768,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-api-keys/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-api-keys",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-api-keys",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-api-keys.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -1786,7 +1791,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-team-invite/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-team-invite",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-team-invite",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-team-invite.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -1813,7 +1818,7 @@
         "Usage breakdown"
       ],
       "url": "https://myzeusui.com/elements/artemis-credit-usage/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-credit-usage",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-credit-usage",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-credit-usage.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -1835,7 +1840,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-stats-segmented-progress/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-stats-segmented-progress",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-stats-segmented-progress",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-stats-segmented-progress.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -1854,7 +1859,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-stats-feature-outcomes/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-stats-feature-outcomes",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-stats-feature-outcomes",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-stats-feature-outcomes.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -1873,7 +1878,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-stats-impact-dashboard/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-stats-impact-dashboard",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-stats-impact-dashboard",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-stats-impact-dashboard.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -1892,7 +1897,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-stats-telemetry/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-stats-telemetry",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-stats-telemetry",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-stats-telemetry.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -1911,7 +1916,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-stats-band/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-stats-band",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-stats-band",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-stats-band.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -1930,7 +1935,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-stats-cards/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-stats-cards",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-stats-cards",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-stats-cards.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -1949,7 +1954,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-stats-outcome-index/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-stats-outcome-index",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-stats-outcome-index",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-stats-outcome-index.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -1975,7 +1980,7 @@
         "Vertical dispatch"
       ],
       "url": "https://myzeusui.com/elements/artemis-testimonials/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-testimonials",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-testimonials",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-testimonials.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -1998,7 +2003,7 @@
         "Contact split"
       ],
       "url": "https://myzeusui.com/elements/artemis-contact-form/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-contact-form",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-contact-form",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-contact-form.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -2020,7 +2025,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-contact-cards/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-contact-cards",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-contact-cards",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-contact-cards.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -2043,7 +2048,7 @@
         "Selection list"
       ],
       "url": "https://myzeusui.com/elements/artemis-questionnaire/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-questionnaire",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-questionnaire",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-questionnaire.json",
       "dependencies": [
         "lucide-react@^1.60.0",
@@ -2070,7 +2075,7 @@
         "Onboarding with compact progress"
       ],
       "url": "https://myzeusui.com/elements/artemis-step-form/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-step-form",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-step-form",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-step-form.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -2092,7 +2097,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-agent-builder/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-agent-builder",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-agent-builder",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-agent-builder.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -2115,7 +2120,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-booking-calendar/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-booking-calendar",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-booking-calendar",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-booking-calendar.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -2138,7 +2143,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-calendar-planner/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-calendar-planner",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-calendar-planner",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-calendar-planner.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -2161,7 +2166,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-operations-table/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-operations-table",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-operations-table",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-operations-table.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -2182,7 +2187,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-team-directory/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-team-directory",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-team-directory",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-team-directory.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -2203,7 +2208,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-portfolio-table/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-portfolio-table",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-portfolio-table",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-portfolio-table.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -2224,7 +2229,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-service-table/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-service-table",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-service-table",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-service-table.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -2246,7 +2251,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-file-manager/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-file-manager",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-file-manager",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-file-manager.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -2269,7 +2274,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-knowledge-workspace/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-knowledge-workspace",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-knowledge-workspace",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-knowledge-workspace.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -2292,7 +2297,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-help-center/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-help-center",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-help-center",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-help-center.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -2319,7 +2324,7 @@
         "Incident response"
       ],
       "url": "https://myzeusui.com/elements/artemis-status-pages/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-status-pages",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-status-pages",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-status-pages.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -2341,7 +2346,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-kanban-board/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-kanban-board",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-kanban-board",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-kanban-board.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -2364,7 +2369,7 @@
       "style": "artemis",
       "kind": "template",
       "url": "https://myzeusui.com/elements/artemis-finance-dashboard/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-finance-dashboard",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-finance-dashboard",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-finance-dashboard.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -2388,7 +2393,7 @@
       "style": "artemis",
       "kind": "template",
       "url": "https://myzeusui.com/elements/artemis-support-dashboard/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-support-dashboard",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-support-dashboard",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-support-dashboard.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -2412,7 +2417,7 @@
       "style": "artemis",
       "kind": "template",
       "url": "https://myzeusui.com/elements/artemis-team-capacity-dashboard/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-team-capacity-dashboard",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-team-capacity-dashboard",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-team-capacity-dashboard.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -2435,7 +2440,7 @@
       "style": "artemis",
       "kind": "template",
       "url": "https://myzeusui.com/elements/artemis-goals-dashboard/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-goals-dashboard",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-goals-dashboard",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-goals-dashboard.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -2462,7 +2467,7 @@
         "Team leaderboard"
       ],
       "url": "https://myzeusui.com/elements/artemis-performance-report/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-performance-report",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-performance-report",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-performance-report.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -2491,7 +2496,7 @@
         "Off-canvas sidebar"
       ],
       "url": "https://myzeusui.com/elements/artemis-sidebar/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-sidebar",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-sidebar",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-sidebar.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -2524,7 +2529,7 @@
         "Centered marquee"
       ],
       "url": "https://myzeusui.com/elements/artemis-hero-sections/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-hero-sections",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-hero-sections",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-hero-sections.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -2558,7 +2563,7 @@
         "Plans grid"
       ],
       "url": "https://myzeusui.com/elements/artemis-pricing/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-pricing",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-pricing",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-pricing.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -2579,7 +2584,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-team-calculator/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-team-calculator",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-team-calculator",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-team-calculator.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -2600,7 +2605,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-upgrade-panel/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-upgrade-panel",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-upgrade-panel",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-upgrade-panel.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -2619,7 +2624,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-usage-pricing/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-usage-pricing",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-usage-pricing",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-usage-pricing.json",
       "dependencies": [
         "clsx@^2.1.1",
@@ -2647,7 +2652,7 @@
         "Cinematic shader spotlight"
       ],
       "url": "https://myzeusui.com/elements/artemis-use-cases/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-use-cases",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-use-cases",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-use-cases.json",
       "dependencies": [
         "@paper-design/shaders-react@^0.0.81",
@@ -2670,7 +2675,7 @@
       "style": "artemis",
       "kind": "block",
       "url": "https://myzeusui.com/elements/artemis-roadmap/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-roadmap",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-roadmap",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-roadmap.json",
       "dependencies": [
         "@headlessui/react@^2.2.10",
@@ -2704,7 +2709,7 @@
         "Wayfinder"
       ],
       "url": "https://myzeusui.com/elements/artemis-not-found-pages/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-not-found-pages",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-not-found-pages",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-not-found-pages.json",
       "dependencies": [
         "motion@^12.42.2"
@@ -2735,7 +2740,7 @@
         "Split CTA"
       ],
       "url": "https://myzeusui.com/elements/artemis-cta-sections/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add artemis-cta-sections",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add artemis-cta-sections",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/artemis-cta-sections.json",
       "dependencies": [
         "@paper-design/shaders-react@^0.0.81",
@@ -2751,6 +2756,131 @@
       "example": "\"use client\";\nimport { ArtemisCtaSections, type ArtemisCtaSectionsProps } from \"@/components/application/artemis/artemis-cta-sections\";\nexport default function Demo({variant}:{variant?:string}){return <ArtemisCtaSections variant={[\"sunflower\",\"floating-gallery\",\"portrait-frame\",\"product-window\",\"proof-orbit\",\"shade-panel\",\"glow\",\"terminal\",\"faq\",\"split\"].includes(variant??\"\")?variant as ArtemisCtaSectionsProps[\"variant\"]:undefined}/>;}"
     },
     {
+      "name": "selene-glow-pill",
+      "title": "Glow pill",
+      "description": "A black glass pill with light pooled along its bottom edge that types through phrases, sending a surge of colour up the glass on each swap; also a glowing button.",
+      "category": "AI",
+      "style": "selene",
+      "kind": "component",
+      "variants": [
+        "Assistant prompt",
+        "Launch badge",
+        "Button"
+      ],
+      "url": "https://myzeusui.com/elements/selene-glow-pill/",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add selene-glow-pill",
+      "shadcn": "npx shadcn@latest add https://myzeusui.com/r/selene-glow-pill.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "example": "\"use client\";\nimport { GlowButton, GlowPill } from \"@/components/application/selene/glow-pill\";\n\nconst stage = { display: \"flex\", alignItems: \"center\", justifyContent: \"center\", gap: 12, width: \"100%\", minHeight: 320, padding: 32, background: \"#000\" } as const;\n\nexport default function GlowPillDemo({ variant = \"prompt\" }: { variant?: string }) {\n  if (variant === \"badge\")\n    return (\n      <div style={stage}>\n        <GlowPill phrases={[\"Now live.\"]} width={240} />\n      </div>\n    );\n  if (variant === \"button\")\n    return (\n      <div style={stage}>\n        <GlowButton>Ask the assistant</GlowButton>\n        <button type=\"button\" style={{ height: 36, padding: \"0 16px\", border: 0, borderRadius: 9999, background: \"#1c1c1e\", color: \"#d4d4d8\", font: \"inherit\", fontSize: 13, fontWeight: 500, cursor: \"pointer\" }}>\n          Later\n        </button>\n      </div>\n    );\n  return (\n    <div style={stage}>\n      <GlowPill phrases={[\"Ask anything.\", \"More personal.\", \"More powerful.\"]} width={300} />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "selene-refractive-glass",
+      "title": "Refractive glass",
+      "description": "Glass that bends what's behind it, with rim, bend, blur, colour split and tint as props, and a draggable lens that springs back home.",
+      "category": "Layout",
+      "style": "selene",
+      "kind": "component",
+      "variants": [
+        "Tab bar",
+        "Draggable lens"
+      ],
+      "url": "https://myzeusui.com/elements/selene-refractive-glass/",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add selene-refractive-glass",
+      "shadcn": "npx shadcn@latest add https://myzeusui.com/r/selene-refractive-glass.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "example": "\"use client\";\nimport { RefractiveGlass } from \"@/components/application/selene/refractive-glass\";\n\nfunction TabBar() {\n  const row = { display: \"flex\", alignItems: \"center\", gap: 12, padding: \"12px 14px\", borderRadius: 16, background: \"#fff\" } as const;\n  return (\n    <div style={{ position: \"relative\", width: 340, height: 340, overflow: \"hidden\", borderRadius: 36, background: \"#f2f2f7\", fontSize: 15, color: \"#111\" }}>\n      <div style={{ display: \"grid\", gap: 12, padding: \"24px 18px\" }}>\n        <span style={{ fontSize: 26, fontWeight: 700, letterSpacing: \"-0.02em\" }}>Today</span>\n        <div style={row}>\n          <span style={{ width: 28, height: 28, borderRadius: 8, background: \"#e7f0ff\", display: \"grid\", placeItems: \"center\", color: \"#2f6bff\", fontWeight: 700 }}>♪</span>\n          Sleep 7 h 40 min\n        </div>\n        <div style={row}>\n          <span style={{ width: 28, height: 28, borderRadius: 8, background: \"#e9f8ef\", display: \"grid\", placeItems: \"center\", color: \"#1f9d55\", fontWeight: 700 }}>✓</span>\n          Water 6 of 8 glasses\n        </div>\n        <div style={{ ...row, background: \"linear-gradient(135deg, #ff7a59, #ff3d7f)\", color: \"#fff\", padding: 16, display: \"grid\", gap: 4 }}>\n          <span style={{ fontSize: 13, opacity: 0.85 }}>Morning run</span>\n          <span style={{ fontSize: 28, fontWeight: 700 }}>5.2 km</span>\n          <span style={{ fontSize: 13, opacity: 0.85 }}>Your longest this month</span>\n        </div>\n      </div>\n      <div style={{ position: \"absolute\", left: 16, right: 16, bottom: 18, display: \"flex\", alignItems: \"center\", justifyContent: \"space-between\" }}>\n        <RefractiveGlass width={208} height={60} radius={30} rim={16} bend={40} blur={1.5} aberration={10} tint={18}>\n          <div style={{ display: \"grid\", gridTemplateColumns: \"1fr 1fr\", height: \"100%\", padding: 4, fontSize: 11, fontWeight: 600 }}>\n            <span style={{ display: \"grid\", placeItems: \"center\", alignContent: \"center\", gap: 2, borderRadius: 26, background: \"rgb(255 255 255 / 0.55)\", color: \"#2f6bff\" }}>\n              <span style={{ fontSize: 17 }}>♥</span>Summary\n            </span>\n            <span style={{ display: \"grid\", placeItems: \"center\", alignContent: \"center\", gap: 2, color: \"#111\" }}>\n              <span style={{ fontSize: 17 }}>⚑</span>Sharing\n            </span>\n          </div>\n        </RefractiveGlass>\n        <RefractiveGlass width={60} height={60} radius={30} rim={16} bend={40} blur={1.5} aberration={10} tint={18}>\n          <span style={{ display: \"grid\", placeItems: \"center\", height: \"100%\", fontSize: 20 }} aria-label=\"Search\">\n            ⌕\n          </span>\n        </RefractiveGlass>\n      </div>\n    </div>\n  );\n}\n\nfunction Lens() {\n  return (\n    <div style={{ position: \"relative\", display: \"grid\", placeItems: \"center\", width: 360, height: 260, borderRadius: 20, background: \"#f3f3f1\" }}>\n      <div style={{ textAlign: \"center\" }}>\n        <div style={{ fontSize: 64, fontWeight: 700, letterSpacing: \"-0.05em\", lineHeight: 1 }}>look closer</div>\n        <div style={{ marginTop: 8, fontSize: 14, color: \"#71717a\" }}>Drag the glass; it springs back</div>\n      </div>\n      <div style={{ position: \"absolute\", left: \"50%\", top: \"50%\", translate: \"-50% -70%\" }}>\n        <RefractiveGlass width={88} height={88} radius={44} rim={26} bend={60} blur={2} aberration={12} tint={10} draggable />\n      </div>\n    </div>\n  );\n}\n\nexport default function RefractiveGlassDemo({ variant = \"tab-bar\" }: { variant?: string }) {\n  return variant === \"lens\" ? <Lens /> : <TabBar />;\n}"
+    },
+    {
+      "name": "selene-dot-loader",
+      "title": "Dot loader",
+      "description": "A dot grid that plays a painted timeline, with spinner, sweep and ripple presets, frame timing and three kinds of transition.",
+      "category": "Feedback",
+      "style": "selene",
+      "kind": "component",
+      "variants": [
+        "In use",
+        "Spinner",
+        "Sweep",
+        "Ripple"
+      ],
+      "url": "https://myzeusui.com/elements/selene-dot-loader/",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add selene-dot-loader",
+      "shadcn": "npx shadcn@latest add https://myzeusui.com/r/selene-dot-loader.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "example": "\"use client\";\nimport { DotLoader, type DotPreset } from \"@/components/application/selene/dot-loader\";\n\nconst surface = { display: \"flex\", alignItems: \"center\", gap: 10, padding: \"10px 14px\", borderRadius: 14, color: \"light-dark(#1a1a1c, #ececee)\", background: \"light-dark(#fff, #1c1c1f)\", boxShadow: \"0 0 0 1px light-dark(rgb(0 0 0 / 0.06), rgb(255 255 255 / 0.09)), 0 2px 6px rgb(0 0 0 / 0.04)\" } as const;\nconst ink = \"light-dark(#1a1a1c, #ececee)\";\nconst muted = \"light-dark(#71717a, #a1a1aa)\";\n\nfunction InUse() {\n  return (\n    <div style={{ display: \"grid\", gap: 14, justifyItems: \"center\", width: \"100%\", maxWidth: 320 }}>\n      <button type=\"button\" style={{ ...surface, padding: \"8px 14px\", border: 0, font: \"inherit\", fontSize: 14, fontWeight: 500, cursor: \"pointer\" }}>\n        <DotLoader grid={3} dot={3} gap={2} active={ink} inactive=\"light-dark(#e8e8ea, #3a3a3f)\" label=\"Saving\" />\n        Saving\n      </button>\n      <div style={{ ...surface, width: \"100%\" }}>\n        <span style={{ display: \"grid\", placeItems: \"center\", width: 34, height: 34, borderRadius: 9, background: \"light-dark(#f1f3fb, #23263a)\" }}>\n          <DotLoader grid={4} preset=\"sweep\" dot={3} gap={2} active=\"#3b5bdb\" inactive=\"light-dark(#dde3f6, #34395a)\" label=\"Indexing files\" />\n        </span>\n        <span style={{ display: \"grid\", gap: 2 }}>\n          <span style={{ fontSize: 14, fontWeight: 500 }}>Indexing files</span>\n          <span style={{ fontSize: 12, color: muted, fontVariantNumeric: \"tabular-nums\" }}>1,204 of 3,380</span>\n        </span>\n      </div>\n      <div style={{ display: \"grid\", justifyItems: \"center\", gap: 10, padding: \"18px 0 4px\" }}>\n        <DotLoader grid={5} preset=\"ripple\" dot={4} gap={3} frameTime={160} active={ink} inactive=\"light-dark(#e4e4e7, #34343a)\" label=\"Loading projects\" />\n        <span style={{ fontSize: 13, color: muted }}>Loading projects</span>\n      </div>\n    </div>\n  );\n}\n\nexport default function DotLoaderDemo({ variant = \"in-use\" }: { variant?: string }) {\n  if (variant === \"in-use\") return <InUse />;\n  return <DotLoader grid={variant === \"ripple\" ? 5 : variant === \"sweep\" ? 4 : 3} preset={variant as DotPreset} dot={12} gap={8} active={ink} inactive=\"light-dark(#e4e4e7, #34343a)\" />;\n}"
+    },
+    {
+      "name": "selene-tiny-line-chart",
+      "title": "Tiny line chart",
+      "description": "An SVG sparkline small enough for any row, with eased curves, an optional gradient fill and ends that fade out.",
+      "category": "Charts & data",
+      "style": "selene",
+      "kind": "chart",
+      "variants": [
+        "Tile and list",
+        "Stat tile",
+        "List rows",
+        "Inline with a label"
+      ],
+      "url": "https://myzeusui.com/elements/selene-tiny-line-chart/",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add selene-tiny-line-chart",
+      "shadcn": "npx shadcn@latest add https://myzeusui.com/r/selene-tiny-line-chart.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "example": "\"use client\";\nimport { TinyLineChart } from \"@/components/application/selene/tiny-line-chart\";\n\nconst card = { borderRadius: 16, color: \"light-dark(#1a1a1c, #ececee)\", background: \"light-dark(#fff, #1c1c1f)\", boxShadow: \"0 0 0 1px light-dark(rgb(0 0 0 / 0.06), rgb(255 255 255 / 0.09)), 0 2px 8px rgb(0 0 0 / 0.04)\" } as const;\nconst muted = \"light-dark(#71717a, #a1a1aa)\";\n\nfunction StatTile() {\n  return (\n    <div style={{ ...card, display: \"grid\", gap: 10, width: 220, padding: \"16px 16px 14px\" }}>\n      <span style={{ fontSize: 12, color: muted }}>Revenue</span>\n      <span style={{ fontSize: 22, fontWeight: 600, letterSpacing: \"-0.02em\", fontVariantNumeric: \"tabular-nums\" }}>$48,210</span>\n      <TinyLineChart data={[9, 14, 8, 17, 11, 19, 10, 16, 21, 12, 20, 15]} width={188} height={46} color=\"#0f8a7e\" fill easing=\"ease\" />\n    </div>\n  );\n}\n\nconst ROWS = [\n  { label: \"Visitors\", value: \"12.4k\", data: [4, 6, 5, 8, 7, 9, 8, 11, 10, 13] },\n  { label: \"Signups\", value: \"318\", data: [3, 2, 4, 3, 5, 4, 6, 5, 7, 8] },\n  { label: \"Churn\", value: \"1.2%\", data: [8, 7, 9, 6, 7, 5, 6, 4, 5, 4] },\n];\n\nfunction ListRows() {\n  return (\n    <div style={{ ...card, display: \"grid\", width: 240, padding: \"6px 16px\" }}>\n      {ROWS.map((r) => (\n        <div key={r.label} style={{ display: \"grid\", gridTemplateColumns: \"1fr auto 48px\", alignItems: \"center\", gap: 12, padding: \"9px 0\", fontSize: 13 }}>\n          <span>{r.label}</span>\n          <TinyLineChart data={r.data} size=\"s\" color=\"#3b5bdb\" />\n          <span style={{ textAlign: \"right\", color: muted, fontVariantNumeric: \"tabular-nums\" }}>{r.value}</span>\n        </div>\n      ))}\n    </div>\n  );\n}\n\nfunction Inline() {\n  return (\n    <div style={{ display: \"flex\", alignItems: \"center\", gap: 10, fontSize: 13, color: \"light-dark(#1a1a1c, #ececee)\" }}>\n      <span style={{ color: muted }}>Response time</span>\n      <TinyLineChart data={[6, 9, 7, 11, 8, 6, 9, 5, 7, 4]} width={64} height={20} color=\"#6d4aff\" />\n      <span style={{ fontWeight: 600, fontVariantNumeric: \"tabular-nums\" }}>142ms</span>\n    </div>\n  );\n}\n\nexport default function TinyLineChartDemo({ variant = \"overview\" }: { variant?: string }) {\n  if (variant === \"stat-tile\") return <StatTile />;\n  if (variant === \"list\") return <ListRows />;\n  if (variant === \"inline\") return <Inline />;\n  return (\n    <div style={{ display: \"grid\", gap: 16, justifyItems: \"center\" }}>\n      <StatTile />\n      <ListRows />\n    </div>\n  );\n}"
+    },
+    {
+      "name": "selene-smooth-shadows",
+      "title": "Smooth shadows",
+      "description": "A stack of soft shadow layers from two numbers, size and intensity, with an optional hairline ring and a theme token writer.",
+      "category": "Foundations",
+      "style": "selene",
+      "kind": "utility",
+      "url": "https://myzeusui.com/elements/selene-smooth-shadows/",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add selene-smooth-shadows",
+      "shadcn": "npx shadcn@latest add https://myzeusui.com/r/selene-smooth-shadows.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "example": "\"use client\";\nimport { useState } from \"react\";\nimport { smoothShadow } from \"@/components/application/selene/smooth-shadows\";\n\nexport default function SmoothShadowsDemo() {\n  const [size, setSize] = useState(8);\n  const [intensity, setIntensity] = useState(4);\n  const shadow = smoothShadow({ size, intensity, ring: true, hairline: true });\n  const slider = (label: string, value: number, set: (v: number) => void, max: number) => (\n    <label style={{ display: \"grid\", gridTemplateColumns: \"72px 1fr 28px\", alignItems: \"center\", gap: 10, fontSize: 13 }}>\n      {label}\n      <input type=\"range\" min={1} max={max} value={value} onChange={(e) => set(Number(e.target.value))} />\n      <span style={{ textAlign: \"right\", color: \"light-dark(#71717a, #a1a1aa)\", fontVariantNumeric: \"tabular-nums\" }}>{value}</span>\n    </label>\n  );\n  return (\n    <div style={{ display: \"grid\", gap: 28, justifyItems: \"center\", width: \"100%\", maxWidth: 340, padding: \"8px 0\", color: \"light-dark(#1a1a1c, #ececee)\" }}>\n      <div style={{ display: \"flex\", alignItems: \"flex-start\", gap: 18 }}>\n        <div style={{ width: 132, padding: 8, borderRadius: 14, background: \"light-dark(#fff, #1c1c1f)\", boxShadow: shadow }}>\n          <div style={{ height: 56, borderRadius: 8, background: \"light-dark(linear-gradient(135deg, #e9e6ff, #f4f1ff), linear-gradient(135deg, #2e2a4a, #3a3460))\" }} />\n          <div style={{ padding: \"8px 4px 2px\", fontSize: 12, fontWeight: 600 }}>Weekly report</div>\n          <div style={{ padding: \"0 4px 2px\", fontSize: 11, color: \"light-dark(#71717a, #a1a1aa)\" }}>Updated 2h ago</div>\n        </div>\n        <div style={{ display: \"grid\", gap: 16 }}>\n          <button type=\"button\" style={{ height: 34, padding: \"0 14px\", border: 0, borderRadius: 10, color: \"inherit\", background: \"light-dark(#fff, #1c1c1f)\", font: \"inherit\", fontSize: 13, fontWeight: 600, boxShadow: shadow, cursor: \"pointer\" }}>\n            Download\n          </button>\n          <div role=\"menu\" style={{ display: \"grid\", width: 132, padding: 4, borderRadius: 12, background: \"light-dark(#fff, #1c1c1f)\", boxShadow: shadow, fontSize: 12 }}>\n            {[\"Rename\", \"Duplicate\", \"Move to…\"].map((item, i) => (\n              <span key={item} role=\"menuitem\" style={{ padding: \"6px 8px\", borderRadius: 8, background: i === 0 ? \"light-dark(#f4f4f5, #2a2a2e)\" : undefined }}>\n                {item}\n              </span>\n            ))}\n          </div>\n        </div>\n      </div>\n      <div style={{ display: \"grid\", gap: 8, width: \"100%\" }}>\n        {slider(\"Size\", size, setSize, 32)}\n        {slider(\"Intensity\", intensity, setIntensity, 20)}\n      </div>\n    </div>\n  );\n}"
+    },
+    {
+      "name": "selene-concentric-radius",
+      "title": "Concentric radius",
+      "description": "Nested corners that share one centre: set the outer radius and the gap, and the inner radius follows.",
+      "category": "Foundations",
+      "style": "selene",
+      "kind": "utility",
+      "url": "https://myzeusui.com/elements/selene-concentric-radius/",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add selene-concentric-radius",
+      "shadcn": "npx shadcn@latest add https://myzeusui.com/r/selene-concentric-radius.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "example": "\"use client\";\nimport { useState } from \"react\";\nimport { Concentric, innerRadius } from \"@/components/application/selene/concentric-radius\";\n\nexport default function ConcentricRadiusDemo() {\n  const [outer, setOuter] = useState(28);\n  const [gap, setGap] = useState(8);\n  const slider = (label: string, value: number, set: (v: number) => void, max: number) => (\n    <label style={{ display: \"grid\", gridTemplateColumns: \"56px 1fr 34px\", alignItems: \"center\", gap: 10, fontSize: 13 }}>\n      {label}\n      <input type=\"range\" min={0} max={max} value={value} onChange={(e) => set(Number(e.target.value))} />\n      <span style={{ textAlign: \"right\", color: \"light-dark(#71717a, #a1a1aa)\", fontVariantNumeric: \"tabular-nums\" }}>{value}px</span>\n    </label>\n  );\n  return (\n    <div style={{ display: \"grid\", gap: 22, justifyItems: \"center\", width: \"100%\", maxWidth: 340, color: \"light-dark(#1a1a1c, #ececee)\" }}>\n      <div style={{ display: \"flex\", alignItems: \"center\", gap: 16 }}>\n        <Concentric radius={outer} gap={gap} style={{ width: 150, background: \"light-dark(#fff, #1c1c1f)\", boxShadow: \"0 0 0 1px light-dark(rgb(0 0 0 / 0.06), rgb(255 255 255 / 0.09)), 0 6px 16px -6px rgb(0 0 0 / 0.12)\" }}>\n          <Concentric.Inner style={{ height: 92, background: \"linear-gradient(135deg, #ffd2b8, #ffab84)\" }} />\n          <div style={{ padding: \"10px 4px 4px\", fontSize: 13, fontWeight: 600 }}>Sunset palette</div>\n          <div style={{ padding: \"0 4px 4px\", fontSize: 11, color: \"light-dark(#71717a, #a1a1aa)\" }}>12 colours</div>\n        </Concentric>\n        <div style={{ display: \"grid\", gap: 12 }}>\n          <Concentric radius={Math.min(outer, 22)} gap={Math.min(gap, 6)} style={{ display: \"flex\", alignItems: \"center\", gap: 6, width: 156, background: \"light-dark(#fff, #1c1c1f)\", boxShadow: \"0 0 0 1px light-dark(rgb(0 0 0 / 0.06), rgb(255 255 255 / 0.09))\" }}>\n            <span style={{ flex: 1, paddingLeft: 8, fontSize: 12, color: \"#a1a1aa\" }}>Search files…</span>\n            <Concentric.Inner as=\"span\" style={{ padding: \"6px 10px\", background: \"light-dark(#111, #f4f4f5)\", color: \"light-dark(#fff, #111)\", fontSize: 11, fontWeight: 600 }}>\n              Go\n            </Concentric.Inner>\n          </Concentric>\n          <Concentric radius={Math.min(outer, 22)} gap={Math.min(gap, 6)} style={{ display: \"flex\", alignItems: \"center\", gap: 10, width: 156, background: \"light-dark(#fff, #1c1c1f)\", boxShadow: \"0 0 0 1px light-dark(rgb(0 0 0 / 0.06), rgb(255 255 255 / 0.09))\" }}>\n            <Concentric.Inner style={{ display: \"grid\", placeItems: \"center\", width: 30, height: 30, background: \"light-dark(#e8f7ee, #17301f)\", color: \"#1f9d55\", fontSize: 14 }}>✓</Concentric.Inner>\n            <span style={{ display: \"grid\", fontSize: 12, fontWeight: 600 }}>\n              Saved\n              <span style={{ fontSize: 10, fontWeight: 400, color: \"light-dark(#71717a, #a1a1aa)\" }}>All changes synced</span>\n            </span>\n          </Concentric>\n        </div>\n      </div>\n      <div style={{ display: \"grid\", gap: 8, width: \"100%\" }}>\n        {slider(\"Outer\", outer, setOuter, 48)}\n        {slider(\"Gap\", gap, setGap, 24)}\n        <span style={{ fontSize: 12, color: \"light-dark(#71717a, #a1a1aa)\" }}>Inner radius follows: {innerRadius(outer, gap)}px</span>\n      </div>\n    </div>\n  );\n}"
+    },
+    {
+      "name": "selene-shimmer",
+      "title": "Loading shimmer",
+      "description": "A slanted beam of light that travels across a loading surface, in paper, opal, clay and frost, with grain and a dark pair.",
+      "category": "Feedback",
+      "style": "selene",
+      "kind": "component",
+      "variants": [
+        "Paper",
+        "Opal",
+        "Clay",
+        "Frost"
+      ],
+      "url": "https://myzeusui.com/elements/selene-shimmer/",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add selene-shimmer",
+      "shadcn": "npx shadcn@latest add https://myzeusui.com/r/selene-shimmer.json",
+      "dependencies": [],
+      "registryDependencies": [],
+      "example": "\"use client\";\nimport { Shimmer, type ShimmerPreset } from \"@/components/application/selene/shimmer\";\n\nexport default function ShimmerDemo({ variant = \"paper\" }: { variant?: string }) {\n  const preset = variant as ShimmerPreset;\n  const bar = (width: string, height = 10) => <Shimmer preset={preset} dark=\"auto\" style={{ width, height, borderRadius: 6 }} />;\n  const panel = { background: \"light-dark(#fff, #1c1c1f)\", boxShadow: \"0 0 0 1px light-dark(rgb(0 0 0 / 0.06), rgb(255 255 255 / 0.09))\" };\n  return (\n    <div style={{ display: \"grid\", gap: 14, width: \"100%\", maxWidth: 300 }}>\n      <div style={{ ...panel, display: \"flex\", alignItems: \"center\", gap: 12, padding: 14, borderRadius: 16 }}>\n        <Shimmer preset={preset} dark=\"auto\" style={{ width: 40, height: 40, borderRadius: \"50%\", flex: \"none\" }} />\n        <div style={{ display: \"grid\", gap: 8, flex: 1 }}>\n          {bar(\"60%\")}\n          {bar(\"38%\", 8)}\n        </div>\n      </div>\n      <div style={{ ...panel, display: \"grid\", gap: 10, padding: 12, borderRadius: 18 }}>\n        <Shimmer preset={preset} dark=\"auto\" style={{ height: 120, borderRadius: 10 }} />\n        {bar(\"72%\")}\n        {bar(\"46%\", 8)}\n      </div>\n      <div style={{ ...panel, display: \"grid\", gap: 9, padding: 14, borderRadius: 16 }}>\n        {bar(\"100%\")}\n        {bar(\"92%\")}\n        {bar(\"64%\")}\n      </div>\n    </div>\n  );\n}"
+    },
+    {
       "name": "home-dashboard",
       "title": "Home Dashboard",
       "description": "An overview workspace with revenue, earnings, recent hires and searchable records",
@@ -2758,7 +2888,7 @@
       "style": "apollo",
       "kind": "template",
       "url": "https://myzeusui.com/elements/home-dashboard/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add home-dashboard",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add home-dashboard",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/home-dashboard.json",
       "dependencies": [
         "@internationalized/date@^3.12.1",
@@ -2819,7 +2949,7 @@
       "style": "apollo",
       "kind": "template",
       "url": "https://myzeusui.com/elements/finance-dashboard/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add finance-dashboard",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add finance-dashboard",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/finance-dashboard.json",
       "dependencies": [
         "@internationalized/date@^3.12.1",
@@ -2881,7 +3011,7 @@
       "style": "apollo",
       "kind": "template",
       "url": "https://myzeusui.com/elements/marketing-dashboard/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add marketing-dashboard",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add marketing-dashboard",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/marketing-dashboard.json",
       "dependencies": [
         "@internationalized/date@^3.12.1",
@@ -2944,7 +3074,7 @@
       "style": "apollo",
       "kind": "template",
       "url": "https://myzeusui.com/elements/hr-management/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add hr-management",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add hr-management",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/hr-management.json",
       "dependencies": [
         "@internationalized/date@^3.12.1",
@@ -3007,7 +3137,7 @@
       "style": "apollo",
       "kind": "template",
       "url": "https://myzeusui.com/elements/medical-profile/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add medical-profile",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add medical-profile",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/medical-profile.json",
       "dependencies": [
         "@internationalized/date@^3.12.1",
@@ -3070,7 +3200,7 @@
       "style": "apollo",
       "kind": "template",
       "url": "https://myzeusui.com/elements/ai-profile/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add ai-profile",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add ai-profile",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/ai-profile.json",
       "dependencies": [
         "@internationalized/date@^3.12.1",
@@ -3124,7 +3254,7 @@
       "style": "apollo",
       "kind": "template",
       "url": "https://myzeusui.com/elements/ai-chat/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add ai-chat",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add ai-chat",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/ai-chat.json",
       "dependencies": [
         "@internationalized/date@^3.12.1",
@@ -3182,7 +3312,7 @@
       "style": "apollo",
       "kind": "template",
       "url": "https://myzeusui.com/elements/ai-image-generation/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add ai-image-generation",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add ai-image-generation",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/ai-image-generation.json",
       "dependencies": [
         "@internationalized/date@^3.12.1",
@@ -3239,7 +3369,7 @@
       "style": "apollo",
       "kind": "template",
       "url": "https://myzeusui.com/elements/project-board/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add project-board",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add project-board",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/project-board.json",
       "dependencies": [
         "@internationalized/date@^3.12.1",
@@ -3293,7 +3423,7 @@
       "style": "apollo",
       "kind": "template",
       "url": "https://myzeusui.com/elements/multi-agent-chat/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add multi-agent-chat",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add multi-agent-chat",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/multi-agent-chat.json",
       "dependencies": [
         "@internationalized/date@^3.12.1",
@@ -3351,7 +3481,7 @@
       "style": "apollo",
       "kind": "template",
       "url": "https://myzeusui.com/elements/chat-starter/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add chat-starter",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add chat-starter",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/chat-starter.json",
       "dependencies": [
         "@internationalized/date@^3.12.1",
@@ -3403,7 +3533,7 @@
       "style": "apollo",
       "kind": "block",
       "url": "https://myzeusui.com/elements/agent-creator/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add agent-creator",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add agent-creator",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/agent-creator.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -3436,7 +3566,7 @@
       "style": "apollo",
       "kind": "block",
       "url": "https://myzeusui.com/elements/agent-progress/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add agent-progress",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add agent-progress",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/agent-progress.json",
       "dependencies": [
         "motion@^12.42.2",
@@ -3457,7 +3587,7 @@
       "style": "apollo",
       "kind": "block",
       "url": "https://myzeusui.com/elements/calendar/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add calendar",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add calendar",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/calendar.json",
       "dependencies": [
         "@internationalized/date@^3.12.1",
@@ -3491,7 +3621,7 @@
       "style": "apollo",
       "kind": "block",
       "url": "https://myzeusui.com/elements/composer/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add composer",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add composer",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/composer.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -3525,7 +3655,7 @@
       "style": "apollo",
       "kind": "block",
       "url": "https://myzeusui.com/elements/composer-attachments/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add composer-attachments",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add composer-attachments",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/composer-attachments.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -3560,7 +3690,7 @@
       "style": "apollo",
       "kind": "block",
       "url": "https://myzeusui.com/elements/composer-panel/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add composer-panel",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add composer-panel",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/composer-panel.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -3595,7 +3725,7 @@
       "style": "apollo",
       "kind": "block",
       "url": "https://myzeusui.com/elements/questionnaire/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add questionnaire",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add questionnaire",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/questionnaire.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -3624,7 +3754,7 @@
       "style": "apollo",
       "kind": "block",
       "url": "https://myzeusui.com/elements/task-list/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add task-list",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add task-list",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/task-list.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -3649,7 +3779,7 @@
       "style": "apollo",
       "kind": "block",
       "url": "https://myzeusui.com/elements/web-search/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add web-search",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add web-search",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/web-search.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -3675,7 +3805,7 @@
       "style": "apollo",
       "kind": "chart",
       "url": "https://myzeusui.com/elements/combo-chart-card/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add combo-chart-card",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add combo-chart-card",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/combo-chart-card.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -3707,7 +3837,7 @@
       "style": "apollo",
       "kind": "chart",
       "url": "https://myzeusui.com/elements/contributions-card/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add contributions-card",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add contributions-card",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/contributions-card.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -3739,7 +3869,7 @@
       "style": "apollo",
       "kind": "chart",
       "url": "https://myzeusui.com/elements/earnings-chart-card/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add earnings-chart-card",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add earnings-chart-card",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/earnings-chart-card.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -3771,7 +3901,7 @@
       "style": "apollo",
       "kind": "chart",
       "url": "https://myzeusui.com/elements/funnel-chart-card/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add funnel-chart-card",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add funnel-chart-card",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/funnel-chart-card.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -3802,7 +3932,7 @@
       "style": "apollo",
       "kind": "chart",
       "url": "https://myzeusui.com/elements/heatmap-chart-card/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add heatmap-chart-card",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add heatmap-chart-card",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/heatmap-chart-card.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -3834,7 +3964,7 @@
       "style": "apollo",
       "kind": "chart",
       "url": "https://myzeusui.com/elements/most-active-days-card/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add most-active-days-card",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add most-active-days-card",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/most-active-days-card.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -3866,7 +3996,7 @@
       "style": "apollo",
       "kind": "chart",
       "url": "https://myzeusui.com/elements/radar-chart-card/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add radar-chart-card",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add radar-chart-card",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/radar-chart-card.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -3898,7 +4028,7 @@
       "style": "apollo",
       "kind": "chart",
       "url": "https://myzeusui.com/elements/radial-chart-card/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add radial-chart-card",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add radial-chart-card",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/radial-chart-card.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -3930,7 +4060,7 @@
       "style": "apollo",
       "kind": "chart",
       "url": "https://myzeusui.com/elements/sankey-chart-card/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add sankey-chart-card",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add sankey-chart-card",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/sankey-chart-card.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -3962,7 +4092,7 @@
       "style": "apollo",
       "kind": "chart",
       "url": "https://myzeusui.com/elements/scatter-chart-card/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add scatter-chart-card",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add scatter-chart-card",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/scatter-chart-card.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -3994,7 +4124,7 @@
       "style": "apollo",
       "kind": "chart",
       "url": "https://myzeusui.com/elements/sleep-score-card/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add sleep-score-card",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add sleep-score-card",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/sleep-score-card.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -4026,7 +4156,7 @@
       "style": "apollo",
       "kind": "chart",
       "url": "https://myzeusui.com/elements/stage-bars-card/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add stage-bars-card",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add stage-bars-card",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/stage-bars-card.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -4058,7 +4188,7 @@
       "style": "apollo",
       "kind": "chart",
       "url": "https://myzeusui.com/elements/steps-card/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add steps-card",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add steps-card",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/steps-card.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -4090,7 +4220,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/button/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add button",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add button",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/button.json",
       "dependencies": [
         "tailwind-merge@^3.6.0"
@@ -4109,7 +4239,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/icon-button/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add icon-button",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add icon-button",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/icon-button.json",
       "dependencies": [
         "tailwind-merge@^3.6.0"
@@ -4128,7 +4258,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/link-button/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add link-button",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add link-button",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/link-button.json",
       "dependencies": [
         "tailwind-merge@^3.6.0"
@@ -4147,7 +4277,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/button-group/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add button-group",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add button-group",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/button-group.json",
       "dependencies": [
         "tailwind-merge@^3.6.0"
@@ -4166,7 +4296,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/close-button/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add close-button",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add close-button",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/close-button.json",
       "dependencies": [
         "tailwind-merge@^3.6.0"
@@ -4185,7 +4315,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/social-button/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add social-button",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add social-button",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/social-button.json",
       "dependencies": [
         "tailwind-merge@^3.6.0"
@@ -4204,7 +4334,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/input/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add input",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add input",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/input.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -4229,7 +4359,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/input-otp/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add input-otp",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add input-otp",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/input-otp.json",
       "dependencies": [
         "tailwind-merge@^3.6.0"
@@ -4248,7 +4378,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/checkbox/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add checkbox",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add checkbox",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/checkbox.json",
       "dependencies": [
         "react-aria-components@^1.17.0",
@@ -4268,7 +4398,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/radio/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add radio",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add radio",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/radio.json",
       "dependencies": [
         "react-aria-components@^1.17.0",
@@ -4288,7 +4418,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/switch/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add switch",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add switch",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/switch.json",
       "dependencies": [
         "react-aria-components@^1.17.0",
@@ -4308,7 +4438,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/select/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add select",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add select",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/select.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -4332,7 +4462,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/slider/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add slider",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add slider",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/slider.json",
       "dependencies": [
         "react-aria-components@^1.17.0",
@@ -4352,7 +4482,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/dropdown/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add dropdown",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add dropdown",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/dropdown.json",
       "dependencies": [
         "react-aria-components@^1.17.0",
@@ -4374,7 +4504,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/divider/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add divider",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add divider",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/divider.json",
       "dependencies": [
         "tailwind-merge@^3.6.0"
@@ -4393,7 +4523,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/file-upload/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add file-upload",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add file-upload",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/file-upload.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -4413,7 +4543,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/tabs/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add tabs",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add tabs",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/tabs.json",
       "dependencies": [
         "react-aria-components@^1.17.0",
@@ -4433,7 +4563,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/segmented-control/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add segmented-control",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add segmented-control",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/segmented-control.json",
       "dependencies": [
         "react-aria-components@^1.17.0",
@@ -4453,7 +4583,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/table/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add table",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add table",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/table.json",
       "dependencies": [
         "react-aria-components@^1.17.0",
@@ -4473,7 +4603,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/textarea/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add textarea",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add textarea",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/textarea.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -4495,7 +4625,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/tree-view/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add tree-view",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add tree-view",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/tree-view.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -4518,7 +4648,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/tooltip/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add tooltip",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add tooltip",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/tooltip.json",
       "dependencies": [
         "react-aria-components@^1.17.0",
@@ -4538,7 +4668,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/badge/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add badge",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add badge",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/badge.json",
       "dependencies": [
         "tailwind-merge@^3.6.0"
@@ -4557,7 +4687,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/chip/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add chip",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add chip",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/chip.json",
       "dependencies": [
         "tailwind-merge@^3.6.0"
@@ -4576,7 +4706,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/status-dot/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add status-dot",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add status-dot",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/status-dot.json",
       "dependencies": [
         "tailwind-merge@^3.6.0"
@@ -4595,7 +4725,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/kbd/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add kbd",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add kbd",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/kbd.json",
       "dependencies": [
         "tailwind-merge@^3.6.0"
@@ -4614,7 +4744,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/avatar/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add avatar",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add avatar",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/avatar.json",
       "dependencies": [
         "tailwind-merge@^3.6.0"
@@ -4633,7 +4763,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/breadcrumb/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add breadcrumb",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add breadcrumb",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/breadcrumb.json",
       "dependencies": [
         "tailwind-merge@^3.6.0"
@@ -4653,7 +4783,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/pagination/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add pagination",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add pagination",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/pagination.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -4674,7 +4804,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/carousel/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add carousel",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add carousel",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/carousel.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -4695,7 +4825,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/announcement/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add announcement",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add announcement",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/announcement.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -4718,7 +4848,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/notification/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add notification",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add notification",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/notification.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -4742,7 +4872,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/date-picker/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add date-picker",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add date-picker",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/date-picker.json",
       "dependencies": [
         "@internationalized/date@^3.12.1",
@@ -4767,7 +4897,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/date-range-picker/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add date-range-picker",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add date-range-picker",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/date-range-picker.json",
       "dependencies": [
         "@internationalized/date@^3.12.1",
@@ -4793,7 +4923,7 @@
       "style": "apollo",
       "kind": "component",
       "url": "https://myzeusui.com/elements/meeting-scheduler/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add meeting-scheduler",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add meeting-scheduler",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/meeting-scheduler.json",
       "dependencies": [
         "@internationalized/date@^3.12.1",
@@ -4820,7 +4950,7 @@
       "style": "apollo",
       "kind": "block",
       "url": "https://myzeusui.com/elements/theme-toggle/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add theme-toggle",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add theme-toggle",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/theme-toggle.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -4842,7 +4972,7 @@
       "style": "apollo",
       "kind": "block",
       "url": "https://myzeusui.com/elements/stat-cards/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add stat-cards",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add stat-cards",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/stat-cards.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -4865,7 +4995,7 @@
       "style": "apollo",
       "kind": "block",
       "url": "https://myzeusui.com/elements/data-grid/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add data-grid",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add data-grid",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/data-grid.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -4896,7 +5026,7 @@
       "style": "apollo",
       "kind": "block",
       "url": "https://myzeusui.com/elements/data-table/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add data-table",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add data-table",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/data-table.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -4933,7 +5063,7 @@
       "style": "apollo",
       "kind": "block",
       "url": "https://myzeusui.com/elements/sidebar/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add sidebar",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add sidebar",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/sidebar.json",
       "dependencies": [
         "@internationalized/date@^3.12.1",
@@ -4979,7 +5109,7 @@
       "style": "apollo",
       "kind": "block",
       "url": "https://myzeusui.com/elements/app-shell/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add app-shell",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add app-shell",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/app-shell.json",
       "dependencies": [
         "@internationalized/date@^3.12.1",
@@ -5029,7 +5159,7 @@
       "style": "apollo",
       "kind": "block",
       "url": "https://myzeusui.com/elements/notification-center/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add notification-center",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add notification-center",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/notification-center.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -5053,7 +5183,7 @@
       "style": "apollo",
       "kind": "block",
       "url": "https://myzeusui.com/elements/settings-modal/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add settings-modal",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add settings-modal",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/settings-modal.json",
       "dependencies": [
         "@internationalized/date@^3.12.1",
@@ -5094,7 +5224,7 @@
       "style": "apollo",
       "kind": "block",
       "url": "https://myzeusui.com/elements/auth-card/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add auth-card",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add auth-card",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/auth-card.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -5122,7 +5252,7 @@
       "style": "apollo",
       "kind": "block",
       "url": "https://myzeusui.com/elements/agent-limits-card/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add agent-limits-card",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add agent-limits-card",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/agent-limits-card.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -5144,7 +5274,7 @@
       "style": "apollo",
       "kind": "block",
       "url": "https://myzeusui.com/elements/agent-thinking/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add agent-thinking",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add agent-thinking",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/agent-thinking.json",
       "dependencies": [
         "tailwind-merge@^3.6.0"
@@ -5163,7 +5293,7 @@
       "style": "apollo",
       "kind": "block",
       "url": "https://myzeusui.com/elements/composer-loader/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add composer-loader",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add composer-loader",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/composer-loader.json",
       "dependencies": [
         "tailwind-merge@^3.6.0"
@@ -5182,7 +5312,7 @@
       "style": "apollo",
       "kind": "block",
       "url": "https://myzeusui.com/elements/agent-log/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add agent-log",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add agent-log",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/agent-log.json",
       "dependencies": [
         "motion@^12.42.2",
@@ -5203,7 +5333,7 @@
       "style": "apollo",
       "kind": "block",
       "url": "https://myzeusui.com/elements/agent-chat/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add agent-chat",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add agent-chat",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/agent-chat.json",
       "dependencies": [
         "@ai-sdk/react@^4.0.90",
@@ -5258,7 +5388,7 @@
       "style": "apollo",
       "kind": "chart",
       "url": "https://myzeusui.com/elements/area-chart-card/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add area-chart-card",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add area-chart-card",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/area-chart-card.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -5290,7 +5420,7 @@
       "style": "apollo",
       "kind": "chart",
       "url": "https://myzeusui.com/elements/line-chart-card/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add line-chart-card",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add line-chart-card",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/line-chart-card.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -5322,7 +5452,7 @@
       "style": "apollo",
       "kind": "chart",
       "url": "https://myzeusui.com/elements/bar-list-card/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add bar-list-card",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add bar-list-card",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/bar-list-card.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -5354,7 +5484,7 @@
       "style": "apollo",
       "kind": "chart",
       "url": "https://myzeusui.com/elements/activity-rings-card/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add activity-rings-card",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add activity-rings-card",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/activity-rings-card.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",
@@ -5385,7 +5515,7 @@
       "style": "apollo",
       "kind": "chart",
       "url": "https://myzeusui.com/elements/chart-card/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add chart-card",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add chart-card",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/chart-card.json",
       "dependencies": [
         "motion@^12.42.2",
@@ -5409,7 +5539,7 @@
       "style": "apollo",
       "kind": "chart",
       "url": "https://myzeusui.com/elements/revenue-chart-card/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add revenue-chart-card",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add revenue-chart-card",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/revenue-chart-card.json",
       "dependencies": [
         "motion@^12.42.2",
@@ -5432,7 +5562,7 @@
       "style": "apollo",
       "kind": "chart",
       "url": "https://myzeusui.com/elements/orders-chart-card/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add orders-chart-card",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add orders-chart-card",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/orders-chart-card.json",
       "dependencies": [
         "motion@^12.42.2",
@@ -5455,7 +5585,7 @@
       "style": "apollo",
       "kind": "chart",
       "url": "https://myzeusui.com/elements/important-alerts-card/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add important-alerts-card",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add important-alerts-card",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/important-alerts-card.json",
       "dependencies": [
         "@internationalized/date@^3.12.1",
@@ -5479,7 +5609,7 @@
       "style": "apollo",
       "kind": "chart",
       "url": "https://myzeusui.com/elements/patient-info-card/",
-      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.0.tgz zeus-ui add patient-info-card",
+      "install": "npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add patient-info-card",
       "shadcn": "npx shadcn@latest add https://myzeusui.com/r/patient-info-card.json",
       "dependencies": [
         "@remixicon/react@^4.9.0",

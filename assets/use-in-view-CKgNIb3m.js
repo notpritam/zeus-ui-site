@@ -1,0 +1,1 @@
+import{r as f}from"./recipe-BQt8iA4T.js";import{i as p}from"./index-Wh9iTxsh.js";function V(e,{root:t,margin:n,amount:s,once:r=!1,initial:o=!1}={}){const[u,i]=f.useState(o);return f.useEffect(()=>{if(!e.current||r&&u)return;const c=()=>(i(!0),r?void 0:()=>i(!1)),a={root:t&&t.current||void 0,margin:n,amount:s};return p(e.current,c,a)},[t,e,n,r,s]),u}export{V as u};
