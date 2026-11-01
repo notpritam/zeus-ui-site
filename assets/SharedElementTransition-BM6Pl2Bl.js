@@ -1,1 +1,0 @@
-import"./index-ix9V-_ZV.js";import{r as e,n as a}from"./recipe-BsRRNA77.js";const n=e.createContext(null);function c(t){let r=e.useRef({});return a.createElement(n.Provider,{value:r},t.children)}export{c as $};

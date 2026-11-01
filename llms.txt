@@ -2,16 +2,16 @@
 
 Pick every element. See it live. Your agent builds exactly that. Free, live UI components and a Studio for people who build with coding agents.
 
-- [Agent manifest](https://myzeusui.com/agents.json): 218 components and templates with examples and install commands.
+- [Agent manifest](https://myzeusui.com/agents.json): 227 components and templates with examples and install commands.
 - [Registry](https://myzeusui.com/r/registry.json)
 - [Styles](https://myzeusui.com/styles/)
 - [Setup for agents](https://myzeusui.com/agents/)
 
 ## Install
 
-- Source: `npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.2.tgz zeus-ui add <name>` copies the source, its dependencies and styles into your React project.
+- Source: `npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.3.tgz zeus-ui add <name>` copies the source, its dependencies and styles into your React project.
 - shadcn: `npx shadcn@latest add https://myzeusui.com/r/<name>.json`
-- MCP: `claude mcp add zeus -- npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-mcp-0.4.2.tgz zeus-mcp`
+- MCP: `claude mcp add zeus -- npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-mcp-0.4.3.tgz zeus-mcp`
 
 ## Components
 
@@ -141,6 +141,15 @@ Pick every element. See it live. Your agent builds exactly that. Free, live UI c
 - [Concentric radius](https://myzeusui.com/elements/selene-concentric-radius/): Nested corners that share one centre: set the outer radius and the gap, and the inner radius follows.
 - [Loading shimmer](https://myzeusui.com/elements/selene-shimmer/): A slanted beam of light that travels across a loading surface, in paper, opal, clay and frost, with grain and a dark pair.
 - [Petal sign-up](https://myzeusui.com/elements/zephyr-petal-signup/): A sign-up card beside a live three.js scene: petals fall into still water and ripple its reflection, each keystroke lets one go, and a computer on a stone shows what the form is doing.
+- [Clio theme](https://myzeusui.com/elements/clio-theme/): Paper and focus tokens for Clio: warm paper surfaces and hairlines, ink greys held to contrast, one ultramarine accent, thin Geist numerals over Geist Mono captions, and the rise-in and come-alive motion, written onto one scoped wrapper.
+- [Stat tile](https://myzeusui.com/elements/clio-stat/): One thin numeral that counts up once its tile has risen in, with a unit and a rising or falling line under it; screen readers hear the final value from the start.
+- [Bar week](https://myzeusui.com/elements/clio-bar-week/): Seven bars scaled to the week's busiest day that grow in one after another, today in the accent and missing days dashed; each bar is a button that reads its day into the numeral.
+- [Ring progress](https://myzeusui.com/elements/clio-ring/): Progress toward a goal as a thin ring with ticks that fills once its tile has risen in, with the count in the middle.
+- [Timed list](https://myzeusui.com/elements/clio-list/): Timed rows that settle in one by one, with a chip on the first one still ahead saying how long until it; marking it done passes the chip down.
+- [Toggle tile](https://myzeusui.com/elements/clio-toggle/): A tile with a named switch and its state in a thin numeral; while it is on, the tile takes the dark focus state with a soft glow.
+- [Now playing](https://myzeusui.com/elements/clio-now-playing/): What's playing, with a cover, a seek bar you can drag or step with the keys, mm:ss times and back, play and forward buttons; under reduced motion it waits for play.
+- [Mini calendar](https://myzeusui.com/elements/clio-calendar/): A month as a labelled grid with today in the accent and dots under marked days that pop in after the rise; arrow keys move between days and Enter picks one.
+- [Clio dashboard](https://myzeusui.com/elements/clio-dashboard/): A FoundKeep board of Clio tiles: saves this week, the week by day, the reading queue, quiet hours, a reading goal, folders, the month, what's playing, collections and Ask Kit. It builds itself in tile by tile, and Focus turns the whole board dark.
 - [Home Dashboard](https://myzeusui.com/elements/home-dashboard/): An overview workspace with revenue, earnings, recent hires and searchable records
 - [Finance Dashboard](https://myzeusui.com/elements/finance-dashboard/): Personal finance workspace with cash flow, investments, spending and transaction records
 - [Marketing Dashboard](https://myzeusui.com/elements/marketing-dashboard/): Campaign analytics with conversion funnels, channel attribution and campaign management

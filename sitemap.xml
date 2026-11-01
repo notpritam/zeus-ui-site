@@ -146,6 +146,15 @@
   <url><loc>https://myzeusui.com/elements/chat-starter/</loc></url>
   <url><loc>https://myzeusui.com/elements/checkbox/</loc></url>
   <url><loc>https://myzeusui.com/elements/chip/</loc></url>
+  <url><loc>https://myzeusui.com/elements/clio-bar-week/</loc></url>
+  <url><loc>https://myzeusui.com/elements/clio-calendar/</loc></url>
+  <url><loc>https://myzeusui.com/elements/clio-dashboard/</loc></url>
+  <url><loc>https://myzeusui.com/elements/clio-list/</loc></url>
+  <url><loc>https://myzeusui.com/elements/clio-now-playing/</loc></url>
+  <url><loc>https://myzeusui.com/elements/clio-ring/</loc></url>
+  <url><loc>https://myzeusui.com/elements/clio-stat/</loc></url>
+  <url><loc>https://myzeusui.com/elements/clio-theme/</loc></url>
+  <url><loc>https://myzeusui.com/elements/clio-toggle/</loc></url>
   <url><loc>https://myzeusui.com/elements/close-button/</loc></url>
   <url><loc>https://myzeusui.com/elements/combo-chart-card/</loc></url>
   <url><loc>https://myzeusui.com/elements/composer-attachments/</loc></url>
@@ -226,6 +235,7 @@
   <url><loc>https://myzeusui.com/styles/</loc></url>
   <url><loc>https://myzeusui.com/styles/apollo/</loc></url>
   <url><loc>https://myzeusui.com/styles/artemis/</loc></url>
+  <url><loc>https://myzeusui.com/styles/clio/</loc></url>
   <url><loc>https://myzeusui.com/styles/selene/</loc></url>
   <url><loc>https://myzeusui.com/styles/zephyr/</loc></url>
 </urlset>

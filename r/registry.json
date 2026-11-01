@@ -3,7 +3,7 @@
   "name": "zeus-ui",
   "homepage": "https://myzeusui.com",
   "license": "MIT",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "organizationVersion": 1,
   "families": [
     {
@@ -190,11 +190,11 @@
   ],
   "tags": [
     {
-      "tag": "artemis",
-      "count": 119
+      "tag": "motion",
+      "count": 120
     },
     {
-      "tag": "motion",
+      "tag": "artemis",
       "count": 119
     },
     {
@@ -242,6 +242,10 @@
       "count": 11
     },
     {
+      "tag": "clio",
+      "count": 9
+    },
+    {
       "tag": "drag",
       "count": 9
     },
@@ -262,6 +266,10 @@
       "count": 7
     },
     {
+      "tag": "dashboard",
+      "count": 7
+    },
+    {
       "tag": "navigation",
       "count": 7
     },
@@ -274,7 +282,11 @@
       "count": 7
     },
     {
-      "tag": "dashboard",
+      "tag": "tile",
+      "count": 7
+    },
+    {
+      "tag": "calendar",
       "count": 6
     },
     {
@@ -294,15 +306,23 @@
       "count": 5
     },
     {
-      "tag": "calendar",
-      "count": 5
-    },
-    {
       "tag": "composer",
       "count": 5
     },
     {
       "tag": "interaction",
+      "count": 5
+    },
+    {
+      "tag": "progress",
+      "count": 5
+    },
+    {
+      "tag": "toggle",
+      "count": 5
+    },
+    {
+      "tag": "tokens",
       "count": 5
     },
     {
@@ -330,10 +350,6 @@
       "count": 4
     },
     {
-      "tag": "progress",
-      "count": 4
-    },
-    {
       "tag": "recharts",
       "count": 4
     },
@@ -342,15 +358,15 @@
       "count": 4
     },
     {
-      "tag": "toggle",
-      "count": 4
-    },
-    {
-      "tag": "tokens",
-      "count": 4
-    },
-    {
       "tag": "auth",
+      "count": 3
+    },
+    {
+      "tag": "dark-mode",
+      "count": 3
+    },
+    {
+      "tag": "date",
       "count": 3
     },
     {
@@ -371,6 +387,10 @@
     },
     {
       "tag": "layout",
+      "count": 3
+    },
+    {
+      "tag": "list",
       "count": 3
     },
     {
@@ -406,6 +426,10 @@
       "count": 3
     },
     {
+      "tag": "theme",
+      "count": 3
+    },
+    {
       "tag": "workspace",
       "count": 3
     },
@@ -430,19 +454,15 @@
       "count": 2
     },
     {
+      "tag": "count-up",
+      "count": 2
+    },
+    {
       "tag": "crypto-markets",
       "count": 2
     },
     {
       "tag": "cta",
-      "count": 2
-    },
-    {
-      "tag": "dark-mode",
-      "count": 2
-    },
-    {
-      "tag": "date",
       "count": 2
     },
     {
@@ -459,6 +479,10 @@
     },
     {
       "tag": "filtering",
+      "count": 2
+    },
+    {
+      "tag": "focus",
       "count": 2
     },
     {
@@ -494,11 +518,15 @@
       "count": 2
     },
     {
-      "tag": "list",
+      "tag": "media",
       "count": 2
     },
     {
       "tag": "modal",
+      "count": 2
+    },
+    {
+      "tag": "number",
       "count": 2
     },
     {
@@ -511,6 +539,10 @@
     },
     {
       "tag": "overlay",
+      "count": 2
+    },
+    {
+      "tag": "paper",
       "count": 2
     },
     {
@@ -551,10 +583,6 @@
     },
     {
       "tag": "sparkline",
-      "count": 2
-    },
-    {
-      "tag": "theme",
       "count": 2
     },
     {
@@ -674,6 +702,10 @@
       "count": 1
     },
     {
+      "tag": "audio",
+      "count": 1
+    },
+    {
       "tag": "audit-trail",
       "count": 1
     },
@@ -691,6 +723,10 @@
     },
     {
       "tag": "banner",
+      "count": 1
+    },
+    {
+      "tag": "bar-chart",
       "count": 1
     },
     {
@@ -958,6 +994,10 @@
       "count": 1
     },
     {
+      "tag": "foundkeep",
+      "count": 1
+    },
+    {
       "tag": "fullscreen",
       "count": 1
     },
@@ -975,6 +1015,10 @@
     },
     {
       "tag": "glow",
+      "count": 1
+    },
+    {
+      "tag": "goal",
       "count": 1
     },
     {
@@ -1118,10 +1162,6 @@
       "count": 1
     },
     {
-      "tag": "media",
-      "count": 1
-    },
-    {
       "tag": "mesh-gradient",
       "count": 1
     },
@@ -1135,6 +1175,10 @@
     },
     {
       "tag": "model-picker",
+      "count": 1
+    },
+    {
+      "tag": "month",
       "count": 1
     },
     {
@@ -1210,15 +1254,15 @@
       "count": 1
     },
     {
+      "tag": "next",
+      "count": 1
+    },
+    {
       "tag": "notification-center",
       "count": 1
     },
     {
       "tag": "notifications",
-      "count": 1
-    },
-    {
-      "tag": "number",
       "count": 1
     },
     {
@@ -1278,6 +1322,10 @@
       "count": 1
     },
     {
+      "tag": "player",
+      "count": 1
+    },
+    {
       "tag": "preferences",
       "count": 1
     },
@@ -1311,6 +1359,10 @@
     },
     {
       "tag": "questions",
+      "count": 1
+    },
+    {
+      "tag": "queue",
       "count": 1
     },
     {
@@ -1358,6 +1410,10 @@
       "count": 1
     },
     {
+      "tag": "ring",
+      "count": 1
+    },
+    {
       "tag": "roadmap",
       "count": 1
     },
@@ -1367,6 +1423,10 @@
     },
     {
       "tag": "rule",
+      "count": 1
+    },
+    {
+      "tag": "saves",
       "count": 1
     },
     {
@@ -1391,6 +1451,10 @@
     },
     {
       "tag": "sections",
+      "count": 1
+    },
+    {
+      "tag": "seek",
       "count": 1
     },
     {
@@ -1466,6 +1530,10 @@
       "count": 1
     },
     {
+      "tag": "stat",
+      "count": 1
+    },
+    {
       "tag": "status-pages",
       "count": 1
     },
@@ -1483,6 +1551,10 @@
     },
     {
       "tag": "swipe",
+      "count": 1
+    },
+    {
+      "tag": "switch",
       "count": 1
     },
     {
@@ -1539,6 +1611,10 @@
     },
     {
       "tag": "three",
+      "count": 1
+    },
+    {
+      "tag": "time",
       "count": 1
     },
     {
@@ -1635,6 +1711,10 @@
     },
     {
       "tag": "web-search",
+      "count": 1
+    },
+    {
+      "tag": "week",
       "count": 1
     },
     {
@@ -14297,6 +14377,361 @@
         {
           "path": "application/zephyr/petal-signup/styles.ts",
           "target": "components/application/zephyr/petal-signup/styles.ts",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "clio-theme",
+      "title": "Clio theme",
+      "description": "Paper and focus tokens for Clio: warm paper surfaces and hairlines, ink greys held to contrast, one ultramarine accent, thin Geist numerals over Geist Mono captions, and the rise-in and come-alive motion, written onto one scoped wrapper.",
+      "category": "foundations",
+      "family": "foundations",
+      "kind": "tokens",
+      "designSystem": null,
+      "foundationDependencies": [],
+      "iconLibraries": [],
+      "tags": [
+        "clio",
+        "tokens",
+        "theme",
+        "paper",
+        "dark-mode",
+        "motion"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "provenance": "inspired",
+      "dependencies": [],
+      "registryDependencies": [],
+      "hash": "243296567a1d",
+      "bytes": 25695,
+      "files": [
+        {
+          "path": "application/clio/motion.ts",
+          "target": "components/application/clio/motion.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/clio/theme.tsx",
+          "target": "components/application/clio/theme.tsx",
+          "type": "component"
+        },
+        {
+          "path": "application/clio/tokens.ts",
+          "target": "components/application/clio/tokens.ts",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "clio-stat",
+      "title": "Stat tile",
+      "description": "One thin numeral that counts up once its tile has risen in, with a unit and a rising or falling line under it; screen readers hear the final value from the start.",
+      "category": "base",
+      "family": "data",
+      "kind": "component",
+      "designSystem": null,
+      "foundationDependencies": [
+        "clio-theme"
+      ],
+      "iconLibraries": [],
+      "tags": [
+        "clio",
+        "stat",
+        "count-up",
+        "number",
+        "tile"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "provenance": "inspired",
+      "dependencies": [],
+      "registryDependencies": [
+        "clio-theme"
+      ],
+      "hash": "5b55c7011f08",
+      "bytes": 4034,
+      "files": [
+        {
+          "path": "application/clio/stat.tsx",
+          "target": "components/application/clio/stat.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "clio-bar-week",
+      "title": "Bar week",
+      "description": "Seven bars scaled to the week's busiest day that grow in one after another, today in the accent and missing days dashed; each bar is a button that reads its day into the numeral.",
+      "category": "charts",
+      "family": "data",
+      "kind": "chart",
+      "designSystem": null,
+      "foundationDependencies": [
+        "clio-theme"
+      ],
+      "iconLibraries": [],
+      "tags": [
+        "clio",
+        "bar-chart",
+        "week",
+        "count-up",
+        "tile"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "provenance": "inspired",
+      "dependencies": [],
+      "registryDependencies": [
+        "clio-theme"
+      ],
+      "hash": "6c0e12ee657b",
+      "bytes": 10349,
+      "files": [
+        {
+          "path": "application/clio/bar-week.tsx",
+          "target": "components/application/clio/bar-week.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "clio-ring",
+      "title": "Ring progress",
+      "description": "Progress toward a goal as a thin ring with ticks that fills once its tile has risen in, with the count in the middle.",
+      "category": "charts",
+      "family": "data",
+      "kind": "chart",
+      "designSystem": null,
+      "foundationDependencies": [
+        "clio-theme"
+      ],
+      "iconLibraries": [],
+      "tags": [
+        "clio",
+        "ring",
+        "progress",
+        "goal",
+        "tile"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "provenance": "inspired",
+      "dependencies": [],
+      "registryDependencies": [
+        "clio-theme"
+      ],
+      "hash": "ac5752c5d2da",
+      "bytes": 6224,
+      "files": [
+        {
+          "path": "application/clio/ring.tsx",
+          "target": "components/application/clio/ring.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "clio-list",
+      "title": "Timed list",
+      "description": "Timed rows that settle in one by one, with a chip on the first one still ahead saying how long until it; marking it done passes the chip down.",
+      "category": "base",
+      "family": "scheduling",
+      "kind": "component",
+      "designSystem": null,
+      "foundationDependencies": [
+        "clio-theme"
+      ],
+      "iconLibraries": [],
+      "tags": [
+        "clio",
+        "list",
+        "queue",
+        "next",
+        "time",
+        "tile"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "provenance": "inspired",
+      "dependencies": [],
+      "registryDependencies": [
+        "clio-theme"
+      ],
+      "hash": "6a8fbb7964a0",
+      "bytes": 12663,
+      "files": [
+        {
+          "path": "application/clio/list.tsx",
+          "target": "components/application/clio/list.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "clio-toggle",
+      "title": "Toggle tile",
+      "description": "A tile with a named switch and its state in a thin numeral; while it is on, the tile takes the dark focus state with a soft glow.",
+      "category": "base",
+      "family": "forms",
+      "kind": "component",
+      "designSystem": null,
+      "foundationDependencies": [
+        "clio-theme"
+      ],
+      "iconLibraries": [],
+      "tags": [
+        "clio",
+        "toggle",
+        "switch",
+        "focus",
+        "tile"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "provenance": "inspired",
+      "dependencies": [],
+      "registryDependencies": [
+        "clio-theme"
+      ],
+      "hash": "c0c071faa15c",
+      "bytes": 5393,
+      "files": [
+        {
+          "path": "application/clio/toggle.tsx",
+          "target": "components/application/clio/toggle.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "clio-now-playing",
+      "title": "Now playing",
+      "description": "What's playing, with a cover, a seek bar you can drag or step with the keys, mm:ss times and back, play and forward buttons; under reduced motion it waits for play.",
+      "category": "base",
+      "family": "media",
+      "kind": "component",
+      "designSystem": null,
+      "foundationDependencies": [
+        "clio-theme"
+      ],
+      "iconLibraries": [],
+      "tags": [
+        "clio",
+        "media",
+        "audio",
+        "player",
+        "seek",
+        "tile"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "provenance": "inspired",
+      "dependencies": [],
+      "registryDependencies": [
+        "clio-theme"
+      ],
+      "hash": "b8b5b99f26f4",
+      "bytes": 14985,
+      "files": [
+        {
+          "path": "application/clio/now-playing.tsx",
+          "target": "components/application/clio/now-playing.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "clio-calendar",
+      "title": "Mini calendar",
+      "description": "A month as a labelled grid with today in the accent and dots under marked days that pop in after the rise; arrow keys move between days and Enter picks one.",
+      "category": "base",
+      "family": "scheduling",
+      "kind": "component",
+      "designSystem": null,
+      "foundationDependencies": [
+        "clio-theme"
+      ],
+      "iconLibraries": [],
+      "tags": [
+        "clio",
+        "calendar",
+        "month",
+        "date",
+        "tile"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "provenance": "inspired",
+      "dependencies": [],
+      "registryDependencies": [
+        "clio-theme"
+      ],
+      "hash": "980c3121e6cf",
+      "bytes": 11946,
+      "files": [
+        {
+          "path": "application/clio/calendar.tsx",
+          "target": "components/application/clio/calendar.tsx",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "$schema": "https://myzeusui.com/schema/registry-item.json",
+      "name": "clio-dashboard",
+      "title": "Clio dashboard",
+      "description": "A FoundKeep board of Clio tiles: saves this week, the week by day, the reading queue, quiet hours, a reading goal, folders, the month, what's playing, collections and Ask Kit. It builds itself in tile by tile, and Focus turns the whole board dark.",
+      "category": "templates",
+      "family": "screens",
+      "kind": "template",
+      "designSystem": null,
+      "foundationDependencies": [
+        "clio-theme"
+      ],
+      "iconLibraries": [],
+      "tags": [
+        "clio",
+        "dashboard",
+        "foundkeep",
+        "saves",
+        "paper",
+        "focus"
+      ],
+      "status": "beta",
+      "tier": "free",
+      "provenance": "inspired",
+      "dependencies": [],
+      "registryDependencies": [
+        "clio-bar-week",
+        "clio-calendar",
+        "clio-list",
+        "clio-now-playing",
+        "clio-ring",
+        "clio-stat",
+        "clio-theme",
+        "clio-toggle"
+      ],
+      "hash": "79fff768fec8",
+      "bytes": 28219,
+      "files": [
+        {
+          "path": "application/clio/dashboard-data.ts",
+          "target": "components/application/clio/dashboard-data.ts",
+          "type": "component"
+        },
+        {
+          "path": "application/clio/dashboard.tsx",
+          "target": "components/application/clio/dashboard.tsx",
           "type": "component"
         }
       ]

@@ -1,1 +1,0 @@
-import{j as o}from"./index-WxJhLrb2.js";import{A as m}from"./segmented-tabs-DjU7QMx1.js";function l({label:s,className:t,buttonClassName:e,value:i,onChange:r,options:a}){return o.jsx(m,{layout:"position",roving:!0,items:a,value:i,onValueChange:r,ariaLabel:s,listClassName:t,buttonClassName:e})}export{l as A};

@@ -1,1 +1,0 @@
-import{j as a}from"./index-WxJhLrb2.js";import{r}from"./recipe-BsRRNA77.js";import{P as e}from"./pagination-C_8UTfm4.js";import"./index-BLQ4Jpr6.js";import"./Specimen-CXMUJPXt.js";function g(){const[t,o]=r.useState(3);return a.jsx(e,{page:t,totalPages:10,onChange:o})}export{g as default};

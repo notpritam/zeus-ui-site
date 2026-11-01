@@ -1,0 +1,40 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "clio-toggle",
+  "type": "registry:ui",
+  "title": "Toggle tile",
+  "description": "A tile with a named switch and its state in a thin numeral; while it is on, the tile takes the dark focus state with a soft glow.",
+  "dependencies": [],
+  "registryDependencies": [
+    "https://myzeusui.com/r/clio-theme.json"
+  ],
+  "files": [
+    {
+      "path": "application/clio/toggle.tsx",
+      "type": "registry:component",
+      "target": "@components/application/clio/toggle.tsx",
+      "content": "\"use client\";\n/**\n * Clio toggle: a tile with one switch. Turned on, the tile takes Clio's dark focus state on its own, with a soft\n * light gathering in its corner, while the board around it stays paper.\n */\nimport { type ButtonHTMLAttributes, type ReactNode, useId, useState } from \"react\";\nimport { ClioTile, type ClioTileProps } from \"./theme\";\n\nconst SWITCH_CSS = `\n.clio-switch{all:unset;position:relative;flex:none;display:inline-flex;align-items:center;width:40px;height:24px;border-radius:999px;cursor:pointer;background:var(--clio-hairline-strong);box-shadow:inset 0 1px 2px rgb(0 0 0 / .12);transition:background-color 260ms var(--clio-mode-ease);-webkit-tap-highlight-color:transparent}\n.clio-switch[aria-checked=\"true\"]{background:var(--clio-accent)}\n.clio-switch:hover{background:var(--clio-ink-tertiary)}\n.clio-switch[aria-checked=\"true\"]:hover{background:var(--clio-accent-hover)}\n.clio-switch:active .clio-switch__thumb{width:23px}\n.clio-switch[aria-checked=\"true\"]:active .clio-switch__thumb{transform:translate3d(13px,0,0)}\n.clio-switch:focus-visible{outline:2px solid var(--clio-accent);outline-offset:2px}\n.clio-switch__thumb{position:absolute;left:3px;top:3px;width:18px;height:18px;border-radius:999px;background:#fff;box-shadow:0 1px 2px rgb(0 0 0 / .22),0 2px 6px -2px rgb(0 0 0 / .25);transition:transform 300ms cubic-bezier(.34,1.3,.64,1),width 160ms var(--clio-press-ease)}\n.clio-switch[aria-checked=\"true\"] .clio-switch__thumb{transform:translate3d(16px,0,0)}\n.clio-switch[data-size=\"sm\"]{width:34px;height:20px}\n.clio-switch[data-size=\"sm\"] .clio-switch__thumb{width:14px;height:14px}\n.clio-switch[data-size=\"sm\"][aria-checked=\"true\"] .clio-switch__thumb{transform:translate3d(14px,0,0)}\n@media (prefers-reduced-motion:reduce){.clio-switch__thumb{transition:none}}\n`;\n\nconst TOGGLE_CSS = `\n.clio-toggle__body{margin-top:auto;display:flex;flex-direction:column;gap:8px;padding-top:12px}\n.clio-toggle__state{position:relative;height:40px;font-size:40px;overflow:hidden}\n.clio-toggle__word{display:block;animation:clio-toggle-word 520ms var(--clio-alive-ease) both}\n@keyframes clio-toggle-word{from{opacity:0;transform:translate3d(0,60%,0)}to{opacity:1;transform:none}}\n.clio-toggle__detail{min-height:2.8em}\n@media (prefers-reduced-motion:reduce){.clio-toggle__word{animation:none}}\n`;\n\nexport interface ClioSwitchProps\n  extends Omit<ButtonHTMLAttributes<HTMLButtonElement>, \"onChange\" | \"value\" | \"role\"> {\n  checked?: boolean;\n  defaultChecked?: boolean;\n  onCheckedChange?: (checked: boolean) => void;\n  /** The switch's name for assistive tech when nothing visible names it. */\n  label?: string;\n  size?: \"md\" | \"sm\";\n}\n\n/** A switch: role=\"switch\" with aria-checked, controlled or not. */\nexport function ClioSwitch({\n  checked,\n  defaultChecked = false,\n  onCheckedChange,\n  label,\n  size = \"md\",\n  className,\n  onClick,\n  ...rest\n}: ClioSwitchProps) {\n  const [own, setOwn] = useState(defaultChecked);\n  const on = checked ?? own;\n  return (\n    <>\n      <style>{SWITCH_CSS}</style>\n      <button\n        {...rest}\n        type=\"button\"\n        role=\"switch\"\n        aria-checked={on}\n        aria-label={rest[\"aria-labelledby\"] ? undefined : label}\n        data-size={size}\n        className={className ? `clio-switch ${className}` : \"clio-switch\"}\n        onClick={(event) => {\n          onClick?.(event);\n          if (event.defaultPrevented) return;\n          if (checked === undefined) setOwn(!on);\n          onCheckedChange?.(!on);\n        }}\n      >\n        <span className=\"clio-switch__thumb\" aria-hidden=\"true\" />\n      </button>\n    </>\n  );\n}\n\nexport interface ClioToggleProps extends Omit<ClioTileProps, \"children\" | \"label\" | \"tone\"> {\n  /** Names the tile and the switch. */\n  label?: string;\n  checked?: boolean;\n  defaultChecked?: boolean;\n  onCheckedChange?: (checked: boolean) => void;\n  onText?: ReactNode;\n  offText?: ReactNode;\n  /** The line under the state, on and off. */\n  detailOn?: ReactNode;\n  detailOff?: ReactNode;\n  /** Take the dark focus state while on. */\n  darkWhenOn?: boolean;\n}\n\nexport function ClioToggle({\n  label = \"Quiet hours\",\n  checked,\n  defaultChecked = false,\n  onCheckedChange,\n  onText = \"On\",\n  offText = \"Off\",\n  detailOn = \"Nudges wait until 21:00\",\n  detailOff = \"Nudges arrive as usual\",\n  darkWhenOn = true,\n  className,\n  ...tile\n}: ClioToggleProps) {\n  const [own, setOwn] = useState(defaultChecked);\n  const on = checked ?? own;\n  const detailId = useId();\n  const set = (next: boolean) => {\n    if (checked === undefined) setOwn(next);\n    onCheckedChange?.(next);\n  };\n  return (\n    <ClioTile\n      {...tile}\n      label={label}\n      meta={\n        <ClioSwitch checked={on} onCheckedChange={set} label={label} aria-describedby={detailId} />\n      }\n      tone={on && darkWhenOn ? \"focus\" : \"inherit\"}\n      glow={on && darkWhenOn}\n      className={className ? `clio-toggle ${className}` : \"clio-toggle\"}\n      data-on={on ? \"\" : undefined}\n    >\n      <style>{TOGGLE_CSS}</style>\n      <div className=\"clio-toggle__body\">\n        <p className=\"clio-numeral clio-toggle__state\" aria-hidden=\"true\">\n          <span key={on ? \"on\" : \"off\"} className=\"clio-toggle__word\">\n            {on ? onText : offText}\n          </span>\n        </p>\n        <p id={detailId} className=\"clio-caption clio-toggle__detail\">\n          {on ? detailOn : detailOff}\n        </p>\n      </div>\n    </ClioTile>\n  );\n}\n"
+    }
+  ],
+  "meta": {
+    "bytes": 5393
+  },
+  "category": "base",
+  "family": "forms",
+  "kind": "component",
+  "designSystem": null,
+  "foundationDependencies": [
+    "clio-theme"
+  ],
+  "iconLibraries": [],
+  "tags": [
+    "clio",
+    "toggle",
+    "switch",
+    "focus",
+    "tile"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "c0c071faa15c"
+}
