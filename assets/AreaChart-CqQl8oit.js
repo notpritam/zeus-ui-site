@@ -1,0 +1,1 @@
+import{r as a}from"./recipe-B-EU44T9.js";import{V as t,W as o}from"./pro-chart-CvZ01sjG.js";var p=["axis"],s=a.forwardRef((r,e)=>a.createElement(t,{chartName:"AreaChart",defaultTooltipEventType:"axis",validateTooltipEventTypes:p,tooltipPayloadSearcher:o,categoricalChartProps:r,ref:e}));export{s as A};

@@ -1,0 +1,1 @@
+import"./index-Bw9QNq-z.js";import{r as e,n as a}from"./recipe-B-EU44T9.js";const n=e.createContext(null);function c(t){let r=e.useRef({});return a.createElement(n.Provider,{value:r},t.children)}export{c as $};

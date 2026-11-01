@@ -3,7 +3,7 @@
   "name": "zeus-ui",
   "homepage": "https://myzeusui.com",
   "license": "MIT",
-  "version": "0.4.5",
+  "version": "0.4.6",
   "organizationVersion": 1,
   "families": [
     {
@@ -14326,8 +14326,8 @@
         "three@^0.185.1"
       ],
       "registryDependencies": [],
-      "hash": "5cbdf87f135e",
-      "bytes": 968599,
+      "hash": "42f1014dda88",
+      "bytes": 966874,
       "files": [
         {
           "path": "application/zephyr/petal-signup.tsx",

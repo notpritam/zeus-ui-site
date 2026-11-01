@@ -1,0 +1,1 @@
+import{j as i}from"./index-DOdWo-9t.js";import{S as s}from"./shader-surface-CiRr8Z_2.js";function u({color:r="#161616",dotSize:o=5,...a}){return i.jsx(s,{kind:"trail",radius:65,duration:2,scale:o,colors:[r],...a})}export{u as D};
