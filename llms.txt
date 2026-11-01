@@ -9,9 +9,9 @@ Pick every element. See it live. Your agent builds exactly that. Free, live UI c
 
 ## Install
 
-- Source: `npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.3.tgz zeus-ui add <name>` copies the source, its dependencies and styles into your React project.
+- Source: `npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.4.tgz zeus-ui add <name>` copies the source, its dependencies and styles into your React project.
 - shadcn: `npx shadcn@latest add https://myzeusui.com/r/<name>.json`
-- MCP: `claude mcp add zeus -- npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-mcp-0.4.3.tgz zeus-mcp`
+- MCP: `claude mcp add zeus -- npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-mcp-0.4.4.tgz zeus-mcp`
 
 ## Components
 

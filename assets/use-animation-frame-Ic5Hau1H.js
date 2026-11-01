@@ -1,1 +1,0 @@
-import{r as e}from"./recipe--77bzE-m.js";import{cV as a,cT as c,d1 as u}from"./Specimen-DbwDkXYj.js";function p(r){const t=e.useRef(0),{isStatic:o}=e.useContext(a);e.useEffect(()=>{if(o)return;const n=({timestamp:i,delta:s})=>{t.current||(t.current=i),r(i-t.current,s)};return c.update(n,!0),()=>u(n)},[r])}export{p as u};
