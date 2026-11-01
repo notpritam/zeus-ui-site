@@ -35,7 +35,8 @@
         "url": "https://myzeusui.com/assets/zeus/texture_fabric-macro_01.jpg",
         "target": "public/assets/zeus/texture_fabric-macro_01.jpg"
       }
-    ]
+    ],
+    "bytes": 21557
   },
   "category": "animations",
   "family": "layout",

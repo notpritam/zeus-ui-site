@@ -39,7 +39,8 @@
         "url": "https://myzeusui.com/assets/zeus/silhouette_eyewear-silhouette_01.jpg",
         "target": "public/assets/zeus/silhouette_eyewear-silhouette_01.jpg"
       }
-    ]
+    ],
+    "bytes": 21430
   },
   "category": "animations",
   "family": "media",

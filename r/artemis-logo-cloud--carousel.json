@@ -1,0 +1,73 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "artemis-logo-cloud--carousel",
+  "type": "registry:block",
+  "title": "Company marks: Rolling logo carousel",
+  "variants": [
+    {
+      "name": "carousel",
+      "title": "Rolling logo carousel"
+    }
+  ],
+  "description": "Company marks, Rolling logo carousel layout only",
+  "dependencies": [
+    "lucide-react@^1.60.0",
+    "motion@^12.42.2"
+  ],
+  "registryDependencies": [
+    "https://myzeusui.com/r/artemis-controls.json",
+    "https://myzeusui.com/r/artemis-tokens.json"
+  ],
+  "files": [
+    {
+      "path": "application/artemis/artemis-logo-cloud.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/artemis-logo-cloud.tsx",
+      "content": "\"use client\";\nimport { ArtemisScope } from \"./artemis-scope\";\nimport type { ArtemisLogoCloudContent } from \"./components/logo-cloud/content\";\nimport View3 from \"./components/logo-cloud/variants/04-carousel\";\nconst variants = {\"carousel\":View3};\nexport type { ArtemisLogoCloudContent, ArtemisLogoCloudLogo } from \"./components/logo-cloud/content\";\nexport interface ArtemisLogoCloudProps { className?: string; variant?: \"carousel\"; /** The words on the logo cloud; anything left out keeps the layout's own copy. */ content?: Partial<ArtemisLogoCloudContent>; }\nexport function ArtemisLogoCloud({ className, variant = \"carousel\", content }: ArtemisLogoCloudProps) {const View = variants[variant];return <ArtemisScope className={className}><div className=\"art:flex art:w-full art:min-w-0 art:flex-col art:items-center\"><View content={content}/></div></ArtemisScope>;}\n"
+    },
+    {
+      "path": "application/artemis/components/logo-cloud/content.ts",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/logo-cloud/content.ts",
+      "content": "// @zeus-internal\nimport type { ComponentType } from \"react\";\n\n/** One logo in the cloud. */\nexport interface ArtemisLogoCloudLogo {\n  /**\n   * The company's name, shown beside the icon. All layouts; carousel also lists every name for screen readers.\n   * Keep names unique, since grid, columns and carousel tell logos apart by name.\n   */\n  name: string;\n  /** A logo image shown in place of the icon and name, sized to the row; its alt text names the logo. All layouts. */\n  image?: { src: string; alt: string };\n  /** The icon beside the name. All layouts, which keep their own icon for that slot when you leave this out. */\n  icon?: ComponentType<{ className?: string }>;\n}\n\n/** The words on an Artemis logo cloud. Every layout reads this shape, so you can switch layouts and keep them. */\nexport interface ArtemisLogoCloudContent {\n  /** A small label over the headline. columns and carousel. */\n  badge?: string;\n  /** The heading. All layouts; marquee shows it as a small line over the logos. */\n  headline: string;\n  /** A line under or beside the headline. grid, columns and carousel. */\n  subhead?: string;\n  /**\n   * The logos. All layouts: marquee scrolls them in one row, grid rolls them through eight cells, columns deals them\n   * into four scrolling lanes and carousel turns them through two or four slots. Twelve look best; grid needs more\n   * than eight to roll.\n   */\n  logos: ArtemisLogoCloudLogo[];\n}\n"
+    },
+    {
+      "path": "application/artemis/components/logo-cloud/variants/04-carousel.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/logo-cloud/variants/04-carousel.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport type { ArtemisLogoCloudContent } from \"../content\";\nimport { defaultLogos } from \"./04-carousel/logos\";\nimport { LogosCarousel } from \"./04-carousel/logos-carousel\";\nconst DEFAULT = {\n    badge: \"Chosen by focused teams\",\n    headline: \"The names change. The standard stays high.\",\n    subhead: \"A rotating view of the teams using one flexible system to ship distinctly their own.\",\n    logos: defaultLogos,\n} satisfies ArtemisLogoCloudContent;\nexport default function LogoCloudCarousel({ content }: { content?: Partial<ArtemisLogoCloudContent> } = {}) {\n    const copy = { ...DEFAULT, ...content };\n    const brandList = copy.logos.map((b) => b.name).join(\", \");\n    return (<section className=\"art:w-full art:bg-background art:px-4 art:py-20 art:@min-[640px]/artemis:px-8\">\n      <div className=\"art:mx-auto art:w-full art:max-w-6xl\">\n        <div className=\"art:grid art:gap-6 art:pb-10 art:@min-[640px]/artemis:grid-cols-[minmax(0,1fr)_minmax(16rem,0.65fr)] art:@min-[640px]/artemis:items-end\">\n          <div>\n            <p className=\"art:font-medium art:text-muted-foreground art:text-xs art:uppercase art:tracking-[0.16em]\">{copy.badge}</p>\n            <h2 className=\"art:mt-4 art:max-w-2xl art:text-balance art:text-foreground art:leading-tight art:tracking-[-0.04em] art:text-4xl art:font-medium\">\n              {copy.headline}\n            </h2>\n          </div>\n          <p className=\"art:max-w-md art:text-pretty art:text-muted-foreground art:text-sm art:leading-7 art:@min-[640px]/artemis:justify-self-end\">\n            {copy.subhead}\n          </p>\n        </div>\n        <div>\n          <span className=\"art:sr-only\">{brandList}</span>\n          <div className=\"art:@min-[640px]/artemis:hidden\">\n            <LogosCarousel columns={2} logos={copy.logos}/>\n          </div>\n          <div className=\"art:hidden art:@min-[640px]/artemis:block\">\n            <LogosCarousel columns={4} logos={copy.logos}/>\n          </div>\n        </div>\n      </div>\n    </section>);\n}\n"
+    },
+    {
+      "path": "application/artemis/components/logo-cloud/variants/04-carousel/logos-carousel.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/logo-cloud/variants/04-carousel/logos-carousel.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { AnimatePresence, motion, useInView } from \"motion/react\";\nimport { useEffect, useRef, useState } from \"react\";\nimport type { ArtemisLogoCloudLogo } from \"../../content\";\nimport { BrandMark } from \"./logos\";\nconst STEP_MS = 1600;\nconst IN_VIEW_MARGIN = \"100px\";\nconst EASE_OUT_QUAD = [0.25, 0.46, 0.45, 0.94] as const;\nconst DURATION = 0.5;\nconst COLUMN_STAGGER = 0.125;\nfunction usePageVisible(): boolean {\n    const [visible, setVisible] = useState(true);\n    useEffect(() => {\n        const update = () => setVisible(document.visibilityState !== \"hidden\");\n        update();\n        document.addEventListener(\"visibilitychange\", update);\n        return () => document.removeEventListener(\"visibilitychange\", update);\n    }, []);\n    return visible;\n}\nexport function LogosCarousel({ columns, logos }: {\n    columns: number;\n    logos: ArtemisLogoCloudLogo[];\n}) {\n    const ref = useRef<HTMLDivElement>(null);\n    const inView = useInView(ref, { margin: IN_VIEW_MARGIN });\n    const pageVisible = usePageVisible();\n    const [step, setStep] = useState(0);\n    const running = inView && pageVisible;\n    useEffect(() => {\n        if (!running)\n            return;\n        const id = window.setInterval(() => setStep((s) => s + 1), STEP_MS);\n        return () => window.clearInterval(id);\n    }, [running]);\n    const template = { gridTemplateColumns: `repeat(${columns}, minmax(0, 1fr))` };\n    const slots = Array.from({ length: columns }, (_, i) => i);\n    return (<div aria-hidden=\"true\" className=\"art:relative art:flex art:h-28 art:items-center art:border art:border-border\">\n      <div className=\"art:pointer-events-none art:absolute art:inset-0 art:grid\" style={template}>\n        {slots.map((i) => (<span key={i} className=\"art:border-border art:border-r art:last:border-r-0\"/>))}\n      </div>\n      <div ref={ref} className=\"art:grid art:relative art:z-10 art:w-full\" data-slot=\"logos-carousel\" style={template}>\n        {slots.map((i) => {\n            const slot = (step * columns + i) % logos.length;\n            const brand = logos[slot];\n            const transition = { duration: DURATION, ease: EASE_OUT_QUAD, delay: i * COLUMN_STAGGER };\n            return (<div key={i} className=\"art:relative art:overflow-hidden\" data-slot=\"logos-carousel-column\">\n              <div aria-hidden=\"true\" className=\"art:pointer-events-none art:invisible art:select-none\">\n                <BrandMark brand={logos[i % logos.length]} slot={i % logos.length}/>\n              </div>\n              <AnimatePresence initial={false}>\n                <motion.div key={brand.name} className=\"art:absolute art:inset-0 art:flex art:items-center art:justify-center\" data-slot=\"logos-carousel-logo\" initial={{ opacity: 0, y: \"60%\" }} animate={{ opacity: 1, y: \"0%\" }} exit={{ opacity: 0, y: \"-60%\" }} transition={transition}>\n                  <BrandMark brand={brand} slot={slot}/>\n                </motion.div>\n              </AnimatePresence>\n            </div>);\n        })}\n      </div>\n    </div>);\n}\n"
+    },
+    {
+      "path": "application/artemis/components/logo-cloud/variants/04-carousel/logos.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/logo-cloud/variants/04-carousel/logos.tsx",
+      "content": "// @zeus-internal\nimport { Aperture, Atom, Box, Circle, Command, createLucideIcon, Diamond, Gem, Hexagon, Octagon, Orbit, Triangle, } from \"lucide-react\";\nimport type { ComponentType } from \"react\";\nimport type { ArtemisLogoCloudLogo } from \"../../content\";\nconst Layers = createLucideIcon(\"layers\", [\n    [\n        \"path\",\n        {\n            d: \"M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z\",\n            key: \"zw3jo\",\n        },\n    ],\n    [\"path\", { d: \"M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12\", key: \"1wduqc\" }],\n    [\"path\", { d: \"M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17\", key: \"kqbvx6\" }],\n]);\n/** The logos the carousel shows when it is given none. */\nexport const defaultLogos: ArtemisLogoCloudLogo[] = [\n    { name: \"Workspace\" },\n    { name: \"Group A\" },\n    { name: \"Group B\" },\n    { name: \"Group C\" },\n    { name: \"Group D\" },\n    { name: \"Group E\" },\n    { name: \"Group F\" },\n    { name: \"Group G\" },\n    { name: \"Group H\" },\n    { name: \"Group I\" },\n    { name: \"Group J\" },\n    { name: \"Group K\" },\n];\n/** The icon for each slot, for logos that come without one. */\nconst ICONS = [Hexagon, Triangle, Aperture, Box, Gem, Command, Octagon, Circle, Diamond, Layers, Atom, Orbit];\nexport function BrandMark({ brand, slot }: {\n    brand: ArtemisLogoCloudLogo;\n    slot: number;\n}) {\n    const Icon: ComponentType<{ className?: string; strokeWidth?: number }> = brand.icon ?? ICONS[slot % ICONS.length];\n    return (<span className=\"art:inline-flex art:min-w-0 art:items-center art:gap-2.5 art:text-muted-foreground\">\n      {brand.image ? <img src={brand.image.src} alt={brand.image.alt} className=\"art:h-6 art:w-auto art:max-w-full art:object-contain art:@min-[640px]/artemis:h-7\"/> : <>\n      <Icon strokeWidth={1.75} className=\"art:shrink-0 art:size-5 art:@min-[640px]/artemis:size-6\" aria-hidden=\"true\"/>\n      <span className=\"art:truncate art:font-semibold art:tracking-tight art:text-base art:@min-[640px]/artemis:text-lg\">{brand.name}</span>\n      </>}\n    </span>);\n}\n"
+    }
+  ],
+  "meta": {
+    "bytes": 9466,
+    "layoutOf": "artemis-logo-cloud"
+  },
+  "category": "blocks",
+  "family": "layout",
+  "kind": "block",
+  "designSystem": "artemis",
+  "foundationDependencies": [
+    "artemis-tokens"
+  ],
+  "iconLibraries": [],
+  "tags": [
+    "artemis",
+    "logo-cloud",
+    "motion"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "3fc1ac6198dc"
+}

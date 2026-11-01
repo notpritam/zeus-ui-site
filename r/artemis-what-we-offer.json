@@ -58,7 +58,8 @@
         "url": "https://myzeusui.com/assets/artemis/448ba79d0d22bebbba13.webp",
         "target": "public/assets/artemis/448ba79d0d22bebbba13.webp"
       }
-    ]
+    ],
+    "bytes": 49601
   },
   "category": "blocks",
   "family": "layout",

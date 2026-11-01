@@ -53,7 +53,8 @@
         "url": "https://myzeusui.com/assets/artemis/ed9b404e28ed900e2031.avif",
         "target": "public/assets/artemis/ed9b404e28ed900e2031.avif"
       }
-    ]
+    ],
+    "bytes": 14293
   },
   "category": "blocks",
   "family": "layout",

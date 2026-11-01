@@ -75,6 +75,9 @@
       "content": "\"use client\";\n// @zeus-internal\nimport { motion, useReducedMotion, type HTMLMotionProps } from \"motion/react\";\nimport { ARTEMIS_SPRING_PRESS } from \"./ease\";\nexport function ArtemisPressButton({ pressScale = 0.99, hoverScale = 1.01, ...props }: HTMLMotionProps<\"button\"> & { pressScale?: number | null; hoverScale?: number | null }) {\n  const still = useReducedMotion() === true;\n  return <motion.button {...props} whileHover={still || hoverScale === null || props.disabled ? undefined : { scale: hoverScale }} whileTap={still || pressScale === null || props.disabled ? undefined : { scale: pressScale }} transition={ARTEMIS_SPRING_PRESS}/>;\n}\n"
     }
   ],
+  "meta": {
+    "bytes": 34408
+  },
   "category": "blocks",
   "family": "data",
   "kind": "block",

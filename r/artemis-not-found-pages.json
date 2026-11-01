@@ -117,6 +117,9 @@
       "content": "\"use client\";\n// @zeus-internal\nimport { useMotionTemplate, useSpring } from \"motion/react\";\nimport type { PointerEvent } from \"react\";\n\n/** A surface-relative light that follows the pointer without layout reads per frame. */\nexport function useArtemisSpotlight(reduced: boolean) {\n  const horizontal = useSpring(50, { stiffness: 180, damping: 24 });\n  const vertical = useSpring(50, { stiffness: 180, damping: 24 });\n  const mask = useMotionTemplate`radial-gradient(circle 180px at ${horizontal}% ${vertical}%, black 0%, black 35%, transparent 76%)`;\n  function onPointerMove({ currentTarget, clientX, clientY }: PointerEvent<HTMLElement>) {\n    if (reduced) return;\n    const bounds = currentTarget.getBoundingClientRect();\n    if (bounds.width <= 0 || bounds.height <= 0) return;\n    horizontal.set(100 * (clientX - bounds.x) / bounds.width);\n    vertical.set(100 * (clientY - bounds.y) / bounds.height);\n  }\n  return { mask, onPointerMove };\n}\n"
     }
   ],
+  "meta": {
+    "bytes": 59645
+  },
   "category": "templates",
   "family": "layout",
   "kind": "template",

@@ -37,7 +37,8 @@
         "url": "https://myzeusui.com/assets/zeus/product_shoe_01.jpg",
         "target": "public/assets/zeus/product_shoe_01.jpg"
       }
-    ]
+    ],
+    "bytes": 6433
   },
   "category": "animations",
   "family": "media",

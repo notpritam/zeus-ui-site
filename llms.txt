@@ -2,16 +2,16 @@
 
 Pick every element. See it live. Your agent builds exactly that. Free, live UI components and a Studio for people who build with coding agents.
 
-- [Agent manifest](https://myzeusui.com/agents.json): 217 components and templates with examples and install commands.
+- [Agent manifest](https://myzeusui.com/agents.json): 218 components and templates with examples and install commands.
 - [Registry](https://myzeusui.com/r/registry.json)
 - [Styles](https://myzeusui.com/styles/)
 - [Setup for agents](https://myzeusui.com/agents/)
 
 ## Install
 
-- Source: `npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.1.tgz zeus-ui add <name>` copies the source, its dependencies and styles into your React project.
+- Source: `npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.2.tgz zeus-ui add <name>` copies the source, its dependencies and styles into your React project.
 - shadcn: `npx shadcn@latest add https://myzeusui.com/r/<name>.json`
-- MCP: `claude mcp add zeus -- npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-mcp-0.4.1.tgz zeus-mcp`
+- MCP: `claude mcp add zeus -- npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-mcp-0.4.2.tgz zeus-mcp`
 
 ## Components
 
@@ -140,6 +140,7 @@ Pick every element. See it live. Your agent builds exactly that. Free, live UI c
 - [Smooth shadows](https://myzeusui.com/elements/selene-smooth-shadows/): A stack of soft shadow layers from two numbers, size and intensity, with an optional hairline ring and a theme token writer.
 - [Concentric radius](https://myzeusui.com/elements/selene-concentric-radius/): Nested corners that share one centre: set the outer radius and the gap, and the inner radius follows.
 - [Loading shimmer](https://myzeusui.com/elements/selene-shimmer/): A slanted beam of light that travels across a loading surface, in paper, opal, clay and frost, with grain and a dark pair.
+- [Petal sign-up](https://myzeusui.com/elements/zephyr-petal-signup/): A sign-up card beside a live three.js scene: petals fall into still water and ripple its reflection, each keystroke lets one go, and a computer on a stone shows what the form is doing.
 - [Home Dashboard](https://myzeusui.com/elements/home-dashboard/): An overview workspace with revenue, earnings, recent hires and searchable records
 - [Finance Dashboard](https://myzeusui.com/elements/finance-dashboard/): Personal finance workspace with cash flow, investments, spending and transaction records
 - [Marketing Dashboard](https://myzeusui.com/elements/marketing-dashboard/): Campaign analytics with conversion funnels, channel attribution and campaign management

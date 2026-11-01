@@ -1,0 +1,56 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "artemis-empty-states--archive",
+  "type": "registry:block",
+  "title": "Empty states: Archive",
+  "variants": [
+    {
+      "name": "archive",
+      "title": "Archive"
+    }
+  ],
+  "description": "Empty states, Archive layout only",
+  "dependencies": [
+    "clsx@^2.1.1",
+    "motion@^12.42.2",
+    "tailwind-merge@^3.6.0"
+  ],
+  "registryDependencies": [
+    "https://myzeusui.com/r/artemis-controls.json",
+    "https://myzeusui.com/r/artemis-tokens.json"
+  ],
+  "files": [
+    {
+      "path": "application/artemis/artemis-empty-states.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/artemis-empty-states.tsx",
+      "content": "\"use client\";\nimport { ArtemisScope } from \"./artemis-scope\";\nimport Variant0 from \"./components/empty-states/variants/01-archive\";\nconst variants = {\"archive\": Variant0};\nexport interface ArtemisEmptyStatesProps { className?: string; variant?: \"archive\"; }\nexport function ArtemisEmptyStates({ className, variant = \"archive\" }: ArtemisEmptyStatesProps) { const View = variants[variant]; return <ArtemisScope className={`art:[&>*]:mx-auto ${className ?? \"\"}`}><View/></ArtemisScope>; }\n"
+    },
+    {
+      "path": "application/artemis/components/empty-states/variants/01-archive.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/empty-states/variants/01-archive.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { useEffect, useState } from \"react\";\nimport { motion, type Transition, useReducedMotion } from \"motion/react\";\nimport { ArtemisButton } from \"../../../foundations/button\";\nimport { ARTEMIS_EASE_OUT, ARTEMIS_SPRING_PANEL } from \"../../../lib/ease\";\nconst SETTLE: Transition = ARTEMIS_SPRING_PANEL;\nconst DRAW: Transition = { duration: 0.4, ease: ARTEMIS_EASE_OUT };\nconst LABELS: Transition = { duration: 0.15, ease: \"easeOut\" };\nconst INSTANT: Transition = { duration: 0 };\nconst OUTLINE = [\n    \"M88 58 174 12l91 54-87 47Z\",\n    \"m88 58 90 55v153l-90-53Z\",\n    \"m178 113 87-47v151l-87 49Z\",\n    \"m95 217-10 6v17l13 8\",\n    \"m246 227 12-7v16l-12 7Z\",\n    \"m88 72 90 54 87-47\",\n    \"m88 136 90 54 87-48\",\n];\nexport default function EmptyStatesArchive() {\n    const reduce = useReducedMotion();\n    const [ready, setReady] = useState(Boolean(reduce));\n    const [boxReady, setBoxReady] = useState(Boolean(reduce));\n    const [labelsReady, setLabelsReady] = useState(Boolean(reduce));\n    useEffect(() => {\n        if (reduce) {\n            setReady(true);\n            setBoxReady(true);\n            setLabelsReady(true);\n            return;\n        }\n        const timer = window.setTimeout(() => setReady(true), 80);\n        const boxTimer = window.setTimeout(() => setBoxReady(true), 260);\n        const labelsTimer = window.setTimeout(() => setLabelsReady(true), 420);\n        return () => {\n            window.clearTimeout(timer);\n            window.clearTimeout(boxTimer);\n            window.clearTimeout(labelsTimer);\n        };\n    }, [reduce]);\n    const t = (transition: Transition): Transition => (reduce ? INSTANT : transition);\n    return (<>\n      <section className=\"art:mx-auto art:flex art:w-full art:max-w-[520px] art:flex-col art:items-center art:justify-center art:text-center art:text-foreground\">\n        <motion.div aria-hidden=\"true\" className=\"art:relative art:mb-5 art:w-full art:max-w-[205px] art:text-foreground\" initial={{ opacity: 0, y: 12 }} animate={ready ? { opacity: 1, y: 0 } : undefined} transition={t(SETTLE)} whileHover={reduce ? undefined : \"hover\"} variants={{ hover: { y: -3, transition: SETTLE } }}>\n          <svg viewBox=\"0 0 320 300\" className=\"art:w-full\" role=\"presentation\">\n            <g fill=\"none\" stroke=\"currentColor\" strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"1.6\">\n              {OUTLINE.map((d) => (<motion.path key={d} d={d} initial={{ pathLength: 0, opacity: 0 }} animate={ready ? { pathLength: 1, opacity: 1 } : undefined} transition={t(DRAW)}/>))}\n            </g>\n            <motion.g fill=\"var(--artemis-background)\" stroke=\"currentColor\" strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"1.6\" initial={{ x: 22, y: -14, opacity: 0 }} animate={boxReady ? { x: -18, y: 13, opacity: 1 } : undefined} transition={t(SETTLE)} variants={{ hover: { x: -28, y: 19, transition: SETTLE } }}>\n              <path d=\"m106 139 72 43 69-38-70-42Z\"/>\n              <path d=\"m106 139 71 43v72l-71-42Z\"/>\n              <path d=\"m177 182 70-38v70l-70 40Z\"/>\n              <path d=\"m118 145 59 35 57-31-59-35Z\" opacity=\"0.45\"/>\n            </motion.g>\n            <motion.g fill=\"none\" stroke=\"currentColor\" strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"1.8\" initial={{ opacity: 0 }} animate={labelsReady ? { opacity: 1 } : undefined} transition={t(LABELS)}>\n              <path d=\"m126 175 21 12 14-8\"/>\n              <path d=\"m118 159 22 13 14-8\"/>\n              <path d=\"m119 91 23 14 15-8-23-14Z\"/>\n              <path d=\"m126 118 21 13 14-8\"/>\n            </motion.g>\n          </svg>\n        </motion.div>\n        <div className=\"art:max-w-sm\">\n          <h2 className=\"art:text-balance art:tracking-[-0.03em] art:text-4xl art:font-medium\">{\"No data yet\"}</h2>\n          <p className=\"art:mx-auto art:mt-2 art:max-w-xs art:text-pretty art:text-muted-foreground art:text-sm art:leading-6\">\n            {\"Create a record or import your existing data.\"}\n          </p>\n          <ArtemisButton size=\"sm\" className=\"art:mt-4 art:h-9\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" className=\"art:lucide art:lucide-plus art:size-3.5\" aria-hidden=\"true\">\n              <path d=\"M5 12h14\"/>\n              <path d=\"M12 5v14\"/>\n            </svg>\n            {\"Add data\"}\n          </ArtemisButton>\n        </div>\n      </section>\n    </>);\n}\n"
+    }
+  ],
+  "meta": {
+    "bytes": 4986,
+    "layoutOf": "artemis-empty-states"
+  },
+  "category": "blocks",
+  "family": "feedback",
+  "kind": "block",
+  "designSystem": "artemis",
+  "foundationDependencies": [
+    "artemis-tokens"
+  ],
+  "iconLibraries": [],
+  "tags": [
+    "artemis",
+    "empty-states",
+    "motion"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "c3e4bee2f800"
+}

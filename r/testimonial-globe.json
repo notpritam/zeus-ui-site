@@ -47,7 +47,8 @@
         "url": "https://myzeusui.com/assets/zeus/roster_profile_09.jpg",
         "target": "public/assets/zeus/roster_profile_09.jpg"
       }
-    ]
+    ],
+    "bytes": 20039
   },
   "category": "animations",
   "family": "layout",

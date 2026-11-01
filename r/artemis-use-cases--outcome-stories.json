@@ -1,0 +1,96 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "artemis-use-cases--outcome-stories",
+  "type": "registry:block",
+  "title": "Use cases: Outcome stories",
+  "variants": [
+    {
+      "name": "outcome-stories",
+      "title": "Outcome stories"
+    }
+  ],
+  "description": "Use cases, Outcome stories layout only",
+  "dependencies": [
+    "motion@^12.42.2"
+  ],
+  "registryDependencies": [
+    "https://myzeusui.com/r/artemis-controls.json",
+    "https://myzeusui.com/r/artemis-tokens.json"
+  ],
+  "files": [
+    {
+      "path": "application/artemis/artemis-use-cases.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/artemis-use-cases.tsx",
+      "content": "\"use client\";\nimport {ArtemisScope} from \"./artemis-scope\";\nimport View2 from \"./components/use-cases/variants/03-outcome-stories\";\nconst views={\"outcome-stories\":View2};\nexport interface ArtemisUseCasesProps {className?:string;variant?:\"outcome-stories\";}\nexport function ArtemisUseCases({className,variant=\"outcome-stories\"}:ArtemisUseCasesProps){const View=views[variant];return <ArtemisScope className={`art:[&>*]:mx-auto ${className??\"\"}`}><View/></ArtemisScope>;}\n"
+    },
+    {
+      "path": "application/artemis/components/use-cases/variants/03-outcome-stories.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/use-cases/variants/03-outcome-stories.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { motion, useReducedMotion } from \"motion/react\";\nimport type { ReactNode } from \"react\";\nimport { ARTEMIS_EASE_OUT, ARTEMIS_SPRING_PRESS } from \"../../../lib/ease\";\nimport { TextReveal } from \"./03-outcome-stories/text-reveal\";\nconst VIEWPORT_HEAD = { once: true, margin: \"-50px\" } as const;\nconst VIEWPORT_CARD = { once: true, margin: \"-60px\" } as const;\nconst VIEWPORT_RING = { once: true, margin: \"-80px\" } as const;\nconst LINK_CLASS = \"art:inline-flex art:items-center art:justify-center art:font-medium art:select-none art:transition-colors art:disabled:pointer-events-none art:disabled:opacity-50 art:text-muted-foreground art:hover:bg-primary/5 art:hover:text-foreground art:gap-1.5 art:px-3 art:text-xs art:focus-visible:outline-none art:focus-visible:ring-2 art:focus-visible:ring-ring art:focus-visible:ring-offset-2 art:focus-visible:ring-offset-background art:mt-5 art:w-fit art:h-9 art:rounded-full\";\ninterface OutcomeStory {\n    id: string;\n    articleClass: string;\n    ringClass: string;\n    glowClass: string;\n    icon: ReactNode;\n    eyebrow: string;\n    title: string;\n    body: string;\n    outcome: string;\n    link: string;\n}\nconst ICON_PROPS = {\n    xmlns: \"http://www.w3.org/2000/svg\",\n    width: \"24\",\n    height: \"24\",\n    viewBox: \"0 0 24 24\",\n    fill: \"none\",\n    stroke: \"currentColor\",\n    strokeWidth: \"1.6\",\n    strokeLinecap: \"round\" as const,\n    strokeLinejoin: \"round\" as const,\n    \"aria-hidden\": true,\n};\nconst STORIES: OutcomeStory[] = [\n    {\n        id: \"planning\",\n        articleClass: \"\",\n        ringClass: \"art:top-8 art:left-8 art:size-28\",\n        glowClass: \"art:right-5 art:bottom-4 art:size-32\",\n        icon: (<svg {...ICON_PROPS} className=\"art:lucide art:lucide-sunrise art:size-6\">\n        <path d=\"M12 2v8\"/>\n        <path d=\"m4.93 10.93 1.41 1.41\"/>\n        <path d=\"M2 18h2\"/>\n        <path d=\"M20 18h2\"/>\n        <path d=\"m19.07 10.93-1.41 1.41\"/>\n        <path d=\"M22 22H2\"/>\n        <path d=\"m8 6 4-4 4 4\"/>\n        <path d=\"M16 18a4 4 0 0 0-8 0\"/>\n      </svg>),\n        eyebrow: \"For growing teams\",\n        title: \"Make decisions while the context is still fresh\",\n        body: \"Bring requests, conversations, and tradeoffs into one clear view so the next move feels obvious instead of rushed.\",\n        outcome: \"Decide with confidence\",\n        link: \"Explore team planning\",\n    },\n    {\n        id: \"care\",\n        articleClass: \" art:@min-[768px]/artemis:mt-10\",\n        ringClass: \"art:top-12 art:right-7 art:size-32\",\n        glowClass: \"art:bottom-2 art:left-4 art:size-36\",\n        icon: (<svg {...ICON_PROPS} className=\"art:lucide art:lucide-heart art:size-6\">\n        <path d=\"M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5\"/>\n      </svg>),\n        eyebrow: \"For customer teams\",\n        title: \"Give every customer an answer that feels personal\",\n        body: \"Keep the full story close at hand, respond with care, and make each follow-up feel like a continuation rather than a restart.\",\n        outcome: \"Turn support into trust\",\n        link: \"Explore customer care\",\n    },\n    {\n        id: \"reviews\",\n        articleClass: \"\",\n        ringClass: \"art:top-7 art:left-1/2 art:size-36 art:-translate-x-1/2\",\n        glowClass: \"art:right-4 art:bottom-6 art:size-28\",\n        icon: (<svg {...ICON_PROPS} className=\"art:lucide art:lucide-message-circle-more art:size-6\">\n        <path d=\"M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719\"/>\n        <path d=\"M8 12h.01\"/>\n        <path d=\"M12 12h.01\"/>\n        <path d=\"M16 12h.01\"/>\n      </svg>),\n        eyebrow: \"For creative teams\",\n        title: \"Protect the idea through every round of feedback\",\n        body: \"Hold onto the original intent while reviews, approvals, and handoffs move forward around a shared understanding.\",\n        outcome: \"Keep the work coherent\",\n        link: \"Explore creative reviews\",\n    },\n];\nexport default function UseCasesOutcomeStories() {\n    const reduce = useReducedMotion();\n    return (<section className=\"art:w-full art:overflow-hidden art:bg-background art:px-4 art:py-20 art:text-foreground art:@min-[640px]/artemis:px-6 art:@min-[640px]/artemis:py-24 art:@min-[1024px]/artemis:px-8 art:@min-[1024px]/artemis:py-28\">\n      <div className=\"art:mx-auto art:w-full art:max-w-7xl\">\n        <div className=\"art:mx-auto art:max-w-3xl art:text-center\">\n          <motion.span className=\"art:inline-flex art:rounded-full art:border art:border-border/70 art:bg-background art:px-3 art:py-1.5 art:font-medium art:text-muted-foreground art:text-xs\" initial={{ opacity: 0, filter: \"blur(5px)\", y: 8 }} whileInView={reduce ? undefined : { opacity: 1, filter: \"blur(0px)\", y: 0 }} viewport={VIEWPORT_HEAD} transition={{ duration: 0.45, ease: ARTEMIS_EASE_OUT }}>\n            Use cases\n          </motion.span>\n          <TextReveal as=\"h2\" text={[\"Less friction around the work.\", \"More room for the work itself.\"]} className=\"art:mt-7 art:text-balance art:tracking-[-0.05em] art:text-4xl art:font-medium\"/>\n          <motion.p className=\"art:mx-auto art:mt-6 art:max-w-2xl art:text-pretty art:text-muted-foreground art:text-sm art:leading-6 art:@min-[640px]/artemis:text-base art:@min-[640px]/artemis:leading-7\" initial={{ opacity: 0, filter: \"blur(6px)\", y: 10 }} whileInView={reduce ? undefined : { opacity: 1, filter: \"blur(0px)\", y: 0 }} viewport={VIEWPORT_HEAD} transition={{ duration: 0.5, delay: 0.26, ease: ARTEMIS_EASE_OUT }}>\n            Different teams arrive with different needs. Each story starts with the moment they want to make simpler and\n            ends with an outcome people can feel.\n          </motion.p>\n        </div>\n        <div className=\"art:mt-14 art:grid art:gap-4 art:@min-[768px]/artemis:grid-cols-3 art:@min-[640px]/artemis:mt-16 art:@min-[1024px]/artemis:gap-5\">\n          {STORIES.map((story, i) => (<motion.article key={story.id} className={`art:group art:flex art:min-w-0 art:flex-col art:overflow-hidden art:rounded-3xl art:border art:border-border/70 art:bg-background art:p-3${story.articleClass}`} initial={{ opacity: 0, filter: \"blur(8px)\", y: 18 }} whileInView={reduce ? undefined : { opacity: 1, filter: \"blur(0px)\", y: 0 }} viewport={VIEWPORT_CARD} transition={{ duration: 0.6, delay: i * 0.08, ease: ARTEMIS_EASE_OUT }}>\n              <div className=\"art:relative art:h-52 art:overflow-hidden art:rounded-3xl art:bg-muted/55\">\n                <motion.div aria-hidden=\"true\" className={`art:absolute art:rounded-full art:border art:border-border/60 art:bg-background/70 ${story.ringClass}`} initial={{ opacity: 0, scale: 0.88 }} whileInView={reduce ? undefined : { opacity: 1, scale: 1 }} viewport={VIEWPORT_RING} transition={{ duration: 0.7, ease: ARTEMIS_EASE_OUT }}/>\n                <div aria-hidden=\"true\" className={`art:absolute art:rounded-full art:bg-primary/8 art:blur-xl ${story.glowClass}`}/>\n                <div className=\"art:absolute art:inset-0 art:grid art:place-items-center\">\n                  <span className=\"art:grid art:size-14 art:place-items-center art:rounded-full art:bg-background art:text-foreground\">\n                    {story.icon}\n                  </span>\n                </div>\n              </div>\n              <div className=\"art:flex art:flex-1 art:flex-col art:px-4 art:pt-6 art:pb-5 art:@min-[640px]/artemis:px-5 art:@min-[640px]/artemis:pb-6\">\n                <p className=\"art:font-medium art:text-muted-foreground art:text-xs\">{story.eyebrow}</p>\n                <h3 className=\"art:mt-3 art:text-pretty art:leading-[1.04] art:tracking-[-0.04em] art:text-xl art:font-medium\">{story.title}</h3>\n                <p className=\"art:mt-4 art:text-pretty art:text-muted-foreground art:text-sm art:leading-6\">{story.body}</p>\n                <div className=\"art:mt-8 art:border-border/60 art:border-t art:pt-5\">\n                  <p className=\"art:font-medium art:text-base art:tracking-[-0.02em]\">{story.outcome}</p>\n                  <motion.a className={LINK_CLASS} href=\"#\" tabIndex={0} whileHover={reduce ? undefined : { scale: 1.01 }} whileTap={reduce ? undefined : { scale: 0.99 }} transition={ARTEMIS_SPRING_PRESS}>\n                    {story.link}\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" className=\"art:lucide art:lucide-arrow-up-right art:size-4\" aria-hidden=\"true\">\n                      <path d=\"M7 7h10v10\"/>\n                      <path d=\"M7 17 17 7\"/>\n                    </svg>\n                  </motion.a>\n                </div>\n              </div>\n            </motion.article>))}\n        </div>\n      </div>\n    </section>);\n}\n"
+    },
+    {
+      "path": "application/artemis/components/use-cases/variants/03-outcome-stories/text-reveal.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/use-cases/variants/03-outcome-stories/text-reveal.tsx",
+      "content": "// @zeus-internal\nexport { ArtemisTextReveal as TextReveal } from \"../../../../lib/text-reveal\";\n"
+    },
+    {
+      "path": "application/artemis/lib/text-reveal.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/lib/text-reveal.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { ArtemisWordEntrance } from \"./word-entrance\";\nimport type { ArtemisWordMotionOptions } from \"./word-motion\";\nexport interface ArtemisTextRevealProps extends ArtemisWordMotionOptions {\n  text: string | string[];\n  as?: \"span\" | \"div\" | \"p\" | \"h1\" | \"h2\" | \"h3\" | \"h4\";\n  className?: string;\n  once?: boolean;\n  amount?: number;\n  whileInView?: boolean;\n}\nexport function ArtemisTextReveal({\n  text,\n  as: Tag = \"span\",\n  className = \"\",\n  stagger = 0.06,\n  yOffset = \"24%\",\n  delay = 0,\n  whileInView = true,\n  ...options\n}: ArtemisTextRevealProps) {\n  const lines = Array.isArray(text) ? text : [text];\n  let offset = 0;\n  return (\n    <Tag className={`art:block ${className}`}>\n      {lines.map((line, index) => {\n        const words = line.split(/\\s+/),\n          start = offset;\n        offset += words.length;\n        return (\n          <ArtemisWordEntrance\n            key={index}\n            words={words}\n            stagger={stagger}\n            delay={delay + start * stagger}\n            yOffset={yOffset}\n            entered={whileInView ? undefined : true}\n            {...options}\n          />\n        );\n      })}\n    </Tag>\n  );\n}\n"
+    },
+    {
+      "path": "application/artemis/lib/word-entrance.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/lib/word-entrance.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { motion, useInView, useReducedMotion } from \"motion/react\";\nimport { useRef } from \"react\";\nimport { artemisWordMotion, type ArtemisWordMotionOptions } from \"./word-motion\";\nexport interface ArtemisWordEntranceProps {\n  words: string[];\n  className?: string;\n  stagger?: number;\n  delay?: number;\n  blur?: number;\n  yOffset?: string | number;\n  spring?: ArtemisWordMotionOptions[\"spring\"];\n  once?: boolean;\n  amount?: number;\n  entered?: boolean;\n}\nexport function ArtemisWordEntrance({\n  words,\n  className = \"\",\n  stagger = 0.055,\n  delay = 0,\n  blur = 10,\n  yOffset = \"20%\",\n  amount = 0.4,\n  spring,\n  once = true,\n  entered: externalEntry,\n}: ArtemisWordEntranceProps) {\n  const element = useRef<HTMLSpanElement>(null);\n  const observed = useInView(element, { once, amount });\n  const entered = externalEntry ?? observed;\n  const reduced = useReducedMotion() === true;\n  return (\n    <span ref={element} className={`art:block ${className}`}>\n      <span className=\"art:block\">\n        {words.map((word, index) => {\n          const movement = artemisWordMotion(index, reduced, {\n            delay,\n            stagger,\n            blur,\n            yOffset,\n            spring,\n          });\n          return (\n            <motion.span\n              key={index}\n              className=\"art:inline-block\"\n              initial={movement.initial}\n              // With reduced motion the words land on mount instead of waiting to be seen.\n              animate={entered || reduced ? movement.animate : undefined}\n              transition={movement.transition}\n            >\n              {word}\n              {index < words.length - 1 && (\n                <span className=\"art:inline-block art:w-[0.25em] art:overflow-hidden\">\n                  {\"\\u00a0\"}\n                </span>\n              )}\n            </motion.span>\n          );\n        })}\n      </span>\n    </span>\n  );\n}\n"
+    },
+    {
+      "path": "application/artemis/lib/word-motion.ts",
+      "type": "registry:component",
+      "target": "@components/application/artemis/lib/word-motion.ts",
+      "content": "// @zeus-internal\nimport { ARTEMIS_EASE_OUT } from \"./ease\";\nexport interface ArtemisWordMotionOptions {\n  delay?: number;\n  stagger?: number;\n  blur?: number;\n  yOffset?: string | number;\n  spring?: { stiffness?: number; damping?: number; mass?: number };\n}\nexport function artemisWordMotion(\n  index: number,\n  reduced: boolean,\n  { delay = 0, stagger = 0.055, blur = 10, yOffset = \"20%\", spring }: ArtemisWordMotionOptions = {}\n) {\n  const offset = delay + index * stagger;\n  // The same start with reduced motion, so hydration matches the server; the words then land at once.\n  return {\n    initial: { opacity: 0, filter: `blur(${blur}px)`, y: yOffset },\n    animate: { opacity: 1, filter: \"blur(0px)\", y: 0 },\n    transition: reduced\n      ? { duration: 0 }\n      : {\n          opacity: { duration: 0.7, delay: offset, ease: ARTEMIS_EASE_OUT },\n          filter: { duration: 0.9, delay: offset, ease: ARTEMIS_EASE_OUT },\n          y: {\n            type: \"spring\" as const,\n            stiffness: spring?.stiffness ?? 140,\n            damping: spring?.damping ?? 26,\n            mass: spring?.mass ?? 1.2,\n            delay: offset,\n          },\n        },\n  };\n}\n"
+    },
+    {
+      "path": "public/assets/artemis/327d06eee6b741023403.svg",
+      "type": "registry:file",
+      "target": "~/public/assets/artemis/327d06eee6b741023403.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\"><path fill=\"#dcfce7\" d=\"M0 0h64v64H0z\"/><circle cx=\"32\" cy=\"24\" r=\"12\" fill=\"#4ade80\"/><ellipse cx=\"32\" cy=\"60\" rx=\"24\" ry=\"22\" fill=\"#4ade80\"/></svg>\n"
+    },
+    {
+      "path": "public/assets/artemis/83b960a1aaa67c851088.svg",
+      "type": "registry:file",
+      "target": "~/public/assets/artemis/83b960a1aaa67c851088.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\"><path fill=\"#fce7f3\" d=\"M0 0h64v64H0z\"/><circle cx=\"32\" cy=\"24\" r=\"12\" fill=\"#f472b6\"/><ellipse cx=\"32\" cy=\"60\" rx=\"24\" ry=\"22\" fill=\"#f472b6\"/></svg>\n"
+    },
+    {
+      "path": "public/assets/artemis/a5badc559b706aa529b9.svg",
+      "type": "registry:file",
+      "target": "~/public/assets/artemis/a5badc559b706aa529b9.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\"><path fill=\"#dbeafe\" d=\"M0 0h64v64H0z\"/><circle cx=\"32\" cy=\"24\" r=\"12\" fill=\"#60a5fa\"/><ellipse cx=\"32\" cy=\"60\" rx=\"24\" ry=\"22\" fill=\"#60a5fa\"/></svg>\n"
+    }
+  ],
+  "meta": {
+    "bytes": 14354,
+    "layoutOf": "artemis-use-cases"
+  },
+  "category": "blocks",
+  "family": "layout",
+  "kind": "block",
+  "designSystem": "artemis",
+  "foundationDependencies": [
+    "artemis-tokens"
+  ],
+  "iconLibraries": [],
+  "tags": [
+    "artemis",
+    "use-cases",
+    "motion"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "c95779760ae7"
+}

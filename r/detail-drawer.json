@@ -35,7 +35,8 @@
         "url": "https://myzeusui.com/assets/zeus/product_shoe_06.jpg",
         "target": "public/assets/zeus/product_shoe_06.jpg"
       }
-    ]
+    ],
+    "bytes": 29368
   },
   "category": "animations",
   "family": "overlays",

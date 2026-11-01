@@ -1,0 +1,73 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "artemis-step-form--inline-prompt",
+  "type": "registry:block",
+  "title": "Step form: Inline prompt",
+  "variants": [
+    {
+      "name": "inline-prompt",
+      "title": "Inline prompt"
+    }
+  ],
+  "description": "Step form, Inline prompt layout only",
+  "dependencies": [
+    "lucide-react@^1.60.0",
+    "motion@^12.42.2"
+  ],
+  "registryDependencies": [
+    "https://myzeusui.com/r/artemis-controls.json",
+    "https://myzeusui.com/r/artemis-tokens.json"
+  ],
+  "files": [
+    {
+      "path": "application/artemis/artemis-step-form.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/artemis-step-form.tsx",
+      "content": "\"use client\";\nimport { ArtemisScope } from \"./artemis-scope\";\nimport View2 from \"./components/step-form/variants/03-inline-prompt\";\nconst variants={\"inline-prompt\":View2};\nexport interface ArtemisStepFormProps { className?: string; variant?: \"inline-prompt\"; }\nexport function ArtemisStepForm({className,variant=\"inline-prompt\"}:ArtemisStepFormProps) {const View=variants[variant];return <ArtemisScope className={className}><div className=\"art:flex art:w-full art:min-w-0 art:flex-col art:items-center\"><View/></div></ArtemisScope>;}\n"
+    },
+    {
+      "path": "application/artemis/components/step-form/variants/03-inline-prompt.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/step-form/variants/03-inline-prompt.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { AnimatePresence, motion, useReducedMotion } from \"motion/react\";\nimport { useId, useState, type FormEvent } from \"react\";\nimport { ArrowLeft, ArrowRight, Check } from \"lucide-react\";\nimport { ARTEMIS_EASE_OUT, ARTEMIS_SPRING_PRESS } from \"../../../lib/ease\";\nimport { Field } from \"./03-inline-prompt/field\";\nimport { PaceChoices } from \"./03-inline-prompt/choices\";\nconst LABELS = [\"Start\", \"Pace\", \"Finish\"];\nconst QUESTIONS = [\"What are you hoping to make?\", \"How quickly do you want to move?\", \"Where should the summary go?\"];\nconst GHOST = \"art:inline-flex art:items-center art:justify-center art:font-medium art:select-none art:transition-colors art:disabled:pointer-events-none art:disabled:opacity-50 art:text-muted-foreground art:hover:bg-primary/5 art:hover:text-foreground art:gap-1.5 art:px-3 art:text-xs art:focus-visible:outline-none art:focus-visible:ring-2 art:focus-visible:ring-ring art:focus-visible:ring-offset-2 art:focus-visible:ring-offset-background\";\nconst PRIMARY = \"art:inline-flex art:items-center art:justify-center art:font-medium art:select-none art:transition-colors art:disabled:pointer-events-none art:disabled:opacity-50 art:bg-primary art:text-primary-foreground art:hover:bg-primary/90 art:gap-2 art:px-5 art:text-sm art:focus-visible:outline-none art:focus-visible:ring-2 art:focus-visible:ring-ring art:focus-visible:ring-offset-2 art:focus-visible:ring-offset-background art:h-9 art:rounded-full\";\nexport default function StepFormInlinePrompt() {\n    const reduce = useReducedMotion();\n    const id = useId();\n    const [attempt, setAttempt] = useState(0);\n    const [step, setStep] = useState(0);\n    const [direction, setDirection] = useState(1);\n    const [answers, setAnswers] = useState({ idea: \"\", pace: \"\", email: \"\" });\n    const [error, setError] = useState(\"\");\n    const done = step === 3;\n    const field = step === 2 ? \"email\" : \"idea\";\n    const press = { whileHover: reduce ? undefined : { scale: 1.01 }, whileTap: reduce ? undefined : { scale: 0.99 }, transition: ARTEMIS_SPRING_PRESS };\n    function change(key: \"idea\" | \"pace\" | \"email\", value: string) { setAnswers(previous => ({ ...previous, [key]: value })); setError(\"\"); }\n    function submit(event: FormEvent) {\n        event.preventDefault();\n        if (done)\n            return;\n        const value = answers[step === 1 ? \"pace\" : field].trim();\n        if (!value) {\n            setError(\"Please complete this step.\");\n            return;\n        }\n        if (step === 2 && !/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(value)) {\n            setError(\"Enter a valid email address.\");\n            return;\n        }\n        setError(\"\");\n        setDirection(1);\n        setStep(previous => previous + 1);\n    }\n    function reset() { setAnswers({ idea: \"\", pace: \"\", email: \"\" }); setError(\"\"); setDirection(-1); setAttempt(previous => previous + 1); setStep(0); }\n    return <div className=\"art:flex art:w-full art:items-center art:justify-center\"><section className=\"art:w-full\"><div className=\"art:mx-auto art:w-full art:max-w-2xl art:rounded-3xl art:px-5 art:py-6 art:@min-[640px]/artemis:px-9 art:@min-[640px]/artemis:py-8\">\n    <div className=\"art:flex art:items-center art:justify-between\"><span className=\"art:font-mono art:text-muted-foreground art:text-xs art:uppercase art:tracking-[0.14em]\">Quick brief</span><div className=\"art:flex art:items-center art:gap-1.5\" aria-hidden=\"true\">{LABELS.map((label, index) => <span key={label} className={index <= step ? \"art:size-1.5 art:rounded-full art:transition-colors art:bg-foreground\" : \"art:size-1.5 art:rounded-full art:bg-foreground/15 art:transition-colors\"}/>)}</div></div>\n    <form noValidate onSubmit={submit}><AnimatePresence mode=\"wait\" initial={false}><motion.div key={step} className={done ? \"art:py-10 art:text-center\" : \"art:pt-10 art:pb-2\"} initial={reduce ? false : { opacity: 0, transform: `translateY(${direction * 12}px)`, filter: \"blur(3px)\" }} animate={{ opacity: 1, transform: \"translateY(0px)\", filter: \"blur(0px)\" }} exit={{ opacity: 0, transform: `translateY(${-direction * 8}px)`, filter: \"blur(2px)\" }} transition={reduce ? { duration: 0 } : { duration: 0.2, ease: ARTEMIS_EASE_OUT }}>\n      {done ? <><span className=\"art:mx-auto art:grid art:size-10 art:place-items-center art:rounded-full art:bg-foreground art:text-background\"><Check className=\"art:size-4\"/></span><h2 className=\"art:mt-4 art:text-foreground art:tracking-tight art:text-xl art:font-medium\">That is everything.</h2><p className=\"art:mt-2 art:text-muted-foreground art:text-sm\">Your answers are ready for the next step.</p><motion.button type=\"button\" className={`${GHOST} art:mt-5 art:h-9 art:rounded-full`} tabIndex={0} onClick={reset} {...press}>Start again</motion.button></> : <>\n        <p className=\"art:font-mono art:text-muted-foreground art:text-xs art:uppercase art:tracking-[0.14em]\">{LABELS[step]}</p><h2 className=\"art:mt-2 art:max-w-xl art:text-foreground art:tracking-tight art:text-xl art:font-medium\">{QUESTIONS[step]}</h2>\n        <div className=\"art:mt-8 art:min-h-24\">{step === 1 ? <PaceChoices layoutId={`${id}-${attempt}`} question={QUESTIONS[step]!} value={answers.pace} onChange={value => change(\"pace\", value)}/> : <Field name={field} value={answers[field]} error={error} onChange={value => change(field, value)}/>}<p aria-live=\"polite\" className=\"art:min-h-6 art:pt-1.5 art:text-destructive art:text-xs\">{error}</p></div>\n        <div className=\"art:mt-3 art:flex art:items-center art:justify-between\"><motion.button type=\"button\" className={`${GHOST} art:-ml-3 art:h-9 art:rounded-full`} disabled={step === 0} tabIndex={0} onClick={() => { setError(\"\"); setDirection(-1); setStep(previous => Math.max(0, previous - 1)); }} {...press}><ArrowLeft className=\"art:size-3.5\"/>Back</motion.button><motion.button type=\"submit\" className={PRIMARY} tabIndex={0} {...press}>{step === 2 ? \"Finish\" : \"Continue\"}<ArrowRight className=\"art:size-4\"/></motion.button></div>\n      </>}\n    </motion.div></AnimatePresence></form>\n  </div></section></div>;\n}\n"
+    },
+    {
+      "path": "application/artemis/components/step-form/variants/03-inline-prompt/choices.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/step-form/variants/03-inline-prompt/choices.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { motion, useReducedMotion } from \"motion/react\";\nimport { Check } from \"lucide-react\";\nimport { ARTEMIS_SPRING_LAYOUT, ARTEMIS_SPRING_PRESS } from \"../../../../lib/ease\";\nconst OPTIONS = [\"This week\", \"This month\", \"No rush\"];\nconst CHOICE = \"art:justify-center art:select-none art:disabled:pointer-events-none art:disabled:opacity-50 art:gap-2 art:focus-visible:outline-none art:focus-visible:ring-2 art:focus-visible:ring-ring art:focus-visible:ring-offset-2 art:focus-visible:ring-offset-background art:h-auto art:p-0 art:hover:text-inherit art:relative art:isolate art:flex art:min-h-10 art:items-center art:overflow-hidden art:border art:px-4 art:font-medium art:text-sm art:outline-none art:transition-colors art:focus-visible:border-foreground\";\nexport function PaceChoices({ layoutId, question, value, onChange }: {\n    layoutId: string;\n    question: string;\n    value: string;\n    onChange: (value: string) => void;\n}) {\n    const reduce = useReducedMotion();\n    const press = { whileHover: reduce ? undefined : { scale: 1.01 }, whileTap: reduce ? undefined : { scale: 0.99 }, transition: ARTEMIS_SPRING_PRESS };\n    return <fieldset className=\"art:flex art:flex-wrap art:gap-2\"><legend className=\"art:sr-only\">{question}</legend>{OPTIONS.map(option => { const selected = value === option; return <motion.button key={option} type=\"button\" className={`${CHOICE} ${selected ? \"art:hover:bg-transparent art:border-foreground/40 art:text-primary\" : \"art:border-border art:text-foreground art:hover:bg-foreground/7\"} art:rounded-full`} aria-pressed={selected} tabIndex={0} onClick={() => onChange(option)} {...press}>{selected && <motion.span layoutId={layoutId} className=\"art:absolute art:inset-0 art:-z-10 art:rounded-full art:bg-foreground/7\" transition={reduce ? { duration: 0 } : ARTEMIS_SPRING_LAYOUT}/>}<motion.span aria-hidden=\"true\" className=\"art:flex art:shrink-0 art:items-center art:overflow-hidden\" initial={false} animate={{ width: selected ? 14 : 0, marginRight: selected ? 7 : 0, opacity: selected ? 1 : 0, scale: selected ? 1 : 0.6 }} transition={reduce ? { duration: 0 } : ARTEMIS_SPRING_LAYOUT}><Check className=\"art:size-3.5 art:shrink-0\" strokeWidth={2.5}/></motion.span><span>{option}</span></motion.button>; })}</fieldset>;\n}\n"
+    },
+    {
+      "path": "application/artemis/components/step-form/variants/03-inline-prompt/field.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/step-form/variants/03-inline-prompt/field.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { useId } from \"react\";\nimport { ArtemisValidationFrame } from \"../../../../lib/validation-frame\";\nexport function Field({name,value,error,onChange}:{name:\"idea\"|\"email\";value:string;error:string;onChange:(value:string)=>void}) {\n const id=useId(),email=name===\"email\";\n return <ArtemisValidationFrame className=\"art:w-full\" error={!!error}><input id={id} name={name} type={email?\"email\":\"text\"} aria-label={email?\"Email\":\"Product idea\"} placeholder={email?\"you@company.com\":\"A short product idea\"} autoComplete={email?\"email\":undefined} aria-invalid={!!error || undefined} value={value} onChange={event=>onChange(event.target.value)} className=\"art:h-full art:w-full art:bg-transparent art:px-3.5 art:text-sm art:text-foreground art:caret-foreground art:outline-none art:placeholder:text-muted-foreground/55\"/></ArtemisValidationFrame>;\n}\n"
+    },
+    {
+      "path": "application/artemis/lib/validation-frame.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/lib/validation-frame.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { animate, useReducedMotion } from \"motion/react\";\nimport { useEffect, useRef, useState, type HTMLAttributes } from \"react\";\nexport interface ArtemisValidationFrameProps extends HTMLAttributes<HTMLDivElement> {\n    error?: boolean;\n    focused?: boolean;\n    focusBorder?: string;\n    finishShakeOnClear?: boolean;\n}\nexport function ArtemisValidationFrame({ error = false, focused: controlled, focusBorder = \"art:border-foreground/60\", finishShakeOnClear = true, className = \"\", children, onFocus, onBlur, ...props }: ArtemisValidationFrameProps) {\n    const [focus, setFocus] = useState(false);\n    const ref = useRef<HTMLDivElement>(null);\n    const reduce = useReducedMotion();\n    const playbackRef = useRef<{\n        stop: () => void;\n    } | null>(null);\n    useEffect(() => () => playbackRef.current?.stop(), []);\n    const focused = controlled ?? focus;\n    useEffect(() => {\n        const element = ref.current;\n        if (!element || !error || reduce) {\n            if (element && (reduce || !finishShakeOnClear)) {\n                playbackRef.current?.stop();\n                playbackRef.current = null;\n                element.style.transform = \"none\";\n                element.style.translate = \"none\";\n            }\n            return;\n        }\n        playbackRef.current?.stop();\n        const playback = animate(element, { x: [0, -6, 6, -4, 4, -2, 0] }, { duration: 0.45 });\n        playbackRef.current = playback;\n        return () => { if (!finishShakeOnClear) {\n            playback.stop();\n            if (playbackRef.current === playback)\n                playbackRef.current = null;\n        } };\n    }, [error, reduce, finishShakeOnClear]);\n    const border = error ? \"art:border-destructive\" : focused ? focusBorder : \"art:border-border\";\n    return <div {...props} ref={ref} data-state={error ? \"error\" : focused ? \"focused\" : \"idle\"} className={`art:relative art:h-10 art:overflow-hidden art:rounded-full art:border art:bg-background art:transition-colors art:duration-200 ${border} ${className}`} onFocus={event => { setFocus(true); onFocus?.(event); }} onBlur={event => { if (!event.currentTarget.contains(event.relatedTarget))\n        setFocus(false); onBlur?.(event); }}>{children}</div>;\n}\n"
+    }
+  ],
+  "meta": {
+    "bytes": 12040,
+    "layoutOf": "artemis-step-form"
+  },
+  "category": "blocks",
+  "family": "forms",
+  "kind": "block",
+  "designSystem": "artemis",
+  "foundationDependencies": [
+    "artemis-tokens"
+  ],
+  "iconLibraries": [],
+  "tags": [
+    "artemis",
+    "step-form",
+    "motion"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "bb390ebe1630"
+}

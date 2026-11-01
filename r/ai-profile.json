@@ -199,7 +199,8 @@
         "url": "https://myzeusui.com/templates/ai-profile-cover.png",
         "target": "public/templates/ai-profile-cover.png"
       }
-    ]
+    ],
+    "bytes": 142554
   },
   "category": "templates",
   "family": "ai",

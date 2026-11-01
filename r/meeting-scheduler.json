@@ -34,7 +34,8 @@
         "url": "https://myzeusui.com/brand/video-call.svg",
         "target": "public/brand/video-call.svg"
       }
-    ]
+    ],
+    "bytes": 13761
   },
   "category": "base",
   "family": "scheduling",

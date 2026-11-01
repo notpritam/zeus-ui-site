@@ -61,6 +61,9 @@
       "content": "// @zeus-internal\nexport type Point = { x: number; y: number };\n/** Winding-number containment, including points on the boundary. */\nexport function inPolygon(point: Point, polygon: Point[]): boolean {\n  if (polygon.length < 3) return false;\n  let winding = 0;\n  for (let index = 0; index < polygon.length; index++) {\n    const start = polygon[index],\n      end = polygon[(index + 1) % polygon.length];\n    const cross = (end.x - start.x) * (point.y - start.y) - (point.x - start.x) * (end.y - start.y);\n    if (\n      Math.abs(cross) < 1e-8 &&\n      point.x >= Math.min(start.x, end.x) &&\n      point.x <= Math.max(start.x, end.x) &&\n      point.y >= Math.min(start.y, end.y) &&\n      point.y <= Math.max(start.y, end.y)\n    )\n      return true;\n    if (start.y <= point.y && end.y > point.y && cross > 0) winding++;\n    if (start.y > point.y && end.y <= point.y && cross < 0) winding--;\n  }\n  return winding !== 0;\n}\n"
     }
   ],
+  "meta": {
+    "bytes": 75652
+  },
   "category": "blocks",
   "family": "overlays",
   "kind": "block",

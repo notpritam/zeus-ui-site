@@ -155,6 +155,9 @@
       "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\"><path fill=\"#dbeafe\" d=\"M0 0h64v64H0z\"/><circle cx=\"32\" cy=\"24\" r=\"12\" fill=\"#60a5fa\"/><ellipse cx=\"32\" cy=\"60\" rx=\"24\" ry=\"22\" fill=\"#60a5fa\"/></svg>\n"
     }
   ],
+  "meta": {
+    "bytes": 82566
+  },
   "category": "blocks",
   "family": "screens",
   "kind": "block",

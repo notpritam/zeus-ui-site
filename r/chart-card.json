@@ -60,6 +60,9 @@
       "content": "\"use client\";\n\nimport { useReducedMotion } from \"motion/react\";\nimport { useSyncExternalStore } from \"react\";\n\nconst subscribe = () => () => {};\nconst clientSnapshot = () => true;\nconst serverSnapshot = () => false;\n\n/** Keep the first server/client render identical, then apply the user's motion preference. */\nexport function useHydratedReducedMotion(): boolean {\n  const reduced = useReducedMotion();\n  const hydrated = useSyncExternalStore(subscribe, clientSnapshot, serverSnapshot);\n  return hydrated && reduced === true;\n}\n"
     }
   ],
+  "meta": {
+    "bytes": 14772
+  },
   "category": "charts",
   "family": "data",
   "kind": "chart",

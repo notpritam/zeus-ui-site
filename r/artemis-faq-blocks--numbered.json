@@ -1,0 +1,62 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "artemis-faq-blocks--numbered",
+  "type": "registry:block",
+  "title": "Questions and answers: Numbered FAQ",
+  "variants": [
+    {
+      "name": "numbered",
+      "title": "Numbered FAQ"
+    }
+  ],
+  "description": "Questions and answers, Numbered FAQ layout only",
+  "dependencies": [
+    "clsx@^2.1.1",
+    "motion@^12.42.2",
+    "tailwind-merge@^3.6.0"
+  ],
+  "registryDependencies": [
+    "https://myzeusui.com/r/artemis-controls.json",
+    "https://myzeusui.com/r/artemis-tokens.json"
+  ],
+  "files": [
+    {
+      "path": "application/artemis/artemis-faq-blocks.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/artemis-faq-blocks.tsx",
+      "content": "\"use client\";\nimport { ArtemisScope } from \"./artemis-scope\";\nimport type { ArtemisFaqContent } from \"./components/faq-blocks/content\";\nimport View0 from \"./components/faq-blocks/variants/01-numbered\";\nconst variants = {\"numbered\":View0};\nexport type { ArtemisFaqContact, ArtemisFaqContent, ArtemisFaqLink, ArtemisFaqQuestion, ArtemisFaqSearch } from \"./components/faq-blocks/content\";\nexport interface ArtemisFaqBlocksProps { className?: string; variant?: \"numbered\"; /** The words on the FAQ section; anything left out keeps the layout's own copy. */ content?: Partial<ArtemisFaqContent>; }\nexport function ArtemisFaqBlocks({ className, variant = \"numbered\", content }: ArtemisFaqBlocksProps) {const View = variants[variant];return <ArtemisScope className={className}><div className=\"art:flex art:w-full art:min-w-0 art:flex-col art:items-center\"><View content={content}/></div></ArtemisScope>;}\n"
+    },
+    {
+      "path": "application/artemis/components/faq-blocks/content.ts",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/faq-blocks/content.ts",
+      "content": "// @zeus-internal\n\n/** The words on a button or link, and where it goes. */\nexport interface ArtemisFaqLink {\n  label: string;\n  href: string;\n}\n\n/** A question and its answer. */\nexport interface ArtemisFaqQuestion {\n  /** The question, on the row that opens. */\n  question: string;\n  /** The answer, shown while the row is open. */\n  answer: string;\n  /** A short slug, unique in the list, used in the row's element ids. Defaults to the row's position. */\n  id?: string;\n  /** The topic it belongs to. search shows it on the row and adds a filter tab for each topic, in the order the topics first appear; with no topics it shows no tabs. */\n  category?: string;\n}\n\n/** A card beside the questions that points to a person. */\nexport interface ArtemisFaqContact {\n  /** A small line over the title. split. */\n  label?: string;\n  /** The card's heading. */\n  title: string;\n  /** The paragraph under the heading. */\n  description: string;\n  /** The card's button. */\n  cta: ArtemisFaqLink;\n}\n\n/** The words on the search box, its topic tabs and its empty result. */\nexport interface ArtemisFaqSearch {\n  /** The hint in the empty search box. */\n  placeholder: string;\n  /** The first topic tab, which shows every question. */\n  allLabel: string;\n  /** The heading shown when no question matches. */\n  emptyTitle: string;\n  /** The line under that heading. */\n  emptyText: string;\n}\n\n/** The words on an Artemis FAQ section. Every layout reads this shape, so you can switch layouts and keep them. */\nexport interface ArtemisFaqContent {\n  /** The short line above the heading. All layouts. */\n  badge: string;\n  /** The heading. All layouts. */\n  headline: string;\n  /** The heading's last words. stacked underlines them; the other layouts run them on after `headline`. Left out, it keeps the layout's own only when `headline` is left out too. */\n  headlineAccent?: string;\n  /** The paragraph under the heading. All layouts. */\n  subhead: string;\n  /** The questions, each opening to show its answer. All layouts. numbered and split number them; numbered, ai-workspace, split and search open one at a time, starting with the first; stacked opens any number, starting with the first two. */\n  questions: ArtemisFaqQuestion[];\n  /** A card with a button beside the questions. ai-workspace and split. */\n  contact?: ArtemisFaqContact;\n  /** The words on the search box, the topic tabs and the empty result. search. */\n  search?: ArtemisFaqSearch;\n}\n"
+    },
+    {
+      "path": "application/artemis/components/faq-blocks/variants/01-numbered.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/faq-blocks/variants/01-numbered.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { motion, useReducedMotion } from \"motion/react\";\nimport { useId, useState } from \"react\";\nimport { ArtemisButton } from \"../../../foundations/button\";\nimport { ARTEMIS_EASE_OUT, ARTEMIS_EASE_OUT_CSS } from \"../../../lib/ease\";\nimport type { ArtemisFaqContent } from \"../content\";\nconst DEFAULT = {\n    badge: \"Good to know\",\n    headline: \"A clear answer for every question.\",\n    subhead: \"Everything you need to understand the product, your plan, and what happens next.\",\n    questions: [\n        { id: \"trial\", question: \"Can I try the product before choosing a plan?\", answer: \"Yes. Every workspace starts with a 14-day trial, and you can explore the full product without adding a payment method.\" },\n        { id: \"invite\", question: \"How do I bring my team in?\", answer: \"Invite people by email or share a private join link. You can change roles and access at any time from workspace settings.\" },\n        { id: \"import\", question: \"Can I move my existing work over?\", answer: \"You can import common file formats or start from a template. Our support team can also help with larger moves.\" },\n        { id: \"plans\", question: \"What is included in each plan?\", answer: \"Every plan includes the core workspace. Higher plans add more guests, longer history, and organization controls for larger teams.\" },\n        { id: \"change-plan\", question: \"Can I change my plan later?\", answer: \"Anytime. Upgrades take effect immediately, while downgrades begin at the end of your current billing period.\" },\n        { id: \"annual\", question: \"Do you offer annual billing?\", answer: \"Yes. Annual plans include two months at no additional cost and use the same features and support as monthly plans.\" },\n    ],\n} satisfies ArtemisFaqContent;\nconst hidden = { opacity: 0, filter: \"blur(8px)\", y: 18 };\nconst shown = { opacity: 1, filter: \"blur(0px)\", y: 0 };\nexport default function FaqBlocksNumbered({ content }: { content?: Partial<ArtemisFaqContent> } = {}) {\n    const copy = { ...DEFAULT, ...content };\n    const reduce = useReducedMotion();\n    const baseId = useId();\n    const [active, setActive] = useState<number | null>(0);\n    return (<>\n      <section className=\"art:w-full art:bg-background art:px-4 art:py-16 art:font-sans art:text-foreground art:@min-[640px]/artemis:px-8 art:@min-[640px]/artemis:py-24\">\n        <div className=\"art:mx-auto art:w-full art:max-w-6xl\">\n          <motion.header className=\"art:mx-auto art:max-w-2xl art:pb-10 art:text-center art:@min-[640px]/artemis:pb-12\" initial={hidden} animate={shown} transition={reduce ? { duration: 0 } : { duration: 0.55, ease: ARTEMIS_EASE_OUT, delay: 0.05 }}>\n            <p className=\"art:font-medium art:text-muted-foreground art:text-xs art:uppercase art:tracking-[0.16em]\">\n              {copy.badge}\n            </p>\n            <h2 className=\"art:mt-5 art:text-balance art:font-medium art:text-4xl art:leading-none art:tracking-tight\">\n              {copy.headlineAccent ? `${copy.headline} ${copy.headlineAccent}` : copy.headline}\n            </h2>\n            <p className=\"art:mx-auto art:mt-5 art:max-w-xl art:text-pretty art:text-muted-foreground art:text-sm art:leading-6 art:@min-[640px]/artemis:text-base\">\n              {copy.subhead}\n            </p>\n          </motion.header>\n          <div className=\"art:mx-auto art:max-w-4xl art:overflow-hidden\">\n            {copy.questions.map((item, index) => {\n            const id = item.id ?? `q${index}`;\n            const open = active === index;\n            const triggerId = `${baseId}-${id}-trigger`;\n            const contentId = `${baseId}-${id}-content`;\n            return (<motion.article layout=\"position\" key={id} className=\"art:border-border art:border-b art:last:border-b-0\" initial={hidden} animate={shown} transition={reduce ? { duration: 0 } : { duration: 0.55, ease: ARTEMIS_EASE_OUT, delay: 0.12 + index * 0.065 }}>\n                  <ArtemisButton variant=\"link\" size=\"none\" className=\"art:justify-center art:select-none art:transition-colors art:disabled:pointer-events-none art:disabled:opacity-50 art:text-sm art:focus-visible:outline-none art:focus-visible:ring-offset-2 art:focus-visible:ring-offset-background art:h-auto art:p-0 art:font-normal art:text-inherit art:hover:bg-transparent art:hover:text-inherit art:group art:grid art:min-h-24 art:w-full art:grid-cols-[2rem_1fr] art:items-start art:gap-3 art:px-4 art:py-7 art:text-left art:outline-none art:focus-visible:ring-2 art:focus-visible:ring-inset art:focus-visible:ring-ring art:@min-[640px]/artemis:px-6 art:@min-[640px]/artemis:py-8 art:@min-[1024px]/artemis:px-8 art:rounded-full\" id={triggerId} aria-expanded={open} aria-controls={contentId} tabIndex={0} onClick={() => setActive(open ? null : index)} whileTap={reduce ? undefined : { scale: 0.99 }}>\n                    <span aria-hidden=\"true\" className={`art:shrink-0 art:pt-1 art:font-mono art:font-medium art:text-sm art:tabular-nums art:transition-colors art:duration-200 ${open ? \"art:text-foreground\" : \"art:text-muted-foreground/55 art:group-hover:text-muted-foreground\"}`}>{String(index + 1).padStart(2, \"0\")}</span>\n                    <span className={`art:max-w-3xl art:text-balance art:font-medium art:text-xl art:leading-7 art:tracking-tight art:transition-colors art:duration-200 ${open ? \"art:text-foreground\" : \"art:text-muted-foreground art:group-hover:text-foreground\"}`}>{item.question}</span>\n                  </ArtemisButton>\n                  <section id={contentId} aria-labelledby={triggerId} aria-hidden={!open} style={{ transitionTimingFunction: ARTEMIS_EASE_OUT_CSS }} className={`art:grid art:overflow-hidden art:transition-[grid-template-rows] art:duration-300 art:motion-reduce:transition-none ${open ? \"art:grid-rows-[1fr]\" : \"art:grid-rows-[0fr]\"}`}>\n                    <div className=\"art:grid art:min-h-0 art:grid-cols-[2rem_1fr] art:gap-3 art:overflow-hidden art:px-4 art:@min-[640px]/artemis:px-6 art:@min-[1024px]/artemis:px-8\">\n                      <p style={{ transitionTimingFunction: ARTEMIS_EASE_OUT_CSS }} className={`art:col-start-2 art:max-w-3xl art:pb-8 art:text-left art:text-pretty art:text-muted-foreground art:text-sm art:leading-6 art:transition-[opacity,transform] art:duration-200 art:motion-reduce:transition-none art:@min-[640px]/artemis:pb-9 ${open ? \"art:translate-y-0 art:opacity-100\" : \"art:-translate-y-1 art:opacity-0\"}`}>{item.answer}</p>\n                    </div>\n                  </section>\n                </motion.article>);\n        })}\n          </div>\n        </div>\n      </section>\n    </>);\n}\n"
+    }
+  ],
+  "meta": {
+    "bytes": 9918,
+    "layoutOf": "artemis-faq-blocks"
+  },
+  "category": "blocks",
+  "family": "layout",
+  "kind": "block",
+  "designSystem": "artemis",
+  "foundationDependencies": [
+    "artemis-tokens"
+  ],
+  "iconLibraries": [],
+  "tags": [
+    "artemis",
+    "faq-blocks",
+    "motion"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "409b6e9ef73b"
+}

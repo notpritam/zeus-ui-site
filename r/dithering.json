@@ -33,7 +33,8 @@
         "url": "https://myzeusui.com/assets/zeus/hero_profile_02.jpg",
         "target": "public/assets/zeus/hero_profile_02.jpg"
       }
-    ]
+    ],
+    "bytes": 19890
   },
   "category": "animations",
   "family": "media",

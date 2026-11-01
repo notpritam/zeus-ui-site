@@ -88,7 +88,8 @@
         "url": "https://myzeusui.com/assets/zeus/texture_tennis-macro_01.jpg",
         "target": "public/assets/zeus/texture_tennis-macro_01.jpg"
       }
-    ]
+    ],
+    "bytes": 23179
   },
   "category": "animations",
   "family": "media",

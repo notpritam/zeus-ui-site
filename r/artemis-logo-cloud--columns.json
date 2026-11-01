@@ -1,0 +1,66 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "artemis-logo-cloud--columns",
+  "type": "registry:block",
+  "title": "Company marks: Kinetic logo columns",
+  "variants": [
+    {
+      "name": "columns",
+      "title": "Kinetic logo columns"
+    }
+  ],
+  "description": "Company marks, Kinetic logo columns layout only",
+  "dependencies": [
+    "lucide-react@^1.60.0"
+  ],
+  "registryDependencies": [
+    "https://myzeusui.com/r/artemis-controls.json",
+    "https://myzeusui.com/r/artemis-tokens.json"
+  ],
+  "files": [
+    {
+      "path": "application/artemis/artemis-logo-cloud.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/artemis-logo-cloud.tsx",
+      "content": "\"use client\";\nimport { ArtemisScope } from \"./artemis-scope\";\nimport type { ArtemisLogoCloudContent } from \"./components/logo-cloud/content\";\nimport View2 from \"./components/logo-cloud/variants/03-columns\";\nconst variants = {\"columns\":View2};\nexport type { ArtemisLogoCloudContent, ArtemisLogoCloudLogo } from \"./components/logo-cloud/content\";\nexport interface ArtemisLogoCloudProps { className?: string; variant?: \"columns\"; /** The words on the logo cloud; anything left out keeps the layout's own copy. */ content?: Partial<ArtemisLogoCloudContent>; }\nexport function ArtemisLogoCloud({ className, variant = \"columns\", content }: ArtemisLogoCloudProps) {const View = variants[variant];return <ArtemisScope className={className}><div className=\"art:flex art:w-full art:min-w-0 art:flex-col art:items-center\"><View content={content}/></div></ArtemisScope>;}\n"
+    },
+    {
+      "path": "application/artemis/components/logo-cloud/content.ts",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/logo-cloud/content.ts",
+      "content": "// @zeus-internal\nimport type { ComponentType } from \"react\";\n\n/** One logo in the cloud. */\nexport interface ArtemisLogoCloudLogo {\n  /**\n   * The company's name, shown beside the icon. All layouts; carousel also lists every name for screen readers.\n   * Keep names unique, since grid, columns and carousel tell logos apart by name.\n   */\n  name: string;\n  /** A logo image shown in place of the icon and name, sized to the row; its alt text names the logo. All layouts. */\n  image?: { src: string; alt: string };\n  /** The icon beside the name. All layouts, which keep their own icon for that slot when you leave this out. */\n  icon?: ComponentType<{ className?: string }>;\n}\n\n/** The words on an Artemis logo cloud. Every layout reads this shape, so you can switch layouts and keep them. */\nexport interface ArtemisLogoCloudContent {\n  /** A small label over the headline. columns and carousel. */\n  badge?: string;\n  /** The heading. All layouts; marquee shows it as a small line over the logos. */\n  headline: string;\n  /** A line under or beside the headline. grid, columns and carousel. */\n  subhead?: string;\n  /**\n   * The logos. All layouts: marquee scrolls them in one row, grid rolls them through eight cells, columns deals them\n   * into four scrolling lanes and carousel turns them through two or four slots. Twelve look best; grid needs more\n   * than eight to roll.\n   */\n  logos: ArtemisLogoCloudLogo[];\n}\n"
+    },
+    {
+      "path": "application/artemis/components/logo-cloud/variants/03-columns.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/logo-cloud/variants/03-columns.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { Aperture, Atom, Box, Circle, Command, Diamond, Gem, Hexagon, Octagon, Orbit, Triangle, } from \"lucide-react\";\nimport type { ComponentType, CSSProperties } from \"react\";\nimport type { ArtemisLogoCloudContent, ArtemisLogoCloudLogo } from \"../content\";\nimport { LayersIcon } from \"./03-columns/icons\";\n/** The logos the columns show when given none. The lanes take them in turn: the first lane gets the first, fifth and ninth. */\nconst defaultLogos: ArtemisLogoCloudLogo[] = [\n    { name: \"Workspace\" },\n    { name: \"Group A\" },\n    { name: \"Group B\" },\n    { name: \"Group C\" },\n    { name: \"Group D\" },\n    { name: \"Group E\" },\n    { name: \"Group F\" },\n    { name: \"Group G\" },\n    { name: \"Group H\" },\n    { name: \"Group I\" },\n    { name: \"Group J\" },\n    { name: \"Group K\" },\n];\nconst DEFAULT = {\n    badge: \"In good company\",\n    headline: \"A living field of teams building what comes next.\",\n    subhead: \"Independent studios, growing products, and global platforms use the same foundation without ending up with the same design.\",\n    logos: defaultLogos,\n} satisfies ArtemisLogoCloudContent;\n/** The icon for each slot, for logos that come without one. */\nconst ICONS = [Hexagon, Triangle, Aperture, Box, Gem, Command, Octagon, Circle, Diamond, LayersIcon, Atom, Orbit];\ntype Lane = {\n    duration: number;\n    reverse: boolean;\n};\n/** A logo and its place in the list, which picks its default icon. */\ntype Placed = {\n    logo: ArtemisLogoCloudLogo;\n    slot: number;\n};\nconst LANES: Lane[] = [\n    {\n        duration: 22,\n        reverse: false,\n    },\n    {\n        duration: 25,\n        reverse: true,\n    },\n    {\n        duration: 28,\n        reverse: false,\n    },\n    {\n        duration: 31,\n        reverse: true,\n    },\n];\nconst KEYFRAMES = `\n  @keyframes artemis-c1ec26e-artemis-logo-column-scroll {\n    from { transform: translate3d(0, 0, 0); }\n    to { transform: translate3d(0, -50%, 0); }\n  }\n\n  .art\\\\:artemis-logo-column:hover .art\\\\:artemis-logo-column-track {\n    animation-play-state: paused;\n  }\n`;\nfunction LogoCell({ logo, slot }: Placed) {\n    const Icon: ComponentType<{ className?: string; strokeWidth?: number }> = logo.icon ?? ICONS[slot % ICONS.length];\n    return (<div className=\"art:flex art:h-[6.5rem] art:items-center art:border-border/70 art:border-b art:px-3 art:@min-[640px]/artemis:px-5\">\n      <span className=\"art:inline-flex art:min-w-0 art:items-center art:gap-2.5 art:text-muted-foreground art:transition-[color,transform] art:duration-300 art:group-hover:text-foreground art:hover:translate-x-1\">\n        {logo.image ? <img src={logo.image.src} alt={logo.image.alt} className=\"art:h-5 art:w-auto art:max-w-full art:object-contain art:@min-[640px]/artemis:h-6\"/> : <>\n        <Icon className=\"art:shrink-0 art:size-4 art:@min-[640px]/artemis:size-5\" strokeWidth={1.75} aria-hidden=\"true\"/>\n        <span className=\"art:truncate art:font-semibold art:tracking-tight art:text-sm art:@min-[640px]/artemis:text-base\">{logo.name}</span>\n        </>}\n      </span>\n    </div>);\n}\nfunction LogoLane({ lane, logos }: {\n    lane: Lane;\n    logos: Placed[];\n}) {\n    const trackStyle: CSSProperties = {\n        animationName: \"artemis-c1ec26e-artemis-logo-column-scroll\",\n        animationDuration: `${lane.duration}s`,\n        animationTimingFunction: \"linear\",\n        animationIterationCount: \"infinite\",\n        animationDirection: lane.reverse ? \"reverse\" : \"normal\",\n    };\n    return (<div className=\"art:artemis-logo-column art:group art:overflow-hidden art:border-border art:border-l art:odd:border-l-0 art:hover:bg-muted/20 art:@min-[640px]/artemis:odd:border-l art:@min-[640px]/artemis:first:border-l-0\">\n      <div className=\"art:artemis-logo-column-track art:will-change-transform\" style={trackStyle}>\n        <div>\n          {logos.map(({ logo, slot }) => (<LogoCell key={logo.name} logo={logo} slot={slot}/>))}\n        </div>\n        <div aria-hidden=\"true\">\n          {logos.map(({ logo, slot }) => (<LogoCell key={logo.name} logo={logo} slot={slot}/>))}\n        </div>\n      </div>\n    </div>);\n}\nexport default function LogoCloudColumns({ content }: { content?: Partial<ArtemisLogoCloudContent> } = {}) {\n    const copy = { ...DEFAULT, ...content };\n    const placed = copy.logos.map((logo, slot) => ({ logo, slot }));\n    const lanes = LANES.map((lane, index) => ({ lane, logos: placed.filter(({ slot }) => slot % LANES.length === index) })).filter(({ logos }) => logos.length > 0);\n    return (<section className=\"art:w-full art:bg-background art:px-4 art:py-20 art:@min-[640px]/artemis:px-8\">\n      <style>{KEYFRAMES}</style>\n      <div className=\"art:mx-auto art:grid art:w-full art:max-w-6xl art:gap-10 art:@min-[1024px]/artemis:grid-cols-[0.72fr_1.28fr] art:@min-[1024px]/artemis:items-end\">\n        <div className=\"art:max-w-lg art:pb-2\">\n          <p className=\"art:font-medium art:text-muted-foreground art:text-xs art:uppercase art:tracking-[0.16em]\">{copy.badge}</p>\n          <h2 className=\"art:mt-4 art:text-balance art:text-foreground art:leading-tight art:tracking-[-0.04em] art:text-4xl art:font-medium\">\n            {copy.headline}\n          </h2>\n          <p className=\"art:mt-5 art:max-w-md art:text-pretty art:text-muted-foreground art:text-sm art:leading-7\">\n            {copy.subhead}\n          </p>\n        </div>\n        <div className=\"art:grid art:h-[420px] art:grid-cols-2 art:overflow-hidden art:border-border art:border-y art:[mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)] art:@min-[640px]/artemis:h-[380px] art:@min-[640px]/artemis:[grid-template-columns:repeat(var(--logo-columns),minmax(0,1fr))]\" style={{ \"--logo-columns\": lanes.length } as CSSProperties}>\n          {lanes.map(({ lane, logos }) => (<LogoLane key={logos[0].logo.name} lane={lane} logos={logos}/>))}\n        </div>\n      </div>\n    </section>);\n}\n"
+    },
+    {
+      "path": "application/artemis/components/logo-cloud/variants/03-columns/icons.ts",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/logo-cloud/variants/03-columns/icons.ts",
+      "content": "// @zeus-internal\nimport { createLucideIcon } from \"lucide-react\";\nexport const LayersIcon = createLucideIcon(\"layers\", [\n    [\n        \"path\",\n        {\n            d: \"M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z\",\n            key: \"zw3jo\",\n        },\n    ],\n    [\"path\", { d: \"M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12\", key: \"1wduqc\" }],\n    [\"path\", { d: \"M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17\", key: \"kqbvx6\" }],\n]);\n"
+    }
+  ],
+  "meta": {
+    "bytes": 8718,
+    "layoutOf": "artemis-logo-cloud"
+  },
+  "category": "blocks",
+  "family": "layout",
+  "kind": "block",
+  "designSystem": "artemis",
+  "foundationDependencies": [
+    "artemis-tokens"
+  ],
+  "iconLibraries": [],
+  "tags": [
+    "artemis",
+    "logo-cloud",
+    "motion"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "569fdc04ac0e"
+}

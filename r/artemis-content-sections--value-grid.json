@@ -1,0 +1,79 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "artemis-content-sections--value-grid",
+  "type": "registry:block",
+  "title": "Content sections: Value grid",
+  "variants": [
+    {
+      "name": "value-grid",
+      "title": "Value grid"
+    }
+  ],
+  "description": "Content sections, Value grid layout only",
+  "dependencies": [
+    "motion@^12.42.2"
+  ],
+  "registryDependencies": [
+    "https://myzeusui.com/r/artemis-controls.json",
+    "https://myzeusui.com/r/artemis-tokens.json"
+  ],
+  "files": [
+    {
+      "path": "application/artemis/artemis-content-sections.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/artemis-content-sections.tsx",
+      "content": "\"use client\";\nimport { ArtemisScope } from \"./artemis-scope\";\nimport View3 from \"./components/content-sections/variants/04-value-grid\";\nconst variants = {\"value-grid\":View3};\nexport interface ArtemisContentSectionsProps { className?: string; variant?: \"value-grid\"; }\nexport function ArtemisContentSections({ className, variant = \"value-grid\" }: ArtemisContentSectionsProps) {const View = variants[variant];return <ArtemisScope className={className}><div className=\"art:flex art:w-full art:min-w-0 art:flex-col art:items-center\"><View/></div></ArtemisScope>;}\n"
+    },
+    {
+      "path": "application/artemis/components/content-sections/variants/04-value-grid.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/content-sections/variants/04-value-grid.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { motion, useReducedMotion, type Transition } from \"motion/react\";\nimport { ARTEMIS_EASE_OUT, ARTEMIS_SPRING_PRESS } from \"../../../lib/ease\";\nimport { TextReveal } from \"./04-value-grid/text-reveal\";\nconst LEDE_HIDDEN = { opacity: 0, filter: \"blur(7px)\", y: 12 };\nconst CARD_HIDDEN = { opacity: 0, filter: \"blur(10px)\", y: 26 };\nconst ACTIONS_HIDDEN = { opacity: 0, y: 14 };\nconst SHOWN_BLUR = { opacity: 1, filter: \"blur(0px)\", y: 0 };\nconst SHOWN = { opacity: 1, y: 0 };\nconst LEDE_TRANSITION: Transition = { duration: 0.6, ease: ARTEMIS_EASE_OUT, delay: 0.55 };\nconst ACTIONS_TRANSITION: Transition = { duration: 0.55, ease: ARTEMIS_EASE_OUT, delay: 0.18 };\nconst LEDE_VIEWPORT = { once: true, amount: 0.2 } as const;\nconst CARD_VIEWPORT = { once: true, margin: \"-60px\" } as const;\nconst ACTIONS_VIEWPORT = { once: true, margin: \"-40px\" } as const;\nconst CARDS = [\n    { eyebrow: \"Shared direction\", title: \"Turn scattered ideas into one clear plan\", body: \"Keep the thinking, decisions, and next steps together from the start.\", left: \"-0%\" },\n    { eyebrow: \"Steady delivery\", title: \"Keep every handoff moving forward\", body: \"Give each owner the context they need without another status meeting.\", left: \"-100%\" },\n    { eyebrow: \"Flexible by design\", title: \"Shape the system around your team\", body: \"Start with the way you work today, then adapt it as the team grows.\", left: \"-200%\" },\n] as const;\nexport default function ContentSectionsValueGrid() {\n    const reduce = useReducedMotion() === true;\n    const hover = reduce ? undefined : { scale: 1.01 };\n    const tap = reduce ? undefined : { scale: 0.99 };\n    return (<>\n      <section className=\"art:w-full art:overflow-hidden art:bg-background art:px-4 art:py-20 art:text-foreground art:@min-[640px]/artemis:px-6 art:@min-[640px]/artemis:py-24 art:@min-[1024px]/artemis:px-8 art:@min-[1024px]/artemis:py-28\">\n        <div className=\"art:mx-auto art:w-full art:max-w-7xl\">\n          <div className=\"art:mx-auto art:max-w-6xl art:text-center\">\n            <h2 className=\"art:text-balance art:leading-tight art:tracking-[-0.065em] art:text-4xl art:font-medium\">\n              <TextReveal className=\"art:text-muted-foreground/70\" words={[\"More\", \"tools\", \"create\", \"noise.\"]}/>\n              <TextReveal className=\"art:text-foreground\" words={[\"Clear\", \"systems\", \"move\", \"work.\"]} delay={0.18}/>\n            </h2>\n            <motion.p className=\"art:mx-auto art:mt-7 art:max-w-2xl art:text-pretty art:text-sm art:leading-7 art:text-muted-foreground art:@min-[640px]/artemis:text-base\" initial={LEDE_HIDDEN} whileInView={reduce ? undefined : SHOWN_BLUR} viewport={LEDE_VIEWPORT} transition={LEDE_TRANSITION}>\n              {\"Give every idea, decision, and handoff a clear place to move forward.\"}\n            </motion.p>\n          </div>\n          <div className=\"art:mt-10 art:grid art:gap-4 art:@min-[768px]/artemis:grid-cols-3 art:@min-[640px]/artemis:mt-12\">\n            {CARDS.map((card, i) => (<motion.article key={card.eyebrow} className=\"art:flex art:flex-col art:overflow-hidden art:rounded-3xl art:border art:border-border art:bg-background\" initial={CARD_HIDDEN} whileInView={reduce ? undefined : SHOWN_BLUR} viewport={CARD_VIEWPORT} transition={{ duration: 0.65, ease: ARTEMIS_EASE_OUT, delay: i * 0.09 }}>\n                <div className=\"art:flex art:flex-1 art:flex-col art:p-6\">\n                  <p className=\"art:font-medium art:text-muted-foreground art:text-xs\">\n                    {card.eyebrow}\n                  </p>\n                  <h3 className=\"art:mt-3 art:text-balance art:leading-snug art:tracking-tight art:text-xl art:font-medium\">\n                    {card.title}\n                  </h3>\n                  <p className=\"art:mt-3 art:text-pretty art:text-muted-foreground art:text-sm art:leading-6\">\n                    {card.body}\n                  </p>\n                </div>\n                <div className=\"art:relative art:isolate art:h-64 art:overflow-hidden art:[mask-image:linear-gradient(to_bottom,transparent,black_40%)]\">\n                  <div className=\"art:absolute art:inset-0 art:overflow-hidden\">\n                    <img src=\"/assets/artemis/3a70f132c12d604b0d26.webp\" alt=\"\" width=\"1536\" height=\"512\" loading=\"lazy\" decoding=\"async\" className=\"art:absolute art:top-1/2 art:h-auto art:max-w-none art:-translate-y-1/2\" style={{ width: \"300%\", left: card.left }}/>\n                  </div>\n                </div>\n              </motion.article>))}\n          </div>\n          <motion.div className=\"art:mt-10 art:flex art:flex-col art:items-center\" initial={ACTIONS_HIDDEN} whileInView={reduce ? undefined : SHOWN} viewport={ACTIONS_VIEWPORT} transition={ACTIONS_TRANSITION}>\n            <div className=\"art:flex art:flex-col art:items-stretch art:gap-2.5 art:@min-[640px]/artemis:flex-row art:@min-[640px]/artemis:items-center\">\n              <motion.a whileHover={hover} whileTap={tap} transition={ARTEMIS_SPRING_PRESS} className=\"art:inline-flex art:items-center art:justify-center art:font-medium art:select-none art:transition-colors art:disabled:pointer-events-none art:disabled:opacity-50 art:bg-primary art:text-primary-foreground art:hover:bg-primary/90 art:gap-2 art:px-5 art:text-sm art:focus-visible:outline-none art:focus-visible:ring-2 art:focus-visible:ring-ring art:focus-visible:ring-offset-2 art:focus-visible:ring-offset-background art:h-9 art:rounded-full\" href=\"#\" tabIndex={0}>\n                {\"Explore the workspace\"}\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" className=\"art:lucide art:lucide-arrow-up-right art:size-4\" aria-hidden=\"true\">\n                  <path d=\"M7 7h10v10\"/>\n                  <path d=\"M7 17 17 7\"/>\n                </svg>\n              </motion.a>\n              <motion.a whileHover={hover} whileTap={tap} transition={ARTEMIS_SPRING_PRESS} className=\"art:inline-flex art:items-center art:justify-center art:font-medium art:select-none art:transition-colors art:disabled:pointer-events-none art:disabled:opacity-50 art:border art:border-border art:bg-card art:text-foreground art:hover:border-border art:gap-2 art:px-5 art:text-sm art:focus-visible:outline-none art:focus-visible:ring-2 art:focus-visible:ring-ring art:focus-visible:ring-offset-2 art:focus-visible:ring-offset-background art:h-9 art:rounded-full\" href=\"#\" tabIndex={0}>\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" className=\"art:lucide art:lucide-briefcase-business art:size-4\" aria-hidden=\"true\">\n                  <path d=\"M12 12h.01\"/>\n                  <path d=\"M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2\"/>\n                  <path d=\"M22 13a18.15 18.15 0 0 1-20 0\"/>\n                  <rect width=\"20\" height=\"14\" x=\"2\" y=\"6\" rx=\"2\"/>\n                </svg>\n                {\"See how teams work\"}\n              </motion.a>\n            </div>\n            <p className=\"art:mt-6 art:text-center art:text-muted-foreground art:text-sm\">\n              {\"Bring the process you have. Make it easier to run.\"}\n            </p>\n          </motion.div>\n        </div>\n      </section>\n    </>);\n}\n"
+    },
+    {
+      "path": "application/artemis/components/content-sections/variants/04-value-grid/text-reveal.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/content-sections/variants/04-value-grid/text-reveal.tsx",
+      "content": "// @zeus-internal\nexport { ArtemisWordEntrance as TextReveal, type ArtemisWordEntranceProps as TextRevealProps } from \"../../../../lib/word-entrance\";\n"
+    },
+    {
+      "path": "application/artemis/lib/word-entrance.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/lib/word-entrance.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { motion, useInView, useReducedMotion } from \"motion/react\";\nimport { useRef } from \"react\";\nimport { artemisWordMotion, type ArtemisWordMotionOptions } from \"./word-motion\";\nexport interface ArtemisWordEntranceProps {\n  words: string[];\n  className?: string;\n  stagger?: number;\n  delay?: number;\n  blur?: number;\n  yOffset?: string | number;\n  spring?: ArtemisWordMotionOptions[\"spring\"];\n  once?: boolean;\n  amount?: number;\n  entered?: boolean;\n}\nexport function ArtemisWordEntrance({\n  words,\n  className = \"\",\n  stagger = 0.055,\n  delay = 0,\n  blur = 10,\n  yOffset = \"20%\",\n  amount = 0.4,\n  spring,\n  once = true,\n  entered: externalEntry,\n}: ArtemisWordEntranceProps) {\n  const element = useRef<HTMLSpanElement>(null);\n  const observed = useInView(element, { once, amount });\n  const entered = externalEntry ?? observed;\n  const reduced = useReducedMotion() === true;\n  return (\n    <span ref={element} className={`art:block ${className}`}>\n      <span className=\"art:block\">\n        {words.map((word, index) => {\n          const movement = artemisWordMotion(index, reduced, {\n            delay,\n            stagger,\n            blur,\n            yOffset,\n            spring,\n          });\n          return (\n            <motion.span\n              key={index}\n              className=\"art:inline-block\"\n              initial={movement.initial}\n              // With reduced motion the words land on mount instead of waiting to be seen.\n              animate={entered || reduced ? movement.animate : undefined}\n              transition={movement.transition}\n            >\n              {word}\n              {index < words.length - 1 && (\n                <span className=\"art:inline-block art:w-[0.25em] art:overflow-hidden\">\n                  {\"\\u00a0\"}\n                </span>\n              )}\n            </motion.span>\n          );\n        })}\n      </span>\n    </span>\n  );\n}\n"
+    },
+    {
+      "path": "application/artemis/lib/word-motion.ts",
+      "type": "registry:component",
+      "target": "@components/application/artemis/lib/word-motion.ts",
+      "content": "// @zeus-internal\nimport { ARTEMIS_EASE_OUT } from \"./ease\";\nexport interface ArtemisWordMotionOptions {\n  delay?: number;\n  stagger?: number;\n  blur?: number;\n  yOffset?: string | number;\n  spring?: { stiffness?: number; damping?: number; mass?: number };\n}\nexport function artemisWordMotion(\n  index: number,\n  reduced: boolean,\n  { delay = 0, stagger = 0.055, blur = 10, yOffset = \"20%\", spring }: ArtemisWordMotionOptions = {}\n) {\n  const offset = delay + index * stagger;\n  // The same start with reduced motion, so hydration matches the server; the words then land at once.\n  return {\n    initial: { opacity: 0, filter: `blur(${blur}px)`, y: yOffset },\n    animate: { opacity: 1, filter: \"blur(0px)\", y: 0 },\n    transition: reduced\n      ? { duration: 0 }\n      : {\n          opacity: { duration: 0.7, delay: offset, ease: ARTEMIS_EASE_OUT },\n          filter: { duration: 0.9, delay: offset, ease: ARTEMIS_EASE_OUT },\n          y: {\n            type: \"spring\" as const,\n            stiffness: spring?.stiffness ?? 140,\n            damping: spring?.damping ?? 26,\n            mass: spring?.mass ?? 1.2,\n            delay: offset,\n          },\n        },\n  };\n}\n"
+    }
+  ],
+  "docs": "artemis-content-sections--value-grid: 1 demo image is not part of the shadcn install. Download from the URLs in meta.assets into the same public/ paths, or install with the zeus-ui CLI, which copies them.",
+  "meta": {
+    "assets": [
+      {
+        "url": "https://myzeusui.com/assets/artemis/3a70f132c12d604b0d26.webp",
+        "target": "public/assets/artemis/3a70f132c12d604b0d26.webp"
+      }
+    ],
+    "bytes": 11160,
+    "layoutOf": "artemis-content-sections"
+  },
+  "category": "blocks",
+  "family": "layout",
+  "kind": "block",
+  "designSystem": "artemis",
+  "foundationDependencies": [
+    "artemis-tokens"
+  ],
+  "iconLibraries": [],
+  "tags": [
+    "artemis",
+    "content-sections",
+    "motion"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "6900a45e0efd"
+}

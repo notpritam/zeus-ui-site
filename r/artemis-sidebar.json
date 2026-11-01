@@ -217,6 +217,10 @@
       "content": "\"use client\";\n// @zeus-internal\nimport { useCallback, useLayoutEffect, useRef, useState } from \"react\";\ninterface Cursor { key: string; session: string; }\nexport function useArtemisRowCursor(rows: readonly { id: string }[], query: string) {\n  const [selection, select] = useState<Cursor | null>(null);\n  const committed = useRef({ rows, query });\n  const index = selection?.session === query ? rows.findIndex(row => row.id === selection.key) : -1;\n  useLayoutEffect(() => {\n    committed.current = { rows, query };\n    if (selection && index < 0) select(null);\n  }, [rows, query, selection, index]);\n  const moveTo = useCallback((id: string | null) => {\n    select(id === null ? null : { key: id, session: committed.current.query });\n  }, []);\n  const moveActive = useCallback((direction: 1 | -1) => {\n    select(previous => {\n      const { rows: choices, query: session } = committed.current;\n      if (!choices.length) return previous;\n      const position = previous?.session === session ? choices.findIndex(row => row.id === previous.key) : -1;\n      const next = Math.max(0, Math.min(choices.length - 1, Math.max(0, position) + direction));\n      return { key: choices[next].id, session };\n    });\n  }, []);\n  return { activeIndex: Math.max(0, index), moveTo, moveActive };\n}\n"
     }
   ],
+  "meta": {
+    "bytes": 149675,
+    "agentHint": "import only, data: application/artemis/components/sidebar/variants/02-workspace/dropdown-css.ts"
+  },
   "category": "blocks",
   "family": "navigation",
   "kind": "block",

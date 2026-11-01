@@ -224,6 +224,9 @@
       "content": "\"use client\";\n// @zeus-internal\nimport { useLayoutEffect, useRef } from \"react\";\nexport function useArtemisOnOpen(open: boolean, start: () => void) {\n  const previous = useRef(open);\n  useLayoutEffect(() => {\n    const opening = open && !previous.current;\n    previous.current = open;\n    if (opening) start();\n  }, [open, start]);\n}\n"
     }
   ],
+  "meta": {
+    "bytes": 230666
+  },
   "category": "blocks",
   "family": "data",
   "kind": "block",

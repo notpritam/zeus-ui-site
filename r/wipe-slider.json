@@ -47,7 +47,8 @@
         "url": "https://myzeusui.com/assets/zeus/hero_run_02.jpg",
         "target": "public/assets/zeus/hero_run_02.jpg"
       }
-    ]
+    ],
+    "bytes": 19411
   },
   "category": "animations",
   "family": "layout",

@@ -25,6 +25,9 @@
       "content": "\"use client\";\nimport type { ComponentProps } from \"react\";\nimport { cx } from \"@/lib/cx\";\n/** Shared label paint for stand-alone indicators and conversation authors. */\nexport function AgentThinkingLabel({\n  shimmer = true,\n  variant = \"conversation\",\n  className,\n  ...props\n}: ComponentProps<\"span\"> & { shimmer?: boolean; variant?: \"conversation\" | \"progress\" }) {\n  return (\n    <span\n      {...props}\n      className={cx(\n        shimmer &&\n          (variant === \"progress\" ? \"agent-progress-loading-text\" : \"bui-agent-thinking-label\"),\n        className,\n      )}\n    />\n  );\n}\n"
     }
   ],
+  "meta": {
+    "bytes": 8882
+  },
   "category": "blocks",
   "family": "ai",
   "kind": "block",

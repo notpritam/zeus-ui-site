@@ -56,7 +56,8 @@
         "url": "https://myzeusui.com/assets/zeus/roster_cap-silhouette_03.jpg",
         "target": "public/assets/zeus/roster_cap-silhouette_03.jpg"
       }
-    ]
+    ],
+    "bytes": 29949
   },
   "category": "animations",
   "family": "overlays",

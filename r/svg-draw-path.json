@@ -26,6 +26,9 @@
       "content": "\"use client\";\nimport { useRef } from \"react\";\nimport { useScrollMotion, type ScrollMotionProps } from \"./scroll-shared\";\nexport interface SvgDrawPathProps extends ScrollMotionProps {\n  path: string;\n  viewBox?: string;\n  stroke?: string;\n  strokeWidth?: number;\n  ghostOpacity?: number;\n  label?: string;\n  reverse?: boolean;\n}\nexport function SvgDrawPath({\n  path,\n  viewBox = \"0 0 800 500\",\n  stroke = \"currentColor\",\n  strokeWidth = 3,\n  ghostOpacity = 0.12,\n  label = \"Scroll drawing\",\n  reverse = false,\n  ...props\n}: SvgDrawPathProps) {\n  const root = useRef<HTMLDivElement>(null);\n  useScrollMotion(\n    root,\n    props,\n    ({ progress: p }) => {\n      const line = root.current!.querySelector<SVGPathElement>(\"[data-scroll-path]\")!;\n      line.style.strokeDashoffset = String(reverse ? -(1 - p) : 1 - p);\n    },\n    `${path}:${reverse}`,\n  );\n  return (\n    <div\n      ref={root}\n      data-scroll-animation=\"svg-draw-path\"\n      className={props.className}\n      style={{ width: \"100%\", height: \"100%\", ...props.style }}\n    >\n      <svg\n        role=\"img\"\n        aria-label={label}\n        viewBox={viewBox}\n        style={{ display: \"block\", width: \"100%\", height: \"100%\", overflow: \"visible\" }}\n        fill=\"none\"\n        stroke={stroke}\n        strokeWidth={strokeWidth}\n        strokeLinecap=\"round\"\n        strokeLinejoin=\"round\"\n      >\n        <path d={path} opacity={ghostOpacity} />\n        <path\n          data-scroll-path=\"\"\n          d={path}\n          pathLength={1}\n          strokeDasharray=\"1\"\n          strokeDashoffset=\"0\"\n        />\n      </svg>\n    </div>\n  );\n}\n"
     }
   ],
+  "meta": {
+    "bytes": 13248
+  },
   "category": "animations",
   "family": "media",
   "kind": "animation",

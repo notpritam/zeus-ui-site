@@ -33,7 +33,8 @@
         "url": "https://myzeusui.com/assets/zeus/action_leap_01.jpg",
         "target": "public/assets/zeus/action_leap_01.jpg"
       }
-    ]
+    ],
+    "bytes": 21852
   },
   "category": "animations",
   "family": "media",

@@ -29,6 +29,9 @@
       "content": "\"use client\";\nimport type { HTMLAttributes, ReactNode } from \"react\";\nimport { I18nProvider, useLocale } from \"react-aria-components\";\nexport interface DirectionProviderProps extends Omit<HTMLAttributes<HTMLDivElement>, \"children\"> { locale: string; children: ReactNode }\nfunction Region({children,style,...props}:Omit<DirectionProviderProps,\"locale\">){const {direction,locale}=useLocale();return <div {...props} lang={locale} dir={direction} style={{display:\"contents\",...style}}>{children}</div>}\n/** Shares locale, keyboard direction and logical CSS layout within a region. */\nexport function DirectionProvider({locale,...props}:DirectionProviderProps){return <I18nProvider locale={locale}><Region {...props}/></I18nProvider>}\n"
     }
   ],
+  "meta": {
+    "bytes": 11596
+  },
   "category": "base",
   "family": "navigation",
   "kind": "component",

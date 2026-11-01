@@ -70,6 +70,9 @@
       "content": "// @zeus-internal\nimport { createLucideIcon } from \"lucide-react\";\nexport const FOCUS_RING = \"art:focus-visible:outline-none art:focus-visible:ring-2 art:focus-visible:ring-ring art:focus-visible:ring-offset-2 art:focus-visible:ring-offset-background\";\nexport const CircleAlert = createLucideIcon(\"circle-alert\", [\n    [\"circle\", { cx: \"12\", cy: \"12\", r: \"10\", key: \"1mglay\" }],\n    [\"line\", { x1: \"12\", x2: \"12\", y1: \"8\", y2: \"12\", key: \"1pkeuh\" }],\n    [\"line\", { x1: \"12\", x2: \"12.01\", y1: \"16\", y2: \"16\", key: \"4dfq90\" }],\n]);\n"
     }
   ],
+  "meta": {
+    "bytes": 34148
+  },
   "category": "blocks",
   "family": "data",
   "kind": "block",

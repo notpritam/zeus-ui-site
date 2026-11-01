@@ -61,6 +61,9 @@
       "content": "\"use client\";\n\nimport { CountryCodeSelect } from \"./country-code-select\";\nimport { Input, type InputProps } from \"./input\";\n\nexport interface PhoneInputProps extends Omit<InputProps, \"leadingAddon\" | \"leadingIcon\"> {\n  /** Controlled ISO country code. */\n  country?: string;\n  /** Initial ISO country code for an uncontrolled selector. */\n  defaultCountry?: string;\n  onCountryChange?: (country: string) => void;\n}\n\n/** A text field and independent dialing-code selector. Values are never reformatted. */\nexport function PhoneInput({\n  country,\n  defaultCountry = \"US\",\n  onCountryChange,\n  isDisabled,\n  ...props\n}: PhoneInputProps) {\n  return (\n    <Input\n      {...props}\n      isDisabled={isDisabled}\n      leadingAddon={\n        <CountryCodeSelect\n          selectedKey={country}\n          defaultSelectedKey={defaultCountry}\n          onSelectionChange={(key) => key != null && onCountryChange?.(String(key))}\n          isDisabled={isDisabled}\n        />\n      }\n    />\n  );\n}\n"
     }
   ],
+  "meta": {
+    "bytes": 34535
+  },
   "category": "base",
   "family": "forms",
   "kind": "component",

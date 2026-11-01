@@ -1,0 +1,66 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "artemis-testimonials--spotlight",
+  "type": "registry:block",
+  "title": "Customer quotes: Spotlight",
+  "variants": [
+    {
+      "name": "spotlight",
+      "title": "Spotlight"
+    }
+  ],
+  "description": "Customer quotes, Spotlight layout only",
+  "dependencies": [
+    "motion@^12.42.2"
+  ],
+  "registryDependencies": [
+    "https://myzeusui.com/r/artemis-controls.json",
+    "https://myzeusui.com/r/artemis-tokens.json"
+  ],
+  "files": [
+    {
+      "path": "application/artemis/artemis-testimonials.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/artemis-testimonials.tsx",
+      "content": "\"use client\";\nimport { ArtemisScope } from \"./artemis-scope\";\nimport type { ArtemisTestimonialsContent } from \"./components/testimonials/content\";\nimport View1 from \"./components/testimonials/variants/02-spotlight\";\nconst variants={\"spotlight\":View1};\nexport type { ArtemisTestimonialsContent, ArtemisTestimonialsImage, ArtemisTestimonialsQuote } from \"./components/testimonials/content\";\nexport interface ArtemisTestimonialsProps { className?: string; variant?: \"spotlight\"; /** The words on the testimonials; anything left out keeps the layout's own copy. */ content?: Partial<ArtemisTestimonialsContent>; }\nexport function ArtemisTestimonials({className,variant=\"spotlight\",content}:ArtemisTestimonialsProps) {const View=variants[variant];return <ArtemisScope className={className}><div className=\"art:flex art:w-full art:min-w-0 art:flex-col art:items-center\"><View content={content}/></div></ArtemisScope>;}\n"
+    },
+    {
+      "path": "application/artemis/components/testimonials/content.ts",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/testimonials/content.ts",
+      "content": "// @zeus-internal\n\n/** A picture, and the words that describe it. */\nexport interface ArtemisTestimonialsImage {\n  src: string;\n  /** What the picture shows; empty for a purely decorative one. */\n  alt: string;\n}\n\n/** One testimonial: what was said, and who said it. */\nexport interface ArtemisTestimonialsQuote {\n  /** What they said, without quotation marks; marquee, spotlight, grid and vertical add their own. All layouts. */\n  quote: string;\n  /** Who said it. All layouts. */\n  name: string;\n  /** Their title and company as one line, such as \"Frontend Lead, Workspace\". All layouts. */\n  role: string;\n  /** Their photo. marquee, spotlight, grid and archive, which show the person's initials in its place when you leave it out. */\n  avatar?: ArtemisTestimonialsImage;\n  /** A short result over the quote, such as \"18 days saved\". vertical. */\n  metric?: string;\n}\n\n/** The words on an Artemis testimonials section. Every layout reads this shape, so you can switch layouts and keep them. */\nexport interface ArtemisTestimonialsContent {\n  /** The short label over the heading; over the quote in spotlight. All layouts. */\n  badge: string;\n  /** The heading. marquee, grid, archive and vertical. */\n  headline?: string;\n  /** The heading's second part. marquee and grid reveal it after `headline`, archive starts a new line for it, and vertical runs it on after `headline`. Left out, it keeps the layout's own only when `headline` is left out too. */\n  headlineAccent?: string;\n  /** A sentence beside or under the heading. marquee, grid and archive. */\n  subhead?: string;\n  /**\n   * The testimonials. All layouts. marquee scrolls them in two rows, the first half on top, and eight or more look\n   * best; spotlight shows one at a time with a photo button for each, and four look best; grid shows the first one\n   * larger; archive pins them in up to three columns; vertical fills three scrolling columns in order, shows the third\n   * from 1024px wide, and nine look best.\n   */\n  quotes: ArtemisTestimonialsQuote[];\n  /** The word after the number of quotes, as in \"9 dispatches\". vertical. */\n  countLabel?: string;\n  /** A short line beside that count. vertical. */\n  note?: string;\n}\n"
+    },
+    {
+      "path": "application/artemis/components/testimonials/variants/02-spotlight.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/testimonials/variants/02-spotlight.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { AnimatePresence, motion, useReducedMotion } from \"motion/react\";\nimport { useEffect, useState } from \"react\";\nimport { ARTEMIS_EASE_OUT, ARTEMIS_SPRING_PANEL } from \"../../../lib/ease\";\nimport type { ArtemisTestimonialsContent } from \"../content\";\nconst DEFAULT = {\n    badge: \"Wall of love\",\n    quotes: [\n        {\n            name: \"Morgan Wells\",\n            role: \"Frontend Lead, Workspace\",\n            quote: \"Artemis gave us motion we could never have built in time. Our launch page went from flat to premium in two days, and the springs feel completely native.\",\n            avatar: { src: \"/assets/artemis/327d06eee6b741023403.svg\", alt: \"\" },\n        },\n        {\n            name: \"Avery Lane\",\n            role: \"Design Engineer, Group B\",\n            quote: \"The agent primitives are the real unlock. Streaming responses, tool-call surfaces, thinking states \\u2014 all handled, all polished, all ours to edit.\",\n            avatar: { src: \"/assets/artemis/327d06eee6b741023403.svg\", alt: \"\" },\n        },\n        {\n            name: \"Jordan Stone\",\n            role: \"Staff Engineer, Group C\",\n            quote: \"Copy-paste source with no black-box dependency was the deciding factor. We read every line, own every line, and ship with full confidence.\",\n            avatar: { src: \"/assets/artemis/327d06eee6b741023403.svg\", alt: \"\" },\n        },\n        {\n            name: \"Morgan Park\",\n            role: \"Head of Design, Group D\",\n            quote: \"Installed from our private registry in one command. Every block reads perfectly in light and dark \\u2014 we haven't filed a single theme bug since.\",\n            avatar: { src: \"/assets/artemis/327d06eee6b741023403.svg\", alt: \"\" },\n        },\n    ],\n} satisfies ArtemisTestimonialsContent;\n/** Up to two initials from a name, shown in place of a missing photo. */\nconst initials = (name: string) => name.split(/\\s+/).filter(Boolean).slice(0, 2).map((part) => part[0]?.toUpperCase() ?? \"\").join(\"\");\nexport default function TestimonialsSpotlight({ content }: { content?: Partial<ArtemisTestimonialsContent> } = {}) {\n    const copy = { ...DEFAULT, ...content };\n    const count = copy.quotes.length;\n    const reduce = useReducedMotion();\n    const [active, setActive] = useState(0);\n    const [paused, setPaused] = useState(false);\n    useEffect(() => {\n        if (paused || reduce || count < 2)\n            return;\n        const timer = setInterval(() => setActive((current) => (current + 1) % count), 5000);\n        return () => clearInterval(timer);\n    }, [paused, reduce, count]);\n    const item = copy.quotes[active] ?? copy.quotes[0];\n    if (!item)\n        return null;\n    return (<>\n      <div className=\"art:w-full\">\n        <section onMouseEnter={() => setPaused(true)} onMouseLeave={() => setPaused(false)} className=\"art:w-full\">\n          <div className=\"art:mx-auto art:flex art:w-full art:max-w-3xl art:flex-col art:items-center art:text-center\">\n            <span className=\"art:inline-flex art:items-center art:rounded-full art:border art:border-border/60 art:bg-background art:px-3 art:py-1 art:font-medium art:text-muted-foreground art:text-xs\">\n              {copy.badge}\n            </span>\n            <div className=\"art:relative art:mt-8 art:flex art:min-h-[12rem] art:items-center art:justify-center\">\n              <AnimatePresence mode=\"wait\" initial={false}>\n                <motion.blockquote key={active} className=\"art:text-balance art:font-sans art:text-foreground art:text-xl art:leading-[1.4] art:@min-[640px]/artemis:text-2xl\" initial={reduce ? false : { opacity: 0, y: 16, filter: \"blur(8px)\" }} animate={{ opacity: 1, y: 0, filter: \"blur(0px)\" }} exit={reduce ? undefined : { opacity: 0, y: -12, filter: \"blur(8px)\" }} transition={{ duration: reduce ? 0 : 0.4, ease: ARTEMIS_EASE_OUT }}>\n                  {\"\\u201C\"}{item.quote}{\"\\u201D\"}\n                </motion.blockquote>\n              </AnimatePresence>\n            </div>\n            <div className=\"art:mt-8 art:h-12\">\n              <AnimatePresence mode=\"wait\" initial={false}>\n                <motion.div key={active} initial={reduce ? false : { opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} exit={reduce ? undefined : { opacity: 0, y: -8 }} transition={{ duration: reduce ? 0 : 0.3, ease: ARTEMIS_EASE_OUT }}>\n                  <p className=\"art:font-medium art:text-foreground art:text-sm\">{item.name}</p>\n                  <p className=\"art:text-muted-foreground art:text-xs\">{item.role}</p>\n                </motion.div>\n              </AnimatePresence>\n            </div>\n            <div className=\"art:mt-10 art:flex art:items-end art:justify-center\">\n              {copy.quotes.map((testimonial, index) => {\n            const selected = index === active;\n            const offset = index - (count - 1) / 2;\n            return (<motion.button key={testimonial.name} type=\"button\" className=\"art:items-center art:justify-center art:select-none art:transition-colors art:disabled:pointer-events-none art:disabled:opacity-50 art:gap-2 art:text-sm art:focus-visible:outline-none art:focus-visible:ring-offset-2 art:focus-visible:ring-offset-background art:inline-block art:h-auto art:p-0 art:font-normal art:text-inherit art:hover:bg-transparent art:hover:text-inherit art:relative art:outline-none art:focus-visible:ring-2 art:focus-visible:ring-foreground/30 art:rounded-full\" aria-label={`Show testimonial from ${testimonial.name}`} aria-pressed={selected} tabIndex={0} onClick={() => setActive(index)} style={{ zIndex: selected ? 10 : 1, marginLeft: index === 0 ? 0 : \"-0.5rem\" }} animate={reduce ? undefined : { y: selected ? -8 : Math.abs(offset) * 5, scale: selected ? 1.14 : 1, rotate: selected ? 0 : offset * 4 }} whileHover={reduce ? undefined : { scale: 1.01 }} whileTap={reduce ? undefined : { scale: 0.99 }} transition={ARTEMIS_SPRING_PANEL}>\n                    {selected && <motion.span aria-hidden=\"true\" className=\"art:-inset-0.5 art:-z-10 art:pointer-events-none art:absolute art:rounded-2xl art:border art:border-border art:bg-white/25 art:backdrop-blur-sm\" initial={reduce ? false : { opacity: 0, scale: 0.85 }} animate={{ opacity: 1, scale: 1 }} transition={ARTEMIS_SPRING_PANEL}/>}\n                    {testimonial.avatar ? (<img src={testimonial.avatar.src} alt={testimonial.avatar.alt} aria-hidden=\"true\" width=\"56\" height=\"56\" loading=\"lazy\" className={`art:size-14 art:rounded-2xl art:border art:border-border/60 art:object-cover art:transition-[filter,opacity,box-shadow] ${selected ? \"art:opacity-100\" : \"art:opacity-70 art:grayscale art:hover:opacity-90\"}`}/>) : (<span aria-hidden=\"true\" className={`art:grid art:size-14 art:place-items-center art:rounded-2xl art:border art:border-border/60 art:bg-muted art:font-medium art:text-muted-foreground art:text-sm art:transition-[filter,opacity,box-shadow] ${selected ? \"art:opacity-100\" : \"art:opacity-70 art:grayscale art:hover:opacity-90\"}`}>\n                        {initials(testimonial.name)}\n                      </span>)}\n                  </motion.button>);\n        })}\n            </div>\n          </div>\n        </section>\n      </div>\n    </>);\n}\n"
+    },
+    {
+      "path": "public/assets/artemis/327d06eee6b741023403.svg",
+      "type": "registry:file",
+      "target": "~/public/assets/artemis/327d06eee6b741023403.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\"><path fill=\"#dcfce7\" d=\"M0 0h64v64H0z\"/><circle cx=\"32\" cy=\"24\" r=\"12\" fill=\"#4ade80\"/><ellipse cx=\"32\" cy=\"60\" rx=\"24\" ry=\"22\" fill=\"#4ade80\"/></svg>\n"
+    }
+  ],
+  "meta": {
+    "bytes": 10472,
+    "layoutOf": "artemis-testimonials"
+  },
+  "category": "blocks",
+  "family": "layout",
+  "kind": "block",
+  "designSystem": "artemis",
+  "foundationDependencies": [
+    "artemis-tokens"
+  ],
+  "iconLibraries": [],
+  "tags": [
+    "artemis",
+    "testimonials",
+    "motion"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "cba581d7a549"
+}

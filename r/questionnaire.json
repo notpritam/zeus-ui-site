@@ -35,6 +35,9 @@
       "content": "// @zeus-internal\nimport { cx } from \"@/lib/cx\";\nexport const INPUT_FIELD_SURFACE = \"relative flex w-full items-center rounded-2lg bg-background-tertiary-default text-foreground-icon-tertiary ring-2 ring-inset ring-transparent transition-[background-color,box-shadow,color] duration-[var(--input-transition-ms)] ease\";\nexport function inputFieldStateClasses({ isFocusWithin, isHovered, isDisabled, isInvalid }: {\n  isFocusWithin: boolean;\n  isHovered: boolean;\n  isDisabled: boolean;\n  isInvalid: boolean;\n}) {\n  return cx(\n    isHovered && !isFocusWithin && !isDisabled && !isInvalid && \"ring-border-button-hover\",\n    isFocusWithin && !isDisabled && !isInvalid && \"ring-border-button-active\",\n    isDisabled && \"bg-input-disabled-background text-input-disabled-foreground\",\n    isInvalid && \"bg-background-tertiary-error text-foreground-icon-error\",\n  );\n}\n"
     }
   ],
+  "meta": {
+    "bytes": 12539
+  },
   "category": "blocks",
   "family": "ai",
   "kind": "block",

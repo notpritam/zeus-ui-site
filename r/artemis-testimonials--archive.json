@@ -1,0 +1,72 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "artemis-testimonials--archive",
+  "type": "registry:block",
+  "title": "Customer quotes: Archive wall",
+  "variants": [
+    {
+      "name": "archive",
+      "title": "Archive wall"
+    }
+  ],
+  "description": "Customer quotes, Archive wall layout only",
+  "dependencies": [
+    "motion@^12.42.2"
+  ],
+  "registryDependencies": [
+    "https://myzeusui.com/r/artemis-controls.json",
+    "https://myzeusui.com/r/artemis-tokens.json"
+  ],
+  "files": [
+    {
+      "path": "application/artemis/artemis-testimonials.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/artemis-testimonials.tsx",
+      "content": "\"use client\";\nimport { ArtemisScope } from \"./artemis-scope\";\nimport type { ArtemisTestimonialsContent } from \"./components/testimonials/content\";\nimport View3 from \"./components/testimonials/variants/04-archive\";\nconst variants={\"archive\":View3};\nexport type { ArtemisTestimonialsContent, ArtemisTestimonialsImage, ArtemisTestimonialsQuote } from \"./components/testimonials/content\";\nexport interface ArtemisTestimonialsProps { className?: string; variant?: \"archive\"; /** The words on the testimonials; anything left out keeps the layout's own copy. */ content?: Partial<ArtemisTestimonialsContent>; }\nexport function ArtemisTestimonials({className,variant=\"archive\",content}:ArtemisTestimonialsProps) {const View=variants[variant];return <ArtemisScope className={className}><div className=\"art:flex art:w-full art:min-w-0 art:flex-col art:items-center\"><View content={content}/></div></ArtemisScope>;}\n"
+    },
+    {
+      "path": "application/artemis/components/testimonials/content.ts",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/testimonials/content.ts",
+      "content": "// @zeus-internal\n\n/** A picture, and the words that describe it. */\nexport interface ArtemisTestimonialsImage {\n  src: string;\n  /** What the picture shows; empty for a purely decorative one. */\n  alt: string;\n}\n\n/** One testimonial: what was said, and who said it. */\nexport interface ArtemisTestimonialsQuote {\n  /** What they said, without quotation marks; marquee, spotlight, grid and vertical add their own. All layouts. */\n  quote: string;\n  /** Who said it. All layouts. */\n  name: string;\n  /** Their title and company as one line, such as \"Frontend Lead, Workspace\". All layouts. */\n  role: string;\n  /** Their photo. marquee, spotlight, grid and archive, which show the person's initials in its place when you leave it out. */\n  avatar?: ArtemisTestimonialsImage;\n  /** A short result over the quote, such as \"18 days saved\". vertical. */\n  metric?: string;\n}\n\n/** The words on an Artemis testimonials section. Every layout reads this shape, so you can switch layouts and keep them. */\nexport interface ArtemisTestimonialsContent {\n  /** The short label over the heading; over the quote in spotlight. All layouts. */\n  badge: string;\n  /** The heading. marquee, grid, archive and vertical. */\n  headline?: string;\n  /** The heading's second part. marquee and grid reveal it after `headline`, archive starts a new line for it, and vertical runs it on after `headline`. Left out, it keeps the layout's own only when `headline` is left out too. */\n  headlineAccent?: string;\n  /** A sentence beside or under the heading. marquee, grid and archive. */\n  subhead?: string;\n  /**\n   * The testimonials. All layouts. marquee scrolls them in two rows, the first half on top, and eight or more look\n   * best; spotlight shows one at a time with a photo button for each, and four look best; grid shows the first one\n   * larger; archive pins them in up to three columns; vertical fills three scrolling columns in order, shows the third\n   * from 1024px wide, and nine look best.\n   */\n  quotes: ArtemisTestimonialsQuote[];\n  /** The word after the number of quotes, as in \"9 dispatches\". vertical. */\n  countLabel?: string;\n  /** A short line beside that count. vertical. */\n  note?: string;\n}\n"
+    },
+    {
+      "path": "application/artemis/components/testimonials/variants/04-archive.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/testimonials/variants/04-archive.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { motion, useReducedMotion } from \"motion/react\";\nimport { ARTEMIS_EASE_OUT } from \"../../../lib/ease\";\nimport type { ArtemisTestimonialsContent } from \"../content\";\nconst DEFAULT = {\n    badge: \"Hall of fame\",\n    headline: \"Builders who never\",\n    headlineAccent: \"ship alone.\",\n    subhead: \"Field notes from teams shipping with Artemis.\",\n    quotes: [\n        { quote: \"Shipped our pricing page in an afternoon. The motion is the part I could never get right by hand — now it just feels native.\", name: \"Morgan Wells\", role: \"Frontend Lead @ Workspace\", avatar: { src: \"/assets/artemis/83b960a1aaa67c851088.svg\", alt: \"\" } },\n        { quote: \"The agent primitives saved us weeks. Streaming, tool calls, thinking states — all handled, all ours to edit.\", name: \"Cameron Avery\", role: \"Design Engineer @ Group B\", avatar: { src: \"/assets/artemis/83b960a1aaa67c851088.svg\", alt: \"\" } },\n        { quote: \"Every block reads perfectly in light and dark. We haven't filed a single theme bug since we switched.\", name: \"Robin Ellis\", role: \"Product Designer @ Group F\", avatar: { src: \"/assets/artemis/83b960a1aaa67c851088.svg\", alt: \"\" } },\n        { quote: \"Copy-paste source means no black-box dependency. We read every line, own every line, and ship with confidence.\", name: \"Jordan Stone\", role: \"Staff Engineer @ Group C\", avatar: { src: \"/assets/artemis/327d06eee6b741023403.svg\", alt: \"\" } },\n        { quote: \"Installed from our private registry in one command. Onboarding new engineers is trivial now.\", name: \"Liam O'Brien\", role: \"CTO @ Group E\", avatar: { src: \"/assets/artemis/327d06eee6b741023403.svg\", alt: \"\" } },\n        { quote: \"Feels like the components were designed by someone who actually ships products, not just demos.\", name: \"Avery Stone\", role: \"Founder @ Group A\", avatar: { src: \"/assets/artemis/83b960a1aaa67c851088.svg\", alt: \"\" } },\n    ],\n} satisfies ArtemisTestimonialsContent;\n/** Each card's tilt, the label under its photo and its file number, by position. They only decorate, and repeat after six. */\nconst TILTS = [-1.2, 0.8, -0.6, 1.1, -0.9, 0.6];\nconst FIGURES = [\"FIG. A\", \"FIG. M\", \"FIG. S\", \"FIG. E\", \"FIG. D\", \"FIG. R\"];\nconst REFS = [\"ARC-8492\", \"ARC-3391\", \"ARC-7721\", \"ARC-9102\", \"ARC-2104\", \"ARC-5567\"];\n/** Up to two initials from a name, shown in place of a missing photo. */\nconst initials = (name: string) => name.split(/\\s+/).filter(Boolean).slice(0, 2).map((part) => part[0]?.toUpperCase() ?? \"\").join(\"\");\nexport default function TestimonialsArchive({ content }: { content?: Partial<ArtemisTestimonialsContent> } = {}) {\n    const copy = { ...DEFAULT, ...content };\n    const accent = content?.headline === undefined ? copy.headlineAccent : content.headlineAccent;\n    const reduce = useReducedMotion();\n    return (<>\n      <div className=\"art:w-full\">\n        <section className=\"art:w-full art:px-2\">\n          <div className=\"art:mx-auto art:w-full art:max-w-6xl\">\n            <div className=\"art:flex art:flex-col art:gap-4 art:@min-[640px]/artemis:flex-row art:@min-[640px]/artemis:items-end art:@min-[640px]/artemis:justify-between\">\n              <div>\n                <span className=\"art:inline-flex art:items-center art:gap-2 art:rounded-md art:border art:border-border/60 art:bg-background art:px-2.5 art:py-1 art:font-mono art:text-xs art:text-muted-foreground art:uppercase art:tracking-[0.18em]\">\n                  {copy.badge}\n                </span>\n                <h2 className=\"art:mt-5 art:text-balance art:font-sans art:text-foreground art:leading-[1.05] art:text-4xl art:font-medium\">\n                  <span className=\"art:block\">\n                    {copy.headline}\n                  </span>\n                  {accent ? (<span className=\"art:block\">\n                      {accent}\n                    </span>) : null}\n                </h2>\n              </div>\n              <p className=\"art:font-mono art:text-muted-foreground art:text-sm art:tracking-tight art:@min-[640px]/artemis:pb-2\">\n                {copy.subhead}\n              </p>\n            </div>\n            <div className=\"art:mt-20 art:grid art:grid-cols-1 art:items-start art:gap-x-6 art:gap-y-14 art:@min-[640px]/artemis:grid-cols-2 art:@min-[1024px]/artemis:grid-cols-3\">\n              {copy.quotes.map((item, index) => {\n            const tilt = TILTS[index % TILTS.length];\n            return (<motion.figure key={index} className=\"art:relative art:rounded art:border art:border-border/70 art:bg-muted/40 art:p-5\" initial={{ opacity: 0, y: 24, rotate: tilt }} animate={{ rotate: tilt }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: \"-40px\" }} transition={reduce ? { duration: 0 } : { duration: 0.5, ease: ARTEMIS_EASE_OUT, delay: index * 0.06 }}>\n                <div className=\"art:-top-9 art:absolute art:right-3 art:w-[5.5rem] art:rotate-[5deg]\">\n                  <div className=\"art:rounded-sm art:border art:border-border/60 art:bg-background art:p-1.5\">\n                    {item.avatar ? (<img src={item.avatar.src} alt={item.avatar.alt} aria-hidden=\"true\" width=\"72\" height=\"72\" loading=\"lazy\" className=\"art:aspect-square art:w-full art:rounded-sm art:bg-muted art:object-cover\"/>) : (<span aria-hidden=\"true\" className=\"art:grid art:aspect-square art:w-full art:place-items-center art:rounded-sm art:bg-muted art:font-sans art:text-lg art:text-muted-foreground art:italic\">\n                        {initials(item.name)}\n                      </span>)}\n                    <p className=\"art:mt-1 art:text-center art:font-sans art:text-xs art:text-muted-foreground art:italic\">\n                      {FIGURES[index % FIGURES.length]}\n                    </p>\n                  </div>\n                </div>\n                <p className=\"art:pr-24 art:font-mono art:text-xs art:text-muted-foreground art:tracking-[0.2em]\">\n                  {\"REF \"}\n                  <span className=\"art:ml-1 art:text-foreground\">\n                    {REFS[index % REFS.length]}\n                  </span>\n                </p>\n                <blockquote className=\"art:mt-7 art:max-w-[15rem] art:font-mono art:text-foreground art:text-sm art:leading-6\">\n                  {item.quote}\n                </blockquote>\n                <figcaption className=\"art:mt-5 art:flex art:items-end art:justify-between art:border-border/70 art:border-t art:border-dashed art:pt-3\">\n                  <div>\n                    <p className=\"art:font-sans art:text-base art:text-foreground art:italic\">\n                      {item.name}\n                    </p>\n                    <p className=\"art:mt-0.5 art:font-mono art:text-xs art:text-muted-foreground art:uppercase art:tracking-[0.12em]\">\n                      {item.role}\n                    </p>\n                  </div>\n                  <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" className=\"art:lucide art:lucide-mail art:size-3.5 art:text-muted-foreground/40\" aria-hidden=\"true\">\n                    <path d=\"m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7\"/>\n                    <rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/>\n                  </svg>\n                </figcaption>\n              </motion.figure>);\n        })}\n            </div>\n          </div>\n        </section>\n      </div>\n    </>);\n}\n"
+    },
+    {
+      "path": "public/assets/artemis/327d06eee6b741023403.svg",
+      "type": "registry:file",
+      "target": "~/public/assets/artemis/327d06eee6b741023403.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\"><path fill=\"#dcfce7\" d=\"M0 0h64v64H0z\"/><circle cx=\"32\" cy=\"24\" r=\"12\" fill=\"#4ade80\"/><ellipse cx=\"32\" cy=\"60\" rx=\"24\" ry=\"22\" fill=\"#4ade80\"/></svg>\n"
+    },
+    {
+      "path": "public/assets/artemis/83b960a1aaa67c851088.svg",
+      "type": "registry:file",
+      "target": "~/public/assets/artemis/83b960a1aaa67c851088.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\"><path fill=\"#fce7f3\" d=\"M0 0h64v64H0z\"/><circle cx=\"32\" cy=\"24\" r=\"12\" fill=\"#f472b6\"/><ellipse cx=\"32\" cy=\"60\" rx=\"24\" ry=\"22\" fill=\"#f472b6\"/></svg>\n"
+    }
+  ],
+  "meta": {
+    "bytes": 10920,
+    "layoutOf": "artemis-testimonials"
+  },
+  "category": "blocks",
+  "family": "layout",
+  "kind": "block",
+  "designSystem": "artemis",
+  "foundationDependencies": [
+    "artemis-tokens"
+  ],
+  "iconLibraries": [],
+  "tags": [
+    "artemis",
+    "testimonials",
+    "motion"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "ce7e97a3d556"
+}

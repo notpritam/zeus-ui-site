@@ -45,6 +45,9 @@
       "content": "// @zeus-internal\nimport type { ReactElement } from \"react\";\nconst symbols = [\"BTC\",\"ETH\",\"USDT\",\"BNB\",\"SOL\",\"USDC\",\"XRP\",\"DOGE\",\"TON\",\"ADA\",\"AVAX\",\"LINK\",\"DAI\",\"UNI\",\"PEPE\",\"POL\",\"ARB\",\"AAVE\",\"OP\"];\nconst colors = [\"#ed8b21\",\"#7279dd\",\"#009b87\",\"#e9ba34\",\"#7c53ca\",\"#3277c6\",\"#d75883\",\"#4ba3bc\"];\nexport const COIN_ICONS: Record<string, ReactElement> = Object.fromEntries(symbols.map((symbol, index) => [symbol, <svg key={symbol} viewBox=\"0 0 24 24\" className=\"art:size-full\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"12\" fill={colors[index % colors.length]}/><path d={index % 3 === 0 ? \"M12 5 18 12 12 19 6 12Z\" : index % 3 === 1 ? \"M7 8h10v8H7zM12 5v14\" : \"M6 12h12M12 6v12\"} fill=\"none\" stroke=\"white\" strokeWidth=\"1.7\" strokeLinejoin=\"round\"/></svg>]));\n"
     }
   ],
+  "meta": {
+    "bytes": 33113
+  },
   "category": "blocks",
   "family": "data",
   "kind": "block",

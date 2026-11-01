@@ -1,0 +1,54 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "artemis-text-highlight--blur-highlight",
+  "type": "registry:component",
+  "title": "Text highlight: Blur highlight",
+  "variants": [
+    {
+      "name": "blur-highlight",
+      "title": "Blur highlight"
+    }
+  ],
+  "description": "Text highlight, Blur highlight layout only",
+  "dependencies": [
+    "motion@^12.42.2"
+  ],
+  "registryDependencies": [
+    "https://myzeusui.com/r/artemis-controls.json",
+    "https://myzeusui.com/r/artemis-tokens.json"
+  ],
+  "files": [
+    {
+      "path": "application/artemis/artemis-text-highlight.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/artemis-text-highlight.tsx",
+      "content": "\"use client\";\nimport { ArtemisScope } from \"./artemis-scope\";\nimport Variant0 from \"./components/animated-text/variants/02-blur-highlight\";\nconst variants = { \"blur-highlight\": Variant0 };\nexport interface ArtemisTextHighlightProps {\n  className?: string;\n  variant?: \"blur-highlight\";\n}\nexport function ArtemisTextHighlight({\n  className,\n  variant = \"blur-highlight\",\n}: ArtemisTextHighlightProps) {\n  const View = variants[variant];\n  return (\n    <ArtemisScope className={`art:[&>*]:mx-auto ${className ?? \"\"}`}>\n      <View />\n    </ArtemisScope>\n  );\n}\n"
+    },
+    {
+      "path": "application/artemis/components/animated-text/variants/02-blur-highlight.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/animated-text/variants/02-blur-highlight.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { useEffect, useRef, useState } from \"react\";\nimport { motion, useInView } from \"motion/react\";\nimport { ARTEMIS_EASE_OUT, ARTEMIS_SPRING_SWAP } from \"../../../lib/ease\";\nconst words = [\n    \"We\",\n    \"turn\",\n    \"ideas\",\n    \"into\",\n    \"interfaces\",\n    \"where\",\n    \"movement\",\n    \"creates\",\n    \"clarity,\",\n    \"rhythm\",\n    \"builds\",\n    \"trust,\",\n    \"and\",\n    \"every\",\n    \"interaction\",\n    \"carries\",\n    \"meaning.\",\n] as const;\nconst phraseOfWord = (index: number) => {\n    if (index >= 2 && index <= 4)\n        return 0;\n    if (index >= 6 && index <= 8)\n        return 1;\n    if (index >= 15 && index <= 16)\n        return 2;\n    return -1;\n};\nexport default function AnimatedTextBlurHighlight() {\n    const paragraph = useRef<HTMLParagraphElement>(null);\n    const inView = useInView(paragraph, { once: true, amount: 0.1 });\n    const [highlight, setHighlight] = useState(-1);\n    useEffect(() => {\n        if (!inView)\n            return;\n        let interval: ReturnType<typeof setInterval> | undefined;\n        const timeout = setTimeout(() => {\n            setHighlight(0);\n            interval = setInterval(() => setHighlight((current) => (current + 1) % 3), 1800);\n        }, 1600);\n        return () => {\n            clearTimeout(timeout);\n            if (interval)\n                clearInterval(interval);\n        };\n    }, [inView]);\n    return (<>\n      <p ref={paragraph} className=\"art:text-pretty art:max-w-4xl art:font-medium art:text-3xl art:text-foreground art:leading-[1.18] art:tracking-[-0.04em] art:@min-[640px]/artemis:text-5xl art:@min-[1024px]/artemis:text-6xl\">\n        {words.map((word, index) => {\n            const phrase = phraseOfWord(index);\n            const marked = phrase >= 0 && phrase === highlight;\n            const markerClass = index === 4 || index === 8 || index === 16\n                ? \"art:absolute art:inset-y-[0.03em] art:-right-[0.12em] art:-left-[0.12em] art:-z-10 art:bg-orange-200\" : \"art:absolute art:inset-y-[0.03em] art:-left-[0.12em] art:-z-10 art:bg-orange-200 art:-right-[0.3em]\";\n            return (<span key={index}>\n              <motion.span className={`art:relative art:isolate art:inline-block art:transition-colors art:duration-200${marked ? \" art:text-orange-950\" : \"\"}`} initial={{ transform: \"translateY(30%)\", opacity: 0, filter: \"blur(10px)\" }} animate={inView ? { transform: \"translateY(0%)\", opacity: 1, filter: \"blur(0px)\" } : { transform: \"translateY(30%)\", opacity: 0, filter: \"blur(10px)\" }} transition={{ duration: 0.55, ease: ARTEMIS_EASE_OUT, delay: index * 0.045 }}>\n                {phrase >= 0 && (<motion.span aria-hidden=\"true\" className={markerClass} initial={false} style={{ transform: \"scaleX(0.78)\", opacity: 0 }} animate={{ transform: `scaleX(${marked ? 1 : 0.78})`, opacity: marked ? 1 : 0 }} transition={ARTEMIS_SPRING_SWAP}/>)}\n                {word}\n              </motion.span>\n              {index < words.length - 1 ? \" \" : null}\n            </span>);\n        })}\n      </p>\n    </>);\n}\n"
+    }
+  ],
+  "meta": {
+    "bytes": 3596,
+    "layoutOf": "artemis-text-highlight"
+  },
+  "category": "animations",
+  "family": "typography",
+  "kind": "animation",
+  "designSystem": "artemis",
+  "foundationDependencies": [
+    "artemis-tokens"
+  ],
+  "iconLibraries": [],
+  "tags": [
+    "artemis",
+    "text-highlight",
+    "motion"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "ffae649ec670"
+}

@@ -52,6 +52,9 @@
       "content": "\"use client\";\n// @zeus-internal\nimport { ArtemisSegmentedTabs } from \"../../../../foundations/segmented-tabs\";\nexport function StepTabs({ items, value, onValueChange }: { items: readonly { value: string; label: string }[]; value: string; onValueChange: (value: string) => void }) {\n  return <ArtemisSegmentedTabs items={items} value={value} onValueChange={onValueChange} ariaLabel=\"Tour steps\" listClassName=\"art:inline-flex art:w-full art:items-center art:gap-1 art:rounded-full art:bg-muted art:p-1 art:*:flex-1\" buttonClassName=\"art:w-full art:rounded-full art:px-2\"/>;\n}\n"
     }
   ],
+  "meta": {
+    "bytes": 19473
+  },
   "category": "blocks",
   "family": "layout",
   "kind": "block",

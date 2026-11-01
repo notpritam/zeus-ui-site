@@ -1,0 +1,54 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "artemis-not-found-pages--editorial",
+  "type": "registry:block",
+  "title": "Not found pages: Editorial issue",
+  "variants": [
+    {
+      "name": "editorial",
+      "title": "Editorial issue"
+    }
+  ],
+  "description": "Not found pages, Editorial issue layout only",
+  "dependencies": [
+    "motion@^12.42.2"
+  ],
+  "registryDependencies": [
+    "https://myzeusui.com/r/artemis-controls.json",
+    "https://myzeusui.com/r/artemis-tokens.json"
+  ],
+  "files": [
+    {
+      "path": "application/artemis/artemis-not-found-pages.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/artemis-not-found-pages.tsx",
+      "content": "\"use client\";\nimport {ArtemisScope} from \"./artemis-scope\";\nimport View6 from \"./components/not-found-pages/variants/07-editorial\";\nconst views={\"editorial\":View6};\nexport interface ArtemisNotFoundPagesProps{className?:string;variant?:\"editorial\";}\nexport function ArtemisNotFoundPages({className,variant=\"editorial\"}:ArtemisNotFoundPagesProps){const View=views[variant];return <ArtemisScope className={[\"art:min-h-dvh art:[&>section]:min-h-dvh\",className].filter(Boolean).join(\" \")}><View/></ArtemisScope>;}\n"
+    },
+    {
+      "path": "application/artemis/components/not-found-pages/variants/07-editorial.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/not-found-pages/variants/07-editorial.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { useEffect, useState } from \"react\";\nimport { motion, useReducedMotion } from \"motion/react\";\nimport { ARTEMIS_SPRING_PANEL, ARTEMIS_SPRING_PRESS } from \"../../../lib/ease\";\nexport default function NotFoundPagesEditorial() {\n    const reduce = useReducedMotion();\n    const [copyShown, setCopyShown] = useState(false);\n    const [digitsShown, setDigitsShown] = useState(false);\n    const [captionShown, setCaptionShown] = useState(false);\n    useEffect(() => {\n        const copy = setTimeout(() => setCopyShown(true), 70);\n        const digits = setTimeout(() => setDigitsShown(true), 180);\n        const caption = setTimeout(() => setCaptionShown(true), 340);\n        return () => { clearTimeout(copy); clearTimeout(digits); clearTimeout(caption); };\n    }, []);\n    const press = { whileHover: reduce ? undefined : { scale: 1.01 }, whileTap: reduce ? undefined : { scale: 0.99 }, transition: ARTEMIS_SPRING_PRESS };\n    return (<>\n      <section className=\"art:flex art:min-h-[680px] art:w-full art:flex-col art:overflow-hidden art:bg-background art:text-foreground\">\n        <header className=\"art:flex art:min-h-20 art:items-center art:justify-between art:border-border/60 art:border-b art:px-5 art:@min-[640px]/artemis:px-8\">\n          <a href=\"/\" className=\"art:font-sans art:text-xl art:tracking-[-0.03em] art:focus-visible:outline-2 art:focus-visible:outline-ring\">\n            {\"Research team\"}\n          </a>\n          <span className=\"art:font-mono art:text-xs art:text-muted-foreground art:uppercase art:tracking-[0.2em]\">\n            {\"Vol. 404 \\u00B7 Missing\"}\n          </span>\n        </header>\n        <div className=\"art:grid art:flex-1 art:grid-rows-[auto_1fr] art:@min-[1024px]/artemis:grid-cols-[0.38fr_0.62fr] art:@min-[1024px]/artemis:grid-rows-1\">\n          <motion.div initial={{ opacity: 0, x: -16 }} animate={{ opacity: copyShown || reduce ? 1 : 0, x: copyShown || reduce ? 0 : -16 }} transition={reduce ? { duration: 0 } : ARTEMIS_SPRING_PANEL} className=\"art:flex art:flex-col art:justify-between art:border-border/60 art:border-b art:p-6 art:@min-[640px]/artemis:p-10 art:@min-[1024px]/artemis:border-r art:@min-[1024px]/artemis:border-b-0 art:@min-[1024px]/artemis:p-12\">\n            <div>\n              <p className=\"art:font-mono art:text-xs art:text-muted-foreground art:uppercase art:tracking-[0.2em]\">\n                {\"Page 404\"}\n              </p>\n              <h1 className=\"art:mt-6 art:max-w-sm art:text-balance art:font-sans art:leading-tight art:tracking-[-0.04em] art:text-4xl art:@min-[768px]/artemis:text-5xl art:font-medium\">\n                {\"The page you wanted was edited out.\"}\n              </h1>\n            </div>\n            <div className=\"art:mt-10 art:flex art:flex-wrap art:gap-3\">\n              <motion.a {...press} className=\"art:inline-flex art:items-center art:justify-center art:font-medium art:select-none art:transition-colors art:disabled:pointer-events-none art:disabled:opacity-50 art:bg-primary art:text-primary-foreground art:hover:bg-primary/90 art:h-12 art:gap-2 art:px-6 art:text-base art:focus-visible:outline-none art:focus-visible:ring-2 art:focus-visible:ring-ring art:focus-visible:ring-offset-2 art:focus-visible:ring-offset-background art:rounded-full\" href=\"/\" tabIndex={0}>\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" className=\"art:lucide art:lucide-corner-up-left art:size-4\" aria-hidden=\"true\">\n                  <path d=\"M20 20v-7a4 4 0 0 0-4-4H4\"/>\n                  <path d=\"M9 14 4 9l5-5\"/>\n                </svg>\n                {\"Return home\"}\n              </motion.a>\n              <motion.a {...press} className=\"art:inline-flex art:items-center art:justify-center art:font-medium art:select-none art:transition-colors art:disabled:pointer-events-none art:disabled:opacity-50 art:border art:border-border art:bg-transparent art:text-foreground art:hover:bg-primary/5 art:h-12 art:gap-2 art:px-6 art:text-base art:focus-visible:outline-none art:focus-visible:ring-2 art:focus-visible:ring-ring art:focus-visible:ring-offset-2 art:focus-visible:ring-offset-background art:rounded-full\" href=\"/archive\" tabIndex={0}>\n                {\"Browse archive\"}\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" className=\"art:lucide art:lucide-arrow-up-right art:size-4\" aria-hidden=\"true\">\n                  <path d=\"M7 7h10v10\"/>\n                  <path d=\"M7 17 17 7\"/>\n                </svg>\n              </motion.a>\n            </div>\n          </motion.div>\n          <div className=\"art:relative art:flex art:min-h-[380px] art:items-end art:overflow-hidden art:bg-primary art:px-3 art:pt-10 art:text-primary-foreground art:[container-type:inline-size] art:@min-[640px]/artemis:min-h-[470px] art:@min-[640px]/artemis:px-6 art:@min-[1024px]/artemis:min-h-0\">\n            <div aria-hidden=\"true\" className=\"art:absolute art:inset-0 art:opacity-30 art:[background-image:linear-gradient(to_right,color-mix(in_oklch,var(--artemis-primary-foreground)_22%,transparent)_1px,transparent_1px)] art:[background-size:25%_100%]\"/>\n            <div className=\"art:relative art:flex art:w-full art:items-end art:justify-between art:overflow-hidden\">\n              <motion.span initial={{ opacity: 0, y: \"26%\" }} animate={{ opacity: digitsShown || reduce ? 1 : 0, y: digitsShown || reduce ? \"0%\" : \"26%\" }} transition={reduce ? { duration: 0 } : { ...ARTEMIS_SPRING_PANEL, delay: 0 * 0.06 }} className=\"art:font-sans art:text-9xl art:leading-tight art:tracking-[-0.12em]\">\n                {\"4\"}\n              </motion.span>\n              <motion.span initial={{ opacity: 0, y: \"26%\" }} animate={{ opacity: digitsShown || reduce ? 1 : 0, y: digitsShown || reduce ? \"0%\" : \"26%\" }} transition={reduce ? { duration: 0 } : { ...ARTEMIS_SPRING_PANEL, delay: 1 * 0.06 }} className=\"art:font-sans art:text-9xl art:leading-tight art:tracking-[-0.12em]\">\n                {\"0\"}\n              </motion.span>\n              <motion.span initial={{ opacity: 0, y: \"26%\" }} animate={{ opacity: digitsShown || reduce ? 1 : 0, y: digitsShown || reduce ? \"0%\" : \"26%\" }} transition={reduce ? { duration: 0 } : { ...ARTEMIS_SPRING_PANEL, delay: 2 * 0.06 }} className=\"art:font-sans art:text-9xl art:leading-tight art:tracking-[-0.12em]\">\n                {\"4\"}\n              </motion.span>\n            </div>\n            <motion.div initial={{ opacity: 0 }} animate={{ opacity: captionShown || reduce ? 1 : 0 }} transition={{ duration: reduce ? 0 : 0.3, ease: \"easeOut\" }} className=\"art:absolute art:right-5 art:top-5 art:max-w-36 art:text-right art:font-mono art:text-xs art:text-primary-foreground/60 art:uppercase art:leading-5 art:tracking-[0.16em] art:@min-[640px]/artemis:right-8 art:@min-[640px]/artemis:top-8\">\n              {\"Missing page\"}\n            </motion.div>\n          </div>\n        </div>\n      </section>\n    </>);\n}\n"
+    }
+  ],
+  "meta": {
+    "bytes": 7637,
+    "layoutOf": "artemis-not-found-pages"
+  },
+  "category": "templates",
+  "family": "layout",
+  "kind": "template",
+  "designSystem": "artemis",
+  "foundationDependencies": [
+    "artemis-tokens"
+  ],
+  "iconLibraries": [],
+  "tags": [
+    "artemis",
+    "error",
+    "motion"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "f449cdb4e11d"
+}

@@ -113,6 +113,9 @@
       "content": "\"use client\";\n// @zeus-internal\nimport { useSyncExternalStore } from \"react\";\nconst query = \"(hover: hover) and (pointer: fine)\";\nfunction subscribe(update: () => void) {\n  const media = window.matchMedia(query);\n  media.addEventListener(\"change\", update);\n  return () => media.removeEventListener(\"change\", update);\n}\nexport function useArtemisHoverCapable() {\n  return useSyncExternalStore(subscribe, () => window.matchMedia(query).matches, () => false);\n}\n"
     }
   ],
+  "meta": {
+    "bytes": 78452
+  },
   "category": "templates",
   "family": "screens",
   "kind": "template",

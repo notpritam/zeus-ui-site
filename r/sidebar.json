@@ -149,7 +149,8 @@
         "url": "https://myzeusui.com/templates/settings-plan-art.png",
         "target": "public/templates/settings-plan-art.png"
       }
-    ]
+    ],
+    "bytes": 91454
   },
   "category": "blocks",
   "family": "navigation",

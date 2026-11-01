@@ -1,0 +1,78 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "artemis-team--panels",
+  "type": "registry:block",
+  "title": "Team: Expanding panels",
+  "variants": [
+    {
+      "name": "panels",
+      "title": "Expanding panels"
+    }
+  ],
+  "description": "Team, Expanding panels layout only",
+  "dependencies": [
+    "motion@^12.42.2"
+  ],
+  "registryDependencies": [
+    "https://myzeusui.com/r/artemis-controls.json",
+    "https://myzeusui.com/r/artemis-tokens.json"
+  ],
+  "files": [
+    {
+      "path": "application/artemis/artemis-team.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/artemis-team.tsx",
+      "content": "\"use client\";\nimport { ArtemisScope } from \"./artemis-scope\";\nimport View0 from \"./components/team/variants/01-panels\";\nconst variants = {\"panels\":View0};\nexport interface ArtemisTeamProps { className?: string; variant?: \"panels\"; }\nexport function ArtemisTeam({ className, variant = \"panels\" }: ArtemisTeamProps) {const View = variants[variant];return <ArtemisScope className={className}><div className=\"art:flex art:w-full art:min-w-0 art:flex-col art:items-center\"><View/></div></ArtemisScope>;}\n"
+    },
+    {
+      "path": "application/artemis/components/team/variants/01-panels.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/team/variants/01-panels.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { artemisDemoAvatar } from \"../../../lib/demo-avatar\";\nimport { motion, useReducedMotion } from \"motion/react\";\nimport { useState } from \"react\";\nimport { ARTEMIS_EASE_OUT, ARTEMIS_SPRING_SWAP } from \"../../../lib/ease\";\ntype Member = {\n    slug: string;\n    name: string;\n    role: string;\n    bio: string;\n    photo: string;\n};\nconst MEMBERS: Member[] = [\n    {\n        slug: \"jordan-blake\",\n        name: \"Jordan Blake\",\n        role: \"Founder & CEO\",\n        bio: \"Sets the vision and keeps the bar high. Spent a decade leading design systems teams.\",\n        photo: artemisDemoAvatar(\"member-1\"),\n    },\n    {\n        slug: \"jamie-reed\",\n        name: \"Jamie Reed\",\n        role: \"Head of Engineering\",\n        bio: \"Owns the registry and runtime, and treats motion as a feature, not a finish.\",\n        photo: artemisDemoAvatar(\"member-2\"),\n    },\n    {\n        slug: \"casey-ellis\",\n        name: \"Casey Ellis\",\n        role: \"Design Lead\",\n        bio: \"Tunes every spring and easing curve until it feels physical.\",\n        photo: artemisDemoAvatar(\"member-3\"),\n    },\n    {\n        slug: \"morgan-wells\",\n        name: \"Morgan Wells\",\n        role: \"Developer Advocate\",\n        bio: \"Turns complex APIs into docs people actually enjoy reading.\",\n        photo: artemisDemoAvatar(\"member-4\"),\n    },\n    {\n        slug: \"riley-park\",\n        name: \"Riley Park\",\n        role: \"Staff Engineer\",\n        bio: \"Performance obsessive who ships at 60fps or not at all.\",\n        photo: artemisDemoAvatar(\"member-5\"),\n    },\n];\nconst GROW_SPRING = { type: \"spring\", stiffness: 232, damping: 37.5, mass: 1 } as const;\nconst DETAIL_IN = { ...ARTEMIS_SPRING_SWAP, delay: 0.08 } as const;\nconst DETAIL_OUT = { duration: 0.15, ease: ARTEMIS_EASE_OUT } as const;\nconst INSTANT = { duration: 0 } as const;\nconst LI_BASE = \"art:group art:relative art:min-h-0 art:min-w-0 art:overflow-hidden art:rounded-3xl art:border art:bg-muted art:transition-colors art:duration-300 art:has-[:focus-visible]:ring-2 art:has-[:focus-visible]:ring-ring art:has-[:focus-visible]:ring-offset-2 art:has-[:focus-visible]:ring-offset-background\";\nconst IMG_BASE = \"art:absolute art:inset-0 art:size-full art:object-cover art:object-[50%_25%] art:transition-[transform,filter] art:duration-700\";\nconst BUTTON_CLASS = \"art:items-center art:justify-center art:select-none art:transition-colors art:disabled:pointer-events-none art:disabled:opacity-50 art:gap-2 art:text-sm art:focus-visible:outline-none art:focus-visible:ring-2 art:focus-visible:ring-ring art:focus-visible:ring-offset-2 art:focus-visible:ring-offset-background art:inline-block art:p-0 art:font-normal art:text-inherit art:hover:bg-transparent art:hover:text-inherit art:absolute art:inset-0 art:size-full art:outline-none art:rounded-full\";\nconst LINK_CLASS = \"art:inline-flex art:items-center art:justify-center art:font-medium art:select-none art:transition-colors art:disabled:pointer-events-none art:disabled:opacity-50 art:border art:border-border art:hover:border-border art:focus-visible:outline-none art:focus-visible:ring-2 art:focus-visible:ring-ring art:focus-visible:ring-offset-2 art:focus-visible:ring-offset-background art:relative art:z-10 art:mt-3 art:h-8 art:gap-1 art:bg-white/15 art:px-3 art:text-xs art:text-white art:backdrop-blur-sm art:hover:bg-white/25 art:rounded-full\";\nfunction Panel({ member, active, reduce, onActivate, }: {\n    member: Member;\n    active: boolean;\n    reduce: boolean;\n    onActivate: () => void;\n}) {\n    const detail = reduce\n        ? { opacity: active ? 1 : 0, transition: INSTANT }\n        : active\n            ? { opacity: 1, y: 0, transition: DETAIL_IN }\n            : { opacity: 0, y: 10, transition: DETAIL_OUT };\n    return (<motion.li className={`${LI_BASE} ${active ? \"art:border-foreground/15\" : \"art:border-border\"}`} style={{ flexBasis: \"0\" }} initial={false} animate={{ flexGrow: active ? 3.4 : 1 }} transition={reduce ? INSTANT : GROW_SPRING} onMouseEnter={onActivate} onClick={onActivate}>\n      <img src={member.photo} alt=\"\" loading=\"lazy\" className={`${IMG_BASE} ${active ? \"art:scale-100 art:grayscale-0\" : \"art:scale-105 art:grayscale-[0.85] art:brightness-90\"}`} style={{ transitionTimingFunction: \"cubic-bezier(0.16, 1, 0.3, 1)\" }}/>\n      <div aria-hidden=\"true\" className=\"art:absolute art:inset-0 art:bg-gradient-to-t art:from-black/85 art:via-black/25 art:to-transparent\"/>\n      <button type=\"button\" className={BUTTON_CLASS} aria-label={`${member.name}, ${member.role}`} aria-expanded={active} onClick={onActivate} onFocus={onActivate}/>\n      <div className=\"art:absolute art:inset-x-0 art:bottom-0 art:p-5\">\n        <motion.div aria-hidden={!active} className={active ? \"art:mb-4 art:w-64 art:max-w-full\" : \"art:mb-4 art:w-64 art:max-w-full art:pointer-events-none\"} initial={false} animate={detail}>\n          <p className=\"art:text-pretty art:text-sm art:leading-6 art:text-white/85\">{member.bio}</p>\n          <a className={LINK_CLASS} href={`#${member.slug}`} tabIndex={active ? 0 : -1}>\n            {\"Profile\"}\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" className=\"art:lucide art:lucide-arrow-up-right art:size-3.5\" aria-hidden=\"true\">\n              <path d=\"M7 7h10v10\"/>\n              <path d=\"M7 17 17 7\"/>\n            </svg>\n          </a>\n        </motion.div>\n        <p className=\"art:truncate art:text-base art:font-medium art:text-white\">{member.name}</p>\n        <p className=\"art:truncate art:text-xs art:text-white/70\">{member.role}</p>\n      </div>\n    </motion.li>);\n}\nexport default function TeamPanels() {\n    const [active, setActive] = useState(0);\n    const reduce = useReducedMotion() === true;\n    return (<>\n      <div className=\"art:w-full\">\n        <section className=\"art:w-full art:px-4 art:py-20 art:@min-[640px]/artemis:px-8\">\n          <div className=\"art:mx-auto art:w-full art:max-w-6xl\">\n            <div className=\"art:mx-auto art:max-w-xl art:text-center\">\n              <span className=\"art:inline-flex art:items-center art:rounded-full art:bg-muted art:px-3 art:py-1 art:text-xs art:font-medium art:text-muted-foreground art:shadow-[inset_0_1px_3px_rgba(0,0,0,0.06)]\">\n                {\"Team\"}\n              </span>\n              <h2 className=\"art:mt-5 art:text-balance art:text-4xl art:font-medium art:text-foreground\">\n                {\"Meet the makers.\"}\n              </h2>\n              <p className=\"art:mx-auto art:mt-4 art:max-w-md art:text-pretty art:text-sm art:leading-7 art:text-muted-foreground\">\n                {\"Hover or tap a panel to meet the people behind every component.\"}\n              </p>\n            </div>\n            <ul className=\"art:mt-12 art:flex art:h-[38rem] art:flex-col art:gap-2.5 art:@min-[768px]/artemis:h-[28rem] art:@min-[768px]/artemis:flex-row\">\n              {MEMBERS.map((member, i) => (<Panel key={member.slug} member={member} active={active === i} reduce={reduce} onActivate={() => setActive(i)}/>))}\n            </ul>\n          </div>\n        </section>\n      </div>\n    </>);\n}\n"
+    },
+    {
+      "path": "application/artemis/lib/demo-avatar.ts",
+      "type": "registry:component",
+      "target": "@components/application/artemis/lib/demo-avatar.ts",
+      "content": "// @zeus-internal\nconst avatars = [\"/assets/artemis/a5badc559b706aa529b9.svg\", \"/assets/artemis/327d06eee6b741023403.svg\", \"/assets/artemis/83b960a1aaa67c851088.svg\"];\nexport function artemisDemoAvatar(key: string) {\n  const index = Array.from(key).reduce((sum, char) => sum + char.charCodeAt(0), 0);\n  return avatars[index % avatars.length];\n}\n"
+    },
+    {
+      "path": "public/assets/artemis/327d06eee6b741023403.svg",
+      "type": "registry:file",
+      "target": "~/public/assets/artemis/327d06eee6b741023403.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\"><path fill=\"#dcfce7\" d=\"M0 0h64v64H0z\"/><circle cx=\"32\" cy=\"24\" r=\"12\" fill=\"#4ade80\"/><ellipse cx=\"32\" cy=\"60\" rx=\"24\" ry=\"22\" fill=\"#4ade80\"/></svg>\n"
+    },
+    {
+      "path": "public/assets/artemis/83b960a1aaa67c851088.svg",
+      "type": "registry:file",
+      "target": "~/public/assets/artemis/83b960a1aaa67c851088.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\"><path fill=\"#fce7f3\" d=\"M0 0h64v64H0z\"/><circle cx=\"32\" cy=\"24\" r=\"12\" fill=\"#f472b6\"/><ellipse cx=\"32\" cy=\"60\" rx=\"24\" ry=\"22\" fill=\"#f472b6\"/></svg>\n"
+    },
+    {
+      "path": "public/assets/artemis/a5badc559b706aa529b9.svg",
+      "type": "registry:file",
+      "target": "~/public/assets/artemis/a5badc559b706aa529b9.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\"><path fill=\"#dbeafe\" d=\"M0 0h64v64H0z\"/><circle cx=\"32\" cy=\"24\" r=\"12\" fill=\"#60a5fa\"/><ellipse cx=\"32\" cy=\"60\" rx=\"24\" ry=\"22\" fill=\"#60a5fa\"/></svg>\n"
+    }
+  ],
+  "meta": {
+    "bytes": 8652,
+    "layoutOf": "artemis-team"
+  },
+  "category": "blocks",
+  "family": "layout",
+  "kind": "block",
+  "designSystem": "artemis",
+  "foundationDependencies": [
+    "artemis-tokens"
+  ],
+  "iconLibraries": [],
+  "tags": [
+    "artemis",
+    "team",
+    "motion"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "ad07a2ebd63e"
+}

@@ -65,6 +65,9 @@
       "content": "\"use client\";\n// @zeus-internal\nimport { ChevronUp } from \"lucide-react\";\nimport { ArtemisButton } from \"../../../../foundations/button\";\nimport { ArtemisDigitSwap } from \"../../../../foundations/digit-swap\";\nexport function VoteButton({ title, votes, voted, onToggle }: {\n    title: string;\n    votes: number;\n    voted: boolean;\n    onToggle: () => void;\n}) {\n    const count = votes + (voted ? 1 : 0);\n    return (<ArtemisButton variant={voted ? \"primary\" : \"tertiary\"} size=\"sm\" className=\"art:relative art:z-10 art:h-8 art:gap-1.5 art:px-3\" aria-pressed={voted} aria-label={`${voted ? \"Remove vote for\" : \"Vote for\"} ${title}, ${count} votes`} onClick={onToggle}>\n      <ChevronUp className=\"art:size-3.5\" aria-hidden=\"true\"/>\n      <ArtemisDigitSwap value={count} direction={voted ? \"up\" : \"down\"} className=\"art:font-mono art:tabular-nums\"/>\n    </ArtemisButton>);\n}\n"
     }
   ],
+  "meta": {
+    "bytes": 21354
+  },
   "category": "blocks",
   "family": "feedback",
   "kind": "block",

@@ -1,0 +1,85 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "artemis-image-galleries--morphing-mosaic",
+  "type": "registry:block",
+  "title": "Image galleries: Morphing mosaic",
+  "variants": [
+    {
+      "name": "morphing-mosaic",
+      "title": "Morphing mosaic"
+    }
+  ],
+  "description": "Image galleries, Morphing mosaic layout only",
+  "dependencies": [
+    "clsx@^2.1.1",
+    "motion@^12.42.2",
+    "tailwind-merge@^3.6.0"
+  ],
+  "registryDependencies": [
+    "https://myzeusui.com/r/artemis-controls.json",
+    "https://myzeusui.com/r/artemis-tokens.json"
+  ],
+  "files": [
+    {
+      "path": "application/artemis/artemis-image-galleries.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/artemis-image-galleries.tsx",
+      "content": "\"use client\";\nimport { ArtemisScope } from \"./artemis-scope\";\nimport View1 from \"./components/image-galleries/variants/02-morphing-mosaic\";\nconst variants = {\"morphing-mosaic\":View1};\nexport interface ArtemisImageGalleriesProps { className?: string; variant?: \"morphing-mosaic\"; }\nexport function ArtemisImageGalleries({ className, variant = \"morphing-mosaic\" }: ArtemisImageGalleriesProps) {const View = variants[variant];return <ArtemisScope className={className}><div className=\"art:flex art:w-full art:min-w-0 art:flex-col art:items-center\"><View/></div></ArtemisScope>;}\n"
+    },
+    {
+      "path": "application/artemis/components/image-galleries/variants/02-morphing-mosaic.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/image-galleries/variants/02-morphing-mosaic.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { useEffect, useRef, useState } from \"react\";\nimport { motion, useInView, useReducedMotion } from \"motion/react\";\nimport { ArtemisButton } from \"../../../foundations/button\";\nimport { ARTEMIS_SPRING_LAYOUT } from \"../../../lib/ease\";\nimport { MOSAIC_ITEMS } from \"./02-morphing-mosaic/items\";\nconst imageClass = \"art:items-center art:justify-center art:select-none art:transition-colors art:disabled:pointer-events-none art:disabled:opacity-50 art:gap-2 art:text-sm art:focus-visible:outline-none art:inline-block art:h-auto art:p-0 art:font-normal art:text-inherit art:hover:bg-transparent art:hover:text-inherit art:group art:relative art:cursor-pointer art:overflow-hidden art:bg-muted art:text-left art:outline-none art:focus-visible:ring-2 art:focus-visible:ring-ring art:focus-visible:ring-offset-2 art:focus-visible:ring-offset-background\";\nconst numberClass = \"art:items-center art:justify-center art:select-none art:disabled:pointer-events-none art:disabled:opacity-50 art:gap-2 art:focus-visible:outline-none art:inline-block art:p-0 art:font-normal art:h-10 art:min-w-10 art:border art:border-border art:px-3 art:font-mono art:text-xs art:tabular-nums art:outline-none art:transition-colors art:focus-visible:ring-2 art:focus-visible:ring-ring art:focus-visible:ring-offset-2 art:focus-visible:ring-offset-background\";\nexport default function ImageGalleriesMorphingMosaic() {\n    const [active, setActive] = useState(0);\n    const sectionRef = useRef<HTMLElement>(null);\n    const visible = useInView(sectionRef, { margin: \"120px\" });\n    const reducedMotion = useReducedMotion() ?? false;\n    useEffect(() => {\n        if (!visible || reducedMotion)\n            return;\n        const timer = window.setInterval(() => setActive((current) => (current + 1) % MOSAIC_ITEMS.length), 4600);\n        return () => window.clearInterval(timer);\n    }, [visible, reducedMotion]);\n    return (<section ref={sectionRef} className=\"art:w-full art:overflow-hidden art:bg-background art:px-4 art:py-20 art:text-foreground art:@min-[640px]/artemis:px-8 art:@min-[640px]/artemis:py-24\">\n      <div className=\"art:mx-auto art:w-full art:max-w-7xl\">\n          <header className=\"art:mx-auto art:max-w-3xl art:text-center\">\n            <p className=\"art:font-medium art:text-muted-foreground art:text-xs art:uppercase art:tracking-[0.16em]\">\n              {\"Living collection\"}\n            </p>\n            <h2 className=\"art:mt-5 art:text-balance art:font-medium art:text-4xl art:leading-[1.02] art:tracking-[-0.045em]\">\n              <span className=\"art:block\">\n                {\"Every frame gets\"}\n              </span>\n              <span className=\"art:block\">\n                {\"its moment\"}\n              </span>\n            </h2>\n            <p className=\"art:mx-auto art:mt-5 art:max-w-xl art:text-pretty art:text-muted-foreground art:leading-7\">\n              {\"A shifting editorial mosaic that reshapes itself around the selected image\"}\n            </p>\n          </header>\n        <div className=\"art:mt-10 art:grid art:h-[36rem] art:grid-cols-2 art:grid-rows-4 art:gap-2 art:border-border art:border-y art:py-2 art:@min-[640px]/artemis:gap-3 art:@min-[640px]/artemis:py-3 art:@min-[1024px]/artemis:h-[40rem] art:@min-[1024px]/artemis:grid-cols-12 art:@min-[1024px]/artemis:grid-rows-2\">\n          {MOSAIC_ITEMS.map((item, index) => {\n            const selected = index === active;\n            return (<ArtemisButton key={item.title} variant=\"link\" size=\"none\" className={`${imageClass} ${selected ? \"art:col-span-2 art:row-span-2 art:@min-[1024px]/artemis:col-span-6 art:@min-[1024px]/artemis:row-span-2\" : \"art:col-span-1 art:row-span-1 art:@min-[1024px]/artemis:col-span-3 art:@min-[1024px]/artemis:row-span-1\"}`} aria-label={`Focus ${item.title}`} aria-pressed={selected} style={{ order: (index - active + MOSAIC_ITEMS.length) % MOSAIC_ITEMS.length }} layout transition={reducedMotion ? { duration: 0 } : ARTEMIS_SPRING_LAYOUT} onClick={() => setActive(index)}>\n                <motion.img src={item.src} alt={item.alt} width={1200} height={1600} loading=\"lazy\" className=\"art:h-full art:w-full art:object-cover\" animate={{ scale: reducedMotion ? 1 : selected ? 1.01 : 1.07, opacity: selected ? 1 : 0.82 }} transition={reducedMotion ? { duration: 0 } : ARTEMIS_SPRING_LAYOUT}/>\n                {selected && (<motion.span className=\"art:absolute art:right-3 art:bottom-3 art:left-3 art:flex art:items-end art:justify-between art:gap-4 art:bg-background/80 art:p-4 art:text-foreground art:backdrop-blur-md art:@min-[640px]/artemis:p-5\" initial={reducedMotion ? false : { opacity: 0, y: 12, filter: \"blur(8px)\" }} animate={{ opacity: 1, y: 0, filter: \"blur(0px)\" }} transition={reducedMotion ? { duration: 0 } : { duration: 0.42, delay: 0.14, ease: \"easeOut\" }}>\n                    <span className=\"art:font-medium\">{item.title}</span>\n                    <span className=\"art:text-muted-foreground art:text-xs\">{item.caption}</span>\n                  </motion.span>)}\n              </ArtemisButton>);\n        })}\n        </div>\n        <fieldset className=\"art:mt-5 art:flex art:justify-center art:gap-2\">\n          <legend className=\"art:sr-only\">{\"Choose an image\"}</legend>\n          {MOSAIC_ITEMS.map((item, index) => (<ArtemisButton key={item.title} variant=\"link\" size=\"none\" className={`${numberClass} ${active === index ? \"art:hover:bg-transparent art:hover:text-inherit art:bg-foreground art:text-background\" : \"art:bg-background art:text-muted-foreground art:hover:bg-muted art:hover:text-foreground\"}`} aria-label={`Show ${item.title}`} aria-pressed={active === index} onClick={() => setActive(index)}>\n              {String(index + 1).padStart(2, \"0\")}\n            </ArtemisButton>))}\n        </fieldset>\n      </div>\n    </section>);\n}\n"
+    },
+    {
+      "path": "application/artemis/components/image-galleries/variants/02-morphing-mosaic/items.ts",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/image-galleries/variants/02-morphing-mosaic/items.ts",
+      "content": "// @zeus-internal\nexport const MOSAIC_ITEMS = [\n    {\n        title: \"Coastal house\",\n        caption: \"Morning light\",\n        src: \"/assets/artemis/00f08a1b00c26bee6c90.avif\",\n        alt: \"Sunlit living room overlooking the coast\",\n    },\n    {\n        title: \"Stone study\",\n        caption: \"Material archive\",\n        src: \"/assets/artemis/2ce5b4a2815dab6dd072.avif\",\n        alt: \"Sculptural stone interior detail\",\n    },\n    {\n        title: \"The long room\",\n        caption: \"Working studio\",\n        src: \"/assets/artemis/0fa3094a5a49b43eda46.avif\",\n        alt: \"Quiet creative studio with long worktables\",\n    },\n    {\n        title: \"Inner court\",\n        caption: \"Late afternoon\",\n        src: \"/assets/artemis/e9310d36bf6a9fb11295.avif\",\n        alt: \"Warm modern courtyard framed by timber\",\n    },\n    {\n        title: \"White gallery\",\n        caption: \"Natural light\",\n        src: \"/assets/artemis/d2a1ef4851ad61ca357c.avif\",\n        alt: \"Minimal gallery room washed in natural light\",\n    },\n] as const;\n"
+    }
+  ],
+  "docs": "artemis-image-galleries--morphing-mosaic: 5 demo images are not part of the shadcn install. Download from the URLs in meta.assets into the same public/ paths, or install with the zeus-ui CLI, which copies them.",
+  "meta": {
+    "assets": [
+      {
+        "url": "https://myzeusui.com/assets/artemis/00f08a1b00c26bee6c90.avif",
+        "target": "public/assets/artemis/00f08a1b00c26bee6c90.avif"
+      },
+      {
+        "url": "https://myzeusui.com/assets/artemis/0fa3094a5a49b43eda46.avif",
+        "target": "public/assets/artemis/0fa3094a5a49b43eda46.avif"
+      },
+      {
+        "url": "https://myzeusui.com/assets/artemis/2ce5b4a2815dab6dd072.avif",
+        "target": "public/assets/artemis/2ce5b4a2815dab6dd072.avif"
+      },
+      {
+        "url": "https://myzeusui.com/assets/artemis/d2a1ef4851ad61ca357c.avif",
+        "target": "public/assets/artemis/d2a1ef4851ad61ca357c.avif"
+      },
+      {
+        "url": "https://myzeusui.com/assets/artemis/e9310d36bf6a9fb11295.avif",
+        "target": "public/assets/artemis/e9310d36bf6a9fb11295.avif"
+      }
+    ],
+    "bytes": 7398,
+    "layoutOf": "artemis-image-galleries"
+  },
+  "category": "blocks",
+  "family": "media",
+  "kind": "block",
+  "designSystem": "artemis",
+  "foundationDependencies": [
+    "artemis-tokens"
+  ],
+  "iconLibraries": [],
+  "tags": [
+    "artemis",
+    "image-galleries",
+    "motion"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "8725fee897ff"
+}

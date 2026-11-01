@@ -52,7 +52,8 @@
         "url": "https://myzeusui.com/assets/zeus/street-running-hero-4.avif",
         "target": "public/assets/zeus/street-running-hero-4.avif"
       }
-    ]
+    ],
+    "bytes": 45395
   },
   "category": "animations",
   "family": "navigation",

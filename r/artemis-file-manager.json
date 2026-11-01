@@ -65,6 +65,10 @@
       "content": "\"use client\";\n// @zeus-internal\nimport {useRef,useState,type DragEvent} from \"react\";\nexport function useArtemisFileDrag(){\n const entered=useRef(new Set<EventTarget>()),[dragging,setDragging]=useState(false);\n const reset=()=>{entered.current.clear();setDragging(false)};\n const accepts=(event:DragEvent)=>Array.from(event.dataTransfer.types).some(t=>t===\"Files\");\n return {dragging,reset,events:{\n  onDragEnter(event:DragEvent){if(!accepts(event))return;event.preventDefault();entered.current.add(event.target);setDragging(true)},\n  onDragLeave(event:DragEvent){entered.current.delete(event.target);if(!entered.current.size)setDragging(false)},\n  onDragOver(event:DragEvent){if(accepts(event))event.preventDefault()}\n }};\n}\n"
     }
   ],
+  "meta": {
+    "bytes": 73031,
+    "agentHint": "import only, data: application/artemis/components/file-manager/variants/01-workspace/dropdown-css.ts"
+  },
   "category": "blocks",
   "family": "screens",
   "kind": "block",

@@ -1,0 +1,89 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "artemis-flip-card--modal",
+  "type": "registry:block",
+  "title": "Flip card: Modal",
+  "variants": [
+    {
+      "name": "modal",
+      "title": "Modal"
+    }
+  ],
+  "description": "Flip card, Modal layout only",
+  "dependencies": [
+    "@headlessui/react@^2.2.10",
+    "lucide-react@^1.60.0",
+    "motion@^12.42.2"
+  ],
+  "registryDependencies": [
+    "https://myzeusui.com/r/artemis-controls.json",
+    "https://myzeusui.com/r/artemis-tokens.json"
+  ],
+  "files": [
+    {
+      "path": "application/artemis/artemis-flip-card.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/artemis-flip-card.tsx",
+      "content": "\"use client\";\nimport { ArtemisScope } from \"./artemis-scope\";\nimport Variant1 from \"./components/flip-card/variants/02-modal\";\nconst variants = { modal: Variant1 };\nexport interface ArtemisFlipCardProps {\n  className?: string;\n  variant?: \"modal\";\n}\nexport function ArtemisFlipCard({ className, variant = \"modal\" }: ArtemisFlipCardProps) {\n  const View = variants[variant];\n  return (\n    <ArtemisScope className={`art:[&>*]:mx-auto ${className ?? \"\"}`}>\n      <View />\n    </ArtemisScope>\n  );\n}\n"
+    },
+    {
+      "path": "application/artemis/components/flip-card/variants/02-modal.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/flip-card/variants/02-modal.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { Dialog, DialogBackdrop, DialogPanel } from \"../../../lib/headless\";\nimport { AnimatePresence, motion, MotionConfig, useReducedMotion } from \"motion/react\";\nimport { useRef, useState } from \"react\";\nimport { ARTEMIS_EASE_OUT } from \"../../../lib/ease\";\nimport { Back, Close, Front } from \"./02-modal/content\";\ntype Rect = {\n    left: number;\n    top: number;\n    width: number;\n    height: number;\n};\ntype Bounds = {\n    origin: Rect;\n    target: Rect;\n};\nconst OPEN = { type: \"spring\", stiffness: 245, damping: 27, mass: 0.9 } as const;\nconst CLOSE = { type: \"spring\", stiffness: 285, damping: 30, mass: 0.86 } as const;\nconst SURFACE = \"art:pointer-events-none art:relative art:z-20 art:h-full art:w-full art:[&_a]:pointer-events-auto art:[&_button]:pointer-events-auto\";\nconst FLIP = \"art:absolute art:inset-0 art:z-10 art:cursor-pointer art:outline-none art:focus-visible:ring-2 art:focus-visible:ring-ring art:focus-visible:ring-inset\";\nfunction measure(trigger: HTMLButtonElement): Bounds {\n    const rect = trigger.getBoundingClientRect();\n    const width = Math.min(window.innerWidth < 480 ? 320 : 352, window.innerWidth - 32, (window.innerHeight - 32) * 0.8);\n    const height = width / 0.8;\n    return {\n        origin: { left: rect.left, top: rect.top, width: rect.width, height: rect.height },\n        target: { left: (window.innerWidth - width) / 2, top: (window.innerHeight - height) / 2, width, height },\n    };\n}\nexport default function FlipCardModal() {\n    const trigger = useRef<HTMLButtonElement>(null);\n    const [open, setOpen] = useState(false);\n    const [flipped, setFlipped] = useState(true);\n    const [bounds, setBounds] = useState<Bounds | null>(null);\n    const reduce = useReducedMotion() === true;\n    const close = () => setOpen(false);\n    const show = () => {\n        if (!trigger.current)\n            return;\n        setBounds(measure(trigger.current));\n        setFlipped(true);\n        setOpen(true);\n    };\n    return (<>\n      <div className=\"art:w-full art:max-w-[18rem]\">\n        <div>\n          <button ref={trigger} onClick={show} disabled={open} type=\"button\" aria-label=\"Open flip card\" aria-haspopup=\"dialog\" aria-expanded={open} aria-controls=\"flip-card-modal-gallery-room\" className=\"art:relative art:aspect-[4/5] art:w-full art:cursor-pointer art:overflow-hidden art:rounded-3xl art:border art:border-border art:bg-background art:text-left art:outline-none art:focus-visible:ring-2 art:focus-visible:ring-ring art:focus-visible:ring-offset-2 art:focus-visible:ring-offset-background art:disabled:cursor-default\">\n            <Front />\n          </button>\n        </div>\n      </div>\n      <AnimatePresence>\n        {open && bounds && (<Dialog static open onClose={close} className=\"art:relative art:z-[100]\">\n            <MotionConfig transition={reduce ? { duration: 0 } : { duration: 0.24, ease: ARTEMIS_EASE_OUT }}>\n              <DialogBackdrop as={motion.div} className=\"art:fixed art:inset-0 art:bg-foreground/10 art:backdrop-blur-xl\" initial={reduce ? false : { opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}/>\n            </MotionConfig>\n            <div id=\"flip-card-modal-gallery-room\" className=\"art:pointer-events-none art:fixed art:inset-0 art:z-[101] art:[perspective:1400px]\">\n              <MotionConfig transition={reduce ? { duration: 0 } : OPEN}>\n                <DialogPanel as={motion.div} className=\"art:pointer-events-auto art:fixed art:touch-manipulation art:[transform-style:preserve-3d] art:outline-none art:[will-change:transform,left,top,width,height]\" initial={reduce ? false : { ...bounds.origin, rotateY: 0 }} animate={{ ...bounds.target, rotateY: flipped ? 180 : 0 }} exit={{ ...bounds.origin, rotateY: 0, transition: reduce ? { duration: 0 } : CLOSE }}>\n                  <div aria-hidden={flipped} inert={flipped} className=\"art:absolute art:inset-0 art:overflow-hidden art:rounded-3xl art:border art:border-border art:bg-background art:[backface-visibility:hidden] art:[transform:translateZ(1px)]\">\n                    <button type=\"button\" aria-label=\"Show the back of this card\" onClick={() => setFlipped(true)} className={FLIP}/>\n                    <div className={SURFACE}><Front /></div>\n                    <Close onClose={close}/>\n                  </div>\n                  <div aria-hidden={!flipped} inert={!flipped} className=\"art:absolute art:inset-0 art:overflow-hidden art:rounded-3xl art:border art:border-border art:bg-background art:[backface-visibility:hidden] art:[transform:rotateY(180deg)_translateZ(1px)]\">\n                    <button type=\"button\" aria-label=\"Show the front of this card\" onClick={() => setFlipped(false)} className={FLIP}/>\n                    <div className={SURFACE}><Back /></div>\n                    <Close onClose={close} autoFocus/>\n                  </div>\n                </DialogPanel>\n              </MotionConfig>\n            </div>\n          </Dialog>)}\n      </AnimatePresence>\n    </>);\n}\n"
+    },
+    {
+      "path": "application/artemis/components/flip-card/variants/02-modal/content.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/flip-card/variants/02-modal/content.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { ArrowUpRight, X } from \"lucide-react\";\nexport function Front() {\n    return (<div className=\"art:relative art:h-full art:w-full\">\n              <img src=\"/assets/artemis/abc0c093fee16ad475a0.avif\" alt=\"Minimal gallery room washed in natural light\" width=\"1100\" height=\"1375\" loading=\"lazy\" className=\"art:h-full art:w-full art:object-cover\"/>\n              <span className=\"art:absolute art:inset-x-3 art:bottom-3 art:rounded-2xl art:border art:border-border/60 art:bg-background/55 art:p-4 art:text-foreground art:backdrop-blur-xl art:backdrop-saturate-150 art:sm:inset-x-4 art:sm:bottom-4 art:sm:p-5\">\n                <span className=\"art:block art:font-medium art:text-muted-foreground art:text-xs art:sm:text-sm\">\n                  {\"Private collection\"}\n                </span>\n                <span className=\"art:mt-2 art:block art:font-medium art:text-xl art:sm:text-2xl\">\n                  {\"The light room\"}\n                </span>\n                <span className=\"art:mt-2 art:block art:text-muted-foreground art:text-xs art:sm:text-sm\">\n                  {\"Click to open the story\"}\n                </span>\n              </span>\n            </div>);\n}\nexport function Back() {\n    return (<div className=\"art:relative art:h-full art:w-full\">\n      <img src=\"/assets/artemis/4731feb50ab655cdf945.avif\" alt=\"Sculptural stone interior detail\" width=\"1100\" height=\"1375\" loading=\"lazy\" className=\"art:h-full art:w-full art:object-cover\"/>\n      <span className=\"art:absolute art:inset-x-3 art:bottom-3 art:rounded-2xl art:border art:border-border/60 art:bg-background/60 art:p-4 art:text-foreground art:backdrop-blur-xl art:backdrop-saturate-150 art:sm:inset-x-4 art:sm:bottom-4 art:sm:p-5\">\n        <span className=\"art:block art:font-medium art:text-xl art:sm:text-2xl\">Designed around stillness</span>\n        <span className=\"art:mt-2 art:block art:text-muted-foreground art:text-xs art:leading-5 art:sm:mt-3 art:sm:text-sm art:sm:leading-6\">Natural materials and measured openings shape a calm place for art, conversation, and changing light</span>\n        <a href=\"#light-room\" className=\"art:mt-4 art:inline-flex art:h-10 art:items-center art:gap-2 art:rounded-full art:border art:border-border art:bg-background art:px-4 art:font-medium art:text-xs art:outline-none art:transition-colors art:hover:bg-muted art:focus-visible:ring-2 art:focus-visible:ring-ring art:sm:mt-5 art:sm:text-sm\">View the project<ArrowUpRight className=\"art:size-4\"/></a>\n      </span>\n    </div>);\n}\nexport function Close({ onClose, autoFocus = false }: {\n    onClose: () => void;\n    autoFocus?: boolean;\n}) {\n    return (<button type=\"button\" data-autofocus={autoFocus || undefined} aria-label=\"Close flip card\" onClick={onClose} className=\"art:absolute art:top-4 art:right-4 art:z-40 art:grid art:size-10 art:place-items-center art:rounded-full art:border art:border-border/60 art:bg-background/55 art:text-foreground art:outline-none art:backdrop-blur-xl art:backdrop-saturate-150 art:transition-colors art:hover:bg-background/75 art:focus-visible:ring-2 art:focus-visible:ring-ring\"><X className=\"art:size-4\"/></button>);\n}\n"
+    }
+  ],
+  "docs": "artemis-flip-card--modal: 6 demo images are not part of the shadcn install. Download from the URLs in meta.assets into the same public/ paths, or install with the zeus-ui CLI, which copies them.",
+  "meta": {
+    "assets": [
+      {
+        "url": "https://myzeusui.com/assets/artemis/0fa3094a5a49b43eda46.avif",
+        "target": "public/assets/artemis/0fa3094a5a49b43eda46.avif"
+      },
+      {
+        "url": "https://myzeusui.com/assets/artemis/167de64bf12e52395679.avif",
+        "target": "public/assets/artemis/167de64bf12e52395679.avif"
+      },
+      {
+        "url": "https://myzeusui.com/assets/artemis/4731feb50ab655cdf945.avif",
+        "target": "public/assets/artemis/4731feb50ab655cdf945.avif"
+      },
+      {
+        "url": "https://myzeusui.com/assets/artemis/abc0c093fee16ad475a0.avif",
+        "target": "public/assets/artemis/abc0c093fee16ad475a0.avif"
+      },
+      {
+        "url": "https://myzeusui.com/assets/artemis/d2a1ef4851ad61ca357c.avif",
+        "target": "public/assets/artemis/d2a1ef4851ad61ca357c.avif"
+      },
+      {
+        "url": "https://myzeusui.com/assets/artemis/e9310d36bf6a9fb11295.avif",
+        "target": "public/assets/artemis/e9310d36bf6a9fb11295.avif"
+      }
+    ],
+    "bytes": 8643,
+    "layoutOf": "artemis-flip-card"
+  },
+  "category": "blocks",
+  "family": "layout",
+  "kind": "block",
+  "designSystem": "artemis",
+  "foundationDependencies": [
+    "artemis-tokens"
+  ],
+  "iconLibraries": [],
+  "tags": [
+    "artemis",
+    "flip-card",
+    "motion"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "e4e85f91a649"
+}

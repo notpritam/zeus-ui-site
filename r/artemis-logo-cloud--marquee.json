@@ -1,0 +1,61 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "artemis-logo-cloud--marquee",
+  "type": "registry:block",
+  "title": "Company marks: Logo marquee",
+  "variants": [
+    {
+      "name": "marquee",
+      "title": "Logo marquee"
+    }
+  ],
+  "description": "Company marks, Logo marquee layout only",
+  "dependencies": [
+    "lucide-react@^1.60.0",
+    "motion@^12.42.2"
+  ],
+  "registryDependencies": [
+    "https://myzeusui.com/r/artemis-controls.json",
+    "https://myzeusui.com/r/artemis-tokens.json"
+  ],
+  "files": [
+    {
+      "path": "application/artemis/artemis-logo-cloud.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/artemis-logo-cloud.tsx",
+      "content": "\"use client\";\nimport { ArtemisScope } from \"./artemis-scope\";\nimport type { ArtemisLogoCloudContent } from \"./components/logo-cloud/content\";\nimport View0 from \"./components/logo-cloud/variants/01-marquee\";\nconst variants = {\"marquee\":View0};\nexport type { ArtemisLogoCloudContent, ArtemisLogoCloudLogo } from \"./components/logo-cloud/content\";\nexport interface ArtemisLogoCloudProps { className?: string; variant?: \"marquee\"; /** The words on the logo cloud; anything left out keeps the layout's own copy. */ content?: Partial<ArtemisLogoCloudContent>; }\nexport function ArtemisLogoCloud({ className, variant = \"marquee\", content }: ArtemisLogoCloudProps) {const View = variants[variant];return <ArtemisScope className={className}><div className=\"art:flex art:w-full art:min-w-0 art:flex-col art:items-center\"><View content={content}/></div></ArtemisScope>;}\n"
+    },
+    {
+      "path": "application/artemis/components/logo-cloud/content.ts",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/logo-cloud/content.ts",
+      "content": "// @zeus-internal\nimport type { ComponentType } from \"react\";\n\n/** One logo in the cloud. */\nexport interface ArtemisLogoCloudLogo {\n  /**\n   * The company's name, shown beside the icon. All layouts; carousel also lists every name for screen readers.\n   * Keep names unique, since grid, columns and carousel tell logos apart by name.\n   */\n  name: string;\n  /** A logo image shown in place of the icon and name, sized to the row; its alt text names the logo. All layouts. */\n  image?: { src: string; alt: string };\n  /** The icon beside the name. All layouts, which keep their own icon for that slot when you leave this out. */\n  icon?: ComponentType<{ className?: string }>;\n}\n\n/** The words on an Artemis logo cloud. Every layout reads this shape, so you can switch layouts and keep them. */\nexport interface ArtemisLogoCloudContent {\n  /** A small label over the headline. columns and carousel. */\n  badge?: string;\n  /** The heading. All layouts; marquee shows it as a small line over the logos. */\n  headline: string;\n  /** A line under or beside the headline. grid, columns and carousel. */\n  subhead?: string;\n  /**\n   * The logos. All layouts: marquee scrolls them in one row, grid rolls them through eight cells, columns deals them\n   * into four scrolling lanes and carousel turns them through two or four slots. Twelve look best; grid needs more\n   * than eight to roll.\n   */\n  logos: ArtemisLogoCloudLogo[];\n}\n"
+    },
+    {
+      "path": "application/artemis/components/logo-cloud/variants/01-marquee.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/logo-cloud/variants/01-marquee.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { Aperture, Box, Circle, Command, Gem, Hexagon, Octagon, Triangle } from \"lucide-react\";\nimport { motion, useAnimationFrame, useMotionValue, useReducedMotion } from \"motion/react\";\nimport { type ComponentType, useEffect, useRef } from \"react\";\nimport type { ArtemisLogoCloudContent, ArtemisLogoCloudLogo } from \"../content\";\nconst defaultLogos: ArtemisLogoCloudLogo[] = [\n    { name: \"Workspace\" },\n    { name: \"Group A\" },\n    { name: \"Group B\" },\n    { name: \"Group C\" },\n    { name: \"Group D\" },\n    { name: \"Group E\" },\n    { name: \"Group F\" },\n    { name: \"Group G\" },\n];\nconst DEFAULT = {\n    headline: \"Trusted by teams shipping with Artemis\",\n    logos: defaultLogos,\n} satisfies ArtemisLogoCloudContent;\n/** The icon for each slot, for logos that come without one. */\nconst ICONS = [Hexagon, Triangle, Aperture, Box, Gem, Command, Octagon, Circle];\nconst SPEED = 26;\nconst VIEW_INSET = 0.1;\nexport default function LogoCloudMarquee({ content }: { content?: Partial<ArtemisLogoCloudContent> } = {}) {\n    const copy = { ...DEFAULT, ...content };\n    const track = [...copy.logos, ...copy.logos];\n    const x = useMotionValue(0);\n    const sectionRef = useRef<HTMLElement>(null);\n    const trackRef = useRef<HTMLDivElement>(null);\n    const hoveredRef = useRef(false);\n    const visibleRef = useRef(false);\n    const reduceMotion = useReducedMotion();\n    useEffect(() => {\n        const section = sectionRef.current;\n        if (!section)\n            return;\n        const observer = new IntersectionObserver((entries) => {\n            for (const entry of entries)\n                visibleRef.current = entry.isIntersecting;\n        }, { rootMargin: `-${VIEW_INSET * 100}% 0px -${VIEW_INSET * 100}% 0px` });\n        observer.observe(section);\n        return () => observer.disconnect();\n    }, []);\n    useAnimationFrame((_, delta) => {\n        const track = trackRef.current;\n        if (!track || reduceMotion || !visibleRef.current || hoveredRef.current)\n            return;\n        const half = track.offsetWidth / 2;\n        if (half <= 0)\n            return;\n        let next = x.get() - (SPEED * delta) / 1000;\n        if (next <= -half)\n            next += half;\n        x.set(next);\n    });\n    return (<div className=\"art:w-full\">\n      <section ref={sectionRef} className=\"art:w-full art:px-4 art:py-16 art:@min-[640px]/artemis:px-8\">\n        <div className=\"art:mx-auto art:w-full art:max-w-6xl\">\n          <p className=\"art:text-center art:font-medium art:text-muted-foreground art:text-sm\">{copy.headline}</p>\n          <div className=\"art:relative art:mt-8 art:overflow-hidden art:[mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]\" onMouseEnter={() => {\n            hoveredRef.current = true;\n        }} onMouseLeave={() => {\n            hoveredRef.current = false;\n        }}>\n            <div className=\"art:flex art:w-max\">\n              <motion.div ref={trackRef} className=\"art:flex art:w-max art:items-center art:gap-12 art:pr-12\" style={{ x }}>\n                {track.map((logo, index) => {\n            const Icon: ComponentType<{ className?: string; strokeWidth?: number }> = logo.icon ?? ICONS[(index % copy.logos.length) % ICONS.length];\n            return (<span key={index} className=\"art:flex art:shrink-0 art:items-center art:gap-2 art:text-muted-foreground/70 art:transition-colors art:hover:text-foreground\">\n                      {logo.image ? <img src={logo.image.src} alt={logo.image.alt} className=\"art:h-7 art:w-auto art:max-w-full art:object-contain\"/> : <>\n                      <Icon className=\"art:size-5\" strokeWidth={1.75}/>\n                      <span className=\"art:font-semibold art:text-lg art:tracking-tight\">{logo.name}</span>\n                      </>}\n                    </span>);\n        })}\n              </motion.div>\n            </div>\n          </div>\n        </div>\n      </section>\n    </div>);\n}\n"
+    }
+  ],
+  "meta": {
+    "bytes": 6217,
+    "layoutOf": "artemis-logo-cloud"
+  },
+  "category": "blocks",
+  "family": "layout",
+  "kind": "block",
+  "designSystem": "artemis",
+  "foundationDependencies": [
+    "artemis-tokens"
+  ],
+  "iconLibraries": [],
+  "tags": [
+    "artemis",
+    "logo-cloud",
+    "motion"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "5e16b72536b8"
+}

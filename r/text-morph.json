@@ -20,6 +20,9 @@
       "content": "// @zeus-internal\n/** Grapheme splitting keeps accents and composed emoji in one animated unit. */\nexport function typeGraphemes(text: string): string[] {\n  return typeof Intl.Segmenter === \"function\"\n    ? Array.from(\n        new Intl.Segmenter(undefined, { granularity: \"grapheme\" }).segment(text),\n        (item) => item.segment,\n      )\n    : Array.from(text);\n}\nexport const typeClamp = (n: number) => Math.max(0, Math.min(1, n));\nexport function typeStaggerProgress(progress: number, index: number, count: number, spread = 0.55) {\n  const stagger = Math.max(0, Math.min(0.95, spread));\n  return typeClamp((progress - (index / Math.max(1, count - 1)) * stagger) / (1 - stagger));\n}\nexport const typeEaseOut = (p: number) => 1 - Math.pow(1 - typeClamp(p), 3);\nexport interface TypeGlyphIdentity {\n  id: number;\n  char: string;\n}\n/** Retain the nearest unused copy of each glyph, including repeated characters. */\nexport function typeMatchGlyphs(previous: TypeGlyphIdentity[], text: string): TypeGlyphIdentity[] {\n  const used = new Set<number>();\n  let nextId = Math.max(-1, ...previous.map((glyph) => glyph.id)) + 1;\n  return typeGraphemes(text).map((char, index) => {\n    const matches = previous\n      .map((glyph, oldIndex) => ({ glyph, oldIndex }))\n      .filter(({ glyph }) => glyph.char === char && !used.has(glyph.id))\n      .sort((a, b) => Math.abs(a.oldIndex - index) - Math.abs(b.oldIndex - index));\n    const match = matches[0]?.glyph;\n    if (match) {\n      used.add(match.id);\n      return match;\n    }\n    return { char, id: nextId++ };\n  });\n}\n"
     }
   ],
+  "meta": {
+    "bytes": 6975
+  },
   "category": "animations",
   "family": "typography",
   "kind": "animation",

@@ -1,0 +1,54 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "artemis-not-found-pages--terminal",
+  "type": "registry:block",
+  "title": "Not found pages: Terminal trace",
+  "variants": [
+    {
+      "name": "terminal",
+      "title": "Terminal trace"
+    }
+  ],
+  "description": "Not found pages, Terminal trace layout only",
+  "dependencies": [
+    "motion@^12.42.2"
+  ],
+  "registryDependencies": [
+    "https://myzeusui.com/r/artemis-controls.json",
+    "https://myzeusui.com/r/artemis-tokens.json"
+  ],
+  "files": [
+    {
+      "path": "application/artemis/artemis-not-found-pages.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/artemis-not-found-pages.tsx",
+      "content": "\"use client\";\nimport {ArtemisScope} from \"./artemis-scope\";\nimport View7 from \"./components/not-found-pages/variants/08-terminal\";\nconst views={\"terminal\":View7};\nexport interface ArtemisNotFoundPagesProps{className?:string;variant?:\"terminal\";}\nexport function ArtemisNotFoundPages({className,variant=\"terminal\"}:ArtemisNotFoundPagesProps){const View=views[variant];return <ArtemisScope className={[\"art:min-h-dvh art:[&>section]:min-h-dvh\",className].filter(Boolean).join(\" \")}><View/></ArtemisScope>;}\n"
+    },
+    {
+      "path": "application/artemis/components/not-found-pages/variants/08-terminal.tsx",
+      "type": "registry:component",
+      "target": "@components/application/artemis/components/not-found-pages/variants/08-terminal.tsx",
+      "content": "\"use client\";\n// @zeus-internal\nimport { useEffect, useState } from \"react\";\nimport { motion, useReducedMotion } from \"motion/react\";\nimport { ARTEMIS_EASE_OUT, ARTEMIS_SPRING_PANEL, ARTEMIS_SPRING_PRESS } from \"../../../lib/ease\";\nexport default function NotFoundPagesTerminal() {\n    const reduce = useReducedMotion();\n    const [rowsShown, setRowsShown] = useState(false);\n    const [errorShown, setErrorShown] = useState(false);\n    const [actionShown, setActionShown] = useState(false);\n    useEffect(() => {\n        const rows = setTimeout(() => setRowsShown(true), 60);\n        const error = setTimeout(() => setErrorShown(true), 180);\n        const action = setTimeout(() => setActionShown(true), 320);\n        return () => { clearTimeout(rows); clearTimeout(error); clearTimeout(action); };\n    }, []);\n    const press = { whileHover: reduce ? undefined : { scale: 1.01 }, whileTap: reduce ? undefined : { scale: 0.99 }, transition: ARTEMIS_SPRING_PRESS };\n    return (<>\n      <section className=\"art:flex art:min-h-[680px] art:w-full art:flex-col art:bg-background art:font-mono art:text-foreground\">\n        <header className=\"art:flex art:min-h-16 art:flex-wrap art:items-center art:justify-between art:gap-3 art:border-border art:border-b art:px-5 art:py-3 art:@min-[640px]/artemis:px-8\">\n          <div className=\"art:flex art:items-center art:gap-3\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" className=\"art:lucide art:lucide-terminal art:size-4 art:text-foreground\" aria-hidden=\"true\">\n              <path d=\"M12 19h8\"/>\n              <path d=\"m4 17 6-6-6-6\"/>\n            </svg>\n            <span className=\"art:text-xs\">\n              {\"workspace-web\"}\n            </span>\n            <span className=\"art:text-xs art:text-muted-foreground\">\n              {\"/ production\"}\n            </span>\n          </div>\n          <span className=\"art:border art:border-foreground/20 art:px-2 art:py-1 art:text-xs art:text-foreground art:uppercase art:tracking-[0.16em]\">\n            {\"route failed\"}\n          </span>\n        </header>\n        <div className=\"art:grid art:flex-1 art:@min-[1024px]/artemis:grid-cols-[0.58fr_0.42fr]\">\n          <div className=\"art:flex art:flex-col art:justify-between art:border-border art:border-b art:p-5 art:@min-[640px]/artemis:p-8 art:@min-[1024px]/artemis:border-r art:@min-[1024px]/artemis:border-b-0 art:@min-[1024px]/artemis:p-12\">\n            <div>\n              <p className=\"art:text-xs art:text-muted-foreground art:uppercase art:tracking-[0.18em]\">\n                {\"request trace\"}\n              </p>\n              <div className=\"art:mt-7 art:space-y-0 art:border-border art:border-y\">\n                <motion.div initial={{ opacity: 0, x: -12 }} animate={{ opacity: rowsShown || reduce ? 1 : 0, x: rowsShown || reduce ? 0 : -12 }} transition={{ duration: reduce ? 0 : 0.3, ease: ARTEMIS_EASE_OUT, delay: reduce ? 0 : 0 * 0.07 }} className=\"art:grid art:grid-cols-[2.5rem_1fr_auto] art:items-center art:gap-4 art:border-border art:border-b art:py-4 art:text-xs art:last:border-b-0\">\n                  <span className=\"art:text-muted-foreground\">\n                    {\"01\"}\n                  </span>\n                  <span>\n                    {\"resolve host\"}\n                  </span>\n                  <span className=\"art:text-success\">\n                    {\"[\"}\n                    {\"ok\"}\n                    {\"]\"}\n                  </span>\n                </motion.div>\n                <motion.div initial={{ opacity: 0, x: -12 }} animate={{ opacity: rowsShown || reduce ? 1 : 0, x: rowsShown || reduce ? 0 : -12 }} transition={{ duration: reduce ? 0 : 0.3, ease: ARTEMIS_EASE_OUT, delay: reduce ? 0 : 1 * 0.07 }} className=\"art:grid art:grid-cols-[2.5rem_1fr_auto] art:items-center art:gap-4 art:border-border art:border-b art:py-4 art:text-xs art:last:border-b-0\">\n                  <span className=\"art:text-muted-foreground\">\n                    {\"02\"}\n                  </span>\n                  <span>\n                    {\"match route\"}\n                  </span>\n                  <span className=\"art:text-destructive\">\n                    {\"[\"}\n                    {\"miss\"}\n                    {\"]\"}\n                  </span>\n                </motion.div>\n                <motion.div initial={{ opacity: 0, x: -12 }} animate={{ opacity: rowsShown || reduce ? 1 : 0, x: rowsShown || reduce ? 0 : -12 }} transition={{ duration: reduce ? 0 : 0.3, ease: ARTEMIS_EASE_OUT, delay: reduce ? 0 : 2 * 0.07 }} className=\"art:grid art:grid-cols-[2.5rem_1fr_auto] art:items-center art:gap-4 art:border-border art:border-b art:py-4 art:text-xs art:last:border-b-0\">\n                  <span className=\"art:text-muted-foreground\">\n                    {\"03\"}\n                  </span>\n                  <span>\n                    {\"search fallback\"}\n                  </span>\n                  <span className=\"art:text-destructive\">\n                    {\"[\"}\n                    {\"empty\"}\n                    {\"]\"}\n                  </span>\n                </motion.div>\n              </div>\n            </div>\n            <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: actionShown || reduce ? 1 : 0, y: actionShown || reduce ? 0 : 12 }} transition={reduce ? { duration: 0 } : ARTEMIS_SPRING_PANEL} className=\"art:mt-10\">\n              <div className=\"art:flex art:flex-wrap art:gap-3\">\n                <motion.a {...press} className=\"art:inline-flex art:items-center art:justify-center art:font-medium art:select-none art:transition-colors art:disabled:pointer-events-none art:disabled:opacity-50 art:gap-2 art:px-6 art:text-base art:focus-visible:outline-none art:focus-visible:ring-2 art:focus-visible:ring-ring art:focus-visible:ring-offset-2 art:focus-visible:ring-offset-background art:bg-primary art:text-primary-foreground art:hover:bg-primary/85 art:h-9 art:rounded-full\" href=\"/\" tabIndex={0}>\n                  <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" className=\"art:lucide art:lucide-rotate-ccw art:size-4\" aria-hidden=\"true\">\n                    <path d=\"M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8\"/>\n                    <path d=\"M3 3v5h5\"/>\n                  </svg>\n                  {\"cd /home\"}\n                </motion.a>\n              </div>\n            </motion.div>\n          </div>\n          <motion.div initial={{ opacity: 0 }} animate={{ opacity: errorShown || reduce ? 1 : 0 }} transition={{ duration: reduce ? 0 : 0.35, ease: ARTEMIS_EASE_OUT }} className=\"art:relative art:flex art:min-h-[360px] art:flex-col art:justify-between art:overflow-hidden art:p-5 art:@min-[640px]/artemis:p-8 art:@min-[1024px]/artemis:min-h-0 art:@min-[1024px]/artemis:p-12\">\n            <div>\n              <p className=\"art:text-xs art:text-muted-foreground art:uppercase art:tracking-[0.18em]\">\n                {\"stderr\"}\n              </p>\n              <p className=\"art:mt-6 art:text-9xl art:text-foreground art:leading-[0.75] art:tracking-[-0.09em]\">\n                {\"404\"}\n              </p>\n              <h1 className=\"art:mt-8 art:max-w-md art:text-balance art:font-sans art:leading-tight art:tracking-[-0.03em] art:text-4xl art:@min-[768px]/artemis:text-5xl art:font-medium\">\n                {\"Route not found.\"}\n              </h1>\n            </div>\n          </motion.div>\n        </div>\n      </section>\n    </>);\n}\n"
+    }
+  ],
+  "meta": {
+    "bytes": 8109,
+    "layoutOf": "artemis-not-found-pages"
+  },
+  "category": "templates",
+  "family": "layout",
+  "kind": "template",
+  "designSystem": "artemis",
+  "foundationDependencies": [
+    "artemis-tokens"
+  ],
+  "iconLibraries": [],
+  "tags": [
+    "artemis",
+    "error",
+    "motion"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "09c1a99be95e"
+}

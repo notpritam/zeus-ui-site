@@ -45,6 +45,9 @@
       "content": "// @zeus-internal\nexport function downloadArtemisArtifact(text: string, filename: string, type: string) {\n  const url = URL.createObjectURL(new Blob([text], { type }));\n  const link = document.createElement(\"a\");\n  link.href = url;\n  link.download = filename;\n  document.body.append(link);\n  link.click();\n  link.remove();\n  setTimeout(() => URL.revokeObjectURL(url), 1000);\n}\n"
     }
   ],
+  "meta": {
+    "bytes": 44500
+  },
   "category": "blocks",
   "family": "ai",
   "kind": "block",

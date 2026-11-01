@@ -43,6 +43,9 @@
       "content": "\"use client\";\n// @zeus-internal\nimport { AnimatePresence, motion, useReducedMotion } from \"motion/react\";\nimport { ARTEMIS_EASE_OUT } from \"./ease\";\nexport function ArtemisPriceNumber({ value }: { value: number }) {\n  const reduce = useReducedMotion() === true;\n  const text = String(value);\n  return (\n    <span className=\"art:relative art:inline-flex art:h-[1.24em] art:items-center art:overflow-hidden art:px-[0.06em] art:align-bottom\">\n      <span className=\"art:sr-only\">{text}</span>\n      <span aria-hidden className=\"art:invisible\">\n        {text}\n      </span>\n      <AnimatePresence initial={false}>\n        <motion.span\n          key={text}\n          aria-hidden\n          className=\"art:absolute art:inset-y-0 art:right-[0.06em] art:left-[0.06em] art:flex art:items-center art:leading-[1.1]\"\n          initial={reduce ? { opacity: 0 } : { opacity: 0, y: \"55%\", filter: \"blur(6px)\" }}\n          animate={{ opacity: 1, y: \"0%\", filter: \"blur(0px)\" }}\n          exit={reduce ? { opacity: 0 } : { opacity: 0, y: \"-55%\", filter: \"blur(6px)\" }}\n          transition={{ duration: reduce ? 0 : 0.32, ease: ARTEMIS_EASE_OUT }}\n        >\n          {text}\n        </motion.span>\n      </AnimatePresence>\n    </span>\n  );\n}\n"
     }
   ],
+  "meta": {
+    "bytes": 20443
+  },
   "category": "blocks",
   "family": "pricing",
   "kind": "block",

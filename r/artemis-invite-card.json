@@ -40,6 +40,9 @@
       "content": "\"use client\";\n// @zeus-internal\nexport { ArtemisActionSwapText } from \"../../../../foundations/action-swap\";\n"
     }
   ],
+  "meta": {
+    "bytes": 14996
+  },
   "category": "blocks",
   "family": "layout",
   "kind": "block",

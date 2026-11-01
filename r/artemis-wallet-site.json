@@ -111,7 +111,9 @@
         "url": "https://myzeusui.com/assets/artemis/fonts/wallet-sans.woff2",
         "target": "public/assets/artemis/fonts/wallet-sans.woff2"
       }
-    ]
+    ],
+    "bytes": 233359,
+    "agentHint": "import only, generated: ui/application/artemis/components/wallet-site/styles/index.css; import only, data: application/artemis/components/wallet-site/markup/cards.ts, application/artemis/components/wallet-site/markup/download.ts, application/artemis/components/wallet-site/markup/home.ts, application/artemis/components/wallet-site/markup/networks.ts, application/artemis/components/wallet-site/markup/security.ts"
   },
   "category": "templates",
   "family": "layout",

@@ -376,7 +376,8 @@
         "url": "https://myzeusui.com/ai-chat/generated-footballer.jpg",
         "target": "public/ai-chat/generated-footballer.jpg"
       }
-    ]
+    ],
+    "bytes": 205111
   },
   "category": "templates",
   "family": "ai",
