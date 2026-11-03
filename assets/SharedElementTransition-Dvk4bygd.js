@@ -1,1 +1,0 @@
-import"./index-aETeNZZ_.js";import{r as e,n as a}from"./recipe-Bfa20nno.js";const n=e.createContext(null);function c(t){let r=e.useRef({});return a.createElement(n.Provider,{value:r},t.children)}export{c as $};

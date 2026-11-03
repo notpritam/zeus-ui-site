@@ -1,1 +1,0 @@
-import{j as s}from"./index-D6vJ0Rwf.js";import{c as a}from"./Specimen-DzMdv5Cz.js";function g({shimmer:n=!0,variant:t="conversation",className:e,...r}){return s.jsx("span",{...r,className:a(n&&(t==="progress"?"agent-progress-loading-text":"bui-agent-thinking-label"),e)})}export{g as A};

@@ -1,1 +1,0 @@
-import{r as e}from"./recipe-Bfa20nno.js";import{M as a,w as u,F as c}from"./react-Bjh2Gure.js";function p(r){const t=e.useRef(0),{isStatic:o}=e.useContext(a);e.useEffect(()=>{if(o)return;const n=({timestamp:i,delta:s})=>{t.current||(t.current=i),r(i-t.current,s)};return u.update(n,!0),()=>c(n)},[r])}export{p as u};
