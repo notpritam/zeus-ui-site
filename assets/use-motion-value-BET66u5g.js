@@ -1,1 +1,0 @@
-import{r as t}from"./recipe-CF3orX_0.js";import{x as a,M as u,q as r}from"./react-C_AXiMai.js";function i(o){const e=a(()=>r(o)),{isStatic:s}=t.useContext(u);if(s){const[,n]=t.useState(o);t.useEffect(()=>e.on("change",n),[])}return e}export{i as u};

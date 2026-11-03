@@ -1,1 +1,0 @@
-import"./index-un5HmtoY.js";import{r as e,n as a}from"./recipe-CF3orX_0.js";const n=e.createContext(null);function c(t){let r=e.useRef({});return a.createElement(n.Provider,{value:r},t.children)}export{c as $};

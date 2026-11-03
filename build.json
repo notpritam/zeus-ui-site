@@ -1,9 +1,9 @@
 {
   "name": "Zeus UI",
   "mode": "static",
-  "version": "0.4.8",
-  "commit": "8e8169c",
+  "version": "0.4.9",
+  "commit": "846f823",
   "components": 227,
   "pages": 238,
-  "generatedAt": "2026-11-03T09:19:41.221Z"
+  "generatedAt": "2026-11-03T10:03:24.267Z"
 }
