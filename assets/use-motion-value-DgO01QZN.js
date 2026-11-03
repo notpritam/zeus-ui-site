@@ -1,1 +1,0 @@
-import{r as t}from"./recipe-qMFI6WmP.js";import{x as a,M as u,q as r}from"./react-DeypEpAF.js";function i(o){const e=a(()=>r(o)),{isStatic:s}=t.useContext(u);if(s){const[,n]=t.useState(o);t.useEffect(()=>e.on("change",n),[])}return e}export{i as u};
