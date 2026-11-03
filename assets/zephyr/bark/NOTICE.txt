@@ -1,0 +1,13 @@
+Sakura Bark — Charlotte Baglioni / Poly Haven
+https://polyhaven.com/a/sakura_bark
+
+CC0 1.0 Universal. These textures may be used, modified and redistributed,
+including in commercial and MIT-licensed software.
+https://polyhaven.com/license
+https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+Zeus exports: color.webp, normal.webp (OpenGL), arm.webp
+(AO in red; roughness in green; metalness in blue, unused).
+Scan scale: 1.6 m square. Colour/normal: 1024 square; packed map: 512 square.
+Source checksums and reproducible export: design/zephyr-r259-bark/bark-provenance.json
+and tools/zephyr/prepare-bark.mjs in https://github.com/notpritam/zeus-ui.

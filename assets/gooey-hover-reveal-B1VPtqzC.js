@@ -1,1 +1,0 @@
-import{j as s}from"./index-DOdWo-9t.js";import{S as a}from"./shader-surface-CiRr8Z_2.js";function i({coverColor:o="#f0f0f0",revealed:r=!1,...e}){return s.jsx(a,{kind:"gooey",radius:80,duration:1.6,colors:[o],progress:r?1:0,...e})}export{i as G};

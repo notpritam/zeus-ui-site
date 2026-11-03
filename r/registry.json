@@ -3,7 +3,7 @@
   "name": "zeus-ui",
   "homepage": "https://myzeusui.com",
   "license": "MIT",
-  "version": "0.4.6",
+  "version": "0.4.7",
   "organizationVersion": 1,
   "families": [
     {
@@ -14326,8 +14326,8 @@
         "three@^0.185.1"
       ],
       "registryDependencies": [],
-      "hash": "42f1014dda88",
-      "bytes": 966874,
+      "hash": "7aa5811326b6",
+      "bytes": 1364085,
       "files": [
         {
           "path": "application/zephyr/petal-signup.tsx",
@@ -14378,6 +14378,30 @@
           "path": "application/zephyr/petal-signup/styles.ts",
           "target": "components/application/zephyr/petal-signup/styles.ts",
           "type": "component"
+        },
+        {
+          "path": "public/assets/zephyr/bark/NOTICE.txt",
+          "target": "public/assets/zephyr/bark/NOTICE.txt",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/zephyr/bark/arm.webp",
+          "target": "public/assets/zephyr/bark/arm.webp",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/zephyr/bark/color.webp",
+          "target": "public/assets/zephyr/bark/color.webp",
+          "type": "asset",
+          "encoding": "base64"
+        },
+        {
+          "path": "public/assets/zephyr/bark/normal.webp",
+          "target": "public/assets/zephyr/bark/normal.webp",
+          "type": "asset",
+          "encoding": "base64"
         },
         {
           "path": "public/assets/zephyr/lakeside-sunset.webp",

@@ -1,0 +1,1 @@
+import{j as i}from"./index-D6vJ0Rwf.js";import{S as s}from"./shader-surface-CQ6_omag.js";function u({color:r="#161616",dotSize:o=5,...a}){return i.jsx(s,{kind:"trail",radius:65,duration:2,scale:o,colors:[r],...a})}export{u as D};
