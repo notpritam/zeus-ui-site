@@ -2,16 +2,16 @@
 
 Pick every element. See it live. Your agent builds exactly that. Free, live UI components and a Studio for people who build with coding agents.
 
-- [Agent manifest](https://myzeusui.com/agents.json): 238 components and templates with examples and install commands.
+- [Agent manifest](https://myzeusui.com/agents.json): 241 components and templates with examples and install commands.
 - [Registry](https://myzeusui.com/r/registry.json)
 - [Styles](https://myzeusui.com/styles/)
 - [Setup for agents](https://myzeusui.com/agents/)
 
 ## Install
 
-- Source: `npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.11.tgz zeus-ui add <name>` copies the source, its dependencies and styles into your React project.
+- Source: `npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.12.tgz zeus-ui add <name>` copies the source, its dependencies and styles into your React project.
 - shadcn: `npx shadcn@latest add https://myzeusui.com/r/<name>.json`
-- MCP: `claude mcp add zeus -- npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-mcp-0.4.11.tgz zeus-mcp`
+- MCP: `claude mcp add zeus -- npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-mcp-0.4.12.tgz zeus-mcp`
 
 ## Components
 
@@ -253,3 +253,6 @@ Pick every element. See it live. Your agent builds exactly that. Free, live UI c
 - [Important Alerts](https://myzeusui.com/elements/important-alerts-card/): A dated alert feed with severity icons and a week range pill.
 - [Patient Info](https://myzeusui.com/elements/patient-info-card/): A profile card with identity fields and vitals.
 - [Floating Sidebar](https://myzeusui.com/elements/floating-sidebar/): An inset navigation panel with layered depth and tinted active rows.
+- [Review diff](https://myzeusui.com/elements/review-diff/): A code review in one piece: split or unified diff with word highlights, a focus frame that springs between changes, accept or reject each one from the keyboard, and threads on any line.
+- [Node canvas](https://myzeusui.com/elements/node-canvas/): An infinite canvas for workflows and agents: drag from a port to connect steps, snap to the grid, pan, pinch and zoom, a minimap, and an inspector that turns into a sheet on phones.
+- [Live presence](https://myzeusui.com/elements/live-presence/): Who else is in a document, live: pointers that glide to where people are, selections that grow under them, typing carets, edge pills for anyone out of view, and follow mode.
