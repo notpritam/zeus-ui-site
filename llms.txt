@@ -2,16 +2,16 @@
 
 Pick every element. See it live. Your agent builds exactly that. Free, live UI components and a Studio for people who build with coding agents.
 
-- [Agent manifest](https://myzeusui.com/agents.json): 227 components and templates with examples and install commands.
+- [Agent manifest](https://myzeusui.com/agents.json): 238 components and templates with examples and install commands.
 - [Registry](https://myzeusui.com/r/registry.json)
 - [Styles](https://myzeusui.com/styles/)
 - [Setup for agents](https://myzeusui.com/agents/)
 
 ## Install
 
-- Source: `npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.10.tgz zeus-ui add <name>` copies the source, its dependencies and styles into your React project.
+- Source: `npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-ui-0.4.11.tgz zeus-ui add <name>` copies the source, its dependencies and styles into your React project.
 - shadcn: `npx shadcn@latest add https://myzeusui.com/r/<name>.json`
-- MCP: `claude mcp add zeus -- npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-mcp-0.4.10.tgz zeus-mcp`
+- MCP: `claude mcp add zeus -- npx --yes --allow-remote=all --package=https://myzeusui.com/install/zeus-mcp-0.4.11.tgz zeus-mcp`
 
 ## Components
 
@@ -150,6 +150,17 @@ Pick every element. See it live. Your agent builds exactly that. Free, live UI c
 - [Now playing](https://myzeusui.com/elements/clio-now-playing/): What's playing, with a cover, a seek bar you can drag or step with the keys, mm:ss times and back, play and forward buttons; under reduced motion it waits for play.
 - [Mini calendar](https://myzeusui.com/elements/clio-calendar/): A month as a labelled grid with today in the accent and dots under marked days that pop in after the rise; arrow keys move between days and Enter picks one.
 - [Clio dashboard](https://myzeusui.com/elements/clio-dashboard/): A FoundKeep board of Clio tiles: saves this week, the week by day, the reading queue, quiet hours, a reading goal, folders, the month, what's playing, collections and Ask Kit. It builds itself in tile by tile, and Focus turns the whole board dark.
+- [Eos theme](https://myzeusui.com/elements/eos-theme/): Light and dark tokens for Eos in five looks, pastel, night, editorial, glass and bold: five grain gradients with an ink for text on each, a serif display, frosted tiles and hairline cards, written onto one scoped wrapper that names its look, with the motion every piece shares: one ease, small lifts, a sliding indicator, rise-ins and a cross-fade between looks, all still under reduced motion. Inspired by rico (@_heyrico)'s twin visual vibe.
+- [Gradient banner](https://myzeusui.com/elements/eos-gradient-banner/): A grain gradient field holding app tiles, made of layered gradients, two soft blurred petals and SVG noise, drifting slowly while it shows.
+- [Icon tile](https://myzeusui.com/elements/eos-icon-tile/): An app glyph on a rounded tile, white with a soft shadow or frosted glass with a light rim, in four sizes.
+- [Connect link](https://myzeusui.com/elements/eos-connect-link/): Two app tiles joined by three dots with a light that travels along them while they show, named for assistive tech as connecting the two apps.
+- [Pill filters](https://myzeusui.com/elements/eos-pill-filters/): A single-choice row of pills, black when chosen and outlined otherwise, with the black sliding to the choice, moved by arrow keys and scrolling sideways on a phone.
+- [Segmented control](https://myzeusui.com/elements/eos-segmented-control/): A switch between a few views with a thumb that slides to the choice, as a radiogroup with arrow keys.
+- [Market card](https://myzeusui.com/elements/eos-market-card/): A hairline card for a marketplace item: app tiles on an inset grain banner or in a pale frame, as the look chooses, a title, a subline and a meta row with installs and maker.
+- [Detail header](https://myzeusui.com/elements/eos-detail-header/): The top of an integration page: frosted tiles connected on a grain gradient, a serif headline, and an about card with what the app can and can't do, laid out as a card, tabs, a hero or a bento by the look.
+- [App shell](https://myzeusui.com/elements/eos-app-shell/): A charcoal app frame: workspace switcher, search, a segmented control, a nav list with unread dots and activity, a top bar, and a drawer on phones. The sidebar also stands alone as a rail.
+- [Routines app](https://myzeusui.com/elements/eos-routines-app/): The app on its Routines page: the sidebar with Routines chosen, Home and Activity, and the page with Installed and Discover, the routines running, a recommended one and new ones, in any of the five Eos looks, light or dark.
+- [Eos design page](https://myzeusui.com/elements/eos-design-page/): A routines app shown three ways, Discover, a connect page and the app itself, with a switcher between the five Eos looks, from pastel cards to a bold bento, that changes the page in place.
 - [Home Dashboard](https://myzeusui.com/elements/home-dashboard/): An overview workspace with revenue, earnings, recent hires and searchable records
 - [Finance Dashboard](https://myzeusui.com/elements/finance-dashboard/): Personal finance workspace with cash flow, investments, spending and transaction records
 - [Marketing Dashboard](https://myzeusui.com/elements/marketing-dashboard/): Campaign analytics with conversion funnels, channel attribution and campaign management

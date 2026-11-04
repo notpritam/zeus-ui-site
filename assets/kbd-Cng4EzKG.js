@@ -1,1 +1,0 @@
-import{j as r}from"./index-CFQIq49d.js";import{c as o}from"./Specimen-Dsoo5TOs.js";function i({className:t,ref:e,...n}){return r.jsx("kbd",{ref:e,className:o("inline-flex items-center justify-center rounded-full bg-kbd-background px-1 py-0.5 font-sans text-caption-1-semibold tracking-normal whitespace-nowrap text-kbd-foreground",t),...n})}export{i as K};

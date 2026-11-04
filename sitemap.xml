@@ -169,6 +169,17 @@
   <url><loc>https://myzeusui.com/elements/divider/</loc></url>
   <url><loc>https://myzeusui.com/elements/dropdown/</loc></url>
   <url><loc>https://myzeusui.com/elements/earnings-chart-card/</loc></url>
+  <url><loc>https://myzeusui.com/elements/eos-app-shell/</loc></url>
+  <url><loc>https://myzeusui.com/elements/eos-connect-link/</loc></url>
+  <url><loc>https://myzeusui.com/elements/eos-design-page/</loc></url>
+  <url><loc>https://myzeusui.com/elements/eos-detail-header/</loc></url>
+  <url><loc>https://myzeusui.com/elements/eos-gradient-banner/</loc></url>
+  <url><loc>https://myzeusui.com/elements/eos-icon-tile/</loc></url>
+  <url><loc>https://myzeusui.com/elements/eos-market-card/</loc></url>
+  <url><loc>https://myzeusui.com/elements/eos-pill-filters/</loc></url>
+  <url><loc>https://myzeusui.com/elements/eos-routines-app/</loc></url>
+  <url><loc>https://myzeusui.com/elements/eos-segmented-control/</loc></url>
+  <url><loc>https://myzeusui.com/elements/eos-theme/</loc></url>
   <url><loc>https://myzeusui.com/elements/file-upload/</loc></url>
   <url><loc>https://myzeusui.com/elements/finance-dashboard/</loc></url>
   <url><loc>https://myzeusui.com/elements/floating-sidebar/</loc></url>
@@ -236,6 +247,7 @@
   <url><loc>https://myzeusui.com/styles/apollo/</loc></url>
   <url><loc>https://myzeusui.com/styles/artemis/</loc></url>
   <url><loc>https://myzeusui.com/styles/clio/</loc></url>
+  <url><loc>https://myzeusui.com/styles/eos/</loc></url>
   <url><loc>https://myzeusui.com/styles/selene/</loc></url>
   <url><loc>https://myzeusui.com/styles/zephyr/</loc></url>
 </urlset>

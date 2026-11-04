@@ -1,0 +1,47 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "eos-connect-link",
+  "type": "registry:ui",
+  "title": "Connect link",
+  "description": "Two app tiles joined by three dots with a light that travels along them while they show, named for assistive tech as connecting the two apps.",
+  "dependencies": [],
+  "registryDependencies": [
+    "https://myzeusui.com/r/eos-icon-tile.json",
+    "https://myzeusui.com/r/eos-theme.json"
+  ],
+  "files": [
+    {
+      "path": "application/eos/connect-link.tsx",
+      "type": "registry:component",
+      "target": "@components/application/eos/connect-link.tsx",
+      "content": "\"use client\";\n/**\n * EosConnectLink: two tiles joined by three dots, read as \"Connect A and B\". A light travels along the dots from the\n * first app to the second, in a calm loop with a rest between passes. The loop runs on the compositor (transform and\n * opacity) and only while the link is on screen in a visible tab; with reduced motion the dots hold still.\n */\nimport { useRef, type CSSProperties, type ReactNode } from \"react\";\nimport { EosSunGlyph, type EosAppKind } from \"./glyphs\";\nimport { EOS_TILE_SIZES, EosIconTile, type EosIconTileSize, type EosIconTileTone } from \"./icon-tile\";\nimport { useEosLoop } from \"./motion\";\nimport { cx } from \"./shared\";\nimport { EosScope } from \"./theme\";\n\nexport interface EosConnectEnd {\n  /** The app's name, used in the accessible name. */\n  label: string;\n  app?: EosAppKind;\n  /** Your own glyph instead of an app's. */\n  icon?: ReactNode;\n}\n\nconst CSS = `\n.eos-connect{display:inline-flex;align-items:center;gap:var(--eos-connect-gap)}\n.eos-connect-dots{display:inline-flex;align-items:center;gap:var(--eos-connect-dot-gap)}\n.eos-connect-dot{position:relative;display:block;width:var(--eos-connect-dot);height:var(--eos-connect-dot);border-radius:50%;box-sizing:border-box;border:1.5px solid var(--eos-frost-rim);background:var(--eos-frost);box-shadow:inset 0 1px 0 var(--eos-frost-highlight);--eos-connect-light:var(--eos-frost-highlight)}\n.eos-connect-dot::after{content:\"\";position:absolute;inset:-1.5px;border-radius:50%;background:var(--eos-connect-light);opacity:0}\n.eos-connect[data-tone=white] .eos-connect-dot{border-color:var(--eos-hairline-strong);background:var(--eos-tile);--eos-connect-light:var(--eos-text-tertiary)}\n.eos-connect[data-pulse=true] .eos-connect-dot,.eos-connect[data-pulse=true] .eos-connect-dot::after{animation:eos-connect-travel var(--eos-dots) cubic-bezier(.45,0,.55,1) infinite both;animation-delay:calc(var(--eos-dot-i) * var(--eos-dots) * .14);animation-play-state:paused}\n.eos-connect[data-pulse=true] .eos-connect-dot::after{animation-name:eos-connect-light}\n.eos-connect[data-pulse=true][data-eos-loop=on] .eos-connect-dot,.eos-connect[data-pulse=true][data-eos-loop=on] .eos-connect-dot::after{animation-play-state:running}\n@keyframes eos-connect-travel{0%,46%,100%{transform:scale(1)}18%{transform:scale(1.22)}}\n@keyframes eos-connect-light{0%,46%,100%{opacity:0}18%{opacity:.92}}\n@media (prefers-reduced-motion:reduce){.eos-connect[data-pulse=true] .eos-connect-dot,.eos-connect[data-pulse=true] .eos-connect-dot::after{animation:none}}\n`;\n\nexport interface EosConnectLinkProps {\n  from?: EosConnectEnd;\n  to?: EosConnectEnd;\n  tone?: EosIconTileTone;\n  size?: EosIconTileSize;\n  /** Send the light along the dots, in a loop that runs only while the link shows. */\n  pulse?: boolean;\n  className?: string;\n  style?: CSSProperties;\n}\n\nconst MORROW: EosConnectEnd = { label: \"Morrow\" };\nconst COFFER: EosConnectEnd = { label: \"Coffer\", app: \"books\" };\n\nexport function EosConnectLink({ from = MORROW, to = COFFER, tone = \"frosted\", size = \"lg\", pulse = true, className, style }: EosConnectLinkProps) {\n  const link = useRef<HTMLDivElement>(null);\n  useEosLoop(link, pulse);\n  const side = EOS_TILE_SIZES[size].side;\n  const dot = Math.max(7, Math.round(side * 0.15));\n  const vars = {\n    \"--eos-connect-dot\": `${dot}px`,\n    \"--eos-connect-dot-gap\": `${Math.round(dot * 0.7)}px`,\n    \"--eos-connect-gap\": `${Math.round(side * 0.2)}px`,\n  } as CSSProperties;\n  const end = (e: EosConnectEnd) => {\n    const glyph = Math.round(side * 0.5);\n    const icon = e.icon ?? (e.app ? undefined : <EosSunGlyph size={glyph} />);\n    return <EosIconTile app={e.app} icon={icon} tone={tone} size={size} />;\n  };\n  return (\n    <EosScope>\n      <style>{CSS}</style>\n      <div\n        ref={link}\n        className={cx(\"eos-connect\", className)}\n        role=\"img\"\n        aria-label={`Connect ${from.label} and ${to.label}`}\n        data-tone={tone}\n        data-pulse={pulse}\n        style={{ ...vars, ...style }}\n      >\n        {end(from)}\n        <span className=\"eos-connect-dots\" aria-hidden>\n          {[0, 1, 2].map((i) => (\n            <span key={i} className=\"eos-connect-dot\" style={{ \"--eos-dot-i\": i } as CSSProperties} />\n          ))}\n        </span>\n        {end(to)}\n      </div>\n    </EosScope>\n  );\n}\n"
+    },
+    {
+      "path": "application/eos/shared.ts",
+      "type": "registry:component",
+      "target": "@components/application/eos/shared.ts",
+      "content": "// @zeus-internal\n/** Small helpers the Eos pieces share. */\nimport { useCallback, useEffect, useLayoutEffect, useState } from \"react\";\n\nexport const cx = (...parts: (string | false | null | undefined)[]) => parts.filter(Boolean).join(\" \");\n\nexport const useIsoLayoutEffect = typeof window === \"undefined\" ? useEffect : useLayoutEffect;\n\n/** A value that is controlled when `value` is given and owned here otherwise. */\nexport function useControlled<T>(value: T | undefined, initial: T, onChange?: (next: T) => void) {\n  const [own, setOwn] = useState(initial);\n  const current = value === undefined ? own : value;\n  const set = useCallback(\n    (next: T) => {\n      if (value === undefined) setOwn(next);\n      onChange?.(next);\n    },\n    [value, onChange],\n  );\n  return [current, set] as const;\n}\n\n/**\n * Whether a media query matches. The server and the first render use `initial`, so markup hydrates; the real answer\n * follows once mounted, and changes as the window does.\n */\nexport function useMedia(query: string, initial = false): boolean {\n  const [matches, setMatches] = useState(initial);\n  useEffect(() => {\n    if (typeof window === \"undefined\" || typeof window.matchMedia !== \"function\") return;\n    const list = window.matchMedia(query);\n    const update = () => setMatches(list.matches);\n    update();\n    list.addEventListener?.(\"change\", update);\n    return () => list.removeEventListener?.(\"change\", update);\n  }, [query]);\n  return matches;\n}\n\n/** The index a roving-focus key moves to, or -1 for a key the group ignores. */\nexport function rovingIndex(key: string, index: number, count: number): number {\n  if (count === 0) return -1;\n  if (key === \"ArrowRight\" || key === \"ArrowDown\") return (index + 1) % count;\n  if (key === \"ArrowLeft\" || key === \"ArrowUp\") return (index - 1 + count) % count;\n  if (key === \"Home\") return 0;\n  if (key === \"End\") return count - 1;\n  return -1;\n}\n\n/** Visually hidden text for assistive technology. */\nexport const SR_ONLY_CSS =\n  \".eos-sr{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}\";\n"
+    }
+  ],
+  "meta": {
+    "bytes": 6426
+  },
+  "category": "base",
+  "family": "icons",
+  "kind": "component",
+  "designSystem": null,
+  "foundationDependencies": [
+    "eos-theme"
+  ],
+  "iconLibraries": [],
+  "tags": [
+    "eos",
+    "connect",
+    "integration",
+    "tiles",
+    "frosted"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "d9101587173c"
+}

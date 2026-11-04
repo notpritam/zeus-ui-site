@@ -1,0 +1,47 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "eos-gradient-banner",
+  "type": "registry:ui",
+  "title": "Gradient banner",
+  "description": "A grain gradient field holding app tiles, made of layered gradients, two soft blurred petals and SVG noise, drifting slowly while it shows.",
+  "dependencies": [],
+  "registryDependencies": [
+    "https://myzeusui.com/r/eos-icon-tile.json",
+    "https://myzeusui.com/r/eos-theme.json"
+  ],
+  "files": [
+    {
+      "path": "application/eos/gradient-banner.tsx",
+      "type": "registry:component",
+      "target": "@components/application/eos/gradient-banner.tsx",
+      "content": "\"use client\";\n/**\n * EosGradientBanner: a grain gradient field holding app tiles. The field is layered linear and radial gradients from\n * the Eos set, two soft blurred petals in its glow colour, and SVG noise for grain. Pass children to hold anything\n * else instead of the tiles. The fill is the custom property --eos-banner-fill, so a stylesheet can swap it (a pale\n * frame, say) without remounting what the banner holds.\n *\n * The field drifts: the fill sits on a slightly oversized layer that sways a few per cent and half a degree, there and\n * back about every half minute, while the grain stays still on top. The drift runs on the compositor and only while\n * the banner is on screen in a visible tab; with reduced motion the field holds still. The layer takes the banner's\n * own background, so a stylesheet that changes the banner's background changes the layer too.\n */\nimport { useRef, type CSSProperties, type HTMLAttributes, type ReactNode } from \"react\";\nimport type { EosAppKind } from \"./glyphs\";\nimport { EosIconTile, type EosIconTileSize, type EosIconTileTone } from \"./icon-tile\";\nimport { useEosLoop } from \"./motion\";\nimport { cx } from \"./shared\";\nimport { EosScope } from \"./theme\";\nimport type { EosGradientName } from \"./tokens\";\n\nconst CSS = `\n.eos-banner{position:relative;isolation:isolate;overflow:hidden;display:grid;place-items:center;box-sizing:border-box;border-radius:var(--eos-radius-banner);background:var(--eos-banner-fill)}\n.eos-banner[data-shape=card]{border-radius:var(--eos-radius-card)}\n.eos-banner[data-shape=square]{border-radius:0}\n.eos-banner-field{position:absolute;inset:-7%;z-index:0;background:inherit;pointer-events:none}\n.eos-banner-petal{position:absolute;z-index:0;border-radius:50%;pointer-events:none}\n.eos-banner-petal[data-petal=a]{width:58%;height:150%;left:-20%;bottom:-88%;filter:blur(16px);transform:rotate(-14deg)}\n.eos-banner-petal[data-petal=b]{width:12%;height:96%;right:13%;top:-34%;filter:blur(9px);opacity:.75;transform:rotate(30deg)}\n.eos-banner[data-flip=true] .eos-banner-petal[data-petal=a]{left:auto;right:-22%;transform:rotate(16deg)}\n.eos-banner[data-flip=true] .eos-banner-petal[data-petal=b]{right:auto;left:18%;transform:rotate(-26deg)}\n.eos-banner-grain{position:absolute;inset:0;z-index:1;pointer-events:none;background-image:var(--eos-grain);background-size:200px 200px;mix-blend-mode:overlay;opacity:var(--eos-grain-opacity)}\n.eos-banner-body{position:relative;z-index:2;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:14px;padding:20px;max-width:100%;box-sizing:border-box}\n`;\n\nexport interface EosGradientBannerProps extends Omit<HTMLAttributes<HTMLDivElement>, \"children\"> {\n  /** Which field of the Eos set; the look and mode decide its tone. */\n  gradient?: EosGradientName;\n  /** The apps whose tiles sit in the field. */\n  apps?: readonly EosAppKind[];\n  tileTone?: EosIconTileTone;\n  tileSize?: EosIconTileSize;\n  height?: number | string;\n  /** Corners: an inset banner inside a card (the default), a card of its own, or square. */\n  shape?: \"inset\" | \"card\" | \"square\";\n  /** Mirror the petals, so neighbouring banners differ. */\n  flip?: boolean;\n  petals?: boolean;\n  grain?: boolean;\n  /** Let the field drift slowly while it shows. */\n  drift?: boolean;\n  /** Anything to hold instead of the tiles. */\n  children?: ReactNode;\n}\n\nexport function EosGradientBanner({\n  gradient = \"dawn\",\n  apps = [\"calendar\", \"mail\", \"notes\"],\n  tileTone = \"white\",\n  tileSize = \"md\",\n  height = 200,\n  shape = \"inset\",\n  flip = false,\n  petals = true,\n  grain = true,\n  drift = true,\n  children,\n  className,\n  style,\n  ...rest\n}: EosGradientBannerProps) {\n  const field = useRef<HTMLDivElement>(null);\n  useEosLoop(field, drift);\n  return (\n    <EosScope>\n      <style>{CSS}</style>\n      <div\n        {...rest}\n        ref={field}\n        className={cx(\"eos-banner\", className)}\n        data-gradient={gradient}\n        data-shape={shape}\n        data-flip={flip}\n        style={{ \"--eos-banner-fill\": `var(--eos-gradient-${gradient})`, height, ...style } as CSSProperties}\n      >\n        {drift && <span className=\"eos-banner-field eos-drift\" aria-hidden />}\n        {petals && (\n          <>\n            <span className=\"eos-banner-petal\" data-petal=\"a\" style={{ background: `var(--eos-glow-${gradient})` }} aria-hidden />\n            <span className=\"eos-banner-petal\" data-petal=\"b\" style={{ background: `var(--eos-glow-${gradient})` }} aria-hidden />\n          </>\n        )}\n        {grain && <span className=\"eos-banner-grain\" aria-hidden />}\n        <div className=\"eos-banner-body\">\n          {children ??\n            apps.map((app, i) => <EosIconTile key={`${app}-${i}`} app={app} tone={tileTone} size={tileSize} style={{ \"--eos-tile-i\": i } as CSSProperties} />)}\n        </div>\n      </div>\n    </EosScope>\n  );\n}\n\n"
+    },
+    {
+      "path": "application/eos/shared.ts",
+      "type": "registry:component",
+      "target": "@components/application/eos/shared.ts",
+      "content": "// @zeus-internal\n/** Small helpers the Eos pieces share. */\nimport { useCallback, useEffect, useLayoutEffect, useState } from \"react\";\n\nexport const cx = (...parts: (string | false | null | undefined)[]) => parts.filter(Boolean).join(\" \");\n\nexport const useIsoLayoutEffect = typeof window === \"undefined\" ? useEffect : useLayoutEffect;\n\n/** A value that is controlled when `value` is given and owned here otherwise. */\nexport function useControlled<T>(value: T | undefined, initial: T, onChange?: (next: T) => void) {\n  const [own, setOwn] = useState(initial);\n  const current = value === undefined ? own : value;\n  const set = useCallback(\n    (next: T) => {\n      if (value === undefined) setOwn(next);\n      onChange?.(next);\n    },\n    [value, onChange],\n  );\n  return [current, set] as const;\n}\n\n/**\n * Whether a media query matches. The server and the first render use `initial`, so markup hydrates; the real answer\n * follows once mounted, and changes as the window does.\n */\nexport function useMedia(query: string, initial = false): boolean {\n  const [matches, setMatches] = useState(initial);\n  useEffect(() => {\n    if (typeof window === \"undefined\" || typeof window.matchMedia !== \"function\") return;\n    const list = window.matchMedia(query);\n    const update = () => setMatches(list.matches);\n    update();\n    list.addEventListener?.(\"change\", update);\n    return () => list.removeEventListener?.(\"change\", update);\n  }, [query]);\n  return matches;\n}\n\n/** The index a roving-focus key moves to, or -1 for a key the group ignores. */\nexport function rovingIndex(key: string, index: number, count: number): number {\n  if (count === 0) return -1;\n  if (key === \"ArrowRight\" || key === \"ArrowDown\") return (index + 1) % count;\n  if (key === \"ArrowLeft\" || key === \"ArrowUp\") return (index - 1 + count) % count;\n  if (key === \"Home\") return 0;\n  if (key === \"End\") return count - 1;\n  return -1;\n}\n\n/** Visually hidden text for assistive technology. */\nexport const SR_ONLY_CSS =\n  \".eos-sr{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}\";\n"
+    }
+  ],
+  "meta": {
+    "bytes": 6966
+  },
+  "category": "base",
+  "family": "media",
+  "kind": "component",
+  "designSystem": null,
+  "foundationDependencies": [
+    "eos-theme"
+  ],
+  "iconLibraries": [],
+  "tags": [
+    "eos",
+    "gradient",
+    "grain",
+    "banner",
+    "tiles"
+  ],
+  "status": "beta",
+  "tier": "free",
+  "hash": "d35610ce2362"
+}

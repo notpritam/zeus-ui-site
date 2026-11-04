@@ -1,0 +1,13 @@
+import{j as o}from"./index-ClTtcMc3.js";import{r as g}from"./recipe-Bq68FSMI.js";import{c as x}from"./glyphs-AB_phf-v.js";import{b,a as v}from"./gradient-banner-BKVjieg9.js";import{j as y,E,f as j}from"./theme-BGMSwUzH.js";const k=`
+.eos-connect{display:inline-flex;align-items:center;gap:var(--eos-connect-gap)}
+.eos-connect-dots{display:inline-flex;align-items:center;gap:var(--eos-connect-dot-gap)}
+.eos-connect-dot{position:relative;display:block;width:var(--eos-connect-dot);height:var(--eos-connect-dot);border-radius:50%;box-sizing:border-box;border:1.5px solid var(--eos-frost-rim);background:var(--eos-frost);box-shadow:inset 0 1px 0 var(--eos-frost-highlight);--eos-connect-light:var(--eos-frost-highlight)}
+.eos-connect-dot::after{content:"";position:absolute;inset:-1.5px;border-radius:50%;background:var(--eos-connect-light);opacity:0}
+.eos-connect[data-tone=white] .eos-connect-dot{border-color:var(--eos-hairline-strong);background:var(--eos-tile);--eos-connect-light:var(--eos-text-tertiary)}
+.eos-connect[data-pulse=true] .eos-connect-dot,.eos-connect[data-pulse=true] .eos-connect-dot::after{animation:eos-connect-travel var(--eos-dots) cubic-bezier(.45,0,.55,1) infinite both;animation-delay:calc(var(--eos-dot-i) * var(--eos-dots) * .14);animation-play-state:paused}
+.eos-connect[data-pulse=true] .eos-connect-dot::after{animation-name:eos-connect-light}
+.eos-connect[data-pulse=true][data-eos-loop=on] .eos-connect-dot,.eos-connect[data-pulse=true][data-eos-loop=on] .eos-connect-dot::after{animation-play-state:running}
+@keyframes eos-connect-travel{0%,46%,100%{transform:scale(1)}18%{transform:scale(1.22)}}
+@keyframes eos-connect-light{0%,46%,100%{opacity:0}18%{opacity:.92}}
+@media (prefers-reduced-motion:reduce){.eos-connect[data-pulse=true] .eos-connect-dot,.eos-connect[data-pulse=true] .eos-connect-dot::after{animation:none}}
+`,M={label:"Morrow"},S={label:"Coffer",app:"books"};function I({from:n=M,to:s=S,tone:a="frosted",size:c="lg",pulse:r=!0,className:p,style:u}){const i=g.useRef(null);y(i,r);const t=b[c].side,d=Math.max(7,Math.round(t*.15)),m={"--eos-connect-dot":`${d}px`,"--eos-connect-dot-gap":`${Math.round(d*.7)}px`,"--eos-connect-gap":`${Math.round(t*.2)}px`},l=e=>{const h=Math.round(t*.5),f=e.icon??(e.app?void 0:o.jsx(x,{size:h}));return o.jsx(v,{app:e.app,icon:f,tone:a,size:c})};return o.jsxs(E,{children:[o.jsx("style",{children:k}),o.jsxs("div",{ref:i,className:j("eos-connect",p),role:"img","aria-label":`Connect ${n.label} and ${s.label}`,"data-tone":a,"data-pulse":r,style:{...m,...u},children:[l(n),o.jsx("span",{className:"eos-connect-dots","aria-hidden":!0,children:[0,1,2].map(e=>o.jsx("span",{className:"eos-connect-dot",style:{"--eos-dot-i":e}},e))}),l(s)]})]})}export{I as E};

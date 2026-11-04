@@ -1,1 +1,0 @@
-import{j as s}from"./index-CFQIq49d.js";import{S as a}from"./shader-surface-BtiHSzTE.js";function i({coverColor:o="#f0f0f0",revealed:r=!1,...e}){return s.jsx(a,{kind:"gooey",radius:80,duration:1.6,colors:[o],progress:r?1:0,...e})}export{i as G};
